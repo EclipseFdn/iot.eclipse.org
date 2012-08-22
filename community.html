@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>m2m.eclipse.org &mdash; Protocols</title>
+<title>m2m.eclipse.org &mdash; Community</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -32,7 +32,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="tools.html">Tools</a></li>
 						<li><a href="frameworks.html">Frameworks</a></li>
-						<li class="dropdown active"><a href="protocols.html"
+						<li class="dropdown"><a href="protocols.html"
 							class="dropdown-toggle" data-toggle="dropdown">Protocols <b
 								class="caret"></b>
 						</a>
@@ -40,7 +40,7 @@
 								<li><a href="protocols.html#mqtt">MQTT</a></li>
 								<li><a href="protocols.html#oma-dm">OMA-DM</a></li>
 							</ul></li>
-						<li><a href="community.html">Community</a></li>
+						<li class="active"><a href="community.html">Community</a></li>
 
 						<li class="divider-vertical"></li>
 
@@ -53,99 +53,137 @@
 		</div>
 	</div>
 
+
+
 	<div class="container">
 
 		<div class="well">
 			<div class="page-header">
 				<h1>
-					M2M Protocols <small>Provide open source implementations of
-						standard M2M protocols.</small>
+					Community <small>Join the Eclipse and M2M developer
+						community!</small>
 				</h1>
 			</div>
 
-			<div class="lead">
-				<p>The M2M Industry Working Group is supporting lightweight
-					protocols for two-way communications between devices and server.</p>
+			<div>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur
+					adipiscing elit. Sed tempor, nisl eu pellentesque pellentesque,
+					nulla turpis mollis sem, non fringilla nisi odio at est.</p>
 			</div>
 		</div>
 
+		<!-- Example row of columns -->
 		<div class="row">
-
-			<div class="span6" id="mqtt">
-				<h2>MQTT</h2>
-
-				<p>
-					<abbr title="MQ Telemetry Transport" class="initialism">MQTT</abbr>
-					is a machine-to-machine (M2M)/"Internet of Things" connectivity
-					protocol. It was designed as an extremely lightweight
-					publish/subscribe messaging transport. It is useful for connections
-					with remote locations where a small code footprint is required
-					and/or network bandwidth is at a premium. For example, it has been
-					used in sensors communicating to a broker via satellite link, over
-					occasional dial-up connections with healthcare providers, and in a
-					range of home automation and small device scenarios. It is also
-					ideal for mobile applications because of its small size, low power
-					usage, minimised data packets, and efficient distribution of
-					information to one or many receivers.
-				</p>
-
-				<h3>Getting started with MQTT</h3>
-
-				<h3>Download MQTT SDK</h3>
-
-				<h3>Sandbox MQTT Server</h3>
-
-				<p>
-					We provide a <a href="sandbox.html#mqtt" class="initialism">sandbox
-						server</a> so as you can test your MQTT-based applications against an
-					actual broker.
-				</p>
-
+			<div class="span5">
+				<div class="well">
+					<p class="lead">Learn more about the objectives of the M2M
+						Industry Working Group</p>
+					<iframe
+						src="http://fr.slideshare.net/slideshow/embed_code/14030426"
+						width="100%" height="360" frameborder="0" marginwidth="0"
+						marginheight="0" scrolling="no"
+						style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px"
+						allowfullscreen> </iframe>
+				</div>
 			</div>
 
-			<div class="span6" id="oma-dm">
-				<h2>OMA-DM</h2>
+			<div class="span5">
+				<div class="well">
+					<p class="lead">Videos</p>
+					<iframe width="100%" height="315"
+						src="http://www.youtube.com/embed/videoseries?list=PL0D6A9FF9237853DF&amp;hl=fr_FR"
+						frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
 
-				<p>
-					<abbr title="OMA Device Management">OMA-DM</abbr> is a standard
-					communication protocol widely used in the telecommunications
-					industry to monitor and synchronize the state of communicating
-					devices such as mobile phones or the kind of radio modules that can
-					be find in M2M solutions.
-				</p>
 
-				<h3>Getting started with OMA-DM</h3>
-
-				<p>
-					There is a nice <a
-						href="https://www.ibm.com/developerworks/wireless/library/wi-oma/"
-						target="_blank" title="An introduction to OMA Device Management">introduction
-						to OMA-DM</a> on developerWorks.
-				</p>
-
-				<h3>Download the Koneki OMA-DM Simulator</h3>
-
-				<img src="images/omadm-simulator.png" class="img-polaroid"></img>
-
-				<p>Koneki delivers an OMA-DM simulator that provides you with a
-					visual dashboard from where you can see the current state of your
-					local device management tree</p>
-
-				<p>
-					It can be installed very easily using the Eclipse Marketplace. You
-					should simply drag and drop the following button into your running
-					Eclipse workbench, and the installation will begin! <a
-						href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=201024"
-						title="Drag and drop into a running Eclipse Indigo workspace to install Koneki OMA-DM Simulator">
-						<img src="http://marketplace.eclipse.org/misc/installbutton.png">
-					</a>
-				</p>
-
+			<div class="span2">
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+					new TWTR.Widget({
+					  version: 2,
+					  type: 'search',
+					  search: '#m2m',
+					  interval: 30000,
+					  title: '#m2m',
+					  subject: 'm2m news',
+					  width: 'auto',
+					  height: 370,
+					  theme: {
+					    shell: {
+					      background: '#8ec1da',
+					      color: '#ffffff'
+					    },
+					    tweets: {
+					      background: '#ffffff',
+					      color: '#444444',
+					      links: '#1985b5'
+					    }
+					  },
+					  features: {
+					    scrollbar: false,
+					    loop: true,
+					    live: true,
+					    behavior: 'all'
+					  }
+					}).render().start();
+					</script>
 			</div>
 		</div>
+		<div class="row">
+			<div class="span4">
+				<div class="well">
+					<p class="lead">Webinars</p>
+					<p>
+						The M2M Industry Working Group will be hosting <a
+							href="http://eclipse.org/community/m2m-webinars/" target="_blank">a
+							series of webinars</a> to help software developers understand the
+						potential, challenges and technology of building M2M applications.
+					</p>
+					<ul class="unstyled">
+						<li><i class="icon-ok"></i> What is M2M?</li>
+						<li><i class="icon-ok"></i> Anatomy of an M2M Application</li>
+						<li><i class="icon-ok"></i> Getting Started with MQTT</li>
+						<li><i class="icon-ok"></i> Developing with Lua</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="span4">
+				<div class="well">
+					<p class="lead">Upcoming events</p>
+					<p>The M2M Industry Working Group will be represented at the
+						following conferences:</p>
+					<ul class="unstyled">
+						<li><i class="icon-ok"></i> EAST Design</li>
+						<li><i class="icon-ok"></i> Open Hardware Summit</li>
+						<li><i class="icon-ok"></i> EclipseCon Europe 2012</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="span4">
+				<div class="well">
+
+					<p class="lead">Forums</p>
+					<p>Questions related to the M2M Eclipse projects should be
+						directed to their respective communication channels:</p>
+					<ul class="unstyled">
+						<li><i class="icon-ok"></i> <a
+							href="www.eclipse.org/forums/eclipse.koneki" target="_blank">Koneki
+								forum</a></li>
+						<li><i class="icon-ok"></i> <a
+							href="https://dev.eclipse.org/mailman/listinfo/paho-dev"
+							target="_blank">Paho mailing-list</a></li>
+						<li><i class="icon-ok"></i> Mihini forum (coming soon)</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
 
 	</div>
-
 
 	<hr>
 
@@ -346,6 +384,7 @@
 			<a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
 		</div>
 	</div>
+
 
 	<!-- JS is at the end of the document so the pages load faster -->
 	<script src="js/jquery.js"></script>
