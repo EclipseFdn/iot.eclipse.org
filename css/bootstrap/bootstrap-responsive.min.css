@@ -97,12 +97,24 @@
 
 #catchline h2 {
   color: #eff4f7;
+  text-align: left;
 }
 
 h2 {
   font-family: Lekton, Arial, sans-serif;
   font-size: 38px;
   font-weight: normal;
+}
+
+.home-box h2 {
+  text-align: center;
+}
+
+h2 i {
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 76px;
 }
 
 .row {
