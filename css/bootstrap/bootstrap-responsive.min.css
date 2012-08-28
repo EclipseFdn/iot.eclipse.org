@@ -108,6 +108,14 @@ h2 {
 
 .home-box h2 {
   text-align: center;
+  text-shadow: 0.05em 0.05em 0.1em #8487b8;
+}
+
+.home-box h2 i {
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 76px;
 }
 
 .home-box .lead {
@@ -115,13 +123,6 @@ h2 {
   font-size: 20px;
   color: #8487b8;
   text-align: center;
-}
-
-h2 i {
-  display: block;
-  padding-top: 20px;
-  margin-bottom: 10px;
-  font-size: 76px;
 }
 
 .brand {
