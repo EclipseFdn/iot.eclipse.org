@@ -92,6 +92,7 @@
 }
 
 #catchline {
+  font-weight: 300;
   color: #eff4f7;
 }
 
@@ -101,34 +102,45 @@
 }
 
 h2 {
+  margin-bottom: 20px;
   font-family: Lekton, Arial, sans-serif;
-  font-size: 38px;
+  font-size: 50px;
   font-weight: normal;
 }
 
 .home-box h2 {
-  text-align: center;
+  font-size: 38px;
   text-shadow: 0.05em 0.05em 0.1em #8487b8;
 }
 
-.home-box h2 i {
+.home-box i {
   display: block;
-  padding-top: 20px;
-  margin-bottom: 10px;
-  font-size: 76px;
+  width: 120px;
+  height: 70px;
+  padding-top: 45px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 75px;
+  text-align: center;
+  background: #FFF;
+  border-radius: 94px;
 }
 
 .home-box .lead {
   margin-top: -10px;
   font-size: 20px;
   color: #8487b8;
-  text-align: center;
 }
 
 .brand {
   width: 100px;
   text-indent: -1000em;
-  background: url('../img/m2m_eclipse_logo.png') no-repeat;
+  background: url('../img/m2m_eclipse_logo.png') 0 7px no-repeat;
+}
+
+.navbar .brand {
+  margin-left: -40px;
 }
 
 .row {
