@@ -10,4 +10,9 @@ $(document).ready(function() {
 		interval : 4000,
 		pause : 'hover'
 	});
+
+});
+
+$(window).bind("load", function() {
+	$('.home-box').addClass('loaded');
 });
