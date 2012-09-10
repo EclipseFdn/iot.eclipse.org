@@ -16,3 +16,11 @@ $(document).ready(function() {
 $(window).bind("load", function() {
 	$('.home-box').addClass('loaded');
 });
+
+
+($("a[data-toggle=modal]")).click(function() {
+	  var target, url;
+	  target = ($(this)).attr('data-target');
+	  url = ($(this)).attr('href');
+	  return ($(target)).load(url);
+	});
