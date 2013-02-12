@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://m2m.eclipse.org/sitemap.xml
