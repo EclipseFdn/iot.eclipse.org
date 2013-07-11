@@ -11,7 +11,6 @@ config) {
 	$scope.temperature = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.luminosity = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.humidity = {value: 0.0, timestamp: dateFormat(new Date())}
-	$scope.light = {value: "OFF", timestamp: dateFormat(new Date())}
 	$scope.webcam = {src: "http://91.121.117.128/webcam/?action=stream"}
 	$scope.roof = {value: "OFF", img: "roof_OPEN.svg", timestamp: dateFormat(new Date())}
 
@@ -44,7 +43,7 @@ config) {
 	}
 	tick();
 
-	$scope.toggleLight = function() {
+	$scope.toggleRoof = function() {
 
 
 		var postData = {
@@ -55,9 +54,6 @@ config) {
 		};
 
 		restService.sendData($routeParams.deviceId, postData, function(data){console.log(data)}, function(status){console.log(status)});
-
-		console.log('toggleLight')
-		console.log(postData)
 
 	}
 }
