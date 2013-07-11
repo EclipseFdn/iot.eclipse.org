@@ -1,0 +1,133 @@
+<div class="well">
+	<div class="page-header">
+		<h1>
+			Live Eclipse M2M demonstrator
+			<small>
+				A greenhouse that reports its status and can be controlled remotely.
+			</small>
+		</h1>
+	</div>
+
+	<div class="lead">
+		<p>
+			The demonstration below features a greenhouse connected to m2m.eclipse.org's public M3DA broker via a Linux gateway —Raspberry Pi— running
+			<a href="http://www.eclipse.org/mihini" target="_blank">Mihini</a>
+			.
+		</p>
+		<p>
+			The user interface is using a REST API for displaying sensors data available on the broker, as well as to send a command for turning artificial lighting on or off.
+		</p>
+
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="span6 offset1">
+		<ul class="thumbnails">
+			<li class="span3">
+				<div class="thumbnail" style="text-align: center">
+					<embed src="img/noun_project_2023.svg" type="image/svg+xml"/>
+					<h1>
+						{{temperature.value}}
+						<small>°C</small>
+					</h1>
+					<p>
+						<small>{{temperature.timestamp}}</small>
+					</p>
+				</div>
+			</li>
+			<li class="span3">
+				<div class="thumbnail" style="text-align: center">
+					<embed src="img/noun_project_868.svg" type="image/svg+xml"/>
+					<h1>
+						{{luminosity.value}}
+						<small>Lux</small>
+					</h1>
+					<p>
+						<small>{{luminosity.timestamp}}</small>
+					</p>
+				</div>
+			</li>
+			<li class="span3">
+				<div class="thumbnail" style="text-align: center">
+					<embed src="img/noun_project_5546.svg" type="image/svg+xml"/>
+					<h1>
+						{{humidity.value}}
+						<small>%</small>
+					</h1>
+					<p>
+						<small>{{humidity.timestamp}}</small>
+					</p>
+				</div>
+			</li>
+			<li class="span3">
+				<div class="thumbnail" style="text-align: center">
+					<img src="img/{{roof.img}}" type="image/svg+xml"/>
+					<h1>
+						<button class="btn btn-large" ng-click="toggleLight()"> <strong>{{roof.value}}</strong>
+						</button>
+					</h1>
+					<p>
+						<small>{{roof.timestamp}}</small>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="span4">
+		<ul class="thumbnails">
+			<li>
+				<div class="thumbnail" style="text-align: center">
+					<img src="{{webcam.src}}"/>
+					<h1>Live stream</h1>
+					<p>
+						<small>{{webcam.timestamp}}</small>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="span6">
+		<div class="well">
+			<p class="lead">Same demo, improved by other open-source projects</p>
+			<table class="table">
+				<tr>
+					<td style="font-size:4em; width:1em;"> <i class="icon-certificate"></i>
+					</td>
+					<td>Coming soon!</td>
+				</tr>
+<!-- 				<tr>
+					<td style="font-size:4em; width:1em;"> <i class="icon-certificate"></i>
+					</td>
+					<td>Demo2</td>
+				</tr>
+				<tr>
+					<td style="font-size:4em; width:1em;">
+						<i class="icon-certificate"></i>
+					</td>
+					<td>Demo3</td>
+				</tr> -->
+			</table>
+		</div>
+	</div>
+
+	<div class="span6">
+		<div class="well">
+			<p class="lead">Same demo, running on commercial M2M platforms</p>
+			<table class="table">
+				<tr>
+					<td style="font-size:4em; width:1em;">
+						<small>
+							<a href="http://airvantage.github.io/devkit/app" target="_blank">
+								<img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=843&amp;size=small" style="padding:5px;" alt="Sierra Wireless"></a>
+						</small>
+					</td>
+					<td><a href="http://airvantage.github.io/devkit/app" target="_blank">Example</a> running on AirVantage M2M Cloud Platform. You can also order an open developer kit from <a href="http://airvantage.github.io/devkit" target="_blank">http://airvantage.github.io/devkit</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</div>
