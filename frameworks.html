@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>m2m.eclipse.org &mdash; Frameworks</title>
+<title>m2m.eclipse.org &mdash; Services & Frameworks</title>
 <meta name="description"
-	content="m2m.eclipse.org gives you information about the embedded framework being developed for easing M2M development by leveraging Lua">
+	content="m2m.eclipse.org gives you information about the embedded framework being developed for easing M2M development">
 <meta name="author" content="Eclipse.org">
 <link rel="author" href="humans.txt" />
 
@@ -51,7 +51,7 @@
 				</a> <a class="brand" href="index.html">m2m.eclipse.org</a>
 				<div class="nav-collapse">
 					<ul class="nav">
-						<li class="active"><a href="/frameworks.html">Frameworks</a></li>
+						<li class="active"><a href="/frameworks.html">Services & Frameworks</a></li>
 						<li><a href="/protocols.html">Protocols</a></li>
 						<li><a href="/tools.html">Tools</a></li>
 						<li><a href="/community.html">Community</a></li>
@@ -85,15 +85,14 @@
 		<div class="well">
 			<div class="page-header">
 				<h1>
-					M2M Frameworks <small>An embedded extensible runtime
-						enabling M2M vertical applications.</small>
+					M2M Services & Frameworks <small>Extensible services and frameworks 
+						enabling M2M and IoT applications.</small>
 				</h1>
 			</div>
 
 			<div>
 				<p class="lead">The M2M Industry Working Group fosters the
-					creation of an embedded extensible runtime enabling M2M vertical
-					applications on top of open APIs.</p>
+					creation of extensible services and frameworks that M2M applications on top of open APIs.</p>
 			</div>
 		</div>
 
@@ -106,9 +105,8 @@
 					an ad hoc manner. Depending on the business domain and on the
 					targeted platform (OS, H/W capabilities, &hellip;) very different and
 					often incompatible architectures are implemented.</p>
-				<p>We want to provide an embedded platform that M2M-enables
-					embedded devices and exposes high-level API for device management,
-					wired/wireless communication, &hellip;</p>
+				<p>We want to provide a set of services and frameworks that application developers can use for building M2M and IoT applications. These
+				services will enable features such as device management, wired/wireless communication, vertical solutions like home automation, &hellip;</p>
 				<!-- 				<p> -->
 				<!-- 					The <a href="http://www.eclipse.org/mihini" target="_blank">Mihini -->
 				<!-- 						project</a> develops an embedded runtime technology that XXX. -->
@@ -119,49 +117,39 @@
 			</p>
 		</div>
 
-		<h2 id="lua-for-the-internet-of-things">Lua for the Internet of
-			Things?</h2>
-		<p>We believe that one of the biggest hurdles to create industrial
-			M2M solutions is the complexity to develop the applications that are
-			embedded on the communicating devices on the field.</p>
-		<p>There are many domains with business opportunities for M2M
-			solutions where people do not want to have to learn a complex
-			language such as C, when all they want to do is manipulate a few data
-			structures and send them to a remote server. What if Lua could be
-			used to simplify the development of embedded applications, thus
-			following the path of the mobile and game development industries?</p>
+		<h2 id="Frameworks for M2M Gateways">Frameworks for M2M Gateways</h2>
+		<p>M2M Gateways help manage the interaction between sensors and actuators with the enteprise and cloud services. Implementing these types of 
+		gateways requires specialize knowledge in communication protocols, device management, software update, and hardware configurations. We believe a better
+		way to build M2M gateways is to use a set of common services that can be reused in M2M applications.</p>
+		<p>We have two frameworks for building M2M gateways: Kura and Mihini. 
+		<ul><li>Kura is a set of Java and OSGi services that are most commonly required for M2M gateways, including
+		I/O services, Data Services, Cloud Services, Newtorking, etc. </li>
+		<li> Mihini, written in the Lua scripting language, provides low-level connectivity	management to ensure that a reliable network connection is 
+		available, acts as an abstraction layer for underlying hardware and enables smart business data transmission between devices and servers, 
+		including the ability to consolidate data locally and use bandwidth-efficient communication	protocols.
+		</li>
+		</ul></p>
 
 
-		<h2 id="what-is-lua">What is Lua?</h2>
-		<div>
-			<blockquote>
-				<p>Lua is a powerful, fast, lightweight, embeddable scripting
-					language.</p>
-				<p>Lua combines simple procedural syntax with powerful data
-					description constructs based on associative arrays and extensible
-					semantics. Lua is dynamically typed, runs by interpreting bytecode
-					for a register-based virtual machine, and has automatic memory
-					management with incremental garbage collection, making it ideal for
-					configuration, scripting, and rapid prototyping.</p>
-				<small>from <a href="http://www.lua.org" target="_blank">Lua.org</a></small>
-			</blockquote>
-		</div>
+
 		<p></p>
-		<h2 id="mihini">Mihini</h2>
+		<h2 id="Industry Services">Industry Services</h2>
 
-		<p>Mihini is an Eclipse project created in August 2012 with the
-			aim of delivering an embedded platform that:
-		<ul class="unstyled">
-			<li><i class="icon-ok"></i>provides low-level connectivity
-				management to ensure that a reliable network connection is available
-				to business applications</li>
-			<li><i class="icon-ok"></i>acts as an abstraction layer for
-				underlying hardware</li>
-			<li><i class="icon-ok"></i>enables smart business data
-				transmission between devices and servers, including the ability to
-				consolidate data locally and use bandwidth-efficient communication
-				protocols</li>
+		<p>Building M2M and IoT applications for specific industries also requires specific industry-specific services to be available. Providing some of the 
+		basic building blocks make it easier for developers to develop and deploy these types of applications.</p>
+		<p>Eclipse M2M currently has the following industry services:
+		<ul>
+		<li> Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous 
+		environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access 
+		to devices and information and to facilitate different kinds of interactions with them. This framework consists out of a set of OSGi bundles 
+		that can be deployed on an OSGi runtime and which defines OSGi services as extension points.
+		</li>
+		<li> Eclipse SCADA  is a way to connect different industrial devices to a common communication system and post-process as well as 
+		visualize the data to operating personnel. It provides a SCADA sytems that includes a communication service, monitoring system, data archive 
+		and data visualization capability</li>
+		
 		</ul>
+		</p>
 
 		<p style="text-align: center;">
 			<img src="images/frameworks/m2m-fwk-overview.png" class="img-rounded"></img>
