@@ -221,7 +221,7 @@ footer ul li.pull-right {
 .grey-box {
 	background:#ced8de;
 	padding:20px;
-	margin-bottom:80px;
+	margin-bottom:60px;
 }
 
 /* Item box: Layout item */ 
@@ -232,7 +232,7 @@ footer ul li.pull-right {
 	position:relative;
 	cursor: pointer;
 	h3 {
-	  color:@purple1; 
+	  color:@purple1;
 	}
 	h3, p {	    
 	  padding:0 10px;  
@@ -268,12 +268,16 @@ footer ul li.pull-right {
 	  h3, p {
 	    padding:0 10px; 
 	  }
+	  .logo{
+	    padding:15px;
+	    max-width:80%;
+	  }
 	  h3 {
       font-size:21px;
     }
     p {
       font-size:15px;
-      margin-bottom:50px;
+      padding-bottom:50px;
       color:@purple1; 
     }
 	}
@@ -285,12 +289,14 @@ footer ul li.pull-right {
 	  h3 {
       font-size:15px;
       line-height: 16px;
-      margin-bottom:4px;          
+      margin-bottom:4px;
+      padding-top:10px; 
+      margin-top:0;         
     }
     
     .location {
-      margin-bottom:40px;
-      padding-bottom:10px
+      padding-bottom:40px;
+      margin-bottom:10px;
     }
     .date,
     .location {
@@ -410,4 +416,15 @@ ul.news-list {
       }     
     }
 	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  .project-list {
+    .itembox {
+      p{
+        font-size:13px;
+      }
+    }
+  }
 }
