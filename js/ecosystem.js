@@ -1,5 +1,8 @@
-
-//IIFE - Immediately Invoked Function Expression
+/*!
+* ecosystem.js by Christopher Guindon - @chrisguindon
+* Copyright 2013 Eclipse Foundation
+* http://www.eclipse.org/org/documents/epl-v10.php
+*/
 (function($) {
   $(function() {
       

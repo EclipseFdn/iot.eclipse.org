@@ -1,14 +1,17 @@
-
-//IIFE - Immediately Invoked Function Expression
+/*!
+* community.js by Christopher Guindon - @chrisguindon
+* Copyright 2013 Eclipse Foundation
+* http://www.eclipse.org/org/documents/epl-v10.php
+*/
 (function($, window, document) {
   $(function() {
       
     $(window).resize(function(){resize();});
     
-    $(document).on('click', '.itembox, .news-list li', function(){ 
+    $(document).on('click', '.itembox, .news-list li', function() {
       var link = $(this).find('.readmore').attr('href');
-	  $(location).attr('href', link);
-	  return false
+      $(location).attr('href', link);
+      return false;
     });
     
     $.ajax({
@@ -22,7 +25,7 @@
           
         $("#update-project").removeClass("loading");
           
-        $.each(data, function(key, value ) {
+        $.each(data, function(key, value) {
           if ((i % 4) === 0) {
             if (i !== 0) {
               output += '</div>';
@@ -31,18 +34,30 @@
           }
            
           // Clean up and remove HTML.
-          var t = stringJanitor(value.name);
+          var title = stringJanitor(value.name);
           var id = stringJanitor(value.id);
-          var d = stringJanitor(value.description, {"cut": true, "ellipsis": "..."});
-          var l = value.website;
-             
-          output += "<div class=\"span3 itembox\">" +
-            "<h3>" + t + "</h3>" +
-            "<p>" + d + "</p>";
-          if (!validateUrl(l)) {
-            l = "http://projects.eclipse.org/projects/" + id;
+          var desc = stringJanitor(value.description, {"cut": true, "ellipsis": "..."});
+          var link = value.website;
+          var logo = value.logo;
+          var style = "";
+          var showlogo = false;
+         
+          output += "<div class=\"span3 itembox\"" + style + ">";
+          if (validateUrl(logo) && showlogo === true) {
+            output += "<img class =\"logo\" alt=\"" + title + " logo\" src=\"" + logo + "\">";
           }
-          output += "<a href=\"" + l + "\" class=\"readmore\">Read more <i class=\"icon-chevron-right\"></i></a>";
+          else {
+            output += "<h3>" + title + "</h3>";
+          }
+           
+          output +=  "<p>" + desc + "</p>";
+          
+          if (!validateUrl(link)) {
+            link = "http://projects.eclipse.org/projects/" + id;
+          }
+          
+          
+          output += "<a href=\"" + link + "\" class=\"readmore\">Read more <i class=\"icon-chevron-right\"></i></a>";
           output += "</div>";
           i++;
         });
