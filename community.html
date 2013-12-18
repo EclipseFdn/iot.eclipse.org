@@ -39,7 +39,6 @@
 
 </script>
 </head>
-
 <body>
 
 	<div class="navbar navbar-fixed-top">
@@ -55,6 +54,7 @@
 						<li><a href="/protocols.html">Protocols</a></li>
 						<li><a href="/tools.html">Tools</a></li>
 						<li class="active"><a href="/community.html">Community</a></li>
+						<li><a href="/ecosystem.html">Ecosystem</a></li>
 						<li><a href="/demo">Live demo</a></li>
 						<li class="divider-vertical"></li>
 					</ul>
@@ -81,231 +81,115 @@
 </script>
 
 	<div class="container">
+	
+	  <div class="well">
+      <div class="page-header">
+        <h1>
+          Community <small>Join the Eclipse and M2M developer
+            community!</small>
+        </h1>
+      </div>
 
-		<div class="well">
-			<div class="page-header">
-				<h1>
-					Community <small>Join the Eclipse and M2M developer
-						community!</small>
-				</h1>
-			</div>
-
-			<div>
-				<p class="lead">The M2M Industry Working Group not only works on
-					establishing reference Open Source M2M architecture, but also works
-					together with key industry partners and Open Source communities to
-					build a creative and welcoming M2M developer community.</p>
-			</div>
-		</div>
-
-		<!-- Example row of columns -->
-		<div class="row">
-			<div class="span5">
-				<div class="well">
-					<p class="lead">Learn more about the objectives of the M2M
-						Industry Working Group</p>
-					<iframe
-						src="http://fr.slideshare.net/slideshow/embed_code/14030426"
-						width="100%" height="360" frameborder="0" marginwidth="0"
-						marginheight="0" scrolling="no"
-						style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px"
-						allowfullscreen> </iframe>
-				</div>
-			</div>
-
-			<div class="span5" id="rssdata">
-				<div class="well">
-					<p class="lead">Community News</p>
-					<h4>Seen on Planet Eclipse</h4>
-
-					<ul class="rss-items"></ul>
-					<div class="loading">Loading RSS items&hellip;</div>
-
-<!--
-					<h4>Upcoming events</h4>
-					<p>
-						The M2M Industry Working Group will be hosting <a
-							href="http://eclipse.org/community/m2m-webinars/" target="_blank">a
-							series of webinars</a> to help software developers understand the
-						potential, challenges and technology of building M2M applications.
-					</p>
--->
-					<h4>Projet proposals</h4>
-					<p>The following M2M projects are currently being proposed:</p>
-					<ul class="unstyled">
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.ponte/" target="_blank">Ponte</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/rt.concierge/" target="_blank">Concierge</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.scada/" target="_blank">Eclipse SCADA</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.kura/" target="_blank">Kura</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.mosquitto/" target="_blank">Mosquitto</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.krikkit/" target="_blank">Krikkit</a></li>
-						<li><i class="icon-ok"></i> <a href="http://www.eclipse.org/proposals/technology.om2m/" target="_blank">OM2M</a></li>
-					</ul>
-
-					<h4>Conferences</h4>
-					<p>We will be present at the following events:</p>
-					<ul class="unstyled">
-						<li><i class="icon-ok"></i> <a href="http://www.etsi.org/news-events/events/666-2013-m2mworkshop" target="_blank">ETSI M2M Workshop</a>, Mandelieu La Napoule, France. 5-7 Nov '13</li>
-						<li><i class="icon-ok"></i> <a href="http://edcvienna.org/" target="_blank">Eclipse DemoCamp Vienna</a>, Vienna, Austria. 22 Nov '13</li>
-						<li><i class="icon-ok"></i> <a href="http://redmonk.com/thingmonk/" target="_blank">ThingMonk</a>, London, 3 Dec. '13</li>
-						
-						<li><i class="icon-ok"></i> <a href="http://wiki.eclipse.org/Eclipse_Day_At_Googleplex_2013" target="_blank">EclipseDay Googleplex</a>, Mountain View, CA. 18 Dec '13</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="span2">
-				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-				<script>
-					new TWTR.Widget({
-					  version: 2,
-					  type: 'search',
-					  search: '#m2m',
-					  interval: 30000,
-					  title: '#m2m',
-					  subject: 'm2m news',
-					  width: 'auto',
-					  height: 370,
-					  theme: {
-					    shell: {
-					      background: 'white',
-					      color: '#161726'
-					    },
-					    tweets: {
-					      background: '#ffffff',
-					      color: '#444444',
-					      links: '#1985b5'
-					    }
-					  },
-					  features: {
-					    scrollbar: false,
-					    loop: true,
-					    live: true,
-					    behavior: 'all'
-					  }
-					}).render().start();
-					</script>
-			</div>
-		</div>
-		<div class="row">
-			<div class="span5">
-				<div class="well">
-					<p class="lead">Videos</p>
-					<iframe width="100%" height="315"
-						src="http://www.youtube.com/embed/videoseries?list=PL0D6A9FF9237853DF&amp;hl=fr_FR"
-						frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-
-		<div class="span7">
-	<div class="well">
-		<p class="lead">
-			Who we are
-		</p>
-		<h4>Steering committee members</h4>
-		<table class="table">
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=968"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=968&amp;size=small" style="padding:5px;" alt="Eurotech"></a></small>
-				</td>
-				<td>
-					Eurotech integrates hardware, software, solutions, and expertise to deliver embedded computing platforms, sophisticated systems and cloud-based services.
-				</td>
-			</tr>
-			<tr><td><small><a href="http://eclipse.org/membership/showMember.php?member_id=656"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=656&amp;size=small" style="padding:5px;" alt="IBM"></a></small></td><td>Rational software from IBM helps organizations create business value by improving their software development capability. </td></tr>
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=843"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=843&amp;size=small" style="padding:5px;" alt="Sierra Wireless"></a></small>
-				</td>
-				<td>
-					Sierra Wireless is global leader in Machine-to-Machine and Mobile Broadband Solutions.
-				</td>
-			</tr>
-		</table>
-
-		<h4>
-			Participant members
-		</h4>
-		<table class="table">
-			<tr>
-				<td>
-					<small><a href="#"><img align="left" width="120" src="http://m2mworldnews.com/WordPress/wp-content/uploads/2011/05/axeda_logo.jpg" style="padding:5px;" alt="Axeda"></a></small>
-				</td>
-				<td>
-					Axeda provides the most advanced cloud-based service and software for managing connected products and implementing innovative M2M applications.  
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=819"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=819&amp;size=small" style="padding:5px;" alt="Band XI International"></a></small>
-				</td>
-				<td>
-					Expert builders of embedded Java systems with Eclipse and Equinox (OSGi).
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=1103"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1103&amp;size=small" style="padding:5px;" alt="Bitreactive"></a></small>
-				</td>
-				<td>
-					Maker of the Reactive Blocks. With Reactive Blocks, you can efficiently develop robust M2M applications in Java.
-				</td>
-			</tr>			
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=1086"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1086&amp;size=small" style="padding:5px;" alt="IBH SYSTEMS GmbH"></a></small>
-				</td>
-				<td>
-					IBH SYSTEMS GmbH is a software development and engineering company.
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=1100"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1100&amp;size=small" style="padding:5px;" alt="2lemetry"></a></small>
-				</td>
-				<td>
-					2lemetry is focused on building the Internet of Things in the Enterprise to drive business transformation and innovation.
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<small><a href="http://eclipse.org/membership/showMember.php?member_id=1101"><img align="left" width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1101&amp;size=small" style="padding:5px;" alt="M2M Alliance"></a></small>
-				</td>
-				<td>
-					With currently 76 members from 13 countries, the M2M Alliance is the world's largest professional M2M association.
-				</td>
-			</tr>
-		</table>
-	</div>
-</div>
-
-
-<!--
-			<div class="span4">
-				<div class="well">
-
-					<p class="lead">Forums</p>
-					<p>Questions related to the M2M Eclipse projects should be
-						directed to their respective communication channels:</p>
-					<ul class="unstyled">
-						<li><i class="icon-ok"></i> <a
-							href="http://www.eclipse.org/forums/eclipse.koneki" target="_blank">Koneki
-								forum</a></li>
-						<li><i class="icon-ok"></i> <a
-							href="https://dev.eclipse.org/mailman/listinfo/paho-dev"
-							target="_blank">Paho mailing-list</a></li>
-						<li><i class="icon-ok"></i> Mihini forum (coming soon)</li>
-					</ul>
-
-				</div>
-			</div>
--->
-
-		</div>
-
-		<hr>
-
-
+      <div>
+        <p class="lead">The M2M Industry Working Group not only works on
+          establishing reference Open Source M2M architecture, but also works
+          together with key industry partners and Open Source communities to
+          build a creative and welcoming M2M developer community.</p>
+      </div>
+    </div>
+    
+    <div class="row-fluid">
+    
+      <div class="span6">
+        <h2 class="section-title"><i class="icon-bullhorn"></i> | Community News</h2>
+        <ul class="news-list">
+        
+          <li>
+            <span class="date">12 <br/>Dec &apos;13 </span>
+            <span class="text">EclipseCon Program Announced, including M2M Day.<br/>
+              <a href="https://www.eclipsecon.org/na2014/eclipsecon/schedule/session/2014-03-17" class="readmore">Read more</a>
+            </span>
+          </li>
+          
+          <li>
+            <span class="date">12 <br/>Dec &apos;13 </span>
+            <span class="text">Eclipse Foundation M2M Working Group Announces New Members.<br/>
+              <a href="http://eclipse.org/org/press-release/20131211_m2m_newmembers.php" class="readmore">Read more</a>
+            </span>
+          </li>
+          
+          <li>
+            <span class="date">12 <br/>Dec &apos;13 </span>
+            <span class="text">New Project proposal: OM2M.<br/>
+              <a href="http://eclipse.org/proposals/technology.om2m/" class="readmore">Read more</a>
+            </span>
+          </li>
+          
+          <li>
+            <span class="date">12 <br/>Dec &apos;13 </span>
+            <span class="text">New Project proposal: Krikkit.<br/>
+              <a href="eclipse.org/proposals/technology.krikkit/" class="readmore">Read more</a>
+            </span>
+          </li>
+          
+        </ul>
+      </div>
+           
+      <div class="span6">
+        <h2 class="section-title grey-title"><i class="icon-film"></i> | Videos</h2>
+        <div class="grey-box">
+          <iframe width="100%" height="315"
+            src="http://www.youtube.com/embed/videoseries?list=PL0D6A9FF9237853DF&amp;hl=fr_FR"
+            frameborder="0" allowfullscreen></iframe>
+        </div>        
+      </div>     
+    </div>
+    
+    <div class="row-fluid">
+      
+      <div class="span6">
+        <h2 class="section-title"><i class="icon-calendar"></i> | Events</h2>
+        <div class="event-list">
+	        <div class="row-fluid">          
+	          <!-- Event example -->
+	          <div class="span4 itembox">
+	            <h3>EclipseDay Googleplex</h3>
+	            <p class="date">December 18, 2013</p>
+	            <p class="location">Mountain View, CA</p>
+	            <a href="http://wiki.eclipse.org/Eclipse_Day_At_Googleplex_2013" class="readmore">Read more <i class="icon-chevron-right"></i></a>
+	          </div>
+	          
+	          <!-- Event example -->
+	          <div class="span4 itembox">
+	            <h3> M2M Day @ EclipseCon</h3>
+	            <p class="date">March 19, 2014</p>
+	            <p class="location">Hyatt San Francisco Airport</p>
+	            <a href="https://www.eclipsecon.org/na2014/m2mday" class="readmore">Read more <i class="icon-chevron-right"></i></a>
+	          </div>
+	        </div>
+        </div>
+      </div>
+        
+      <div class="span6">
+        <h2 class="section-title grey-title"><i class="icon-facetime-video"></i> | Presentations</h2>
+        <div class="grey-box">
+          <iframe src="http://fr.slideshare.net/slideshow/embed_code/14030426"
+            width="100%" height="360" frameborder="0" marginwidth="0"
+            marginheight="0" scrolling="no"
+            allowfullscreen> 
+          </iframe>
+        </div> 
+      </div>
+         
+    </div>
+    
+    <div class="project-list row-fluid">
+      <h2 class="section-title"><i class="icon-folder-open"></i> | Projects</h2>
+      <div class="loading" id="update-project">
+      </div>
+    </div>
+    
+		<hr/>
 		<footer>
 			<ul class="nav nav-pills">
 				<li><a href="index.html">Home</a></li>
@@ -326,7 +210,7 @@
 		<div id="contact-modal" class="modal hide fade" tabindex="-1"
 			role="dialog" aria-labelledby="contact-label" aria-hidden="true"
 			style="display: none;">
-			</div>
+		</div>
 
 	</div>
 	<!-- /container -->
@@ -334,9 +218,7 @@
 	<!-- JS is at the end of the document so the pages load faster -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
-	<script src="js/rss_update.js"></script>
-
+	<script src="js/community.min.js"></script>
 
 </body>
 </html>
