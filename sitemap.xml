@@ -8,50 +8,62 @@
 
 <url>
   <loc>http://iot.eclipse.org/</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/index.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/frameworks.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/protocols.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/tools.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/community.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/demo/</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/sandbox.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://iot.eclipse.org/contact.html</loc>
-  <lastmod>2012-09-13T15:31:00+00:00</lastmod>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/demo/index.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
