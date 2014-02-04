@@ -1,7 +1,7 @@
 'use strict';
 
 var device_id = "RPI000000006f257df2";
-var server_url = "http://m2m.eclipse.org/m3da/clients";
+var server_url = "http://iot.eclipse.org/m3da/clients";
 
 appmodule.factory('config', function() {
 	var config = {

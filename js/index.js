@@ -28,7 +28,7 @@ $(document).ready(function() {
 		pause : 'hover'
 	});
 
-	$('#m2m-definition').popover({placement:'bottom', trigger:'hover'});
+	$('#iot-definition').popover({placement:'bottom', trigger:'hover'});
 
 });
 
