@@ -36,7 +36,7 @@
           // Clean up and remove HTML.
           var title = stringJanitor(value.name);
           var id = stringJanitor(value.id);
-          var desc = stringJanitor(value.description, {"cut": true, "ellipsis": "..."});
+          var desc = stringJanitor(value.description, {"cut": true, "ellipsis": "&hellip;"});
           var link = value.website;
           var logo = value.logo;
           var style = "";
