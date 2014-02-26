@@ -11,7 +11,7 @@ config) {
 	$scope.temperature = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.luminosity = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.humidity = {value: 0.0, timestamp: dateFormat(new Date())}
-	$scope.webcam = {src: "http://91.121.117.128/webcam/?action=stream"}
+	$scope.webcam = {src: "img/offline.png"}
 	$scope.roof = {value: "TOGGLE", img: "roof_OPEN.svg", timestamp: dateFormat(new Date())}
 
 	var client = new Messaging.Client("ws://iot.eclipse.org/ws", "clientId");
