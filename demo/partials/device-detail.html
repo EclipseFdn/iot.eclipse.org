@@ -1,7 +1,7 @@
 <div class="well">
 	<div class="page-header">
 		<h1>
-			Live Eclipse M2M demonstrator
+			Live Eclipse IoT demonstrator
 			<small>
 				A greenhouse that reports its status and can be controlled remotely.
 			</small>
@@ -10,12 +10,11 @@
 
 	<div class="lead">
 		<p>
-			The demonstration below features a greenhouse connected to iot.eclipse.org's public M3DA broker via a Linux gateway —Raspberry Pi— running
-			<a href="http://www.eclipse.org/mihini" target="_blank">Mihini</a>
-			.
+			The demonstration below features a greenhouse connected to iot.eclipse.org's public <a href="/sandbox.html">MQTT broker</a> via an open hardware linux gateway (BeagleBone Black) running
+			an MQTT client.
 		</p>
 		<p>
-			The user interface is using a REST API for displaying sensors data available on the broker, as well as to send a command for closing or opening the roof.
+			The user interface is using MQTT over WebSockets for displaying sensors data available on the broker, as well as to send a command for closing or opening the roof.
 		</p>
 
 	</div>
