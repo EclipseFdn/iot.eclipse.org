@@ -11,7 +11,7 @@ config) {
 	$scope.temperature = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.luminosity = {value: 0.0, timestamp: dateFormat(new Date())}
 	$scope.humidity = {value: 0.0, timestamp: dateFormat(new Date())}
-	$scope.webcam = {src: "img/offline.png"}
+	$scope.webcam = {src: "http://benjamin-cabe.com:8082/index1.jpg"}
 	$scope.roof = {value: "TOGGLE", img: "roof_OPEN.svg", timestamp: dateFormat(new Date())}
 
 	var client = new Messaging.Client("ws://iot.eclipse.org/ws", "clientId");
@@ -44,7 +44,7 @@ config) {
 		$scope.webcam.src = "http://www.benjamin-cabe.com/webcam.jpg#" + new Date().getTime();
 		$timeout(tick, 1000);
 	}
-	tick();
+	//tick();
 
 	$scope.toggleRoof = function() {
 		console.log('toggle');
