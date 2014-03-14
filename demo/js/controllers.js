@@ -66,9 +66,15 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     //tick();
 
     $scope.toggleRoof = function() {
-        console.log('toggle');
-        var message = new Messaging.Message("TOGGLE");
+        var message = new Messaging.Message("-");
         message.destinationName = "greenhouse/LIVE/benjamin-bbb/command/toggleRoof";
+        client.send(message);
+    }
+
+    $scope.switchLight = function() {
+        console.log('toggle');
+        var message = new Messaging.Message("-");
+        message.destinationName = "greenhouse/LIVE/benjamin-bbb/command/switchLight";
         client.send(message);
     }
 }
