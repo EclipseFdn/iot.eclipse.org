@@ -86,15 +86,26 @@
 
 	<div class="container">
 
+
+		<div class="well">
+	      <div class="page-header">
+	        <h1>
+	          Sandboxes <small>Build your IoT solutions using our sandbox environments</small>
+	        </h1>
+	      </div>
+
+	      <div>
+	        <p class="lead">The IoT Working Group provides publically accesible servers for facilitating the development of IoT solutions. Refer to the details below in order to know how to connect your applications to our numerous services: MQTT, CoAP, LWM2M, &hellip;</p>
+	      </div>
+	    </div>
+
+
 		<!-- Example row of columns -->
 		<div class="row">
 
 			<div id="mqtt" class="span6">
-				<h2>MQTT Sandbox Server</h2>
-				<p>
-					There is a publically accessible <a href="http://mqtt.org/">MQTT</a>
-					server for the Eclipse M2M projects.</p>
-				<p>You can make use of this server with client code from the <a href="http://eclipse.org/paho/">Paho
+				<h2>MQTT</h2>
+				<p>You can make use of this <a href="http://mqtt.org/">MQTT</a> server with client code from the <a href="http://eclipse.org/paho/">Paho
 						project</a>, the Eclipse MQTT view from Paho, or from one of the other client APIs listed on the <a
 						href="http://mqtt.org/downloads">MQTT.org downloads</a> page.
 				</p>
@@ -107,11 +118,43 @@
 					.
 				</p>
 				<p>
-					Some live	statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a>.
+					Some live	statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its version 1.3.1.
 				</p>
 			</div>
-        <div id="m3da" class="span6">
-				<h2>M3DA Sandbox Server</h2>
+
+
+        	<div id="coap" class="span6">
+				<h2>CoAP</h2>
+				<p>A CoAP server exposing test resources is available at: <code>coap://iot.eclipse.org:5683/</code>.</p>
+				<p>It should be used by anyone interested in testing a CoAP client implementation against another endpoint, and more generally by anyone interested in understanding the key concepts of the CoAP protocol.</p>
+				<p>
+					This server is running <a href="https://projects.eclipse.org/projects/technology.californium">Eclipse Californium</a>.
+				</p>
+			</div>
+		
+		</div>
+		<div class="row">
+
+        	<div id="lwm2m" class="span6">
+				<h2>Lightweight M2M (LWM2M)</h2>
+				<p>In order to test LWM2M communication scenarios, we host a LWM2M server.</p>
+				<p>You can make use of this server with the <a href="https://projects.eclipse.org/projects/technology.wakaama">Wakaama
+						project</a>
+				</p>
+
+				<p>
+					The LWM2M server is available at: <code>coap://iot.eclipse.org:5684/</code>
+					<br>
+					A web interface allows to interact with registered LWM2M clients: <a href="http://iot.eclipse.org/lwm2m/"><code>http://iot.eclipse.org/m3da</code></a>.
+				</p>
+				<p>
+					This server is running the Open Source <a href="http:///github.com/jvermillard/leshan">Leshan server</a>.
+				</p>
+			</div>
+
+
+        	<div id="m3da" class="span6">
+				<h2>M3DA</h2>
                 <p>
                 There is a publically accessible <a href="http://wiki.eclipse.org/Mihini/M3DA_Specification">M3DA</a>
 					server for the Eclipse M2M projects.</p>
