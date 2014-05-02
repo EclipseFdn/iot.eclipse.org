@@ -5,17 +5,6 @@ $(document).ready(function() {
     // Enable dropdowns
     $('.dropdown-toggle').dropdown();
 
-    // Shuffle carousel items
-    $('.carousel-inner').shuffle();
-
-    $('.carousel-inner').children()[0].className += " active";
-
-    // Start carousel
-    $('.carousel').carousel({
-        interval: 4000,
-        pause: 'hover'
-    });
-
     $('#iot-definition').popover({
         placement: 'bottom',
         trigger: 'hover'
