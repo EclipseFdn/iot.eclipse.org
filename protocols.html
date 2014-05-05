@@ -103,9 +103,13 @@
 					protocols for two-way communications between devices and server.</p>
 				<p>
 					We are currently focusing on providing first-class Open Source
-					implementations for the <a href="#mqtt">MQTT</a> messaging
-					protocol, CoAP, Lightweigh M2M, ETSI M2M and the <a href="#oma-dm">OMA-DM</a> device management
-					protocol.
+					implementations for:
+					<ul>
+						<li><a href="#mqtt"><strong>MQTT</strong></a>, a lightweight pub-sub messaging protocol being standardized at <a href="https://www.oasis-open.org/" target="_blank">OASIS</a></li>
+						<li><a href="#coap"><strong>CoAP</strong></a>, an <a href="http://www.ietf.org/" target="_blank">IETF</a> standard protocol targeting resource constrained devices,</li>
+						<li><a href="#oma-lwm2m"><strong>OMA LWM2M</strong> (Lightweight M2M)</a>, a standard device management protocol from the <a href="http://openmobilealliance.org/" target="_blank">Open Mobile Alliance</a>,</li>
+						<li><a href="#etsi-m2m"><strong>ETSI M2M</strong></a>.</li>
+					</ul>	
 				</p>
 
 			</div>
@@ -168,7 +172,7 @@
 			Source code for our MQTT client libraries is available in multiple languages
 			at the <a href="http://www.eclipse.org/paho/" target="_blank">Paho project</a> page.
 		</p>
-		<p>Source code for our MQTT server library will be available soon from the <a href="http://www.eclipse.org/proposals/technology.mosquitto/">Mosquitto</a> project</p>
+		<p>Source code for our MQTT server library is available from the <a href="http://www.eclipse.org/mosquitto">Mosquitto</a> project</p>
 
 		<h3>
 			<i class="icon-arrow-right"></i> Getting started with MQTT
@@ -195,6 +199,23 @@
 			you can test your MQTT-based applications against an actual MQTT
 			broker.
 		</p>
+
+
+		<h2 id="coap">CoAP</h2>
+
+		<p>Implementing the REST architectural style, it can be transparently mapped to HTTP. 
+		However, CoAP also provides features that go beyond HTTP such as native push notifications 
+		and group communication.</p>
+
+		<h3>
+			<i class="icon-arrow-right"></i> Sandbox CoAP Server
+		</h3>
+
+		<p>
+			We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources
+			over CoAP. You can use it to test CoAP communication scenarios.
+		</p>
+
 
 		<h2 id="oma-dm">OMA-DM</h2>
 
