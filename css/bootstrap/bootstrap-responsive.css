@@ -135,6 +135,10 @@ h2 {
   color: #8487b8;
 }
 
+.lead li {
+  line-height: inherit;
+}
+
 .home-box.span4 {
   width: 350px;
   padding-right: 10px;
