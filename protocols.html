@@ -165,19 +165,8 @@
 			the unanticipated requirements of M2M and IoT applications.</p>
 
 		<h3>
-			<i class="icon-arrow-right"></i> Download MQTT runtimes
-		</h3>
-
-		<p>
-			Source code for our MQTT client libraries is available in multiple languages
-			at the <a href="http://www.eclipse.org/paho/" target="_blank">Paho project</a> page.
-		</p>
-		<p>Source code for our MQTT server library is available from the <a href="http://www.eclipse.org/mosquitto">Mosquitto</a> project</p>
-
-		<h3>
 			<i class="icon-arrow-right"></i> Getting started with MQTT
 		</h3>
-
 		<p>
 			The Paho project is based around MQTT client
 			runtimes that implement the MQTT messaging protocol. The client
@@ -190,32 +179,100 @@
 		</p>
 
 
-		<h3>
-			<i class="icon-arrow-right"></i> Sandbox MQTT Server
-		</h3>
+		<div class="row-fluid">
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Download MQTT runtimes
+				</h3>
+				<p>
+					Source code for our MQTT client libraries is available in multiple languages
+					at the <a href="http://www.eclipse.org/paho/" target="_blank">Paho project</a> page.
+				</p>
+				<p>Source code for our MQTT server library is available from the <a href="http://www.eclipse.org/mosquitto">Mosquitto</a> project</p>
+			</div>
 
-		<p>
-			We provide a <a href="sandbox.html#mqtt">sandbox server</a> so that
-			you can test your MQTT-based applications against an actual MQTT
-			broker.
-		</p>
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Sandbox MQTT Server
+				</h3>
+				<p>
+					We provide a <a href="sandbox.html#mqtt">sandbox server</a> so that
+					you can test your MQTT-based applications against an actual MQTT
+					broker.
+				</p>
+			</div>
+		</div>
 
 
 		<h2 id="coap">CoAP</h2>
 
-		<p>Implementing the REST architectural style, it can be transparently mapped to HTTP. 
+		<p>CoAP (Constrained Application Protocol) is a protocol specialized for use with 
+		constrained nodes and networks.</p>
+
+		<p>It implements the REST architectural style, it can be transparently mapped to HTTP. 
 		However, CoAP also provides features that go beyond HTTP such as native push notifications 
 		and group communication.</p>
 
-		<h3>
-			<i class="icon-arrow-right"></i> Sandbox CoAP Server
-		</h3>
+		<div class="row-fluid">
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Download CoAP runtime
+				</h3>
+
+				<p>
+					The <a href="http://www.eclipse.org/californium/" target="_blank">Californium project</a> will provide
+					a Java implementation of the CoAP protocol, including support for the DTLS security layer. The source code
+					of Californium should be available at Eclipse in Q2 2014.
+				</p>
+			</div>
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Sandbox CoAP Server
+				</h3>
+
+				<p>
+					We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources
+					over CoAP. You can use it to test CoAP communication scenarios.
+				</p>
+			</div>
+		</div>
+
+		<h2 id="oma-dm">OMA LightweightM2M</h2>
 
 		<p>
-			We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources
-			over CoAP. You can use it to test CoAP communication scenarios.
+			OMA LightweightM2M (LWM2M) is an industry standard for device management of M2M/IoT devices. It heavily relies
+			on CoAP and therefore is optimized for communications over sensor or cellular networks.
 		</p>
 
+		<p>
+			OMA LWM2M provides an extensible object model that allows to enable application data exchanges in addition to the 
+			core device management features (firmware upgrade, connectivity monitoring, &hellip;)
+		</p>
+
+
+		<div class="row-fluid">
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Download LWM2M runtime
+				</h3>
+
+				<p>
+					The <a href="http://www.eclipse.org/wakaama/" target="_blank">Wakaama project</a> will provide
+					a C portable framework for building LWM2M clients and/or servers. The source code of Wakaama 
+					should be available at Eclipse in Q2 2014.
+				</p>
+			</div>
+			<div class="span6">
+				<h3>
+					<i class="icon-arrow-right"></i> Sandbox LWM2M Server
+				</h3>
+
+				<p>
+					We provide a <a href="sandbox.html#lwm2m">sandbox LWM2M server</a> against which LWM2M clients can be registered.
+					The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients. 
+				</p>
+			</div>
+		</div>
 
 		<h2 id="oma-dm">OMA-DM</h2>
 
