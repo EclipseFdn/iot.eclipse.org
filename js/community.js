@@ -47,6 +47,9 @@
                     var style = "";
                     var showlogo = false;
 
+                    if (id == 'rt.ecf')
+                        return true;
+
                     output += "<div class=\"span3 itembox\"" + style + ">";
                     if (validateUrl(logo) && showlogo === true) {
                         output += "<img class =\"logo\" alt=\"" + title + " logo\" src=\"" + logo + "\">";
