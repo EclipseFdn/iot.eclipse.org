@@ -7,3 +7,8 @@
 .home-box .lead {
 	width: 350px !important;
 }
+
+/* home page: remove border-top's between members logos */
+tr + tr td {
+	border-top: none !important;
+}
