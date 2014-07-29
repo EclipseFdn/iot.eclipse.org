@@ -324,20 +324,19 @@ ul.news-list {
 	  .clearfix;
 	  min-height:40px;
 	  background:#fff;
-    margin-left:0 !important;
-    margin-bottom:20px;
-    padding:8px;
+	  margin-left:0 !important;
+	  margin-bottom:20px;
+	  padding:8px;
     
-		span.date{
-		  text-align:center;
+	  span.date{
+	    text-align:center;
 	    border-right:1px solid #ccc;
 	    padding-right:20px;
 	    padding-left:10px;
 	    margin-right:10px;
 	    font-size:13px;
 	    display:block;
-	    position:absolute;
-	   
+	    position:absolute;   
 	  }
 	  span.date::first-line{
 	    font-size:18px;
@@ -345,7 +344,45 @@ ul.news-list {
 	  span.text {
 	     padding-left:95px;
 	     display:block;
-	   
+	  }
+	}
+	li:hover {
+	  background:@greylight;
+	  cursor:pointer;
+	}
+}
+
+/* Webinars list: community.html */
+/* copied from news-list since our LESS compiler version does not support 'extend' :-( */
+ul.webinars-list {
+	list-style:none;
+	padding:0;
+	margin:0 0 0px 0;
+	color:@blueDark;
+	li {
+	  .clearfix;
+	  min-height:40px;
+	  background:#fff;
+	  // margin-left:0 !important;
+	  margin-bottom:20px;
+	  padding:8px;
+    
+	  span.date{
+	    text-align:center;
+	    border-right:1px solid #ccc;
+	    padding-right:20px;
+	    padding-left:10px;
+	    margin-right:10px;
+	    font-size:13px;
+	    display:block;
+	    position:absolute;   
+	  }
+	  span.date::first-line{
+	    font-size:18px;
+	  }
+	  span.text {
+	     padding-left:95px;
+	     display:block;
 	  }
 	}
 	li:hover {

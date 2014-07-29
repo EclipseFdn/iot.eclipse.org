@@ -453,6 +453,61 @@ ul.news-list li:hover {
   background: #f6f6f6;
 }
 
+/* Webinars list: community.html */
+
+/* copied from news-list since our LESS compiler version does not support 'extend' :-( */
+
+ul.webinars-list {
+  padding: 0;
+  margin: 0 0 10px 0;
+  color: #161726;
+  list-style: none;
+}
+
+ul.webinars-list li {
+  min-height: 40px;
+  padding: 8px;
+  margin-bottom: 20px;
+  background: #fff;
+  *zoom: 1;
+}
+
+ul.webinars-list li:before,
+ul.webinars-list li:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+ul.webinars-list li:after {
+  clear: both;
+}
+
+ul.webinars-list li span.date {
+  position: absolute;
+  display: block;
+  padding-right: 20px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 13px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+ul.webinars-list li span.date::first-line {
+  font-size: 18px;
+}
+
+ul.webinars-list li span.text {
+  display: block;
+  padding-left: 95px;
+}
+
+ul.webinars-list li:hover {
+  cursor: pointer;
+  background: #f6f6f6;
+}
+
 /* Member information: ecosystem.html */
 
 .members-info .mb-logo {
