@@ -459,13 +459,13 @@ ul.news-list li:hover {
 
 ul.webinars-list {
   padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   color: #161726;
   list-style: none;
 }
 
 ul.webinars-list li {
-  min-height: 40px;
+  min-height: 165px !important;
   padding: 8px;
   margin-bottom: 20px;
   background: #fff;
@@ -481,6 +481,24 @@ ul.webinars-list li:after {
 
 ul.webinars-list li:after {
   clear: both;
+}
+
+@media (min-width: 1200px) {
+  ul.webinars-list li {
+    min-height: 140px !important;
+  }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+  ul.webinars-list li {
+    min-height: 240px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  ul.webinars-list li {
+    min-height: 0 !important;
+  }
 }
 
 ul.webinars-list li span.date {

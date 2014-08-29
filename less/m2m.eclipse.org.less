@@ -358,10 +358,23 @@ ul.webinars-list {
 	list-style:none;
 	padding:0;
 	margin:0 0 0px 0;
+//	min-height: 200px;
 	color:@blueDark;
 	li {
 	  .clearfix;
-	  min-height:40px;
+
+	  min-height:165px !important;
+	  @media (min-width: 1200px) {
+		min-height: 140px !important;
+	  }
+	  @media (max-width: 979px) and (min-width: 768px) {
+	    min-height: 240px !important;
+	  }
+	  @media (max-width: 767px) {
+	    min-height: 0px !important;
+	  }
+
+
 	  background:#fff;
 	  // margin-left:0 !important;
 	  margin-bottom:20px;
@@ -390,6 +403,10 @@ ul.webinars-list {
 	  cursor:pointer;
 	}
 }
+
+
+
+
 
 /* Member information: ecosystem.html */
 .members-info {
