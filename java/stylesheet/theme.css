@@ -7,7 +7,7 @@ a{
 }
 
 .header{
-	background-image:url(../images/header-bg.jpg);
+	background-image:url(../images/header-bg.png);
 	background-size: cover;
 	background-position: top center;
 	text-align: center;
@@ -97,7 +97,7 @@ button i.fa{
 
 
 .discover{
-	background-image:url('../images/discover-bg.jpg');
+	background-image:url('../images/discover-bg.png');
 	background-position: top center;
 	background-size: cover;
 	padding:40px 0;
@@ -124,7 +124,7 @@ button i.fa{
 }
 
 .footer{
-	background-image: url('../images/footer-bg.jpg');
+	background-image: url('../images/footer-bg.png');
 	background-position:top center;
 	background-size: cover;
 	color:#d6d6d6;
