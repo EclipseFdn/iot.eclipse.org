@@ -222,7 +222,7 @@ div.page-header h1 small {
 }
 
 .container ul li {
-  margin-left: 1em;
+  margin-left: .8em;
 }
 
 .well {
@@ -273,6 +273,18 @@ h3 {
   margin-top: -10px;
   font-size: 20px;
   color: #8487b8;
+}
+
+#java-launch {
+  background: url('/images/_home/javalaunch_background.jpg');
+}
+
+#java-launch img {
+  opacity: 0.9;
+}
+
+#java-launch img:hover {
+  opacity: 1.0;
 }
 
 hr {
@@ -1453,7 +1465,7 @@ ul.webinars-list li:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 979px) {
   body {
     padding-top: 0;
   }

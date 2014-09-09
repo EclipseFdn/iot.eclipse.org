@@ -165,8 +165,11 @@ button i.fa{
 
 /** added Benjamin **/
 
+.container ul li {
+	margin-left: 0.8em;
+}
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
 	body {
 	  	padding-right: 0px;
 		padding-left: 0px;
