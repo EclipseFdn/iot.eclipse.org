@@ -29,7 +29,7 @@ a{
 	color:#9899ac;
 	font-size: 27px;
 	line-height: 1.4;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .list-inline{
@@ -82,14 +82,14 @@ button i.fa{
 
 .icons-1 h2,.icons-2 h2{
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 300;
 	color:#474646;
 	border:none;
 	margin-top:40px;
 }
 
 .icons-1 p,.icons-2 p{
-	font-weight: 100;
+	font-weight: 300;
 	color:#474646;
 	font-size: 21px;
 	line-height: 1.4;
@@ -115,7 +115,7 @@ button i.fa{
 	font-size: 21px;
 	line-height: 1.4;
 	color:#dee8ef;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .logos{
@@ -128,7 +128,7 @@ button i.fa{
 	background-position:top center;
 	background-size: cover;
 	color:#d6d6d6;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .footer ul{
