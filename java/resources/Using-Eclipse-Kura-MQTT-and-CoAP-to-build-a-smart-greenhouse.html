@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>iot.eclipse.org &mdash; Protocols</title>
+<meta name="description"
+	content="iot.eclipse.org is also a window on the protocols of choice for IoT and M2M solutions development: MQTT, CoAP, Lightweight M2M, ETSI M2M  ...">
+<meta name="author" content="Eclipse.org">
+<link rel="author" href="humans.txt" />
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+<!-- Custom Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400'
+	rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lekton:400,700'
+	rel='stylesheet' type='text/css'>
+
+<!-- Le styles -->
+<link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="/css/theme.css" rel="stylesheet">
+<link href="/css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="../stylesheet/prism.css" rel="stylesheet" />
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-594061-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" href="/index.html">iot.eclipse.org</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="/frameworks.html">Services & Frameworks</a></li>
+						<li><a href="/protocols.html">Protocols</a></li>
+						<li><a href="/tools.html">Tools</a></li>
+						<li><a href="/community.html">Community</a></li>
+						<li><a href="/ecosystem.html">Ecosystem</a></li>
+						<li class="dropdown"> 
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+					            <li><a href="/demo" class="active">Live Demo</a></li>
+					            <li><a href="/sandbox.html">Sandbox</a></li>
+					        </ul>
+          				</li>
+					</ul>
+					<ul class="nav pull-right">
+						<li>
+							<div style="padding-top: 20px;">
+								<div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+	<div class="container">
+			<div class="well">
+				<div class="page-header">
+				<h1>
+				MQTT Interop Test Day Report 
+				<small>March 17, 2014<br/>Burlingame, California</small>
+				</h1>
+				Hosted by: Eclipse IoT Working Group, <a href="http://iot.eclipse.org/">iot.eclipse.org</a><br/>
+				Report prepared by: Ian Skerrett, Eclipse Foundation
+			</div>
+				<div class="lead">
+				<p>The first MQTT Interop Test Day was held March 17, 2014 in Burlingame, CA. A total of 15 different products and organizations participated in the event, resulting in 65 different test pairing between the different products.</p>
+				<p>The purpose of the first test day was to provide feedback and validation on the proposed OASIS MQTT specification and to provide initial feedback to the participants on their implementation of the MQTT 3.1.1 specification. Overall, the participants declared the event to be a success.</p>
+			</div>
+		</div>
+
+
+
+   <h1>Using Eclipse Kura, MQTT and CoAP to build a smart greenhouse</h1>
+    <p>Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.</p>
+    <p>Thanks to the recent efforts towards making Java a more than decent platform for embedded devices, as well as the help of Moore&rsquo;s law always bringing more processing power to devices, everyone can benefit from two decades of innovation in the Java land to build IoT (Internet of Things) solutions.</p>
+    <p>It&rsquo;s no news, however, that there are many challenges when building an IoT application. One of the main challenges is to make sure that the application you&rsquo;re building will be simple to operate once it is deployed on the field. It means you need to be able to perform many operations over-the-air, including things like:</p>
+    <ul>
+        <li><b><i>changing the settings of your running application</i></b> – because a sensor you were attached to, for example, needs to be accessed with different settings,</li>
+        <li><b><i>deploying a new version of your application</i></b> – you found a nasty bug that causes your application to use all your tiny cellular data plan in minutes, so you want to deploy a hot-fix on your IoT gateway,</li>
+        <li><b><i>ensuring the gateway has proper access to the network</i></b> – because you care about your application and not necessarily about how you&rsquo;ll actually get Internet connectivity, it&rsquo;s important to have a framework taking care of your wireless modem of WiFi setup for you.</li>
+    </ul>
+    <p><a href='http://eclipse.org/kura' />Eclipse Kura</a>is an<a href='http://iot.eclipse.org' />Eclipse IoT</a>project that provides a platform for building IoT gateways. It is a smart application container that enables remote management of such gateways and provides a wide range of APIs for allowing you to write and deploy your own IoT application.</p>
+    <p>Kura runs on top of the Java Virtual Machine (JVM) and leverages OSGi, a dynamic component system for Java, to simplify the process of writing reusable software building blocks.</p>
+    <p></p>
+    <p>In this tutorial, we want to guide you through the steps for building your very own IoT gateway. We will first guide you through the (very simple!) process of installing Eclipse Kura on what will become your IoT gateway (we&rsquo;ll be using a Raspberry Pi as the hardware platform), and we will then detail how you can install deploy existing IoT applications or develop your own using Kura&rsquo;s application framework.</p>
+    <p></p>
+    <h2>Technologies involved</h2>
+    <p><b>Kura</b>
+    </p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406563851399_kura.png' />
+    </p>
+    <p>Kura provides a Java/OSGi-based container for IoT applications running in service gateways. By installing Kura on a device, not only can you turn it into a powerful IoT router that can be managed remotely, but you also have access to a complete application framework for deploying custom applications. These applications leverage OSGi and Kura API for making it easy to access the underlying hardware (serial port, GPIOs, etc.), communicate with an IoT server backend, manage the runtime settings, etc.&nbsp;</p>
+    <p></p>
+    <p>Learn more on Kura on the project&rsquo;s website:
+        <a href="https://www.eclipse.org/kura"></a>https://www.eclipse.org/kura.</p>
+    <p></p>
+    <p><b>MQTT and Paho</b>
+    </p>
+    <p>In order to make the greenhouse sensors data available to the Internet, and therefore allow 3rd party applications (mobile, web, etc.) to consume this data, we will use the MQTT protocol.</p>
+    <p>MQTT is a lightweight messaging protocol based on the publish/subscribe model. A central broker is federating MQTT clients that are publishing messages on specific topics, allowing other clients subscribed to these topics to immediately receive those messages.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377319893_hackpad.com_9EkDXF5JhoD_p.189956_1406300892088_paho.png' />
+    </p>
+    <p>Eclipse Paho is an open-source project that provides MQTT client implementations in many programming languages, and Kura is using Paho to provide high-level OSGi services for IoT communications between a gateway and the Internet.&nbsp;&nbsp;</p>
+    <p></p>
+    <p>Learn more on Paho on the project&rsquo;s website:
+        <a href="https://www.eclipse.org/paho"></a>https://www.eclipse.org/paho.</p>
+    <p></p>
+    <p><b>CoAP and Californium</b>
+    </p>
+    <ul class="task">
+        <li><b><u>ADD CoAP INTRO and why it&rsquo;s interesting to use CoAP for the greenhouse</u></b>
+        </li>
+        <li><b><u>ADD COAP DRAWING</u></b>
+        </li>
+    </ul>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377341864_hackpad.com_9EkDXF5JhoD_p.189956_1406301003313_californium-180.png' />
+    </p>
+    <ul class="comment">
+        <li>TODO XXX blah blah Californium</li>
+    </ul>
+    <p>Learn more on Californium on the project&rsquo;s website:
+        <a href="https://www.eclipse.org/californium"></a>https://www.eclipse.org/californium.</p>
+    <p></p>
+    <h2>What are we going to build?</h2>
+    <p>Whether we are talking about industrial control, wearables, home automation, or any other field where IoT is relevant, the core principle is always the same: we want to connect a reasonably smart device coupled with sensors and actuators, to the Internet so as the sensors and actuators can be monitored and controlled remotely.</p>
+    <p>A very simplified version of such a smart device could be a connected greenhouse that allows you to monitor the current temperature from wherever you are in the world, as well as turn artificial lighting on and off.&nbsp;</p>
+    <p></p>
+    <h2>Setting up the hardware</h2>
+    <p><b>Shopping list</b>
+    </p>
+    <p>We&rsquo;ve kept the list of hardware elements needed for the greenhouse to a minimum to make it easy for anyone with no electronics skills to build it.</p>
+    <p>Here is what you will need:</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377358810_hackpad.com_9EkDXF5JhoD_p.189956_1406297683547_hw.png' />
+    </p>
+    <p></p>
+    <ul>
+        <li><b>Raspberry Pi Model B or B+</b> and an <b>SD card</b> (min. 4GB) with the latest Debian Linux distribution. Raspbian should be downloaded from the Raspberry Pi Foundation&rsquo;s<a href='http://www.raspberrypi.org/downloads/' />Downloads page</a>, and<a href='http://www.raspberrypi.org/documentation/installation/installing-images/README.md' />these instructions</a>will help you put Raspbian on the SD Card.</li>
+        <li><b>Grove temperature &amp; humidity sensor</b>,</li>
+        <li><b>Grove LED</b>,</li>
+        <li><b>4 pin Female Jumper to Grove 4 pin Conversion Cable</b>,</li>
+        <li><b>Ethernet cable.</b>
+        </li>
+    </ul>
+    <p>You can easily order the parts from SeeedStudio thanks to the following wish list:
+        <a href="http://tiny.cc/iot-greenhouse-parts"></a>http://tiny.cc/iot-greenhouse-parts.</p>
+    <p>You can also check for a distributor next to you on this<a href='http://www.seeedstudio.com/depot/index.php?main_page=distributors' />web page</a>.</p>
+    <p></p>
+    <p><b>Assembling the Raspberry Pi and the sensors</b>
+    </p>
+    <p>As indicated earlier, the hardware setup should be really just take a couple of minutes. Before to actually perform the wiring of all the sensors, now is a good time to briefly explain how the Raspberry Pi can be augmented with external sensors. The row of pins, along the edge of the board, is programmable from the Linux system, is allow you to interact with various kinds of sensors you can connect to them. You should think of these GPIOs (General Purpose Input Outputs) as switches you can control from the Raspberry Pi (outputs), or that external sensors can control (inputs). Some of the pins are more sophisticated and allow the use of higher-level protocols to exchange more than on/off signals ; such protocols include SPI, I2C or UART, and we will indeed use an I2C temperature sensor in this tutorial.&nbsp;</p>
+    <p>You can<a href='http://www.raspberrypi.org/documentation/usage/gpio/' />read more on GPIOs</a>in the official Raspberry Pi documentation.</p>
+    <p></p>
+    <p>Now is time to hook up our temperature sensor and LED to the Raspberry Pi! The GPIO pins are numbered as follows (if you have a Raspberry Pi model B, no worries, the pin headers we&rsquo;ll be using are the same):</p>
+    <p></p>
+    <p>
+        <img src='http://www.recantha.co.uk/blog/wp-content/uploads/2014/07/GPIO.png' />
+    </p>
+    <p></p>
+    <ol>
+        <li>Connect the Grove cables to your temperature/humidity sensor and LED</li>
+    </ol>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408547740131_sensors-with-cables.png' />
+    </p>
+    <p></p>
+    <ol>
+        <li><b>:warning: Make sure that your Raspberry Pi is not powered!</b>
+        </li>
+        <li><u>Temperature sensor</u>: <b>BLACK</b> wire goes on PIN#06, <b>RED</b> wire goes on PIN#01, <b>YELLOW</b> wire goes on PIN#05, and finally <b>WHITE</b> wire goes on PIN#03.</li>
+        <li><u>LED</u>: <b>BLACK</b> wire goes on PIN#14, <b>RED</b> wire goes on PIN#02, <b>YELLOW</b> wire goes on PIN#11. The <b>WHITE</b> wire is not used in the case of the LED – you only really need one pin to toggle a LED on or off, right? :-) – so you can leave it dangling or connect it to a Ground pin header.</li>
+        <li>Connect the Raspberry Pi to your home router or to your PC using the Ethernet cable.</li>
+    </ol>
+    <p>That&rsquo;s all, really! Now let&rsquo;s boot our Raspberry Pi for the first time and install Kura.</p>
+    <p><b>Booting the Raspberry Pi for the first time</b>
+    </p>
+    <undefined>
+        <li><b>Expand filesystem</b>
+        </li>
+    </undefined>
+    <p>After the first boot completes, make sure to run the configuration utility and expand the filesystem.</p>
+    <p></p>
+    <ul class="code">
+        <li>sudo raspi-config</li>
+    </ul>
+    <p>&nbsp;&nbsp;&nbsp;</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1410192008723_raspi-config.png' />&nbsp;</p>
+    <undefined>
+        <li><b>Enable i2c</b>
+        </li>
+    </undefined>
+    <p>You need to make sure to enable the Linux modules that will allow us to do i2c communications. Enter the following command:</p>
+    <ul class="code">
+        <li>sudo nano /etc/modules</li>
+    </ul>
+    <p>and add these two lines to the end of the file:</p>
+    <ul class="code">
+        <li>i2c-bcm2708&nbsp;</li>
+        <li>i2c-dev</li>
+    </ul>
+    <p>You need to reboot for the changes to be applied.</p>
+    <p></p>
+    <p><b>Installing Eclipse Kura on the Raspberry Pi</b>
+    </p>
+    <p>It is really easy to install Kura on your Raspberry Pi. It is actually as simple as installing any other Debian package.</p>
+    <p>Assuming you are properly logged in on your Raspberry Pi, here&rsquo;s how to install Kura:</p>
+    <p></p>
+    <ul class="code">
+        <li>cd ~</li>
+        <li>sudo apt-get update # let&rsquo;s make sure Debian repositories descriptions is up-to-date</li>
+        <li>wget
+            <a href="https://s3.amazonaws.com/kura_downloads/raspbian/release/kura-raspberry-pi_0.7.1_armv6.deb"></a>https://s3.amazonaws.com/kura_downloads/raspbian/release/kura-raspberry-pi_0.7.1_armv6.deb</li>
+        <li>sudo dpkg -i<a href='https://s3.amazonaws.com/kura_downloads/raspbian/release/kura-raspberry-pi_0.7.1_armv6.deb' />kura-raspberry-pi_0.7.1_armv6.deb</a>
+        </li>
+    </ul>
+    <p>dpkg will complain about missing dependencies, and will fail. Indeed, Kura depends on some packages that you probably don&rsquo;t have on your Raspberry Pi, so we must tell Aptitude to download those automatically for us:</p>
+    <ul class="code">
+        <li>sudo apt-get install -f</li>
+    </ul>
+    <p>You should now reboot your Raspberry Pi to make sure all the Kura services are properly started.</p>
+    <ul class="code">
+        <li>sudo reboot</li>
+    </ul>
+    <p>In order to confirm that Kura is properly installed, you can try accessing its web UI from your favorite web browser. The URL should be something like:
+        <a href="http://my-raspberry-pi/kura"></a>http://<a href='http://efault' />m</a>y<a href='http://myefault' />-</a>r<a href='http://my-refault' />a</a>s<a href='http://my-rasefault' />p</a>b<a href='http://my-raspbefault' />e</a>r<a href='http://my-raspberefault' />r</a>y<a href='http://my-raspberryefault' />-</a>p<a href='http://my-raspberry-pefault' />i</a>/<a href='http://my-raspberry-pi/efault' />k</a>u<a href='http://my-raspberry-pi/kuefault' />r</a>a,<a href='http://my-raspberry-pi/kura,efault' /></a>default credentials are: <b>admin</b> / <b>admin</b>.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1409907331696_kura post install.png' />
+    </p>
+    <p></p>
+    <h2>Deploying a ready-to-use greenhouse application</h2>
+    <p>Before diving deeper into how to use the Kura application framework for developing your own application, let&rsquo;s see by ourselves how easy it is to deploy an application in Kura.</p>
+    <p>Kura relies on the OSGi Deployment Admin standard to allow software packages to be managed. A deployment package is essentially a ZIP file containing a set of OSGi bundles and a Manifest providing the name, version, etc. of the application.</p>
+    <p></p>
+    <p>We have already prepared a software package containing the application that allows to control the greenhouse over MQTT or CoAP.&nbsp;</p>
+    <p></p>
+    <p><b>Installing the application from Kura web UI</b>
+    </p>
+    <p>If you correctly followed the previous steps, Kura should be now up and running on your Raspberry Pi, and you should be able to access its web-based administration interface from your browser.</p>
+    <ul>
+        <li>Navigate the &quot;Packages&quot; entry of the web UI</li>
+        <li>Click the &quot;Install/Upgrade&quot; button and enter the following address in the &quot;URL&quot; tab of the popup dialog:&nbsp;</li>
+        <li>Refresh your web browser and notice there is a new entry in the Services section on the left-hand side: Greenhouse Publisher.</li>
+    </ul>
+    <p><b>Configuring the application</b>
+    </p>
+    <p>Kura allows to easily manage the settings of the installed software components from its web UI, together with the ability to save <i>snapshots</i> of those settings that can be re-applied if and when needed. It is also possible to manage the settings over the air, by publishing specific MQTT messages to the broker the Kura gateway is configured to talk to.</p>
+    <p>Here are the settings you need to adjust:</p>
+    <ul>
+        <li>In the <b>MqttDataTransport</b> section, you need to change the <i>broker-url</i> to: <b>mqtt://iot.eclipse.org:1883/ </b>- other settings can remain unchanged,&nbsp;</li>
+        <li>In the <b>DataService</b> section, you want to make sure that the MQTT communication is automatically established when Kura starts, by setting <b>connect.auto-on-startup</b> to true,</li>
+        <li>Finally, you have to change the prefix of the MQTT topic for the data related to the greenhouse. In the <b>Greenhouse Publisher</b> section, set <b>publish.appTopicPrefix</b> to whatever seems like a good name for your greenhouse (e.g. <i>javaonedemo/bob-greenhouse</i>)!</li>
+    </ul>
+    <p><b>Communicating with the greenhouse remotely</b>
+    </p>
+    <p>Now that Kura and our Greenhouse application are properly configured, the current temperature is actually published over MQTT, and it&rsquo;s also possible to toggle the LED by publishing a message on a specific topic.</p>
+    <p>The easiest way for you to control your now IoT-ized Raspberry Pi + greenhouse combo is to use a Web UI available at <b><u>XXX</u></b> that uses MQTT over WebSockets to display the temperature and control the LED.</p>
+    <p>Simply replace the end of the URL with the topic prefix you picked earlier (for the example earlier, the URL would be
+        <a href="http://198.27.66.207:8081/app/#/greenhouses/remote/bob-greenhouse)"></a>http://198.27.66.207:8081/app/#/greenhouses/remote/bob-greenhouse)</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1410350332293_angular-remote.png' />
+    </p>
+    <p></p>
+    <p>Hopefully, you&rsquo;re now more familiar with Kura, and we encourage you to play around with the Web UI to learn more about its capabilities in terms of network management, device-to-cloud communication, etc.</p>
+    <p>If you&rsquo;d like to actually use the Kura application framework to develop your own IoT application, please keep on reading as we will go through the detailed steps you should follow in order to develop the same Greenhouse application you&rsquo;ve just installed.</p>
+    <p></p>
+    <h2>Writing the greenhouse controller code</h2>
+    <p><b>General architecture</b>
+    </p>
+    <p>At the heart of the OSGi programming model are Services. The OSGi framework allows modules (<i>bundles</i>, in the OSGi terminology) to register services in a centralized service registry, as well as obviously consume those services.&nbsp;</p>
+    <p>Services are POJOs that implement an interface. When a service producer registers a POJO <i>FooImpl</i> implementing a specific interface <i>IFoo</i>, it is basically telling the OSGi container: &quot;Here&rsquo;s an implementation of IFoo, in case you&rsquo;re interested&quot; ; a service consumer may then later ask the OSGi framework for an implementation of <i>IFoo,</i> in which case it&rsquo;s likely it will retrieve <i>FooImpl </i>but with no knowledge whatsoever of this actual implementation being a <i>FooImpl. </i>All that matters indeed is to have a mechanism for modules to expose or consume services, without leaking any implementation details.</p>
+    <p></p>
+    <p>So what should be the services that need to be available if we are to build a greenhouse controller, exposing sensor data over both MQTT and CoAP? Actually, we will need only two very simple ones:</p>
+    <ul>
+        <li><b>SensorService</b>, whose role will be to provide an API for reading sensor data (e.g. temperature), and changing the state of actuators (e.g. LED). We will want to register to the OSGi framework an implementation of the SensorService that knows how to manipulate GPIOs and I2C and will actually allow interactions with the sensors and actuators.</li>
+        <li><b>SensorChangedListener</b>, whose role will be to allow data consumers to be notified of changes in the current values of the greenhouse sensors. We will want our components in charge of MQTT and CoAP communication to register themselves as <i>SensorChangedListener</i>s.</li>
+    </ul>
+    <ul class="task">
+        <li><b><u>TODO ARCHITECTURE DIAGRAM</u></b>
+        </li>
+    </ul>
+    <p><b>Setting up the development environment</b>
+    </p>
+    <p></p>
+    <p>We are going to use Eclipse to write the Java code that will run on Kura and the Raspberry Pi.</p>
+    <p>The best way for you to setup your development environment is to follow the<a href='https://wiki.eclipse.org/Kura/Getting_Started' />instructions on the Kura wiki</a>. Once you have your Eclipse IDE properly configured with the Kura source code, you&rsquo;re all set to start writing bundles that will use Kura API and run inside Kura.</p>
+    <ul class="comment">
+        <li>&nbsp;TODO consider documenting how to import the &quot;Kura workspace&quot; instead of following the getting started on the wiki</li>
+    </ul>
+    <p><i><u>Note:</u></i> the steps in this tutorial are easier to follow if you are using the Eclipse IDE indeed, but there is no strong requirement for doing so: you can use the IDE of your choice – or no IDE at all!</p>
+    <p></p>
+    <p><b>Step 1 – Declare our services interfaces</b>
+    </p>
+    <p></p>
+    <p>We will start by developing an OSGi bundle that only contains the API (i.e. Java interfaces) for our greenhouse: the <b>SensorService</b> and <b>SensorChangedListener</b> described earlier.</p>
+    <p>As a general best practice, we are going to put all our bundles in a common namespace, therefore all our bundles symbolic names and Java packages will begin with the &quot;<b>org.eclipse.iot.greenhouse.</b>&quot; prefix.</p>
+    <p></p>
+    <undefined>
+        <li><b>New plug-in/bundle project</b>
+        </li>
+    </undefined>
+    <p>Using the Eclipse Plug-in Development Environment (PDE), we will create a new Plug-in project</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406554903279_undefined' />
+    </p>
+    <p>As mentioned earlier, we will keep all our bundles in a consistent namespace. Use &quot;org.eclipse.iot.greenhouse.sensors&quot; as the name of this first bundle project.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377391300_hackpad.com_9EkDXF5JhoD_p.png' />
+    </p>
+    <p></p>
+    <p>Make sure to target a &quot;standard&quot; OSGi framework: we don&rsquo;t want our bundle to depend on any Eclipse or Equinox API, and rather be compatible with any implementation of OSGi – and there are many: Apache Felix, Concierge, etc.</p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377436180_hackpad.com_9EkDXF5JhoD_p2.png' />
+    </p>
+    <p></p>
+    <p>Here we are making sure that we pick up a version number lesser than 1.0.0, since a version number of 1.0.0 would theoretically mean that our API is rock solid, which is probably not the case... yet!&nbsp;</p>
+    <p>The other important thing is to <b><u>un</u></b>check the &quot;Generate an activator...&quot; option: we don&rsquo;t really need an Activator class since we are going to rely on OSGi Declarative Services instead to manage the lifecycle of our bundle and associated services.</p>
+    <p>We can now click &quot;<b>Finish</b>&quot;!</p>
+    <p></p>
+    <p>We now have a new Java project in our workspace that happens to also be ready for OSGi bundle development. You&rsquo;ll notice that the MANIFEST.MF file was automatically opened ; an OSGi bundle is really just a regular JAR file containing Java code and resources, along with a custom Manifest.</p>
+    <p></p>
+    <p>We really want to do two simple things in this first bundle: declare the Java interfaces for the <b>SensorService</b> and <b>SensorChangedListener</b>, and make them available (i.e. export them) to other bundles so as possible service consumers or producers can import it to either use them (consumers) or implement them (producers).</p>
+    <p></p>
+    <undefined>
+        <li><b>Declare SensorService and SensorChangedListener interfaces</b>
+        </li>
+    </undefined>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406624782967_undefined' />
+    </p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406624879475_undefined' />
+    </p>
+    <p></p>
+    <p><b><u>SensorService</u></b><u> source code:</u>
+    </p>
+
+<pre class="line-numbers"><code class="language-java">package org.eclipse.iot.greenhouse.sensors;
+
+public interface SensorService {
+    class NoSuchSensorOrActuatorException extends Exception {
+        private static final long serialVersionUID = 2612352095893222404L;
+    };
+
+    /**
+     * Returns the current value of the sensor <code>sensorName</code>
+     * 
+     * @param sensorName
+     *            name of the sensor to retrieve a value for
+     * @return sensorName’s current value
+     * @throws NoSuchSensorOrActuatorException
+     */
+    Object getSensorValue(String sensorName)
+            throws NoSuchSensorOrActuatorException;
+
+    /**
+     * Updates the state of the actuator <code>actuatorName</code>
+     * 
+     * @param actuatorName
+     *            name of the sensor to update
+     * 
+     * @param value
+     *            new value for the actuator
+     * @throws NoSuchSensorOrActuatorException
+     */
+    void setActuatorValue(String actuatorName, Object value)
+            throws NoSuchSensorOrActuatorException;
+}</code></pre>
+
+    <p></p>
+    <p><b><u>SensorChangedListener</u></b><u> source code:</u>
+    </p>
+<pre><code class="language-java">package org.eclipse.iot.greenhouse.sensors;
+
+public interface SensorChangedListener {
+&nbsp;&nbsp;&nbsp; /**
+&nbsp;&nbsp;&nbsp;&nbsp; * Callback called when the sensor value has been updated do to an external
+&nbsp;&nbsp;&nbsp;&nbsp; * event
+&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; * @param newValue
+&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new sensor value
+&nbsp;&nbsp;&nbsp;&nbsp; */
+&nbsp;&nbsp;&nbsp; void sensorChanged(String sensorName, Object newValue);
+}</code></pre>
+    <undefined>
+        <li><b>Export the service interfaces</b>
+        </li>
+    </undefined>
+    <p>When a bundle is first installed in an OSGi runtime, its MANIFEST.MF is scanned to determine, among other things, what packages it&rsquo;s making visible to other bundles, as well as possible dependencies to other bundles or packages.</p>
+    <p>Therefore, we need to use the Manifest editor to indicate the the package containing our two freshly created interfaces should be exported. This is done from the &quot;Runtime / Exported Packages&quot; section of the editor, as depicted below.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408373558542_hackpad.com_9EkDXF5JhoD_p.189956_1406627378268.png' />
+    </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406627251385_undefined' />
+    </p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406627268787_undefined' />
+    </p>
+    <p></p>
+    <p>In the &quot;Properties...&quot; of the exported package, we want to add a version number. A good practice is to start versioning the packages contained in a bundle with the same version number as the bundle itself. You may refer to<a href='http://www.osgi.org/wiki/uploads/Links/SemanticVersioning.pdf' />this whitepaper</a>on OSGi versioning best practices if you want to learn more on this topic.</p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406627959147_undefined' />
+    </p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406628002516_undefined' />
+    </p>
+    <p></p>
+    <p>You can now save the Manifest and close the editor – you&rsquo;ve successfully written your first OSGi bundle!&nbsp;</p>
+    <p>It is not bringing anything fancy in terms of actual code, but it provides the appropriate granularity for other bundles to reuse the interfaces we provide without having to depend on a JAR with vaguely defined dependencies, as it could be the case should we have relied on Java only. We can&rsquo;t stress this enough: in an OSGi context, every single dependency to a class or an interface <b>has to be declared in the Manifest </b>; it prevents the so-called <i>JAR Hell syndrome</i> where you have bugs at runtime because some classes can&rsquo;t be found, or are available in different versions and you don&rsquo;t really know which one gets loaded in the context of your code.</p>
+    <p></p>
+    <p>The next step for us is to provide an actual implementation of the SensorService, and make it available as an OSGi service.</p>
+    <p></p>
+    <p><b>Step 2 – Implementation of the SensorService using Pi4J</b>
+    </p>
+    <p></p>
+    <undefined>
+        <li><b>Create an org.eclipse.iot.greenhouse.sensors.raspberrypi bundle</b>
+        </li>
+    </undefined>
+    <p>Similarly to what we did in <b>Step 1</b>, create an <b>org.eclipse.iot.greenhouse.sensors.raspberrypi</b> bundle.</p>
+    <p></p>
+    <undefined>
+        <li><b>Download Pi4J</b>
+        </li>
+    </undefined>
+    <p>In order to be able to manipulate the GPIOs of the Raspberry Pi and therefore the sensors we&rsquo;ve attached to it, we need support from an external Java library that happens to include some native code as well. Although GPIOs are indeed accessible over what looks like a regular filesystem, it&rsquo;s better to have support from native code to do things like live monitoring of changes in the state of an input that require calls to Linux <i>sysfs</i> API.</p>
+    <p></p>
+    <p><a href='http://pi4j.com/' />Pi4J</a>is an open-source project that provides a Java API for accessing all the GPIOs of your Raspberry Pi, coupled with the native code required for sysfs calls. We are going to package Pi4J in its own dynamic library (.so file) together with the Java API, so as it can be found at runtime when we will want to invoke<a href='http://pi4j.com/apidocs/index.html' />Pi4J API</a>.&nbsp;</p>
+    <p></p>
+    <p>Pi4J files can be downloaded at
+        <a href="https://code.google.com/p/pi4j/downloads/list"></a>https://code.google.com/p/pi4j/downloads/list. Download, and unzip somewhere on your filesystem, the <b>pi4j-0.0.5.zip</b> file.</p>
+    <p><i><u>Note:</u></i> in this tutorial we are using Pi4J 0.0.5 but version 1.0.0 should work too.&nbsp;</p>
+    <p></p>
+    <undefined>
+        <li><b>Add Pi4J to the bundle&rsquo;s classpath</b>
+        </li>
+    </undefined>
+    <p>Create a <b>libs/</b> folder in your bundle, and copy the following 3 files (from the pi4j-0.0.5.zip file) in it:</p>
+    <ul>
+        <li>pi4j-core.jar</li>
+        <li>pi4j-device.jar</li>
+        <li>pi4j-gpio-extension.jar</li>
+    </ul>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408457755608_libs.png' />
+    </p>
+    <p></p>
+    <p>The <b>pi4j-core.jar</b> file already wraps the native library that deals with sysfs, so what we just need to do now, is add the three JAR files to the bundles&rsquo; classpath. This is done from the &quot;<b>Runtime</b>&quot; tab of the Manifest editor.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408457733142_Capture decran 2014-08-19 a 16.15.17.png' />
+    </p>
+    <p></p>
+    <p>You MANIFEST.MF file should now look very similar to:</p>
+    <p></p>
+    <ul class="code">
+        <li>Manifest-Version: 1.0</li>
+        <li>Bundle-ManifestVersion: 2</li>
+        <li>Bundle-Name: Raspberrypi Sensors</li>
+        <li>Bundle-SymbolicName: org.eclipse.iot.greenhouse.sensors.raspberrypi</li>
+        <li>Bundle-Version: 0.1.0.qualifier</li>
+        <li>Bundle-RequiredExecutionEnvironment: JavaSE-1.7</li>
+        <li>Bundle-ClassPath: libs/pi4j-core.jar,</li>
+        <li>&nbsp;libs/pi4j-device.jar,</li>
+        <li>&nbsp;libs/pi4j-gpio-extension.jar,</li>
+        <li>&nbsp;.</li>
+    </ul>
+    <undefined>
+        <li><b>Import the SensorService interface definition</b>
+        </li>
+    </undefined>
+    <p>From now on, we are able to write Java code that can use the Pi4J classes. What we actually want to do is provide an implementation of the SensorService we&rsquo;ve declared in <b>Step 1</b>.&nbsp;</p>
+    <p>First, make sure that your bundle imports the Java package containing the definition of the SensorService interface, by adding the following line to your MANIFEST.MF (you can also use the &quot;Dependencies&quot; tab of the Manifest editor). We also want to import <b>org.slf4j</b> to be able to do logging.</p>
+    <p></p>
+    <ul class="code">
+        <li>Manifest-Version: 1.0</li>
+        <li>Bundle-ManifestVersion: 2</li>
+        <li>Bundle-Name: Raspberrypi Sensors</li>
+        <li>Bundle-SymbolicName: org.eclipse.iot.greenhouse.sensors.raspberrypi</li>
+        <li>Bundle-Version: 0.1.0.qualifier</li>
+        <li>Bundle-RequiredExecutionEnvironment: JavaSE-1.7</li>
+        <li>Bundle-ClassPath: libs/pi4j-core.jar,</li>
+        <li>&nbsp;libs/pi4j-device.jar,</li>
+        <li>&nbsp;libs/pi4j-gpio-extension.jar,</li>
+        <li>&nbsp;.</li>
+        <li><b>Import-Package: org.eclipse.iot.greenhouse.sensors,</b>
+        </li>
+        <li><b>&nbsp;org.slf4j;version=&quot;1.6.4&quot;</b>
+        </li>
+    </ul>
+    <undefined>
+        <li><b>Implement a SensorService using Pi4J</b>
+        </li>
+    </undefined>
+    <p>Create a new class that implements the SensorService interface, using the &quot;New Java Class&quot; (File &gt; New &gt; Class) wizard.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408461303142_new-java-class.png' />
+    </p>
+    <p></p>
+    <p>Obviously, we need to provide an implementation for both <b>getSensorValue()</b> and <b>setActuatorValue()</b> methods, but first let&rsquo;s initialize a bunch of Pi4J objects that will allow to actually talk &quot;I2C&quot; and &quot;digital IO&quot;. We&rsquo;re going to do this in the <b>activate()</b> method since later on, when we will expose <b>Pi4JGreenhouseSensorService</b> as an OSGi Declarative Service, this method will be automatically called by the framework.</p>
+    <p></p>
+    <ul class="code">
+        <li>package org.eclipse.iot.greenhouse.sensors.raspberrypi;</li>
+        <li>
+            <br/>
+        </li>
+        <li>import java.io.IOException;</li>
+        <li>
+            <br/>
+        </li>
+        <li>import org.eclipse.iot.greenhouse.sensors.SensorService;</li>
+        <li>import org.slf4j.Logger;</li>
+        <li>import org.slf4j.LoggerFactory;</li>
+        <li>
+            <br/>
+        </li>
+        <li>import com.pi4j.io.gpio.GpioController;</li>
+        <li>import com.pi4j.io.gpio.GpioFactory;</li>
+        <li>import com.pi4j.io.gpio.GpioPinDigitalMultipurpose;</li>
+        <li>import com.pi4j.io.gpio.PinMode;</li>
+        <li>import com.pi4j.io.gpio.RaspiPin;</li>
+        <li>import com.pi4j.io.i2c.I2CBus;</li>
+        <li>import com.pi4j.io.i2c.I2CDevice;</li>
+        <li>import com.pi4j.io.i2c.I2CFactory;</li>
+        <li>
+            <br/>
+        </li>
+        <li>public class Pi4JGreenhouseSensorService implements SensorService {</li>
+        <li>&nbsp;&nbsp;&nbsp; private static final Logger _logger = LoggerFactory</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .getLogger(Pi4JGreenhouseSensorService.class);</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp; private I2CBus _i2cbus;</li>
+        <li>&nbsp;&nbsp;&nbsp; private I2CDevice _temperatureSensor;</li>
+        <li>&nbsp;&nbsp;&nbsp; private GpioController _gpioController;</li>
+        <li>&nbsp;&nbsp;&nbsp; private GpioPinDigitalMultipurpose _lightActuator;</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp; protected void activate() {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _gpioController = GpioFactory.getInstance();</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _i2cbus = I2CFactory.getInstance(I2CBus.BUS_1);</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _temperatureSensor = _i2cbus.getDevice(0x40);</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _lightActuator = _gpioController.provisionDigitalMultipurposePin(</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RaspiPin.GPIO_00, &quot;led&quot;, PinMode.DIGITAL_OUTPUT);</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _lightActuator.setShutdownOptions(true); // unexport the pin on</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // shutdown</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } catch (IOException e) {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _logger.error(&quot;Activation failed&quot;, e);</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</li>
+        <li>&nbsp;&nbsp;&nbsp; }</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp; @Override</li>
+        <li>&nbsp;&nbsp;&nbsp; public Object getSensorValue(String sensorName)</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throws NoSuchSensorOrActuatorException {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // TODO Auto-generated method stub</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return null;</li>
+        <li>&nbsp;&nbsp;&nbsp; }</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp; @Override</li>
+        <li>&nbsp;&nbsp;&nbsp; public void setActuatorValue(String actuatorName, Object value)</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throws NoSuchSensorOrActuatorException {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // TODO Auto-generated method stub</li>
+        <li>
+            <br/>
+        </li>
+        <li>&nbsp;&nbsp;&nbsp; }</li>
+        <li>
+            <br/>
+        </li>
+        <li>}</li>
+    </ul>
+    <p>The simplest method to implement now would be <b>setActuatorValue()</b>: if the actuatorName is &quot;light&quot;, we want to toggle the state of _lightActuator GPIO depending on &quot;<b>value</b>&quot; (&quot;on&quot; or &quot;off&quot;):</p>
+    <ul class="code">
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Override</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public void setActuatorValue(String actuatorName, Object value)</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throws NoSuchSensorOrActuatorException {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (&quot;light&quot;.equals(actuatorName)) {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _lightActuator.setState(&quot;on&quot;.equals(value));</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throw new SensorService.NoSuchSensorOrActuatorException();</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</li>
+    </ul>
+    <ul class="comment">
+        <li>&nbsp;blah blah getSensorValue</li>
+    </ul>
+    <undefined>
+        <li><b>Register a SensorService</b>
+        </li>
+    </undefined>
+    <p>&nbsp;Now that we&rsquo;ve finished implementing a SensorService based on Pi4J, you might wonder how we&rsquo;re actually going to use it. If you remember our introduction to the <b>General architecture (XXX cross reference)</b> of our application, you also remember that OSGi allows bundle to expose services. We&rsquo;re going to do just that and use so-called Declarative Services to tell the framework that our very own <b>Pi4JGreenhouseSensorService</b> should be registered as a service providing an implementation of <b>SensorService</b>, available for any bundle to consume.&nbsp;</p>
+    <p>&nbsp;A declarative service is an XML file that describes a software component which is a Java class. The XML file tells the OSGi framework to take care of instantiating the class for us (it should sound familiar if you come from a Spring background), as well as what interfaces should be made available as services and/or what services should be injected in the component (again, very Spring-like).</p>
+    <p>&nbsp;By convention, the XML file(s) for a bundle&rsquo;s component(s) are located in a folder named <b>OSGI-INF</b>, that you should create using the &quot;New &gt; Folder&quot; wizard:</p>
+    <p>&nbsp;
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408536877621_OSGI-INF folder.png' />
+    </p>
+    <p>&nbsp;Next, use the &quot;<b>New &gt; Other& &gt; Component Defintion</b>&quot; wizard to create the XML file corresponding to the declaration of our <b>Pi4JGreenhouseSensorService</b> to the framework</p>
+    <p>&nbsp;
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408537398211_new-comp-def.png' />
+    </p>
+    <p>&nbsp;&nbsp; In the next step, the name of the XML file is of little importance, but you want to make sure to:</p>
+    <ul>
+        <li>Put it in the proper folder (<b>OSGI-INF/</b>)</li>
+        <li>Use the &quot;Browse...&quot; button to select the class that we want to declare a Component for: <b>Pi4JGreenhouseSensorService</b>.</li>
+        <li>That&rsquo;s all, you can click &quot;<b>Finish</b>&quot;!</li>
+    </ul>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408537998943_new-comp-def-2.png' />&nbsp;&nbsp;&nbsp;</p>
+    <p>Eclipse features a nice graphical editor for component definition files that should have just opened when you finished the previous wizard. At this stage, the XML file only contains the name of the component&rsquo;s class, <b>Pi4JGreenhouseSensorService</b>, which is enough for the OSGi framework to know that it should instantiate the class for us. Now we want to use the graphical editor to also tell that the <b>Pi4JGreenhouseSensorService</b> should be registered as an implementation of the <b>SensorService </b>service.</p>
+    <p>Rather intuitively, use the &quot;<b>Provided Services</b>&quot; section of the &quot;<b>Services</b>&quot; tab in the editor to add <b>SensorService</b> to the list of provided services.</p>
+    <p></p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408538882436_provided-services.png' />
+    </p>
+    <p>&nbsp;&nbsp;&nbsp;</p>
+    <p>You may remember the <b>activate()</b> method that we&rsquo;ve added to our <b>Pi4JGreenhouseSensorService</b> implementation ; luckily, this method is automatically called by the OSGi runtime the first time the component is instantiated. For the sake of completeness, you might be interested in knowing that you can tell the framework to use a custom activate (and/or deactivate) method by providing its name in the &quot;Overview&quot; tab of the Component Definition editor.</p>
+    <p>&nbsp;&nbsp;&nbsp;</p>
+    <undefined>
+        <li>Notify SensorChangedListeners</li>
+    </undefined>
+    <p>The SensorService implementation is now properly published, but wouldn&rsquo;t it be nice to notify all the SensorChangedListeners when a change occurs in a sensor&rsquo;s values.</p>
+    <ul class="comment">
+        <li>XXX</li>
+    </ul>
+    <p></p>
+    <p>At this point, we have a SensorService available for any bundle to consume. This is great since it means that we are now just a few steps aways from consuming the sensors data coming from this service, and publishing it using MQTT.</p>
+    <p></p>
+    <p><b>Step 3 – Expose sensors/actuators over MQTT using Kura&rsquo;s DataService</b>
+    </p>
+    <p>It&rsquo;s now time to create our third bundle, that will get sensor data from the SensorService we&rsquo;ve just implemented, and leverage Kura&rsquo;s built-in DataService to actually publish this data to an MQTT broker, as well as listen to commands to turn the light on or off.</p>
+    <p></p>
+    <undefined>
+        <li><b>Create an org.eclipse.iot.greenhouse.publisher bundle</b>
+        </li>
+    </undefined>
+    <p>Similarly to what we did in <b>Step 1</b> and <b>Step 2</b>, create an <b>org.eclipse.iot.greenhouse.publisher</b> bundle.</p>
+    <p></p>
+    <undefined>
+        <li><b>Import the Java packages we need</b>
+        </li>
+    </undefined>
+    <p>Just like in step 2, we need to import the <b>org.eclipse.iot.greenhouse.sensors </b>package (only this time we&rsquo;re not going to implement a SensorService, but rather just use it), along with <b>org.slf4j</b> and the packages containing providing the classes needed to use Kura&rsquo;s <b>DataService</b>, namely:&nbsp;&nbsp;</p>
+    <ul>
+        <li><b>org.eclipse.kura</b> – this package contains general purpose classes like KuraException, etc.</li>
+        <li><b>org.eclipse.kura.data</b> – this package contains the actual <b>DataService</b>.</li>
+    </ul>
+    <p>You should end up with a MANIFEST.MF looking like this:</p>
+    <ul class="code">
+        <li>Manifest-Version: 1.0</li>
+        <li>Bundle-ManifestVersion: 2</li>
+        <li>Bundle-Name: Greenhouse Publisher</li>
+        <li>Bundle-SymbolicName: org.eclipse.iot.greenhouse.publisher</li>
+        <li>Bundle-Version: 0.1.0.qualifier</li>
+        <li>Bundle-RequiredExecutionEnvironment: JavaSE-1.7</li>
+        <li>Import-Package: org.eclipse.iot.greenhouse.sensors,</li>
+        <li>&nbsp;org.eclipse.kura;version=&quot;0.2.0&quot;,</li>
+        <li>&nbsp;org.eclipse.kura.data;version=&quot;0.2.0&quot;,</li>
+        <li>&nbsp;org.slf4j;version=&quot;1.6.4&quot;</li>
+        <li>Service-Component: src/component.xml</li>
+    </ul>
+    <undefined>
+        <li><b>Write the class in charge of publishing sensor data using MQTT</b>
+        </li>
+    </undefined>
+    <p>This is the first time we&rsquo;re going to actually consume a service. What we want is to create a new OSGi component that will (as we&rsquo;ve already seen in Step 2) be instantiated for us by the framework, but also will get a SensorService instance injected.</p>
+    <p>Using the &quot;<b>New &gt; Class</b>&quot; wizard, create a new class called <b>GreenhousePublisher</b>.&nbsp;</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408979909198_new-class-greenhouse-publisher.png' />
+    </p>
+    <p></p>
+    <p>The SensorService will be injected by OSGi but we need to provide the setters and getters that the framework will call, therefore you should declare a SensorService attribute along with a setter and an unsetter method that the framework will call when a SensorService becomes available and respectively when no SensorService is available anymore.&nbsp;</p>
+    <ul class="code">
+        <li>package org.eclipse.iot.greenhouse.publisher;</li>
+        <li>import org.eclipse.iot.greenhouse.sensors.SensorService;</li>
+        <li>public class GreenhousePublisher {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private SensorService _sensorService;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; protected void setSensorService(SensorService sensorService) {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _sensorService = sensorService;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; protected void unsetSensorService(SensorService sensorService) {</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _sensorService = null;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</li>
+        <li>}</li>
+    </ul>
+    <p>Now is probably a good time to provide the XML file corresponding to the Component Definition of our <b>GreenhousePublisher</b>. Similarly to Step 2, use the &quot;<b>New &gt; Other& &gt; Component Defintion</b>&quot; wizard, and create a component definition for the <b>GreenhousePublisher</b> class</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408980278542_compdef-greenhouse-publisher.png' />
+    </p>
+    <p></p>
+    <p>From the &quot;<b>Services</b>&quot; tab of the editor, in the &quot;<b>References Services</b>&quot; section, add a reference to&nbsp;<b> SensorService</b> to the list of provided services. Don&rsquo;t forget to set the <i>bind</i> and <i>unbind</i> methods: naturally this must be the name of the setter and unsetter you&rsquo;ve created in the previous step.&nbsp;</p>
+    <p><b>GreenhousePublisher</b>&rsquo;s goal is to take sensor data and publish it using MQTT, so we&rsquo;re setting the cardinality for <b>SensorService</b> to 1..1: if there&rsquo;s no SensorService available, there won&rsquo;t be any data to send and the component should simply not be instantiated.</p>
+    <p>
+        <img src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408981959564_comp-greenhouse-publisher.png' />
+    </p>
+    <p>Your component definition should now look like this:</p>
+    <ul class="code">
+        <li>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</li>
+        <li>&lt;scr:component xmlns:scr=&quot;
+            <a href="http://www.osgi.org/xmlns/scr/v1.1.0"></a>http://www.osgi.org/xmlns/scr/v1.1.0&quot;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name=&quot;org.eclipse.iot.greenhouse.publisher&quot;&gt;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;implementation</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; class=&quot;org.eclipse.iot.greenhouse.publisher.GreenhousePublisher&quot; /&gt;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;reference bind=&quot;setSensorService&quot; cardinality=&quot;1..1&quot;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; interface=&quot;org.eclipse.iot.greenhouse.sensors.SensorService&quot;&nbsp;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name=&quot;SensorService&quot; policy=&quot;static&quot; unbind=&quot;unsetSensorService&quot; /&gt;</li>
+        <li>&lt;/scr:component&gt;</li>
+    </ul>
+    <p></p>
+    <p></p>
+    <p>Since the cardinality for the SensorService and the DataService are both <b>1..1</b>, the component will be activated if and only if a SensorService is available. Therefore, we can&nbsp;</p>
+    <p></p>
+    <p><b>Step 4 – Expose sensors/actuators over CoAP using Eclipse Californium</b>
+    </p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <h2>Going further</h2>
+    <p></p>
+    <h3>Build your own greenhouse!</h3>
+    <p>Head over to<a href='http://www.thingiverse.com/thing:144791' />Thingiverse</a>and download the blueprints of the acrylic greenhouse below. With them, just use the online laser-cutting service of your choice or<a href='https://www.fablabs.io/map' />go to a local Fab Lab</a>to get all the pieces cut from a sheet of plexiglas! It shouldn&rsquo;t cost you more than $20.</p>
+    <p>
+        <img src='http://thingiverse-production.s3.amazonaws.com/renders/a2/da/2f/b4/01/untitled_preview_featured.jpg' />
+    </p>
+    <ul style="list-style: none;">
+        <li>
+            <br/>
+        </li>
+    </ul>
+    <h3>Retrieve the humidity</h3>
+    <p>Similarly to how we retrieved the temperature, you could refer to the<a href='http://www.hoperf.cn/upload/sensor/TH02_V1.1.pdf' />sensor&rsquo;s datasheet</a>to implement the proper I2C code to read the humidity. See in particular Section <b>3.1.1. Performing a Relative Humidity Measurement</b>.</p>
+    <p></p>
+    <p><b>Use other I2C sensors</b>
+    </p>
+    <p>The great thing with I2C sensors is that it&rsquo;s really easy to hook up several of them on the same host device. Just use your imagination and explore what you could do if you where to use a luminosity, barometric pressure, or carbon dioxide sensor!</p>
+    <p></p>
+    <p><b>Use Kura&rsquo;s CloudService to publish data</b>
+    </p>
+    <ul class="comment">
+        <li>&nbsp;TODO</li>
+    </ul>
+    <p><b>Setup a 6LoWPAN network</b>
+    </p>
+    <ul class="comment">
+        <li>TODO</li>
+    </ul>
+    <p></p>
+    <p></p>
+    <p></p>
+
+
+
+		
+		<hr>
+			<footer>
+				<ul class="nav nav-pills">
+				<li><a href="index.html">Home</a></li>
+					<li><a href="http://www.eclipse.org/legal/privacy.php"
+				target="_blank">Privacy Policy</a></li>
+					<li><a href="http://www.eclipse.org/legal/termsofuse.php"
+				target="_blank">Terms of Use</a></li>
+					<li><a href="http://www.eclipse.org/legal/copyright.php"
+				target="_blank">Copyright Agent</a></li>
+				<li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a></li>
+					<li><a href="contact.html" data-toggle="modal"
+				data-target="#contact-modal">Contact Us</a></li>
+					<li class="pull-right">Copyright © 2014 The Eclipse Foundation.
+				All Rights Reserved.</li>
+			</ul>
+		</footer>
+			<div id="contact-modal" class="modal hide fade" tabindex="-1"
+			role="dialog" aria-labelledby="contact-label" aria-hidden="true"
+		style="display: none;"></div>
+	</div>
+	<!-- /container -->
+
+	<!-- JS is at the end of the document so the pages load faster -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/bootstrap/bootstrap.min.js"></script>
+	<script src="/js/index.js"></script>
+
+	<script src="../js/prism.js"></script>
+
+
+</body>
+</html>

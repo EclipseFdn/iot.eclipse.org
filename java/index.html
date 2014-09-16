@@ -52,6 +52,16 @@
 		</div>
 	</div>
 
+	<!-- Place this tag after the last +1 button tag. -->
+	<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
 <div class="header">
 	<div class="container">
 		<div class="row">
@@ -60,7 +70,7 @@
 				<img src="images/logo-02.png" alt="">
 			</div>
 			<div class="span12">
-				<h1>Open IoT for <strong>Java Developers</strong></h1>
+				<h1>Open IoT stack for <strong>Java Developers</strong></h1>
 				<p>Eclipse IoT has the open source technology that makes it easy for Java developers to create IoT applications.</p>
 				<button>Get Started | <i class="fa fa-arrow-circle-right"></i></button>
 			</div>
@@ -74,7 +84,8 @@
 				<img src="images/icon-connect.jpg" alt="">
 				<h2><strong>Connect</strong> & <strong>Manage</strong></h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue rutrum sagittis. Vestibulum faucibus rutrum est, quis lobortis justo tristique sit amet. </p>
-				<button>Try it Now | <i class="fa fa-arrow-circle-right"></i></button>
+				<button>Learn More | <i class="fa fa-arrow-circle-right"></i></button>
+
 			</div>
 			<div class="span6">
 				<img src="images/icon-download.jpg" alt="">
@@ -93,8 +104,9 @@
 			<div class="span6">
 				<img src="images/icon-tutorial.jpg" alt="">
 				<h2>Do the <strong>Tutorial</strong></h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue rutrum sagittis. Vestibulum faucibus rutrum est, quis lobortis justo tristique sit amet. </p>
-				<button>Watch Now | <i class="fa fa-arrow-circle-right"></i></button>
+				<p>Is there any better way to get familiar with a technology than getting your hands dirty and code?<br/>
+				Follow our tutorial and learn about the Eclipse IoT stack for Java by example.</p>
+				<a href="resources/Using-Eclipse-Kura-MQTT-and-CoAP-to-build-a-smart-greenhouse.html"><button>Follow the Tutorial | <i class="fa fa-arrow-circle-right"></i></button></a>
 			</div>
 			<div class="span6">
 				<img src="images/icon-live.jpg" alt="">
@@ -121,8 +133,19 @@
 <div class="logos">
 	<div class="container">
 		<div class="row">
-			<div class="span12">
-				<img src="images/logo-eurotech.jpg" alt=""><img src="images/logo-ibm.jpg" alt=""><img src="images/logo-actuate.jpg" alt=""><img src="images/logo-sierra.jpg" alt=""><img src="images/logo-2lemetry.jpg" alt=""><img src="images/logo-axeda.jpg" alt=""><img src="images/logo-bitreactive.jpg" alt="">
+			<div class="span12" id="members">
+				<img src="/images/ecosystem/logo-2lemetry.png" width="120">
+				<img src="/images/ecosystem/logo-actuate.png" width="120">
+				<img src="/images/ecosystem/logo-axeda.png" width="120">
+<!-- 				<img src="/images/ecosystem/logo-bandxi.gif" width="120"> -->
+				<img src="/images/ecosystem/logo-bitreactive.png" width="120">
+				<img src="/images/ecosystem/logo-dcsquare.png" width="120">
+				<img src="/images/ecosystem/logo-eurotech.png" width="120">
+				<img src="/images/ecosystem/logo-ibh.png" width="120">
+				<img src="/images/ecosystem/logo-ibm.png" width="120">
+				<img src="/images/ecosystem/logo-m2m-alliance.png" width="120">
+				<img src="/images/ecosystem/logo-openhab.png" width="120">
+				<img src="/images/ecosystem/logo-sierra.png" width="120">
 			</div>
 		</div>
 	</div>
@@ -154,5 +177,15 @@
 	<!-- JS is at the end of the document so the pages load faster -->
 	<script src="/js/jquery.js"></script>
 	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="/js/shuffle.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#members').shuffle();
+    });
+  </script>
+
+
 </body>
 </html>

@@ -45,7 +45,7 @@ a{
 	list-style: none;
 }
 
-button{
+button {
 	font-family: 'Sanchez', serif;
 	color:#ffffff;
 	background-color: #75b01e;
@@ -57,7 +57,7 @@ button{
 	transition: background-color 0.3s ease;
 }
 
-button:hover{
+button:hover {
 	background-color:#5C9704;
 }
 
@@ -164,6 +164,14 @@ button i.fa{
 }
 
 /** added Benjamin **/
+
+#members {
+	text-align: center;
+}
+
+#members img {
+	margin: 1.5em 2em;
+}
 
 .container ul li {
 	margin-left: 0.8em;
