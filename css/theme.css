@@ -12,3 +12,7 @@
 tr + tr td {
 	border-top: none !important;
 }
+
+#wg-members.table td {
+	vertical-align: middle;
+}
