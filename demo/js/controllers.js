@@ -12,21 +12,12 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
         value: 0.0,
         timestamp: dateFormat(new Date())
     }
-    $scope.luminosity = {
-        value: 0.0,
-        timestamp: dateFormat(new Date())
-    }
-    $scope.humidity = {
-        value: 0.0,
-        timestamp: dateFormat(new Date())
+    $scope.light = {
+        value: 'off',
+        timestamp: dateFormat(new Date()),
     }
     $scope.webcam = {
         src: "http://benjamin-cabe.com:8082/index1.jpg"
-    }
-    $scope.roof = {
-        value: "TOGGLE",
-        img: "roof_OPEN.svg",
-        timestamp: dateFormat(new Date())
     }
 
     var client = new Messaging.Client("ws://iot.eclipse.org/ws", "clientId");
@@ -39,7 +30,7 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     function onConnect() {
         // Once a connection has been made, make a subscription and send a message.
         console.log("onConnect");
-        client.subscribe("greenhouse/LIVE/benjamin-bbb/data/#");
+        client.subscribe("javaonedemo/eclipse-greenhouse-ben/sensors/#");
     };
 
     function onConnectionLost(responseObject) {
@@ -65,16 +56,10 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     }
     //tick();
 
-    $scope.toggleRoof = function() {
-        var message = new Messaging.Message("-");
-        message.destinationName = "greenhouse/LIVE/benjamin-bbb/command/toggleRoof";
-        client.send(message);
-    }
-
     $scope.switchLight = function() {
         console.log('toggle');
-        var message = new Messaging.Message("-");
-        message.destinationName = "greenhouse/LIVE/benjamin-bbb/command/switchLight";
+        var message = new Messaging.Message(($scope.light.value === "on") ? "off" : "on") ;
+        message.destinationName = "javaonedemo/eclipse-greenhouse-ben/actuators/light";
         client.send(message);
     }
 }

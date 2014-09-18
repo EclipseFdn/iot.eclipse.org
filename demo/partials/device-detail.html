@@ -10,11 +10,10 @@
 
 	<div class="lead">
 		<p>
-			The demonstration below features a greenhouse connected to iot.eclipse.org's public <a href="/sandbox.html">MQTT broker</a> via an open hardware linux gateway (BeagleBone Black) running
-			an MQTT client.
+			The demonstration below features a greenhouse connected to iot.eclipse.org's public <a href="/sandbox.html">MQTT broker</a> via a Raspberry Pi gateway running <a href="https://eclipse.org/kura" target="_blank">Eclipse Kura</a>.
 		</p>
 		<p>
-			The user interface is using MQTT over WebSockets for displaying sensors data available on the broker, as well as to send a command for closing or opening the roof.
+			The user interface is using MQTT over WebSockets for displaying sensors data available on the broker, as well as to send a command for switching the LED on/off.
 		</p>
 
 	</div>
@@ -38,37 +37,13 @@
 			</li>
 			<li class="span3">
 				<div class="thumbnail" style="text-align: center">
-					<embed src="img/noun_project_868.svg" type="image/svg+xml"/>
-					<h1>
-						{{luminosity.value}}
-						<small>Lux</small>
-					</h1>
-					<p>
-						<small>{{luminosity.timestamp}}</small>
-					</p>
-				</div>
-			</li>
-			<li class="span3">
-				<div class="thumbnail" style="text-align: center">
-					<embed src="img/noun_project_122.svg" type="image/svg+xml"/>
+					<img src="img/noun_project_122_{{light.value}}.svg" type="image/svg+xml"/>
 					<h1>
 						<button class="btn btn-large" ng-click="switchLight();" onclick="_gaq.push(['_trackPageview', '/demo/switchLight']);"> <strong>TOGGLE</strong>
 						</button>
 					</h1>
 					<p>
-						<!-- <small>{{humidity.timestamp}}</small> -->
-					</p>
-				</div>
-			</li>
-			<li class="span3">
-				<div class="thumbnail" style="text-align: center">
-					<img src="img/{{roof.img}}" type="image/svg+xml"/>
-					<h1>
-						<button class="btn btn-large" ng-click="toggleRoof();" onclick="_gaq.push(['_trackPageview', '/demo/toggleRoof']);"> <strong>{{roof.value}}</strong>
-						</button>
-					</h1>
-					<p>
-						<!-- <small>{{roof.timestamp}}</small> -->
+						<small>&nbsp;</small>
 					</p>
 				</div>
 			</li>
