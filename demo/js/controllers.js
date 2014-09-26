@@ -20,7 +20,7 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
         src: "http://benjamin-cabe.com:8082/index1.jpg"
     }
 
-    var client = new Messaging.Client("ws://iot.eclipse.org/ws", "clientId");
+    var client = new Messaging.Client("ws://iot.eclipse.org/ws", "gh-" + new Date().getTime());
     client.onConnectionLost = onConnectionLost;
     client.onMessageArrived = onMessageArrived;
     client.connect({
@@ -34,8 +34,15 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     };
 
     function onConnectionLost(responseObject) {
-        if (responseObject.errorCode !== 0)
+        if (responseObject.errorCode !== 0) {
             console.log("onConnectionLost:" + responseObject.errorMessage);
+            console.log("Reconnecting... [" + new Date() + "]");
+            client.connect({
+                onSuccess: function() {
+                    client.subscribe("javaonedemo/eclipse-greenhouse-ben/sensors/#");
+                }
+            });
+        }
     };
 
     function onMessageArrived(message) {
