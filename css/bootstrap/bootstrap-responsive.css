@@ -252,6 +252,11 @@ h3 {
   text-indent: 0.3em;
 }
 
+#wg-members td,
+#sc-members td {
+  text-align: center;
+}
+
 .home-box i {
   display: block;
   width: 120px;
