@@ -599,6 +599,7 @@ ul.webinars-list li.past {
   display: block;
   float: left;
   width: 50%;
+  height: 36px;
   padding: 0;
   margin: 0;
   text-align: center;
