@@ -47,7 +47,7 @@
                     var style = "";
                     var showlogo = false;
 
-                    if (id == 'rt.ecf')
+                    if (id == 'rt.ecf' || id == 'tools.sequoyah.mtj' || id == "technology.koneki")
                         return true;
 
                     output += "<div class=\"span3 itembox\"" + style + ">";
