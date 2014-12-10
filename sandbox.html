@@ -1,164 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>iot.eclipse.org &mdash; Sandbox Server</title>
-<meta name="description"
-	content="iot.eclipse.org sandbox servers for quick testing of end-to-end M2M solutions">
-<meta name="author" content="Eclipse.org">
-<link rel="author" href="humans.txt" />
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-<!--[if lt IE 9]>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iot.eclipse.org &mdash; Sandbox Server</title>
+    <meta name="description" content="iot.eclipse.org sandbox servers for quick testing of end-to-end M2M solutions">
+    <meta name="author" content="Eclipse.org">
+    <link rel="author" href="humans.txt" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-<!-- Custom Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lekton:400,700'
-	rel='stylesheet' type='text/css'>
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
 
-<!-- Le styles -->
-<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="css/theme.css" rel="stylesheet">
-<link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Le styles -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
 
-<script type="text/javascript">
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-594061-11']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-594061-11']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 
 </head>
 
 <body>
 
 
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse"
-					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
-					class="icon-bar"></span> <span class="icon-bar"></span>
-				</a> <a class="brand" href="index.html">iot.eclipse.org</a>
-				<div class="nav-collapse">
-					<ul class="nav">
-						<li><a href="/frameworks.html">Services &amp; Frameworks</a></li>
-						<li><a href="/protocols.html">Protocols</a></li>
-						<li><a href="/tools.html">Tools</a></li>
-						<li><a href="/community.html">Community</a></li>
-						<li><a href="/ecosystem.html">Ecosystem</a></li>
-						<li class="dropdown active"> 
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-					            <li><a href="/demo" class="active">Live Demo</a></li>
-					            <li><a href="/sandbox.html">Sandbox</a></li>
-					        </ul>
-          				</li>
-						<li class="divider-vertical"></li>
-					</ul>
-					<ul class="nav pull-right">
-						<li>
-							<div style="padding-top: 20px;">
-								<div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<!--/.nav-collapse -->
-			</div>
-		</div>
-	</div>
-
-	<!-- Place this tag after the last +1 button tag. -->
-	<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </a> <a class="brand" href="index.html">iot.eclipse.org</a>
 
 
-	<div class="container">
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/frameworks.html">Services &amp; Frameworks</a>
+                                </li>
+                                <li><a href="/protocols.html">Protocols</a>
+                                </li>
+                                <li><a href="/tools.html">Tools</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="/java"><strong>Open IoT Stack for Java</strong></a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/community.html#projects">Projects</a>
+                                </li>
+                                <li><a href="/community.html#news">News</a>
+                                </li>
+                                <li><a href="/iot-challenge">Eclipse IoT Developer Challenge </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="/ecosystem.html">Ecosystem</a>
+                        </li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/demo">Live Demo</a>
+                                </li>
+                                <li class="active"><a href="/sandbox.html">Sandbox</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="nav pull-right">
+                        <li style="margin-left:0px;">
+                            <div style="padding-top: 20px">
+                                <div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+    (function() {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    })();
+    </script>
 
 
-		<div class="well">
-	      <div class="page-header">
-	        <h1>
+    <div class="container">
+
+
+        <div class="well">
+            <div class="page-header">
+                <h1>
 	          Sandboxes <small>Build your IoT solutions using our sandbox environments</small>
 	        </h1>
-	      </div>
+            </div>
 
-	      <div>
-	        <p class="lead">The IoT Working Group provides publically accesible servers for facilitating the development of IoT solutions. Refer to the details below in order to know how to connect your applications to our numerous services: MQTT, CoAP, LWM2M, &hellip;</p>
-	      </div>
-	    </div>
-
-
-		<!-- Example row of columns -->
-		<div class="row">
-
-			<div id="mqtt" class="span6">
-				<h2>MQTT</h2>
-				<p>You can make use of this <a href="http://mqtt.org/">MQTT</a> server with client code from the <a href="http://eclipse.org/paho/">Paho
-						project</a>, the Eclipse MQTT view from Paho, or from one of the other client APIs listed on the <a
-						href="http://mqtt.org/downloads">MQTT.org downloads</a> page.
-				</p>
-
-				<p>
-					Access the server using the hostname
-					<code>iot.eclipse.org</code>
-					and port
-					<code>1883</code>
-					.
-				</p>
-				<p>
-					Some live	statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its version 1.3.1.
-				</p>
-			</div>
+            <div>
+                <p class="lead">The IoT Working Group provides publically accesible servers for facilitating the development of IoT solutions. Refer to the details below in order to know how to connect your applications to our numerous services: MQTT, CoAP, LWM2M, &hellip;</p>
+            </div>
+        </div>
 
 
-        	<div id="coap" class="span6">
-				<h2>CoAP</h2>
-				<p>A CoAP server exposing test resources is available at: <code>coap://iot.eclipse.org:5683/</code>.</p>
-				<p>It should be used by anyone interested in testing a CoAP client implementation against another endpoint, and more generally by anyone interested in understanding the key concepts of the CoAP protocol.</p>
-				<p>
-					This server is running <a href="https://projects.eclipse.org/projects/technology.californium">Eclipse Californium</a>.
-				</p>
-			</div>
-		
-		</div>
-		<div class="row">
+        <!-- Example row of columns -->
+        <div class="row">
 
-        	<div id="lwm2m" class="span6">
-				<h2>Lightweight M2M (LWM2M)</h2>
-				<p>In order to test LWM2M communication scenarios, we host a LWM2M server.</p>
-				<p>You can make use of this server with the <a href="https://projects.eclipse.org/projects/technology.wakaama">Wakaama
+            <div id="mqtt" class="span6">
+                <h2>MQTT</h2>
+                <p>You can make use of this <a href="http://mqtt.org/">MQTT</a> server with client code from the <a href="http://eclipse.org/paho/">Paho
+						project</a>, the Eclipse MQTT view from Paho, or from one of the other client APIs listed on the <a href="http://mqtt.org/downloads">MQTT.org downloads</a> page.
+                </p>
+
+                <p>
+                    Access the server using the hostname
+                    <code>iot.eclipse.org</code> and port
+                    <code>1883</code> .
+                </p>
+                <p>
+                    Some live statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its version 1.3.1.
+                </p>
+            </div>
+
+
+            <div id="coap" class="span6">
+                <h2>CoAP</h2>
+                <p>A CoAP server exposing test resources is available at: <code>coap://iot.eclipse.org:5683/</code>.</p>
+                <p>It should be used by anyone interested in testing a CoAP client implementation against another endpoint, and more generally by anyone interested in understanding the key concepts of the CoAP protocol.</p>
+                <p>
+                    This server is running <a href="https://projects.eclipse.org/projects/technology.californium">Eclipse Californium</a>.
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div id="lwm2m" class="span6">
+                <h2>Lightweight M2M (LWM2M)</h2>
+                <p>In order to test LWM2M communication scenarios, we host a LWM2M server.</p>
+                <p>You can make use of this server with the <a href="https://projects.eclipse.org/projects/technology.wakaama">Wakaama
 						project</a>
-				</p>
+                </p>
 
-				<p>
-					The LWM2M server is available at: <code>coap://iot.eclipse.org:5684/</code>
-					<br>
-					A web interface allows to interact with registered LWM2M clients: <a href="http://iot.eclipse.org/lwm2m/"><code>http://iot.eclipse.org/lwm2m/</code></a>.
-				</p>
-				<p>
-					This server is running the Open Source <a href="http:///github.com/jvermillard/leshan">Leshan server</a>.
-				</p>
-			</div>
+                <p>
+                    The LWM2M server is available at: <code>coap://iot.eclipse.org:5684/</code>
+                    <br> A web interface allows to interact with registered LWM2M clients: <a href="http://iot.eclipse.org/lwm2m/"><code>http://iot.eclipse.org/lwm2m/</code></a>.
+                </p>
+                <p>
+                    This server is running the Open Source <a href="http:///github.com/jvermillard/leshan">Leshan server</a>.
+                </p>
+            </div>
 
-<!-- 
+            <!-- 
         	<div id="m3da" class="span6">
 				<h2>M3DA</h2>
                 <p>
@@ -183,41 +208,41 @@
 
  -->
 
-		</div>
+        </div>
 
 
-		<hr>
+        <hr>
 
-		<footer>
-			<ul class="nav nav-pills">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="http://www.eclipse.org/legal/privacy.php"
-					target="_blank">Privacy Policy</a></li>
-				<li><a href="http://www.eclipse.org/legal/termsofuse.php"
-					target="_blank">Terms of Use</a></li>
-				<li><a href="http://www.eclipse.org/legal/copyright.php"
-					target="_blank">Copyright Agent</a></li>
-				<li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a></li>
-				<li><a href="contact.html" data-toggle="modal"
-					data-target="#contact-modal">Contact Us</a></li>
-				<li class="pull-right">Copyright © 2013 The Eclipse Foundation.
-					All Rights Reserved.</li>
-			</ul>
-		</footer>
+        <footer>
+            <ul class="nav nav-pills">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/privacy.php" target="_blank">Privacy Policy</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/termsofuse.php" target="_blank">Terms of Use</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/copyright.php" target="_blank">Copyright Agent</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a>
+                </li>
+                <li><a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
+                </li>
+                <li class="pull-right">Copyright © 2013 The Eclipse Foundation. All Rights Reserved.</li>
+            </ul>
+        </footer>
 
-		<div id="contact-modal" class="modal hide fade" tabindex="-1"
-			role="dialog" aria-labelledby="contact-label" aria-hidden="true"
-			style="display: none;">
-			</div>
+        <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
+        </div>
 
-	</div>
-	<!-- /container -->
+    </div>
+    <!-- /container -->
 
-	<!-- JS is at the end of the document so the pages load faster -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
+    <!-- JS is at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 
 
 </body>
+
 </html>

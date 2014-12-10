@@ -1,372 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>iot.eclipse.org &mdash; Ecosystem</title>
-<meta name="description"
-	content="iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects">
-<meta name="author" content="Eclipse.org">
-<link rel="author" href="humans.txt" />
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-<!--[if lt IE 9]>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iot.eclipse.org &mdash; Ecosystem</title>
+    <meta name="description" content="iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects">
+    <meta name="author" content="Eclipse.org">
+    <link rel="author" href="humans.txt" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-<!-- Custom Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400'
-	rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lekton:400,700'
-	rel='stylesheet' type='text/css'>
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
 
-<!-- Le styles -->
-<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="css/theme.css" rel="stylesheet">
-<link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Le styles -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
 
-<script type="text/javascript">
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-594061-11']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-594061-11']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 </head>
 
 <body>
 
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse"
-					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
-					class="icon-bar"></span> <span class="icon-bar"></span>
-				</a> <a class="brand" href="index.html">iot.eclipse.org</a>
-				<div class="nav-collapse">
-					<ul class="nav">
-						<li><a href="/frameworks.html">Services &amp; Frameworks</a></li>
-						<li><a href="/protocols.html">Protocols</a></li>
-						<li><a href="/tools.html">Tools</a></li>
-						<li><a href="/community.html">Community</a></li>
-            <li class="active"><a href="/ecosystem.html">Ecosystem</a></li>
-            <li class="dropdown"> 
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="/demo" class="active">Live Demo</a></li>
-                <li><a href="/sandbox.html">Sandbox</a></li>
-              </ul>
-            </li>
-						<li class="divider-vertical"></li>
-					</ul>
-					<ul class="nav pull-right">
-						<li>
-							<div style="padding-top: 20px;">
-								<div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<!--/.nav-collapse -->
-			</div>
-		</div>
-	</div>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </a> <a class="brand" href="index.html">iot.eclipse.org</a>
 
-	<!-- Place this tag after the last +1 button tag. -->
-	<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-  </script>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/frameworks.html">Services &amp; Frameworks</a>
+                                </li>
+                                <li><a href="/protocols.html">Protocols</a>
+                                </li>
+                                <li><a href="/tools.html">Tools</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="/java"><strong>Open IoT Stack for Java</strong></a>
+                                </li>
+                            </ul>
+                        </li>
 
-	<div class="container">
-	
-		<div class="well">
-			<div class="page-header">
-				<h1>
-					Ecosystem <small>Learn more about the Eclipse IoT ecosystem!</small>
-				</h1>
-			</div>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/community.html#projects">Projects</a>
+                                </li>
+                                <li><a href="/community.html#news">News</a>
+                                </li>
+                                <li><a href="/iot-challenge">Eclipse IoT Developer Challenge </a>
+                                </li>
+                            </ul>
+                        </li>
 
-			<div>
-				<p class="lead">Eclipse IoT is a collaboration among organizations to create an open Internet of Things. These organizations provide a wide range of products and services built on top of Eclipse IoT technology, check out below to learn more!</p>
-			</div>
-		</div>
-		
-    <!-- Section heading -->
-   
-    <h2 class="section-title "><i class="icon-th-list"></i> | Products</h2>
-   
-    <h3>Steering committee members</h3>
+                        <li class="active"><a href="/ecosystem.html">Ecosystem</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/demo">Live Demo</a>
+                                </li>
+                                <li><a href="/sandbox.html">Sandbox</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
-    <div id="sc-members">
-      <!-- Eurotech -->
-      <div class="row members-info" id="member-eurotech">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=968">
-            <img src="images/ecosystem/logo-eurotech.png" alt="Eurotech"/>
-          </a>
+                    <ul class="nav pull-right">
+                        <li style="margin-left:0px;">
+                            <div style="padding-top: 20px">
+                                <div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+
+            </div>
         </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Eurotech</h4>
-            <p>Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.</p>
-   
-            <p>Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial. </p>
-          </div>
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.eurotech.com/en/products/software+services/everyware+software+framework/what+esf+is" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>
-
-      <!-- Sierra Wireless -->
-      <div class="row members-info" id="member-sierra">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=843">
-            <img src="images/ecosystem/logo-sierra.png" alt="Sierra Wireless"/>
-          </a>
-        </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Sierra Wireless</h4>
-            <p>Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry's most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.</p>
-            <p>Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.sierrawireless.com/productsandservices/AirVantage_M2M_Cloud.aspx" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://www.youtube.com/watch?v=_rizLAUgLSA" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>  
     </div>
 
-    <h3>Participating members</h3>
-    
-    <div id="other-members">
-      
-      <!-- 2lemetry -->
-      <div class="row members-info" id="member-2lemetry">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=1100">
-            <img src="images/ecosystem/logo-2lemetry.png" alt="2lemetry"/>
-          </a>
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+    (function() {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    })();
+    </script>
+
+    <div class="container">
+
+        <div class="well">
+            <div class="page-header">
+                <h1>
+          Ecosystem <small>Learn more about the Eclipse IoT ecosystem!</small>
+        </h1>
+            </div>
+
+            <div>
+                <p class="lead">Eclipse IoT is a collaboration among organizations to create an open Internet of Things. These organizations provide a wide range of products and services built on top of Eclipse IoT technology, check out below to learn more!</p>
+            </div>
         </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>2lemetry</h4>
-            <p>2lemetry is an IoT platform and solutions company that powers the connected enterprise, tying people, processes, data and devices together—transforming raw data into real-time actionable intelligence.</p>
 
-            <p>2lemetry's ThingFabric platform acts as an IoT version of Enterprise Application Integration (EAI) middleware solutions, providing device connectivity at scale, cross-communication, data brokering and storage. We also help companies make sense of the captured data by offering actionable data intelligence through predictive computational models and a configurable rules engine.<br/>
-            The ThingFabric platform has a unique protocol-agnostic architecture that enables native support of multiple protocols (like MQTT, CoAP, STOMP, and M3DA), even allowing the customer to upload their own homegrown, proprietary or legacy protocols.</p>
-            
-            <p>2lemetry actively contributes to the Paho project around objective-c and MQTT.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://2lemetry.com" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://vimeo.com/channels/521569" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>      
+        <!-- Section heading -->
 
-      <!-- Actuate -->
-      <div class="row members-info" id="member-actuate">
-        <div class="span4 mb-logo">
-          <a href="#">
-            <img src="images/ecosystem/logo-actuate.png" alt="Actuate"/>
-          </a>
+        <h2 class="section-title "><i class="icon-th-list"></i> | Products</h2>
+
+        <h3>Steering committee members</h3>
+
+        <div id="sc-members">
+            <!-- Eurotech -->
+            <div class="row members-info" id="member-eurotech">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=968">
+                        <img src="images/ecosystem/logo-eurotech.png" alt="Eurotech" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Eurotech</h4>
+                        <p>Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.</p>
+
+                        <p>Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial. </p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.eurotech.com/en/products/software+services/everyware+software+framework/what+esf+is" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=PXlDJMK7yqg" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Sierra Wireless -->
+            <div class="row members-info" id="member-sierra">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=843">
+                        <img src="images/ecosystem/logo-sierra.png" alt="Sierra Wireless" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Sierra Wireless</h4>
+                        <p>Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry's most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.</p>
+                        <p>Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.sierrawireless.com/productsandservices/AirVantage_M2M_Cloud.aspx" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=_rizLAUgLSA" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Actuate</h4>
-            <p> In 2004, Actuate co-founded -- and continues as its sole sponsor – the top-level Eclipse BIRT Project – an open source, Java-based IDE. BIRT is used as a workbench by more than 3.5 million developers around the globe, to reduce development time and significantly improve the efficacy of their customer-facing applications. BIRT has been downloaded over 13 million times since its inception. Please visit developer.actuate.com.</p>
- 
-            <p>On the commercial side, Actuate provides BIRT Designer Pro™ and BIRT iHub™ deployment software – to developers and IT departments of mid-size to global-brand enterprises, as well as to ISVs/OEMs. These organizations use BIRT to build scalable, secure solutions that provide valuable insights from data, and improve brand loyalty. These customers have delivered personalized analytics and insights to more than 200 million of their own customers, partners and employees.</p>
- 
-            <p>Actuate also offers BIRT Analytics™ self-service, predictive analytics software for business analysts and marketers to enhance customer engagement using Big Data. The Actuate Customer Communications Suite™ empowers organizations to easily transform, process, personalize, archive and deliver high volume content and individualized correspondence. The Actuate PDF Accessibility Appliance™ is used to convert PDFs into documents that vision-impaired customers can “read.” Actuate is headquartered in Silicon Valley with more than 5,000 enterprise customers in financial services, technology and government.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.actuate.com" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="http://blogs.actuate.com/creating-an-iot-dashboard-with-birt/" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>      
 
-      <!-- Axeda -->
-      <div class="row members-info" id="member-axeda">
-        <div class="span4 mb-logo">
-          <a href="#">
-            <img src="images/ecosystem/logo-axeda.png" alt="Axeda"/>
-          </a>
+        <h3>Participating members</h3>
+
+        <div id="other-members">
+
+            <!-- 2lemetry -->
+            <div class="row members-info" id="member-2lemetry">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=1100">
+                        <img src="images/ecosystem/logo-2lemetry.png" alt="2lemetry" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>2lemetry</h4>
+                        <p>2lemetry is an IoT platform and solutions company that powers the connected enterprise, tying people, processes, data and devices together—transforming raw data into real-time actionable intelligence.</p>
+
+                        <p>2lemetry's ThingFabric platform acts as an IoT version of Enterprise Application Integration (EAI) middleware solutions, providing device connectivity at scale, cross-communication, data brokering and storage. We also help companies make sense of the captured data by offering actionable data intelligence through predictive computational models and a configurable rules engine.
+                            <br/> The ThingFabric platform has a unique protocol-agnostic architecture that enables native support of multiple protocols (like MQTT, CoAP, STOMP, and M3DA), even allowing the customer to upload their own homegrown, proprietary or legacy protocols.</p>
+
+                        <p>2lemetry actively contributes to the Paho project around objective-c and MQTT.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://2lemetry.com" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://vimeo.com/channels/521569" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Actuate -->
+            <div class="row members-info" id="member-actuate">
+                <div class="span4 mb-logo">
+                    <a href="#">
+                        <img src="images/ecosystem/logo-actuate.png" alt="Actuate" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Actuate</h4>
+                        <p> In 2004, Actuate co-founded -- and continues as its sole sponsor – the top-level Eclipse BIRT Project – an open source, Java-based IDE. BIRT is used as a workbench by more than 3.5 million developers around the globe, to reduce development time and significantly improve the efficacy of their customer-facing applications. BIRT has been downloaded over 13 million times since its inception. Please visit developer.actuate.com.</p>
+
+                        <p>On the commercial side, Actuate provides BIRT Designer Pro™ and BIRT iHub™ deployment software – to developers and IT departments of mid-size to global-brand enterprises, as well as to ISVs/OEMs. These organizations use BIRT to build scalable, secure solutions that provide valuable insights from data, and improve brand loyalty. These customers have delivered personalized analytics and insights to more than 200 million of their own customers, partners and employees.</p>
+
+                        <p>Actuate also offers BIRT Analytics™ self-service, predictive analytics software for business analysts and marketers to enhance customer engagement using Big Data. The Actuate Customer Communications Suite™ empowers organizations to easily transform, process, personalize, archive and deliver high volume content and individualized correspondence. The Actuate PDF Accessibility Appliance™ is used to convert PDFs into documents that vision-impaired customers can “read.” Actuate is headquartered in Silicon Valley with more than 5,000 enterprise customers in financial services, technology and government.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.actuate.com" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="http://blogs.actuate.com/creating-an-iot-dashboard-with-birt/" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Axeda -->
+            <div class="row members-info" id="member-axeda">
+                <div class="span4 mb-logo">
+                    <a href="#">
+                        <img src="images/ecosystem/logo-axeda.png" alt="Axeda" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Axeda</h4>
+                        <p>Axeda provides the most advanced cloud-based service and software for managing connected products and machines and implementing innovative Machine-to-Machine (M2M) and Internet of Things (IoT) applications. Our customers use the Axeda Machine Cloud™ to turn machine data into valuable information, to build and run innovative M2M and IoT applications, and to optimize business processes by integrating machine data.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.axeda.com" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=VVS-4iWvqhE" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bitreactive -->
+            <div class="row members-info" id="member-bitreactive">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=1103">
+                        <img src="images/ecosystem/logo-bitreactive.png" alt="Bitreactive" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Bitreactive</h4>
+                        <p>Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.bitreactive.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="http://www.bitreactive.com/technology/" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bosch -->
+            <div class="row members-info" id="member-bosch">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=979">
+                        <img src="images/ecosystem/logo-bosch.png" alt="Bosch" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>Bosch Software Innovations GmbH</h4>
+                        <p>Bosch Software Innovations GmbH, the Bosch Group's software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.
+                            <br/> The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.
+                            <br/> In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.bosch.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- dc-square -->
+            <div class="row members-info" id="member-dcsquare">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=1122">
+                        <img src="images/ecosystem/logo-dcsquare.png" width="150" alt="dc-square" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>dc-square</h4>
+                        <p>dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.</p>
+
+                        <p>dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.hivemq.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="http://www.hivemq.com/demos/websocket-client/" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- IBH Systems -->
+            <div class="row members-info" id="member-ibh">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=1086">
+                        <img src="images/ecosystem/logo-ibh.png" alt="IBH Systems" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>IBH Systems</h4>
+                        <p>IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.</p>
+                        <p>Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://ibh-systems.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=UYlmzuwBV30" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- openHAB -->
+            <div class="row members-info" id="member-openhab">
+                <div class="span4 mb-logo">
+                    <a href="http://eclipse.org/membership/showMember.php?member_id=1120">
+                        <img src="images/ecosystem/logo-openhab.png" alt="openHAB" />
+                    </a>
+                </div>
+                <div class="span8 mb-info">
+                    <div class="mb-info-container">
+                        <h4>openHAB</h4>
+                        <p>openHAB UG (haftungsbeschränkt) is the company behind the open-source home automation solution openHAB and believes that an open-source stack is the only right answer for home gateways. openHAB UG therefore initiated the Eclipse SmartHome project and is the lead developer behind it.</p>
+
+                        <p>The Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access to devices and information and to facilitate different kinds of interactions with them.</p>
+                    </div>
+                    <ul class="mb-links clearfix">
+                        <li class="read-more"><a href="http://www.openhab.org/" target="_blank">Read more <i class="icon-chevron-right"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=ZCOQhe5KiD4" target="_blank">View Demo <i class="icon-eye-open"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Axeda</h4>
-            <p>Axeda provides the most advanced cloud-based service and software for managing connected products and machines and implementing innovative Machine-to-Machine (M2M) and Internet of Things (IoT) applications. Our customers use the Axeda Machine Cloud™ to turn machine data into valuable information, to build and run innovative M2M and IoT applications, and to optimize business processes by integrating machine data.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.axeda.com" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://www.youtube.com/watch?v=VVS-4iWvqhE" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>      
 
-      <!-- Bitreactive -->
-      <div class="row members-info" id="member-bitreactive">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=1103">
-            <img src="images/ecosystem/logo-bitreactive.png" alt="Bitreactive"/>
-          </a>
+        <hr>
+
+
+        <footer>
+            <ul class="nav nav-pills">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/privacy.php" target="_blank">Privacy Policy</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/termsofuse.php" target="_blank">Terms of Use</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/copyright.php" target="_blank">Copyright Agent</a>
+                </li>
+                <li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a>
+                </li>
+                <li><a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
+                </li>
+                <li class="pull-right">Copyright © 2013 The Eclipse Foundation. All Rights Reserved.</li>
+            </ul>
+        </footer>
+
+        <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
         </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Bitreactive</h4>
-            <p>Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.bitreactive.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="http://www.bitreactive.com/technology/" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>
 
-      <!-- Bosch -->
-      <div class="row members-info" id="member-bosch">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=979">
-            <img src="images/ecosystem/logo-bosch.png" alt="Bosch"/>
-          </a>
-        </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>Bosch Software Innovations GmbH</h4>
-            <p>Bosch Software Innovations GmbH, the Bosch Group's software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home. <br/>
-            The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.<br/>
-            In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.bosch.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li>&nbsp;</li>
-          </ul>        
-        </div>  
-      </div>
-
-      <!-- dc-square -->
-      <div class="row members-info" id="member-dcsquare">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=1122">
-            <img src="images/ecosystem/logo-dcsquare.png" width="150" alt="dc-square"/>
-          </a>
-        </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>dc-square</h4>
-            <p>dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.</p>
-
-            <p>dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.hivemq.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="http://www.hivemq.com/demos/websocket-client/" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>
-
-      <!-- IBH Systems -->
-      <div class="row members-info" id="member-ibh">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=1086">
-            <img src="images/ecosystem/logo-ibh.png" alt="IBH Systems"/>
-          </a>
-        </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>IBH Systems</h4>
-            <p>IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.</p>
-            <p>Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://ibh-systems.com/" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://www.youtube.com/watch?v=UYlmzuwBV30" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>
-       
-      <!-- openHAB -->
-      <div class="row members-info" id="member-openhab">
-        <div class="span4 mb-logo">
-          <a href="http://eclipse.org/membership/showMember.php?member_id=1120">
-            <img src="images/ecosystem/logo-openhab.png" alt="openHAB"/>
-          </a>
-        </div>
-        <div class="span8 mb-info">
-          <div class="mb-info-container">
-            <h4>openHAB</h4>
-            <p>openHAB UG (haftungsbeschränkt) is the company behind the open-source home automation solution openHAB and believes that an open-source stack is the only right answer for home gateways. openHAB UG therefore initiated the Eclipse SmartHome project and is the lead developer behind it.</p>
-
-            <p>The Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access to devices and information and to facilitate different kinds of interactions with them.</p>
-          </div>  
-          <ul class="mb-links clearfix">
-            <li class="read-more"><a href="http://www.openhab.org/" target="_blank">Read more <i class="icon-chevron-right"></i></a></li>
-            <li><a href="https://www.youtube.com/watch?v=ZCOQhe5KiD4" target="_blank">View Demo <i class="icon-eye-open"></i></a></li>
-          </ul>        
-        </div>  
-      </div>
-      
     </div>
-    
-		<hr>
+    <!-- /container -->
 
+    <!-- JS is at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/ecosystem.min.js"></script>
+    <script src="js/shuffle.js"></script>
 
-		<footer>
-			<ul class="nav nav-pills">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="http://www.eclipse.org/legal/privacy.php"
-					target="_blank">Privacy Policy</a></li>
-				<li><a href="http://www.eclipse.org/legal/termsofuse.php"
-					target="_blank">Terms of Use</a></li>
-				<li><a href="http://www.eclipse.org/legal/copyright.php"
-					target="_blank">Copyright Agent</a></li>
-				<li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a></li>
-				<li><a href="contact.html" data-toggle="modal"
-					data-target="#contact-modal">Contact Us</a></li>
-				<li class="pull-right">Copyright © 2013 The Eclipse Foundation.
-					All Rights Reserved.</li>
-			</ul>
-		</footer>
-
-		<div id="contact-modal" class="modal hide fade" tabindex="-1"
-			role="dialog" aria-labelledby="contact-label" aria-hidden="true"
-			style="display: none;">
-			</div>
-
-	</div>
-	<!-- /container -->
-
-	<!-- JS is at the end of the document so the pages load faster -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap/bootstrap.min.js"></script>
-	<script src="js/ecosystem.min.js"></script>
-  <script src="js/shuffle.js"></script>
-
-  <script type="text/javascript">
+    <script type="text/javascript">
     $(document).ready(function() {
-      // Shuffle SC members
-      $('#sc-members').shuffle();
+        // Shuffle SC members
+        $('#sc-members').shuffle();
 
-      // Shuffle other members
-      $('#other-members').shuffle();
+        // Shuffle other members
+        $('#other-members').shuffle();
     });
-  </script>
+    </script>
 
 </body>
+
 </html>
