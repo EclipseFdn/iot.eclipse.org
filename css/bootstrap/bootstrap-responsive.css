@@ -284,11 +284,15 @@ h3 {
   background: url('/images/_home/javalaunch_background.jpg');
 }
 
-#java-launch img {
+#iotchallenge-launch {
+  background: url('/images/_home/iotchallenge_background.jpg') center top;
+}
+
+.home_featured img {
   opacity: 0.9;
 }
 
-#java-launch img:hover {
+.home_featured img:hover {
   opacity: 1.0;
 }
 
