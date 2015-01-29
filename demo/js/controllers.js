@@ -30,7 +30,7 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     function onConnect() {
         // Once a connection has been made, make a subscription and send a message.
         console.log("onConnect");
-        client.subscribe("javaonedemo/eclipse-greenhouse-ben/sensors/#");
+        client.subscribe("javaonedemo/eclipse-greenhouse-ben-flat/sensors/#");
     };
 
     function onConnectionLost(responseObject) {
@@ -39,7 +39,7 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
             console.log("Reconnecting... [" + new Date() + "]");
             client.connect({
                 onSuccess: function() {
-                    client.subscribe("javaonedemo/eclipse-greenhouse-ben/sensors/#");
+                    client.subscribe("javaonedemo/eclipse-greenhouse-ben-flat/sensors/#");
                 }
             });
         }
@@ -58,15 +58,15 @@ function DeviceDetailCtrl($scope, $routeParams, $timeout, restService,
     };
 
     function tick() {
-        $scope.webcam.src = "http://www.benjamin-cabe.com/webcam.jpg#" + new Date().getTime();
-        $timeout(tick, 1000);
-    }
-    //tick();
+            $scope.webcam.src = "http://www.benjamin-cabe.com/webcam.jpg#" + new Date().getTime();
+            $timeout(tick, 1000);
+        }
+        //tick();
 
     $scope.switchLight = function() {
         console.log('toggle');
-        var message = new Messaging.Message(($scope.light.value === "on") ? "off" : "on") ;
-        message.destinationName = "javaonedemo/eclipse-greenhouse-ben/actuators/light";
+        var message = new Messaging.Message(($scope.light.value === "on") ? "off" : "on");
+        message.destinationName = "javaonedemo/eclipse-greenhouse-ben-flat/actuators/light";
         client.send(message);
     }
 }
