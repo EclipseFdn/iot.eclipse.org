@@ -1,0 +1,51 @@
+
+
+
+// Colours variables
+$green:#6eb553;
+$blue:#3085cb;
+$white:#f5f5f5;
+$black:#403c40;
+$purple:#551f62;
+$gray:#58595b;
+
+// Text Colours
+.green{color:$green;}
+.blue{color:$blue;}
+.white{color:$white;}
+.black{color:$black;}
+.purple{color:$purple;}
+
+
+// Floats
+.right{float:right;}
+.left{float:left;}
+
+a.btn{
+	text-transform: uppercase;
+	padding:10px 40px;
+	font-size: 12px;
+}
+a.btn.btn-primary{
+	background-color:transparent;
+	border-color:$blue;
+	color:$black;
+	@include transition;
+	&:hover{
+		background-color:$blue;
+		color:$white;
+	}
+}
+
+.line-divider-left{
+//	border-left:1px solid darken($white, 20%);
+}
+
+.line-divider-right{
+	border-right:1px solid darken($white, 20%);
+}
+
+
+.align-center{
+	text-align:center;
+}

@@ -1,341 +1,352 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Article" lang="en">
+<html lang="en">
 
 <head>
-    <!-- Add the following three tags inside head. -->
-    <meta itemprop="name" content="iot.eclipse.org - IoT development made simple">
-    <meta itemprop="description" content="iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler.
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta itemprop="name" content="iot.eclipse.org - IoT development made simple">
+  <meta itemprop="description" content="iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. These technologies aim at establishing an open, end-to-end, IoT stack.">
+  <title>iot.eclipse.org - IoT development made simple</title>
 
-These technologies aim at establishing an open, end-to-end, IoT stack.">
-    <meta itemprop="image" content="http://iot.eclipse.org/site_preview.jpg">
+  <!-- Bootstrap -->
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
+  <!-- icomoon -->
+  <link href="/assets/css/icomoon.css" rel="stylesheet">
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iot.eclipse.org &mdash; IoT development made simple</title>
-    <meta name="description" content="iot.eclipse.org developer portal: open source tools, frameworks and protocols for IoT and M2M developers">
-    <meta name="author" content="Eclipse.org">
-    <link rel="author" href="humans.txt" />
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Le styles -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
-
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-594061-11']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body class="index">
+<body>
+  <header>
 
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                </a> <a class="brand" href="/">iot.eclipse.org</a>
-
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/frameworks.html">Services &amp; Frameworks</a>
-                                </li>
-                                <li><a href="/protocols.html">Protocols</a>
-                                </li>
-                                <li><a href="/tools.html">Tools</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="/java"><strong>Open IoT Stack for Java</strong></a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/community.html#projects">Projects</a>
-                                </li>
-                                <li><a href="/community.html#news">News</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="/open-iot-challenge">Open IoT Challenge </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li><a href="/ecosystem.html">Ecosystem</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/demo">Live Demo</a>
-                                </li>
-                                <li><a href="/sandbox.html">Sandbox</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="nav pull-right">
-                        <li style="margin-left:0px;">
-                            <div style="padding-top: 20px">
-                                <div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-
-            </div>
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <a href="/"><img src="assets/images/iot-logo.png">
+            </a>
+          </div>
+          <div class="col-sm-10">
+            <ul class="list-inline right menu">
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+                <ul class="dropdown-menu">
+                  <li><a href="protocols.html">Standards</a>
+                  </li>
+                  <li><a href="/frameworks.html">Service &amp; Frameworks</a>
+                  </li>
+                  <li><a href="#">All The Projects</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Community</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Resources</a>
+                  </li>
+                  <li><a href="#">Service &amp; Frameworks</a>
+                  </li>
+                  <li><a href="#">All The Projects</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Members</a>
+              </li>
+              <li><a href="#">Getting Started</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
+    </nav>
 
-    <!-- Place this tag after the last +1 button tag. -->
-    <script type="text/javascript">
-    (function() {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    })();
-    </script>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>iot.<span class="green">eclipse</span>.org</h1>
+          <p>This portal is where you can learn about the technologies developed at <a href="#">Eclipse</a> to make Internet of Things <a href="#">(IoT)</a> development simpler</p>
+        </div>
+        <div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+          <img src="assets/images/iot-icon-alt.png" class="img-responsive">
+        </div>
+      </div>
+    </section>
 
+    <section class="header-divider">
+      <img src="assets/images/header-divider.png">
+    </section>
+
+  </header>
+
+  <main class="main">
+    <section class="first">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 first-col">
+
+            <a href="/protocols.html">
+              <div class="row">
+                <div class="col-xs-2 col-md-3">
+                  <span class="icon-bulb" aria-hidden="true"></span>
+                </div>
+                <div class="col-xs-10 col-md-9">
+                  <h2>Standards</h2>
+                  <p>We promote open standards for IoT, and XXX</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row">
+                <div class="col-xs-2 col-md-3">
+                  <span class="icon-switch" aria-hidden="true"></span>
+                </div>
+                <div class="col-xs-10 col-md-9">
+                  <h2>Getting Started</h2>
+
+                  <p>The Internet of Things is big, and as a developer it can be hard to know where to start&hellip;</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+
+          <div class="col-md-4 second-col">
+
+            <a href="/protocols.html">
+              <div class="row">
+                <div class="col-xs-2 col-md-3">
+                  <span class="icon-cogs" aria-hidden="true"></span>
+                </div>
+                <div class="col-xs-10 col-md-9">
+                  <h2>Services &amp; Frameworks</h2>
+                  <p>Learn more on our solutions to various industry XXX</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row">
+                <div class="col-xs-2 col-md-3">
+                  <span class="icon-embed" aria-hidden="true"></span>
+                </div>
+                <div class="col-xs-10 col-md-9">
+                  <h2>All projects</h2>
+                  <p>Check out our projects and access the source code</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="col-md-4 third-col line-divider-left">
+
+            <h1 class="purple">Technologies</h1>
+            <p>Eclipse IoT provides industrial-grade open source implementations of the standards, services and frameworks that are enabling an Open Internet of Things.</p>
+            <!-- <p>
+  <a href="#" class="btn btn-primary">More</a>
+</p>
+ -->
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="second">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-5">
+            <section class="community">
+              <h1 class="purple">Community</h1>
+              <p>
+                <strong>Eclipse IoT</strong> is an ecosystem of companies and individuals that are working together to establish an Internet of Things based on open technologies.
+              </p>
+              <p><a href="#" class="btn btn-primary">Ecosystem</a>
+              </p>
+              <!-- do we need this button? -->
+            </section>
+          </div>
+
+          <div class="col-md-6 col-md-offset-1">
+            <section class="featured-article">
+              <h2>Featured Article</h2>
+              <div class="featured-article-item">
+                <h3>Open IoT Stack for Java Tutorial</h3>
+                <p>A tutorial on how to use Kura and MQTT
+                  <br>to connect a greenhouse</p>
+              </div>
+            </section>
+            <!-- .featured-article -->
+          </div>
+
+
+
+          <div class="col-md-6">
+            <section class="latest-news">
+              <h2>Latest News</h2>
+              <div class="latest-news-item">
+                <h3>Announcing the Open IoT challenge</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
+                <p class="date">12/04/2015</p>
+              </div>
+              <div class="latest-news-item">
+                <h3>Announcing the Open IoT challenge</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
+                <p class="date">12/04/2015</p>
+              </div>
+              <div class="latest-news-item last">
+                <h3>Announcing the Open IoT challenge</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
+                <p class="date">12/04/2015</p>
+              </div>
+              <p><a href="#" class="btn btn-primary">More News</a>
+              </p>
+            </section>
+            <!-- .latest-news -->
+          </div>
+          <!-- .col-md-6 -->
+
+          <div class="col-md-6">
+            <section class="upcoming-events">
+              <h2>Upcoming Events</h2>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="upcoming-events-item">
+                    <h3>Embedded World<br><span class="date">Feb 24-26 2015</span></h3>
+                    <p>Nuremberg, Germany</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="upcoming-events-item">
+                    <h3>Embedded World<br><span class="date">Feb 24-26 2015</span></h3>
+                    <p>Nuremberg, Germany</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="upcoming-events-item">
+                    <h3>Embedded World<br><span class="date">Feb 24-26 2015</span></h3>
+                    <p>Nuremberg, Germany</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="upcoming-events-item">
+                    <h3>Embedded World<br><span class="date">Feb 24-26 2015</span></h3>
+                    <p>Nuremberg, Germany</p>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-primary">More Events</a>
+              </p>
+            </section>
+            <!-- .upcoming-events -->
+          </div>
+          <!-- .col-md-6 -->
+        </div>
+      </div>
+    </section>
+
+
+    <section class="third">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 logos">
+
+            <div class="row">
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-eurotech.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-ibm.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-sierra.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-bosch.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-bitreactive.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-dcsquare.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-gadgetkeeper.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-cisco.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-4 col-xs-6">
+                <img src="assets/images/wg-2lemetry.jpg" class="img-responsive">
+              </div>
+
+              <div class="col-md-12">
+                <p class="align-center"><a href="#" class="btn btn-primary">More</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 line-divider-left">
+            <h1 class="purple">Working Group</h1>
+            <p>The Eclipse IoT Working enables industry collaboration XXX.</p>
+            <p><a href="#" class="btn btn-primary">Ecosystem</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
 
     <div class="container">
-        <div class="row">
-            <div class="span6" id="catchline">
-                <h2>iot.eclipse.org</h2>
-                <p class="lead">
-                    This portal is where you can learn about the technologies developed at <a href="http://www.eclipse.org" target="_blank">Eclipse</a> to make Internet of Things (<a href="#" rel="popover" data-content="Technology that supports wired or wireless communication between machines." data-original-title="IoT" id="iot-definition">IoT</a>) development simpler.
-
-                </p>
-                <p class="lead">Our technologies aim at establishing an open IoT/M2M platform to be used by anyone.</p>
-            </div>
-
-            <div class="span5 offset1">
-                <div class="home_featured" id="iotchallenge-launch">
-                    <a href="/open-iot-challenge">
-                        <img alt="Open IoT Challenge" src="/images/_home/iotchallenge_text_overlay.png">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Example row of columns -->
-        <div class="row" style="margin-top: 4em;">
-            <div class="span4 home-box" id="home-frameworks">
-                <h2>
-                    <a href="frameworks.html"><i class="icon-cogs"></i>Services &amp; Frameworks</a>
-                </h2>
-                <p class="lead">Deliver extensible runtimes and services enabling IoT/M2M applications.</p>
-                <p>We provide a set of services and frameworks enabling features such as device managment, software update, vertical solutions,&nbsp;&hellip;</p>
-                <p>
-                    <a class="btn" href="frameworks.html">More »</a>
-                </p>
-            </div>
-
-            <div class="span4 home-box" id="home-protocols">
-                <h2>
-                    <a href="protocols.html"><i class="icon-comments"></i>Protocols</a><br/>&nbsp;
-                </h2>
-                <p class="lead">Provide Open Source implementations of standard IoT/M2M protocols.</p>
-                <p>Currently, we provide tools and libraries for
-                    <a href="protocols.html#mqtt">MQTT</a> and
-                    <a href="protocols.html#coap">CoAP</a>, as well as
-                    <a href="protocols.html#oma-dm">OMA-DM</a> and
-                    <a href="protocols.html#oma-lwm2m">OMA LWM2M</a> Device Management protocols
-                    <p>
-                        <a class="btn" href="protocols.html">More »</a>
-                    </p>
-            </div>
-
-            <div class="span4 home-box" id="home-tools">
-                <h2>
-                    <a href="tools.html"><i class="icon-briefcase"></i>Tools</a><br/>&nbsp;
-                </h2>
-                <p class="lead">Package a "one-stop shop" IDE for IoT/M2M developers.</p>
-                <p>
-                    We believe that Lua is a language very well-tailored for the Internet of Things, therefore an IDE for Lua development is <a href="tools.html#ldt">available</a>.
-                </p>
-                <p>
-                    <a class="btn" href="tools.html">More »</a>
-                </p>
-            </div>
-            <div class="span4 offset2 home-box" id="home-community">
-
-                <h2>
-                    <a href="community.html"><i class="icon-bullhorn"></i>Community<br/>&nbsp;</a>
-                </h2>
-                <p class="lead">Get in touch with us, learn about future events&hellip;
-                </p>
-                <p>
-                    <a class="btn" href="community.html">More »</a>
-                </p>
-            </div>
-
-
-            <div class="span4 home-box" id="home-sandbox">
-                <h2>
-                    <a href="sandbox.html"><i class="icon-inbox"></i>Sandbox<br/>&nbsp;</a>
-                </h2>
-                <p class="lead">Connect your IoT devices to test servers.</p>
-                <p>In order to simplify the evaluation of the open IoT stack developed at Eclipse, we provide sandboxes for your devices to communicate with.</p>
-                <p>
-                    <a class="btn" href="sandbox.html">More »</a>
-                </p>
-            </div>
-
-
-        </div>
-
-        <h2>Our Members</h2>
-
-        <div class="well">
-
-            <h4>Steering Committee </h4>
-            <table class="table" id="sc-members">
-                <tr>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=968"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=968&amp;size=small" style="padding:5px;" alt="Eurotech"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=656"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=656&amp;size=small" style="padding:5px;" alt="IBM"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=843"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=843&amp;size=small" style="padding:5px;" alt="Sierra Wireless"></a></small>
-                    </td>
-                </tr>
-
-            </table>
-
-
-            <h4>
-                Participating Members
-            </h4>
-            <table class="table" id="wg-members">
-                <tr>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1100"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1100&amp;size=small" style="padding:5px;" alt="2lemetry"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=652"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=652&amp;size=small" style="padding:5px;" alt="Actuate"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1103"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1103&amp;size=small" style="padding:5px;" alt="Bitreactive"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=979"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=979&amp;size=small" style="padding:5px;" alt="Robert Bosch GmbH"></a></small>
-                    </td>
-                </tr>
-                <tr style="text-align:center;">
-                    <td>
-                        <small><a href="#"><img width="120" src="./images/ecosystem/logo-canonical.png" style="padding:5px;" alt="Canonical Group Ltd."></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=901"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=901&amp;size=small" style="padding:5px;" alt="Cisco"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1122"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1122&amp;size=small" style="padding:5px;" alt="dc-square GmbH"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1139"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1139&amp;size=small" style="padding:5px;" alt="Deutsche Telekom AG"></a></small>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1152"><img width="100" src="http://eclipse.org/membership/scripts/get_image.php?id=1152&amp;size=small" style="padding:5px;" alt="GadgetKeeper"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1086"><img width="100" src="http://eclipse.org/membership/scripts/get_image.php?id=1086&amp;size=small" style="padding:5px;" alt="IBH SYSTEMS GmbH"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1128"><img width="100" src="http://eclipse.org/membership/scripts/get_image.php?id=1128&amp;size=small" style="padding:5px;" alt="IIC"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1140"><img width="100" src="http://eclipse.org/membership/scripts/get_image.php?id=1140&amp;size=small" style="padding:5px;" alt="IS2T"></a></small>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=817"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=817&amp;size=small" style="padding:5px;" alt="itemis"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1108"><img width="120" src="images/ecosystem/logo-laas.png" style="padding:5px;" alt="LAAS CNRS"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1151"><img width="120" src="./images/ecosystem/logo-litmus.png" style="padding:5px;" alt="Litmus Automation"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1101"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1101&amp;size=small" style="padding:5px;" alt="M2M Alliance"></a></small>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1120"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1120&amp;size=small" style="padding:5px;" alt="openHAB UG"></a></small>
-                    </td>
-                    <td>
-                        <small><a href="http://eclipse.org/membership/showMember.php?member_id=1046"><img width="120" src="http://eclipse.org/membership/scripts/get_image.php?id=1046&amp;size=small" style="padding:5px;" alt="SMB"></a></small>
-                    </td>
-                </tr>
-            </table>
-
-        </div>
-
-        <hr>
-
-        <footer>
-            <ul class="nav nav-pills">
-                <li><a href="/">Home</a>
-                </li>
-                <li><a href="http://www.eclipse.org/legal/privacy.php" target="_blank">Privacy Policy</a>
-                </li>
-                <li><a href="http://www.eclipse.org/legal/termsofuse.php" target="_blank">Terms of Use</a>
-                </li>
-                <li><a href="http://www.eclipse.org/legal/copyright.php" target="_blank">Copyright Agent</a>
-                </li>
-                <li><a href="http://www.eclipse.org/legal/" target="_blank">Legal</a>
-                </li>
-                <li><a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
-                </li>
-                <li class="pull-right">Copyright © 2015 The Eclipse Foundation. All Rights Reserved.</li>
+      <div class="row">
+        <div class="col-md-6">
+          <nav>
+            <ul class="list-inline menu">
+              <li><a href="#">Technology</a>
+              </li>
+              <li><a href="#">Community</a>
+              </li>
+              <li><a href="#">Members</a>
+              </li>
+              <li><a href="#">Getting Started</a>
+              </li>
             </ul>
-        </footer>
-
-        <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
+          </nav>
+          <div class="socials">
+            <a href="#" class="social-facebook">&nbsp;</a>
+            <a href="#" class="social-twitter">&nbsp;</a>
+            <a href="#" class="social-youtube">&nbsp;</a>
+            <a href="#" class="social-share">&nbsp;</a>
+          </div>
         </div>
-
+        <div class="col-md-6">
+          <p class="copyright">Copyright © 2015 The Eclipse Foundation. All Rights Reserved.</p>
+        </div>
+      </div>
     </div>
-    <!-- /container -->
 
 
-    <!-- JS is at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/shuffle.js"></script>
-    <script src="js/index.js"></script>
+  </footer>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 

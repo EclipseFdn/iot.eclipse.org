@@ -1,0 +1,33 @@
+
+
+
+@mixin triangle-bottomright($color){
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid $color;
+	border-left: 20px solid transparent;
+	content: " ";
+	display: table;
+	right:1px;
+	top:-20px;
+	position:absolute;
+}
+
+@mixin triangle-up($color) {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid $color;
+	content: " ";
+	display: table;
+	top:-10px;
+	position:absolute;
+}
+
+
+@mixin transition{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
