@@ -16,24 +16,31 @@
             return false;
         });
 
+        $('.btn-projects').on('click', function() {
+            var $btn = $(this);
+            //            window.alert('bx');
+            $btn.button('toggle')
+        })
+
         $.ajax({
             type: "GET",
             url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
             dataType: "jsonp",
-            cache: false,
+            cache: true,
             success: function(data) {
-                var output = "";
+
+                var val = 20;
+                $('.progress-bar').css('width', val + '%').attr('aria-valuenow', val);
+
+                var output = "<div class=\"all-projects row-fluid\">";
                 var i = 0;
 
-                $("#update-project").removeClass("loading");
-
                 $.each(data, function(key, value) {
-                    if ((i % 4) === 0) {
-                        if (i !== 0) {
-                            output += '</div>';
-                        }
-                        output += '<div class="row-fluid">';
-                    }
+                    i++;
+                    var val = 20 + (i / Object.keys(data).length) * 80;
+
+                    $('.progress-bar').css('width', val + '%').attr('aria-valuenow', val);
+
 
                     // Clean up and remove HTML.
                     var title = stringJanitor(value.name);
@@ -68,9 +75,17 @@
                     output += "</div>";
                     i++;
                 });
+
+                $("#update-project").empty();
+                $("#update-project").removeClass("loading");
+
+
                 // Insert html and resize the boxes.
                 $("#update-project").append('</div>' + output);
                 resize();
+
+                $('.all-projects').shuffle();
+
             },
         });
 

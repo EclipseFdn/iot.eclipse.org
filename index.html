@@ -22,7 +22,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="homepage">
   <header>
 
     <nav class="navbar">
@@ -36,25 +36,26 @@
             <ul class="list-inline right menu">
               <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
                 <ul class="dropdown-menu">
-                  <li><a href="protocols.html">Standards</a>
+                  <li><a href="/standards">Standards</a>
                   </li>
-                  <li><a href="/frameworks.html">Service &amp; Frameworks</a>
+                  <li><a href="/frameworks">Service &amp; Frameworks</a>
                   </li>
-                  <li><a href="#">All The Projects</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">Community</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Resources</a>
-                  </li>
-                  <li><a href="#">Service &amp; Frameworks</a>
-                  </li>
-                  <li><a href="#">All The Projects</a>
+                  <li><a href="/projects">All the projects</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Members</a>
+         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+  <ul class="dropdown-menu">
+    <li><a href="#">Resources</a>
+    </li>
+    <li><a href="#">News</a>
+    </li>
+    <li><a href="#">Events</a>
+    </li>
+  </ul>
+</li>
+
+              <li><a href="/ecosystem.html">Members</a>
               </li>
               <li><a href="#">Getting Started</a>
               </li>
@@ -66,13 +67,15 @@
 
     <section class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h1>iot.<span class="green">eclipse</span>.org</h1>
-          <p>This portal is where you can learn about the technologies developed at <a href="#">Eclipse</a> to make Internet of Things <a href="#">(IoT)</a> development simpler</p>
+        <div class="col-md-8 col-sm-12">
+          <h1><span class="green">Open Source</span> for <span class="green">IoT</span></h1>
+          <p>IoT needs open source to be successful.
+            <br>
+            <span class="green">Eclipse IoT</span> simplifies IoT development.</p>
         </div>
-        <div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+        <!--         <div class="col-md-3 hidden-xs hidden-sm">
           <img src="assets/images/iot-icon-alt.png" class="img-responsive">
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -96,7 +99,7 @@
                 </div>
                 <div class="col-xs-10 col-md-9">
                   <h2>Standards</h2>
-                  <p>We promote open standards for IoT, and XXX</p>
+                  <p>Implementation of IoT standards like MQTT, CoAP, LWM2M, OneM2M</p>
                 </div>
               </div>
             </a>
@@ -109,7 +112,7 @@
                 <div class="col-xs-10 col-md-9">
                   <h2>Getting Started</h2>
 
-                  <p>The Internet of Things is big, and as a developer it can be hard to know where to start&hellip;</p>
+                  <p>Step-by-step guide to getting started on IoT development</p>
                 </div>
               </div>
             </a>
@@ -119,26 +122,26 @@
 
           <div class="col-md-4 second-col">
 
-            <a href="/protocols.html">
+            <a href="/frameworks.html">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-cogs" aria-hidden="true"></span>
                 </div>
                 <div class="col-xs-10 col-md-9">
                   <h2>Services &amp; Frameworks</h2>
-                  <p>Learn more on our solutions to various industry XXX</p>
+                  <p>Building blocks to accelerate IoT development</p>
                 </div>
               </div>
             </a>
 
-            <a href="#">
+            <a href="/projects.html">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-embed" aria-hidden="true"></span>
                 </div>
                 <div class="col-xs-10 col-md-9">
                   <h2>All projects</h2>
-                  <p>Check out our projects and access the source code</p>
+                  <p>Check out all our IoT open source projects</p>
                 </div>
               </div>
             </a>
@@ -147,8 +150,8 @@
 
           <div class="col-md-4 third-col line-divider-left">
 
-            <h1 class="purple">Technologies</h1>
-            <p>Eclipse IoT provides industrial-grade open source implementations of the standards, services and frameworks that are enabling an Open Internet of Things.</p>
+            <h1 class="purple">Technology</h1>
+            <p>Eclipse IoT provides industrial-grade open source implementations of the standards, services and frameworks that enable an Open Internet of Things.</p>
             <!-- <p>
   <a href="#" class="btn btn-primary">More</a>
 </p>
@@ -170,9 +173,6 @@
               <p>
                 <strong>Eclipse IoT</strong> is an ecosystem of companies and individuals that are working together to establish an Internet of Things based on open technologies.
               </p>
-              <p><a href="#" class="btn btn-primary">Ecosystem</a>
-              </p>
-              <!-- do we need this button? -->
             </section>
           </div>
 
@@ -208,7 +208,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
                 <p class="date">12/04/2015</p>
               </div>
-              <p><a href="#" class="btn btn-primary">More News</a>
+              <p><a href="#" class="btn btn-primary">More News...</a>
               </p>
             </section>
             <!-- .latest-news -->
@@ -244,7 +244,7 @@
                   </div>
                 </div>
               </div>
-              <p><a href="#" class="btn btn-primary">More Events</a>
+              <p><a href="#" class="btn btn-primary">More Events...</a>
               </p>
             </section>
             <!-- .upcoming-events -->
@@ -289,19 +289,20 @@
                 <img src="assets/images/wg-2lemetry.jpg" class="img-responsive">
               </div>
 
-              <div class="col-md-12">
-                <p class="align-center"><a href="#" class="btn btn-primary">More</a>
-                </p>
-              </div>
+<!-- <div class="col-md-12">
+  <p class="align-center"><a href="/ecosystem.html" class="btn btn-primary">More</a>
+  </p>
+</div>
+ -->
             </div>
 
           </div>
-          <div class="col-md-4 line-divider-left">
+          <section class="working-group col-md-4 line-divider-left">
             <h1 class="purple">Working Group</h1>
-            <p>The Eclipse IoT Working enables industry collaboration XXX.</p>
-            <p><a href="#" class="btn btn-primary">Ecosystem</a>
+            <p><strong>Eclipse IoT</strong> is an industry collaboration of companies who invest and promote an open source community for IoT. Join Us.</p>
+            <p><a href="/ecosystem.html" class="btn btn-primary">Ecosystem</a>
             </p>
-          </div>
+          </section>
         </div>
       </div>
     </section>
@@ -320,7 +321,7 @@
               </li>
               <li><a href="#">Community</a>
               </li>
-              <li><a href="#">Members</a>
+              <li><a href="/ecosystem.html">Members</a>
               </li>
               <li><a href="#">Getting Started</a>
               </li>

@@ -4152,11 +4152,17 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 header {
-  background-image: url(../images/header-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  padding-bottom: 50px; }
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(-45deg, #4d2258, #141421);
+  background-image: -o-linear-gradient(-45deg, #4d2258, #141421);
+  background-image: linear-gradient(-45deg, #4d2258, #141421);
+  padding-bottom: 2px; }
+  .homepage header {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 50px; }
   header nav {
     padding-top: 20px; }
     header nav ul.menu {
@@ -4167,13 +4173,15 @@ header {
         header nav ul.menu li a {
           color: whitesmoke; }
         header nav ul.menu li ul.dropdown-menu {
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(0, 0, 0, 0.8);
           border: 0;
           border-top: 5px solid #3085cb;
           border-radius: 0;
           padding: 0;
           margin-top: 10px;
           left: -55px; }
+          .homepage header nav ul.menu li ul.dropdown-menu {
+            background-color: rgba(0, 0, 0, 0.5); }
           header nav ul.menu li ul.dropdown-menu li {
             text-transform: none; }
             header nav ul.menu li ul.dropdown-menu li a {
@@ -4208,168 +4216,232 @@ header {
       line-height: 1.4em; }
     @media (max-width: 767px) {
       header section h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: bold;
         margin-bottom: 20px; }
       header section p {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         line-height: 1.4em; } }
   header .header-divider {
     text-align: center;
     margin-bottom: -75px; }
 
-main.main p {
-  color: #58595b; }
-main.main .line-divider-left {
-  padding-left: 3em; }
-main.main section.first {
-  background-color: whitesmoke;
-  background-image: url(../images/section-first-divider.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom center;
-  padding: 50px 0 125px; }
-  main.main section.first .first-col h2, main.main section.first .second-col h2 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #403c40 !important; }
-  main.main section.first .first-col p, main.main section.first .second-col p {
-    text-align: justify;
-    font-weight: 400; }
-  main.main section.first .first-col span, main.main section.first .second-col span {
-    width: 100%;
-    display: block;
-    font-size: 5em;
-    text-align: right;
-    color: #3085cb;
-    margin-top: 12px;
-    margin-left: 4px; }
-    @media (max-width: 767px) {
-      main.main section.first .first-col span, main.main section.first .second-col span {
-        font-size: 4em;
-        margin-top: 20px;
-        margin-left: 0px; } }
-  main.main section.first .first-col .row:hover, main.main section.first .second-col .row:hover {
-    background-color: rgba(48, 133, 203, 0.05);
-    -webkit-box-shadow: 0px 0px 5px #fcfdfe;
-    box-shadow: 0px 0px 5px #fcfdfe; }
-  main.main section.first .third-col h1 {
-    margin-top: -20px; }
-    @media (max-width: 1199px) {
-      main.main section.first .third-col h1 {
-        margin-top: 30px; } }
-  main.main section.first .third-col p {
-    font-size: 1.5em; }
-main.main section.second {
-  background-image: url(../images/section-second-divider.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom center;
-  padding: 50px 0 75px; }
-  main.main section.second .latest-news, main.main section.second .featured-article, main.main section.second .upcoming-events {
-    margin-bottom: 60px; }
-    main.main section.second .latest-news h2, main.main section.second .featured-article h2, main.main section.second .upcoming-events h2 {
-      color: whitesmoke;
-      display: block;
-      height: 79px;
+main.main {
+  /* Item box: Layout item */ }
+  main.main p {
+    color: #58595b; }
+  main.main .line-divider-left {
+    padding-left: 3em; }
+  main.main .well {
+    background-color: #3085cb;
+    background-image: url(../images/well-bg-tl.png), url(../images/well-bg-br.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    color: whitesmoke !important;
+    border: 0px;
+    margin-bottom: 0px; }
+    main.main .well h1 {
+      font-size: 5rem;
+      font-weight: 700; }
+    main.main .well p {
+      font-size: 2.4rem;
+      color: whitesmoke !important; }
+  main.main section.first {
+    background-color: whitesmoke;
+    background-image: url(../images/section-first-divider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    padding: 50px 0 125px; }
+    main.main section.first .first-col h2, main.main section.first .second-col h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #403c40 !important; }
+    main.main section.first .first-col p, main.main section.first .second-col p {
+      text-align: justify;
+      font-weight: 400; }
+    main.main section.first .first-col span, main.main section.first .second-col span {
       width: 100%;
+      display: block;
+      font-size: 5em;
+      text-align: right;
+      color: #3085cb;
+      margin-top: 12px;
+      margin-left: 4px; }
+      @media (max-width: 767px) {
+        main.main section.first .first-col span, main.main section.first .second-col span {
+          font-size: 4em;
+          margin-top: 20px;
+          margin-left: 0px; } }
+    main.main section.first .first-col .row:hover, main.main section.first .second-col .row:hover {
+      background-color: rgba(48, 133, 203, 0.05);
+      -webkit-box-shadow: 0px 0px 5px #fcfdfe;
+      box-shadow: 0px 0px 5px #fcfdfe; }
+    main.main section.first .third-col h1 {
+      margin-top: -20px; }
+      @media (max-width: 1199px) {
+        main.main section.first .third-col h1 {
+          margin-top: 30px; } }
+    main.main section.first .third-col p {
+      font-size: 1.5em; }
+  main.main section.second {
+    background-image: url(../images/section-second-divider.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    padding: 20px 0 75px; }
+    main.main section.second .latest-news, main.main section.second .featured-article, main.main section.second .upcoming-events {
+      margin-bottom: 60px; }
+      main.main section.second .latest-news h2, main.main section.second .featured-article h2, main.main section.second .upcoming-events h2 {
+        color: whitesmoke;
+        display: block;
+        height: 79px;
+        width: 100%;
+        background-size: 100%;
+        padding: 28px;
+        font-size: 21px;
+        margin-bottom: 30px; }
+    main.main section.second .community p {
+      font-size: 1.5em; }
+    main.main section.second .latest-news h2 {
+      background-image: url(../images/heading-latest_news.jpg); }
+    main.main section.second .latest-news .latest-news-item {
+      border-bottom: 1px solid #c2c2c2;
+      padding-bottom: 10px;
+      margin-bottom: 20px; }
+      main.main section.second .latest-news .latest-news-item h3 {
+        font-size: 18px; }
+      main.main section.second .latest-news .latest-news-item p {
+        font-size: 14px; }
+      main.main section.second .latest-news .latest-news-item p.date {
+        color: #6eb553;
+        font-size: 12px; }
+    main.main section.second .latest-news .latest-news-item.last {
+      margin-bottom: 25px; }
+    main.main section.second .featured-article h2 {
+      background-image: url(../images/heading-featured.jpg); }
+    main.main section.second .featured-article .featured-article-item {
+      background-image: url(../images/open-iot-bg.jpg);
       background-size: 100%;
-      padding: 28px;
-      font-size: 21px;
-      margin-bottom: 30px; }
-  main.main section.second .community p {
-    font-size: 1.5em; }
-  main.main section.second .latest-news h2 {
-    background-image: url(../images/heading-latest_news.jpg); }
-  main.main section.second .latest-news .latest-news-item {
-    border-bottom: 1px solid #c2c2c2;
-    padding-bottom: 10px;
-    margin-bottom: 20px; }
-    main.main section.second .latest-news .latest-news-item h3 {
-      font-size: 18px; }
-    main.main section.second .latest-news .latest-news-item p {
-      font-size: 14px; }
-    main.main section.second .latest-news .latest-news-item p.date {
-      color: #6eb553;
-      font-size: 12px; }
-  main.main section.second .latest-news .latest-news-item.last {
-    margin-bottom: 25px; }
-  main.main section.second .featured-article h2 {
-    background-image: url(../images/heading-featured.jpg); }
-  main.main section.second .featured-article .featured-article-item {
-    background-image: url(../images/open-iot-bg.jpg);
-    background-size: 100%;
-    color: whitesmoke;
-    text-align: center; }
-    main.main section.second .featured-article .featured-article-item h3 {
-      font-size: 18px;
       color: whitesmoke;
-      padding: 40px 0;
-      margin: 0; }
-    main.main section.second .featured-article .featured-article-item p {
-      background-color: #3085cb;
-      padding: 10px 0;
-      font-size: 12px;
-      line-height: 1.2;
-      position: relative; }
-      main.main section.second .featured-article .featured-article-item p:after {
-        width: 0;
-        height: 0;
-        border-bottom: 20px solid #3085cb;
-        border-left: 20px solid transparent;
-        content: " ";
-        display: table;
-        right: 1px;
-        top: -20px;
-        position: absolute; }
-  main.main section.second .upcoming-events h2 {
-    background-image: url(../images/heading-upcoming_events.jpg); }
-  main.main section.second .upcoming-events .upcoming-events-item {
-    background-image: url(../images/upcoming-events-bg_hover.png);
-    background-size: 100%;
-    text-align: center;
-    color: whitesmoke;
-    margin-bottom: 30px; }
-    main.main section.second .upcoming-events .upcoming-events-item h3 {
-      padding: 40px 0;
-      font-size: 16px;
-      font-weight: bold;
-      margin: 0; }
-      main.main section.second .upcoming-events .upcoming-events-item h3 span.date {
-        font-weight: normal; }
-    main.main section.second .upcoming-events .upcoming-events-item p {
-      background-color: #3085cb;
-      padding: 10px 0;
-      font-size: 14px;
-      line-height: 1.2;
-      position: relative;
-      color: whitesmoke; }
-      main.main section.second .upcoming-events .upcoming-events-item p:after {
-        width: 0;
-        height: 0;
-        border-bottom: 20px solid #3085cb;
-        border-left: 20px solid transparent;
-        content: " ";
-        display: table;
-        right: 1px;
-        top: -20px;
-        position: absolute; }
-main.main section.third {
-  background-color: whitesmoke; }
-  main.main section.third .logos {
-    text-align: center; }
-  main.main section.third .btn {
-    margin-top: 2em; }
-  main.main section.third p {
-    font-size: 1.5em; }
+      text-align: center; }
+      main.main section.second .featured-article .featured-article-item h3 {
+        font-size: 18px;
+        color: whitesmoke;
+        padding: 40px 0;
+        margin: 0; }
+      main.main section.second .featured-article .featured-article-item p {
+        background-color: #3085cb;
+        padding: 10px 0;
+        font-size: 12px;
+        line-height: 1.2;
+        position: relative; }
+        main.main section.second .featured-article .featured-article-item p:after {
+          width: 0;
+          height: 0;
+          border-bottom: 20px solid #3085cb;
+          border-left: 20px solid transparent;
+          content: " ";
+          display: table;
+          right: 1px;
+          top: -20px;
+          position: absolute; }
+    main.main section.second .upcoming-events h2 {
+      background-image: url(../images/heading-upcoming_events.jpg); }
+    main.main section.second .upcoming-events .upcoming-events-item {
+      background-image: url(../images/upcoming-events-bg_hover.png);
+      background-size: 100%;
+      text-align: center;
+      color: whitesmoke;
+      margin-bottom: 30px; }
+      main.main section.second .upcoming-events .upcoming-events-item h3 {
+        padding: 40px 0;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0; }
+        main.main section.second .upcoming-events .upcoming-events-item h3 span.date {
+          font-weight: normal; }
+      main.main section.second .upcoming-events .upcoming-events-item p {
+        background-color: #3085cb;
+        padding: 10px 0;
+        font-size: 14px;
+        line-height: 1.2;
+        position: relative;
+        color: whitesmoke; }
+        main.main section.second .upcoming-events .upcoming-events-item p:after {
+          width: 0;
+          height: 0;
+          border-bottom: 20px solid #3085cb;
+          border-left: 20px solid transparent;
+          content: " ";
+          display: table;
+          right: 1px;
+          top: -20px;
+          position: absolute; }
+  main.main section.third {
+    background-color: whitesmoke; }
+    main.main section.third .logos {
+      text-align: center; }
+    main.main section.third .btn {
+      margin-top: 2em; }
+    main.main section.third .working-group p {
+      font-size: 1.5em; }
+  main.main .itembox {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    position: relative;
+    cursor: pointer; }
+    main.main .itembox p {
+      color: #58595b !important; }
+    main.main .itembox a.readmore:link, main.main .itembox a.readmore:visited {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      background: #3085cb;
+      color: white;
+      text-align: center;
+      padding: 8px 20px;
+      margin-bottom: 10px; }
+    main.main .itembox a.readmore:hover {
+      background: #551f62; }
+  main.main .itembox:hover {
+    background: white; }
+  main.main .project-list {
+    /* Project list: community.html */ }
+    main.main .project-list .loading {
+      min-height: 400px;
+      text-align: center;
+      font-size: 2em;
+      color: #551f62; }
+    main.main .project-list .itembox h3, main.main .project-list .itembox p {
+      padding: 0 10px; }
+    main.main .project-list .itembox .logo {
+      padding: 15px;
+      max-width: 80%; }
+    main.main .project-list .itembox h3 {
+      font-size: 21px; }
+    main.main .project-list .itembox p {
+      font-size: 15px;
+      padding-bottom: 50px;
+      color: #551f62; }
 
 footer {
   background-image: url(../images/footer-bg.jpg);
   background-size: cover;
-  background-position: left bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-color: whitesmoke;
-  padding: 175px 0 50px; }
+  padding: 100px 0 50px; }
+  @media (max-width: 991px) {
+    footer {
+      padding-top: 50px; }
+      footer .container {
+        padding-top: 40px; } }
+  @media (min-width: 1199px) {
+    footer {
+      padding-top: 200px; }
+      footer .container {
+        padding-bottom: 100px; } }
   footer nav a {
     color: #c2c2c2;
     text-transform: uppercase;

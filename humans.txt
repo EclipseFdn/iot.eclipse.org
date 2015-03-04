@@ -6,7 +6,7 @@
 	Misc. contributions: Andy Piper (@andypiper)	
 
 /* SITE */
-	Last update:2013/04/05
+	Last update: 2015/03/01
 	Language: English
 	Standards: HTML5, CSS3,..
 	Components: Twitter Bootstrap, jQuery
