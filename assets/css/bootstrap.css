@@ -4333,7 +4333,8 @@ main.main {
       main.main section.second .featured-article .featured-article-item p {
         background-color: #3085cb;
         padding: 10px 0;
-        font-size: 12px;
+        font-size: 1em;
+        color: white;
         line-height: 1.2;
         position: relative; }
         main.main section.second .featured-article .featured-article-item p:after {
@@ -4356,11 +4357,12 @@ main.main {
       margin-bottom: 30px; }
       main.main section.second .upcoming-events .upcoming-events-item h3 {
         padding: 40px 0;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         margin: 0; }
         main.main section.second .upcoming-events .upcoming-events-item h3 span.date {
-          font-weight: normal; }
+          font-weight: normal;
+          font-size: 14px; }
       main.main section.second .upcoming-events .upcoming-events-item p {
         background-color: #3085cb;
         padding: 10px 0;
