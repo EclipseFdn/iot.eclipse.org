@@ -14,9 +14,10 @@ header {
     padding-bottom: 2px;
     nav {
         padding-top: 20px;
-        ul.menu {
+        ul.navbar-nav {
             margin-top: 40px;
             text-transform: uppercase;
+            text-align: center;
             li {
                 position: relative;
                 a {

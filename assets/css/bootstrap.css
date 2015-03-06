@@ -2546,23 +2546,23 @@ tbody.collapse.in {
       margin-right: 0; } }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: rgba(255, 255, 255, 0);
+  border-color: none; }
   .navbar-default .navbar-brand {
-    color: #777777; }
+    color: whitesmoke; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #5e5e5e;
+      color: gainsboro;
       background-color: transparent; }
   .navbar-default .navbar-text {
-    color: #777777; }
+    color: whitesmoke; }
   .navbar-default .navbar-nav > li > a {
-    color: #777777; }
+    color: whitesmoke; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #333333;
+      color: whitesmoke;
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555555;
-    background-color: #e7e7e7; }
+    background-color: rgba(238, 238, 238, 0); }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent; }
@@ -2573,30 +2573,30 @@ tbody.collapse.in {
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #888888; }
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: none; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: rgba(238, 238, 238, 0);
     color: #555555; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #777777; }
+      color: whitesmoke; }
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333333;
+        color: whitesmoke;
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555555;
-      background-color: #e7e7e7; }
+      background-color: rgba(238, 238, 238, 0); }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #cccccc;
       background-color: transparent; } }
   .navbar-default .navbar-link {
-    color: #777777; }
+    color: whitesmoke; }
     .navbar-default .navbar-link:hover {
-      color: #333333; }
+      color: whitesmoke; }
   .navbar-default .btn-link {
-    color: #777777; }
+    color: whitesmoke; }
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-      color: #333333; }
+      color: whitesmoke; }
     .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
       color: #cccccc; }
 
@@ -4165,14 +4165,15 @@ header {
     padding-bottom: 50px; }
   header nav {
     padding-top: 20px; }
-    header nav ul.menu {
+    header nav ul.navbar-nav {
       margin-top: 40px;
-      text-transform: uppercase; }
-      header nav ul.menu li {
+      text-transform: uppercase;
+      text-align: center; }
+      header nav ul.navbar-nav li {
         position: relative; }
-        header nav ul.menu li a {
+        header nav ul.navbar-nav li a {
           color: whitesmoke; }
-        header nav ul.menu li ul.dropdown-menu {
+        header nav ul.navbar-nav li ul.dropdown-menu {
           background-color: rgba(0, 0, 0, 0.8);
           border: 0;
           border-top: 5px solid #3085cb;
@@ -4180,19 +4181,19 @@ header {
           padding: 0;
           margin-top: 10px;
           left: -55px; }
-          .homepage header nav ul.menu li ul.dropdown-menu {
+          .homepage header nav ul.navbar-nav li ul.dropdown-menu {
             background-color: rgba(0, 0, 0, 0.5); }
-          header nav ul.menu li ul.dropdown-menu li {
+          header nav ul.navbar-nav li ul.dropdown-menu li {
             text-transform: none; }
-            header nav ul.menu li ul.dropdown-menu li a {
+            header nav ul.navbar-nav li ul.dropdown-menu li a {
               padding: 20px;
               -webkit-transition: ;
               -o-transition: ;
               transition: ; }
-              header nav ul.menu li ul.dropdown-menu li a:hover {
+              header nav ul.navbar-nav li ul.dropdown-menu li a:hover {
                 color: whitesmoke;
                 background-color: rgba(0, 0, 0, 0.4); }
-          header nav ul.menu li ul.dropdown-menu:after {
+          header nav ul.navbar-nav li ul.dropdown-menu:after {
             width: 0;
             height: 0;
             border-left: 10px solid transparent;
@@ -4246,6 +4247,17 @@ main.main {
     main.main .well p {
       font-size: 2.4rem;
       color: whitesmoke !important; }
+  main.main .subsection-header {
+    margin-bottom: 20px; }
+    main.main .subsection-header h2 {
+      color: whitesmoke;
+      display: block;
+      height: 79px;
+      width: 100%;
+      background-size: 100%;
+      padding: 28px;
+      font-size: 21px;
+      margin-bottom: 30px; }
   main.main section.first {
     background-color: whitesmoke;
     background-image: url(../images/section-first-divider.png);
@@ -4290,17 +4302,6 @@ main.main {
     background-size: 100%;
     background-position: bottom center;
     padding: 20px 0 75px; }
-    main.main section.second .latest-news, main.main section.second .featured-article, main.main section.second .upcoming-events {
-      margin-bottom: 60px; }
-      main.main section.second .latest-news h2, main.main section.second .featured-article h2, main.main section.second .upcoming-events h2 {
-        color: whitesmoke;
-        display: block;
-        height: 79px;
-        width: 100%;
-        background-size: 100%;
-        padding: 28px;
-        font-size: 21px;
-        margin-bottom: 30px; }
     main.main section.second .community p {
       font-size: 1.5em; }
     main.main section.second .latest-news h2 {
@@ -4316,46 +4317,32 @@ main.main {
       main.main section.second .latest-news .latest-news-item p.date {
         color: #6eb553;
         font-size: 12px; }
-    main.main section.second .latest-news .latest-news-item.last {
-      margin-bottom: 25px; }
-    main.main section.second .featured-article h2 {
+    main.main section.second .latest-news .latest-news-item:last-of-type {
+      margin-bottom: 35px;
+      border-bottom: 0px; }
+    main.main section.second .featured-articles h2 {
       background-image: url(../images/heading-featured.jpg); }
-    main.main section.second .featured-article .featured-article-item {
+    main.main section.second .featured-articles .featured-articles-item {
       background-image: url(../images/open-iot-bg.jpg);
-      background-size: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
       color: whitesmoke;
-      text-align: center; }
-      main.main section.second .featured-article .featured-article-item h3 {
+      text-align: center;
+      margin-bottom: 30px; }
+      main.main section.second .featured-articles .featured-articles-item h3 {
         font-size: 18px;
         color: whitesmoke;
         padding: 40px 0;
         margin: 0; }
-      main.main section.second .featured-article .featured-article-item p {
-        background-color: #3085cb;
-        padding: 10px 0;
-        font-size: 1em;
-        color: white;
-        line-height: 1.2;
-        position: relative; }
-        main.main section.second .featured-article .featured-article-item p:after {
-          width: 0;
-          height: 0;
-          border-bottom: 20px solid #3085cb;
-          border-left: 20px solid transparent;
-          content: " ";
-          display: table;
-          right: 1px;
-          top: -20px;
-          position: absolute; }
     main.main section.second .upcoming-events h2 {
       background-image: url(../images/heading-upcoming_events.jpg); }
     main.main section.second .upcoming-events .upcoming-events-item {
-      background-image: url(../images/upcoming-events-bg_hover.png);
-      background-size: 100%;
       text-align: center;
       color: whitesmoke;
       margin-bottom: 30px; }
       main.main section.second .upcoming-events .upcoming-events-item h3 {
+        background-image: url(../images/upcoming-events-bg.png);
+        background-size: 100%;
         padding: 40px 0;
         font-size: 18px;
         font-weight: bold;
@@ -4363,6 +4350,9 @@ main.main {
         main.main section.second .upcoming-events .upcoming-events-item h3 span.date {
           font-weight: normal;
           font-size: 14px; }
+      main.main section.second .upcoming-events .upcoming-events-item h3:hover {
+        background: url(../images/upcoming-events-bg_hover.png);
+        background-size: 100%; }
       main.main section.second .upcoming-events .upcoming-events-item p {
         background-color: #3085cb;
         padding: 10px 0;
@@ -4426,6 +4416,10 @@ main.main {
       font-size: 15px;
       padding-bottom: 50px;
       color: #551f62; }
+  main.main .videos h2 {
+    background-image: url(../images/heading-upcoming_events.jpg); }
+  main.main .presentations h2 {
+    background-image: url(../images/heading-upcoming_events.jpg); }
 
 footer {
   background-image: url(../images/footer-bg.jpg);

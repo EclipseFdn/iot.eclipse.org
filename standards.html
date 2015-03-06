@@ -38,44 +38,59 @@
 
   <header>
 
-    <nav class="navbar">
+    <nav class="navbar navbar-default">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <a href="/"><img src="assets/images/iot-logo.png">
-            </a>
-          </div>
-          <div class="col-sm-10">
-            <ul class="list-inline right menu">
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-                <ul class="dropdown-menu">
-                  <li><a href="/standards">Standards</a>
-                  </li>
-                  <li><a href="/frameworks">Service &amp; Frameworks</a>
-                  </li>
-                  <li><a href="/projects">All the projects</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Resources</a>
-                  </li>
-                  <li><a href="#">News</a>
-                  </li>
-                  <li><a href="#">Events</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="/ecosystem">Members</a>
-              </li>
-              <li><a href="#">Getting Started</a>
-              </li>
-            </ul>
-          </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img alt="Brand" src="/assets/images/iot-logo.png">
+          </a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/getting-started">Getting Started</a>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/standards">Standards</a>
+                </li>
+                <li><a href="/frameworks">Services &amp; Frameworks</a>
+                </li>
+                <li><a href="/projects">All the projects</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Resources</a>
+                </li>
+                <li><a href="#">News</a>
+                </li>
+                <li><a href="#">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/ecosystem">Working Group</a>
+            </li>
+            <li style="  padding-top: 15px; padding-left: 8px;">
+              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
+      <!-- /.container-fluid -->
     </nav>
+
+
   </header>
 
 
@@ -116,13 +131,11 @@
 
         <div class="row">
           <div class="col-md-6">
-            <p>One of the reasons why IoT/M2M development can prove to be difficult is the large number of communication protocols used in today's industries. From the industrial protocol used to collect temperature data on a sensor, to the communication protocol used to send this data to a server in the Cloud, to the device management protocol that allows remote firmware upgrade of a system, there are just too many protocols to master for building an end-to-end IoT/M2M solution.
+            <p>One of the reasons why IoT development can prove to be difficult is the large number of communication protocols used in today's industries. From the industrial protocol used to collect temperature data on a sensor, to the communication protocol used to send this data to a server in the Cloud, to the device management protocol that allows remote firmware upgrade of a system, there are just too many protocols to master for building an end-to-end IoT solution.
             </p>
             <p>
-              We propose Open Source implementations for protocols already well-adopted in M2M fields (such as MQTT, CoAP and OMA-DM).
-              <br />We believe it is a way to encourage their adoption, as well as to improve the quality of these implementations.
+              We propose Open Source implementations for protocols already well-adopted in IoT fields, such as MQTT, CoAP and OMA-DM. We believe it is a way to encourage their adoption, as well as to improve the quality of these implementations.
             </p>
-            <p>We also have a project proposal to implement the CoAP, Lightweight M2M and the ETSI M2M standard.</p>
           </div>
           <p class="col-md-6">
             <img src="images/protocols/protocols-vision.png"></img>

@@ -22,6 +22,19 @@ main.main {
             color: $white !important;
         }
     }
+    .subsection-header {
+        margin-bottom: 20px;
+        h2 {
+            color: $white;
+            display: block;
+            height: 79px;
+            width: 100%;
+            background-size: 100%;
+            padding: 28px;
+            font-size: 21px;
+            margin-bottom: 30px;
+        }
+    }
     section.first {
         background-color: $white;
         background-image: url(../images/section-first-divider.png);
@@ -78,19 +91,6 @@ main.main {
         background-size: 100%;
         background-position: bottom center;
         padding: 20px 0 75px;
-        .latest-news, .featured-article, .upcoming-events {
-            margin-bottom: 60px;
-            h2 {
-                color: $white;
-                display: block;
-                height: 79px;
-                width: 100%;
-                background-size: 100%;
-                padding: 28px;
-                font-size: 21px;
-                margin-bottom: 30px;
-            }
-        }
         .community {
             p {
                 font-size: 1.5em;
@@ -115,36 +115,39 @@ main.main {
                     font-size: 12px;
                 }
             }
-            .latest-news-item.last {
-                margin-bottom: 25px;
+            .latest-news-item:last-of-type {
+                margin-bottom: 35px;
+                border-bottom: 0px;
             }
         }
-        .featured-article {
+        .featured-articles {
             h2 {
                 background-image: url(../images/heading-featured.jpg);
             }
-            .featured-article-item {
+            .featured-articles-item {
                 background-image: url(../images/open-iot-bg.jpg);
-                background-size: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
                 color: $white;
                 text-align: center;
+                margin-bottom: 30px;
                 h3 {
                     font-size: 18px;
                     color: $white;
                     padding: 40px 0;
                     margin: 0;
                 }
-                p {
-                    background-color: $blue;
-                    padding: 10px 0;
-                    font-size: 1em;
-                    color: white;
-                    line-height: 1.2;
-                    position: relative;
-                    &:after {
-                        @include triangle-bottomright($blue);
-                    }
-                }
+                // p {
+                //     background-color: $blue;
+                //     padding: 10px 0;
+                //     font-size: 1em;
+                //     color: white;
+                //     line-height: 1.2;
+                //     position: relative;
+                //     &:after {
+                //         @include triangle-bottomright($blue);
+                //     }
+                // }
             }
         }
         .upcoming-events {
@@ -152,12 +155,12 @@ main.main {
                 background-image: url(../images/heading-upcoming_events.jpg);
             }
             .upcoming-events-item {
-                background-image: url(../images/upcoming-events-bg_hover.png);
-                background-size: 100%;
                 text-align: center;
                 color: $white;
                 margin-bottom: 30px;
                 h3 {
+                    background-image: url(../images/upcoming-events-bg.png);
+                    background-size: 100%;
                     padding: 40px 0;
                     font-size: 18px;
                     font-weight: bold;
@@ -166,6 +169,10 @@ main.main {
                         font-weight: normal;
                         font-size: 14px;
                     }
+                }
+                h3:hover {
+                    background: url(../images/upcoming-events-bg_hover.png);
+                    background-size: 100%;
                 }
                 p {
                     background-color: $blue;
@@ -248,6 +255,17 @@ main.main {
                 padding-bottom: 50px;
                 color: $purple;
             }
+        }
+    }
+    // getting started page
+    .videos {
+        h2 {
+            background-image: url(../images/heading-upcoming_events.jpg);
+        }
+    }
+    .presentations {
+        h2 {
+            background-image: url(../images/heading-upcoming_events.jpg);
         }
     }
 }

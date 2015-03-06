@@ -22,7 +22,7 @@ a {
     margin: 40px 0 20px;
 }
 .header p {
-    color: white !important;
+    color: #dee8ef !important;
     font-size: 27px;
     line-height: 1.4;
     font-weight: 300;
@@ -55,10 +55,11 @@ button:hover {
 }
 button i.fa {
     /*font-size: 18px;
-	margin: 0 0 0 5px;*/
+    margin: 0 0 0 5px;*/
 }
 .icons-1, .icons-2 {
     text-align: center;
+    padding-top: 80px;
 }
 .icons-1 {
     background-color: #f4f3f3;
@@ -98,7 +99,7 @@ button i.fa {
 .discover p {
     font-size: 21px;
     line-height: 1.4;
-    color: #dee8ef;
+    color: #dee8ef !important;
     font-weight: 300;
 }
 .logos {

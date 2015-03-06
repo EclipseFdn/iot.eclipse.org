@@ -1,6 +1,5 @@
 
 
-
 // Colours variables
 $green:#6eb553;
 $blue:#3085cb;
@@ -11,6 +10,14 @@ $gray:#58595b;
 
 $bg-gradient-dark:#141421;
 $bg-gradient-light:#4d2258;
+
+
+// navbar
+$navbar-default-color: $white !default;
+$navbar-default-link-color: $white !default;
+$navbar-default-link-hover-color: $white !default;
+$navbar-default-bg: rgba(255, 255, 255, 0) !default;
+$navbar-default-border: none !default;
 
 // Text Colours
 .green{color:$green;}
