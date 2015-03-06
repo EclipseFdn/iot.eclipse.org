@@ -7,15 +7,15 @@
     
     
     
-    <updated>Wed, 18 Mar 2015 00:00:00 UTC</updated>
+    <updated>Thu, 05 Mar 2015 12:16:25 CET</updated>
     
     <item>
-      <title>Eclipse Day Dresden</title>
-      <link>/event/eclipse-day-dresden/</link>
-      <pubDate>Wed, 18 Mar 2015 00:00:00 UTC</pubDate>
+      <title>first</title>
+      <link>/post/first/</link>
+      <pubDate>Thu, 05 Mar 2015 12:16:25 CET</pubDate>
       
-      <guid>/event/eclipse-day-dresden/</guid>
-      <description>&lt;p&gt;xx&lt;/p&gt;
+      <guid>/post/first/</guid>
+      <description>&lt;p&gt;When faced with the same need, I past the lwm2m_context_t pointer in the object lwm2m_object_t::userData (directly on inside a struct). See code snippets below.&lt;/p&gt;
 </description>
     </item>
     
@@ -29,13 +29,12 @@
     </item>
     
     <item>
-      <title>first</title>
-      <link>/post/first/</link>
-      <pubDate>Thu, 05 Mar 2015 12:16:25 CET</pubDate>
+      <title>Eclipse Day Dresden</title>
+      <link>/event/eclipse-day-dresden/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 UTC</pubDate>
       
-      <guid>/post/first/</guid>
-      <description>&lt;p&gt;When faced with the same need, I past the lwm2m_context_t pointer in the object lwm2m_object_t::userData (directly on inside a struct). See code snippets below.&lt;/p&gt;
-</description>
+      <guid>/event/eclipse-day-dresden/</guid>
+      <description></description>
     </item>
     
   </channel>

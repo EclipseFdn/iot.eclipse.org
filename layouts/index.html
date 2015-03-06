@@ -255,7 +255,7 @@
               <div class="row">
 
 
-                {{ range first 4 .Data.Pages }} {{ if eq .Type "event"}}
+                {{ range first 4 .Data.Pages.ByDate }} {{ if eq .Type "event"}}
 
                 <div class="col-sm-6">
                   <a href="{{ .Params.link }}" target="_blank">

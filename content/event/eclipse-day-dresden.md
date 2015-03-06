@@ -8,4 +8,3 @@ title = "Eclipse Day Dresden"
 
 +++
 
-xx
