@@ -1,0 +1,10 @@
+http://iot.eclipse.org/
+http://iot.eclipse.org/index.html
+http://iot.eclipse.org/frameworks.html
+http://iot.eclipse.org/protocols.html
+http://iot.eclipse.org/tools.html
+http://iot.eclipse.org/community.html
+http://iot.eclipse.org/demo/
+http://iot.eclipse.org/sandbox.html
+http://iot.eclipse.org/contact.html
+http://iot.eclipse.org/demo/index.html

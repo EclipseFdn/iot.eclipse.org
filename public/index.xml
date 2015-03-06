@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Recent Content on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 09 Mar 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>EclipseCon NA 2015</title>
+      <link>/event/xx/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/event/xx/</guid>
+      <description>&lt;p&gt;xx&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>/post/first/</link>
+      <pubDate>Thu, 05 Mar 2015 12:16:25 CET</pubDate>
+      
+      <guid>/post/first/</guid>
+      <description>&lt;p&gt;When faced with the same need, I past the lwm2m_context_t pointer in the object lwm2m_object_t::userData (directly on inside a struct). See code snippets below.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

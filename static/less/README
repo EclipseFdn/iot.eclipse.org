@@ -1,0 +1,1 @@
+You can recompile the less files by issuing "make bootstrap". The CSS files will be automatically copied to the location that all the HTML pages reference.
