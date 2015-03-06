@@ -262,9 +262,9 @@
                     <div class="upcoming-events-item">
                       <h3>
                       {{ .Title }}<br>
-                      <span class="date">Mar 9-12, 2015</span>
+                      <span class="date">{{ .Params.event_date }}</span>
                       </h3>
-                      <p>{{ .Params.Location }}</p>
+                      <p>{{ .Params.location }}</p>
                     </div>
                   </a>
                 </div>

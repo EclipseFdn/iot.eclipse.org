@@ -7,16 +7,25 @@
     
     
     
-    <updated>Mon, 09 Mar 2015 00:00:00 UTC</updated>
+    <updated>Wed, 18 Mar 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Eclipse Day Dresden</title>
+      <link>/event/eclipse-day-dresden/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/event/eclipse-day-dresden/</guid>
+      <description>&lt;p&gt;xx&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>EclipseCon NA 2015</title>
-      <link>/event/xx/</link>
+      <link>/event/eclipsecon2015/</link>
       <pubDate>Mon, 09 Mar 2015 00:00:00 UTC</pubDate>
       
-      <guid>/event/xx/</guid>
-      <description>&lt;p&gt;xx&lt;/p&gt;
-</description>
+      <guid>/event/eclipsecon2015/</guid>
+      <description></description>
     </item>
     
   </channel>

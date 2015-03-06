@@ -7,5 +7,3 @@ location = "Burlingame, CA"
 title = "EclipseCon NA 2015"
 
 +++
-
-xx
