@@ -2,23 +2,108 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2015-03-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/first/</loc>
-    <lastmod>2015-03-05T12:16:25+01:00</lastmod>
+    <loc>http://localhost:1313/member/2lemetry/</loc>
+    <lastmod>2015-03-08T15:31:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/event/eclipsecon2015/</loc>
+    <loc>http://localhost:1313/member/actuate/</loc>
+    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/bitreactive/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/bosch/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/canonical/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/dcsquare/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/dtag/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/eurotech/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/gadgetkeeper/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/ibh/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/ibm/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/itemis/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/m2m-alliance/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/litmus/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/openhab/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/oracle/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/sierra/</loc>
+    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/event/eclipsecon2015/</loc>
     <lastmod>2015-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/event/eclipse-day-dresden/</loc>
+    <loc>http://localhost:1313/event/eclipse-day-dresden/</loc>
     <lastmod>2015-03-18T00:00:00+00:00</lastmod>
   </url>
   

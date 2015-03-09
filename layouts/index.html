@@ -290,33 +290,14 @@
           <div class="col-md-8 logos">
 
             <div class="row">
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-eurotech.jpg" class="img-responsive">
+
+              {{ range .Data.Pages }} {{ if eq .Type "member"}}
+              <div class="col-md-4 col-xs-6" style="padding:15px 70px; display:none;">
+                <div style="height: 120px; display:table-cell; vertical-align:middle;">
+                  <img src="/assets/images/members/logo-{{ .Title }}.png" class="img-responsive">
+                </div>
               </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-ibm.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-sierra.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-bosch.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-bitreactive.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-dcsquare.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-gadgetkeeper.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-cisco.jpg" class="img-responsive">
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <img src="assets/images/wg-2lemetry.jpg" class="img-responsive">
-              </div>
+              {{ end }} {{ end }}
 
               <!-- <div class="col-md-12">
   <p class="align-center"><a href="/ecosystem.html" class="btn btn-primary">More</a>
@@ -389,7 +370,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 
+  <script src="js/shuffle.js"></script>
   <script src="js/index.js"></script>
+
+
 
 </body>
 

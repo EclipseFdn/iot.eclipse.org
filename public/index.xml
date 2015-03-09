@@ -1,39 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on  </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>/index.xml/</link>
-    
-    
-    
-    <updated>Thu, 05 Mar 2015 12:16:25 CET</updated>
-    
-    <item>
-      <title>first</title>
-      <link>/post/first/</link>
-      <pubDate>Thu, 05 Mar 2015 12:16:25 CET</pubDate>
-      
-      <guid>/post/first/</guid>
-      <description>&lt;p&gt;When faced with the same need, I past the lwm2m_context_t pointer in the object lwm2m_object_t::userData (directly on inside a struct). See code snippets below.&lt;/p&gt;
-</description>
-    </item>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Mar 2015 15:31:13 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>EclipseCon NA 2015</title>
-      <link>/event/eclipsecon2015/</link>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 UTC</pubDate>
+      <title>2lemetry</title>
+      <link>http://localhost:1313/member/2lemetry/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:13 -0700</pubDate>
       
-      <guid>/event/eclipsecon2015/</guid>
+      <guid>http://localhost:1313/member/2lemetry/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Eclipse Day Dresden</title>
-      <link>/event/eclipse-day-dresden/</link>
-      <pubDate>Wed, 18 Mar 2015 00:00:00 UTC</pubDate>
+      <title>actuate</title>
+      <link>http://localhost:1313/member/actuate/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:14 -0700</pubDate>
       
-      <guid>/event/eclipse-day-dresden/</guid>
+      <guid>http://localhost:1313/member/actuate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitreactive</title>
+      <link>http://localhost:1313/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/bitreactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bosch</title>
+      <link>http://localhost:1313/member/bosch/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/bosch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canonical</title>
+      <link>http://localhost:1313/member/canonical/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/canonical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dcsquare</title>
+      <link>http://localhost:1313/member/dcsquare/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/dcsquare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dtag</title>
+      <link>http://localhost:1313/member/dtag/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/dtag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eurotech</title>
+      <link>http://localhost:1313/member/eurotech/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/eurotech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gadgetkeeper</title>
+      <link>http://localhost:1313/member/gadgetkeeper/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/gadgetkeeper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ibh</title>
+      <link>http://localhost:1313/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/ibh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ibm</title>
+      <link>http://localhost:1313/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laas</title>
+      <link>http://localhost:1313/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/laas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itemis</title>
+      <link>http://localhost:1313/member/itemis/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/itemis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>m2m-alliance</title>
+      <link>http://localhost:1313/member/m2m-alliance/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/m2m-alliance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>litmus</title>
+      <link>http://localhost:1313/member/litmus/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/litmus/</guid>
       <description></description>
     </item>
     

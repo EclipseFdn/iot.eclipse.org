@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Events on  </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>/event/index.xml/</link>
-    
-    
-    
-    <updated>Wed, 18 Mar 2015 00:00:00 UTC</updated>
+    <title>Events on </title>
+    <link>http://localhost:1313/event/</link>
+    <description>Recent content in Events on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 18 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Eclipse Day Dresden</title>
-      <link>/event/eclipse-day-dresden/</link>
-      <pubDate>Wed, 18 Mar 2015 00:00:00 UTC</pubDate>
+      <link>http://localhost:1313/event/eclipse-day-dresden/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>/event/eclipse-day-dresden/</guid>
+      <guid>http://localhost:1313/event/eclipse-day-dresden/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EclipseCon NA 2015</title>
-      <link>/event/eclipsecon2015/</link>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 UTC</pubDate>
+      <link>http://localhost:1313/event/eclipsecon2015/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>/event/eclipsecon2015/</guid>
+      <guid>http://localhost:1313/event/eclipsecon2015/</guid>
       <description></description>
     </item>
     
