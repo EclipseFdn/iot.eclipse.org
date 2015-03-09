@@ -90,15 +90,6 @@
     </item>
     
     <item>
-      <title>ibh</title>
-      <link>http://localhost:1313/member/ibh/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/ibh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ibm</title>
       <link>http://localhost:1313/member/ibm/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
@@ -108,11 +99,11 @@
     </item>
     
     <item>
-      <title>laas</title>
-      <link>http://localhost:1313/member/laas/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      <title>ibh</title>
+      <link>http://localhost:1313/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/laas/</guid>
+      <guid>http://localhost:1313/member/ibh/</guid>
       <description></description>
     </item>
     
@@ -126,11 +117,11 @@
     </item>
     
     <item>
-      <title>m2m-alliance</title>
-      <link>http://localhost:1313/member/m2m-alliance/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      <title>laas</title>
+      <link>http://localhost:1313/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/m2m-alliance/</guid>
+      <guid>http://localhost:1313/member/laas/</guid>
       <description></description>
     </item>
     
@@ -140,6 +131,15 @@
       <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
       
       <guid>http://localhost:1313/member/litmus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>m2m-alliance</title>
+      <link>http://localhost:1313/member/m2m-alliance/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/m2m-alliance/</guid>
       <description></description>
     </item>
     
