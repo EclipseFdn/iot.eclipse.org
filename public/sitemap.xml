@@ -8,68 +8,28 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/2lemetry/</loc>
-    <lastmod>2015-03-08T15:31:13-07:00</lastmod>
+    <loc>http://localhost:1313/event/eclipse-day-dresden/</loc>
+    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/actuate/</loc>
-    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
+    <loc>http://localhost:1313/event/eclipsecon2015/</loc>
+    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/bitreactive/</loc>
-    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+    <loc>http://localhost:1313/member/sierra/</loc>
+    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/bosch/</loc>
-    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+    <loc>http://localhost:1313/member/oracle/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/canonical/</loc>
-    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/dcsquare/</loc>
-    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/dtag/</loc>
-    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/eurotech/</loc>
-    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/gadgetkeeper/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/ibm/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/ibh/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/itemis/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/laas/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+    <loc>http://localhost:1313/member/openhab/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
   </url>
   
   <url>
@@ -83,28 +43,78 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/openhab/</loc>
-    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+    <loc>http://localhost:1313/member/itemis/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/oracle/</loc>
-    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+    <loc>http://localhost:1313/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/member/sierra/</loc>
-    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
+    <loc>http://localhost:1313/member/gadgetkeeper/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/event/eclipsecon2015/</loc>
-    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/member/ibh/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/event/eclipse-day-dresden/</loc>
-    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/member/ibm/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/eurotech/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/dtag/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/canonical/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/dcsquare/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/bitreactive/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/bosch/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/actuate/</loc>
+    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/member/2lemetry/</loc>
+    <lastmod>2015-03-08T15:31:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/news/case-study-mqtt/</loc>
+    <lastmod>2015-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/news/announcing-open-iot-challenge/</loc>
+    <lastmod>2015-02-09T16:28:26-07:00</lastmod>
   </url>
   
 </urlset>

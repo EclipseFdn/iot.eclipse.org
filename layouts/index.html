@@ -223,25 +223,18 @@
 
           <div class="col-md-6">
             <section class="subsection-header latest-news">
-              <h2>Latest News</h2>
-              <div class="latest-news-item">
-                <h3>Announcing the Open IoT challenge</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
-                <p class="date">12/04/2015</p>
-              </div>
-              <div class="latest-news-item">
-                <h3>Announcing the Open IoT challenge</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
-                <p class="date">12/04/2015</p>
-              </div>
-              <!-- <div class="latest-news-item last">
-  <h3>Announcing the Open IoT challenge</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit pellentesque euismod. Curabitur mattis</p>
-  <p class="date">12/04/2015</p>
-</div>
- -->
+              <h2>Latest News</h2> {{ range first 2 (where .Data.Pages ".Type" "news") }}
 
-              <p><a href="#" class="btn btn-primary">More News...</a>
+              <div class="latest-news-item">
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Content }} </p>
+                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
+              </div>
+
+              {{ end }}
+
+              <p>
+                <a href="#" class="btn btn-primary">More News...</a>
               </p>
             </section>
             <!-- .latest-news -->
@@ -255,7 +248,7 @@
               <div class="row">
 
 
-                {{ range first 4 .Data.Pages.ByDate }} {{ if eq .Type "event"}}
+                {{ range first 4 (where .Data.Pages ".Type" "event") }}
 
                 <div class="col-sm-6">
                   <a href="{{ .Params.link }}" target="_blank">
@@ -270,7 +263,7 @@
                 </div>
 
 
-                {{ end }} {{ end }}
+                {{ end }}
 
 
               </div>
@@ -291,13 +284,14 @@
 
             <div class="row">
 
-              {{ range .Data.Pages }} {{ if eq .Type "member"}}
+              {{ range where .Data.Pages ".Type" "member" }}
+
               <div class="col-md-4 col-xs-6" style="padding:15px 70px; display:none;">
                 <div style="height: 120px; display:table-cell; vertical-align:middle;">
                   <img src="/assets/images/members/logo-{{ .Title }}.png" class="img-responsive">
                 </div>
               </div>
-              {{ end }} {{ end }}
+              {{ end }}
 
               <!-- <div class="col-md-12">
   <p class="align-center"><a href="/ecosystem.html" class="btn btn-primary">More</a>

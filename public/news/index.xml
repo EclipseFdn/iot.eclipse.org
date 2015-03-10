@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on </title>
+    <link>http://localhost:1313/news/</link>
+    <description>Recent content in News on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 04 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
+      <link>http://localhost:1313/news/case-study-mqtt/</link>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/case-study-mqtt/</guid>
+      <description>&lt;p&gt;For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open IoT Challenge</title>
+      <link>http://localhost:1313/news/announcing-open-iot-challenge/</link>
+      <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
+      
+      <guid>http://localhost:1313/news/announcing-open-iot-challenge/</guid>
+      <description>&lt;p&gt;2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California.
+If you haven’t seen the EclipseCon program already, I highly…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
