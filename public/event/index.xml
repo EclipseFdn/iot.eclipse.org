@@ -5,24 +5,60 @@
     <link>http://localhost:1313/event/</link>
     <description>Recent content in Events on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 18 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2015 16:12:42 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>O&#39;Reilly SOLID</title>
+      <link>http://localhost:1313/event/2015-06-23-solidcon/</link>
+      <pubDate>Tue, 23 Jun 2015 16:12:42 +0100</pubDate>
+      
+      <guid>http://localhost:1313/event/2015-06-23-solidcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT World</title>
+      <link>http://localhost:1313/event/2015-05-12-iot-world/</link>
+      <pubDate>Tue, 12 May 2015 16:12:42 +0100</pubDate>
+      
+      <guid>http://localhost:1313/event/2015-05-12-iot-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT DevCon</title>
+      <link>http://localhost:1313/event/2015-05-06-iot-devcon/</link>
+      <pubDate>Wed, 06 May 2015 16:12:42 +0100</pubDate>
+      
+      <guid>http://localhost:1313/event/2015-05-06-iot-devcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Conference – Spring</title>
+      <link>http://localhost:1313/event/2015-03-23-iot-conference/</link>
+      <pubDate>Mon, 23 Mar 2015 16:12:42 +0100</pubDate>
+      
+      <guid>http://localhost:1313/event/2015-03-23-iot-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Eclipse Day Dresden</title>
-      <link>http://localhost:1313/event/eclipse-day-dresden/</link>
+      <link>http://localhost:1313/event/2015-03-18-eclipse-day-dresden/</link>
       <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/event/eclipse-day-dresden/</guid>
+      <guid>http://localhost:1313/event/2015-03-18-eclipse-day-dresden/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EclipseCon NA 2015</title>
-      <link>http://localhost:1313/event/eclipsecon2015/</link>
+      <link>http://localhost:1313/event/2015-03-09-eclipsecon2015/</link>
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/event/eclipsecon2015/</guid>
+      <guid>http://localhost:1313/event/2015-03-09-eclipsecon2015/</guid>
       <description></description>
     </item>
     

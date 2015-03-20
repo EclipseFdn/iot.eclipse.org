@@ -221,7 +221,9 @@
 
           <div class="col-md-6">
             <section class="subsection-header latest-news">
-              <h2>Latest News</h2> {{ range first 2 (where .Data.Pages ".Type" "news") }}
+              <h2>Latest News</h2> 
+
+              {{ range first 2 (where .Data.Pages ".Type" "news") }}
 
               <div class="latest-news-item">
                 <h3>{{ .Title }}</h3>
@@ -245,13 +247,17 @@
               <h2>Upcoming Events</h2>
               <div class="row">
 
+                {{ $.Scratch.Set "idx" 0 }}
 
-                {{ range first 4 (where .Data.Pages ".Type" "event") }}
+                {{ range (where .Data.Pages.ByDate ".Type" "event") }}
+
+                {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
 
                 <div class="col-sm-6">
                   <a href="{{ .Params.link }}" target="_blank">
                     <div class="upcoming-events-item">
                       <h3>
+
                       {{ .Title }}<br>
                       <span class="date">{{ .Params.event_date }}</span>
                       </h3>
@@ -260,6 +266,9 @@
                   </a>
                 </div>
 
+                {{ $.Scratch.Add "idx" 1 }}
+
+                {{ end }}
 
                 {{ end }}
 
