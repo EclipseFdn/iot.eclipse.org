@@ -147,15 +147,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>IBM</title>
-      <link>http://localhost:1313/member/ibm/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/ibm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>IBH SYSTEMS</title>
       <link>http://localhost:1313/member/ibh/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
@@ -165,6 +156,15 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>http://localhost:1313/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/ibm/</guid>
+      <description></description>
     </item>
     
     <item>

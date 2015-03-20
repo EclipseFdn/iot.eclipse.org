@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:14-07:00"
 title = "Actuate"
-logo = "Actuate"
+logo = "actuate"
 is_steering = false
 member_id = 652
 demo_url = "http://blogs.actuate.com/creating-an-iot-dashboard-with-birt/"
