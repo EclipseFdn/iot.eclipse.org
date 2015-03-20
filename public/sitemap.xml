@@ -1,124 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2015-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</loc>
-    <lastmod>2015-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/event/eclipse-day-dresden/</loc>
-    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/event/eclipsecon2015/</loc>
-    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/sierra/</loc>
-    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/openhab/</loc>
-    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/litmus/</loc>
-    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/m2m-alliance/</loc>
-    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/laas/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/itemis/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/gadgetkeeper/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/ibh/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/ibm/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/eurotech/</loc>
-    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/dtag/</loc>
-    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/canonical/</loc>
-    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/dcsquare/</loc>
-    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/bitreactive/</loc>
-    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/bosch/</loc>
-    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/actuate/</loc>
-    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/member/2lemetry/</loc>
-    <lastmod>2015-03-08T15:31:13-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/news/2015-03-04-case-study-mqtt/</loc>
-    <lastmod>2015-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/news/2015-02-09-announcing-open-iot-challenge/</loc>
-    <lastmod>2015-02-09T16:28:26-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/working-group/dummy/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://iot.eclipse.org/</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/index.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/frameworks.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/protocols.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/tools.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/community.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/demo/</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/sandbox.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/contact.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://iot.eclipse.org/demo/index.html</loc>
+  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>

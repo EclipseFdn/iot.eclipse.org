@@ -79,20 +79,20 @@
     </item>
     
     <item>
-      <title>LAAS-CNRS</title>
-      <link>http://localhost:1313/member/laas/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/laas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>itemis</title>
       <link>http://localhost:1313/member/itemis/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
       
       <guid>http://localhost:1313/member/itemis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LAAS-CNRS</title>
+      <link>http://localhost:1313/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/laas/</guid>
       <description></description>
     </item>
     
@@ -132,6 +132,15 @@
     </item>
     
     <item>
+      <title>Deutsche Telekom</title>
+      <link>http://localhost:1313/member/dtag/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/dtag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Eurotech</title>
       <link>http://localhost:1313/member/eurotech/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
@@ -141,15 +150,6 @@
 
 &lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deutsche Telekom</title>
-      <link>http://localhost:1313/member/dtag/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/dtag/</guid>
-      <description></description>
     </item>
     
     <item>
