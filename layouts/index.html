@@ -191,26 +191,21 @@
 
           <div class="col-md-6 col-md-offset-1">
             <section class="subsection-header featured-articles">
-              <h2>Featured Articles</h2>
+              <h2>Featured Articles<span></span></h2>
 
               <div class="row">
 
-                <div class="col-md-6">
-                  <div class=" featured-articles-item">
-                    <a href="/java/tutorial">
-                      <h3>Open IoT Stack for Java Tutorial</h3>
-                      <!-- <p>Use Kura and MQTT to connect a greenhouse</p>
- -->
-                    </a>
+                  {{ range first 2 (where .Data.Pages ".Type" "article") }}
+
+                  <div class="col-md-6">
+                    <div class="featured-articles-item">
+                      <a href="{{ .Params.link }}">
+                        <h3>{{ .Title }} </h3>
+                      </a>
+                    </div>
                   </div>
 
-                </div>
-                <div class="col-md-6">
-                  <div class="featured-articles-item">
-                    <h3>Open IoT Stack for Java Tutorial</h3>
-                    <!--                     <p>Use Kura and MQTT to connect a greenhouse</p> -->
-                  </div>
-                </div>
+                  {{ end }}
 
               </div>
             </section>
@@ -221,7 +216,7 @@
 
           <div class="col-md-6">
             <section class="subsection-header latest-news">
-              <h2>Latest News</h2> 
+              <h2>Latest News<span></span></h2> 
 
               {{ range first 2 (where .Data.Pages ".Type" "news") }}
 
@@ -246,7 +241,7 @@
 
           <div class="col-md-6">
             <section class="subsection-header upcoming-events">
-              <h2>Upcoming Events</h2>
+              <h2>Upcoming Events<span></span></h2>
               <div class="row">
 
                 {{ $.Scratch.Set "idx" 0 }}

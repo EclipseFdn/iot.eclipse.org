@@ -27,12 +27,25 @@ main.main {
         h2 {
             color: $white;
             display: block;
-            height: 79px;
+            height: 76px;
             width: 100%;
             background-size: 100%;
             padding: 28px;
             font-size: 21px;
             margin-bottom: 30px;
+
+            span {
+              width: 83px;
+              height: 76px;
+              background: $blue;
+              position: absolute;
+              top: 25px;
+              @media (max-width: $screen-sm-max) {
+                top: 0px;
+              }
+              right: 15px;
+            }
+
         }
     }
     section.first {
@@ -98,7 +111,10 @@ main.main {
         }
         .latest-news {
             h2 {
-                background-image: url(../images/heading-latest_news.jpg);
+                background-image: url(../images/heading-latest_news.png);
+                span {
+                    background-image: url(../images/heading-latest_news-icon.png);
+                }
             }
             .latest-news-item {
                 border-bottom: 1px solid darken($white, 20%);
@@ -122,7 +138,10 @@ main.main {
         }
         .featured-articles {
             h2 {
-                background-image: url(../images/heading-featured.jpg);
+                background-image: url(../images/heading-featured.png);
+                span {
+                    background-image: url(../images/heading-featured-icon.png);
+                }
             }
             .featured-articles-item {
                 background-image: url(../images/open-iot-bg.jpg);
@@ -152,7 +171,10 @@ main.main {
         }
         .upcoming-events {
             h2 {
-                background-image: url(../images/heading-upcoming_events.jpg);
+                background-image: url(../images/heading-upcoming_events.png);
+                span {
+                    background-image: url(../images/heading-upcoming_events-icon.png);
+                }
             }
             .upcoming-events-item {
                 text-align: center;
@@ -278,12 +300,14 @@ main.main {
 
     // working group page
     .mb-logo {
-        padding-top: 70px;
+        padding-top: 40px;
         padding-left: 30px;
     }
 
     .members-info {
         margin-bottom: 3em;
+        border-bottom: 1px dotted $blue;
+        padding-bottom: 40px;
     }
 
 

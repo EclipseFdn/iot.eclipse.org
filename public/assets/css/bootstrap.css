@@ -4256,12 +4256,22 @@ main.main {
     main.main .subsection-header h2 {
       color: whitesmoke;
       display: block;
-      height: 79px;
+      height: 76px;
       width: 100%;
       background-size: 100%;
       padding: 28px;
       font-size: 21px;
       margin-bottom: 30px; }
+      main.main .subsection-header h2 span {
+        width: 83px;
+        height: 76px;
+        background: #3085cb;
+        position: absolute;
+        top: 25px;
+        right: 15px; }
+        @media (max-width: 991px) {
+          main.main .subsection-header h2 span {
+            top: 0px; } }
   main.main section.first {
     background-color: whitesmoke;
     background-image: url(../images/section-first-divider.png);
@@ -4309,7 +4319,9 @@ main.main {
     main.main section.second .community p {
       font-size: 1.5em; }
     main.main section.second .latest-news h2 {
-      background-image: url(../images/heading-latest_news.jpg); }
+      background-image: url(../images/heading-latest_news.png); }
+      main.main section.second .latest-news h2 span {
+        background-image: url(../images/heading-latest_news-icon.png); }
     main.main section.second .latest-news .latest-news-item {
       border-bottom: 1px solid #c2c2c2;
       padding-bottom: 10px;
@@ -4325,7 +4337,9 @@ main.main {
       margin-bottom: 35px;
       border-bottom: 0px; }
     main.main section.second .featured-articles h2 {
-      background-image: url(../images/heading-featured.jpg); }
+      background-image: url(../images/heading-featured.png); }
+      main.main section.second .featured-articles h2 span {
+        background-image: url(../images/heading-featured-icon.png); }
     main.main section.second .featured-articles .featured-articles-item {
       background-image: url(../images/open-iot-bg.jpg);
       background-size: cover;
@@ -4339,7 +4353,9 @@ main.main {
         padding: 40px 0;
         margin: 0; }
     main.main section.second .upcoming-events h2 {
-      background-image: url(../images/heading-upcoming_events.jpg); }
+      background-image: url(../images/heading-upcoming_events.png); }
+      main.main section.second .upcoming-events h2 span {
+        background-image: url(../images/heading-upcoming_events-icon.png); }
     main.main section.second .upcoming-events .upcoming-events-item {
       text-align: center;
       color: whitesmoke;
@@ -4431,10 +4447,12 @@ main.main {
       padding-bottom: 50px;
       color: #551f62; }
   main.main .mb-logo {
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 30px; }
   main.main .members-info {
-    margin-bottom: 3em; }
+    margin-bottom: 3em;
+    border-bottom: 1px dotted #3085cb;
+    padding-bottom: 40px; }
   main.main .videos h2 {
     background-image: url(../images/heading-upcoming_events.jpg); }
   main.main .presentations h2 {
