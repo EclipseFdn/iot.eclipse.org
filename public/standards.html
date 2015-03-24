@@ -16,12 +16,12 @@
 
   <!-- Le styles -->
   <link href="/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="/assets/css/icomoon.css" rel="stylesheet">
 
   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-594061-11']);
   _gaq.push(['_trackPageview']);
-
   (function() {
     var ga = document.createElement('script');
     ga.type = 'text/javascript';
@@ -90,9 +90,7 @@
       <!-- /.container-fluid -->
     </nav>
 
-
   </header>
-
 
   <!-- Place this tag after the last +1 button tag. -->
   <script type="text/javascript">
@@ -105,7 +103,6 @@
     s.parentNode.insertBefore(po, s);
   })();
   </script>
-
 
   <main class="main">
 
@@ -128,17 +125,22 @@
 
         <h1 id="protocols-vision" class="purple">Vision</h1>
 
-
         <div class="row">
           <div class="col-md-6">
-            <p>One of the reasons why IoT development can prove to be difficult is the large number of communication protocols used in today's industries. From the industrial protocol used to collect temperature data on a sensor, to the communication protocol used to send this data to a server in the Cloud, to the device management protocol that allows remote firmware upgrade of a system, there are just too many protocols to master for building an end-to-end IoT solution.
+            <p>Building interoperable IoT solutions is a real challenge. From sensors and actuators on the field to backend systems, there are many aspects of an end-to-end solutions where it is important to rely on standards:</p>
+
+            <ul>
+              <li>Protocols used to implement the device-to-device or device-to-server communications,</li>
+              <li>Device Management protocols to allow remote control of IoT devices and gateways,</li>
+              <li>Gateways and Server interfaces.</li>
+            </ul>
             </p>
             <p>
-              We propose Open Source implementations for protocols already well-adopted in IoT fields, such as MQTT, CoAP and OMA-DM. We believe it is a way to encourage their adoption, as well as to improve the quality of these implementations.
+              While Open Standards are key, we believe that it is also important to make available open-source implementations of such standards, to encourage adoption of such standards both by IoT developers and the IoT industry at large.
             </p>
           </div>
           <p class="col-md-6">
-            <img src="images/protocols/protocols-vision.png"></img>
+            <img src="/assets/images/open-standards.png" class="img-responsive"></img>
           </p>
         </div>
 
@@ -157,28 +159,27 @@
         <p>With loose coupling and quality-of-service, MQTT is optimized for dynamic system environments where high volumes of physical world messages and events need to be made available to Web and enterprise servers, and other consumers. MQTT has been well positioned for even the unanticipated requirements of M2M and IoT applications.</p>
 
         <h2>
-            <i class="icon-arrow-right"></i> Getting started with MQTT
+            <i class="icon-forward"></i> Getting started with MQTT
         </h2>
         <p>
           The Paho project is based around MQTT client runtimes that implement the MQTT messaging protocol. The client runtimes can be configured to run against a broker running on your server, or the sandbox MQTT server described below. There are <a href="http://wiki.eclipse.org/Paho#Quick_Start_Guides" target="_blank">Quick Start Guides</a> available to get started. This article
           <a href="http://www.infoq.com/articles/practical-mqtt-with-paho">Practical MQTT with Eclipse Paho</a> is also a good introduction to MQTT.
         </p>
 
-
-        <div class="row-fluid">
-          <div class="span6">
+        <div class="row">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Download MQTT runtimes
+                    <i class="icon-forward"></i> Download MQTT runtimes
                 </h2>
             <p>
               Source code for our MQTT client libraries is available in multiple languages at the <a href="http://www.eclipse.org/paho/" target="_blank">Paho project</a> page.
             </p>
-            <p>Source code for our MQTT server library is available from the <a href="http://www.eclipse.org/mosquitto">Mosquitto</a> project</p>
+            <p>Source code for our MQTT server library is available from the <a href="http://www.eclipse.org/mosquitto">Mosquitto</a> project.</p>
           </div>
 
-          <div class="span6">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Sandbox MQTT Server
+                    <i class="icon-forward"></i> Sandbox MQTT Server
                 </h2>
             <p>
               We provide a <a href="sandbox.html#mqtt">sandbox server</a> so that you can test your MQTT-based applications against an actual MQTT broker.
@@ -198,23 +199,25 @@
 
         <p>It implements the REST architectural style, it can be transparently mapped to HTTP. However, CoAP also provides features that go beyond HTTP such as native push notifications and group communication.</p>
 
-        <div class="row-fluid">
-          <div class="span6">
+        <div class="row">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Download CoAP runtime
+                    <i class="icon-forward"></i> Download CoAP runtime
                 </h2>
 
             <p>
-              The <a href="http://www.eclipse.org/californium/" target="_blank">Californium project</a> will provide a Java implementation of the CoAP protocol, including support for the DTLS security layer. The source code of Californium should be available at Eclipse in Q2 2014.
+              The <a href="http://www.eclipse.org/californium/" target="_blank">Californium project</a> provides a Java implementation of the CoAP protocol, including support for the DTLS security layer. The source code of Californium is available from the <a href="http://www.eclipse.org/californium">project webpage</a>, and is also available from Maven Central.</p>
+              
+
             </p>
           </div>
-          <div class="span6">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Sandbox CoAP Server
+                    <i class="icon-forward"></i> Sandbox CoAP Server
                 </h2>
 
             <p>
-              We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources over CoAP. You can use it to test CoAP communication scenarios.
+              We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources over CoAP. You can use it to test your CoAP communication scenarios.
             </p>
           </div>
         </div>
@@ -234,24 +237,27 @@
           OMA LWM2M provides an extensible object model that allows to enable application data exchanges in addition to the core device management features (firmware upgrade, connectivity monitoring, &hellip;)
         </p>
 
-
-        <div class="row-fluid">
-          <div class="span6">
+        <div class="row">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Download LWM2M runtime
+                    <i class="icon-forward"></i> Download LWM2M runtime
                 </h2>
 
             <p>
-              The <a href="http://www.eclipse.org/wakaama/" target="_blank">Wakaama project</a> will provide a C portable framework for building LWM2M clients and/or servers. The source code of Wakaama should be available at Eclipse in Q2 2014.
+              The <a href="http://www.eclipse.org/wakaama/" target="_blank">Wakaama project</a> provides a <strong>C portable framework</strong> for building LWM2M clients and/or servers. The source code of Wakaama is available from the <a href="http://www.eclipse.org/wakaama">project webpage</a>.</p>
+
+            <p>
+              The <a href="http://www.eclipse.org/leshan/" target="_blank">Leshan project</a> provides a <strong>Java implementation</strong> of LwM2M, allowing to build LwM2M servers and clients. The source code of Leshan is available from the <a href="http://www.eclipse.org/leshan">project webpage</a>.</p>
+
             </p>
           </div>
-          <div class="span6">
+          <div class="col-md-6">
             <h2>
-                    <i class="icon-arrow-right"></i> Sandbox LWM2M Server
-                </h2>
+                <i class="icon-forward"></i> Sandbox LWM2M Server
+            </h2>
 
             <p>
-              We provide a <a href="sandbox.html#lwm2m">sandbox LWM2M server</a> against which LWM2M clients can be registered. The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients.
+              We provide a Leshan-based <a href="sandbox.html#lwm2m">sandbox LWM2M server</a> against which LWM2M clients can be registered. The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients.
             </p>
           </div>
         </div>
@@ -259,15 +265,32 @@
 
     </section>
 
+    <section class="third">
+      <div class="container">
 
+        <h1 id="oma-lwm2m" class="purple">ETSI SmartM2M</h1>
+
+        <p>ETSI SmartM2M provides specifications for M2M services and applications, and particularly focuses on aspects of the Internet of Things (IoT) and Smart Cities.</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+                    <i class="icon-forward"></i> Download ETSI SmartM2M runtime
+                </h2>
+
+                <p>     The <a href="http://www.eclipse.org/om2m/" target="_blank">OM2M project</a> provides a Java implementation of the ETSI SmartM2M standard. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications and heterogeneous devices. The source code of OM2M is available from the <a href="http://www.eclipse.org/om2m">project webpage</a>.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
 
     </div>
   </main>
   <!-- /container -->
-
-
 
   <footer>
 
@@ -308,9 +331,7 @@
       </div>
     </div>
 
-
   </footer>
-
 
   <!-- JS is at the end of the document so the pages load faster -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -319,7 +340,6 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
   <script src="js/index.js"></script>
-
 
 </body>
 

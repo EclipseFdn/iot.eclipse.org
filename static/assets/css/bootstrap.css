@@ -4233,7 +4233,7 @@ header {
 main.main {
   /* Item box: Layout item */
   /* Project list: projects.html */ }
-  main.main p {
+  main.main p, main.main li {
     color: #58595b; }
   main.main .line-divider-left {
     padding-left: 3em; }
