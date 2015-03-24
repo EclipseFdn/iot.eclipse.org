@@ -71,11 +71,11 @@
             </li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Resources</a>
+                <li><a href="/resources">Resources</a>
                 </li>
-                <li><a href="#">News</a>
+                <li><a href="/news">News</a>
                 </li>
-                <li><a href="#">Events</a>
+                <li><a href="/events">Events</a>
                 </li>
               </ul>
             </li>
@@ -202,11 +202,11 @@
 
           <div class="col-md-6 col-md-offset-1">
             <section class="subsection-header featured-articles">
-              <h2>Featured Articles<span></span></h2>
+              <h2>Featured Resources<span></span></h2>
 
               <div class="row">
 
-                  {{ range first 2 (where .Data.Pages ".Type" "article") }}
+                  {{ range first 2 (where .Data.Pages ".Type" "resources") }}
 
                   <div class="col-md-6">
                     <div class="featured-articles-item">
@@ -257,7 +257,7 @@
 
                 {{ $.Scratch.Set "idx" 0 }}
 
-                {{ range (where .Data.Pages.ByDate ".Type" "event") }}
+                {{ range (where .Data.Pages.ByDate ".Type" "events") }}
 
                 {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
 
@@ -339,31 +339,41 @@
       <div class="row">
         <div class="col-md-6">
           <nav>
-            <ul class="list-inline menu">
-              <li><a href="#">Technology</a>
-              </li>
-              <li><a href="#">Community</a>
-              </li>
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Resources</a>
-                  </li>
-                  <li><a href="#">News</a>
-                  </li>
-                  <li><a href="#">Events</a>
-                  </li>
-                </ul>
-                <li><a href="/ecosystem">Members</a>
+                <ul class="list-inline menu dropdown">
+            <li><a href="/getting-started">Getting Started</a>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/standards">Standards</a>
                 </li>
-                <li><a href="/getting-started">Getting Started</a>
+                <li><a href="/frameworks">Services &amp; Frameworks</a>
                 </li>
-            </ul>
+                <li><a href="/projects">All the projects</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/resources">Resources</a>
+                </li>
+                <li><a href="/news">News</a>
+                </li>
+                <li><a href="/events">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
+            <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
+              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+            </li>
+          </ul>
           </nav>
           <div class="socials">
-            <a href="#" class="social-facebook">&nbsp;</a>
-            <a href="#" class="social-twitter">&nbsp;</a>
-            <a href="#" class="social-youtube">&nbsp;</a>
-            <a href="#" class="social-share">&nbsp;</a>
+<!--             <a href="#" class="social-facebook">&nbsp;</a> -->
+            <a href="https://twitter.com/EclipseIoT" class="social-twitter">&nbsp;</a>
+            <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" class="social-youtube">&nbsp;</a>
+<!--             <a href="#" class="social-share">&nbsp;</a> -->
           </div>
         </div>
         <div class="col-md-6">
