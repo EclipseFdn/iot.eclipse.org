@@ -213,7 +213,8 @@ main.main {
         p {
             color: $gray !important;
         }
-        a.readmore:link, a.readmore:visited {
+        a:link,
+        a:visited {
             display: block;
             position: absolute;
             bottom: 0;
@@ -223,15 +224,21 @@ main.main {
             padding: 8px 20px;
             margin-bottom: 10px;
         }
-        a.readmore:hover {
+        a:hover {
             background: $purple;
+        }
+        .readmore {
+            left: 20px;
+        }
+        .download {
+            right: 20px;
         }
     }
     .itembox:hover {
         background: lighten($gray, 80%);
     }
-    .project-list {
         /* Project list: projects.html */
+    .project-list {
         
         .loading {
             min-height: 400px;
@@ -241,20 +248,17 @@ main.main {
         }
         .itembox {
             opacity: 0.2;
-
             &.standards {
                 opacity: 1.0;
             }
-
             &.horizontal {
                 opacity: 1.0;
             }
-
             &.industry {
                 opacity: 1.0;
             }
-
-            h3, p {
+            h3,
+            p {
                 padding: 0 10px;
             }
             .logo {
@@ -271,6 +275,19 @@ main.main {
             }
         }
     }
+
+    // working group page
+    .mb-logo {
+        padding-top: 70px;
+        padding-left: 30px;
+    }
+
+    .members-info {
+        margin-bottom: 3em;
+    }
+
+
+
     // getting started page
     .videos {
         h2 {
@@ -280,6 +297,22 @@ main.main {
     .presentations {
         h2 {
             background-image: url(../images/heading-upcoming_events.jpg);
+        }
+    }
+    .tutorials {
+        .featured-tutorial-item {
+            background-image: url(../images/open-iot-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: $white;
+            text-align: center;
+            margin-bottom: 30px;
+            h3 {
+                font-size: 18px;
+                color: $white;
+                padding: 40px 0;
+                margin: 0;
+            }
         }
     }
 }

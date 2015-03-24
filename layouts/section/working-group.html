@@ -110,7 +110,7 @@
           </div>
           <div class="col-md-6">
             <h1 class="purple">More information</h1>
-            <p>More information about the IoT WG is available on our wiki page and feel free to join our mailing list. Email us if you have questions.</p>
+            <p>More information about the IoT WG is available on our <a href="https://wiki.eclipse.org/IoT" target="_blank">wiki page</a> and feel free to join our mailing list. Email us if you have questions.</p>
           </div>
         </div>
     </section>
@@ -122,25 +122,23 @@
         <div id="sc-members">
           {{ range where .Site.Pages ".Type" "member" }} {{ if .Params.is_steering }}
           <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
+            <div class="col-md-2 col-md-offset-1 mb-logo">
               <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
                 <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
               </a>
             </div>
-            <div class="col-md-8 mb-info">
+            <div class="col-md-8 col-md-offset-1 mb-info">
               <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
+                <h2>{{ .Title }} </h2> {{ .Content }}
               </div>
-              <ul class="mb-links clearfix">
+              <div>
               {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
+                <a href="{{ .Params.more_url }} " target="_blank"><button class="btn btn-info">Read more <i class="icon-chevron-right"></i></button></a>
               {{ end }}
               {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
+                <a href="{{ .Params.demo_url }} " target="_blank"><button class="btn btn-info">View Demo <i class="icon-eye-open"></i></button></a>
               {{ end }}
-              </ul>
+              </div>
             </div>
           </div>
         {{ end }} {{ end }}
@@ -149,25 +147,23 @@
         <div id="other-members">
           {{ range where .Site.Pages ".Type" "member" }} {{ if not .Params.is_steering }}
           <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
+            <div class="col-md-2 col-md-offset-1 mb-logo">
               <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
                 <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
               </a>
             </div>
-            <div class="col-md-8 mb-info">
+            <div class="col-md-8 col-md-offset-1 mb-info">
               <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
+                <h2>{{ .Title }} </h2> {{ .Content }}
               </div>
-              <ul class="mb-links clearfix">
+              <div>
               {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
+                <a href="{{ .Params.more_url }} " target="_blank"><button class="btn btn-info">Read more <i class="icon-chevron-right"></i></button></a>
               {{ end }}
               {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
+                <a href="{{ .Params.demo_url }} " target="_blank"><button class="btn btn-info">View Demo <i class="icon-eye-open"></i></button></a>
               {{ end }}
-              </ul>
+              </div>
             </div>
           </div>
           {{ end }} {{ end }}

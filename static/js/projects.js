@@ -23,11 +23,11 @@ var projectsAssociation =
             resize();
         });
 
-        $(document).on('click', '.itembox, .news-list li', function() {
-            var link = $(this).find('.readmore').attr('href');
-            $(location).attr('href', link);
-            return false;
-        });
+        // $(document).on('click', '.itembox, .news-list li', function() {
+        //     var link = $(this).find('.readmore').attr('href');
+        //     $(location).attr('href', link);
+        //     return false;
+        // });
 
         // update number of projects:
         for (var k in projectsAssociation) {
@@ -99,7 +99,9 @@ var projectsAssociation =
                     }
 
 
-                    output += "<a href=\"" + link + "\" class=\"readmore\">Read more <i class=\"icon-chevron-right\"></i></a>";
+                    output += "<a href=\"" + link + "\" class=\"readmore\" target=\"_blank\">Read more</i></a>";
+                    output += "<a href=\"https://projects.eclipse.org/projects/" + id + "/downloads\" class=\"download\" target=\"_blank\">Download</a>";
+
                     output += "</div>";
                     i++;
                 });
