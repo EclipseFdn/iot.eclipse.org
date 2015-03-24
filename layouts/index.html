@@ -121,7 +121,7 @@
               </div>
             </a>
 
-            <a href="#">
+            <a href="/getting-started">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-switch" aria-hidden="true"></span>
@@ -295,10 +295,10 @@
 
               {{ range where .Data.Pages ".Type" "member" }}
 
-              <div class="col-md-4 col-xs-6" style="padding:15px 70px; display:none;">
+              <div class="col-md-4 col-xs-6" style="padding:20px 60px; display:none;">
                 <div style="height: 120px; display:table-cell; vertical-align:middle;">
                   <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
-                    <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive">
+                    <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" style="max-height:110px">
                   </a>
                 </div>
               </div>
@@ -349,7 +349,7 @@
                 </ul>
                 <li><a href="/ecosystem">Members</a>
                 </li>
-                <li><a href="#">Getting Started</a>
+                <li><a href="/getting-started">Getting Started</a>
                 </li>
             </ul>
           </nav>
