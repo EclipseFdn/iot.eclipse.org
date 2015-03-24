@@ -117,11 +117,10 @@
               {{ range .Paginator.Pages }}
 
               <div>
-              <a href="{{ .Params.link }}">
                 <h2 class="purple">{{ .Title }}</h2>
                 <p>{{ .Content }} </p>
+              <a href="{{ .Params.link }}"><button class="btn btn-default">Read more...</button>
               </a>
-                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
 
               {{ end }}

@@ -109,31 +109,31 @@
         </div>
       </div>
     </div>
-    <section class="first">
+    <section class="first upcoming-events">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-
               {{ range .Paginator.Pages }}
 
-              <div>
-              <a href="{{ .Params.link }}">
-                <h2 class="purple">{{ .Title }}</h2>
-                <span class="date">{{ .Params.event_date }}</span>
-                <p>{{ .Params.location }}</p>
-              </a>
-                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
-              </div>
+                <div class="col-sm-4">
+                  <a href="{{ .Params.link }}" target="_blank">
+                    <div class="upcoming-events-item">
+                      <h3>
+
+                      {{ .Title }}<br>
+                      <span class="date">{{ .Params.event_date }}</span>
+                      </h3>
+                      <p>{{ .Params.location }}</p>
+                    </div>
+                  </a>
+                </div>
 
               {{ end }}
 
-
+          </div>
+          <div class="row">
           {{ template "_internal/pagination.html" . }}
-
-
           </div>
         </div>
-      </div>
     </section>
 
 

@@ -4453,6 +4453,44 @@ main.main {
     margin-bottom: 3em;
     border-bottom: 1px dotted #3085cb;
     padding-bottom: 40px; }
+  main.main .upcoming-events h2 {
+    background-image: url(../images/heading-upcoming_events.png); }
+    main.main .upcoming-events h2 span {
+      background-image: url(../images/heading-upcoming_events-icon.png); }
+  main.main .upcoming-events .upcoming-events-item {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 30px; }
+    main.main .upcoming-events .upcoming-events-item h3 {
+      background-image: url(../images/upcoming-events-bg.png);
+      background-size: 100%;
+      padding: 40px 0;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0; }
+      main.main .upcoming-events .upcoming-events-item h3 span.date {
+        font-weight: normal;
+        font-size: 14px; }
+    main.main .upcoming-events .upcoming-events-item h3:hover {
+      background: url(../images/upcoming-events-bg_hover.png);
+      background-size: 100%; }
+    main.main .upcoming-events .upcoming-events-item p {
+      background-color: #3085cb;
+      padding: 10px 0;
+      font-size: 14px;
+      line-height: 1.2;
+      position: relative;
+      color: whitesmoke; }
+      main.main .upcoming-events .upcoming-events-item p:after {
+        width: 0;
+        height: 0;
+        border-bottom: 20px solid #3085cb;
+        border-left: 20px solid transparent;
+        content: " ";
+        display: table;
+        right: 1px;
+        top: -20px;
+        position: absolute; }
   main.main .videos h2 {
     background-image: url(../images/heading-upcoming_events.jpg); }
   main.main .presentations h2 {
