@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>MQTT Essentials: Part 1 – Introducing MQTT</title>
+      <link>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</link>
+      <pubDate>Sun, 01 Feb 2015 15:54:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</guid>
+      <description>&lt;p&gt;Welcome to the first part of MQTT Essentials. A blog series about the core features and concepts in the MQTT protocol. This post introduces the MQTT Essentials series and what we’ll cover on the blog in 2015…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Announcing the Open IoT Challenge</title>
       <link>http://localhost:1313/news/2015-02-09-announcing-open-iot-challenge/</link>
       <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
@@ -67,6 +77,16 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
+      <title>Bitreactive</title>
+      <link>http://localhost:1313/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/bitreactive/</guid>
+      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bosch Software Innovations</title>
       <link>http://localhost:1313/member/bosch/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
@@ -77,16 +97,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
 &lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
 
 &lt;p&gt;In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bitreactive</title>
-      <link>http://localhost:1313/member/bitreactive/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/bitreactive/</guid>
-      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
 </description>
     </item>
     
@@ -112,18 +122,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>Eurotech</title>
-      <link>http://localhost:1313/member/eurotech/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/eurotech/</guid>
-      <description>&lt;p&gt;Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.&lt;/p&gt;
-
-&lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Deutsche Telekom</title>
       <link>http://localhost:1313/member/dtag/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
@@ -133,12 +131,15 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>IBM</title>
-      <link>http://localhost:1313/member/ibm/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      <title>Eurotech</title>
+      <link>http://localhost:1313/member/eurotech/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/ibm/</guid>
-      <description></description>
+      <guid>http://localhost:1313/member/eurotech/</guid>
+      <description>&lt;p&gt;Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.&lt;/p&gt;
+
+&lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -156,6 +157,15 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
+      <title>IBM</title>
+      <link>http://localhost:1313/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://localhost:1313/member/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IBH SYSTEMS</title>
       <link>http://localhost:1313/member/ibh/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
@@ -165,15 +175,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>itemis</title>
-      <link>http://localhost:1313/member/itemis/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
-      
-      <guid>http://localhost:1313/member/itemis/</guid>
-      <description></description>
     </item>
     
   </channel>

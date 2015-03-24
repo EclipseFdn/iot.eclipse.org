@@ -21,5 +21,15 @@ Java is almost 20 years old, and has over the years gathered a very large commun
 </description>
     </item>
     
+    <item>
+      <title>MQTT Essentials: Part 1 – Introducing MQTT</title>
+      <link>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</link>
+      <pubDate>Sun, 01 Feb 2015 15:54:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</guid>
+      <description>&lt;p&gt;Welcome to the first part of MQTT Essentials. A blog series about the core features and concepts in the MQTT protocol. This post introduces the MQTT Essentials series and what we’ll cover on the blog in 2015…&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
