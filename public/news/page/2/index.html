@@ -5,17 +5,17 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iot.eclipse.org &mdash; Working Group</title>
-  <meta name="description" content="iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects">
+  <meta name="description" content="iot.eclipse.org News">
   <meta name="author" content="Eclipse.org">
   <link rel="author" href="humans.txt" />
-  <!-- Bootstrap -->
+  
   <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- icomoon -->
+  
   <link href="/assets/css/icomoon.css" rel="stylesheet"> 
-{{ "<!--[if lt IE 9]>" | safeHTML }}
+<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
+<![endif]-->
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 
@@ -23,7 +23,7 @@
   <header>
     <nav class="navbar navbar-default">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -35,7 +35,7 @@
             <img alt="Brand" src="/assets/images/iot-logo.png">
           </a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+        
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/getting-started">Getting Started</a>
@@ -67,12 +67,12 @@
             </li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
+        
       </div>
-      <!-- /.container-fluid -->
+      
     </nav>
   </header>
-  <!-- Place this tag after the last +1 button tag. -->
+  
   <script type="text/javascript">
   (function() {
     var po = document.createElement('script');
@@ -87,93 +87,71 @@
     <div class="well">
       <div class="container">
         <h1>
-          About Us
+          News
         </h1>
         <div>
-          <p class="lead">The Eclipse IoT Working Group is a collaboration between organizations and individuals who share the goal of creating an open IoT. The collaboration focuses on the development, promotion and adoption of open source IoT technology. Many of our members provide a wide range of projects and services built on top of Eclipse IoT technology.</p>
+          <p class="lead">Lorem ipsum Laborum nulla magna enim dolor sunt commodo laborum Excepteur minim in..</p>
         </div>
       </div>
     </div>
     <section class="first">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 class="purple">Membership benefits</h1>
-            <ul>
-              <li>
-                <p>Members can participate in the working group meetings, including technical and requirements discussions.</p>
-              </li>
-              <li>
-                <p>Members can participate in developer outreach programs, including webinars, surveys and events.</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h1 class="purple">More information</h1>
-            <p>More information about the IoT WG is available on our wiki page and feel free to join our mailing list. Email us if you have questions.</p>
-          </div>
-        </div>
-    </section>
-    <section class="second">
-      <div class="container">
-        <p>Explore our current members and discover the IoT solutions they offer today
-        </p>
-        <h2 class="purple">Steering committee members<br/><br/></h2>
-        <div id="sc-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if .Params.is_steering }}
-          <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
-              <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
-                <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
+          <div class="col-md-12">
+
+              
+
+              <div>
+              <a href="http://blog.benjamin-cabe.com/2014/12/11/announcing-the-open-iot-challenge">
+                <h2 class="purple">Announcing the Open IoT Challenge</h2>
+                <p><p>2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California.
+If you haven’t seen the EclipseCon program already, I highly…</p>
+ </p>
               </a>
-            </div>
-            <div class="col-md-8 mb-info">
-              <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
+                <p class="date">Feb 9, 2015 </p>
               </div>
-              <ul class="mb-links clearfix">
-              {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
-              {{ end }}
-              {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
-              {{ end }}
-              </ul>
-            </div>
+
+              
+
+
+          
+    
+    <ul class="pagination">
+        
+        <li>
+            <a href="/news/" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+        </li>
+        
+        <li
+        >
+        <a href="/news/" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        
+        <li
+        ><a href="/news/">1</a></li>
+        
+        <li
+        class="active"><a href="/news/page/2/">2</a></li>
+        
+        <li
+        class="disabled">
+        <a href="" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+        
+        <li>
+            <a href="/news/page/2/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        </li>
+        
+    </ul>
+    
+
+
           </div>
-        {{ end }} {{ end }}
-        </div>
-        <h2 class="purple" style="margin-top: 2em;">Participating members<br/><br/></h2>
-        <div id="other-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if not .Params.is_steering }}
-          <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
-              <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
-                <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
-              </a>
-            </div>
-            <div class="col-md-8 mb-info">
-              <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
-              </div>
-              <ul class="mb-links clearfix">
-              {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
-              {{ end }}
-              {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
-              {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ end }} {{ end }}
         </div>
       </div>
     </section>
+
+
     <footer>
       <div class="container">
         <div class="row">
@@ -215,22 +193,25 @@
     <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
     </div>
     </div>
-    <!-- /container -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- JS is at the end of the document so the pages load faster -->
+    
     <script src="/js/shuffle.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-      // Shuffle SC members
+      
       $('#sc-members').shuffle();
 
-      // Shuffle other members
+      
       $('#other-members').shuffle();
     });
     </script>
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 
 </html>

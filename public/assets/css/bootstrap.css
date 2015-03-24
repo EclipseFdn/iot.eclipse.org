@@ -20,6 +20,9 @@
 .left {
   float: left; }
 
+a:hover, a:focus {
+  text-decoration: none; }
+
 a.btn {
   text-transform: uppercase;
   padding: 10px 40px;
@@ -4399,23 +4402,31 @@ main.main {
   main.main .itembox:hover {
     background: white; }
   main.main .project-list {
-    /* Project list: community.html */ }
+    /* Project list: projects.html */ }
     main.main .project-list .loading {
       min-height: 400px;
       text-align: center;
       font-size: 2em;
       color: #551f62; }
-    main.main .project-list .itembox h3, main.main .project-list .itembox p {
-      padding: 0 10px; }
-    main.main .project-list .itembox .logo {
-      padding: 15px;
-      max-width: 80%; }
-    main.main .project-list .itembox h3 {
-      font-size: 21px; }
-    main.main .project-list .itembox p {
-      font-size: 15px;
-      padding-bottom: 50px;
-      color: #551f62; }
+    main.main .project-list .itembox {
+      opacity: 0.2; }
+      main.main .project-list .itembox.standards {
+        opacity: 1; }
+      main.main .project-list .itembox.horizontal {
+        opacity: 1; }
+      main.main .project-list .itembox.industry {
+        opacity: 1; }
+      main.main .project-list .itembox h3, main.main .project-list .itembox p {
+        padding: 0 10px; }
+      main.main .project-list .itembox .logo {
+        padding: 15px;
+        max-width: 80%; }
+      main.main .project-list .itembox h3 {
+        font-size: 21px; }
+      main.main .project-list .itembox p {
+        font-size: 15px;
+        padding-bottom: 50px;
+        color: #551f62; }
   main.main .videos h2 {
     background-image: url(../images/heading-upcoming_events.jpg); }
   main.main .presentations h2 {

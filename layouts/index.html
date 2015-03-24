@@ -14,10 +14,10 @@
   <!-- icomoon -->
   <link href="/assets/css/icomoon.css" rel="stylesheet">
 
-{{ "<!--[if lt IE 9]>" | safeHtml }}
+{{ "<!--[if lt IE 9]>" | safeHTML }}
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHtml }}
+{{ "<![endif]-->" | safeHTML }}
 
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -226,15 +226,17 @@
               {{ range first 2 (where .Data.Pages ".Type" "news") }}
 
               <div class="latest-news-item">
+              <a href="{{ .Params.link }}">
                 <h3>{{ .Title }}</h3>
                 <p>{{ .Content }} </p>
+              </a>
                 <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
 
               {{ end }}
 
               <p>
-                <a href="#" class="btn btn-primary">More News...</a>
+                <a href="/news" class="btn btn-primary">More News...</a>
               </p>
             </section>
             <!-- .latest-news -->

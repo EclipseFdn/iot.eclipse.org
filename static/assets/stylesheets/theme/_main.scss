@@ -231,7 +231,7 @@ main.main {
         background: lighten($gray, 80%);
     }
     .project-list {
-        /* Project list: community.html */
+        /* Project list: projects.html */
         
         .loading {
             min-height: 400px;
@@ -240,6 +240,20 @@ main.main {
             color: $purple;
         }
         .itembox {
+            opacity: 0.2;
+
+            &.standards {
+                opacity: 1.0;
+            }
+
+            &.horizontal {
+                opacity: 1.0;
+            }
+
+            &.industry {
+                opacity: 1.0;
+            }
+
             h3, p {
                 padding: 0 10px;
             }

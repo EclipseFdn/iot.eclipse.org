@@ -31,6 +31,13 @@ $navbar-default-border: none !default;
 .right{float:right;}
 .left{float:left;}
 
+a {
+  &:hover,
+  &:focus {
+  	text-decoration: none;
+  }
+}
+
 a.btn{
 	text-transform: uppercase;
 	padding:10px 40px;

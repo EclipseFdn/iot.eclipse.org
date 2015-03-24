@@ -1,0 +1,3 @@
+baseurl = "http://iot.eclipse.org"
+
+paginate = 5

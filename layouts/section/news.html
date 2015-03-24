@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iot.eclipse.org &mdash; Working Group</title>
-  <meta name="description" content="iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects">
+  <meta name="description" content="iot.eclipse.org News">
   <meta name="author" content="Eclipse.org">
   <link rel="author" href="humans.txt" />
   <!-- Bootstrap -->
@@ -87,93 +87,40 @@
     <div class="well">
       <div class="container">
         <h1>
-          About Us
+          News
         </h1>
         <div>
-          <p class="lead">The Eclipse IoT Working Group is a collaboration between organizations and individuals who share the goal of creating an open IoT. The collaboration focuses on the development, promotion and adoption of open source IoT technology. Many of our members provide a wide range of projects and services built on top of Eclipse IoT technology.</p>
+          <p class="lead">Learn about what is happening in our community with this recent and past news.</p>
         </div>
       </div>
     </div>
     <section class="first">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 class="purple">Membership benefits</h1>
-            <ul>
-              <li>
-                <p>Members can participate in the working group meetings, including technical and requirements discussions.</p>
-              </li>
-              <li>
-                <p>Members can participate in developer outreach programs, including webinars, surveys and events.</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h1 class="purple">More information</h1>
-            <p>More information about the IoT WG is available on our wiki page and feel free to join our mailing list. Email us if you have questions.</p>
-          </div>
-        </div>
-    </section>
-    <section class="second">
-      <div class="container">
-        <p>Explore our current members and discover the IoT solutions they offer today
-        </p>
-        <h2 class="purple">Steering committee members<br/><br/></h2>
-        <div id="sc-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if .Params.is_steering }}
-          <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
-              <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
-                <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
+          <div class="col-md-12">
+
+              {{ range .Paginator.Pages }}
+
+              <div>
+              <a href="{{ .Params.link }}">
+                <h2 class="purple">{{ .Title }}</h2>
+                <p>{{ .Content }} </p>
               </a>
-            </div>
-            <div class="col-md-8 mb-info">
-              <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
+                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
-              <ul class="mb-links clearfix">
-              {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
+
               {{ end }}
-              {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
-              {{ end }}
-              </ul>
-            </div>
+
+
+          {{ template "_internal/pagination.html" . }}
+
+
           </div>
-        {{ end }} {{ end }}
-        </div>
-        <h2 class="purple" style="margin-top: 2em;">Participating members<br/><br/></h2>
-        <div id="other-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if not .Params.is_steering }}
-          <div class="row members-info" id="member-{{ .Params.logo }}">
-            <div class="col-md-4 mb-logo">
-              <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
-                <img src="/images/ecosystem/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
-              </a>
-            </div>
-            <div class="col-md-8 mb-info">
-              <div class="mb-info-container">
-                <h4>{{ .Title }} </h4> {{ .Content }}
-              </div>
-              <ul class="mb-links clearfix">
-              {{ if isset .Params "more_url" }}
-                <li class="read-more"><a href="{{ .Params.more_url }} " target="_blank">Read more <i class="icon-chevron-right"></i></a>
-                </li>
-              {{ end }}
-              {{ if isset .Params "demo_url" }}
-                <li><a href="{{ .Params.demo_url }} " target="_blank">View Demo <i class="icon-eye-open"></i></a>
-                </li>
-              {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ end }} {{ end }}
         </div>
       </div>
     </section>
+
+
     <footer>
       <div class="container">
         <div class="row">

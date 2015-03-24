@@ -3,6 +3,19 @@
  * Copyright 2013 Eclipse Foundation
  * http://www.eclipse.org/org/documents/epl-v10.php
  */
+
+
+var projectsAssociation = 
+{
+    "standards": ["iot-paho", "iot-californium", "iot-om2m", "iot-mosquitto", "iot-moquette", "iot-wakaama", "iot-leshan", "iot-concierge"],
+
+    "horizontal": ["iot-om2m", "iot-krikkit", "iot-kura", "iot-mihini", "iot-ponte"],
+
+    "industry": ["iot-smarthome", "iot-eclipsescada"]
+};
+
+
+
 (function($, window, document) {
     $(function() {
 
@@ -16,10 +29,25 @@
             return false;
         });
 
+        // update number of projects:
+        for (var k in projectsAssociation) {
+            $('#' + k + '.btn-projects > .badge').text(projectsAssociation[k].length);
+        }
+
+
         $('.btn-projects').on('click', function() {
             var $btn = $(this);
             //            window.alert('bx');
-            $btn.button('toggle')
+            $btn.button('toggle');
+
+
+            projectsAssociation[$btn.attr('id')].forEach(function(elem) {
+                $('#' + elem).toggleClass($btn.attr('id'), $btn.is(".active"));
+            });
+
+            console.log($btn.attr('id'));
+
+
         })
 
         $.ajax({
@@ -57,7 +85,7 @@
                     if (id == 'rt.ecf' || id == 'tools.sequoyah.mtj' || id == "technology.koneki")
                         return true;
 
-                    output += "<div class=\"col-md-4 col-sm-6 itembox\"" + style + ">";
+                    output += "<div class=\"col-md-4 col-sm-6 itembox\"" + style + " id =\"" + id.replace('.', '-') +"\">";
                     if (validateUrl(logo) && showlogo === true) {
                         output += "<img class =\"logo\" alt=\"" + title + " logo\" src=\"" + logo + "\">";
                     } else {
@@ -85,6 +113,9 @@
                 resize();
 
                 $('.all-projects').shuffle();
+
+                // enable filter buttons
+                $('.btn-projects').prop('disabled', false);
 
             },
         });
