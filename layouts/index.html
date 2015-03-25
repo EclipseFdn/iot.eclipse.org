@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
   <meta charset="utf-8">
@@ -108,7 +108,7 @@
     </section>
 
     <section class="header-divider">
-      <img src="assets/images/header-divider.png">
+      <img src="assets/images/header-divider.png" alt="divider">
     </section>
 
   </header>
@@ -238,7 +238,7 @@
               <div class="latest-news-item">
               <a href="{{ .Params.link }}">
                 <h3>{{ .Title }}</h3>
-                <p>{{ .Content }} </p>
+                {{ .Content }}
               </a>
                 <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
@@ -265,13 +265,15 @@
 
                 {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
 
-                <div class="col-sm-6">
+                <div class="col-sm-6" itemscope itemtype="http://schema.org/Event">
                   <a href="{{ .Params.link }}" target="_blank">
                     <div class="upcoming-events-item">
                       <h3>
 
-                      {{ .Title }}<br>
-                      <span class="date">{{ .Params.event_date }}</span>
+                        <span itemprop="name">{{ .Title }}</span>
+                        <br>
+                        <span class="date" itemprop="startDate" content="{{ .Date.Format "2006-01-02" }}">{{ .Params.event_date }}</span>
+
                       </h3>
                       <p>{{ .Params.location }}</p>
                     </div>
@@ -311,7 +313,7 @@
               <div class="col-md-4 col-xs-6" style="padding:20px 60px; display:none;">
                 <div style="height: 120px; display:table-cell; vertical-align:middle;">
                   <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
-                    <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" style="max-height:110px">
+                    <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px">
                   </a>
                 </div>
               </div>
