@@ -4234,6 +4234,11 @@ header {
     text-align: center;
     margin-bottom: -75px; }
 
+@media (max-width: 767px) {
+  .navbar-brand > img {
+    height: 60px;
+    margin-top: -14px; } }
+
 main.main {
   /* Item box: Layout item */
   /* Project list: projects.html */ }
@@ -4496,9 +4501,13 @@ main.main {
         top: -20px;
         position: absolute; }
   main.main .videos h2 {
-    background-image: url(../images/heading-upcoming_events.jpg); }
+    background-image: url(../images/heading-featured.png); }
+    main.main .videos h2 span {
+      background-image: url(../images/heading-videos-icon.png); }
   main.main .presentations h2 {
-    background-image: url(../images/heading-upcoming_events.jpg); }
+    background-image: url(../images/heading-featured.png); }
+    main.main .presentations h2 span {
+      background-image: url(../images/heading-presentations-icon.png); }
   main.main .tutorials .featured-tutorial-item {
     background-image: url(../images/open-iot-bg.jpg);
     background-size: cover;
