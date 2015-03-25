@@ -52,7 +52,17 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/member/cisco/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/member/dcsquare/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/solair/</loc>
     <lastmod>2015-03-08T15:31:16-07:00</lastmod>
   </url>
   
@@ -77,13 +87,18 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/member/is2t/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/member/ibh/</loc>
     <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/laas/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+    <loc>http://iot.eclipse.org/member/smb/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
@@ -92,12 +107,17 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
-    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+    <loc>http://iot.eclipse.org/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/member/litmus/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   

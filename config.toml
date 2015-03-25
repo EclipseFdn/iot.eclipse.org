@@ -1,2 +1,3 @@
-baseurl = "http://iot.eclipse.org"
-paginate = 6
+title		= "Eclipse IoT"
+baseurl 	= "http://iot.eclipse.org"
+paginate 	= 6

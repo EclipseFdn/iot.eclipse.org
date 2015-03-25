@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Members on </title>
+    <title>Members on Eclipse IoT</title>
     <link>http://iot.eclipse.org/member/</link>
-    <description>Recent content in Members on </description>
+    <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 08 Mar 2015 15:31:22 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
@@ -38,7 +38,8 @@
       <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
       
       <guid>http://iot.eclipse.org/member/litmus/</guid>
-      <description></description>
+      <description>&lt;p&gt;Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -47,7 +48,8 @@
       <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
       
       <guid>http://iot.eclipse.org/member/m2m-alliance/</guid>
-      <description></description>
+      <description>&lt;p&gt;As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -104,12 +106,33 @@
     </item>
     
     <item>
+      <title>IS2T</title>
+      <link>http://iot.eclipse.org/member/is2t/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/is2t/</guid>
+      <description>&lt;p&gt;IS2T is the editor of the Java-based MicroEJ solution, an open and standard platform dedicated to embedded devices. MicroEJ gives you a powerful SDK and a set of libraries to simulate and develop intelligent applications, and deploy them to MCUs, MPUs, and SOC based devices. MicroEJ adresses the IoT market and focus to intelligent, connected software applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMB</title>
+      <link>http://iot.eclipse.org/member/smb/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/smb/</guid>
+      <description>&lt;p&gt;SMB has been an independent IT consulting firm since 1998. We are devoted to providing high-quality RCP and OSGi software development, consulting and training to mid-sized organizations. Additionally we develop independent products and tools based on the Eclipse Rich Client Platform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deutsche Telekom</title>
       <link>http://iot.eclipse.org/member/dtag/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
       
       <guid>http://iot.eclipse.org/member/dtag/</guid>
-      <description></description>
+      <description>&lt;p&gt;QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -134,38 +157,12 @@
     </item>
     
     <item>
-      <title>dc-square</title>
-      <link>http://iot.eclipse.org/member/dcsquare/</link>
+      <title>Cisco</title>
+      <link>http://iot.eclipse.org/member/cisco/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/dcsquare/</guid>
-      <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
-
-&lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bitreactive</title>
-      <link>http://iot.eclipse.org/member/bitreactive/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
-      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bosch Software Innovations</title>
-      <link>http://iot.eclipse.org/member/bosch/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/bosch/</guid>
-      <description>&lt;p&gt;Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.&lt;/p&gt;
-
-&lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
-
-&lt;p&gt;In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/member/cisco/</guid>
+      <description>&lt;p&gt;Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies. Today, with more than 63,050 employees worldwide, this tradition of innovation continues with industry-leading products and solutions in the company&amp;rsquo;s core development areas of routing and switching, as well as in advanced technologies such as: Application Networking, Data Center, Digital Media, IPICS, Mobility, Security, Storage Networking, TelePresence, Unified Communications, and Video.&lt;/p&gt;
 </description>
     </item>
     
