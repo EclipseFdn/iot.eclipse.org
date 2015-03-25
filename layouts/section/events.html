@@ -28,6 +28,10 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml">
+
 </head>
 
 <body>
@@ -116,7 +120,9 @@
 
                 <div class="col-sm-4">
                   <a href="{{ .Params.link }}" target="_blank">
-                    <div class="upcoming-events-item">
+
+
+                    <div class="upcoming-events-item {{ if (lt .Date.Unix .Now.Unix) }} past {{ end }}">
                       <h3>
 
                       {{ .Title }}<br>

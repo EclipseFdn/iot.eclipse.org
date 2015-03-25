@@ -4324,8 +4324,7 @@ main.main {
         background-image: url(../images/heading-latest_news-icon.png); }
     main.main section.second .latest-news .latest-news-item {
       border-bottom: 1px solid #c2c2c2;
-      padding-bottom: 10px;
-      margin-bottom: 20px; }
+      padding-bottom: 10px; }
       main.main section.second .latest-news .latest-news-item h3 {
         font-size: 18px; }
       main.main section.second .latest-news .latest-news-item p {
@@ -4334,7 +4333,6 @@ main.main {
         color: #6eb553;
         font-size: 12px; }
     main.main section.second .latest-news .latest-news-item:last-of-type {
-      margin-bottom: 35px;
       border-bottom: 0px; }
     main.main section.second .featured-articles h2 {
       background-image: url(../images/heading-featured.png); }
@@ -4457,6 +4455,8 @@ main.main {
     background-image: url(../images/heading-upcoming_events.png); }
     main.main .upcoming-events h2 span {
       background-image: url(../images/heading-upcoming_events-icon.png); }
+  main.main .upcoming-events .past {
+    opacity: 0.5; }
   main.main .upcoming-events .upcoming-events-item {
     text-align: center;
     color: whitesmoke;

@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
+    <link>http://iot.eclipse.org/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://localhost:1313/working-group/dummy/</link>
+      <link>http://iot.eclipse.org/working-group/dummy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/working-group/dummy/</guid>
+      <guid>http://iot.eclipse.org/working-group/dummy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MQTT Essentials: Part 1 – Introducing MQTT</title>
-      <link>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</link>
+      <link>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</link>
       <pubDate>Sun, 01 Feb 2015 15:54:26 +0100</pubDate>
       
-      <guid>http://localhost:1313/resources/2014-02-01-mqtt-essentials-1/</guid>
+      <guid>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</guid>
       <description>&lt;p&gt;Welcome to the first part of MQTT Essentials. A blog series about the core features and concepts in the MQTT protocol. This post introduces the MQTT Essentials series and what we’ll cover on the blog in 2015…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Announcing the Open IoT Challenge</title>
-      <link>http://localhost:1313/news/2015-02-09-announcing-open-iot-challenge/</link>
+      <link>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
       <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
       
-      <guid>http://localhost:1313/news/2015-02-09-announcing-open-iot-challenge/</guid>
+      <guid>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</guid>
       <description>&lt;p&gt;2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California.
 If you haven’t seen the EclipseCon program already, I highly…&lt;/p&gt;
 </description>
@@ -39,20 +39,20 @@ If you haven’t seen the EclipseCon program already, I highly…&lt;/p&gt;
     
     <item>
       <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
-      <link>http://localhost:1313/news/2015-03-04-case-study-mqtt/</link>
+      <link>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-03-04-case-study-mqtt/</guid>
+      <guid>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</guid>
       <description>&lt;p&gt;For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>2lemetry</title>
-      <link>http://localhost:1313/member/2lemetry/</link>
+      <link>http://iot.eclipse.org/member/2lemetry/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:13 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/2lemetry/</guid>
+      <guid>http://iot.eclipse.org/member/2lemetry/</guid>
       <description>&lt;p&gt;2lemetry is an IoT platform and solutions company that powers the connected enterprise, tying people, processes, data and devices together—transforming raw data into real-time actionable intelligence.&lt;/p&gt;
 
 &lt;p&gt;2lemetry&amp;rsquo;s ThingFabric platform acts as an IoT version of Enterprise Application Integration (EAI) middleware solutions, providing device connectivity at scale, cross-communication, data brokering and storage. We also help companies make sense of the captured data by offering actionable data intelligence through predictive computational models and a configurable rules engine.
@@ -64,10 +64,10 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>Actuate</title>
-      <link>http://localhost:1313/member/actuate/</link>
+      <link>http://iot.eclipse.org/member/actuate/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:14 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/actuate/</guid>
+      <guid>http://iot.eclipse.org/member/actuate/</guid>
       <description>&lt;p&gt;In 2004, Actuate co-founded &amp;ndash; and continues as its sole sponsor – the top-level Eclipse BIRT Project – an open source, Java-based IDE. BIRT is used as a workbench by more than 3.5 million developers around the globe, to reduce development time and significantly improve the efficacy of their customer-facing applications. BIRT has been downloaded over 13 million times since its inception. Please visit developer.actuate.com.&lt;/p&gt;
 
 &lt;p&gt;On the commercial side, Actuate provides BIRT Designer Pro™ and BIRT iHub™ deployment software – to developers and IT departments of mid-size to global-brand enterprises, as well as to ISVs/OEMs. These organizations use BIRT to build scalable, secure solutions that provide valuable insights from data, and improve brand loyalty. These customers have delivered personalized analytics and insights to more than 200 million of their own customers, partners and employees.&lt;/p&gt;
@@ -78,20 +78,20 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>Bitreactive</title>
-      <link>http://localhost:1313/member/bitreactive/</link>
+      <link>http://iot.eclipse.org/member/bitreactive/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/bitreactive/</guid>
+      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
       <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bosch Software Innovations</title>
-      <link>http://localhost:1313/member/bosch/</link>
+      <link>http://iot.eclipse.org/member/bosch/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/bosch/</guid>
+      <guid>http://iot.eclipse.org/member/bosch/</guid>
       <description>&lt;p&gt;Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.&lt;/p&gt;
 
 &lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
@@ -102,19 +102,19 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>Canonical</title>
-      <link>http://localhost:1313/member/canonical/</link>
+      <link>http://iot.eclipse.org/member/canonical/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/canonical/</guid>
+      <guid>http://iot.eclipse.org/member/canonical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dc-square</title>
-      <link>http://localhost:1313/member/dcsquare/</link>
+      <link>http://iot.eclipse.org/member/dcsquare/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/dcsquare/</guid>
+      <guid>http://iot.eclipse.org/member/dcsquare/</guid>
       <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
 
 &lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
@@ -123,19 +123,19 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>Deutsche Telekom</title>
-      <link>http://localhost:1313/member/dtag/</link>
+      <link>http://iot.eclipse.org/member/dtag/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/dtag/</guid>
+      <guid>http://iot.eclipse.org/member/dtag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eurotech</title>
-      <link>http://localhost:1313/member/eurotech/</link>
+      <link>http://iot.eclipse.org/member/eurotech/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/eurotech/</guid>
+      <guid>http://iot.eclipse.org/member/eurotech/</guid>
       <description>&lt;p&gt;Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.&lt;/p&gt;
 
 &lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
@@ -144,10 +144,10 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>GadgetKeeper</title>
-      <link>http://localhost:1313/member/gadgetkeeper/</link>
+      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/gadgetkeeper/</guid>
+      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
       <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
 
 &lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
@@ -158,19 +158,19 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     
     <item>
       <title>IBM</title>
-      <link>http://localhost:1313/member/ibm/</link>
+      <link>http://iot.eclipse.org/member/ibm/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/ibm/</guid>
+      <guid>http://iot.eclipse.org/member/ibm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IBH SYSTEMS</title>
-      <link>http://localhost:1313/member/ibh/</link>
+      <link>http://iot.eclipse.org/member/ibh/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://localhost:1313/member/ibh/</guid>
+      <guid>http://iot.eclipse.org/member/ibh/</guid>
       <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;

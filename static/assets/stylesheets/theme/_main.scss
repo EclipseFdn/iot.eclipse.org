@@ -119,7 +119,7 @@ main.main {
             .latest-news-item {
                 border-bottom: 1px solid darken($white, 20%);
                 padding-bottom: 10px;
-                margin-bottom: 20px;
+              //  margin-bottom: 20px;
                 h3 {
                     font-size: 18px;
                 }
@@ -132,7 +132,7 @@ main.main {
                 }
             }
             .latest-news-item:last-of-type {
-                margin-bottom: 35px;
+                // margin-bottom: 35px;
                 border-bottom: 0px;
             }
         }
@@ -313,12 +313,18 @@ main.main {
 
     // events page
     .upcoming-events {
-    h2 {
+        h2 {
         background-image: url(../images/heading-upcoming_events.png);
         span {
             background-image: url(../images/heading-upcoming_events-icon.png);
         }
+
     }
+    
+    .past {
+        opacity: 0.5;
+    }
+
     .upcoming-events-item {
         text-align: center;
         color: $white;

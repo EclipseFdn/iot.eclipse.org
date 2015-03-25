@@ -28,6 +28,10 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml">
+
 </head>
 
 <body>
@@ -116,12 +120,11 @@
 
               {{ range .Paginator.Pages }}
 
-              <div>
-              <a href="{{ .Params.link }}">
+              <div style="margin-bottom:40px;">
                 <h2 class="purple">{{ .Title }}</h2>
                 <p>{{ .Content }} </p>
+              <a href="{{ .Params.link }}"><button class="btn btn-default">Read more...</button>
               </a>
-                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
 
               {{ end }}
