@@ -62,7 +62,14 @@ a.btn.btn-primary{
 	border-right:1px solid darken($white, 20%);
 }
 
-
 .align-center{
 	text-align:center;
 }
+
+// fix menu bar on small screens. Hack!?
+header nav ul.navbar-nav li ul.dropdown-menu:after {
+	@media (max-width: 767px) {
+		top:35px !important;
+	}
+}
+

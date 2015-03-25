@@ -46,6 +46,10 @@ a.btn.btn-primary {
 .align-center {
   text-align: center; }
 
+@media (max-width: 767px) {
+  header nav ul.navbar-nav li ul.dropdown-menu:after {
+    top: 35px !important; } }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
