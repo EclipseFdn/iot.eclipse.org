@@ -37,12 +37,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/bosch/</loc>
+    <loc>http://iot.eclipse.org/member/bitreactive/</loc>
     <lastmod>2015-03-08T15:31:15-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/bitreactive/</loc>
+    <loc>http://iot.eclipse.org/member/bosch/</loc>
     <lastmod>2015-03-08T15:31:15-07:00</lastmod>
   </url>
   
@@ -82,17 +82,17 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/is2t/</loc>
-    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://iot.eclipse.org/member/ibh/</loc>
     <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/member/ibm/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/is2t/</loc>
     <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
