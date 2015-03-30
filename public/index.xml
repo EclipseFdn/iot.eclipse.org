@@ -110,16 +110,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>Cisco</title>
-      <link>http://iot.eclipse.org/member/cisco/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/cisco/</guid>
-      <description>&lt;p&gt;Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies. Today, with more than 63,050 employees worldwide, this tradition of innovation continues with industry-leading products and solutions in the company&amp;rsquo;s core development areas of routing and switching, as well as in advanced technologies such as: Application Networking, Data Center, Digital Media, IPICS, Mobility, Security, Storage Networking, TelePresence, Unified Communications, and Video.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>dc-square</title>
       <link>http://iot.eclipse.org/member/dcsquare/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
@@ -128,6 +118,16 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
       <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
 
 &lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cisco</title>
+      <link>http://iot.eclipse.org/member/cisco/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/cisco/</guid>
+      <description>&lt;p&gt;Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies. Today, with more than 63,050 employees worldwide, this tradition of innovation continues with industry-leading products and solutions in the company&amp;rsquo;s core development areas of routing and switching, as well as in advanced technologies such as: Application Networking, Data Center, Digital Media, IPICS, Mobility, Security, Storage Networking, TelePresence, Unified Communications, and Video.&lt;/p&gt;
 </description>
     </item>
     
@@ -165,16 +165,14 @@ Solair enables companies to collect data from their Things and feed it into busi
     </item>
     
     <item>
-      <title>GadgetKeeper</title>
-      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
+      <title>IBH SYSTEMS</title>
+      <link>http://iot.eclipse.org/member/ibh/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
-      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/member/ibh/</guid>
+      <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
 
-&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
-
-&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
+&lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
     </item>
     
