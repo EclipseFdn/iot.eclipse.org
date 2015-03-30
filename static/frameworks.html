@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iot.eclipse.org &mdash; Services &amp; Frameworks</title>
+  <meta name="description" content="Building blocks to accelerate IoT development">
+  <meta name="author" content="Eclipse.org">
+  <link rel="author" href="humans.txt" />
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+  <!-- Le styles -->
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-594061-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+  <header>
+
+
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img alt="Brand" src="/assets/images/iot-logo.png">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/getting-started">Getting Started</a>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/standards">Standards</a>
+                </li>
+                <li><a href="/frameworks">Services &amp; Frameworks</a>
+                </li>
+                <li><a href="/projects">All the projects</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/resources">Resources</a>
+                </li>
+                <li><a href="/news">News</a>
+                </li>
+                <li><a href="/events">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
+            <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
+              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+
+
+  </header>
+
+  <main class="main">
+
+    <div class="well">
+
+      <div class="container">
+
+        <h1>IoT Services &amp; Frameworks</h1>
+
+        <p class="lead">The IoT Working Group fosters the creation of extensible services and frameworks that enable IoT applications on top of open APIs.</p>
+
+      </div>
+
+    </div>
+
+
+    <section class="first">
+      <div class="container">
+
+        <h1 id="frameworks-vision" class="purple">Vision</h1>
+
+
+        <div class="row">
+          <div class="col-md-12">
+            <p>A vast majority of today's IoT solutions are designed in an ad hoc manner. Depending on the business domain and on the targeted platform (OS, H/W capabilities, &hellip;) very different and often incompatible architectures are implemented.</p>
+            <p>Eclipse IoT provides building blocks that sit on top of open standards and protocols and provide additional services and frameworks for  device management, wired/wireless communication, vertical solutions like home automation, &hellip;</p>
+          </div>
+<!--           <p class="col-md-6">
+            <img src="/assets/images/services-and-frameworks.png" class="img-responsive">
+          </p> -->
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="second">
+      <div class="container">
+
+        <h1 id="Frameworks+for+M2M+Gateways" class="purple">Frameworks for IoT Gateways</h1>
+        <p>IoT Gateways help manage the interaction between sensors and actuators, and the enteprise and cloud services. Implementing these types of gateways requires specialized knowledge in communication protocols, device management, software update, and hardware configurations. We believe a better way to build IoT gateways is to use a set of common services that can be reused in IoT applications.</p>
+        <p>We have two frameworks for building IoT gateways: Kura and Mihini.</p>
+        <ul>
+          <li><a href="https://eclipse.org/kura"><strong>Kura</strong></a> is a set of Java and OSGi services that are most commonly required for IoT gateways, including I/O services, Data Services, Cloud Services, Newtorking, etc. </li>
+          <li><a href="https://eclipse.org/mihini"><strong>Mihini</strong></a>, written in the Lua scripting language, provides low-level connectivity management to ensure that a reliable network connection is available, acts as an abstraction layer for underlying hardware and enables smart business data transmission between devices and servers, including the ability to consolidate data locally and use bandwidth-efficient communication protocols.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section class="third">
+      <div class="container">
+
+        <h1 id="Industry+Services" class="purple">Services</h1>
+
+        <p>Building IoT applications for specific industries also requires dedicated services to be available. Providing developers with some of the basic building blocks makes it easier to develop and deploy these types of applications.</p>
+        <p>Eclipse IoT currently has the following services:</p>
+        <ul>
+          <li>The <a href="https://eclipse.org/smarthome"><strong>SmartHome</strong></a> project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access to devices and information and to facilitate different kinds of interactions with them. This framework consists of a set of OSGi bundles that can be deployed on an OSGi runtime and which defines OSGi services as extension points.
+          </li>
+          <li><a href="https://eclipse.org/eclipsescada"><strong>Eclipse SCADA</strong></a> is a way to connect different industrial devices to a common communication system and post-process as well as visualize the data to operating personnel. It provides a SCADA system that includes a communication service, monitoring system, data archive and data visualization capability</li>
+
+        </ul>
+      </div>
+    </section>
+
+
+
+    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
+    </div>
+
+  </main>
+
+    <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <nav>
+                <ul class="list-inline menu dropdown">
+            <li><a href="/getting-started">Getting Started</a>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/standards">Standards</a>
+                </li>
+                <li><a href="/frameworks">Services &amp; Frameworks</a>
+                </li>
+                <li><a href="/projects">All the projects</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/resources">Resources</a>
+                </li>
+                <li><a href="/news">News</a>
+                </li>
+                <li><a href="/events">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
+          </ul>
+          </nav>
+          <div class="socials">
+<!--             <a href="#" class="social-facebook">&nbsp;</a> -->
+            <a href="https://twitter.com/EclipseIoT" class="social-twitter">&nbsp;</a>
+            <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" class="social-youtube">&nbsp;</a>
+<!--             <a href="#" class="social-share">&nbsp;</a> -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="copyright">Copyright © 2015 The Eclipse Foundation. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+
+
+  <!-- JS is at the end of the document so the pages load faster -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

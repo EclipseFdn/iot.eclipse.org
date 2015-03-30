@@ -1,0 +1,12 @@
+/* TEAM */
+	Curator: Benjamin Cabé (@kartben)
+	Web designer: Thomas Abenoza
+
+/* THANKS */
+	Misc. contributions: Andy Piper (@andypiper)	
+
+/* SITE */
+	Last update: 2015/03/01
+	Language: English
+	Standards: HTML5, CSS3,..
+	Components: Twitter Bootstrap, jQuery

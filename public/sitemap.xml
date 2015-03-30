@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://iot.eclipse.org/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/working-group/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</loc>
+    <lastmod>2015-02-01T15:54:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</loc>
+    <lastmod>2015-02-09T16:28:26-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</loc>
+    <lastmod>2015-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/2lemetry/</loc>
+    <lastmod>2015-03-08T15:31:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/actuate/</loc>
+    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/bosch/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/bitreactive/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/canonical/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/cisco/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/dcsquare/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/solair/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/dtag/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/eurotech/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/gadgetkeeper/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/ibm/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/ibh/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/is2t/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/smb/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/itemis/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/litmus/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/openhab/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/sierra/</loc>
+    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-03-09-eclipsecon2015/</loc>
+    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</loc>
+    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</loc>
+    <lastmod>2015-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-03-23-iot-conference/</loc>
+    <lastmod>2015-03-23T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2014-03-24-java-tutorial/</loc>
+    <lastmod>2015-03-24T15:54:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</loc>
+    <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-04-09-iot-insa/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-05-06-iot-devcon/</loc>
+    <lastmod>2015-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-05-12-iot-world/</loc>
+    <lastmod>2015-05-12T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-06-23-solidcon/</loc>
+    <lastmod>2015-06-23T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
