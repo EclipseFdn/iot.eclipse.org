@@ -77,6 +77,16 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
+      <title>Bitreactive</title>
+      <link>http://iot.eclipse.org/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
+      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bosch Software Innovations</title>
       <link>http://iot.eclipse.org/member/bosch/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
@@ -91,12 +101,14 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>Bitreactive</title>
-      <link>http://iot.eclipse.org/member/bitreactive/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      <title>dc-square</title>
+      <link>http://iot.eclipse.org/member/dcsquare/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
-      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/member/dcsquare/</guid>
+      <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
+
+&lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
 </description>
     </item>
     
@@ -107,18 +119,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
       
       <guid>http://iot.eclipse.org/member/canonical/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>dc-square</title>
-      <link>http://iot.eclipse.org/member/dcsquare/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/dcsquare/</guid>
-      <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
-
-&lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -165,14 +165,16 @@ Solair enables companies to collect data from their Things and feed it into busi
     </item>
     
     <item>
-      <title>IBH SYSTEMS</title>
-      <link>http://iot.eclipse.org/member/ibh/</link>
+      <title>GadgetKeeper</title>
+      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/ibh/</guid>
-      <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
+      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
 
-&lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
+&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
+
+&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
 </description>
     </item>
     
