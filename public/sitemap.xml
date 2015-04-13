@@ -37,12 +37,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/bitreactive/</loc>
+    <loc>http://iot.eclipse.org/member/bosch/</loc>
     <lastmod>2015-03-08T15:31:15-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/bosch/</loc>
+    <loc>http://iot.eclipse.org/member/bitreactive/</loc>
     <lastmod>2015-03-08T15:31:15-07:00</lastmod>
   </url>
   
@@ -82,12 +82,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/ibh/</loc>
+    <loc>http://iot.eclipse.org/member/ibm/</loc>
     <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/ibm/</loc>
+    <loc>http://iot.eclipse.org/member/ibh/</loc>
     <lastmod>2015-03-08T15:31:18-07:00</lastmod>
   </url>
   
@@ -102,22 +102,22 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/laas/</loc>
-    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://iot.eclipse.org/member/itemis/</loc>
     <lastmod>2015-03-08T15:31:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/litmus/</loc>
-    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+    <loc>http://iot.eclipse.org/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/litmus/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   
