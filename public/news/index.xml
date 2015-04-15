@@ -5,8 +5,18 @@
     <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Interview with Benjamin Cabé on the Internet of Things at Eclipse</title>
+      <link>http://iot.eclipse.org/news/2015-04-15-infoq/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-04-15-infoq/</guid>
+      <description>&lt;p&gt;Recorded at EclipseCon 2015&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Announcing the Open IoT Challenge Winners</title>
