@@ -5,17 +5,8 @@
     <link>http://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2015 15:31:22 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Azul Systems</title>
-      <link>http://iot.eclipse.org/member/azul-systems/</link>
-      <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/azul-systems/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Sierra Wireless</title>
@@ -163,6 +154,16 @@
       
       <guid>http://iot.eclipse.org/member/canonical/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Cisco</title>
+      <link>http://iot.eclipse.org/member/cisco/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/cisco/</guid>
+      <description>&lt;p&gt;Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies. Today, with more than 63,050 employees worldwide, this tradition of innovation continues with industry-leading products and solutions in the company&amp;rsquo;s core development areas of routing and switching, as well as in advanced technologies such as: Application Networking, Data Center, Digital Media, IPICS, Mobility, Security, Storage Networking, TelePresence, Unified Communications, and Video.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
