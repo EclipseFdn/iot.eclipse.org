@@ -77,16 +77,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
     </item>
     
     <item>
-      <title>Bitreactive</title>
-      <link>http://iot.eclipse.org/member/bitreactive/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
-      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Bosch Software Innovations</title>
       <link>http://iot.eclipse.org/member/bosch/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
@@ -97,6 +87,16 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
 &lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
 
 &lt;p&gt;In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bitreactive</title>
+      <link>http://iot.eclipse.org/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
+      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
 </description>
     </item>
     
@@ -143,16 +143,6 @@ Solair enables companies to collect data from their Things and feed it into busi
     </item>
     
     <item>
-      <title>Deutsche Telekom</title>
-      <link>http://iot.eclipse.org/member/dtag/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/dtag/</guid>
-      <description>&lt;p&gt;QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Eurotech</title>
       <link>http://iot.eclipse.org/member/eurotech/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
@@ -161,6 +151,16 @@ Solair enables companies to collect data from their Things and feed it into busi
       <description>&lt;p&gt;Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.&lt;/p&gt;
 
 &lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deutsche Telekom</title>
+      <link>http://iot.eclipse.org/member/dtag/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/dtag/</guid>
+      <description>&lt;p&gt;QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.&lt;/p&gt;
 </description>
     </item>
     

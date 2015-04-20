@@ -3,7 +3,7 @@ date = "2015-03-08T15:31:18-07:00"
 title = "IBH SYSTEMS"
 logo = "ibh"
 is_steering = false
-member_id = 1084
+member_id = 1086
 demo_url = "https://www.youtube.com/watch?v=UYlmzuwBV30"
 more_url = "http://ibh-systems.com"
 +++
