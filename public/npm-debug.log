@@ -1,0 +1,1044 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.3
+3 info using node@v0.10.26
+4 warn package.json version2@2.0.0 No description
+5 warn package.json version2@2.0.0 No repository field.
+6 warn package.json version2@2.0.0 No README data
+7 verbose install where, deps [ '/Users/kartben/Repositories/m2m.eclipse.org/static',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-nodeunit',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-sass',
+7 verbose install     'node-bourbon',
+7 verbose install     'node-sass' ] ]
+8 verbose install where, peers [ '/Users/kartben/Repositories/m2m.eclipse.org/static', [] ]
+9 info preinstall version2@2.0.0
+10 silly cache add args [ 'grunt-contrib-nodeunit@~0.4.1', null ]
+11 verbose cache add spec grunt-contrib-nodeunit@~0.4.1
+12 silly cache add parsed spec { raw: 'grunt-contrib-nodeunit@~0.4.1',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'grunt-contrib-nodeunit',
+12 silly cache add   rawSpec: '~0.4.1',
+12 silly cache add   spec: '>=0.4.1 <0.5.0',
+12 silly cache add   type: 'range' }
+13 verbose addNamed grunt-contrib-nodeunit@>=0.4.1 <0.5.0
+14 silly addNamed semver.valid null
+15 silly addNamed semver.validRange >=0.4.1 <0.5.0
+16 silly addNameRange { name: 'grunt-contrib-nodeunit',
+16 silly addNameRange   range: '>=0.4.1 <0.5.0',
+16 silly addNameRange   hasData: false }
+17 silly mapToRegistry name grunt-contrib-nodeunit
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-nodeunit
+21 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-nodeunit not in flight; fetching
+22 silly cache add args [ 'grunt-sass@~0.8.0', null ]
+23 verbose cache add spec grunt-sass@~0.8.0
+24 silly cache add parsed spec { raw: 'grunt-sass@~0.8.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'grunt-sass',
+24 silly cache add   rawSpec: '~0.8.0',
+24 silly cache add   spec: '>=0.8.0 <0.9.0',
+24 silly cache add   type: 'range' }
+25 verbose addNamed grunt-sass@>=0.8.0 <0.9.0
+26 silly addNamed semver.valid null
+27 silly addNamed semver.validRange >=0.8.0 <0.9.0
+28 silly addNameRange { name: 'grunt-sass', range: '>=0.8.0 <0.9.0', hasData: false }
+29 silly mapToRegistry name grunt-sass
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+33 verbose addNameRange registry:https://registry.npmjs.org/grunt-sass not in flight; fetching
+34 silly cache add args [ 'grunt-contrib-uglify@~0.5.0', null ]
+35 verbose cache add spec grunt-contrib-uglify@~0.5.0
+36 silly cache add parsed spec { raw: 'grunt-contrib-uglify@~0.5.0',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'grunt-contrib-uglify',
+36 silly cache add   rawSpec: '~0.5.0',
+36 silly cache add   spec: '>=0.5.0 <0.6.0',
+36 silly cache add   type: 'range' }
+37 verbose addNamed grunt-contrib-uglify@>=0.5.0 <0.6.0
+38 silly addNamed semver.valid null
+39 silly addNamed semver.validRange >=0.5.0 <0.6.0
+40 silly addNameRange { name: 'grunt-contrib-uglify',
+40 silly addNameRange   range: '>=0.5.0 <0.6.0',
+40 silly addNameRange   hasData: false }
+41 silly mapToRegistry name grunt-contrib-uglify
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+45 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+46 silly cache add args [ 'grunt-contrib-watch@~0.5.3', null ]
+47 verbose cache add spec grunt-contrib-watch@~0.5.3
+48 silly cache add parsed spec { raw: 'grunt-contrib-watch@~0.5.3',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'grunt-contrib-watch',
+48 silly cache add   rawSpec: '~0.5.3',
+48 silly cache add   spec: '>=0.5.3 <0.6.0',
+48 silly cache add   type: 'range' }
+49 verbose addNamed grunt-contrib-watch@>=0.5.3 <0.6.0
+50 silly addNamed semver.valid null
+51 silly addNamed semver.validRange >=0.5.3 <0.6.0
+52 silly addNameRange { name: 'grunt-contrib-watch',
+52 silly addNameRange   range: '>=0.5.3 <0.6.0',
+52 silly addNameRange   hasData: false }
+53 silly mapToRegistry name grunt-contrib-watch
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+57 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+58 silly cache add args [ 'node-bourbon@^1.2.3', null ]
+59 verbose cache add spec node-bourbon@^1.2.3
+60 silly cache add parsed spec { raw: 'node-bourbon@^1.2.3',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'node-bourbon',
+60 silly cache add   rawSpec: '^1.2.3',
+60 silly cache add   spec: '>=1.2.3 <2.0.0',
+60 silly cache add   type: 'range' }
+61 verbose addNamed node-bourbon@>=1.2.3 <2.0.0
+62 silly addNamed semver.valid null
+63 silly addNamed semver.validRange >=1.2.3 <2.0.0
+64 silly addNameRange { name: 'node-bourbon', range: '>=1.2.3 <2.0.0', hasData: false }
+65 silly mapToRegistry name node-bourbon
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/node-bourbon
+69 verbose addNameRange registry:https://registry.npmjs.org/node-bourbon not in flight; fetching
+70 silly cache add args [ 'node-sass@^2.0.0-beta', null ]
+71 verbose cache add spec node-sass@^2.0.0-beta
+72 silly cache add parsed spec { raw: 'node-sass@^2.0.0-beta',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'node-sass',
+72 silly cache add   rawSpec: '^2.0.0-beta',
+72 silly cache add   spec: '>=2.0.0-beta <3.0.0',
+72 silly cache add   type: 'range' }
+73 verbose addNamed node-sass@>=2.0.0-beta <3.0.0
+74 silly addNamed semver.valid null
+75 silly addNamed semver.validRange >=2.0.0-beta <3.0.0
+76 silly addNameRange { name: 'node-sass',
+76 silly addNameRange   range: '>=2.0.0-beta <3.0.0',
+76 silly addNameRange   hasData: false }
+77 silly mapToRegistry name node-sass
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+81 verbose addNameRange registry:https://registry.npmjs.org/node-sass not in flight; fetching
+82 silly cache add args [ 'grunt@~0.4.5', null ]
+83 verbose cache add spec grunt@~0.4.5
+84 silly cache add parsed spec { raw: 'grunt@~0.4.5',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'grunt',
+84 silly cache add   rawSpec: '~0.4.5',
+84 silly cache add   spec: '>=0.4.5 <0.5.0',
+84 silly cache add   type: 'range' }
+85 verbose addNamed grunt@>=0.4.5 <0.5.0
+86 silly addNamed semver.valid null
+87 silly addNamed semver.validRange >=0.4.5 <0.5.0
+88 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+89 silly mapToRegistry name grunt
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/grunt
+93 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+94 silly cache add args [ 'grunt-contrib-jshint@~0.10.0', null ]
+95 verbose cache add spec grunt-contrib-jshint@~0.10.0
+96 silly cache add parsed spec { raw: 'grunt-contrib-jshint@~0.10.0',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'grunt-contrib-jshint',
+96 silly cache add   rawSpec: '~0.10.0',
+96 silly cache add   spec: '>=0.10.0 <0.11.0',
+96 silly cache add   type: 'range' }
+97 verbose addNamed grunt-contrib-jshint@>=0.10.0 <0.11.0
+98 silly addNamed semver.valid null
+99 silly addNamed semver.validRange >=0.10.0 <0.11.0
+100 silly addNameRange { name: 'grunt-contrib-jshint',
+100 silly addNameRange   range: '>=0.10.0 <0.11.0',
+100 silly addNameRange   hasData: false }
+101 silly mapToRegistry name grunt-contrib-jshint
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+105 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-jshint not in flight; fetching
+106 verbose request uri https://registry.npmjs.org/grunt-contrib-nodeunit
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 16:09:14
+109 verbose request id 20a65f4dc222c11a
+110 verbose etag "E3BGXRK7A24M6882D7TMU00X1"
+111 http request GET https://registry.npmjs.org/grunt-contrib-nodeunit
+112 verbose request uri https://registry.npmjs.org/grunt-sass
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 16:09:14
+115 verbose etag "BD00ZX0WE9L7600FAFDZPXY49"
+116 http request GET https://registry.npmjs.org/grunt-sass
+117 verbose get https://registry.npmjs.org/grunt-contrib-uglify not expired, no request
+118 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+118 silly addNameRange   range: '>=0.5.0 <0.6.0',
+118 silly addNameRange   hasData: true }
+119 silly addNameRange versions [ 'grunt-contrib-uglify',
+119 silly addNameRange   [ '0.1.0',
+119 silly addNameRange     '0.1.1',
+119 silly addNameRange     '0.1.2',
+119 silly addNameRange     '0.2.0',
+119 silly addNameRange     '0.2.1',
+119 silly addNameRange     '0.2.2',
+119 silly addNameRange     '0.2.3',
+119 silly addNameRange     '0.2.4',
+119 silly addNameRange     '0.2.5',
+119 silly addNameRange     '0.2.6',
+119 silly addNameRange     '0.2.7',
+119 silly addNameRange     '0.3.0',
+119 silly addNameRange     '0.3.1',
+119 silly addNameRange     '0.1.1-rc5',
+119 silly addNameRange     '0.1.1-rc6',
+119 silly addNameRange     '0.3.2',
+119 silly addNameRange     '0.3.3',
+119 silly addNameRange     '0.4.0',
+119 silly addNameRange     '0.5.0',
+119 silly addNameRange     '0.4.1',
+119 silly addNameRange     '0.5.1',
+119 silly addNameRange     '0.6.0',
+119 silly addNameRange     '0.7.0',
+119 silly addNameRange     '0.8.0',
+119 silly addNameRange     '0.8.1',
+119 silly addNameRange     '0.9.0',
+119 silly addNameRange     '0.9.1' ] ]
+120 verbose addNamed grunt-contrib-uglify@0.5.1
+121 silly addNamed semver.valid 0.5.1
+122 silly addNamed semver.validRange 0.5.1
+123 verbose get https://registry.npmjs.org/grunt-contrib-watch not expired, no request
+124 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+124 silly addNameRange   range: '>=0.5.3 <0.6.0',
+124 silly addNameRange   hasData: true }
+125 silly addNameRange versions [ 'grunt-contrib-watch',
+125 silly addNameRange   [ '0.1.0',
+125 silly addNameRange     '0.1.1',
+125 silly addNameRange     '0.1.2',
+125 silly addNameRange     '0.1.3',
+125 silly addNameRange     '0.1.4',
+125 silly addNameRange     '0.2.0',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.3.1',
+125 silly addNameRange     '0.4.0',
+125 silly addNameRange     '0.4.1',
+125 silly addNameRange     '0.4.2',
+125 silly addNameRange     '0.4.3',
+125 silly addNameRange     '0.4.4',
+125 silly addNameRange     '0.5.0',
+125 silly addNameRange     '0.5.1',
+125 silly addNameRange     '0.5.2',
+125 silly addNameRange     '0.5.3',
+125 silly addNameRange     '0.6.0',
+125 silly addNameRange     '0.6.1',
+125 silly addNameRange     '0.2.0-a',
+125 silly addNameRange     '0.2.0-rc5',
+125 silly addNameRange     '0.2.0-rc7' ] ]
+126 verbose addNamed grunt-contrib-watch@0.5.3
+127 silly addNamed semver.valid 0.5.3
+128 silly addNamed semver.validRange 0.5.3
+129 verbose get https://registry.npmjs.org/node-bourbon not expired, no request
+130 silly addNameRange number 2 { name: 'node-bourbon', range: '>=1.2.3 <2.0.0', hasData: true }
+131 silly addNameRange versions [ 'node-bourbon',
+131 silly addNameRange   [ '0.1.0',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.1.0',
+131 silly addNameRange     '1.2.1',
+131 silly addNameRange     '1.2.2',
+131 silly addNameRange     '1.2.3',
+131 silly addNameRange     '4.2.1-beta1' ] ]
+132 verbose addNamed node-bourbon@1.2.3
+133 silly addNamed semver.valid 1.2.3
+134 silly addNamed semver.validRange 1.2.3
+135 verbose request uri https://registry.npmjs.org/node-sass
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 16:09:14
+138 verbose etag "3CO58VO5V7G2XKBYET595YDJ0"
+139 http request GET https://registry.npmjs.org/node-sass
+140 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 16:09:14
+143 verbose etag "B1BH82GT9GVM0C692EHTEHKNP"
+144 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+145 verbose request uri https://registry.npmjs.org/grunt
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 16:09:14
+148 verbose etag "3LIXIGM765Y9QY8UBGJ9M0QXE"
+149 http request GET https://registry.npmjs.org/grunt
+150 silly cache afterAdd grunt-contrib-uglify@0.5.1
+151 verbose afterAdd /Users/kartben/.npm/grunt-contrib-uglify/0.5.1/package/package.json not in flight; writing
+152 silly cache afterAdd grunt-contrib-watch@0.5.3
+153 verbose afterAdd /Users/kartben/.npm/grunt-contrib-watch/0.5.3/package/package.json not in flight; writing
+154 silly cache afterAdd node-bourbon@1.2.3
+155 verbose afterAdd /Users/kartben/.npm/node-bourbon/1.2.3/package/package.json not in flight; writing
+156 verbose afterAdd /Users/kartben/.npm/grunt-contrib-watch/0.5.3/package/package.json written
+157 verbose afterAdd /Users/kartben/.npm/grunt-contrib-uglify/0.5.1/package/package.json written
+158 verbose afterAdd /Users/kartben/.npm/node-bourbon/1.2.3/package/package.json written
+159 http 200 https://registry.npmjs.org/grunt-contrib-nodeunit
+160 silly get cb [ 200,
+160 silly get   { date: 'Mon, 27 Apr 2015 14:09:14 GMT',
+160 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 silly get     etag: '"2176G8IUVHRCYW51V2YOZIEF2"',
+160 silly get     'content-type': 'application/json',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     'content-length': '24898',
+160 silly get     'accept-ranges': 'bytes',
+160 silly get     via: '1.1 varnish',
+160 silly get     age: '48',
+160 silly get     'x-served-by': 'cache-fra1235-FRA',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '1',
+160 silly get     'x-timer': 'S1430143754.535692,VS0,VE0',
+160 silly get     vary: 'Accept',
+160 silly get     'keep-alive': 'timeout=10, max=50',
+160 silly get     connection: 'Keep-Alive' } ]
+161 verbose get saving grunt-contrib-nodeunit to /Users/kartben/.npm/registry.npmjs.org/grunt-contrib-nodeunit/.cache.json
+162 http 200 https://registry.npmjs.org/grunt-sass
+163 silly get cb [ 200,
+163 silly get   { date: 'Mon, 27 Apr 2015 14:09:14 GMT',
+163 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+163 silly get     etag: '"BEYUJTH85M70VNGEOG7Z10RKP"',
+163 silly get     'content-type': 'application/json',
+163 silly get     'cache-control': 'max-age=60',
+163 silly get     'content-length': '40321',
+163 silly get     'accept-ranges': 'bytes',
+163 silly get     via: '1.1 varnish',
+163 silly get     age: '52',
+163 silly get     'x-served-by': 'cache-fra1239-FRA',
+163 silly get     'x-cache': 'HIT',
+163 silly get     'x-cache-hits': '1',
+163 silly get     'x-timer': 'S1430143754.539679,VS0,VE0',
+163 silly get     vary: 'Accept',
+163 silly get     'keep-alive': 'timeout=10, max=50',
+163 silly get     connection: 'Keep-Alive' } ]
+164 verbose get saving grunt-sass to /Users/kartben/.npm/registry.npmjs.org/grunt-sass/.cache.json
+165 silly addNameRange number 2 { name: 'grunt-sass', range: '>=0.8.0 <0.9.0', hasData: true }
+166 silly addNameRange versions [ 'grunt-sass',
+166 silly addNameRange   [ '0.1.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.2.2',
+166 silly addNameRange     '0.2.3',
+166 silly addNameRange     '0.2.4',
+166 silly addNameRange     '0.2.5',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.4.1',
+166 silly addNameRange     '0.5.0',
+166 silly addNameRange     '0.6.0',
+166 silly addNameRange     '0.6.1',
+166 silly addNameRange     '0.7.0',
+166 silly addNameRange     '0.8.0',
+166 silly addNameRange     '0.8.1',
+166 silly addNameRange     '0.9.0',
+166 silly addNameRange     '0.10.0',
+166 silly addNameRange     '0.11.0',
+166 silly addNameRange     '0.12.0',
+166 silly addNameRange     '0.12.1',
+166 silly addNameRange     '0.13.0',
+166 silly addNameRange     '0.13.1',
+166 silly addNameRange     '0.14.0',
+166 silly addNameRange     '0.14.1',
+166 silly addNameRange     '0.14.2',
+166 silly addNameRange     '0.15.0',
+166 silly addNameRange     '0.16.0',
+166 silly addNameRange     '0.16.1',
+166 silly addNameRange     '0.17.0',
+166 silly addNameRange     '0.18.0',
+166 silly addNameRange     '0.18.1' ] ]
+167 verbose addNamed grunt-sass@0.8.1
+168 silly addNamed semver.valid 0.8.1
+169 silly addNamed semver.validRange 0.8.1
+170 silly addNameRange number 2 { name: 'grunt-contrib-nodeunit',
+170 silly addNameRange   range: '>=0.4.1 <0.5.0',
+170 silly addNameRange   hasData: true }
+171 silly addNameRange versions [ 'grunt-contrib-nodeunit',
+171 silly addNameRange   [ '0.1.0',
+171 silly addNameRange     '0.1.1',
+171 silly addNameRange     '0.1.2',
+171 silly addNameRange     '0.2.0',
+171 silly addNameRange     '0.2.1',
+171 silly addNameRange     '0.2.2',
+171 silly addNameRange     '0.3.0',
+171 silly addNameRange     '0.1.2-rc5',
+171 silly addNameRange     '0.1.2-rc6',
+171 silly addNameRange     '0.3.1',
+171 silly addNameRange     '0.3.2',
+171 silly addNameRange     '0.3.3',
+171 silly addNameRange     '0.4.0',
+171 silly addNameRange     '0.4.1' ] ]
+172 verbose addNamed grunt-contrib-nodeunit@0.4.1
+173 silly addNamed semver.valid 0.4.1
+174 silly addNamed semver.validRange 0.4.1
+175 silly cache afterAdd grunt-sass@0.8.1
+176 verbose afterAdd /Users/kartben/.npm/grunt-sass/0.8.1/package/package.json not in flight; writing
+177 silly cache afterAdd grunt-contrib-nodeunit@0.4.1
+178 verbose afterAdd /Users/kartben/.npm/grunt-contrib-nodeunit/0.4.1/package/package.json not in flight; writing
+179 verbose afterAdd /Users/kartben/.npm/grunt-sass/0.8.1/package/package.json written
+180 verbose afterAdd /Users/kartben/.npm/grunt-contrib-nodeunit/0.4.1/package/package.json written
+181 http 200 https://registry.npmjs.org/grunt
+182 silly get cb [ 200,
+182 silly get   { date: 'Mon, 27 Apr 2015 14:09:14 GMT',
+182 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+182 silly get     etag: '"60A77BICG1YM9QCTC0KW7JWV6"',
+182 silly get     'content-type': 'application/json',
+182 silly get     'cache-control': 'max-age=60',
+182 silly get     'content-length': '89079',
+182 silly get     'accept-ranges': 'bytes',
+182 silly get     via: '1.1 varnish',
+182 silly get     age: '1',
+182 silly get     'x-served-by': 'cache-fra1228-FRA',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '1',
+182 silly get     'x-timer': 'S1430143754.543865,VS0,VE0',
+182 silly get     vary: 'Accept',
+182 silly get     'keep-alive': 'timeout=10, max=50',
+182 silly get     connection: 'Keep-Alive' } ]
+183 verbose get saving grunt to /Users/kartben/.npm/registry.npmjs.org/grunt/.cache.json
+184 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+185 silly addNameRange versions [ 'grunt',
+185 silly addNameRange   [ '0.1.0',
+185 silly addNameRange     '0.1.1',
+185 silly addNameRange     '0.1.2',
+185 silly addNameRange     '0.2.0',
+185 silly addNameRange     '0.2.1',
+185 silly addNameRange     '0.2.2',
+185 silly addNameRange     '0.2.3',
+185 silly addNameRange     '0.2.4',
+185 silly addNameRange     '0.2.5',
+185 silly addNameRange     '0.2.6',
+185 silly addNameRange     '0.2.7',
+185 silly addNameRange     '0.2.8',
+185 silly addNameRange     '0.2.9',
+185 silly addNameRange     '0.2.10',
+185 silly addNameRange     '0.2.11',
+185 silly addNameRange     '0.2.12',
+185 silly addNameRange     '0.2.13',
+185 silly addNameRange     '0.2.14',
+185 silly addNameRange     '0.2.15',
+185 silly addNameRange     '0.3.0',
+185 silly addNameRange     '0.3.1',
+185 silly addNameRange     '0.3.2',
+185 silly addNameRange     '0.3.3',
+185 silly addNameRange     '0.3.4',
+185 silly addNameRange     '0.3.5',
+185 silly addNameRange     '0.3.6',
+185 silly addNameRange     '0.3.7',
+185 silly addNameRange     '0.3.8',
+185 silly addNameRange     '0.3.9',
+185 silly addNameRange     '0.3.10',
+185 silly addNameRange     '0.3.11',
+185 silly addNameRange     '0.3.12',
+185 silly addNameRange     '0.3.13',
+185 silly addNameRange     '0.3.14',
+185 silly addNameRange     '0.3.15',
+185 silly addNameRange     '0.3.16',
+185 silly addNameRange     '0.3.17',
+185 silly addNameRange     '0.4.0',
+185 silly addNameRange     '0.4.1',
+185 silly addNameRange     '0.4.2',
+185 silly addNameRange     '0.4.3',
+185 silly addNameRange     '0.4.4',
+185 silly addNameRange     '0.4.5',
+185 silly addNameRange     '0.3.13-a',
+185 silly addNameRange     '0.4.0-a',
+185 silly addNameRange     '0.4.0-rc1',
+185 silly addNameRange     '0.4.0-rc2',
+185 silly addNameRange     '0.4.0-rc3',
+185 silly addNameRange     '0.4.0-rc4',
+185 silly addNameRange     '0.4.0-rc5',
+185 silly addNameRange     '0.4.0-rc6',
+185 silly addNameRange     '0.4.0-rc7',
+185 silly addNameRange     '0.4.0-rc8' ] ]
+186 verbose addNamed grunt@0.4.5
+187 silly addNamed semver.valid 0.4.5
+188 silly addNamed semver.validRange 0.4.5
+189 silly cache afterAdd grunt@0.4.5
+190 verbose afterAdd /Users/kartben/.npm/grunt/0.4.5/package/package.json not in flight; writing
+191 verbose afterAdd /Users/kartben/.npm/grunt/0.4.5/package/package.json written
+192 http 200 https://registry.npmjs.org/grunt-contrib-jshint
+193 silly get cb [ 200,
+193 silly get   { date: 'Mon, 27 Apr 2015 14:09:14 GMT',
+193 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+193 silly get     etag: '"6F8EY1WJJ4CVZ0D61BYBEIFC4"',
+193 silly get     'content-type': 'application/json',
+193 silly get     'cache-control': 'max-age=60',
+193 silly get     'content-length': '59031',
+193 silly get     'accept-ranges': 'bytes',
+193 silly get     via: '1.1 varnish',
+193 silly get     age: '18',
+193 silly get     'x-served-by': 'cache-fra1233-FRA',
+193 silly get     'x-cache': 'HIT',
+193 silly get     'x-cache-hits': '1',
+193 silly get     'x-timer': 'S1430143754.826588,VS0,VE0',
+193 silly get     vary: 'Accept',
+193 silly get     'keep-alive': 'timeout=10, max=50',
+193 silly get     connection: 'Keep-Alive' } ]
+194 verbose get saving grunt-contrib-jshint to /Users/kartben/.npm/registry.npmjs.org/grunt-contrib-jshint/.cache.json
+195 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+195 silly addNameRange   range: '>=0.10.0 <0.11.0',
+195 silly addNameRange   hasData: true }
+196 silly addNameRange versions [ 'grunt-contrib-jshint',
+196 silly addNameRange   [ '0.1.0',
+196 silly addNameRange     '0.1.1',
+196 silly addNameRange     '0.2.0',
+196 silly addNameRange     '0.3.0',
+196 silly addNameRange     '0.4.0',
+196 silly addNameRange     '0.4.1',
+196 silly addNameRange     '0.4.2',
+196 silly addNameRange     '0.4.3',
+196 silly addNameRange     '0.5.0',
+196 silly addNameRange     '0.5.1',
+196 silly addNameRange     '0.5.2',
+196 silly addNameRange     '0.5.3',
+196 silly addNameRange     '0.5.4',
+196 silly addNameRange     '0.6.0',
+196 silly addNameRange     '0.6.1',
+196 silly addNameRange     '0.6.2',
+196 silly addNameRange     '0.6.3',
+196 silly addNameRange     '0.6.4',
+196 silly addNameRange     '0.6.5',
+196 silly addNameRange     '0.7.0',
+196 silly addNameRange     '0.7.1',
+196 silly addNameRange     '0.7.2',
+196 silly addNameRange     '0.8.0',
+196 silly addNameRange     '0.9.0',
+196 silly addNameRange     '0.9.1',
+196 silly addNameRange     '0.9.2',
+196 silly addNameRange     '0.10.0',
+196 silly addNameRange     '0.11.0',
+196 silly addNameRange     '0.11.1',
+196 silly addNameRange     '0.11.2',
+196 silly addNameRange     '0.1.1-rc5',
+196 silly addNameRange     '0.1.1-rc6' ] ]
+197 verbose addNamed grunt-contrib-jshint@0.10.0
+198 silly addNamed semver.valid 0.10.0
+199 silly addNamed semver.validRange 0.10.0
+200 silly cache afterAdd grunt-contrib-jshint@0.10.0
+201 verbose afterAdd /Users/kartben/.npm/grunt-contrib-jshint/0.10.0/package/package.json not in flight; writing
+202 verbose afterAdd /Users/kartben/.npm/grunt-contrib-jshint/0.10.0/package/package.json written
+203 http 200 https://registry.npmjs.org/node-sass
+204 silly get cb [ 200,
+204 silly get   { date: 'Mon, 27 Apr 2015 14:09:14 GMT',
+204 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+204 silly get     etag: '"17XCC9WNLIMVKMQ10FL286P5R"',
+204 silly get     'content-type': 'application/json',
+204 silly get     'cache-control': 'max-age=60',
+204 silly get     'content-length': '124641',
+204 silly get     'accept-ranges': 'bytes',
+204 silly get     via: '1.1 varnish',
+204 silly get     age: '16',
+204 silly get     'x-served-by': 'cache-fra1240-FRA',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '2',
+204 silly get     'x-timer': 'S1430143754.551998,VS0,VE0',
+204 silly get     vary: 'Accept',
+204 silly get     'keep-alive': 'timeout=10, max=50',
+204 silly get     connection: 'Keep-Alive' } ]
+205 verbose get saving node-sass to /Users/kartben/.npm/registry.npmjs.org/node-sass/.cache.json
+206 silly addNameRange number 2 { name: 'node-sass',
+206 silly addNameRange   range: '>=2.0.0-beta <3.0.0',
+206 silly addNameRange   hasData: true }
+207 silly addNameRange versions [ 'node-sass',
+207 silly addNameRange   [ '0.2.0',
+207 silly addNameRange     '0.2.1',
+207 silly addNameRange     '0.2.2',
+207 silly addNameRange     '0.2.3',
+207 silly addNameRange     '0.2.4',
+207 silly addNameRange     '0.2.5',
+207 silly addNameRange     '0.2.6',
+207 silly addNameRange     '0.3.0',
+207 silly addNameRange     '0.4.0',
+207 silly addNameRange     '0.4.1',
+207 silly addNameRange     '0.4.2',
+207 silly addNameRange     '0.4.3',
+207 silly addNameRange     '0.4.4',
+207 silly addNameRange     '0.5.0',
+207 silly addNameRange     '0.5.1',
+207 silly addNameRange     '0.5.2',
+207 silly addNameRange     '0.5.3',
+207 silly addNameRange     '0.5.4',
+207 silly addNameRange     '0.6.0',
+207 silly addNameRange     '0.6.1',
+207 silly addNameRange     '0.6.2',
+207 silly addNameRange     '0.6.3',
+207 silly addNameRange     '0.6.4',
+207 silly addNameRange     '0.6.5',
+207 silly addNameRange     '0.6.6',
+207 silly addNameRange     '0.6.7',
+207 silly addNameRange     '0.7.0-alpha',
+207 silly addNameRange     '0.7.0',
+207 silly addNameRange     '0.8.0',
+207 silly addNameRange     '0.8.1',
+207 silly addNameRange     '0.8.2',
+207 silly addNameRange     '0.8.3',
+207 silly addNameRange     '0.8.4',
+207 silly addNameRange     '0.8.5',
+207 silly addNameRange     '0.8.6',
+207 silly addNameRange     '0.9.0',
+207 silly addNameRange     '0.9.1',
+207 silly addNameRange     '0.9.2',
+207 silly addNameRange     '0.9.3',
+207 silly addNameRange     '0.9.4-rc1',
+207 silly addNameRange     '0.9.4',
+207 silly addNameRange     '0.9.5-rc1',
+207 silly addNameRange     '0.9.5',
+207 silly addNameRange     '0.9.6',
+207 silly addNameRange     '1.0.0',
+207 silly addNameRange     '1.0.1',
+207 silly addNameRange     '1.0.2-alpha',
+207 silly addNameRange     '1.0.2',
+207 silly addNameRange     '1.0.3',
+207 silly addNameRange     '1.1.0',
+207 silly addNameRange     '1.1.1',
+207 silly addNameRange     '1.1.2',
+207 silly addNameRange     '1.1.3',
+207 silly addNameRange     '1.1.4',
+207 silly addNameRange     '1.2.0',
+207 silly addNameRange     '1.2.1',
+207 silly addNameRange     '1.2.2',
+207 silly addNameRange     '1.2.3',
+207 silly addNameRange     '2.0.0-beta',
+207 silly addNameRange     '2.0.0',
+207 silly addNameRange     '2.0.1',
+207 silly addNameRange     '3.0.0-alpha.0',
+207 silly addNameRange     '3.0.0-beta.2',
+207 silly addNameRange     '3.0.0-beta.3',
+207 silly addNameRange     '3.0.0-beta.4',
+207 silly addNameRange     '2.1.0',
+207 silly addNameRange     '2.1.1',
+207 silly addNameRange     '3.0.0-beta.5',
+207 silly addNameRange     '3.0.0-beta.7' ] ]
+208 verbose addNamed node-sass@2.1.1
+209 silly addNamed semver.valid 2.1.1
+210 silly addNamed semver.validRange 2.1.1
+211 silly mapToRegistry name node-sass
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+215 verbose addRemoteTarball https://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz not in flight; adding
+216 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz',
+216 verbose addRemoteTarball   '32847dceef9ef217bb68138ed5d3e2a72a6765fb' ]
+217 info retry fetch attempt 1 at 16:09:15
+218 info attempt registry request try #1 at 16:09:15
+219 http fetch GET https://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz
+220 http fetch 200 https://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz
+221 silly fetchAndShaCheck shasum 32847dceef9ef217bb68138ed5d3e2a72a6765fb
+222 verbose addTmpTarball /var/folders/ny/y8bfzjhx4mjdpd2y6vz5vmhr0000gn/T/npm-18083-959f435d/registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz not in flight; adding
+223 verbose addTmpTarball already have metadata; skipping unpack for node-sass@2.1.1
+224 silly cache afterAdd node-sass@2.1.1
+225 verbose afterAdd /Users/kartben/.npm/node-sass/2.1.1/package/package.json not in flight; writing
+226 verbose afterAdd /Users/kartben/.npm/node-sass/2.1.1/package/package.json written
+227 silly install resolved [ { name: 'grunt-contrib-watch',
+227 silly install resolved     description: 'Run predefined tasks whenever watched file patterns are added, changed or deleted.',
+227 silly install resolved     version: '0.5.3',
+227 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-watch',
+227 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-watch.git' },
+227 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-watch/issues' },
+227 silly install resolved     licenses: [ [Object] ],
+227 silly install resolved     main: 'Gruntfile.js',
+227 silly install resolved     engines: { node: '>= 0.8.0' },
+227 silly install resolved     scripts: { test: 'grunt nodeunit -v' },
+227 silly install resolved     dependencies: { gaze: '~0.4.0', 'tiny-lr': '0.0.4' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { grunt: '~0.4.0',
+227 silly install resolved        'grunt-contrib-jshint': '~0.4.3',
+227 silly install resolved        'grunt-contrib-nodeunit': '~0.1.2',
+227 silly install resolved        'grunt-contrib-internal': '~0.4.6' },
+227 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+227 silly install resolved     keywords: [ 'gruntplugin', 'watch' ],
+227 silly install resolved     contributors:
+227 silly install resolved      [ [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object] ],
+227 silly install resolved     _id: 'grunt-contrib-watch@0.5.3',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '7d9eb5465d506fa14faaca47e6e8790a82c1c9ee',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz' },
+227 silly install resolved     _from: 'grunt-contrib-watch@>=0.5.3 <0.6.0',
+227 silly install resolved     _npmVersion: '1.3.5',
+227 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+227 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '7d9eb5465d506fa14faaca47e6e8790a82c1c9ee',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'grunt-contrib-uglify',
+227 silly install resolved     description: 'Minify files with UglifyJS.',
+227 silly install resolved     version: '0.5.1',
+227 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-uglify',
+227 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-uglify.git' },
+227 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-uglify/issues' },
+227 silly install resolved     licenses: [ [Object] ],
+227 silly install resolved     engines: { node: '>=0.10.0' },
+227 silly install resolved     scripts: { test: 'grunt test' },
+227 silly install resolved     dependencies:
+227 silly install resolved      { chalk: '^0.5.1',
+227 silly install resolved        lodash: '^2.4.1',
+227 silly install resolved        maxmin: '^0.2.0',
+227 silly install resolved        'uglify-js': '^2.4.0' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { grunt: '^0.4.2',
+227 silly install resolved        'grunt-contrib-clean': '^0.5.0',
+227 silly install resolved        'grunt-contrib-internal': '^0.4.2',
+227 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+227 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+227 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+227 silly install resolved     keywords: [ 'gruntplugin' ],
+227 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+227 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+227 silly install resolved     gitHead: 'dfd721b5a5dabd4266e411d171a8670744f152ff',
+227 silly install resolved     _id: 'grunt-contrib-uglify@0.5.1',
+227 silly install resolved     _shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+227 silly install resolved     _from: 'grunt-contrib-uglify@>=0.5.0 <0.6.0',
+227 silly install resolved     _npmVersion: '2.0.0-alpha-5',
+227 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+227 silly install resolved     maintainers:
+227 silly install resolved      [ [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object],
+227 silly install resolved        [Object] ],
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '15f0aa5e8e8ba421aea980879ee505bc712b6cde',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.5.1.tgz' },
+227 silly install resolved     directories: {},
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.5.1.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'node-bourbon',
+227 silly install resolved     version: '1.2.3',
+227 silly install resolved     description: 'node-sass port of thoughtbot\'s Bourbon library',
+227 silly install resolved     main: 'index.js',
+227 silly install resolved     scripts: { test: 'mocha --reporter spec --recursive --growl' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/lacroixdesign/node-bourbon.git' },
+227 silly install resolved     keywords: [ 'sass', 'css' ],
+227 silly install resolved     author:
+227 silly install resolved      { name: 'Michael LaCroix',
+227 silly install resolved        email: 'michael@lacroixdesign.net',
+227 silly install resolved        url: 'http://www.lacroixdesign.net' },
+227 silly install resolved     license: 'MIT',
+227 silly install resolved     bugs: { url: 'https://github.com/lacroixdesign/node-bourbon/issues' },
+227 silly install resolved     devDependencies: { chai: '~1.8.1', mocha: '~1.14.0', 'node-sass': '~0.8.6' },
+227 silly install resolved     homepage: 'https://github.com/lacroixdesign/node-bourbon',
+227 silly install resolved     _id: 'node-bourbon@1.2.3',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '4ddd125dfca0d4ad6c3555ba9b6a15c12e60f6bd',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/node-bourbon/-/node-bourbon-1.2.3.tgz' },
+227 silly install resolved     _from: 'node-bourbon@>=1.2.3 <2.0.0',
+227 silly install resolved     _npmVersion: '1.3.26',
+227 silly install resolved     _npmUser: { name: 'iamlacroix', email: 'michael@lacroixdesign.net' },
+227 silly install resolved     maintainers: [ [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '4ddd125dfca0d4ad6c3555ba9b6a15c12e60f6bd',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/node-bourbon/-/node-bourbon-1.2.3.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'grunt-sass',
+227 silly install resolved     version: '0.8.1',
+227 silly install resolved     description: 'Compile SCSS to CSS using node-sass',
+227 silly install resolved     keywords:
+227 silly install resolved      [ 'gruntplugin',
+227 silly install resolved        'css',
+227 silly install resolved        'sass',
+227 silly install resolved        'scss',
+227 silly install resolved        'style',
+227 silly install resolved        'compile',
+227 silly install resolved        'preprocess' ],
+227 silly install resolved     homepage: 'https://github.com/sindresorhus/grunt-sass',
+227 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-sass/issues' },
+227 silly install resolved     author:
+227 silly install resolved      { name: 'Sindre Sorhus',
+227 silly install resolved        email: 'sindresorhus@gmail.com',
+227 silly install resolved        url: 'http://sindresorhus.com' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/sindresorhus/grunt-sass.git' },
+227 silly install resolved     scripts: { test: 'grunt' },
+227 silly install resolved     dependencies: { 'node-sass': '~0.7.0', async: '~0.2.9' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { grunt: '~0.4.0',
+227 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+227 silly install resolved        'grunt-contrib-nodeunit': '~0.2.2' },
+227 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+227 silly install resolved     engines: { node: '>=0.10.0' },
+227 silly install resolved     licenses: { type: 'MIT' },
+227 silly install resolved     files: [ 'tasks/sass.js' ],
+227 silly install resolved     _id: 'grunt-sass@0.8.1',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '694a0fe351af3466079e138b2c70afe2f46a5618',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-sass/-/grunt-sass-0.8.1.tgz' },
+227 silly install resolved     _from: 'grunt-sass@>=0.8.0 <0.9.0',
+227 silly install resolved     _npmVersion: '1.3.14',
+227 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+227 silly install resolved     maintainers: [ [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '694a0fe351af3466079e138b2c70afe2f46a5618',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-sass/-/grunt-sass-0.8.1.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'grunt-contrib-nodeunit',
+227 silly install resolved     description: 'Run Nodeunit unit tests.',
+227 silly install resolved     version: '0.4.1',
+227 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-nodeunit',
+227 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-nodeunit.git' },
+227 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-nodeunit/issues' },
+227 silly install resolved     licenses: [ [Object] ],
+227 silly install resolved     engines: { node: '>= 0.8.0' },
+227 silly install resolved     scripts: { test: 'grunt test' },
+227 silly install resolved     dependencies: { hooker: '~0.2.3', nodeunit: '~0.9.0' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+227 silly install resolved        'grunt-contrib-internal': '~0.4.6',
+227 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+227 silly install resolved        grunt: '~0.4.0',
+227 silly install resolved        tap: '~0.4.6' },
+227 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+227 silly install resolved     keywords: [ 'gruntplugin' ],
+227 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+227 silly install resolved     _id: 'grunt-contrib-nodeunit@0.4.1',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '943393ee5d66b1cdadb49a9b23aaee44455095b2',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-nodeunit/-/grunt-contrib-nodeunit-0.4.1.tgz' },
+227 silly install resolved     _from: 'grunt-contrib-nodeunit@>=0.4.1 <0.5.0',
+227 silly install resolved     _npmVersion: '1.3.26',
+227 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+227 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '943393ee5d66b1cdadb49a9b23aaee44455095b2',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-nodeunit/-/grunt-contrib-nodeunit-0.4.1.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'grunt',
+227 silly install resolved     description: 'The JavaScript Task Runner',
+227 silly install resolved     version: '0.4.5',
+227 silly install resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+227 silly install resolved     homepage: 'http://gruntjs.com/',
+227 silly install resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+227 silly install resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+227 silly install resolved     licenses: [ [Object] ],
+227 silly install resolved     main: 'lib/grunt',
+227 silly install resolved     scripts: { test: 'grunt test' },
+227 silly install resolved     engines: { node: '>= 0.8.0' },
+227 silly install resolved     keywords:
+227 silly install resolved      [ 'task',
+227 silly install resolved        'async',
+227 silly install resolved        'cli',
+227 silly install resolved        'minify',
+227 silly install resolved        'uglify',
+227 silly install resolved        'build',
+227 silly install resolved        'lodash',
+227 silly install resolved        'unit',
+227 silly install resolved        'test',
+227 silly install resolved        'qunit',
+227 silly install resolved        'nodeunit',
+227 silly install resolved        'server',
+227 silly install resolved        'init',
+227 silly install resolved        'scaffold',
+227 silly install resolved        'make',
+227 silly install resolved        'jake',
+227 silly install resolved        'tool' ],
+227 silly install resolved     dependencies:
+227 silly install resolved      { async: '~0.1.22',
+227 silly install resolved        'coffee-script': '~1.3.3',
+227 silly install resolved        colors: '~0.6.2',
+227 silly install resolved        dateformat: '1.0.2-1.2.3',
+227 silly install resolved        eventemitter2: '~0.4.13',
+227 silly install resolved        'findup-sync': '~0.1.2',
+227 silly install resolved        glob: '~3.1.21',
+227 silly install resolved        hooker: '~0.2.3',
+227 silly install resolved        'iconv-lite': '~0.2.11',
+227 silly install resolved        minimatch: '~0.2.12',
+227 silly install resolved        nopt: '~1.0.10',
+227 silly install resolved        rimraf: '~2.2.8',
+227 silly install resolved        lodash: '~0.9.2',
+227 silly install resolved        'underscore.string': '~2.2.1',
+227 silly install resolved        which: '~1.0.5',
+227 silly install resolved        'js-yaml': '~2.0.5',
+227 silly install resolved        exit: '~0.1.1',
+227 silly install resolved        getobject: '~0.1.0',
+227 silly install resolved        'grunt-legacy-util': '~0.2.0',
+227 silly install resolved        'grunt-legacy-log': '~0.1.0' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { temporary: '~0.0.4',
+227 silly install resolved        'grunt-contrib-jshint': '~0.6.4',
+227 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+227 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+227 silly install resolved        difflet: '~0.2.3',
+227 silly install resolved        semver: '2.1.0',
+227 silly install resolved        shelljs: '~0.2.5' },
+227 silly install resolved     _id: 'grunt@0.4.5',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz' },
+227 silly install resolved     _from: 'grunt@>=0.4.5 <0.5.0',
+227 silly install resolved     _npmVersion: '1.4.4',
+227 silly install resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+227 silly install resolved     maintainers: [ [Object], [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '56937cd5194324adff6d207631832a9d6ba4e7f0',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'grunt-contrib-jshint',
+227 silly install resolved     description: 'Validate files with JSHint.',
+227 silly install resolved     version: '0.10.0',
+227 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+227 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+227 silly install resolved     repository:
+227 silly install resolved      { type: 'git',
+227 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+227 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+227 silly install resolved     licenses: [ [Object] ],
+227 silly install resolved     engines: { node: '>= 0.8.0' },
+227 silly install resolved     scripts: { test: 'grunt test' },
+227 silly install resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+227 silly install resolved        'grunt-contrib-internal': '~0.4.8',
+227 silly install resolved        grunt: '~0.4.0' },
+227 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+227 silly install resolved     keywords: [ 'gruntplugin' ],
+227 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+227 silly install resolved     _id: 'grunt-contrib-jshint@0.10.0',
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz' },
+227 silly install resolved     _from: 'grunt-contrib-jshint@>=0.10.0 <0.11.0',
+227 silly install resolved     _npmVersion: '1.4.3',
+227 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+227 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+227 silly install resolved     directories: {},
+227 silly install resolved     _shasum: '57ebccca87e8f327af6645d8a3c586d4845e4d81',
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz',
+227 silly install resolved     readme: 'ERROR: No README data found!' },
+227 silly install resolved   { name: 'node-sass',
+227 silly install resolved     version: '2.1.1',
+227 silly install resolved     libsass: '3.1.0',
+227 silly install resolved     description: 'Wrapper around libsass',
+227 silly install resolved     license: 'MIT',
+227 silly install resolved     homepage: 'https://github.com/sass/node-sass',
+227 silly install resolved     repository: { type: 'git', url: 'https://github.com/sass/node-sass' },
+227 silly install resolved     author:
+227 silly install resolved      { name: 'Andrew Nesbitt',
+227 silly install resolved        email: 'andrewnez@gmail.com',
+227 silly install resolved        url: 'http://andrew.github.com' },
+227 silly install resolved     engines: { node: '>=0.10.0' },
+227 silly install resolved     main: 'lib/index.js',
+227 silly install resolved     bin: { 'node-sass': 'bin/node-sass' },
+227 silly install resolved     gypfile: true,
+227 silly install resolved     scripts:
+227 silly install resolved      { coverage: 'node scripts/coverage.js',
+227 silly install resolved        install: 'node scripts/install.js',
+227 silly install resolved        postinstall: 'node scripts/build.js',
+227 silly install resolved        pretest: 'jshint bin lib test',
+227 silly install resolved        test: 'mocha test' },
+227 silly install resolved     files: [ 'bin', 'binding.gyp', 'lib', 'scripts', 'src', 'test' ],
+227 silly install resolved     keywords: [ 'css', 'libsass', 'preprocessor', 'sass', 'scss', 'style' ],
+227 silly install resolved     dependencies:
+227 silly install resolved      { chalk: '^0.5.1',
+227 silly install resolved        'cross-spawn': '^0.2.6',
+227 silly install resolved        gaze: '^0.5.1',
+227 silly install resolved        'get-stdin': '^4.0.1',
+227 silly install resolved        meow: '^3.0.0',
+227 silly install resolved        mkdirp: '^0.5.0',
+227 silly install resolved        mocha: '^2.1.0',
+227 silly install resolved        nan: '^1.6.2',
+227 silly install resolved        npmconf: '^2.1.1',
+227 silly install resolved        'object-assign': '^2.0.0',
+227 silly install resolved        'replace-ext': '0.0.1',
+227 silly install resolved        request: '^2.53.0',
+227 silly install resolved        'sass-graph': '^1.0.3',
+227 silly install resolved        semver: '^4.2.2',
+227 silly install resolved        shelljs: '^0.3.0',
+227 silly install resolved        pangyp: '^2.1.0' },
+227 silly install resolved     devDependencies:
+227 silly install resolved      { coveralls: '^2.11.2',
+227 silly install resolved        jscoverage: '^0.5.9',
+227 silly install resolved        jshint: '^2.6.0',
+227 silly install resolved        'mocha-lcov-reporter': '^0.0.1' },
+227 silly install resolved     gitHead: '226861c6a186291f9e957697f1115e1ddb4a4202',
+227 silly install resolved     bugs: { url: 'https://github.com/sass/node-sass/issues' },
+227 silly install resolved     _id: 'node-sass@2.1.1',
+227 silly install resolved     _shasum: '32847dceef9ef217bb68138ed5d3e2a72a6765fb',
+227 silly install resolved     _from: 'node-sass@>=2.0.0-beta <3.0.0',
+227 silly install resolved     _npmVersion: '1.4.28',
+227 silly install resolved     _npmUser: { name: 'am11', email: 'adeelbm@outlook.com' },
+227 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+227 silly install resolved     dist:
+227 silly install resolved      { shasum: '32847dceef9ef217bb68138ed5d3e2a72a6765fb',
+227 silly install resolved        tarball: 'http://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz' },
+227 silly install resolved     directories: {},
+227 silly install resolved     _resolved: 'https://registry.npmjs.org/node-sass/-/node-sass-2.1.1.tgz' } ]
+228 info install grunt-contrib-watch@0.5.3 into /Users/kartben/Repositories/m2m.eclipse.org/static
+229 info install grunt-contrib-uglify@0.5.1 into /Users/kartben/Repositories/m2m.eclipse.org/static
+230 info install node-bourbon@1.2.3 into /Users/kartben/Repositories/m2m.eclipse.org/static
+231 info install grunt-sass@0.8.1 into /Users/kartben/Repositories/m2m.eclipse.org/static
+232 info install grunt-contrib-nodeunit@0.4.1 into /Users/kartben/Repositories/m2m.eclipse.org/static
+233 info install grunt@0.4.5 into /Users/kartben/Repositories/m2m.eclipse.org/static
+234 info install grunt-contrib-jshint@0.10.0 into /Users/kartben/Repositories/m2m.eclipse.org/static
+235 info install node-sass@2.1.1 into /Users/kartben/Repositories/m2m.eclipse.org/static
+236 info installOne grunt-contrib-watch@0.5.3
+237 verbose installOne of grunt-contrib-watch to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+238 info installOne grunt-contrib-uglify@0.5.1
+239 verbose installOne of grunt-contrib-uglify to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+240 info installOne node-bourbon@1.2.3
+241 verbose installOne of node-bourbon to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+242 info installOne grunt-sass@0.8.1
+243 verbose installOne of grunt-sass to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+244 info installOne grunt-contrib-nodeunit@0.4.1
+245 verbose installOne of grunt-contrib-nodeunit to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+246 info installOne grunt@0.4.5
+247 verbose installOne of grunt to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+248 info installOne grunt-contrib-jshint@0.10.0
+249 verbose installOne of grunt-contrib-jshint to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+250 info installOne node-sass@2.1.1
+251 verbose installOne of node-sass to /Users/kartben/Repositories/m2m.eclipse.org/static not in flight; installing
+252 warn locking Error: EACCES, open '/Users/kartben/.npm/_locks/grunt-contrib-watch-cf6c57e40ec41d9e.lock'
+252 warn locking  /Users/kartben/.npm/_locks/grunt-contrib-watch-cf6c57e40ec41d9e.lock failed { [Error: EACCES, open '/Users/kartben/.npm/_locks/grunt-contrib-watch-cf6c57e40ec41d9e.lock']
+252 warn locking   errno: 3,
+252 warn locking   code: 'EACCES',
+252 warn locking   path: '/Users/kartben/.npm/_locks/grunt-contrib-watch-cf6c57e40ec41d9e.lock' }
+253 verbose stack Error: Attempt to unlock /Users/kartben/Repositories/m2m.eclipse.org/static/node_modules/grunt-contrib-watch, which hasn't been locked
+253 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+253 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+253 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+253 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+253 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+253 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+253 verbose stack     at Object.oncomplete (fs.js:107:15)
+254 verbose cwd /Users/kartben/Repositories/m2m.eclipse.org/static
+255 error Darwin 14.3.0
+256 error argv "node" "/usr/local/bin/npm" "install"
+257 error node v0.10.26
+258 error npm  v2.7.3
+259 error Attempt to unlock /Users/kartben/Repositories/m2m.eclipse.org/static/node_modules/grunt-contrib-watch, which hasn't been locked
+260 error If you need help, you may report this error at:
+260 error     <https://github.com/npm/npm/issues>
+261 verbose exit [ 1, true ]

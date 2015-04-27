@@ -183,38 +183,7 @@ main.main {
                     background-image: url(../images/heading-upcoming_events-icon.png);
                 }
             }
-            .upcoming-events-item {
-                text-align: center;
-                color: $white;
-                margin-bottom: 30px;
-                h3 {
-                    background-image: url(../images/upcoming-events-bg.png);
-                    background-size: 100%;
-                    padding: 40px 0;
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin: 0;
-                    span.date {
-                        font-weight: normal;
-                        font-size: 14px;
-                    }
-                }
-                h3:hover {
-                    background: url(../images/upcoming-events-bg_hover.png);
-                    background-size: 100%;
-                }
-                p {
-                    background-color: $blue;
-                    padding: 10px 0;
-                    font-size: 14px;
-                    line-height: 1.2;
-                    position: relative;
-                    color: $white;
-                    &:after {
-                        @include triangle-bottomright($blue);
-                    }
-                }
-            }
+
         }
     }
     section.third {
@@ -344,10 +313,15 @@ main.main {
         h3 {
             background-image: url(../images/upcoming-events-bg.png);
             background-size: 100%;
-            padding: 40px 0;
+            padding: 15px 0;
             font-size: 18px;
             font-weight: bold;
             margin: 0;
+            span.name {
+                    display: block;
+                    min-height:3.2em;
+                    margin-bottom:8px;
+                }
             span.date {
                 font-weight: normal;
                 font-size: 14px;
