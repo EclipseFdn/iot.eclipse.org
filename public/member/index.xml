@@ -5,8 +5,22 @@
     <link>http://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azul Systems</title>
+      <link>http://iot.eclipse.org/member/azul/</link>
+      <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/azul/</guid>
+      <description>&lt;p&gt;Azul Systems is the world’s only company that is 100% focused on Java and Java runtime technology. We believe that we can help the IoT developers take advantage of the power and productivity of Java by reducing the frictions (licensing costs, field-of-use restrictions) and perceptions (footprint, etc.) gating widespread adoption of the language throughout the IoT.&lt;/p&gt;
+
+&lt;p&gt;As members of the Eclipse community we are bringing Zulu and Zulu Embedded – our 100% open source JDKs, to the IoT. Our Zulu products are certified builds of OpenJDK and meet the Java SE standards for Java 8, 7 and 6.  Each release of Zulu and Zulu Embedded has passed the thousands of tests in OpenJDK Technology Compatibility Kit (TCK) as well as Azul’s extensive in-house verification suite. Zulu runs on many Linux distros, on Windows and the Mac.&lt;/p&gt;
+
+&lt;p&gt;Zulu is a complete Java Development Kit, and Zulu Enterprise provides designers with a choice of storage footprint, bitness (32 or 64-bit configurations), headless or headful, and both development and runtime-only options.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Red Hat</title>
@@ -154,15 +168,6 @@
 
 &lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Canonical</title>
-      <link>http://iot.eclipse.org/member/canonical/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/canonical/</guid>
-      <description></description>
     </item>
     
   </channel>
