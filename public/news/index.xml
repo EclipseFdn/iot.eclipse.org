@@ -5,8 +5,18 @@
     <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azul Systems Joins Eclipse Foundation</title>
+      <link>http://iot.eclipse.org/news/2015-04-12-azul/</link>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-04-12-azul/</guid>
+      <description>&lt;p&gt;Azul Systems (Azul), the award-winning leader in Java runtime solutions, today announced its membership in the Eclipse Foundation, bringing over a decade of Java knowledge and expertise to multiple…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Interview with Benjamin Cabé on the Internet of Things at Eclipse</title>
