@@ -112,12 +112,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/litmus/</loc>
+    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
+    <loc>http://iot.eclipse.org/member/litmus/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   
@@ -234,6 +234,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2015-06-10-kinoma/</loc>
     <lastmod>2015-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/zolertia/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
