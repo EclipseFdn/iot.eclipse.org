@@ -5,8 +5,18 @@
     <link>http://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Verisign</title>
+      <link>http://iot.eclipse.org/member/verisign/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/verisign/</guid>
+      <description>&lt;p&gt;VeriSign, Inc. is a global leader in domain names and Internet security. For more than 15 years, Verisign has operated the infrastructure for a portfolio of top-level domains that today includes .com, .net, .tv, .edu, .gov, .jobs, .name and .cc Verisign Device Services leverages our expertise in cybersecurity, deployed global infrastructure, and experience in distributed transaction processing to secure IoT platforms and services.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Zolertia</title>
@@ -160,16 +170,6 @@ We hope to help the developing and promotion of IoT open standards, and bring to
       
       <guid>http://iot.eclipse.org/member/smb/</guid>
       <description>&lt;p&gt;SMB has been an independent IT consulting firm since 1998. We are devoted to providing high-quality RCP and OSGi software development, consulting and training to mid-sized organizations. Additionally we develop independent products and tools based on the Eclipse Rich Client Platform.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deutsche Telekom</title>
-      <link>http://iot.eclipse.org/member/dtag/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/dtag/</guid>
-      <description>&lt;p&gt;QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.&lt;/p&gt;
 </description>
     </item>
     
