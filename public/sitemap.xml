@@ -57,12 +57,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/solair/</loc>
+    <loc>http://iot.eclipse.org/member/dcsquare/</loc>
     <lastmod>2015-03-08T15:31:16-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/dcsquare/</loc>
+    <loc>http://iot.eclipse.org/member/solair/</loc>
     <lastmod>2015-03-08T15:31:16-07:00</lastmod>
   </url>
   
@@ -112,12 +112,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/litmus/</loc>
+    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/member/m2m-alliance/</loc>
+    <loc>http://iot.eclipse.org/member/litmus/</loc>
     <lastmod>2015-03-08T15:31:20-07:00</lastmod>
   </url>
   
@@ -192,12 +192,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/events/2015-05-06-iot-devcon/</loc>
+    <loc>http://iot.eclipse.org/events/2015-05-06-virtualiot-kura-camel/</loc>
     <lastmod>2015-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/events/2015-05-06-virtualiot-kura-camel/</loc>
+    <loc>http://iot.eclipse.org/events/2015-05-06-iot-devcon/</loc>
     <lastmod>2015-05-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -248,6 +248,11 @@
   
   <url>
     <loc>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/huawei/</loc>
     <lastmod>2015-06-24T00:00:00+00:00</lastmod>
   </url>
   
