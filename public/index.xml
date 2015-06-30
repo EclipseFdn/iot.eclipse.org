@@ -165,12 +165,17 @@ Solair enables companies to collect data from their Things and feed it into busi
     </item>
     
     <item>
-      <title>IBM</title>
-      <link>http://iot.eclipse.org/member/ibm/</link>
+      <title>GadgetKeeper</title>
+      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/ibm/</guid>
-      <description></description>
+      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
+      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
+
+&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
+
+&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

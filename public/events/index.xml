@@ -5,8 +5,17 @@
     <link>http://iot.eclipse.org/events/</link>
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon Europe 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Coding Serbia Conference</title>
@@ -23,6 +32,15 @@
       <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting started with MQTT</title>
+      <link>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
       <description></description>
     </item>
     
@@ -122,24 +140,6 @@
       <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-04-09-iot-insa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Conference – Spring</title>
-      <link>http://iot.eclipse.org/events/2015-03-23-iot-conference/</link>
-      <pubDate>Mon, 23 Mar 2015 16:12:42 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-03-23-iot-conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse Day Dresden</title>
-      <link>http://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</link>
-      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</guid>
       <description></description>
     </item>
     
