@@ -5,8 +5,17 @@
     <link>http://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generative Software</title>
+      <link>http://iot.eclipse.org/member/generative-software/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/generative-software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Huawei</title>
@@ -160,16 +169,6 @@ We hope to help the developing and promotion of IoT open standards, and bring to
       
       <guid>http://iot.eclipse.org/member/ibm/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>IS2T</title>
-      <link>http://iot.eclipse.org/member/is2t/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/is2t/</guid>
-      <description>&lt;p&gt;IS2T is the editor of the Java-based MicroEJ solution, an open and standard platform dedicated to embedded devices. MicroEJ gives you a powerful SDK and a set of libraries to simulate and develop intelligent applications, and deploy them to MCUs, MPUs, and SOC based devices. MicroEJ adresses the IoT market and focus to intelligent, connected software applications.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
