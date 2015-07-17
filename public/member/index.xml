@@ -5,8 +5,22 @@
     <link>http://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CA Technologies</title>
+      <link>http://iot.eclipse.org/member/ca/</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/ca/</guid>
+      <description>&lt;p&gt;CA Technologies (NASDAQ: CA) creates software that fuels transformation for companies and enables them to seize the opportunities of the application economy. Software is at the heart of every business, in every industry. From planning to development to management and security, CA is working with companies worldwide to change the way we live, transact and communicate.&lt;/p&gt;
+
+&lt;p&gt;CA software and solutions help our customers drive enterprise-wide productivity, offer differentiated user experiences and open new growth opportunities.&lt;/p&gt;
+
+&lt;p&gt;And, we are able to deliver this value across multiple environments &amp;ndash; mobile, private and public cloud, distributed and mainframe. Our goal is to be recognized by our customers as their critical partner in the new application economy.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Generative Software</title>
@@ -166,15 +180,6 @@ We hope to help the developing and promotion of IoT open standards, and bring to
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>IBM</title>
-      <link>http://iot.eclipse.org/member/ibm/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/ibm/</guid>
-      <description></description>
     </item>
     
   </channel>
