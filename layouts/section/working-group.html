@@ -131,7 +131,7 @@
         </p>
         <h2 class="purple">Steering committee members<br/><br/></h2>
         <div id="sc-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if .Params.is_steering }}
+          {{ range where .Site.Pages.ByTitle ".Type" "member" }} {{ if .Params.is_steering }}
           <div class="row members-info" id="member-{{ .Params.logo }}">
             <div class="col-md-2 col-md-offset-1 mb-logo">
               <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
@@ -156,8 +156,8 @@
         </div>
         <h2 class="purple" style="margin-top: 2em;">Participating members<br/><br/></h2>
         <div id="other-members">
-          {{ range where .Site.Pages ".Type" "member" }} {{ if not .Params.is_steering }}
-          <div class="row members-info" id="member-{{ .Params.logo }}">
+          {{ range where .Site.Pages.ByTitle ".Type" "member" }} {{ if not .Params.is_steering }}
+          <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
             <div class="col-md-2 col-md-offset-1 mb-logo">
               <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
                 <img src="/assets/images/members/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
@@ -237,6 +237,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- JS is at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+      // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
+      var $wrapper = $('#other-members');
+
+      $wrapper.find('.members-info').sort(function (a, b) {
+           console.log(a.getAttribute('title').toLowerCase);
+           var s1 = a.getAttribute('title').toLowerCase();
+           var s2 = b.getAttribute('title').toLowerCase();
+
+          return s1.localeCompare(s2);
+      })
+      .appendTo( $wrapper );
+    });
+    </script>
+
+
 </body>
 
 </html>
