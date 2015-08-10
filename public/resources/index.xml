@@ -5,8 +5,18 @@
     <link>http://iot.eclipse.org/resources/</link>
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Remote management of an ARM mbed device using LwM2M, Wakaama &amp; Leshan</title>
+      <link>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
+      <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MQTT Security Fundamentals</title>
