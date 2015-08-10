@@ -5,18 +5,8 @@
     <link>http://iot.eclipse.org/resources/</link>
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Remote management of an ARM mbed device using LwM2M, Wakaama &amp; Leshan</title>
-      <link>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
-      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
-      <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>MQTT Security Fundamentals</title>
@@ -29,9 +19,19 @@
     </item>
     
     <item>
+      <title>Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</title>
+      <link>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
+      <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MQTT Essentials</title>
       <link>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</link>
-      <pubDate>Wed, 01 Jul 2015 15:54:26 +0100</pubDate>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</guid>
       <description>&lt;p&gt;Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!&lt;/p&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title>Open IoT Stack for Java Tutorial</title>
-      <link>http://iot.eclipse.org/resources/2014-03-24-java-tutorial/</link>
-      <pubDate>Tue, 24 Mar 2015 15:54:26 +0100</pubDate>
+      <link>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</link>
+      <pubDate>Tue, 24 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2014-03-24-java-tutorial/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</guid>
       <description>&lt;p&gt;Using Eclipse Kura, MQTT and CoAP to build a smart greenhouse.
 Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.&lt;/p&gt;
 

@@ -147,8 +147,8 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/resources/2014-03-24-java-tutorial/</loc>
-    <lastmod>2015-03-24T15:54:26+01:00</lastmod>
+    <loc>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</loc>
+    <lastmod>2015-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -157,8 +157,8 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/news/2015-04-07-survey/</loc>
-    <lastmod>2015-04-07T00:00:00+00:00</lastmod>
+    <loc>http://iot.eclipse.org/news/2015-04-03-survey/</loc>
+    <lastmod>2015-04-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -197,7 +197,7 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/news/2015-04-12-azul/</loc>
+    <loc>http://iot.eclipse.org/news/2015-05-12-azul/</loc>
     <lastmod>2015-05-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -232,6 +232,16 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</loc>
+    <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-06-15-iot-security/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/member/zolertia/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
@@ -263,7 +273,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</loc>
-    <lastmod>2015-07-01T15:54:26+01:00</lastmod>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -272,8 +282,18 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/news/2015-07-14-meetup/</loc>
+    <lastmod>2015-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/member/ca/</loc>
     <lastmod>2015-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</loc>
+    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -283,7 +303,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</loc>
-    <lastmod>2015-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2015-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

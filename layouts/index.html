@@ -212,7 +212,7 @@
 
               <div class="row">
 
-                  {{ range first 2 (where .Data.Pages ".Type" "resources") }}
+                  {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Type" "resources") }}
 
                   <div class="col-md-6">
                     <div class="featured-articles-item">
@@ -239,7 +239,7 @@
             <section class="subsection-header latest-news">
               <h2>Latest News<span></span></h2> 
 
-              {{ range first 2 (where .Data.Pages ".Type" "news") }}
+              {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Type" "news") }}
 
               <div class="latest-news-item">
               <a href="{{ .Params.link }}">

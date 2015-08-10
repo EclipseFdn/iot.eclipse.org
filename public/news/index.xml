@@ -5,15 +5,57 @@
     <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Growing an open community: 3 interesting facts about Eclipse IoT</title>
+      <link>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</link>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
+      <description>&lt;p&gt;About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community.
+I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn from IoT experts with the Virtual IoT meetup group</title>
+      <link>http://iot.eclipse.org/news/2015-07-14-meetup/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-07-14-meetup/</guid>
+      <description>&lt;p&gt;About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IoT Security: An open source and open standard approach</title>
+      <link>http://iot.eclipse.org/news/2015-06-15-iot-security/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
+      <description>&lt;p&gt;High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bridging IoTivity and Eclipse SmartHome</title>
+      <link>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</guid>
+      <description>&lt;p&gt;There are several ongoing initiatives that aim at standardizing protocols and interfaces in order to enable a truly interoperable Internet of Things.
+On the protocol front, I would certainly argue…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Azul Systems Joins Eclipse Foundation</title>
-      <link>http://iot.eclipse.org/news/2015-04-12-azul/</link>
+      <link>http://iot.eclipse.org/news/2015-05-12-azul/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-04-12-azul/</guid>
+      <guid>http://iot.eclipse.org/news/2015-05-12-azul/</guid>
       <description>&lt;p&gt;Azul Systems (Azul), the award-winning leader in Java runtime solutions, today announced its membership in the Eclipse Foundation, bringing over a decade of Java knowledge and expertise to multiple…&lt;/p&gt;
 </description>
     </item>
@@ -41,10 +83,10 @@ The challenge has been keeping our participants busy for two months, and…&lt;/
     
     <item>
       <title>IoT Developer Survey: What are developers doing with IoT?</title>
-      <link>http://iot.eclipse.org/news/2015-04-07-survey/</link>
-      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
+      <link>http://iot.eclipse.org/news/2015-04-03-survey/</link>
+      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-04-07-survey/</guid>
+      <guid>http://iot.eclipse.org/news/2015-04-03-survey/</guid>
       <description>&lt;p&gt;We have just published the results of the first IoT Developer Survey.  There are some very interesting findings so I encourage you to check out the report.  The raw data is also available…&lt;/p&gt;
 </description>
     </item>

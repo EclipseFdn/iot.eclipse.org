@@ -1,5 +1,5 @@
 +++
-date = "2015-07-01T15:54:26+01:00"
+date = "2015-07-01"
 title = "MQTT Essentials"
 link = "http://www.hivemq.com/mqtt-essentials-wrap-up/"
 +++
