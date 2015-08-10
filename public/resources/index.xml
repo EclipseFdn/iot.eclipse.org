@@ -5,8 +5,28 @@
     <link>http://iot.eclipse.org/resources/</link>
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Mar 2015 15:54:26 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MQTT Security Fundamentals</title>
+      <link>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</link>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</guid>
+      <description>&lt;p&gt;Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MQTT Essentials</title>
+      <link>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</link>
+      <pubDate>Wed, 01 Jul 2015 15:54:26 +0100</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</guid>
+      <description>&lt;p&gt;Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open IoT Stack for Java Tutorial</title>
@@ -18,16 +38,6 @@
 Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.&lt;/p&gt;
 
 &lt;p&gt;Thanks to the recent efforts towards making Java…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MQTT Essentials: Part 1 – Introducing MQTT</title>
-      <link>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</link>
-      <pubDate>Sun, 01 Feb 2015 15:54:26 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</guid>
-      <description>&lt;p&gt;Welcome to the first part of MQTT Essentials. A blog series about the core features and concepts in the MQTT protocol. This post introduces the MQTT Essentials series and what we’ll cover on the blog in 2015…&lt;/p&gt;
 </description>
     </item>
     

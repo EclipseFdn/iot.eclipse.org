@@ -12,11 +12,6 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</loc>
-    <lastmod>2015-02-01T15:54:26+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</loc>
     <lastmod>2015-02-09T16:28:26-07:00</lastmod>
   </url>
@@ -267,6 +262,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</loc>
+    <lastmod>2015-07-01T15:54:26+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</loc>
     <lastmod>2015-07-02T17:00:00+02:00</lastmod>
   </url>
@@ -274,6 +274,11 @@
   <url>
     <loc>http://iot.eclipse.org/member/ca/</loc>
     <lastmod>2015-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</loc>
+    <lastmod>2015-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

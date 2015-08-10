@@ -17,16 +17,6 @@
     </item>
     
     <item>
-      <title>MQTT Essentials: Part 1 – Introducing MQTT</title>
-      <link>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</link>
-      <pubDate>Sun, 01 Feb 2015 15:54:26 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-02-01-mqtt-essentials-1/</guid>
-      <description>&lt;p&gt;Welcome to the first part of MQTT Essentials. A blog series about the core features and concepts in the MQTT protocol. This post introduces the MQTT Essentials series and what we’ll cover on the blog in 2015…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Announcing the Open IoT Challenge</title>
       <link>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
       <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
@@ -175,6 +165,18 @@ Solair enables companies to collect data from their Things and feed it into busi
 &lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
 
 &lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IBH SYSTEMS</title>
+      <link>http://iot.eclipse.org/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/ibh/</guid>
+      <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
+
+&lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
     </item>
     
