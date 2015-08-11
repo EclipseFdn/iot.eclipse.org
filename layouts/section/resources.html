@@ -115,11 +115,11 @@
     <section class="first">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 grid" style="padding-left:0px; padding-right:0px;">
 
               {{ range .Paginator.Pages }}
 
-              <div style="margin-bottom:40px;">
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
                 <h2 class="purple">{{ .Title }}</h2>
                 <p>{{ .Content }} </p>
               <a href="{{ .Params.link }}"><button class="btn btn-default">Read more...</button>
@@ -194,17 +194,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- JS is at the end of the document so the pages load faster -->
-    <script src="/js/shuffle.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+
     <script type="text/javascript">
     $(document).ready(function() {
-      // Shuffle SC members
-      $('#sc-members').shuffle();
+      
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        itemSelector: '.grid-item'
+      });
 
-      // Shuffle other members
-      $('#other-members').shuffle();
     });
     </script>
+
+
 </body>
 
 </html>

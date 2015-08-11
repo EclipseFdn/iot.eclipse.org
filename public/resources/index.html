@@ -115,11 +115,11 @@
     <section class="first">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 grid" style="padding-left:0px; padding-right:0px;">
 
               
 
-              <div style="margin-bottom:40px;">
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
                 <h2 class="purple">MQTT Security Fundamentals</h2>
                 <p><p>Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.</p>
  </p>
@@ -129,7 +129,7 @@
 
               
 
-              <div style="margin-bottom:40px;">
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
                 <h2 class="purple">Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</h2>
                 <p><p>In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.</p>
  </p>
@@ -139,7 +139,7 @@
 
               
 
-              <div style="margin-bottom:40px;">
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
                 <h2 class="purple">MQTT Essentials</h2>
                 <p><p>Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!</p>
  </p>
@@ -149,7 +149,17 @@
 
               
 
-              <div style="margin-bottom:40px;">
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
+                <h2 class="purple">ESP8266 programming from Eclipse</h2>
+                <p><p>A really nice article on how to setup Eclipse to program the ESP8266, an incredibly cheap ($3!) and versatile IoT WiFi chip.</p>
+ </p>
+              <a href="http://scn.sap.com/community/cloud-platform/blog/2015/06/08/esp8266-programming-from-eclipse"><button class="btn btn-default">Read more...</button>
+              </a>
+              </div>
+
+              
+
+              <div style="margin-bottom:40px;" class="grid-item col-md-4">
                 <h2 class="purple">Open IoT Stack for Java Tutorial</h2>
                 <p><p>Using Eclipse Kura, MQTT and CoAP to build a smart greenhouse.
 Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.</p>
@@ -229,17 +239,25 @@ Java is almost 20 years old, and has over the years gathered a very large commun
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
-    <script src="/js/shuffle.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+
     <script type="text/javascript">
     $(document).ready(function() {
       
-      $('#sc-members').shuffle();
+      $('.grid').masonry({
+        
+        itemSelector: '.grid-item',
+        itemSelector: '.grid-item'
+      });
 
-      
-      $('#other-members').shuffle();
     });
     </script>
-</body>
+
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 
 </html>
