@@ -49,6 +49,16 @@
     </item>
     
     <item>
+      <title>Eclipse OM2M Tutorial</title>
+      <link>http://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</guid>
+      <description>&lt;p&gt;If you want to develop plug-ins for the &lt;a href=&#34;http://www.om2m.org&#34;&gt;Eclipse OM2M&lt;/a&gt; project, an implementation of the SmartM2M standard, this is the perfect tutorial to get you started!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open IoT Stack for Java Tutorial</title>
       <link>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</link>
       <pubDate>Tue, 24 Mar 2015 00:00:00 +0000</pubDate>
