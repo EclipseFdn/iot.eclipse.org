@@ -16,26 +16,28 @@
   <!-- Le styles -->
   <link href="/assets/css/bootstrap.css" rel="stylesheet">
   <link href="/assets/css/jquery.oembed.css" rel="stylesheet">
-
   <!-- Placez cette balise dans l'en-tête ou juste avant la balise de fermeture du corps de texte. -->
   <script src="https://apis.google.com/js/platform.js" async defer></script>
-
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-594061-11', 'auto');
   ga('send', 'pageview');
-
-</script>
+  </script>
 </head>
 
 <body>
   <header>
-
-
     <nav class="navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +52,6 @@
             <img alt="Brand" src="/assets/images/iot-logo.png">
           </a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -87,10 +88,6 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
-
-
-
-  
   </header>
   <main class="main">
     <div class="well">
@@ -109,7 +106,7 @@
             <h1 class="purple">Connected Greenhouse Tutorial</h1>
             <p>If you are a Java developer we have a great <a href="/java/tutorial">tutorial</a> for you to get started with Eclipse IoT technology and help you implement an end-to-end solution that will help you connect a greenhouse and associated sensors to the Internet of Things.</p>
           </div>
-<!--           <div class="col-md-4">
+          <!--           <div class="col-md-4">
             <div class="featured-tutorial-item">
               <a href="/java/tutorial">
                 <h3>Open IoT Stack for Java Tutorial</h3>
@@ -151,10 +148,13 @@
             <p>
               Access the server using the hostname
               <code>iot.eclipse.org</code> and port
-              <code>1883</code> .
+              <code>1883</code>. You can also access the server using encrypted port <code>8883</code>
             </p>
             <p>
-              Some live statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its version 1.3.1.
+              The encrypted port support TLS v1.2, v1.1 or v1.0 with x509 certificates and require client support to connect. In all cases you should use the certificate authority file <a href="/iot.eclipse.org.crt">iot.eclipse.org.crt</a> to verify the server connection.
+            </p>
+            <p>
+              Some live statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its most recently released version.
             </p>
           </div>
           <div id="coap" class="col-md-6">
@@ -185,44 +185,43 @@
       </div>
     </section>
   </main>
-    <footer>
-
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <nav>
-                <ul class="list-inline menu dropdown">
-            <li><a href="/getting-started">Getting Started</a>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/resources">Resources</a>
-                </li>
-                <li><a href="/news">News</a>
-                </li>
-                <li><a href="/events">Events</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/working-group">Working Group</a>
-            </li>
-          </ul>
+            <ul class="list-inline menu dropdown">
+              <li><a href="/getting-started">Getting Started</a>
+              </li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/standards">Standards</a>
+                  </li>
+                  <li><a href="/frameworks">Services &amp; Frameworks</a>
+                  </li>
+                  <li><a href="/projects">All the projects</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/resources">Resources</a>
+                  </li>
+                  <li><a href="/news">News</a>
+                  </li>
+                  <li><a href="/events">Events</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="/working-group">Working Group</a>
+              </li>
+            </ul>
           </nav>
           <div class="socials">
-<!--             <a href="#" class="social-facebook">&nbsp;</a> -->
+            <!--             <a href="#" class="social-facebook">&nbsp;</a> -->
             <a href="https://twitter.com/EclipseIoT" class="social-twitter">&nbsp;</a>
             <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" class="social-youtube">&nbsp;</a>
-<!--             <a href="#" class="social-share">&nbsp;</a> -->
+            <!--             <a href="#" class="social-share">&nbsp;</a> -->
           </div>
         </div>
         <div class="col-md-6">
@@ -230,8 +229,6 @@
         </div>
       </div>
     </div>
-
-
   </footer>
   <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
   </div>
