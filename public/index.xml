@@ -18,6 +18,91 @@
     </item>
     
     <item>
+      <title>IoT Gateway: Reducing the distance between embedded and enterprise technologies</title>
+      <link>http://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</link>
+      <pubDate>Tue, 09 Sep 2014 15:48:31 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides of the presentation: &lt;a href=&#34;http://slideshare.net/Eurotechchannel/kuram2miotgateway&#34;&gt;http://slideshare.net/Eurotechchannel/kuram2miotgateway&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Internet of Things adoption is constrained by disparate implementations and proprietary solutions. The emergence of…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building the Internet of Things with the Eclipse IoT stack: a practical example</title>
+      <link>http://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Sep 2014 15:50:54 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;It may seem hard to get started with the Internet of Things (IoT) with so many technologies, protocols, hardware platforms, … involved. In this session, Benjamin Cabé from the Eclipse Foundation will …&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Connecting Sensor Networks</title>
+      <link>http://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</link>
+      <pubDate>Tue, 23 Sep 2014 15:47:16 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks&#34;&gt;http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks&lt;/a&gt;
+Sensor networks are a fundamental building of Internet of Things (IoT) applications, as they provide the interf…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualize IoT data with BIRT</title>
+      <link>http://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</link>
+      <pubDate>Tue, 07 Oct 2014 15:39:58 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;IoT refers to the connection and intercommunication of different devices, systems, and services in a single platform. This plays right into BIRT&amp;rsquo;s ability to connect to and relate many different sourc…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OM2M: Standardized service platform for M2M interoperability</title>
+      <link>http://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</link>
+      <pubDate>Tue, 14 Oct 2014 15:48:40 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Machine-to Machine (M2M) promises to interconnect billions of devices in near future covering various domains. However, M2M is suffering from a high vertical fragmentation of current M2M markets and l…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing an open plaform for your SCADA project</title>
+      <link>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
+      <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building home gateways with Eclipse SmartHome</title>
+      <link>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</link>
+      <pubDate>Tue, 04 Nov 2014 16:44:55 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides are available on Slideshare: &lt;a href=&#34;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&#34;&gt;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bring Your IoT Ideas to Life with the WunderBar</title>
+      <link>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Dec 2014 16:38:12 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;You’re full of fantastic IoT ideas, but bringing them to fruition is never an easy task. Especially when it comes time to work with your sensors and electronics. Hardware can present a significant obs…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Announcing the Open IoT Challenge</title>
       <link>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
       <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
@@ -88,96 +173,6 @@ The ThingFabric platform has a unique protocol-agnostic architecture that enable
 &lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
 
 &lt;p&gt;In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Canonical</title>
-      <link>http://iot.eclipse.org/member/canonical/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/canonical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cisco</title>
-      <link>http://iot.eclipse.org/member/cisco/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/cisco/</guid>
-      <description>&lt;p&gt;Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies. Today, with more than 63,050 employees worldwide, this tradition of innovation continues with industry-leading products and solutions in the company&amp;rsquo;s core development areas of routing and switching, as well as in advanced technologies such as: Application Networking, Data Center, Digital Media, IPICS, Mobility, Security, Storage Networking, TelePresence, Unified Communications, and Video.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Solair</title>
-      <link>http://iot.eclipse.org/member/solair/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/solair/</guid>
-      <description>&lt;p&gt;Solair is an Italian company that develops a fast, enterprise-grade and flexible application platform for the Internet of Things, having the development related to the gateway based on Kura framework.
-Solair enables companies to collect data from their Things and feed it into business processes to make a positive difference.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dc-square</title>
-      <link>http://iot.eclipse.org/member/dcsquare/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/dcsquare/</guid>
-      <description>&lt;p&gt;dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them. Therefore HiveMQ is build from the ground up with security, scalability and extensibility in mind. HiveMQ has an open plugin system for customizations of general behavior and permissions as well as the possibility to cluster and bridge with other instances for high availability and high scalability scenarios. All our solutions are perfectly suitable for running in the Cloud (Amazon, Azure) as well as on own infrastructure.&lt;/p&gt;
-
-&lt;p&gt;dc-square is very engaged in promoting and supporting open IoT technologies at national and international conferences and magazines with talks and articles about Eclipse IoT technologies.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deutsche Telekom</title>
-      <link>http://iot.eclipse.org/member/dtag/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/dtag/</guid>
-      <description>&lt;p&gt;QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eurotech</title>
-      <link>http://iot.eclipse.org/member/eurotech/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/eurotech/</guid>
-      <description>&lt;p&gt;Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.&lt;/p&gt;
-
-&lt;p&gt;Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success. A global leader in connecting distributed devices that make up the Internet of Things, Eurotech collaborates with progressive customers, partners, and integrators to bring rugged, reliable and cost effective device and data management solutions to market. Combining technology excellence with domain expertise allows Eurotech to meet the needs of key market segments including healthcare, security, transportation, energy, and industrial.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GadgetKeeper</title>
-      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
-      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
-
-&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
-
-&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IBH SYSTEMS</title>
-      <link>http://iot.eclipse.org/member/ibh/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/ibh/</guid>
-      <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
-
-&lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
     </item>
     
