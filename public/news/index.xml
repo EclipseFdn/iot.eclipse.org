@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/news/</link>
-    <description>Recent content in News on Eclipse IoT</description>
+    <title>News on </title>
+    <link>/news/</link>
+    <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 07 Aug 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Growing an open community: 3 interesting facts about Eclipse IoT</title>
-      <link>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</link>
+      <link>/news/2015-08-07-growing-an-iot-community/</link>
       <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
+      <guid>/news/2015-08-07-growing-an-iot-community/</guid>
       <description>&lt;p&gt;About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community.
 I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…&lt;/p&gt;
 </description>
@@ -22,40 +21,40 @@ I have recently crunched the numbers again and here are 3 interesting facts abou
     
     <item>
       <title>IoT? No more excuses. Solair to launch “IoT-in-a-Box”</title>
-      <link>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</link>
+      <link>/news/2015-07-31-solair-iot-in-a-box/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</guid>
+      <guid>/news/2015-07-31-solair-iot-in-a-box/</guid>
       <description>&lt;p&gt;Solair Corporate announces the first IoT “off-the-shelf” product that allows you to connect machines, things and sensors in a few clicks.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learn from IoT experts with the Virtual IoT meetup group</title>
-      <link>http://iot.eclipse.org/news/2015-07-14-meetup/</link>
+      <link>/news/2015-07-14-meetup/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-07-14-meetup/</guid>
+      <guid>/news/2015-07-14-meetup/</guid>
       <description>&lt;p&gt;About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>IoT Security: An open source and open standard approach</title>
-      <link>http://iot.eclipse.org/news/2015-06-15-iot-security/</link>
+      <link>/news/2015-06-15-iot-security/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
+      <guid>/news/2015-06-15-iot-security/</guid>
       <description>&lt;p&gt;High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bridging IoTivity and Eclipse SmartHome</title>
-      <link>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</link>
+      <link>/news/2015-06-12-iotivity-and-smarthome/</link>
       <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</guid>
+      <guid>/news/2015-06-12-iotivity-and-smarthome/</guid>
       <description>&lt;p&gt;There are several ongoing initiatives that aim at standardizing protocols and interfaces in order to enable a truly interoperable Internet of Things.
 On the protocol front, I would certainly argue…&lt;/p&gt;
 </description>
@@ -63,30 +62,30 @@ On the protocol front, I would certainly argue…&lt;/p&gt;
     
     <item>
       <title>Azul Systems Joins Eclipse Foundation</title>
-      <link>http://iot.eclipse.org/news/2015-05-12-azul/</link>
+      <link>/news/2015-05-12-azul/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-05-12-azul/</guid>
+      <guid>/news/2015-05-12-azul/</guid>
       <description>&lt;p&gt;Azul Systems (Azul), the award-winning leader in Java runtime solutions, today announced its membership in the Eclipse Foundation, bringing over a decade of Java knowledge and expertise to multiple…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interview with Benjamin Cabé on the Internet of Things at Eclipse</title>
-      <link>http://iot.eclipse.org/news/2015-04-15-infoq/</link>
+      <link>/news/2015-04-15-infoq/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-04-15-infoq/</guid>
+      <guid>/news/2015-04-15-infoq/</guid>
       <description>&lt;p&gt;Recorded at EclipseCon 2015&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Announcing the Open IoT Challenge Winners</title>
-      <link>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</link>
+      <link>/news/2015-04-08-iot-challenge-results/</link>
       <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</guid>
+      <guid>/news/2015-04-08-iot-challenge-results/</guid>
       <description>&lt;p&gt;Oh boy, this has been a difficult call, but we are happy to finally be able to announce the three winners of our Open IoT Challenge!
 The challenge has been keeping our participants busy for two months, and…&lt;/p&gt;
 </description>
@@ -94,50 +93,50 @@ The challenge has been keeping our participants busy for two months, and…&lt;/
     
     <item>
       <title>IoT Developer Survey: What are developers doing with IoT?</title>
-      <link>http://iot.eclipse.org/news/2015-04-03-survey/</link>
+      <link>/news/2015-04-03-survey/</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-04-03-survey/</guid>
+      <guid>/news/2015-04-03-survey/</guid>
       <description>&lt;p&gt;We have just published the results of the first IoT Developer Survey.  There are some very interesting findings so I encourage you to check out the report.  The raw data is also available…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Open IoT Challenge – Final submissions</title>
-      <link>http://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</link>
+      <link>/news/2015-03-26-open-iot-final-entries/</link>
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</guid>
+      <guid>/news/2015-03-26-open-iot-final-entries/</guid>
       <description>&lt;p&gt;The Open IoT challenge ended earlier this week, and it was pretty exciting to see the final submissions coming in the form of blog posts and video during the last hours before the deadline…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Open IoT Challenge projects are way cool</title>
-      <link>http://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</link>
+      <link>/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</link>
       <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</guid>
+      <guid>/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</guid>
       <description>&lt;p&gt;There are only a few days left for the participants to the Open IoT Challenge to wrap up their projects and share the final results of what they have achieved over the course of the last couple months…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
-      <link>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</link>
+      <link>/news/2015-03-04-case-study-mqtt/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</guid>
+      <guid>/news/2015-03-04-case-study-mqtt/</guid>
       <description>&lt;p&gt;For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Announcing the Open IoT Challenge</title>
-      <link>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
+      <link>/news/2015-02-09-announcing-open-iot-challenge/</link>
       <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</guid>
+      <guid>/news/2015-02-09-announcing-open-iot-challenge/</guid>
       <description>&lt;p&gt;2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California.
 If you haven’t seen the EclipseCon program already, I highly…&lt;/p&gt;
 </description>
