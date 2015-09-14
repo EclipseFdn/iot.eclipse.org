@@ -149,7 +149,20 @@ var projectAliases = {
                 $("#update-project").append('</div>' + output);
                 resize();
 
-                $('.projects-row').shuffle();
+        //      $('.projects-row').shuffle();
+
+      $('.projects-row').each ( function (index)  {
+	      $(this).find('.itembox').sort(function (a, b) {
+	           console.log(a.getAttribute('id').toLowerCase());
+	           var s1 = a.getAttribute('id').toLowerCase();
+	           var s2 = b.getAttribute('id').toLowerCase();
+
+	          return s1.localeCompare(s2);
+	      }).replaceAll( $(this) );
+      }   );
+
+
+
             },
         });
 
