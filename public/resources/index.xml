@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on </title>
-    <link>/resources/</link>
-    <description>Recent content in Resources on </description>
+    <title>Resources on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/resources/</link>
+    <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 10 Aug 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>MQTT Security Fundamentals</title>
-      <link>/resources/2015-08-10-mqtt-security/</link>
+      <link>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</link>
       <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-08-10-mqtt-security/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</guid>
       <description>&lt;p&gt;Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</title>
-      <link>/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
+      <link>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
       <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
       <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Programming IoT Gateways in JavaScript with macchina.io</title>
-      <link>/resources/2015-07-23-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</link>
       <pubDate>Thu, 23 Jul 2015 16:02:36 +0000</pubDate>
       
-      <guid>/resources/2015-07-23-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</guid>
       <description>&lt;p&gt;In this talk +Günter Obiltschnig will introduce macchina.io (&lt;a href=&#34;http://macchina.io&#34;&gt;http://macchina.io&lt;/a&gt;), a new open source platform for programming Linux-based IoT gateway devices.
 macchina.io provides a rich programming en…&lt;/p&gt;
 </description>
@@ -41,60 +42,60 @@ macchina.io provides a rich programming en…&lt;/p&gt;
     
     <item>
       <title>Getting started with MQTT: Everything you need to know about the lightweight IoT protocol</title>
-      <link>/resources/2015-07-02-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</link>
       <pubDate>Thu, 02 Jul 2015 16:02:06 +0000</pubDate>
       
-      <guid>/resources/2015-07-02-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MQTT Essentials</title>
-      <link>/resources/2015-07-01-mqtt-essentials/</link>
+      <link>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-07-01-mqtt-essentials/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</guid>
       <description>&lt;p&gt;Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Working without wires: Simulating hardware components for IoT application development</title>
-      <link>/resources/2015-06-10-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</link>
       <pubDate>Wed, 10 Jun 2015 16:40:57 +0000</pubDate>
       
-      <guid>/resources/2015-06-10-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</guid>
       <description>&lt;p&gt;IoT software development is often slowed or delayed because the target hardware is unfinished, unstable, or just a few units are available. Existing hardware simulation tools allow developers to test …&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ESP8266 programming from Eclipse</title>
-      <link>/resources/2015-06-08-esp8266-eclipse/</link>
+      <link>http://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-06-08-esp8266-eclipse/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</guid>
       <description>&lt;p&gt;A really nice article on how to setup Eclipse to program the ESP8266, an incredibly cheap ($3!) and versatile IoT WiFi chip.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
-      <link>/resources/2015-05-27-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</link>
       <pubDate>Wed, 27 May 2015 16:19:10 +0000</pubDate>
       
-      <guid>/resources/2015-05-27-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</guid>
       <description>&lt;p&gt;There’s no good reason for Operational Intelligence or data-driven insights to be a bottleneck for progress or innovation, especially when it comes to the Internet of Things (IoT). Learn how Splunk’s …&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Creating end-to-end IoT applications with Eclipse Kura &amp; Solair IoT Platform</title>
-      <link>/resources/2015-05-14-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</link>
       <pubDate>Thu, 14 May 2015 15:52:28 +0000</pubDate>
       
-      <guid>/resources/2015-05-14-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</guid>
       <description>&lt;p&gt;SLIDES: &lt;a href=&#34;http://www.slideshare.net/solaircorporate/creating-endtoend-iot-applications-with-eclipse-kura-solair-iot-platform&#34;&gt;http://www.slideshare.net/solaircorporate/creating-endtoend-iot-applications-with-eclipse-kura-solair-iot-platform&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Starting from the winner project of the first Eclipse Open IoT Challenge, Ca…&lt;/p&gt;
@@ -103,10 +104,10 @@ macchina.io provides a rich programming en…&lt;/p&gt;
     
     <item>
       <title>The IoT Gateway Dream Team: Eclipse Kura &amp; Apache Camel</title>
-      <link>/resources/2015-05-06-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</link>
       <pubDate>Wed, 06 May 2015 15:44:55 +0000</pubDate>
       
-      <guid>/resources/2015-05-06-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Slides from the presentation available at: &lt;a href=&#34;http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel&#34;&gt;http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Eclipse Kura is the well recognized field gateway for Internet Of T…&lt;/p&gt;
@@ -115,20 +116,20 @@ macchina.io provides a rich programming en…&lt;/p&gt;
     
     <item>
       <title>Eclipse OM2M Tutorial</title>
-      <link>/resources/2015-03-29-om2m-tutorial/</link>
+      <link>http://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-03-29-om2m-tutorial/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</guid>
       <description>&lt;p&gt;If you want to develop plug-ins for the &lt;a href=&#34;http://www.om2m.org&#34;&gt;Eclipse OM2M&lt;/a&gt; project, an implementation of the SmartM2M standard, this is the perfect tutorial to get you started!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Open IoT Stack for Java Tutorial</title>
-      <link>/resources/2015-03-24-java-tutorial/</link>
+      <link>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</link>
       <pubDate>Tue, 24 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>/resources/2015-03-24-java-tutorial/</guid>
+      <guid>http://iot.eclipse.org/resources/2015-03-24-java-tutorial/</guid>
       <description>&lt;p&gt;Using Eclipse Kura, MQTT and CoAP to build a smart greenhouse.
 Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.&lt;/p&gt;
 
@@ -138,20 +139,20 @@ Java is almost 20 years old, and has over the years gathered a very large commun
     
     <item>
       <title>Bring Your IoT Ideas to Life with the WunderBar</title>
-      <link>/resources/2014-12-16-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</link>
       <pubDate>Tue, 16 Dec 2014 16:38:12 +0000</pubDate>
       
-      <guid>/resources/2014-12-16-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</guid>
       <description>&lt;p&gt;You’re full of fantastic IoT ideas, but bringing them to fruition is never an easy task. Especially when it comes time to work with your sensors and electronics. Hardware can present a significant obs…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Building home gateways with Eclipse SmartHome</title>
-      <link>/resources/2014-11-04-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</link>
       <pubDate>Tue, 04 Nov 2014 16:44:55 +0000</pubDate>
       
-      <guid>/resources/2014-11-04-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Slides are available on Slideshare: &lt;a href=&#34;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&#34;&gt;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…&lt;/p&gt;
@@ -160,10 +161,10 @@ Java is almost 20 years old, and has over the years gathered a very large commun
     
     <item>
       <title>Introducing an open plaform for your SCADA project</title>
-      <link>/resources/2014-10-21-virtual-iot-recording/</link>
+      <link>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
       <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
       
-      <guid>/resources/2014-10-21-virtual-iot-recording/</guid>
+      <guid>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…&lt;/p&gt;
 </description>
     </item>
