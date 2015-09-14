@@ -6,8 +6,24 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2015 16:04:46 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building &amp; managing IoT applications with LightweightM2M</title>
+      <link>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
+      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.&lt;/p&gt;
+
+&lt;p&gt;We will cover the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From M2M to Web-of-things, new…&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>MQTT Security Fundamentals</title>
@@ -156,16 +172,6 @@ Java is almost 20 years old, and has over the years gathered a very large commun
       <description>&lt;p&gt;Slides are available on Slideshare: &lt;a href=&#34;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&#34;&gt;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing an open plaform for your SCADA project</title>
-      <link>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
-      <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…&lt;/p&gt;
 </description>
     </item>
     
