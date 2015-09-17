@@ -306,16 +306,9 @@
 
             <h4>Enable i2c</h4>
 
-            <p>You need to make sure to enable the Linux modules that will allow us to do i2c communications. Enter the following command:</p>
+            <p>Follow <a href="https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c" target="_blank">these instructions</a> from Adafruit on how to enable I2C properly.</p>
 
-            <pre><code class="language-bash">sudo nano /etc/modules</code></pre>
-
-            <p>and add these two lines to the end of the file:</p>
-
-            <pre><code class="language-bash">i2c-bcm2708
-i2c-dev</code></pre>
-
-            <p>You need to reboot for the changes to be applied.</p>
+            <p>Don't forget to reboot for the changes to be applied.</p>
 
             <h3>Installing Eclipse Kura on the Raspberry Pi</h3>
 
