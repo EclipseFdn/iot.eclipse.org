@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 options: {
-                    outputStyle: 'nested',
+                    outputStyle: 'compressed',
                     includePaths: ['assets/stylesheets', require('node-bourbon').includePaths]
                 },
                 files: {

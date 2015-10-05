@@ -22,7 +22,7 @@ header {
                 position: relative;
                 a {
                     color: $white;
-                    padding: 10px 15px;
+                    padding: 10px 20px;
                     @media (max-width: $screen-md-max) {
                         padding: 10px 7px;
                         font-size: 0.88em;
@@ -31,7 +31,7 @@ header {
                 ul.dropdown-menu {
                     background-color: rgba(0, 0, 0, 0.8);
                     .homepage & {
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: rgba(0, 0, 0, 0.8);
                     }
                     border: 0;
                     border-top: 5px solid $blue;
@@ -42,7 +42,7 @@ header {
                     li {
                         text-transform: none;
                         a {
-                            padding: 20px;
+                            padding: 8px 10px 8px 15px;
                             @include transition;
                             &:hover {
                                 color: $white;

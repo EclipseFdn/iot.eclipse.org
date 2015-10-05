@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardwares on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/hardware/</link>
+    <description>Recent content in Hardwares on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MangOH</title>
+      <link>http://iot.eclipse.org/hardware/mangoh/</link>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/hardware/mangoh/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ReliaGATE 10-20</title>
+      <link>http://iot.eclipse.org/hardware/reliagate-10-20/</link>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/hardware/reliagate-10-20/</guid>
+      <description>&lt;p&gt;Lorem ipsum Occaecat ex reprehenderit sint aliqua magna reprehenderit pariatur in incididunt ut qui reprehenderit magna et exercitation ex reprehenderit adipisicing occaecat Duis irure ex reprehenderit aute occaecat commodo commodo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

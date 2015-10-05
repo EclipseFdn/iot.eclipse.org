@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xxxes on Eclipse IoT</title>
+    <link>http://localhost:1313/xxx/</link>
+    <description>Recent content in Xxxes on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Sep 2014 15:48:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/xxx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT Gateway: Reducing the distance between embedded and enterprise technologies</title>
+      <link>http://localhost:1313/xxx/toto/dummy/</link>
+      <pubDate>Tue, 09 Sep 2014 15:48:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/xxx/toto/dummy/</guid>
+      <description>&lt;p&gt;Slides of the presentation: &lt;a href=&#34;http://slideshare.net/Eurotechchannel/kuram2miotgateway&#34;&gt;http://slideshare.net/Eurotechchannel/kuram2miotgateway&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Internet of Things adoption is constrained by disparate implementations and proprietary solutions. The emergence of…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

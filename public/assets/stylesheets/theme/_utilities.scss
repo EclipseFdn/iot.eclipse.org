@@ -11,7 +11,6 @@ $gray:#58595b;
 $bg-gradient-dark:#141421;
 $bg-gradient-light:#4d2258;
 
-
 // navbar
 $navbar-default-color: $white !default;
 $navbar-default-link-color: $white !default;
@@ -25,6 +24,12 @@ $navbar-default-border: none !default;
 .white{color:$white;}
 .black{color:$black;}
 .purple{color:$purple;}
+
+
+// redefine info buttons color
+$brand-info:$green;
+
+
 
 
 // Floats
@@ -72,4 +77,10 @@ header nav ul.navbar-nav li ul.dropdown-menu:after {
 		top:35px !important;
 	}
 }
+
+.dropdown-header {
+  padding: 3px 5px !important;
+  color:$green !important;
+}
+
 
