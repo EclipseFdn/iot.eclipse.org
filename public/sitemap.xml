@@ -427,6 +427,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/hardware/reliagate-10-20/</loc>
+    <lastmod>2015-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/hardware/mangoh/</loc>
     <lastmod>2015-10-03T00:00:00+00:00</lastmod>
   </url>
