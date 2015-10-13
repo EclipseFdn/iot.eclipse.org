@@ -7,13 +7,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
-    <!--    <link href="stylesheet/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="stylesheet/bootstrap/bootstrap-responsive.min.css" rel="stylesheet"> -->
-    <link href="stylesheet/font-awesome.min.css" rel="stylesheet">
-
-
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/icomoon.css" rel="stylesheet">
 
     <link href="stylesheet/theme.css" rel="stylesheet">
 
@@ -52,96 +47,82 @@
 </head>
 
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                </a> <a class="brand" href="/">iot.eclipse.org</a>
 
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/frameworks.html">Services &amp; Frameworks</a>
-                                </li>
-                                <li><a href="/protocols.html">Protocols</a>
-                                </li>
-                                <li><a href="/tools.html">Tools</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="/java"><strong>Open IoT Stack for Java</strong></a>
-                                </li>
-                            </ul>
-                        </li>
 
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/community.html#projects">Projects</a>
-                                </li>
-                                <li><a href="/community.html#news">News</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li class="active"><a href="/open-iot-challenge">Open IoT Challenge </a>
-                                </li>
-                            </ul>
-                        </li>
+  <header>
 
-                        <li><a href="/ecosystem.html">Ecosystem</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">See it live <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/demo">Live Demo</a>
-                                </li>
-                                <li><a href="/sandbox.html">Sandbox</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="nav pull-right">
-                        <li style="margin-left:0px;">
-                            <div style="padding-top: 20px">
-                                <div class="g-plusone" data-href="http://iot.eclipse.org/"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-
-            </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img alt="Brand" src="/assets/images/iot-logo.png">
+          </a>
         </div>
-    </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/getting-started">Getting Started</a>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/standards">Standards</a>
+                </li>
+                <li><a href="/frameworks">Services &amp; Frameworks</a>
+                </li>
+                <li><a href="/projects">All the projects</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/resources">Resources</a>
+                </li>
+                <li><a href="/news">News</a>
+                </li>
+                <li><a href="/events">Events</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
+            <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
+              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
 
-    <!-- Place this tag after the last +1 button tag. -->
-    <script type="text/javascript">
-    (function() {
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-    })();
-    </script>
+  </header>
+
+  <main class="main openiot-challenge">
+
 
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
                     <img src="images/header-logo.png" alt="">
 
                 </div>
-                <div class="span4">&nbsp;</div>
-                <div class="span4">
+                <div class="col-md-4">&nbsp;</div>
+                <div class="col-md-4">
                     <hr>
+                    <a href="#">Apply</a> before November 23!
                     <br>
-                    <a class="fa fa-angle-down" href="#content"></a>
+                    <a href="#content"><span class="icon-circle-down" aria-hidden="true"></span></a>
                 </div>
-                <div class="span4">&nbsp;</div>
+                <div class="col-md-4">&nbsp;</div>
             </div>
         </div>
     </div>
@@ -149,12 +130,10 @@
     <div id="content" class="blurb">
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
                     <p>The Internet of Things will be built on open source software and open standards. At Eclipse we are developing a community of IoT projects that make it easy for developers to build IoT solutions.</p>
                     
-                    <p>The Open IoT Challenge is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology. Best of all, you can compete for <strong>over $20,000 in prizes</strong>, and recognition for&nbsp;your&nbsp;solution.</p>
-
-                    <p><strong>This challenge is now over. You can learn more about the winners by reading this <a href="http://blog.benjamin-cabe.com/2015/04/08/announcing-the-open-iot-challenge-winners" target="_blank">blog post</a></strong></p>
+                    <p>The Open IoT Challenge is back for a <strong>second edition</strong> and it is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology!</p>
                 </div>
             </div>
         </div>
@@ -163,10 +142,44 @@
     <div class="tech">
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
+                    <h2>Our <strong>Sponsors</strong></h2>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-5">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-4 sponsor vcenter">
+                                    <img src="/assets/images/members/logo-bitreactive.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 sponsor vcenter">
+                                    <img src="/assets/images/members/logo-eurotech.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 sponsor vcenter">
+                                    <img src="/assets/images/members/logo-redhat.png" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 sponsor vcenter">
+                                    <img src="http://placehold.it/140?text=SPONSOR 4" class="img-responsive">
+                                </div>
+                                <div class="col-xs-6 col-sm-4 sponsor vcenter">
+                                    <img src="http://placehold.it/140?text=SPONSOR 5" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
                     <h2><strong>Technology</strong> Involved</h2>
                     <div class="row">
-                        <div class="span2 offset5">
+                        <div class="col-md-2 col-md-offset-5">
                             <hr>
                         </div>
                     </div>
@@ -177,7 +190,7 @@
         <div class="tech-bullets">
             <div class="container">
                 <div class="row">
-                    <div class="span4 offset2">
+                    <div class="col-md-4 col-md-offset-2">
                         <div class="clear">
                             <img class="left" src="images/purple-check.png">
                             <div class="left">
@@ -195,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="span4">
+                    <div class="col-md-4">
                         <div class="clear">
                             <img class="left" src="images/purple-check.png">
                             <div class="left">
@@ -221,18 +234,18 @@
         <div class="tech-expanded">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="col-md-12">
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span6">
+                    <div class="col-md-6">
                         <h2>Tell Us <strong>How You Build It</strong></h2>
                         <p>A key aspect of this challenge is we want participants to document and discuss their experiences of building their IoT solution. For example, participants are encouraged to blog about setting up hardware like Raspberry Pi, establishing topics for MQTT messages, architecture decisions for their IoT solutions, etc.</p>
-                        <p><img src="images/tech-board.jpg" alt="">
+                        <p><img src="images/tech-board.jpg" alt="" class="img-responsive">
                         </p>
                     </div>
-                    <div class="span6">
+                    <div class="col-md-6">
                         <p>Applications for the developer challenge are now closed.</p>
                         <p>10 lucky challengers have received a <strong>$150 gift card</strong> to help buy the hardware parts needed for the solution, and there are 45 projects in total who entered the competition!</p>
                         <p>Submissions of the final solution must be completed by <strong>March 23, 2015 (11.59pm PDT)</strong>. Prizes will be awarded for the top 3 solutions.</p>
@@ -250,7 +263,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span12">
+                    <div class="col-md-8 col-md-offset-2">
                         <div class="panel">
                             <h2>Contest <strong>Rules</strong><span></span></h2>
                             <ul>
@@ -268,7 +281,7 @@
         <div class="tech-apply">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="col-md-12">
                         <a href="https://docs.google.com/forms/d/12ZCLK2p3Z-D49B3z47wIcp0KeyJ9BAN-oPlM6kqX4dY/viewform">
                             <button>APPLY NOW</button>
                         </a>
@@ -279,7 +292,7 @@
         <div class="tech-plus">
             <div class="container">
                 <div class="row">
-                    <div class="span12">
+                    <div class="col-md-12">
                         <a class="tech-activate"><img src="images/plus.jpg">
                         </a>
                     </div>
@@ -291,10 +304,10 @@
     <div class="contest">
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
                     <h2>Contest <strong>Prizes</strong></h2>
                     <div class="row">
-                        <div class="span2 offset5">
+                        <div class="col-md-2 col-md-offset-5">
                             <hr>
                         </div>
                     </div>
@@ -303,7 +316,7 @@
             </div>
             <div class="bubbles">
                 <div class="row">
-                    <div class="span5">
+                    <div class="col-md-5">
                         <div class="panel">
                             <p><strong>1<sup style="text-transform: lowercase">st</sup> prize</strong>
 
@@ -318,13 +331,13 @@
                             </p><span class="arrow-right"></span>
                         </div>
                     </div>
-                    <div class="span2"><img src="images/contest-prizes-01.jpg" alt="">
+                    <div class="col-md-2"><img src="images/contest-prizes-01.jpg" alt="">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span2 offset5"><img src="images/contest-prizes-02.jpg" alt="">
+                    <div class="col-md-2 col-md-offset-5"><img src="images/contest-prizes-02.jpg" alt="">
                     </div>
-                    <div class="span5">
+                    <div class="col-md-5">
                         <div class="panel">
                             <p><strong>2<sup style="text-transform: lowercase">nd</sup> prize</strong>
 
@@ -341,7 +354,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span5">
+                    <div class="col-md-5">
                         <div class="panel">
                             <p><strong>3<sup style="text-transform: lowercase">rd</sup> prize</strong>
 
@@ -356,39 +369,20 @@
                             </p><span class="arrow-right"></span>
                         </div>
                     </div>
-                    <div class="span2"><img src="images/contest-prizes-03.jpg" alt="">
+                    <div class="col-md-2"><img src="images/contest-prizes-03.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- 
-<div class="sponsors">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <img src="images/sponsors-ubuntu.jpg" alt="ubuntu">
-                <img src="images/sponsors-dc.jpg" alt="ubuntu">
-                <img src="images/sponsors-2lemetry.jpg" alt="ubuntu">
-                <img src="images/sponsors-actuate.jpg" alt="ubuntu">
-                <img src="images/sponsors-m2m.jpg" alt="ubuntu">
-                <img src="images/sponsors-eurotech.jpg" alt="ubuntu">
-                <img src="images/sponsors-bitreactive.jpg" alt="ubuntu">
-                <img src="images/sponsors-axeda.jpg" alt="ubuntu">
-                <img src="images/sponsors-sierra.jpg" alt="ubuntu">
-                <img src="images/sponsors-openhab.jpg" alt="ubuntu">
-            </div>
-        </div>
-    </div>
-</div>
- -->
+  </main>
 
 
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="span8">
+                <div class="col-md-8">
                     <div class="clear">
                         <ul class="menu list-inline">
                             <li><a href="/">Home</a>
@@ -417,7 +411,7 @@
                     </div>
 
                 </div>
-                <div class="span4">
+                <div class="col-md-4">
 
 
                     <div class="twitter-header">
@@ -452,8 +446,6 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-
-    <script src="/js/index.js"></script>
 
 
 </body>

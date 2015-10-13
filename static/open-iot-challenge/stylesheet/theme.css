@@ -7,6 +7,12 @@ body {
 a {
     transition: color 0.3s ease;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 p, li {
     color: #747474;
 }
@@ -15,20 +21,27 @@ p, li {
     padding: 20px;
     position: relative;
 }
+
 .header {
     background-image: url(../images/header-bg.jpg);
     background-size: cover;
     background-position: top center;
     text-align: center;
     padding: 40px 0;
+    padding-bottom: 10px !important;
+    font-size: 2em;
+    color: #fff;
 }
+
 .header a.fa {
     color: #fff;
     font-size: 27px;
 }
+
 .header hr {
     margin: 10px 0;
 }
+
 .blurb {
     text-align: center;
     background-color: #fff;
@@ -188,12 +201,24 @@ p, li {
 .contest img {
     text-align: center;
 }
+
 .sponsors {
     background-color: #fff;
     border-top: 1px solid #d7d7d7;
     text-align: center;
     padding-bottom: 80px;
 }
+
+.sponsor {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sponsor img {
+    margin: 0 auto;
+}
+
+
 .list-inline {
     display: block;
     position: relative;

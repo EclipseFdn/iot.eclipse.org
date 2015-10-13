@@ -5,6 +5,11 @@
     }
 }
 
+.vcenter {
+      display: table-cell;
+      vertical-align: middle;
+}
+
 main.main {
     p, li {
         color: $gray;
@@ -551,5 +556,6 @@ main.main {
     }
 
 }
+
 
 
