@@ -72,9 +72,10 @@ p, li {
 }
 .tech h2 {
     border: none;
-    padding-top: 80px;
+    padding-top: 50px;
     font-weight: 300;
 }
+
 .tech .container {
     padding-top: 0;
 }
@@ -93,7 +94,11 @@ p, li {
     margin-left: 10px;
     border-left: 1px solid #494949;
     padding-left: 10px;
+    max-width: 280px;
 }
+
+
+
 .tech .tech-plus .row {
     margin-bottom: 0;
 }
@@ -134,6 +139,40 @@ p, li {
 .tech .tech-activate {
     cursor: pointer;
 }
+
+.tech #timeline {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tech #timeline td:first-child {
+    font-weight: 700;
+    font-size: 13px;
+    padding-right: .3em;
+}
+
+.tech #timeline td:last-child:before {
+  content: '/ ';
+  color: #6eb553;
+}
+
+.tech #keyfacts span.icon {
+    color: #6eb553;
+    font-size: 6em;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    display: block;
+    opacity: 0.7;
+}
+
+.tech .fact-highlight {
+    font-size:3em; 
+    padding-bottom:0px; 
+    margin-top:-6px; 
+    color:#6a2260; 
+    font-weight:700;
+}
+
 .contest {
     background-color: #fff;
     padding-bottom: 80px;
@@ -340,3 +379,30 @@ button:hover {
 .container ul li {
     margin-left: .7em;
 }
+
+.openiot-challenge h2 {
+    font-size: 38px;
+    color: #26102b;
+    text-shadow: 0 1px 1px #8487b8;
+}
+
+.openiot-challenge #timing {
+    padding-left: 0em;
+}
+
+.openiot-challenge #timing li {
+    list-style: none;
+}
+
+.openiot-challenge #timing u {
+    border-bottom: 1px dotted #8487b8;
+    text-decoration: none;
+}
+
+
+.openiot-challenge #timing li:before {
+    content: '➜ ';
+    color: #6eb553;
+    font-weight: 700;
+}
+
