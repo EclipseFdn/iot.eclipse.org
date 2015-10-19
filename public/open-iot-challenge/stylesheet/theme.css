@@ -310,11 +310,11 @@ button:hover {
 .footer p {
     font-style: italic;
 }
-.twitter-header .fa {
+.twitter-header .icon {
     background-color: #434343;
     padding: 12px;
-    font-size: 36px;
-    max-height: 50px;
+    font-size: 28px;
+    max-height: 46px;
     margin-right: 20px;
 }
 .twitter-header h2 {
@@ -323,7 +323,7 @@ button:hover {
     color: #fff;
     font-size: 24px;
     border: none;
-    max-height: 50px;
+    max-height: 46px;
     margin-bottom: 0;
 }
 #twitter ul, #twitter ul li {
