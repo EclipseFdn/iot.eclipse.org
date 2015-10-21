@@ -265,6 +265,11 @@ p, li {
     margin: 0 auto;
 }
 
+.sponsor-details li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .list-inline {
     display: block;
     position: relative;
