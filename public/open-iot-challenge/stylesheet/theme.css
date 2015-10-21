@@ -251,12 +251,19 @@ p, li {
 .sponsor {
     margin-top: 1em;
     margin-bottom: 1em;
+
+    padding-top: 50px;
+    min-height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);           
 }
 
 .sponsor img {
     margin: 0 auto;
 }
-
 
 .list-inline {
     display: block;
