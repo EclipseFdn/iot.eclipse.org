@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SPS IPC Drives 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EclipseCon Europe 2015</title>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 12 May 2015 16:12:42 +0100</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-05-12-iot-world/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT DevCon</title>
-      <link>http://iot.eclipse.org/events/2015-05-06-iot-devcon/</link>
-      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-05-06-iot-devcon/</guid>
       <description></description>
     </item>
     
