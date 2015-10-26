@@ -6,8 +6,28 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT at JavaOne 2015</title>
+      <link>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</link>
+      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
+      <description>&lt;p&gt;If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Connecting Eclipse Kura to AWS IoT</title>
+      <link>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</guid>
+      <description>&lt;p&gt;Just a few weeks ago, Amazon Web Services (AWS) announced that they added the ability for their customers to manage IoT solutions. More specifically, they are offering a managed IoT platform that allows to connect your devices using HTTP or MQTT, and that integrates with other AWS services…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IoT is Everywhere at EclipseCon Europe</title>
@@ -139,26 +159,6 @@ The challenge has been keeping our participants busy for two months, and…&lt;/
       
       <guid>http://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</guid>
       <description>&lt;p&gt;The Open IoT challenge ended earlier this week, and it was pretty exciting to see the final submissions coming in the form of blog posts and video during the last hours before the deadline…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Open IoT Challenge projects are way cool</title>
-      <link>http://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</link>
-      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</guid>
-      <description>&lt;p&gt;There are only a few days left for the participants to the Open IoT Challenge to wrap up their projects and share the final results of what they have achieved over the course of the last couple months…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
-      <link>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</link>
-      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</guid>
-      <description>&lt;p&gt;For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…&lt;/p&gt;
 </description>
     </item>
     
