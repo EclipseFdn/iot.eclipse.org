@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IEEE World Forum on Internet of Things</title>
+      <link>http://iot.eclipse.org/events/2015-12-16-IEEE/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-12-16-IEEE/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SPS IPC Drives 2015</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT World</title>
-      <link>http://iot.eclipse.org/events/2015-05-12-iot-world/</link>
-      <pubDate>Tue, 12 May 2015 16:12:42 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-05-12-iot-world/</guid>
       <description></description>
     </item>
     
