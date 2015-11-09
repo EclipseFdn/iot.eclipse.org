@@ -2,145 +2,145 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Eclipse IoT</title>
-    <link>http://localhost:1313/events/</link>
+    <link>http://iot.eclipse.org/events/</link>
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IEEE World Forum on Internet of Things</title>
-      <link>http://localhost:1313/events/2015-12-16-IEEE/</link>
+      <link>http://iot.eclipse.org/events/2015-12-16-IEEE/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-12-16-IEEE/</guid>
+      <guid>http://iot.eclipse.org/events/2015-12-16-IEEE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SPS IPC Drives 2015</title>
-      <link>http://localhost:1313/events/2015-11-23-SPS/</link>
+      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-11-23-SPS/</guid>
+      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EclipseCon Europe 2015</title>
-      <link>http://localhost:1313/events/2015-11-03-eclipsecon-europe/</link>
+      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-11-03-eclipsecon-europe/</guid>
+      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaOne 2015</title>
-      <link>http://localhost:1313/events/2015-10-25-javaone/</link>
+      <link>http://iot.eclipse.org/events/2015-10-25-javaone/</link>
       <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-10-25-javaone/</guid>
+      <guid>http://iot.eclipse.org/events/2015-10-25-javaone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding Serbia Conference</title>
-      <link>http://localhost:1313/events/2015-10-08-codingserbia/</link>
+      <link>http://iot.eclipse.org/events/2015-10-08-codingserbia/</link>
       <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-10-08-codingserbia/</guid>
+      <guid>http://iot.eclipse.org/events/2015-10-08-codingserbia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Industry of Things World</title>
-      <link>http://localhost:1313/events/2015-09-21/</link>
+      <link>http://iot.eclipse.org/events/2015-09-21/</link>
       <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-09-21/</guid>
+      <guid>http://iot.eclipse.org/events/2015-09-21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M2M Summit 2015</title>
-      <link>http://localhost:1313/events/2015-09-08-m2m-summit/</link>
+      <link>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</link>
       <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-09-08-m2m-summit/</guid>
+      <guid>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting started with MQTT</title>
-      <link>http://localhost:1313/events/2015-07-02-virtualiot-mqtt/</link>
+      <link>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</link>
       <pubDate>Thu, 02 Jul 2015 17:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/events/2015-07-02-virtualiot-mqtt/</guid>
+      <guid>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EclipseCon France 2015</title>
-      <link>http://localhost:1313/events/2015-06-24-eclipseconfrance2015/</link>
+      <link>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</link>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-06-24-eclipseconfrance2015/</guid>
+      <guid>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>O&#39;Reilly SOLID</title>
-      <link>http://localhost:1313/events/2015-06-23-solidcon/</link>
+      <link>http://iot.eclipse.org/events/2015-06-23-solidcon/</link>
       <pubDate>Tue, 23 Jun 2015 16:12:42 +0100</pubDate>
       
-      <guid>http://localhost:1313/events/2015-06-23-solidcon/</guid>
+      <guid>http://iot.eclipse.org/events/2015-06-23-solidcon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulating hardware components for IoT application development</title>
-      <link>http://localhost:1313/events/2015-06-10-kinoma/</link>
+      <link>http://iot.eclipse.org/events/2015-06-10-kinoma/</link>
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-06-10-kinoma/</guid>
+      <guid>http://iot.eclipse.org/events/2015-06-10-kinoma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
-      <link>http://localhost:1313/events/2015-05-27-virtualiot-splunk/</link>
+      <link>http://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</link>
       <pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-05-27-virtualiot-splunk/</guid>
+      <guid>http://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eclipse IoT Breakfast</title>
-      <link>http://localhost:1313/events/2015-05-12-iot-breakfast-madrid/</link>
+      <link>http://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</link>
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-05-12-iot-breakfast-madrid/</guid>
+      <guid>http://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internet of Things: The Role of Free and Open Source Software</title>
-      <link>http://localhost:1313/events/2015-05-20-webinar-dla-piper/</link>
+      <link>http://iot.eclipse.org/events/2015-05-20-webinar-dla-piper/</link>
       <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-05-20-webinar-dla-piper/</guid>
+      <guid>http://iot.eclipse.org/events/2015-05-20-webinar-dla-piper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creating end-to-end IoT applications with Eclipse Kura &amp; Solair IoT Platform</title>
-      <link>http://localhost:1313/events/2015-05-14-virtualiot-solair/</link>
+      <link>http://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</link>
       <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/events/2015-05-14-virtualiot-solair/</guid>
+      <guid>http://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</guid>
       <description></description>
     </item>
     

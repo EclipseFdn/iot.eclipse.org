@@ -2,69 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Eclipse IoT</title>
-    <link>http://localhost:1313/news/</link>
+    <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open IoT Challenge - Second edition!</title>
+      <link>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</link>
+      <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</guid>
+      <description>&lt;p&gt;We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT at JavaOne 2015</title>
-      <link>http://localhost:1313/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</link>
+      <link>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</link>
       <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
+      <guid>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
       <description>&lt;p&gt;If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Tutorial: Connecting Eclipse Kura to AWS IoT</title>
-      <link>http://localhost:1313/news/2015-10-23-Kura-and-AWS-IoT/</link>
+      <link>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</link>
       <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-10-23-Kura-and-AWS-IoT/</guid>
+      <guid>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</guid>
       <description>&lt;p&gt;Just a few weeks ago, Amazon Web Services (AWS) announced that they added the ability for their customers to manage IoT solutions. More specifically, they are offering a managed IoT platform that allows to connect your devices using HTTP or MQTT, and that integrates with other AWS services…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>IoT is Everywhere at EclipseCon Europe</title>
-      <link>http://localhost:1313/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</link>
+      <link>http://iot.eclipse.org/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</guid>
+      <guid>http://iot.eclipse.org/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</guid>
       <description>&lt;p&gt;The best thing about the Eclipse IoT community is that participants are real IoT practitioners and IoT experts. Our face-2-face meetings bring together senior technical leaders that are working on the core technology…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Unveiling the Eclipse IoT Demo Box</title>
-      <link>http://localhost:1313/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</link>
+      <link>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</link>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
+      <guid>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
       <description>&lt;p&gt;Now that the holiday season is over, we’re fully into “conference season” mode, as the fall is packed with IoT conferences (look at our Events Calendar to see where we will have a presence in the next couple months). Last week, the Eclipse Foundation was exhibiting at M2M Summit…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>3 hardware platforms of choice to get started with Eclipse IoT</title>
-      <link>http://localhost:1313/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</link>
+      <link>http://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</link>
       <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</guid>
+      <guid>http://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</guid>
       <description>&lt;p&gt;When you prototype IoT solutions, it becomes necessary very early in your development phase to use an actual embedded platform to run your software, and to test it in an environment that is as close as possible of what you expect your production environment to be…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Growing an open community: 3 interesting facts about Eclipse IoT</title>
-      <link>http://localhost:1313/news/2015-08-07-growing-an-iot-community/</link>
+      <link>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</link>
       <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-08-07-growing-an-iot-community/</guid>
+      <guid>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
       <description>&lt;p&gt;About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community.
 I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…&lt;/p&gt;
 </description>
@@ -72,40 +82,40 @@ I have recently crunched the numbers again and here are 3 interesting facts abou
     
     <item>
       <title>IoT? No more excuses. Solair to launch “IoT-in-a-Box”</title>
-      <link>http://localhost:1313/news/2015-07-31-solair-iot-in-a-box/</link>
+      <link>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-07-31-solair-iot-in-a-box/</guid>
+      <guid>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</guid>
       <description>&lt;p&gt;Solair Corporate announces the first IoT “off-the-shelf” product that allows you to connect machines, things and sensors in a few clicks.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learn from IoT experts with the Virtual IoT meetup group</title>
-      <link>http://localhost:1313/news/2015-07-14-meetup/</link>
+      <link>http://iot.eclipse.org/news/2015-07-14-meetup/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-07-14-meetup/</guid>
+      <guid>http://iot.eclipse.org/news/2015-07-14-meetup/</guid>
       <description>&lt;p&gt;About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>IoT Security: An open source and open standard approach</title>
-      <link>http://localhost:1313/news/2015-06-15-iot-security/</link>
+      <link>http://iot.eclipse.org/news/2015-06-15-iot-security/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-06-15-iot-security/</guid>
+      <guid>http://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
       <description>&lt;p&gt;High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bridging IoTivity and Eclipse SmartHome</title>
-      <link>http://localhost:1313/news/2015-06-12-iotivity-and-smarthome/</link>
+      <link>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</link>
       <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-06-12-iotivity-and-smarthome/</guid>
+      <guid>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</guid>
       <description>&lt;p&gt;There are several ongoing initiatives that aim at standardizing protocols and interfaces in order to enable a truly interoperable Internet of Things.
 On the protocol front, I would certainly argue…&lt;/p&gt;
 </description>
@@ -113,30 +123,30 @@ On the protocol front, I would certainly argue…&lt;/p&gt;
     
     <item>
       <title>Azul Systems Joins Eclipse Foundation</title>
-      <link>http://localhost:1313/news/2015-05-12-azul/</link>
+      <link>http://iot.eclipse.org/news/2015-05-12-azul/</link>
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-05-12-azul/</guid>
+      <guid>http://iot.eclipse.org/news/2015-05-12-azul/</guid>
       <description>&lt;p&gt;Azul Systems (Azul), the award-winning leader in Java runtime solutions, today announced its membership in the Eclipse Foundation, bringing over a decade of Java knowledge and expertise to multiple…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interview with Benjamin Cabé on the Internet of Things at Eclipse</title>
-      <link>http://localhost:1313/news/2015-04-15-infoq/</link>
+      <link>http://iot.eclipse.org/news/2015-04-15-infoq/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-04-15-infoq/</guid>
+      <guid>http://iot.eclipse.org/news/2015-04-15-infoq/</guid>
       <description>&lt;p&gt;Recorded at EclipseCon 2015&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Announcing the Open IoT Challenge Winners</title>
-      <link>http://localhost:1313/news/2015-04-08-iot-challenge-results/</link>
+      <link>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</link>
       <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-04-08-iot-challenge-results/</guid>
+      <guid>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</guid>
       <description>&lt;p&gt;Oh boy, this has been a difficult call, but we are happy to finally be able to announce the three winners of our Open IoT Challenge!
 The challenge has been keeping our participants busy for two months, and…&lt;/p&gt;
 </description>
@@ -144,21 +154,11 @@ The challenge has been keeping our participants busy for two months, and…&lt;/
     
     <item>
       <title>IoT Developer Survey: What are developers doing with IoT?</title>
-      <link>http://localhost:1313/news/2015-04-03-survey/</link>
+      <link>http://iot.eclipse.org/news/2015-04-03-survey/</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/2015-04-03-survey/</guid>
+      <guid>http://iot.eclipse.org/news/2015-04-03-survey/</guid>
       <description>&lt;p&gt;We have just published the results of the first IoT Developer Survey.  There are some very interesting findings so I encourage you to check out the report.  The raw data is also available…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open IoT Challenge – Final submissions</title>
-      <link>http://localhost:1313/news/2015-03-26-open-iot-final-entries/</link>
-      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/2015-03-26-open-iot-final-entries/</guid>
-      <description>&lt;p&gt;The Open IoT challenge ended earlier this week, and it was pretty exciting to see the final submissions coming in the form of blog posts and video during the last hours before the deadline…&lt;/p&gt;
 </description>
     </item>
     
