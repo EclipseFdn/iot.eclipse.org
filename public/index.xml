@@ -6,173 +6,162 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>http://iot.eclipse.org/working-group/dummy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>IEEE World Forum on Internet of Things</title>
+      <link>http://iot.eclipse.org/events/2015-12-16-IEEE/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/working-group/dummy/</guid>
+      <guid>http://iot.eclipse.org/events/2015-12-16-IEEE/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>IoT Gateway: Reducing the distance between embedded and enterprise technologies</title>
-      <link>http://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</link>
-      <pubDate>Tue, 09 Sep 2014 15:48:31 +0000</pubDate>
+      <title>SPS IPC Drives 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides of the presentation: &lt;a href=&#34;http://slideshare.net/Eurotechchannel/kuram2miotgateway&#34;&gt;http://slideshare.net/Eurotechchannel/kuram2miotgateway&lt;/a&gt;&lt;/p&gt;
+      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge - Second edition!</title>
+      <link>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</link>
+      <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</guid>
+      <description>&lt;p&gt;We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon Europe 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaOne 2015</title>
+      <link>http://iot.eclipse.org/events/2015-10-25-javaone/</link>
+      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-10-25-javaone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT at JavaOne 2015</title>
+      <link>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</link>
+      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
+      <description>&lt;p&gt;If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Connecting Eclipse Kura to AWS IoT</title>
+      <link>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</guid>
+      <description>&lt;p&gt;Just a few weeks ago, Amazon Web Services (AWS) announced that they added the ability for their customers to manage IoT solutions. More specifically, they are offering a managed IoT platform that allows to connect your devices using HTTP or MQTT, and that integrates with other AWS services…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coding Serbia Conference</title>
+      <link>http://iot.eclipse.org/events/2015-10-08-codingserbia/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-10-08-codingserbia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MangOH</title>
+      <link>http://iot.eclipse.org/hardware/mangoh/</link>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/hardware/mangoh/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ReliaGATE 10-20</title>
+      <link>http://iot.eclipse.org/hardware/reliagate-10-20/</link>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/hardware/reliagate-10-20/</guid>
+      <description>&lt;p&gt;Lorem ipsum Occaecat ex reprehenderit sint aliqua magna reprehenderit pariatur in incididunt ut qui reprehenderit magna et exercitation ex reprehenderit adipisicing occaecat Duis irure ex reprehenderit aute occaecat commodo commodo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IoT is Everywhere at EclipseCon Europe</title>
+      <link>http://iot.eclipse.org/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-10-01-IoT-is-Everywhere-at%E2%80%93EclipseCon-Europe/</guid>
+      <description>&lt;p&gt;The best thing about the Eclipse IoT community is that participants are real IoT practitioners and IoT experts. Our face-2-face meetings bring together senior technical leaders that are working on the core technology…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Siemens</title>
+      <link>http://iot.eclipse.org/member/siemens/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/siemens/</guid>
+      <description>&lt;p&gt;Siemens is a global powerhouse in electrical engineering and electronics. The company has 343,000 employees (as of September 30, 2014) working to develop and manufacture products, design and install complex systems and projects, and tailor a wide range of services for individual requirements.&lt;/p&gt;
 
-&lt;p&gt;Internet of Things adoption is constrained by disparate implementations and proprietary solutions. The emergence of…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building the Internet of Things with the Eclipse IoT stack: a practical example</title>
-      <link>http://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</link>
-      <pubDate>Tue, 16 Sep 2014 15:50:54 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;It may seem hard to get started with the Internet of Things (IoT) with so many technologies, protocols, hardware platforms, … involved. In this session, Benjamin Cabé from the Eclipse Foundation will …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Connecting Sensor Networks</title>
-      <link>http://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</link>
-      <pubDate>Tue, 23 Sep 2014 15:47:16 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks&#34;&gt;http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks&lt;/a&gt;
-Sensor networks are a fundamental building of Internet of Things (IoT) applications, as they provide the interf…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visualize IoT data with BIRT</title>
-      <link>http://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</link>
-      <pubDate>Tue, 07 Oct 2014 15:39:58 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;IoT refers to the connection and intercommunication of different devices, systems, and services in a single platform. This plays right into BIRT&amp;rsquo;s ability to connect to and relate many different sourc…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OM2M: Standardized service platform for M2M interoperability</title>
-      <link>http://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</link>
-      <pubDate>Tue, 14 Oct 2014 15:48:40 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Machine-to Machine (M2M) promises to interconnect billions of devices in near future covering various domains. However, M2M is suffering from a high vertical fragmentation of current M2M markets and l…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing an open plaform for your SCADA project</title>
-      <link>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
-      <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building home gateways with Eclipse SmartHome</title>
-      <link>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</link>
-      <pubDate>Tue, 04 Nov 2014 16:44:55 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides are available on Slideshare: &lt;a href=&#34;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&#34;&gt;http://slideshare.net/xthirtynine/eclipse-smart-home-webinar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.&lt;/p&gt;
 
-&lt;p&gt;Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…&lt;/p&gt;
+&lt;p&gt;Siemens contributes to various open source projects and also initiated several open source projects.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Bring Your IoT Ideas to Life with the WunderBar</title>
-      <link>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</link>
-      <pubDate>Tue, 16 Dec 2014 16:38:12 +0000</pubDate>
+      <title>Industry of Things World</title>
+      <link>http://iot.eclipse.org/events/2015-09-21/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;You’re full of fantastic IoT ideas, but bringing them to fruition is never an easy task. Especially when it comes time to work with your sensors and electronics. Hardware can present a significant obs…&lt;/p&gt;
+      <guid>http://iot.eclipse.org/events/2015-09-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling the Eclipse IoT Demo Box</title>
+      <link>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
+      <description>&lt;p&gt;Now that the holiday season is over, we’re fully into “conference season” mode, as the fall is packed with IoT conferences (look at our Events Calendar to see where we will have a presence in the next couple months). Last week, the Eclipse Foundation was exhibiting at M2M Summit…&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Announcing the Open IoT Challenge</title>
-      <link>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
-      <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
+      <title>Building &amp; managing IoT applications with LightweightM2M</title>
+      <link>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
+      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</guid>
-      <description>&lt;p&gt;2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California.
-If you haven’t seen the EclipseCon program already, I highly…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
-      <link>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</link>
-      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</guid>
-      <description>&lt;p&gt;For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2lemetry</title>
-      <link>http://iot.eclipse.org/member/2lemetry/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:13 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/2lemetry/</guid>
-      <description>&lt;p&gt;2lemetry is an IoT platform and solutions company that powers the connected enterprise, tying people, processes, data and devices together—transforming raw data into real-time actionable intelligence.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.&lt;/p&gt;
 
-&lt;p&gt;2lemetry&amp;rsquo;s ThingFabric platform acts as an IoT version of Enterprise Application Integration (EAI) middleware solutions, providing device connectivity at scale, cross-communication, data brokering and storage. We also help companies make sense of the captured data by offering actionable data intelligence through predictive computational models and a configurable rules engine.
-The ThingFabric platform has a unique protocol-agnostic architecture that enables native support of multiple protocols (like MQTT, CoAP, STOMP, and M3DA), even allowing the customer to upload their own homegrown, proprietary or legacy protocols.&lt;/p&gt;
+&lt;p&gt;We will cover the following topics:&lt;/p&gt;
 
-&lt;p&gt;2lemetry actively contributes to the Paho project around objective-c and MQTT.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Actuate</title>
-      <link>http://iot.eclipse.org/member/actuate/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:14 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/actuate/</guid>
-      <description>&lt;p&gt;In 2004, Actuate co-founded &amp;ndash; and continues as its sole sponsor – the top-level Eclipse BIRT Project – an open source, Java-based IDE. BIRT is used as a workbench by more than 3.5 million developers around the globe, to reduce development time and significantly improve the efficacy of their customer-facing applications. BIRT has been downloaded over 13 million times since its inception. Please visit developer.actuate.com.&lt;/p&gt;
-
-&lt;p&gt;On the commercial side, Actuate provides BIRT Designer Pro™ and BIRT iHub™ deployment software – to developers and IT departments of mid-size to global-brand enterprises, as well as to ISVs/OEMs. These organizations use BIRT to build scalable, secure solutions that provide valuable insights from data, and improve brand loyalty. These customers have delivered personalized analytics and insights to more than 200 million of their own customers, partners and employees.&lt;/p&gt;
-
-&lt;p&gt;Actuate also offers BIRT Analytics™ self-service, predictive analytics software for business analysts and marketers to enhance customer engagement using Big Data. The Actuate Customer Communications Suite™ empowers organizations to easily transform, process, personalize, archive and deliver high volume content and individualized correspondence. The Actuate PDF Accessibility Appliance™ is used to convert PDFs into documents that vision-impaired customers can “read.” Actuate is headquartered in Silicon Valley with more than 5,000 enterprise customers in financial services, technology and government.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bitreactive</title>
-      <link>http://iot.eclipse.org/member/bitreactive/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/bitreactive/</guid>
-      <description>&lt;p&gt;Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bosch Software Innovations</title>
-      <link>http://iot.eclipse.org/member/bosch/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/bosch/</guid>
-      <description>&lt;p&gt;Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.&lt;/p&gt;
-
-&lt;p&gt;The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models. These information models are abstract descriptions of real world devices.&lt;/p&gt;
-
-&lt;p&gt;In addition Bosch Software innovations is a member of the IoT Working Group and is a contributor to various open source projects (e.g. Californium, Wakaama) in the IoT context.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From M2M to Web-of-things, new…&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
