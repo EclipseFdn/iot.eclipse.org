@@ -35,8 +35,10 @@ var projectAliases = {
 
         $.ajax({
             type: "GET",
-            url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
-            dataType: "jsonp",
+//            url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
+//            dataType: "jsonp",
+            url: "/projects.json",
+            dataType: "json",
             cache: true,
             success: function(data) {
 
