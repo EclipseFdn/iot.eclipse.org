@@ -6,8 +6,26 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Embedded World 2016</title>
+      <link>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</link>
+      <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Evolution Expo</title>
+      <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IEEE World Forum on Internet of Things</title>
@@ -137,25 +155,6 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
 &lt;p&gt;Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.&lt;/p&gt;
 
 &lt;p&gt;Siemens contributes to various open source projects and also initiated several open source projects.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Industry of Things World</title>
-      <link>http://iot.eclipse.org/events/2015-09-21/</link>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-09-21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unveiling the Eclipse IoT Demo Box</title>
-      <link>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</link>
-      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
-      <description>&lt;p&gt;Now that the holiday season is over, we’re fully into “conference season” mode, as the fall is packed with IoT conferences (look at our Events Calendar to see where we will have a presence in the next couple months). Last week, the Eclipse Foundation was exhibiting at M2M Summit…&lt;/p&gt;
 </description>
     </item>
     
