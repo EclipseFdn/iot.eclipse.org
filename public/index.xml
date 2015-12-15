@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Announcing The 16 Winners Of The Open Iot Challenge Starter Kit!</title>
+      <link>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</guid>
+      <description>&lt;p&gt;It’s now been a bit more than 2 weeks since the second edition of the Open IoT Challenge has officially started. More than 80 teams have applied to be part of the challenge, and if you ask me, that’s really exciting!…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SPS IPC Drives 2015</title>
       <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
@@ -146,22 +156,6 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
       
       <guid>http://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
       <description>&lt;p&gt;Now that the holiday season is over, we’re fully into “conference season” mode, as the fall is packed with IoT conferences (look at our Events Calendar to see where we will have a presence in the next couple months). Last week, the Eclipse Foundation was exhibiting at M2M Summit…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building &amp; managing IoT applications with LightweightM2M</title>
-      <link>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
-      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.&lt;/p&gt;
-
-&lt;p&gt;We will cover the following topics:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From M2M to Web-of-things, new…&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing The 16 Winners Of The Open Iot Challenge Starter Kit!</title>
+      <link>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</guid>
+      <description>&lt;p&gt;It’s now been a bit more than 2 weeks since the second edition of the Open IoT Challenge has officially started. More than 80 teams have applied to be part of the challenge, and if you ask me, that’s really exciting!…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open IoT Challenge - Second edition!</title>
@@ -149,16 +159,6 @@ On the protocol front, I would certainly argue…&lt;/p&gt;
       <guid>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</guid>
       <description>&lt;p&gt;Oh boy, this has been a difficult call, but we are happy to finally be able to announce the three winners of our Open IoT Challenge!
 The challenge has been keeping our participants busy for two months, and…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT Developer Survey: What are developers doing with IoT?</title>
-      <link>http://iot.eclipse.org/news/2015-04-03-survey/</link>
-      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-04-03-survey/</guid>
-      <description>&lt;p&gt;We have just published the results of the first IoT Developer Survey.  There are some very interesting findings so I encourage you to check out the report.  The raw data is also available…&lt;/p&gt;
 </description>
     </item>
     
