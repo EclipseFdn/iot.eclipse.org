@@ -218,7 +218,7 @@
             </p>
             <p></p>
             <ul>
-              <li><b>Raspberry Pi Model B or B+</b> and an <b>SD card</b> (min. 4GB) with the latest Debian Linux distribution. Raspbian should be downloaded from the Raspberry Pi Foundation&rsquo;s <a href='http://www.raspberrypi.org/downloads/' />Downloads page</a>, and
+              <li><b>Raspberry Pi Model 2</b> and an <b>SD card</b> (min. 4GB) with the latest Debian Linux distribution. Raspbian should be downloaded from the Raspberry Pi Foundation&rsquo;s <a href='http://www.raspberrypi.org/downloads/' />Downloads page</a>, and
                 <a href='http://www.raspberrypi.org/documentation/installation/installing-images/README.md' />these instructions
                 </a> will help you put Raspbian on the SD Card.</li>
               <li><b>Grove temperature &amp; humidity sensor</b>,</li>
@@ -318,8 +318,8 @@
 
             <pre><code class="language-bash">cd ~
 sudo apt-get update # let's make sure Debian repositories descriptions are up-to-date
-wget https://s3.amazonaws.com/kura_downloads/raspbian/release/1.0.0/kura_1.0.0_raspberry-pi_armv6.deb
-sudo dpkg -i kura_1.0.0_raspberry-pi_armv6.deb</code></pre>
+wget https://s3.amazonaws.com/kura_downloads/raspbian/release/1.3.0/kura_1.3.0_raspberry-pi-2_installer.deb
+sudo dpkg -i kura_1.3.0_raspberry-pi-2_installer.deb</code></pre>
 
             <p>dpkg will complain about missing dependencies, and will fail. Indeed, Kura depends on some packages that you probably don&rsquo;t have on your Raspberry Pi, so we must tell Aptitude to download those automatically for us:</p>
 
