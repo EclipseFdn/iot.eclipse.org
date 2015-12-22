@@ -6,8 +6,26 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CeBIT 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-14-CEBIT/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Embedded World 2016</title>
@@ -123,24 +141,6 @@
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-06-10-kinoma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
-      <link>http://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</link>
-      <pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Breakfast</title>
-      <link>http://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</link>
-      <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</guid>
       <description></description>
     </item>
     
