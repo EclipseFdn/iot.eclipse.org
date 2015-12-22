@@ -28,6 +28,21 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</loc>
+    <lastmod>2015-12-16T16:59:13+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2015-12-16-IEEE/</loc>
     <lastmod>2015-12-16T00:00:00+00:00</lastmod>
   </url>
@@ -38,8 +53,23 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</loc>
+    <lastmod>2015-12-02T16:54:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2015-11-23-SPS/</loc>
     <lastmod>2015-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</loc>
+    <lastmod>2015-11-12T17:02:57+00:00</lastmod>
   </url>
   
   <url>
@@ -50,6 +80,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</loc>
     <lastmod>2015-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</loc>
+    <lastmod>2015-10-29T16:56:45+00:00</lastmod>
   </url>
   
   <url>
@@ -90,6 +125,11 @@
   <url>
     <loc>http://iot.eclipse.org/member/siemens/</loc>
     <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</loc>
+    <lastmod>2015-09-24T16:49:24+00:00</lastmod>
   </url>
   
   <url>

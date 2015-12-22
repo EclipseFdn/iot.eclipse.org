@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>A new name: Eclipse NeoSCADA</title>
+      <link>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</guid>
+      <description>&lt;p&gt;In 2013 through the move to the Eclipse Foundation, the existing openSCADA project became Eclipse SCADA. Being a very industrial oriented project it naturally has a different audience than most other projects…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open IoT Challenge - Second edition!</title>
       <link>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</link>
       <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
@@ -148,17 +158,6 @@ On the protocol front, I would certainly argue…&lt;/p&gt;
       
       <guid>http://iot.eclipse.org/news/2015-04-15-infoq/</guid>
       <description>&lt;p&gt;Recorded at EclipseCon 2015&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Announcing the Open IoT Challenge Winners</title>
-      <link>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</link>
-      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</guid>
-      <description>&lt;p&gt;Oh boy, this has been a difficult call, but we are happy to finally be able to announce the three winners of our Open IoT Challenge!
-The challenge has been keeping our participants busy for two months, and…&lt;/p&gt;
 </description>
     </item>
     
