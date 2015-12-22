@@ -64,6 +64,18 @@
     </item>
     
     <item>
+      <title>Eclipse IoT’s 2015 Year in Review</title>
+      <link>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</guid>
+      <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
+
+&lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
       <link>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
       <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
@@ -141,15 +153,6 @@
       <guid>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</guid>
       <description>&lt;p&gt;We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>EclipseCon Europe 2015</title>
-      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
-      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
-      <description></description>
     </item>
     
   </channel>
