@@ -6,8 +6,17 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eclipse IoT case study: Building Virtual Power Plants</title>
@@ -153,16 +162,6 @@ macchina.io provides a rich programming en…&lt;/p&gt;
       
       <guid>http://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</guid>
       <description>&lt;p&gt;IoT software development is often slowed or delayed because the target hardware is unfinished, unstable, or just a few units are available. Existing hardware simulation tools allow developers to test …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ESP8266 programming from Eclipse</title>
-      <link>http://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</link>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</guid>
-      <description>&lt;p&gt;A really nice article on how to setup Eclipse to program the ESP8266, an incredibly cheap ($3!) and versatile IoT WiFi chip.&lt;/p&gt;
 </description>
     </item>
     
