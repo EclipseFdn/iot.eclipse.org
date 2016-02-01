@@ -16,3 +16,8 @@ tr + tr td {
 #wg-members.table td {
 	vertical-align: middle;
 }
+
+
+.carousel-inner img {
+  margin: auto;
+}
