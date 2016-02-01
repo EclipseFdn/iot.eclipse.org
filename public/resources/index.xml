@@ -6,8 +6,20 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jan 2016 16:56:39 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</link>
+      <pubDate>Wed, 27 Jan 2016 16:56:39 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&#34;&gt;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This talk will present the OGC® SensorThings API specification and its MQTT extension, a new OGC® standa…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
@@ -16,6 +28,16 @@
       
       <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -142,26 +164,6 @@ macchina.io provides a rich programming en…&lt;/p&gt;
       
       <guid>http://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MQTT Essentials</title>
-      <link>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</guid>
-      <description>&lt;p&gt;Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Working without wires: Simulating hardware components for IoT application development</title>
-      <link>http://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</link>
-      <pubDate>Wed, 10 Jun 2015 16:40:57 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;IoT software development is often slowed or delayed because the target hardware is unfinished, unstable, or just a few units are available. Existing hardware simulation tools allow developers to test …&lt;/p&gt;
 </description>
     </item>
     

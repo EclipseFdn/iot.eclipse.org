@@ -46,6 +46,18 @@
     </item>
     
     <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</link>
+      <pubDate>Wed, 27 Jan 2016 16:56:39 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&#34;&gt;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This talk will present the OGC® SensorThings API specification and its MQTT extension, a new OGC® standa…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
       <link>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
@@ -61,6 +73,16 @@
       
       <guid>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</guid>
       <description>&lt;p&gt;The Eclipse IoT community has grown significantly over the last 1-2 years. There are now 20+ Eclipse IoT projects building open source technology for IoT solutions. We are well on our way to providing the key building blocks developers need to build IoT solutions…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …&lt;/p&gt;
 </description>
     </item>
     
@@ -130,25 +152,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The Arduino IDE from arduino.cc provides a simple IDE that lets these hobbyists get started. However, it is really simple. As projects get bigger and more complex, Arduino developers need something mo…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SPS IPC Drives 2015</title>
-      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
-      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A new name: Eclipse NeoSCADA</title>
-      <link>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</guid>
-      <description>&lt;p&gt;In 2013 through the move to the Eclipse Foundation, the existing openSCADA project became Eclipse SCADA. Being a very industrial oriented project it naturally has a different audience than most other projects…&lt;/p&gt;
 </description>
     </item>
     
