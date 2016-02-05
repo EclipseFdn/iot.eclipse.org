@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse IoT</title>
+    <link>http://iot.eclipse.org/</link>
+    <description>Recent content on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CeBIT 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-14-CEBIT/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon - IoT Summit 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</link>
+      <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded World 2016</title>
+      <link>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</link>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Evolution Expo</title>
+      <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</link>
+      <pubDate>Wed, 27 Jan 2016 16:56:39 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&#34;&gt;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This talk will present the OGC® SensorThings API specification and its MQTT extension, a new OGC® standa…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
+      <description>&lt;p&gt;We chose Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Summit: An opportunity to learn what open source can offer to IoT</title>
+      <link>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</link>
+      <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</guid>
+      <description>&lt;p&gt;The Eclipse IoT community has grown significantly over the last 1-2 years. There are now 20+ Eclipse IoT projects building open source technology for IoT solutions. We are well on our way to providing the key building blocks developers need to build IoT solutions…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
+      <description>&lt;p&gt;The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <link>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
+      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
+      <description>&lt;p&gt;We wanted a SCADA system we could use with access to some of the developers, which gives us the  exibility to adjust the system to our needs and grow over time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
+      <link>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT’s 2015 Year in Review</title>
+      <link>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</guid>
+      <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
+
+&lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
+      <link>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
+      <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;RISE V2G is a Reference Implementation Supporting the Evolution of the Vehicle-2-Grid communication interface ISO 15118. The international standard ISO 15118, entitled &amp;ldquo;Road vehicles - Vehicle to grid…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

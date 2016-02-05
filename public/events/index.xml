@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/events/</link>
+    <description>Recent content in Events on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CeBIT 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-14-CEBIT/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon - IoT Summit 2016</title>
+      <link>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</link>
+      <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded World 2016</title>
+      <link>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</link>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Evolution Expo</title>
+      <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE World Forum on Internet of Things</title>
+      <link>http://iot.eclipse.org/events/2015-12-16-IEEE/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-12-16-IEEE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPS IPC Drives 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon Europe 2015</title>
+      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaOne 2015</title>
+      <link>http://iot.eclipse.org/events/2015-10-25-javaone/</link>
+      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-10-25-javaone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding Serbia Conference</title>
+      <link>http://iot.eclipse.org/events/2015-10-08-codingserbia/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-10-08-codingserbia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry of Things World</title>
+      <link>http://iot.eclipse.org/events/2015-09-21/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-09-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M2M Summit 2015</title>
+      <link>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</link>
+      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting started with MQTT</title>
+      <link>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</link>
+      <pubDate>Thu, 02 Jul 2015 17:00:00 +0200</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon France 2015</title>
+      <link>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly SOLID</title>
+      <link>http://iot.eclipse.org/events/2015-06-23-solidcon/</link>
+      <pubDate>Tue, 23 Jun 2015 16:12:42 +0100</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-06-23-solidcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating hardware components for IoT application development</title>
+      <link>http://iot.eclipse.org/events/2015-06-10-kinoma/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2015-06-10-kinoma/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

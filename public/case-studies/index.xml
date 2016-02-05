@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case-studies on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/case-studies/</link>
+    <description>Recent content in Case-studies on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
+      <description>&lt;p&gt;We chose Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
+      <description>&lt;p&gt;The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
+      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
+      <description>&lt;p&gt;We wanted a SCADA system we could use with access to some of the developers, which gives us the  exibility to adjust the system to our needs and grow over time.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

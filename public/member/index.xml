@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Members on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/member/</link>
+    <description>Recent content in Members on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Siemens</title>
+      <link>http://iot.eclipse.org/member/siemens/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/siemens/</guid>
+      <description>&lt;p&gt;Siemens is a global powerhouse in electrical engineering and electronics. The company has 343,000 employees (as of September 30, 2014) working to develop and manufacture products, design and install complex systems and projects, and tailor a wide range of services for individual requirements.&lt;/p&gt;
+
+&lt;p&gt;Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.&lt;/p&gt;
+
+&lt;p&gt;Siemens contributes to various open source projects and also initiated several open source projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CA Technologies</title>
+      <link>http://iot.eclipse.org/member/ca/</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/ca/</guid>
+      <description>&lt;p&gt;CA Technologies (NASDAQ: CA) creates software that fuels transformation for companies and enables them to seize the opportunities of the application economy. Software is at the heart of every business, in every industry. From planning to development to management and security, CA is working with companies worldwide to change the way we live, transact and communicate.&lt;/p&gt;
+
+&lt;p&gt;CA software and solutions help our customers drive enterprise-wide productivity, offer differentiated user experiences and open new growth opportunities.&lt;/p&gt;
+
+&lt;p&gt;And, we are able to deliver this value across multiple environments &amp;ndash; mobile, private and public cloud, distributed and mainframe. Our goal is to be recognized by our customers as their critical partner in the new application economy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Software</title>
+      <link>http://iot.eclipse.org/member/generative-software/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/generative-software/</guid>
+      <description>&lt;p&gt;Generative Software is an Eclipse Solution Member since 2011 and joined the Working Group in summer 2015. It aims to provide DSLs, a canonical IoT meta model and Open-Source code generators that target the Eclipse IoT components and projects. This allows you to design and develop complete IoT solutions in a model-driven way, do rapid prototyping and keep track of the solution’s system and software architecture. At the same time, the Virtual Developer Platform serves as a central place, where many different IoT related generators can be found and all of them are accessed in a uniform way, without installation on a developer’s computer, no matter who develops or owns a generator (device manufacturer, platform vendor, solution developer, …).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Huawei</title>
+      <link>http://iot.eclipse.org/member/huawei/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/huawei/</guid>
+      <description>&lt;p&gt;Huawei Technologies is a high-tech enterprise which specializes in research and development (R&amp;amp;D), production and marketing of communications equipment, providing customized network solutions for telecom carriers in optical, fixed, mobile and data communications networks.&lt;/p&gt;
+
+&lt;p&gt;Huawei’s IoT platform is open and standard based. It provides a common foundation across different applications and services. Its flexible  and scalable architecture supports both Carrier and Enterprise market. The unified authentication and flexible data management Improves MSISDN Resource Utilization and provides Anti-theft, anti-attack and anti-embezzlement. The IoT SDK connect people and machine seamlessly and enable updatable and secure devices at the edge capable of additional processing and functionality. As a turnkey solution provider huawei IoT solution integrate with difference devices with heterogeneous network access path to allow heterogeneous protocols  to be connected to IoT platform.&lt;/p&gt;
+
+&lt;p&gt;Huawei is the active participant in the open source community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verisign</title>
+      <link>http://iot.eclipse.org/member/verisign/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/verisign/</guid>
+      <description>&lt;p&gt;VeriSign, Inc. is a global leader in domain names and Internet security. For more than 15 years, Verisign has operated the infrastructure for a portfolio of top-level domains that today includes .com, .net, .tv, .edu, .gov, .jobs, .name and .cc Verisign Device Services leverages our expertise in cybersecurity, deployed global infrastructure, and experience in distributed transaction processing to secure IoT platforms and services.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zolertia</title>
+      <link>http://iot.eclipse.org/member/zolertia/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/zolertia/</guid>
+      <description>&lt;p&gt;In Zolertia we provide Internet of Things hardware solutions for industrial partners, universities and R&amp;amp;D.&lt;/p&gt;
+
+&lt;p&gt;We are helping companies worldwide to connect things to the Internet in order to solve their needs and create faster and more efficient processes and solutions which means less maintenance investment and cost time saving to improve the fully operative structure of the companies that yearly could suppose a waste of millions EUR, with a technology with 30 times more range and 200 times less power consumption than Wi-Fi.&lt;/p&gt;
+
+&lt;p&gt;Zolertia hardware platforms have been distributed to more than 300 universities, R&amp;amp;D centers, industrial partners and designers like Cisco, Orange, Acciona, Endesa, Sony, Philips, Intel or Siemens in more than 45 different countries.
+We hope to help the developing and promotion of IoT open standards, and bring to the developer and maker community the best hardware platforms and tools to achieve this.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Azul Systems</title>
+      <link>http://iot.eclipse.org/member/azul/</link>
+      <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/azul/</guid>
+      <description>&lt;p&gt;Azul Systems is the world’s only company that is 100% focused on Java and Java runtime technology. We believe that we can help the IoT developers take advantage of the power and productivity of Java by reducing the frictions (licensing costs, field-of-use restrictions) and perceptions (footprint, etc.) gating widespread adoption of the language throughout the IoT.&lt;/p&gt;
+
+&lt;p&gt;As members of the Eclipse community we are bringing Zulu and Zulu Embedded – our 100% open source JDKs, to the IoT. Our Zulu products are certified builds of OpenJDK and meet the Java SE standards for Java 8, 7 and 6.  Each release of Zulu and Zulu Embedded has passed the thousands of tests in OpenJDK Technology Compatibility Kit (TCK) as well as Azul’s extensive in-house verification suite. Zulu runs on many Linux distros, on Windows and the Mac.&lt;/p&gt;
+
+&lt;p&gt;Zulu is a complete Java Development Kit, and Zulu Enterprise provides designers with a choice of storage footprint, bitness (32 or 64-bit configurations), headless or headful, and both development and runtime-only options.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Red Hat</title>
+      <link>http://iot.eclipse.org/member/redhat/</link>
+      <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/redhat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sierra Wireless</title>
+      <link>http://iot.eclipse.org/member/sierra/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:22 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/sierra/</guid>
+      <description>&lt;p&gt;Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry&amp;rsquo;s most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.&lt;/p&gt;
+
+&lt;p&gt;Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>openHAB UG</title>
+      <link>http://iot.eclipse.org/member/openhab/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/openhab/</guid>
+      <description>&lt;p&gt;openHAB UG (haftungsbeschränkt) is the company behind the open-source home automation solution openHAB and believes that an open-source stack is the only right answer for home gateways. openHAB UG therefore initiated the Eclipse SmartHome project and is the lead developer behind it.&lt;/p&gt;
+
+&lt;p&gt;The Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access to devices and information and to facilitate different kinds of interactions with them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Litmus Automation</title>
+      <link>http://iot.eclipse.org/member/litmus/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/litmus/</guid>
+      <description>&lt;p&gt;Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>M2M Alliance</title>
+      <link>http://iot.eclipse.org/member/m2m-alliance/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/m2m-alliance/</guid>
+      <description>&lt;p&gt;As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LAAS-CNRS</title>
+      <link>http://iot.eclipse.org/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/laas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itemis</title>
+      <link>http://iot.eclipse.org/member/itemis/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/itemis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GadgetKeeper</title>
+      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
+      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
+
+&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
+
+&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
