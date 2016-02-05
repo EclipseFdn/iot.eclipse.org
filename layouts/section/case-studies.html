@@ -4,52 +4,83 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Download the Open IoT stack for Java</title>
-  <meta name="description" content="Download the Open IoT stack for Java">
+  <title>iot.eclipse.org &mdash; Case Studies</title>
+  <meta name="description" content="TODO">
   <meta name="author" content="Eclipse.org">
   <link rel="author" href="humans.txt" />
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
   <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-  <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <link href="../stylesheet/prism.css" rel="stylesheet" />
-  <link href="../stylesheet/bootstrap-lightbox.min.css" rel="stylesheet" />
-  <style type="text/css">
-  .container h4 {
-    margin-left: 3em;
-  }
-  
-  .container h4:before {
-    content: "> ";
-  }
-  
-  img.fleft {
-    float: left;
-    width: 200px;
-    margin-right: 2em;
-    margin-bottom: 1em;
-  }
-  </style>
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-594061-11']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-  })();
+  <!-- Le styles -->
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="/assets/css/icomoon.css" rel="stylesheet">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-594061-11', 'auto');
+    ga('send', 'pageview');
+
   </script>
+
+  <style>
+    blockquote {
+      background: #f9f9f9;
+      border-left: 5px solid #ccc;
+      margin: 0.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C" "\201D";
+    }
+
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+
+    blockquote p {
+      display: inline;
+    }
+ 
+  </style>
+
+
 </head>
 
 <body>
+
   <header>
+
+
     <nav class="navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -64,6 +95,7 @@
             <img alt="Brand" src="/assets/images/iot-logo.png">
           </a>
         </div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -81,11 +113,11 @@
             </li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Resources</a>
+                <li><a href="/resources">Resources</a>
                 </li>
-                <li><a href="#">News</a>
+                <li><a href="/news">News</a>
                 </li>
-                <li><a href="#">Events</a>
+                <li><a href="/events">Events</a>
                 </li>
               </ul>
             </li>
@@ -100,7 +132,10 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
+
+
   </header>
+
   <!-- Place this tag after the last +1 button tag. -->
   <script type="text/javascript">
   (function() {
@@ -112,63 +147,67 @@
     s.parentNode.insertBefore(po, s);
   })();
   </script>
+
   <main class="main">
+
     <div class="well">
       <div class="container">
-        <h1>
-              Download
-            </h1>
-        <div>
-          <p class="lead">Starting building your IoT solutions using the Open IoT Stack for Java thanks to our open-source software components.</p>
+        <h1>What people are building with Eclipse IoT</h1>
+
+        <div class="lead">
+          <p>Lorem ipsum Ex incididunt aute eiusmod elit laborum ea sit consectetur incididunt.</p>
+          <p>Lorem ipsum Nisi Ut consequat quis velit ullamco officia incididunt elit magna eiusmod proident magna adipisicing exercitation dolor.</p>
+
         </div>
       </div>
     </div>
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div id="kura" class="col-md-6">
-          <h2 class="purple">Kura</h2>
-          <p>Kura offers a Java/OSGi-based container for IoT applications running in service gateways.</p>
-          <p>You can download ready-to-use Kura distributions for popular IoT platforms like Raspberry Pi and BeagleBone Black <a href="https://www.eclipse.org/kura/downloads.php#debian_packages" target="_blank">here</a>.</p>
-        </div>
-        <div id="smarthome" class="col-md-6">
-          <h2 class="purple">SmartHome</h2>
-          <p>Eclipse SmartHome is designed as a set of OSGi bundles that can be run on any OSGi container, such as Eclipse Equinox or Apache Felix.</p>
-          <p>You can download the Eclipse SmartHome Designer <a href="https://www.eclipse.org/smarthome/download.html" target="_blank">here</a>.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div id="californium" class="col-md-6">
-          <h2 class="purple">Californium</h2>
-          <p>Eclipse Californium is a powerful CoAP framework targetting back-end services and stronger Internet of Things devices.
-          </p>
-          <p>You can use Californium in your Java-based IoT project by using the Maven artifacts available <a href="https://repo.eclipse.org/content/groups/californium/" target="_blank">here</a>.</p>
-        </div>
-        <div id="paho" class="col-md-6">
-          <h2 class="purple">Paho</h2>
-          <p>The Eclipse Paho project provides open-source implementations of MQTT clients and tools.
-          </p>
-          <p>You can use the Java client in your Java SE project by following the instructions <a href="https://www.eclipse.org/paho/clients/java/" target="_blank">here</a>.
-            <br> For Android, you may want to check out the <a href="https://www.eclipse.org/paho/clients/android/" target="_blank">ready-to-use Android service</a>.</p>
+
+    <section class="first">
+      <div class="container">
+        <div class="row">
+
+          {{ range where .Site.Pages.ByTitle ".Type" "case-studies" }} 
+            <div class="col-md-6" style="padding-bottom:20px">
+              <div class="row">
+
+                <div class="col-md-12">
+                  <h3>{{ .Params.company }} </h3>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="{{ .Params.img }}" class="img-responsive"/>
+                </div>
+                <div class="col-md-8">
+                  <blockquote>
+                    {{ .Content }}
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+
         </div>
       </div>
-      <div class="row">
-        <div id="om2m" class="col-md-6">
-          <h2 class="purple">OM2M</h2>
-          <p>The OM2M project, is an open source implementation of the ETSI M2M standard.
-          </p>
-          <p>You can check out the source code from <a href="http://git.eclipse.org/c/om2m" target="_blank">OM2M's git repo</a>.
-        </div>
-        <div id="scada" class="col-md-6">
-          <h2 class="purple">Eclipse SCADA</h2>
-          <p>Eclipse SCADA provides a state of the art open source SCADA system, from communication system, to monitoring, data archiving and advanced GUIs.
-          </p>
-          <p>You can download Eclipse SCADA <a href="https://www.eclipse.org/eclipsescada/downloads.html" target="_blank">here</a>.
-        </div>
+    </section>
+
+    <section class="second">
+      <div class="container">
+        <h1>Your success story here!</h1>
+        <p>Lorem ipsum Eiusmod amet laborum cillum laborum commodo consequat incididunt non laboris quis in commodo exercitation exercitation adipisicing Excepteur sint qui velit aute in voluptate veniam ex ex.</p>
       </div>
+    </section>
+
+    <section class="third">
+      <div class="container">
+      </div>
+    </section>
+
+    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
+
     </div>
   </main>
-  <hr>
+  <!-- /container -->
+
     <footer>
 
     <div class="container">
@@ -217,14 +256,14 @@
 
 
   </footer>
-  <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
+
+  <!-- JS is at the end of the document so the pages load faster -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="/js/index.js"></script>
-  <script src="../js/prism.js"></script>
-  <script src="../js/bootstrap-lightbox.min.js"></script>
+
+
 </body>
 
 </html>
