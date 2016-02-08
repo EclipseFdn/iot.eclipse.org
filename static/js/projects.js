@@ -8,7 +8,7 @@
 var projectsAssociation = {
     "Standards": ["iot.paho", "iot.paho.incubator", "iot.californium", "iot.om2m", "iot.mosquitto", "iot.moquette", "iot.wakaama", "iot.leshan", "iot.concierge", "iot.risev2g", "iot.4diac", "iot.tiaki", "iot.tinydtls"],
 
-    "Frameworks": ["iot.om2m", "iot.krikkit", "iot.kura", "iot.mihini", "iot.ponte", "iot.smarthome", "iot.eclipsescada", "iot.4diac"],
+    "Frameworks": ["iot.hono", "iot.om2m", "iot.krikkit", "iot.kura", "iot.mihini", "iot.ponte", "iot.smarthome", "iot.eclipsescada", "iot.4diac"],
 
     // rest is "others" (Ignite, ...)
 };
