@@ -6,8 +6,18 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jan 2016 16:56:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2016 17:09:33 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse Vorto As A Service</title>
+      <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
@@ -154,16 +164,6 @@
       <guid>http://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</guid>
       <description>&lt;p&gt;In this talk +Günter Obiltschnig will introduce macchina.io (&lt;a href=&#34;http://macchina.io&#34;&gt;http://macchina.io&lt;/a&gt;), a new open source platform for programming Linux-based IoT gateway devices.
 macchina.io provides a rich programming en…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Getting started with MQTT: Everything you need to know about the lightweight IoT protocol</title>
-      <link>http://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</link>
-      <pubDate>Thu, 02 Jul 2015 16:02:06 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…&lt;/p&gt;
 </description>
     </item>
     

@@ -37,6 +37,16 @@
     </item>
     
     <item>
+      <title>Eclipse Vorto As A Service</title>
+      <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IoT Evolution Expo</title>
       <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
@@ -143,16 +153,6 @@
       <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
 
 &lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
-      <link>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
-      <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;RISE V2G is a Reference Implementation Supporting the Evolution of the Vehicle-2-Grid communication interface ISO 15118. The international standard ISO 15118, entitled &amp;ldquo;Road vehicles - Vehicle to grid…&lt;/p&gt;
 </description>
     </item>
     
