@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Smart Summit</title>
+      <link>http://iot.eclipse.org/events/2016-04-07-smart-summit/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-07-smart-summit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CeBIT 2016</title>
@@ -142,18 +151,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT’s 2015 Year in Review</title>
-      <link>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</guid>
-      <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
-
-&lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
-</description>
     </item>
     
   </channel>

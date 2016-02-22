@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Smart Summit</title>
+      <link>http://iot.eclipse.org/events/2016-04-07-smart-summit/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-07-smart-summit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CeBIT 2016</title>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 23 Jun 2015 16:12:42 +0100</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-06-23-solidcon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulating hardware components for IoT application development</title>
-      <link>http://iot.eclipse.org/events/2015-06-10-kinoma/</link>
-      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-06-10-kinoma/</guid>
       <description></description>
     </item>
     
