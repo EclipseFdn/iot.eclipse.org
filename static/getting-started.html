@@ -173,9 +173,11 @@
               Access the server using the hostname
               <code>iot.eclipse.org</code> and port
               <code>1883</code>. You can also access the server using encrypted port <code>8883</code>
+            <br/>
+              The encrypted port support TLS v1.2, v1.1 or v1.0 with x509 certificates and requires client support to connect.
             </p>
             <p>
-              The encrypted port support TLS v1.2, v1.1 or v1.0 with x509 certificates and require client support to connect. In all cases you should use the certificate authority file <a href="/iot.eclipse.org.crt">iot.eclipse.org.crt</a> to verify the server connection.
+              You can also use <strong>MQTT over WebSockets</strong>, both plain and secured, using the following connection URIs (respectively): <code>ws://iot.eclipse.org:80/ws</code> and <code>wss://iot.eclipse.org:443/ws</code>  
             </p>
             <p>
               Some live statistics are available via <a href="https://xively.com/feeds/59871/">Xively</a> and an HTTP bridge with a list of topics is deployed at <a href="http://eclipse.mqttbridge.com">http://eclipse.mqttbridge.com</a>. This server is running the Open Source <a href="http://mosquitto.org/">Mosquitto broker</a> in its most recently released version.
