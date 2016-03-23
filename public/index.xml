@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Eclipse Kura: A gateway framework built for IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
+      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Embedded World 2016</title>
       <link>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</link>
       <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
@@ -74,24 +84,22 @@
     </item>
     
     <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
+      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IoT Evolution Expo</title>
       <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
-      <link>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</link>
-      <pubDate>Wed, 27 Jan 2016 16:56:39 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&#34;&gt;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This talk will present the OGC® SensorThings API specification and its MQTT extension, a new OGC® standa…&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -141,15 +149,6 @@
       <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
       <description>&lt;p&gt;The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
-      <link>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
-      <description></description>
     </item>
     
   </channel>

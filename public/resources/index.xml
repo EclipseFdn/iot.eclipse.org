@@ -6,8 +6,18 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Feb 2016 17:09:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Mar 2016 19:41:37 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse Kura: A gateway framework built for IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
+      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse Vorto As A Service</title>
@@ -21,13 +31,11 @@
     
     <item>
       <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
-      <link>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</link>
-      <pubDate>Wed, 27 Jan 2016 16:56:39 +0000</pubDate>
+      <link>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
+      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-01-27-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides: &lt;a href=&#34;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&#34;&gt;http://www.slideshare.net/steve.liang/iot-data-interoperability-with-a-geoweb-approach&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This talk will present the OGC® SensorThings API specification and its MQTT extension, a new OGC® standa…&lt;/p&gt;
+      <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
     </item>
     
@@ -153,17 +161,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
       <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Programming IoT Gateways in JavaScript with macchina.io</title>
-      <link>http://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</link>
-      <pubDate>Thu, 23 Jul 2015 16:02:36 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;In this talk +Günter Obiltschnig will introduce macchina.io (&lt;a href=&#34;http://macchina.io&#34;&gt;http://macchina.io&lt;/a&gt;), a new open source platform for programming Linux-based IoT gateway devices.
-macchina.io provides a rich programming en…&lt;/p&gt;
 </description>
     </item>
     
