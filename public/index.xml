@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIdO</title>
@@ -141,16 +150,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
-      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
-      <description>&lt;p&gt;We wanted a SCADA system we could use with access to some of the developers, which gives us the  exibility to adjust the system to our needs and grow over time.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

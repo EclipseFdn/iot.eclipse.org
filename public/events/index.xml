@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIdO</title>
@@ -132,15 +141,6 @@
       <pubDate>Thu, 02 Jul 2015 17:00:00 +0200</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EclipseCon France 2015</title>
-      <link>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</link>
-      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</guid>
       <description></description>
     </item>
     
