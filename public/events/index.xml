@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>OpenIoT Summit</title>
+      <link>http://iot.eclipse.org/events/2016-04-06-openiot/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-06-openiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CeBIT 2016</title>
       <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getting started with MQTT</title>
-      <link>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</link>
-      <pubDate>Thu, 02 Jul 2015 17:00:00 +0200</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
       <description></description>
     </item>
     

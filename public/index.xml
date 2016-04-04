@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>OpenIoT Summit</title>
+      <link>http://iot.eclipse.org/events/2016-04-06-openiot/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-04-06-openiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CeBIT 2016</title>
       <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
@@ -138,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
       <description>&lt;p&gt;OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
-      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
-      <description>&lt;p&gt;The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful&lt;/p&gt;
 </description>
     </item>
     
