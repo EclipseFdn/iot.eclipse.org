@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT World</title>
+      <link>http://iot.eclipse.org/events/2016-05-10-iot-world/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day Grenoble</title>
@@ -132,15 +141,6 @@
       <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-09-21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>M2M Summit 2015</title>
-      <link>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</link>
-      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
       <description></description>
     </item>
     
