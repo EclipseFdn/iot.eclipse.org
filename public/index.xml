@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 May 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon France 2016</title>
+      <link>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT World</title>
@@ -137,16 +146,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Summit: An opportunity to learn what open source can offer to IoT</title>
-      <link>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</link>
-      <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</guid>
-      <description>&lt;p&gt;The Eclipse IoT community has grown significantly over the last 1-2 years. There are now 20+ Eclipse IoT projects building open source technology for IoT solutions. We are well on our way to providing the key building blocks developers need to build IoT solutions…&lt;/p&gt;
-</description>
     </item>
     
   </channel>
