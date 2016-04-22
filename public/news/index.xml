@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT Developer Survey Results Are In!</title>
+      <link>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
+      <description>&lt;p&gt;The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IoT Summit: An opportunity to learn what open source can offer to IoT</title>
@@ -149,17 +159,6 @@ I have recently crunched the numbers again and here are 3 interesting facts abou
       
       <guid>http://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
       <description>&lt;p&gt;High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bridging IoTivity and Eclipse SmartHome</title>
-      <link>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</link>
-      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</guid>
-      <description>&lt;p&gt;There are several ongoing initiatives that aim at standardizing protocols and interfaces in order to enable a truly interoperable Internet of Things.
-On the protocol front, I would certainly argue…&lt;/p&gt;
 </description>
     </item>
     

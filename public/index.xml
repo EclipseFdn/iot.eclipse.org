@@ -37,6 +37,16 @@
     </item>
     
     <item>
+      <title>IoT Developer Survey Results Are In!</title>
+      <link>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
+      <description>&lt;p&gt;The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SIdO</title>
       <link>http://iot.eclipse.org/events/2016-04-07-sido/</link>
       <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
@@ -137,15 +147,6 @@
       <guid>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
       <description>&lt;p&gt;We chose Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
-      <link>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
-      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
-      <description></description>
     </item>
     
   </channel>
