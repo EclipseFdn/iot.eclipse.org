@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JavaOne 2016</title>
+      <link>http://iot.eclipse.org/events/2016-09-18-javaone/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-18-javaone/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EclipseCon France 2016</title>
@@ -138,15 +147,6 @@
       <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
       <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>IoT Evolution Expo</title>
-      <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
-      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
-      <description></description>
     </item>
     
   </channel>
