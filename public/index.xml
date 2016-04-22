@@ -37,6 +37,16 @@
     </item>
     
     <item>
+      <title>Can open source solve the too many IoT standards problem?</title>
+      <link>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
+      <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IoT Developer Survey Results Are In!</title>
       <link>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
@@ -137,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
-      <link>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
-      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
-      <description>&lt;p&gt;We chose Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Can open source solve the too many IoT standards problem?</title>
+      <link>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
+      <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IoT Developer Survey Results Are In!</title>
@@ -149,16 +159,6 @@ I have recently crunched the numbers again and here are 3 interesting facts abou
       
       <guid>http://iot.eclipse.org/news/2015-07-14-meetup/</guid>
       <description>&lt;p&gt;About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT Security: An open source and open standard approach</title>
-      <link>http://iot.eclipse.org/news/2015-06-15-iot-security/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
-      <description>&lt;p&gt;High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…&lt;/p&gt;
 </description>
     </item>
     
