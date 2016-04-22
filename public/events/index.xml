@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon Europe 2016</title>
+      <link>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JavaOne 2016</title>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaOne 2015</title>
-      <link>http://iot.eclipse.org/events/2015-10-25-javaone/</link>
-      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-10-25-javaone/</guid>
       <description></description>
     </item>
     

@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon Europe 2016</title>
+      <link>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JavaOne 2016</title>
@@ -136,16 +145,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
       <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
-      <link>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
-      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
     </item>
     
