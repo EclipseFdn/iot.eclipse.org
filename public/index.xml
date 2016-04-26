@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
+      <link>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
+      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
+      <description>&lt;p&gt;NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Can open source solve the too many IoT standards problem?</title>
       <link>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
@@ -136,16 +146,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse Vorto As A Service</title>
-      <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
-      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
-</description>
     </item>
     
   </channel>

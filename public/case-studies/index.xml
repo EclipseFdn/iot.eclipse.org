@@ -6,8 +6,18 @@
     <description>Recent content in Case-studies on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
+      <link>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
+      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
+      <description>&lt;p&gt;NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
