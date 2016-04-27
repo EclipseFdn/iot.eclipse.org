@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Case Study 4DIAC: Smart Grid Automation (SGA) Software</title>
+      <link>http://iot.eclipse.org/news/2016-04-27case-study-noja/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-27case-study-noja/</guid>
+      <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Can open source solve the too many IoT standards problem?</title>
@@ -149,16 +159,6 @@ I have recently crunched the numbers again and here are 3 interesting facts abou
       
       <guid>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</guid>
       <description>&lt;p&gt;Solair Corporate announces the first IoT “off-the-shelf” product that allows you to connect machines, things and sensors in a few clicks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learn from IoT experts with the Virtual IoT meetup group</title>
-      <link>http://iot.eclipse.org/news/2015-07-14-meetup/</link>
-      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-07-14-meetup/</guid>
-      <description>&lt;p&gt;About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…&lt;/p&gt;
 </description>
     </item>
     

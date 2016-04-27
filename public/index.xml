@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Case Study 4DIAC: Smart Grid Automation (SGA) Software</title>
+      <link>http://iot.eclipse.org/news/2016-04-27case-study-noja/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-27case-study-noja/</guid>
+      <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
       <link>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
@@ -137,15 +147,6 @@
       <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Embedded World 2016</title>
-      <link>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</link>
-      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
-      <description></description>
     </item>
     
   </channel>
