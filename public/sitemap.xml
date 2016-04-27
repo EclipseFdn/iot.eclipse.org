@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://iot.eclipse.org/</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2016-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</loc>
+    <lastmod>2016-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,8 +23,23 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/events/2016-09-12-thingmonk/</loc>
+    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</loc>
     <lastmod>2016-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</loc>
+    <lastmod>2016-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2016-05-18-oscon/</loc>
+    <lastmod>2016-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

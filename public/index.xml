@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ETSI IoT/M2M Workshop</title>
+      <link>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EclipseCon Europe 2016</title>
@@ -28,11 +37,38 @@
     </item>
     
     <item>
+      <title>ThingMonk</title>
+      <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EclipseCon France 2016</title>
       <link>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</link>
       <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT DevCon</title>
+      <link>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSCON 2016</title>
+      <link>http://iot.eclipse.org/events/2016-05-18-oscon/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-05-18-oscon/</guid>
       <description></description>
     </item>
     
@@ -110,43 +146,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-04-07-smart-summit/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>OpenIoT Summit</title>
-      <link>http://iot.eclipse.org/events/2016-04-06-openiot/</link>
-      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-04-06-openiot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CeBIT 2016</title>
-      <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
-      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-03-14-CEBIT/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EclipseCon - IoT Summit 2016</title>
-      <link>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</link>
-      <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-03-10-EclipseCon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse Kura: A gateway framework built for IoT</title>
-      <link>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
-      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
-</description>
     </item>
     
   </channel>

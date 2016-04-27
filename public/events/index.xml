@@ -6,8 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ETSI IoT/M2M Workshop</title>
+      <link>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EclipseCon Europe 2016</title>
@@ -28,11 +37,38 @@
     </item>
     
     <item>
+      <title>ThingMonk</title>
+      <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EclipseCon France 2016</title>
       <link>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</link>
       <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT DevCon</title>
+      <link>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSCON 2016</title>
+      <link>http://iot.eclipse.org/events/2016-05-18-oscon/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-05-18-oscon/</guid>
       <description></description>
     </item>
     
@@ -105,42 +141,6 @@
       <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-02-23-Embedded-world/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Evolution Expo</title>
-      <link>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</link>
-      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-01-26-IoT-Evolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IEEE World Forum on Internet of Things</title>
-      <link>http://iot.eclipse.org/events/2015-12-16-IEEE/</link>
-      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-12-16-IEEE/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SPS IPC Drives 2015</title>
-      <link>http://iot.eclipse.org/events/2015-11-23-SPS/</link>
-      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-11-23-SPS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EclipseCon Europe 2015</title>
-      <link>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
-      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
       <description></description>
     </item>
     
