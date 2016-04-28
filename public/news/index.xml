@@ -6,15 +6,25 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Eclipse NeoSCADA 0.3.0 released</title>
+      <link>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</guid>
+      <description>&lt;p&gt;The Eclipse NeoSCADA team is proud to finally announce the 0.3.0 release!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Case Study 4DIAC: Smart Grid Automation (SGA) Software</title>
-      <link>http://iot.eclipse.org/news/2016-04-27case-study-noja/</link>
+      <link>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2016-04-27case-study-noja/</guid>
+      <guid>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</guid>
       <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
 </description>
     </item>
@@ -149,16 +159,6 @@
       <guid>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
       <description>&lt;p&gt;About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community.
 I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT? No more excuses. Solair to launch “IoT-in-a-Box”</title>
-      <link>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</link>
-      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</guid>
-      <description>&lt;p&gt;Solair Corporate announces the first IoT “off-the-shelf” product that allows you to connect machines, things and sensors in a few clicks.&lt;/p&gt;
 </description>
     </item>
     

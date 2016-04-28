@@ -91,11 +91,21 @@
     </item>
     
     <item>
+      <title>Eclipse NeoSCADA 0.3.0 released</title>
+      <link>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</guid>
+      <description>&lt;p&gt;The Eclipse NeoSCADA team is proud to finally announce the 0.3.0 release!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Case Study 4DIAC: Smart Grid Automation (SGA) Software</title>
-      <link>http://iot.eclipse.org/news/2016-04-27case-study-noja/</link>
+      <link>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2016-04-27case-study-noja/</guid>
+      <guid>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</guid>
       <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
 </description>
     </item>
@@ -136,15 +146,6 @@
       <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-04-07-sido/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smart Summit</title>
-      <link>http://iot.eclipse.org/events/2016-04-07-smart-summit/</link>
-      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-04-07-smart-summit/</guid>
       <description></description>
     </item>
     
