@@ -73,6 +73,16 @@
     </item>
     
     <item>
+      <title>5 Things I learnt at IoT World 2016</title>
+      <link>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</guid>
+      <description>&lt;p&gt;Discover the five things Benjamin Cabé learnt at IoT World 2016 last week!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IoT World</title>
       <link>http://iot.eclipse.org/events/2016-05-10-iot-world/</link>
       <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
@@ -138,15 +148,6 @@
       <guid>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
       <description>&lt;p&gt;The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>SIdO</title>
-      <link>http://iot.eclipse.org/events/2016-04-07-sido/</link>
-      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-04-07-sido/</guid>
-      <description></description>
     </item>
     
   </channel>

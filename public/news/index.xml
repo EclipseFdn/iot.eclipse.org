@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>5 Things I learnt at IoT World 2016</title>
+      <link>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</guid>
+      <description>&lt;p&gt;Discover the five things Benjamin Cabé learnt at IoT World 2016 last week!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse NeoSCADA 0.3.0 released</title>
@@ -148,17 +158,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</guid>
       <description>&lt;p&gt;When you prototype IoT solutions, it becomes necessary very early in your development phase to use an actual embedded platform to run your software, and to test it in an environment that is as close as possible of what you expect your production environment to be…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Growing an open community: 3 interesting facts about Eclipse IoT</title>
-      <link>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</link>
-      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
-      <description>&lt;p&gt;About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community.
-I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…&lt;/p&gt;
 </description>
     </item>
     
