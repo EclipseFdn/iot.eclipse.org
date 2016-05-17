@@ -6,8 +6,18 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Mar 2016 19:41:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 May 2016 19:41:37 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT - A Simple Overview</title>
+      <link>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
+      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
+      <description>&lt;p&gt;Eclipse IoT - A Simple Overview. IoT needs  open source to be successful. Eclipse IoT simplifies IoT developement.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse Kura: A gateway framework built for IoT</title>
@@ -20,7 +30,7 @@
     </item>
     
     <item>
-      <title>Eclipse Vorto As A Service</title>
+      <title>Eclipse Vorto as a Service</title>
       <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
       <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
       
@@ -151,16 +161,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</guid>
       <description>&lt;p&gt;Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</title>
-      <link>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
-      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
-      <description>&lt;p&gt;In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.&lt;/p&gt;
 </description>
     </item>
     

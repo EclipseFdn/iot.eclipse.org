@@ -73,6 +73,16 @@
     </item>
     
     <item>
+      <title>Eclipse IoT - A Simple Overview</title>
+      <link>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
+      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
+      <description>&lt;p&gt;Eclipse IoT - A Simple Overview. IoT needs  open source to be successful. Eclipse IoT simplifies IoT developement.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>5 Things I learnt at IoT World 2016</title>
       <link>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
@@ -137,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
       <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT Developer Survey Results Are In!</title>
-      <link>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
-      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
-      <description>&lt;p&gt;The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…&lt;/p&gt;
 </description>
     </item>
     
