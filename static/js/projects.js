@@ -6,9 +6,9 @@
 
 
 var projectsAssociation = {
-    "Standards": ["iot.paho", "iot.paho.incubator", "iot.californium", "iot.om2m", "iot.mosquitto", "iot.moquette", "iot.wakaama", "iot.leshan", "iot.concierge", "iot.risev2g", "iot.4diac", "iot.tiaki", "iot.tinydtls"],
+    "Standards": ["iot.paho", "iot.paho.incubator", "iot.californium", "iot.om2m", "iot.mosquitto", "iot.moquette", "iot.wakaama", "iot.leshan", "iot.concierge", "iot.risev2g", "iot.4diac", "iot.tiaki", "iot.tinydtls", "iot.tinydtls", "iot.milo"],
 
-    "Frameworks": ["iot.hono", "iot.om2m", "iot.krikkit", "iot.kura", "iot.mihini", "iot.ponte", "iot.smarthome", "iot.eclipsescada", "iot.4diac"],
+    "Frameworks": ["iot.hono", "iot.om2m", "iot.krikkit", "iot.kura", "iot.mihini", "iot.ponte", "iot.smarthome", "iot.eclipsescada", "iot.4diac", "iot.whiskers"],
 
     // rest is "others" (Ignite, ...)
 };
