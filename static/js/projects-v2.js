@@ -35,14 +35,15 @@ var projectAliases = {
 
         $.ajax({
             type: "GET",
-//            url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
-//            dataType: "jsonp",
+            //            url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
+            //            dataType: "jsonp",
             url: "/projects.json",
             dataType: "json",
             cache: true,
             success: function(data) {
 
                 var projectBoxes = {};
+                var projectInfos = [];
 
                 var val = 20;
                 $('.progress-bar').css('width', val + '%').attr('aria-valuenow', val);
@@ -70,21 +71,24 @@ var projectAliases = {
                     var link = value.website;
                     var logo = value.logo;
                     var style = "";
-                    var showlogo = false;
+                    var showlogo = true;
 
                     if (id == 'rt.ecf' || id == 'tools.sequoyah.mtj' || id == "technology.koneki")
                         return true;
 
                     var boxOutput = "";
 
-                    boxOutput += "<div class=\"col-md-4 col-sm-6 itembox\"" + style + " id =\"" + id.replace('.', '-') + "\">";
+                    boxOutput += "<li class=\"col-md-4 col-sm-6 itembox\"" + style + " id =\"" + id.replace('.', '-') + "\">";
                     if (validateUrl(logo) && showlogo === true) {
                         boxOutput += "<img class =\"logo\" alt=\"" + title + " logo\" src=\"" + logo + "\">";
                     } else {
-                        boxOutput += "<h3 class=\"purple\">" + title + "</h3>";
+                        boxOutput += "<h3 class=\"purple project-name\">" + title + "</h3>";
                     }
 
                     boxOutput += "<p>" + desc + "</p>";
+
+                    boxOutput += "<h3>Example <span class=\"label label-default\">New</span></h3>";
+
 
                     if (!validateUrl(link)) {
                         link = "http://projects.eclipse.org/projects/" + id;
@@ -94,81 +98,70 @@ var projectAliases = {
                     boxOutput += "<a href=\"" + link + "\" class=\"readmore\" target=\"_blank\">Read more</i></a>";
                     boxOutput += "<a href=\"https://projects.eclipse.org/projects/" + id + "/downloads\" class=\"download\" target=\"_blank\">Download</a>";
 
-                    boxOutput += "</div>";
+                    boxOutput += "</li>";
 
                     projectBoxes[id] = boxOutput;
+
+                    projectInfo = {};
+                    projectInfo.link = value.website;
+                    projectInfo.link = value.website;
+                    projectInfo.logo = value.logo || 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
+                    projectInfo.id = id;
+                    projectInfo.name = title;
+                    projectInfo.description = stringJanitor(value.description, {
+                        "cut": true,
+                        "ellipsis": "&hellip;"
+                    });
+                    projectInfo.downloads = 100;
+
+                    projectInfos.push(projectInfo);
 
                     i++;
                 });
 
-                $("#update-project").empty();
-                $("#update-project").removeClass("loading");
-
-                var output = "";
-
-                for (var k in projectsAssociation) {
-                    output += "<div class=\"container\">";
-                    output += "<h1 class=\"purple\">" + k + "</h1>";
-                    output += "<div class=\"projects-row row-fluid\">";
-
-                    projectsAssociation[k].forEach(function(elem) {
-                        output += projectBoxes[elem];
-                    });
-
-                    output += "</div>"; // end row-fluid
-                    output += "</div>"; // end container
-                }
-
-                // and now ... "The Others"!
-                output += "<div class=\"container\">";
-                output += "<h1 class=\"purple\">Others</h1>";
-                output += "<div class=\"projects-row row-fluid\">";
-
-                for (var k in projectBoxes) {
-                    var found = false;
-                    // is the project in any other category?
-                    for (var kk in projectsAssociation) {
-                        projectsAssociation[kk].forEach(function(elem) {
-                            if (elem == k) {
-                                found = true;
-                                return;
-                            }
-                        });
-                    }
-
-                    if (!found) {
-                        console.log(k);
-                        output += projectBoxes[k];
-                    }
-
-                }
-
-                output += "</div>"; // end row-fluid
-                output += "</div>"; // end container
-
 
                 // Insert html and resize the boxes.
-                $("#update-project").append('</div>' + output);
-                resize();
+                //$("#update-project").append('</div>' + output);
+                //resize();
 
-        //      $('.projects-row').shuffle();
+                //      $('.projects-row').shuffle();
 
-      $('.projects-row').each ( function (index)  {
-	      $(this).find('.itembox').sort(function (a, b) {
-	           // console.log(a.getAttribute('id').toLowerCase());
-	           var s1 = a.getAttribute('id').toLowerCase();
-	           var s2 = b.getAttribute('id').toLowerCase();
+                $('.projects-row').each(function(index) {
+                    $(this).find('.itembox').sort(function(a, b) {
+                        // console.log(a.getAttribute('id').toLowerCase());
+                        var s1 = a.getAttribute('id').toLowerCase();
+                        var s2 = b.getAttribute('id').toLowerCase();
 
-	          return s1.localeCompare(s2);
-	      }).replaceAll( $(this) );
-      }   );
+                        return s1.localeCompare(s2);
+                    }).replaceAll($(this));
+                });
 
+                var options = {
+                    item: '<li><div class="media">\
+                              <div class="media-left media-middle">\
+                                <a href="#">\
+                                  <img class="media-object img-responsive logo">\
+                                </a>\
+                              </div>\
+                              <div class="media-body">\
+                                <h3 class="name"></h3><p class="description"></p>\
+                              </div>\
+                            </div></li>',
+                    valueNames: [ 'name', 'description', { name: 'logo', attr: 'src' }] 
+                };
+
+                var list = new List('project-list-v2', options, projectInfos);
+
+
+                $("#update-project").empty();
+                $("#update-project").removeClass("loading");
 
 
             },
         });
 
     });
+
     // Validate URL.
     var validateUrl = function validateUrl(str) {
         return (/^(http|https|ftp):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/i).test(str);
@@ -195,7 +188,7 @@ var projectAliases = {
         var settings = $.extend({
             // These are the defaults.
             start: 0,
-            end: 200,
+            end: 250,
             html: false,
             ellipsis: "",
             cut: false,

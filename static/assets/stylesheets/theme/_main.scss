@@ -285,6 +285,59 @@ main.main {
         }
     }
 
+        /* Project list: projects.html */
+    #project-list-v2 {
+        
+        .loading {
+            min-height: 400px;
+            text-align: center;
+            font-size: 2em;
+            color: $purple;
+        }
+
+        input {
+                border-radius: 30px 30px 30px 30px;
+
+        }
+
+
+.sort:after {
+  content:" —";
+  color: transparentize($gray,0.3);
+}
+
+.sort.asc:after {
+  content:"⬇︎";
+  color: $black;
+}
+.sort.desc:after {
+  content:"⬆︎";
+  color: $black;
+}
+
+        h1 {
+            border-bottom: 1px dotted $blue;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+
+                .logo {
+                    min-width: 200px;
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+
+
     // working group page
     .mb-logo {
         padding-top: 40px;

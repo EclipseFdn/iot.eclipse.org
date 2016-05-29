@@ -155,7 +155,7 @@ var projectAliases = {
 
       $('.projects-row').each ( function (index)  {
 	      $(this).find('.itembox').sort(function (a, b) {
-	           console.log(a.getAttribute('id').toLowerCase());
+	           // console.log(a.getAttribute('id').toLowerCase());
 	           var s1 = a.getAttribute('id').toLowerCase();
 	           var s2 = b.getAttribute('id').toLowerCase();
 
