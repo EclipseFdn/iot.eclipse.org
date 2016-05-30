@@ -201,8 +201,8 @@ var releases = {
                     }
                 }
 
-                $("#update-project").empty();
-                $("#update-project").removeClass("loading");
+                //$("#update-project").empty();
+                //$("#update-project").removeClass("loading");
 
                 //    setTimeout(1000, rez;
 
