@@ -69,7 +69,7 @@ var download_urls = {
   "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
   "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
   "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
-  "iot.leshan": "https://eclipse.org/leshan",
+  "iot.leshan": "https://github.com/eclipse/leshan#test-leshan-locally",
   "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
   "iot.4diac": "http://www.eclipse.org/4diac",
   "iot.risev2g": "https://github.com/eclipse/risev2g",
@@ -92,7 +92,6 @@ var download_stats = {
   "iot.kura": 1035,
   "iot.ponte": 407
 };
-
 
 
 
