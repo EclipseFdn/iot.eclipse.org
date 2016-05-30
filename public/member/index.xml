@@ -72,21 +72,6 @@
     </item>
     
     <item>
-      <title>Zolertia</title>
-      <link>http://iot.eclipse.org/member/zolertia/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/zolertia/</guid>
-      <description>&lt;p&gt;In Zolertia we provide Internet of Things hardware solutions for industrial partners, universities and R&amp;amp;D.&lt;/p&gt;
-
-&lt;p&gt;We are helping companies worldwide to connect things to the Internet in order to solve their needs and create faster and more efficient processes and solutions which means less maintenance investment and cost time saving to improve the fully operative structure of the companies that yearly could suppose a waste of millions EUR, with a technology with 30 times more range and 200 times less power consumption than Wi-Fi.&lt;/p&gt;
-
-&lt;p&gt;Zolertia hardware platforms have been distributed to more than 300 universities, R&amp;amp;D centers, industrial partners and designers like Cisco, Orange, Acciona, Endesa, Sony, Philips, Intel or Siemens in more than 45 different countries.
-We hope to help the developing and promotion of IoT open standards, and bring to the developer and maker community the best hardware platforms and tools to achieve this.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Azul Systems</title>
       <link>http://iot.eclipse.org/member/azul/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
@@ -182,6 +167,18 @@ We hope to help the developing and promotion of IoT open standards, and bring to
 &lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
 
 &lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IBH SYSTEMS</title>
+      <link>http://iot.eclipse.org/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/ibh/</guid>
+      <description>&lt;p&gt;IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.&lt;/p&gt;
+
+&lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
     </item>
     
