@@ -337,7 +337,7 @@ main.main {
         }
 
         .media-object {
-            padding: 2.5em;
+            padding-left: 4.2em; padding-right: 2em;
             margin: auto;
             max-height: 140px;
         }
@@ -364,8 +364,32 @@ main.main {
                 
                 .description {
                     margin-left: 1em;
+                    margin-right: -1em;
+                    text-align: justify;
+                    border-right: 1px solid transparentize($black,0.9);
                 }
 
+                .details {
+                    font-size: 0.9em;
+                }
+
+                a.padding, .downloadUrl {
+                    padding: 3px 8px;
+                }
+
+                .details * {
+                        margin-bottom: .2em;
+                }
+
+                .logo {
+                    opacity: 0.6;
+                }
+
+                .media:hover {
+                    .logo {
+                        opacity: 1.0;
+                    }
+                }
 
                 font-size: 0.9em;
 
@@ -375,7 +399,8 @@ main.main {
                 }
 
                 .has-placeholder-logo {
-                    padding: 0;
+                    padding: 0em;
+                    margin-left: 1.7em;
                 }
 
                 hr {

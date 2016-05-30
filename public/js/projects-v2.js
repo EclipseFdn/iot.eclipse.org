@@ -45,28 +45,55 @@ var projectAliases = {
     'iot.4diac': '4DIAC'
 };
 
-var downloadStats = {
-    'iot.californium': 2624,
-    'iot.eclipsescada': 1091,
-    'iot.kura': 1035,
-    'iot.leshan': 1294,
-    'iot.mosquitto': 11039,
-    'iot.om2m': 138,
-    'iot.paho': 20276,
-    'iot.ponte': 407,
-    'iot.smarthome': 4034
+var releases = {
+  "iot.paho": "1.1.0",
+  "iot.eclipsescada": "0.3.0",
+  "iot.concierge": "5.0",
+  "iot.mosquitto": "1.4",
+  "iot.smarthome": "0.7.0",
+  "iot.kura": "2.0.0",
+  "iot.om2m": "0.8.0",
+  "iot.californium": "1.0.0"
+};
+var download_urls = {
+  "iot.paho": "http://www.eclipse.org/paho/#downloads",
+  "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
+  "iot.ponte": "http://eclipse.org/ponte",
+  "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
+  "iot.mosquitto": "https://eclipse.org/mosquitto",
+  "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
+  "iot.kura": "https://www.eclipse.org/kura/downloads.php",
+  "iot.krikkit": "http://projects.eclipse.org/projects/iot.krikkit",
+  "iot.om2m": "https://wiki.eclipse.org/OM2M/Download",
+  "iot.californium": "http://projects.eclipse.org/projects/iot.californium/downloads",
+  "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
+  "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
+  "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
+  "iot.leshan": "https://eclipse.org/leshan",
+  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
+  "iot.4diac": "http://www.eclipse.org/4diac",
+  "iot.risev2g": "https://github.com/eclipse/risev2g",
+  "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
+  "iot.tiaki": "http://projects.eclipse.org/projects/iot.tiaki/downloads",
+  "iot.hawkbit": "http://projects.eclipse.org/projects/iot.hawkbit",
+  "iot.hono": "http://projects.eclipse.org/projects/iot.hono",
+  "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
+  "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
+  "iot.milo": "http://projects.eclipse.org/projects/iot.milo"
+};
+var download_stats = {
+  "iot.leshan": 1294,
+  "iot.californium": 2624,
+  "iot.paho": 20276,
+  "iot.om2m": 138,
+  "iot.mosquitto": 11039,
+  "iot.smarthome": 4034,
+  "iot.eclipsescada": 1091,
+  "iot.kura": 1035,
+  "iot.ponte": 407
 };
 
-var releases = {
-    'iot.paho': '1.1.0',
-    'iot.eclipsescada': '0.3.0',
-    'iot.concierge': '5.0',
-    'iot.mosquitto': '1.4',
-    'iot.smarthome': '0.7.0',
-    'iot.kura': '2.0.0',
-    'iot.om2m': '0.8.0',
-    'iot.californium': '1.0.0'
-};
+
 
 
 (function($, window, document) {
@@ -142,10 +169,11 @@ var releases = {
                     }
 
                     projectInfo.description = desc;
-                    var downloads = downloadStats[value.id] || 0;
+                    var downloads = download_stats[value.id] || 0;
                     projectInfo.downloads = downloads;
                     projectInfo.downloadsHuman = (downloads == 0) ? 'N/A' : numeral(downloads).format('0.[0] a');
                     projectInfo.version = releases[value.id] || 'none';
+                    projectInfo.downloadUrl = download_urls[value.id];
 
                     projectInfos.push(projectInfo);
 
@@ -165,13 +193,15 @@ var releases = {
                                 </a>\
                               </div>\
                               <div class="media-body">\
-                                <h4 class="media-heading name"> </h4><span class="labels"></span>\
-                                <p class="description"></p>\
-                                <p class="downloads" style="display:none;"></p>\
-                                <div class="row">\
-                                    <div class="col-md-3 col-md-offset-3">Monthly downloads <span class="badge downloadsHuman">50K+</span></a></div>\
-                                    <div class="col-md-3">Latest release <span class="badge version">1.4</span></a></div>\
-                                    <div class="col-md-3"><button class="btn btn-sm btn-info">Download</button></div>\
+                                 <h4 class="media-heading name"> </h4><span class="labels"></span>\
+                                   <div class="row">\
+                                    <p class="description col-md-8"></p>\
+                                    <div class="col-md-4 details">\
+                                        <p class="downloads" style="display:none;"></p>\
+                                        <div class="col-md-12">Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></div>\
+                                        <div class="col-md-12">Latest release: <span class="badge version">1.4</span></a></div>\
+                                        <div class="col-md-12"><a class="btn btn-sm btn-info downloadUrl" href="#">Download</a></div>\
+                                    </div>\
                                 </div>\
                               </div>\
                             </div><hr></li>',
@@ -181,6 +211,8 @@ var releases = {
                         }, 'downloads', 'downloadsHuman', 'version', {
                             name: 'link',
                             attr: 'href'
+                        }, {
+                            name: 'downloadUrl', attr:'href'
                         },
                         'labels'
                     ]

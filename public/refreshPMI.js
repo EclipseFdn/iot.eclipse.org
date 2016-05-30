@@ -23,14 +23,15 @@ httpreq.get('https://docs.google.com/spreadsheets/d/1MT8vUectDG7qnt83LBts-B7oECM
             d = row[1];
             stats['iot.' + row[0]] = (stats['iot.' + row[0]] | 0) + parseInt(row[2]);
         }
-        console.log(stats);
+
+        console.log('var download_stats = ' + JSON.stringify(stats, null, 2) + ';');
 
         fs.writeFile('downloadStats.json', stats, function(err) {
             if (err) {
                 return console.log(err);
             }
 
-            console.log("The file was saved!");
+          //  console.log("The file was saved!");
         });
 
     });
@@ -39,9 +40,10 @@ httpreq.get('https://docs.google.com/spreadsheets/d/1MT8vUectDG7qnt83LBts-B7oECM
 var all = require('./all.json');
 
 var releases = {}
+var download_urls = {}
 
 for (var project in all.projects) {
-	if(project.startsWith('iot')) {
+	if(project.startsWith('iot.')) {
 	//	console.log(project);
 		if(all.projects[project].releases) {
 			for(var release in all.projects[project].releases)
@@ -52,10 +54,20 @@ for (var project in all.projects) {
 					break;
 				}
 			}
-		} else {
-//			console.log("Latest Release: none");
-		}
-//		console.log('-----------');
+		} 
+
+        var url = url = 'http://projects.eclipse.org/projects/' + project;
+        if(all.projects[project].download_url.length > 0) {
+            url = all.projects[project].download_url[0].url;
+        }  else if (all.projects[project].downloads_message.length > 0){
+            // link to download page
+            url = 'http://projects.eclipse.org/projects/' + project + '/downloads';
+        } else if (all.projects[project].website_url.length > 0) {
+            url = all.projects[project].website_url[0].url ;
+        }
+        download_urls[project] = url ;
 	}
 }
-console.log(releases);
+console.log('var releases = ' + JSON.stringify(releases, null, 2) + ';');
+console.log('var download_urls = ' + JSON.stringify(download_urls, null, 2) + ';');
+
