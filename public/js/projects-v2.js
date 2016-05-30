@@ -168,6 +168,7 @@ var download_stats = {
                     }
 
                     projectInfo.description = desc;
+                    projectInfo.fullDescription = stringJanitor(value.description);
                     var downloads = download_stats[value.id] || 0;
                     projectInfo.downloads = downloads;
                     projectInfo.downloadsHuman = (downloads == 0) ? 'N/A' : numeral(downloads).format('0.[0] a');
@@ -194,6 +195,7 @@ var download_stats = {
                               <div class="media-body">\
                                  <h4 class="media-heading name"> </h4><span class="labels"></span>\
                                    <div class="row">\
+                                    <p class="fullDescription" style="display:none;"></p>\
                                     <p class="description col-md-8"></p>\
                                     <div class="col-md-4 details">\
                                         <p class="downloads" style="display:none;"></p>\
@@ -204,7 +206,7 @@ var download_stats = {
                                 </div>\
                               </div>\
                             </div><hr></li>',
-                    valueNames: ['name', 'description', {
+                    valueNames: ['name', 'description', 'fullDescription', {
                             name: 'logo',
                             attr: 'src'
                         }, 'downloads', 'downloadsHuman', 'version', {
