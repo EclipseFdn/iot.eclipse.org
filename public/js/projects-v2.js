@@ -72,9 +72,9 @@ var releases = {
 (function($, window, document) {
     $(function() {
 
-        $(window).resize(function() {
-            resize();
-        });
+        // $(window).resize(function() {
+        //     resize();
+        // });
 
         // $(document).on('click', '.itembox, .news-list li', function() {
         //     var link = $(this).find('.readmore').attr('href');
@@ -144,7 +144,7 @@ var releases = {
                     projectInfo.description = desc;
                     var downloads = downloadStats[value.id] || 0;
                     projectInfo.downloads = downloads;
-                    projectInfo.downloadsHuman = numeral(downloads).format('0.[0] a');
+                    projectInfo.downloadsHuman = (downloads == 0) ? 'N/A' : numeral(downloads).format('0.[0] a');
                     projectInfo.version = releases[value.id] || 'none';
 
                     projectInfos.push(projectInfo);
