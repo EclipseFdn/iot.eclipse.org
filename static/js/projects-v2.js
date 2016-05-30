@@ -6,17 +6,66 @@
 
 
 var projectsAssociation = {
-    "Standards": ["iot.paho", "iot.paho.incubator", "iot.californium", "iot.om2m", "iot.mosquitto", "iot.moquette", "iot.wakaama", "iot.leshan", "iot.concierge", "iot.risev2g", "iot.4diac", "iot.tiaki", "iot.tinydtls", "iot.tinydtls", "iot.milo"],
+    'Standards': {
+        'iot.paho': true,
+        'iot.paho.incubator': true,
+        'iot.californium': true,
+        'iot.om2m': true,
+        'iot.mosquitto': true,
+        'iot.moquette': true,
+        'iot.wakaama': true,
+        'iot.leshan': true,
+        'iot.concierge': true,
+        'iot.risev2g': true,
+        'iot.4diac': true,
+        'iot.tiaki': true,
+        'iot.tinydtls': true,
+        'iot.milo': true
+    },
 
-    "Frameworks": ["iot.hono", "iot.om2m", "iot.krikkit", "iot.kura", "iot.mihini", "iot.ponte", "iot.smarthome", "iot.eclipsescada", "iot.4diac", "iot.whiskers"],
+    'Frameworks': {
+        'iot.hono': true,
+        'iot.om2m': true,
+        'iot.krikkit': true,
+        'iot.kura': true,
+        'iot.mihini': true,
+        'iot.ponte': true,
+        'iot.smarthome': true,
+        'iot.eclipsescada': true,
+        'iot.4diac': true,
+        'iot.whiskers': true
+    }
 
-    // rest is "others" (Ignite, ...)
+    // rest is 'others' (Ignite, ...)
 };
 
 
 var projectAliases = {
-    "iot.californium": "Californium",
-    "iot.4diac": "4DIAC"
+    'iot.californium': 'Californium',
+    'iot.4diac': '4DIAC'
+};
+
+var downloadStats = {
+    'iot.californium': 2624,
+    'iot.eclipsescada': 1091,
+    'iot.kura': 1035,
+    'iot.leshan': 1294,
+    'iot.mosquitto': 11039,
+    'iot.om2m': 138,
+    'iot.paho': 20276,
+    'iot.ponte': 407,
+    'iot.smarthome': 4034
+};
+
+var releases = {
+    'iot.paho': '1.1.0',
+    'iot.eclipsescada': '0.3.0',
+    'iot.concierge': '5.0',
+    'iot.mosquitto': '1.4',
+    'iot.smarthome': '0.7.0',
+    'iot.kura': '2.0.0',
+    'iot.om2m': '0.8.0',
+    'iot.californium': '1.0.0'
 };
 
 
@@ -64,55 +113,39 @@ var projectAliases = {
 
                     var title = stringJanitor(value.name);
                     var id = stringJanitor(value.id);
+                    var link = value.website;
+                    if (!validateUrl(link)) {
+                        link = "http://projects.eclipse.org/projects/" + id;
+                    }
                     var desc = stringJanitor(value.description, {
                         "cut": true,
-                        "ellipsis": "&hellip;"
+                        "ellipsis": ' [&hellip;] <br><a href="' + link + '"> Read more&hellip;</a>'
                     });
-                    var link = value.website;
+
                     var logo = value.logo;
                     var style = "";
                     var showlogo = true;
 
-                    if (id == 'rt.ecf' || id == 'tools.sequoyah.mtj' || id == "technology.koneki")
+                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan")
                         return true;
-
-                    var boxOutput = "";
-
-                    boxOutput += "<li class=\"col-md-4 col-sm-6 itembox\"" + style + " id =\"" + id.replace('.', '-') + "\">";
-                    if (validateUrl(logo) && showlogo === true) {
-                        boxOutput += "<img class =\"logo\" alt=\"" + title + " logo\" src=\"" + logo + "\">";
-                    } else {
-                        boxOutput += "<h3 class=\"purple project-name\">" + title + "</h3>";
-                    }
-
-                    boxOutput += "<p>" + desc + "</p>";
-
-                    boxOutput += "<h3>Example <span class=\"label label-default\">New</span></h3>";
-
-
-                    if (!validateUrl(link)) {
-                        link = "http://projects.eclipse.org/projects/" + id;
-                    }
-
-
-                    boxOutput += "<a href=\"" + link + "\" class=\"readmore\" target=\"_blank\">Read more</i></a>";
-                    boxOutput += "<a href=\"https://projects.eclipse.org/projects/" + id + "/downloads\" class=\"download\" target=\"_blank\">Download</a>";
-
-                    boxOutput += "</li>";
-
-                    projectBoxes[id] = boxOutput;
 
                     projectInfo = {};
                     projectInfo.link = value.website;
-                    projectInfo.link = value.website;
-                    projectInfo.logo = value.logo || 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
+                    projectInfo.logo = value.logo || 'http://fakeimg.pl/400x200/f5f5f5/000/?text=' + title //; || 'https://placeholdit.imgix.net/~text?txtsize=42&txt=' + title + '&w=200&h=80&bg=f5f5f5&txtclr=000000' ; //|| 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
                     projectInfo.id = id;
                     projectInfo.name = title;
-                    projectInfo.description = stringJanitor(value.description, {
-                        "cut": true,
-                        "ellipsis": "&hellip;"
-                    });
-                    projectInfo.downloads = 100;
+                    projectInfo.labels = '';
+                    for (var k in projectsAssociation) {
+                        if (projectsAssociation[k][value.id]) {
+                            projectInfo.labels += ' ' + ' <span class="label label-warning">' + k + '</span>'
+                        }
+                    }
+
+                    projectInfo.description = desc;
+                    var downloads = downloadStats[value.id] || 0;
+                    projectInfo.downloads = downloads;
+                    projectInfo.downloadsHuman = numeral(downloads).format('0.[0] a');
+                    projectInfo.version = releases[value.id] || 'none';
 
                     projectInfos.push(projectInfo);
 
@@ -124,37 +157,54 @@ var projectAliases = {
                 //$("#update-project").append('</div>' + output);
                 //resize();
 
-                //      $('.projects-row').shuffle();
-
-                $('.projects-row').each(function(index) {
-                    $(this).find('.itembox').sort(function(a, b) {
-                        // console.log(a.getAttribute('id').toLowerCase());
-                        var s1 = a.getAttribute('id').toLowerCase();
-                        var s2 = b.getAttribute('id').toLowerCase();
-
-                        return s1.localeCompare(s2);
-                    }).replaceAll($(this));
-                });
-
                 var options = {
-                    item: '<li><div class="media">\
+                    item: '<li class="col-md-12"><div class="media">\
                               <div class="media-left media-middle">\
-                                <a href="#">\
-                                  <img class="media-object img-responsive logo">\
+                                <a href="#" class="link">\
+                                  <img class="media-object img-responsive logo img-thumbnailXXX">\
                                 </a>\
                               </div>\
                               <div class="media-body">\
-                                <h3 class="name"></h3><p class="description"></p>\
+                                <h4 class="media-heading name"> </h4><span class="labels"></span>\
+                                <p class="description"></p>\
+                                <p class="downloads" style="display:none;"></p>\
+                                <div class="row">\
+                                    <div class="col-md-3 col-md-offset-3">Monthly downloads <span class="badge downloadsHuman">50K+</span></a></div>\
+                                    <div class="col-md-3">Latest release <span class="badge version">1.4</span></a></div>\
+                                    <div class="col-md-3"><button class="btn btn-sm btn-info">Download</button></div>\
+                                </div>\
                               </div>\
-                            </div></li>',
-                    valueNames: [ 'name', 'description', { name: 'logo', attr: 'src' }] 
+                            </div><hr></li>',
+                    valueNames: ['name', 'description', {
+                            name: 'logo',
+                            attr: 'src'
+                        }, 'downloads', 'downloadsHuman', 'version', {
+                            name: 'link',
+                            attr: 'href'
+                        },
+                        'labels'
+                    ]
                 };
 
                 var list = new List('project-list-v2', options, projectInfos);
 
+                list.sort('downloads', {
+                    order: "desc"
+                });
+
+                for (var i in list.visibleItems) {
+                    var elem = list.visibleItems[i].elm;
+                    var logoElem = $("img.logo", elem);
+
+                    if (logoElem.attr('src').includes('fakeimg')) {
+                        logoElem.addClass('has-placeholder-logo');
+                    }
+                }
 
                 $("#update-project").empty();
                 $("#update-project").removeClass("loading");
+
+                //    setTimeout(1000, rez;
 
 
             },
@@ -169,17 +219,17 @@ var projectAliases = {
 
     // Set same height to all .itembox in a row.
     var resize = function() {
-        $('.itembox').css({
+        $('li').css({
             "height": "auto"
         });
-        $('.row-fluid').each(function() {
+        $('ul').each(function() {
             var highestBox = 0;
-            $('.itembox', this).each(function() {
+            $('li', this).each(function() {
                 if ($(this).height() > highestBox) {
                     highestBox = $(this).outerHeight();
                 }
             });
-            $('.itembox', this).height(highestBox);
+            $('li', this).height(highestBox);
         });
     };
 

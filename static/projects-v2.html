@@ -123,16 +123,19 @@
     <section style="background-image:none;" class="first row-fluid" id="projects">
       <div class="container" id="project-list-v2">
 
-        <input type="text" class="form-control search center-block" placeholder="Start typing to filter projects…">
-
-        <div class="container center-block">
-          <button class="btn btn-sm sort" data-sort="downloads">
-            Sort by downloads
-          </button>
-
-          <button class="btn btn-sm sort" data-sort="name">
-            Sort by name
-          </button>
+        <div class="container-fluid col-md-6 col-md-offset-3" id="search-and-sort">
+          <div class="row">
+            <input type="text" class="col-md-6 form-control search center-block" placeholder="Start typing to filter projects…">
+          </div>
+          
+          <div class="row text-center">
+            <button class="btn btn-sm sort btn-info " data-sort="downloads">
+              Sort by downloads
+            </button>
+            <button class="btn btn-sm sort btn-info" data-sort="name">
+              Sort by name
+            </button>
+          </div>
         </div>
 
         <ul class="list"></ul>
@@ -205,6 +208,7 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
   <script src="js/projects-v2.js"></script>
 </body>
 

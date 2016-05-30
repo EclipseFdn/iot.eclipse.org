@@ -42,9 +42,9 @@
   "iot.ponte": {
     "name": "Ponte",
     "id": "iot.ponte",
-    "description": "<p><span style=\"color: rgb(0, 0, 0); font-family: Arial, sans-serif; line-height: 16px;\">Ponte provides reusable solutions for bridging M2M protocols. &nbsp;<\/span><\/p>",
+    "description": "<p>Ponte provides reusable solutions for bridging M2M protocols.<\/p>",
     "url": "https:\/\/projects.eclipse.org\/projects\/technology.ponte",
-    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/logo-banner-white.png",
+    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/logo-banner-white_0.png",
     "website": "http:\/\/eclipse.org\/ponte",
     "state": "Incubating",
     "provisioned": true
@@ -54,7 +54,7 @@
     "id": "iot.concierge",
     "description": "<p>Concierge is a small-footprint implementation of the OSGi Core Specifications R5 standard optimized for mobile and embedded devices.<\/p>",
     "url": "https:\/\/projects.eclipse.org\/projects\/rt.concierge",
-    "logo": null,
+    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/logo_0.png",
     "website": null,
     "state": "Incubating",
     "provisioned": true
@@ -74,7 +74,7 @@
     "id": "iot.smarthome",
     "description": "<p>The Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of different protocols or standards. Its purpose is to provide a uniform access to devices and information and to facilitate different kinds of interactions with them. This framework consists out of a set of OSGi bundles that can be deployed on an OSGi runtime and which defines OSGi services as extension points.<\/p>\r\n<p>The stack is meant to be usable on any kind of system that can run an OSGi stack - be it a multi-core server, a residential gateway or a Raspberry Pi.<\/p>\r\n<p>&nbsp;<\/p>",
     "url": "https:\/\/projects.eclipse.org\/projects\/technology.smarthome",
-    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/Bildschirmfoto%202014-04-10%20um%2016.04.26.png",
+    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/smarthome_1.png",
     "website": "https:\/\/www.eclipse.org\/smarthome\/",
     "state": "Incubating",
     "provisioned": true
@@ -112,7 +112,7 @@
   "iot.californium": {
     "name": "Californium (Cf) CoAP Framework",
     "id": "iot.californium",
-    "description": "<p>Californium (Cf) is an open source implementation of the Constrained Application Protocol (CoAP). It is written in Java and targets unconstrained environments such as back-end service infrastructures (e.g., proxies, resource directories, or cloud services) and less constrained environments such as embedded devices running Linux (e.g., smart home\/factory controllers or cellular gateways).<\/p>",
+    "description": "<p>Eclipse Californium (Cf) is an open source implementation of the Constrained Application Protocol (CoAP). It is written in Java and targets unconstrained environments such as back-end service infrastructures (e.g., proxies, resource directories, or cloud services) and less constrained environments such as embedded devices running Linux (e.g., smart home\/factory controllers or cellular gateways).<\/p>",
     "url": "https:\/\/projects.eclipse.org\/projects\/technology.californium",
     "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/Cf_128.png",
     "website": "https:\/\/www.eclipse.org\/californium\/",
@@ -144,7 +144,7 @@
     "id": "iot.paho.incubator",
     "description": "<p>A permanent incubator for Paho.<\/p>\r\n<p>A permanent incubator is a project that is intended to perpetually remain in the&nbsp;<a href=\"https:\/\/www.eclipse.org\/projects\/dev_process\/development_process.php#6_2_3_Incubation\">incubation<\/a>&nbsp;phase. Permanent incubators are an excellent place to innovate, test new ideas, grow functionality that may one day be moved into another project, and develop new committers.<\/p>\r\n<p>Permanent incubator projects never have releases; they cannot participate in the annual simultaneous release. Permanent incubators may have builds, and downloads. They conform to the standard incubation branding requirements and are subject to the IP due diligence rules outlined for incubating projects. Permanent incubators do not graduate.<\/p>",
     "url": "https:\/\/projects.eclipse.org\/projects\/iot.paho.incubator",
-    "logo": null,
+    "logo": "https:\/\/projects.eclipse.org\/sites\/default\/files\/paho-logo-200_0.png",
     "website": null,
     "state": "Incubating",
     "provisioned": true
