@@ -285,6 +285,116 @@ main.main {
         }
     }
 
+        /* Project list: projects.html */
+    #project-list-v2 {
+        
+        #search-and-sort {
+            margin-bottom: 2em;
+        }
+
+        .loading {
+            min-height: 400px;
+            text-align: center;
+            font-size: 2em;
+            color: $purple;
+        }
+
+        input {
+                border-radius: 30px 30px 30px 30px;
+        }
+
+        .row {
+            margin-top: .5em;
+            margin-bottom: .5em;
+        }
+
+        .sort {
+//            background: $blue;
+        }
+
+        .sort:after {
+          content:" —";
+          color: transparentize($gray,0.3);
+        }
+
+        .sort.desc:after {
+          content:"▼︎";
+          color: $black;
+        }
+        .sort.asc:after {
+          content:"▲";
+          color: $black;
+        }
+
+        h1 {
+            border-bottom: 1px dotted $blue;
+        }
+
+        .media-left {
+            max-width: 200px;
+            min-width: 200px;
+        }
+
+        .media-object {
+            padding: 2.5em;
+            margin: auto;
+            max-height: 140px;
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                h4 {
+                    font-weight: 900;
+                    // text-decoration: underline;
+                    margin-bottom: .4em;
+                    display: inline;
+                    margin-right: .3em;
+                }
+
+                .labels {
+                    padding-bottom: .2em;
+
+                    .label {
+                        vertical-align: 2px;
+                    }
+                }
+                
+                .description {
+                    margin-left: 1em;
+                }
+
+
+                font-size: 0.9em;
+
+                #logo-container {
+                    max-width: 200px;
+                    max-height: 140px;
+                }
+
+                .has-placeholder-logo {
+                    padding: 0;
+                }
+
+                hr {
+                    margin-top: 1.2em;
+                    margin-bottom: 1.5em;
+                    margin-left: 2em;
+                    margin-right: 2em;
+                    border: 2px dashed transparentize($black,0.9);
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+
+
     // working group page
     .mb-logo {
         padding-top: 40px;
