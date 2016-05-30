@@ -215,7 +215,7 @@ var download_stats = {
                         }, {
                             name: 'downloadUrl', attr:'href'
                         },
-                        'labels'
+                        //'labels'
                     ]
                 };
 
