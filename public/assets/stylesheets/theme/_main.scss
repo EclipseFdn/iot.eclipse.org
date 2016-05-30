@@ -362,9 +362,13 @@ main.main {
                     }
                 }
                 
+                .media-body {
+                    padding-left: 1em;
+                }
+
                 .description {
-                    margin-left: 1em;
-                    margin-right: -1em;
+                    //margin-left: 1em;
+                    //margin-right: -1em;
                     text-align: justify;
                     border-right: 1px solid transparentize($black,0.9);
                 }
@@ -405,7 +409,7 @@ main.main {
 
                 hr {
                     margin-top: 1.2em;
-                    margin-bottom: 1.5em;
+                    margin-bottom: 2em;
                     margin-left: 2em;
                     margin-right: 2em;
                     border: 2px dashed transparentize($black,0.9);
