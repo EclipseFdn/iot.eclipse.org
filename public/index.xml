@@ -64,6 +64,18 @@
     </item>
     
     <item>
+      <title>Software Updates in IoT with Eclipse hawkBit</title>
+      <link>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
+      <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
+
+&lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>OSCON 2016</title>
       <link>http://iot.eclipse.org/events/2016-05-18-oscon/</link>
       <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
@@ -102,6 +114,16 @@
     </item>
     
     <item>
+      <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
+      <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
+      <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day Grenoble</title>
       <link>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
@@ -127,26 +149,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</guid>
       <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
-      <link>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
-      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
-      <description>&lt;p&gt;NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Can open source solve the too many IoT standards problem?</title>
-      <link>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
-      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
-      <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
 </description>
     </item>
     

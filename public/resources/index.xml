@@ -6,8 +6,20 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 May 2016 19:41:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 May 2016 15:47:14 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Software Updates in IoT with Eclipse hawkBit</title>
+      <link>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
+      <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
+
+&lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT - A Simple Overview</title>
@@ -16,6 +28,46 @@
       
       <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
       <description>&lt;p&gt;Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
+      <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
+      <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spy on your MQTT devices for fun and profit with mqtt-spy</title>
+      <link>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</link>
+      <pubDate>Wed, 20 Apr 2016 16:04:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;In this webinar +Kamil Baczkowicz will go through the key features of mqtt-spy, a JavaFX based application for MQTT/IoT developers, and explain how it can help you monitor and test your MQTT-based IoT…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strong devices weakly connected: bringing DevOps to IoT with resin.io</title>
+      <link>http://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</link>
+      <pubDate>Wed, 06 Apr 2016 15:54:48 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Web developers now enjoy a culture and set of tools that allow them to deploy software up to many times per day, quickly and safely. By contrast, much of the embedded world still operates on the annua…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What Makes an Open IoT Developer Challenge Winner!</title>
+      <link>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</link>
+      <pubDate>Wed, 30 Mar 2016 15:59:39 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…&lt;/p&gt;
 </description>
     </item>
     
@@ -103,64 +155,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The Arduino IDE from arduino.cc provides a simple IDE that lets these hobbyists get started. However, it is really simple. As projects get bigger and more complex, Arduino developers need something mo…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Things Network: an open &amp; free IoT network for the masses</title>
-      <link>http://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</link>
-      <pubDate>Thu, 12 Nov 2015 17:02:57 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Join us on next Thursday to learn more about The Things Network with Johan Stokking.&lt;/p&gt;
-
-&lt;p&gt;Last June, my co-founder Wienke heard about a piece of hardware that would create coverage for Internet of Things …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Create Your IoT Services &amp; Applications with COMPOSE Platform</title>
-      <link>http://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</link>
-      <pubDate>Thu, 29 Oct 2015 16:56:45 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;COMPOSE platform enables new services that can integrate the Internet of Services with the Internet of Things. Connected devices are associated to services that can be combined and managed in a standa…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing Zulu Embedded and running Java on Intel® Edison and Galileo</title>
-      <link>http://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</link>
-      <pubDate>Thu, 24 Sep 2015 16:49:24 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Zulu Embedded is fully certified, 100% open source Java SE platform based on OpenJDK for embedded devices, M2M, and IoT.  Java’s growth in the embedded and IoT space has been limited by licensing and …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building &amp; managing IoT applications with LightweightM2M</title>
-      <link>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
-      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.&lt;/p&gt;
-
-&lt;p&gt;We will cover the following topics:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From M2M to Web-of-things, new…&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MQTT Security Fundamentals</title>
-      <link>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</link>
-      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-08-10-mqtt-security/</guid>
-      <description>&lt;p&gt;Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.&lt;/p&gt;
 </description>
     </item>
     
