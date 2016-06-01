@@ -1,7 +1,7 @@
 +++
 date = "2014-09-09T15:48:31.000Z"
 title = "IoT Gateway: Reducing the distance between embedded and enterprise technologies"
-link = "https://youtu.be/XPIupftFOiw"
+link = "https://www.youtube.com/watch?v=XPIupftFOiw"
 +++
 Slides of the presentation: http://slideshare.net/Eurotechchannel/kuram2miotgateway
 

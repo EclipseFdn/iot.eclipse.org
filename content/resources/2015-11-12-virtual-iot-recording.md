@@ -1,7 +1,7 @@
 +++
 date = "2015-11-12T17:02:57.000Z"
 title = "The Things Network: an open & free IoT network for the masses"
-link = "https://youtu.be/xWXk5WQMM-M"
+link = "https://www.youtube.com/watch?v=xWXk5WQMM-M"
 +++
 Join us on next Thursday to learn more about The Things Network with Johan Stokking.
 

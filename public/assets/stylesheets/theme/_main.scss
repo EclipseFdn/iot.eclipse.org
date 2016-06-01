@@ -527,6 +527,29 @@ main.main {
     }
 }
 
+.resources-page {
+    .grid-item {
+         margin-bottom:20px; 
+         padding-left:0; 
+         padding-right:30px; 
+         margin-left:-20px;
+
+         .oembed {
+        //    background: red;
+         }
+
+        .row {
+            margin-left: 0em; 
+            margin-right:0em; 
+            padding: 1.2em !important; 
+            background:transparentize($green,0.9); 
+            border-radius:1.5em;
+
+        }
+
+    }
+}
+ 
 // hw-catalog page 
 .hardware-page {
     section.first {
