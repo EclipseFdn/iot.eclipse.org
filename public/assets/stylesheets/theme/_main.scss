@@ -241,52 +241,10 @@ main.main {
     .itembox:hover {
         background: lighten($gray, 80%);
     }
-        /* Project list: projects.html */
-    .project-list {
-        
-        .loading {
-            min-height: 400px;
-            text-align: center;
-            font-size: 2em;
-            color: $purple;
-        }
 
-        h1 {
-            border-bottom: 1px dotted $blue;
-        }
 
-        .itembox {
-            // opacity: 0.4;
-            // &.standards {
-            //     opacity: 1.0;
-            // }
-            // &.horizontal {
-            //     opacity: 1.0;
-            // }
-            // &.industry {
-            //     opacity: 1.0;
-            // }
-                        h3,
-            p {
-                padding: 0 10px;
-            }
-            .logo {
-                padding: 15px;
-                max-width: 80%;
-            }
-            h3 {
-                font-size: 21px;
-            }
-            p {
-                font-size: 15px;
-                padding-bottom: 50px;
-                color: $purple;
-            }
-        }
-    }
-
-        /* Project list: projects.html */
-    #project-list-v2 {
+    /* Project list: projects.html */
+    #project-list {
         
         #search-and-sort {
             margin-bottom: 2em;
