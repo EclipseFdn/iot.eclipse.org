@@ -62,16 +62,6 @@
     </item>
     
     <item>
-      <title>Verisign</title>
-      <link>http://iot.eclipse.org/member/verisign/</link>
-      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/verisign/</guid>
-      <description>&lt;p&gt;VeriSign, Inc. is a global leader in domain names and Internet security. For more than 15 years, Verisign has operated the infrastructure for a portfolio of top-level domains that today includes .com, .net, .tv, .edu, .gov, .jobs, .name and .cc Verisign Device Services leverages our expertise in cybersecurity, deployed global infrastructure, and experience in distributed transaction processing to secure IoT platforms and services.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Azul Systems</title>
       <link>http://iot.eclipse.org/member/azul/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
@@ -180,6 +170,15 @@
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>http://iot.eclipse.org/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/ibm/</guid>
+      <description></description>
     </item>
     
   </channel>
