@@ -82,17 +82,16 @@ var download_urls = {
   "iot.milo": "http://projects.eclipse.org/projects/iot.milo"
 };
 var download_stats = {
-  "iot.leshan": 1294,
-  "iot.californium": 2624,
-  "iot.paho": 20276,
-  "iot.om2m": 138,
-  "iot.mosquitto": 11039,
-  "iot.smarthome": 4034,
-  "iot.eclipsescada": 1091,
-  "iot.kura": 1035,
-  "iot.ponte": 407
+  "iot.leshan": 1456,
+  "iot.californium": 2980,
+  "iot.paho": 20811,
+  "iot.om2m": 53,
+  "iot.mosquitto": 11051,
+  "iot.smarthome": 3765,
+  "iot.eclipsescada": 2047,
+  "iot.kura": 1222,
+  "iot.ponte": 323
 };
-
 
 
 (function($, window, document) {
