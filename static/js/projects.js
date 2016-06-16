@@ -46,21 +46,21 @@ var projectAliases = {
 };
 
 var releases = {
-  "iot.paho": "1.1.0",
+  "iot.paho": "1.2.0 (Neon)",
   "iot.eclipsescada": "0.3.0",
   "iot.concierge": "5.0",
   "iot.mosquitto": "1.4",
   "iot.smarthome": "0.7.0",
   "iot.kura": "2.0.0",
-  "iot.om2m": "0.8.0",
+  "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0"
 };
 var download_urls = {
-  "iot.paho": "http://www.eclipse.org/paho/#downloads",
+  "iot.paho": "https://www.eclipse.org/paho/downloads.php",
   "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
   "iot.ponte": "http://eclipse.org/ponte",
   "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
-  "iot.mosquitto": "https://eclipse.org/mosquitto",
+  "iot.mosquitto": "https://www.eclipse.org/mosquitto/download/",
   "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
   "iot.kura": "https://www.eclipse.org/kura/downloads.php",
   "iot.krikkit": "http://projects.eclipse.org/projects/iot.krikkit",
