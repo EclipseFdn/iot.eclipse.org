@@ -46,6 +46,15 @@
     </item>
     
     <item>
+      <title>GetD</title>
+      <link>http://iot.eclipse.org/events/2016-07-22-get-d/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-07-22-get-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>New Eclipse IoT project releases to accelerate IoT solution development</title>
       <link>http://iot.eclipse.org/news/2016-06-16-new-project-releases/</link>
       <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
@@ -140,16 +149,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse NeoSCADA 0.3.0 released</title>
-      <link>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-04-28-neoscada-release/</guid>
-      <description>&lt;p&gt;The Eclipse NeoSCADA team is proud to finally announce the 0.3.0 release!&lt;/p&gt;
-</description>
     </item>
     
   </channel>
