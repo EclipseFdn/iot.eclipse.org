@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Getting Started with a W3C Web of Things Project</title>
+      <link>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New Eclipse IoT project releases to accelerate IoT solution development</title>
       <link>http://iot.eclipse.org/news/2016-06-16-new-project-releases/</link>
       <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
@@ -71,6 +81,16 @@
       
       <guid>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Concierge - Bringing OSGi (back) to Embedded Devices</title>
+      <link>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
+      <pubDate>Thu, 02 Jun 2016 16:09:17 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -129,25 +149,6 @@
       <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
-      <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
-      <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Day Grenoble</title>
-      <link>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</guid>
       <description></description>
     </item>
     

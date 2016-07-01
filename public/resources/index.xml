@@ -6,8 +6,28 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 May 2016 15:47:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jun 2016 16:11:41 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting Started with a W3C Web of Things Project</title>
+      <link>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concierge - Bringing OSGi (back) to Embedded Devices</title>
+      <link>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
+      <pubDate>Thu, 02 Jun 2016 16:09:17 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Software Updates in IoT with Eclipse hawkBit</title>
@@ -136,26 +156,6 @@
       
       <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
-      <link>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
-      <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;RISE V2G is a Reference Implementation Supporting the Evolution of the Vehicle-2-Grid communication interface ISO 15118. The international standard ISO 15118, entitled &amp;ldquo;Road vehicles - Vehicle to grid…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing the Arduino C&#43;&#43; IDE for Eclipse</title>
-      <link>http://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</link>
-      <pubDate>Wed, 02 Dec 2015 16:54:42 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The Arduino IDE from arduino.cc provides a simple IDE that lets these hobbyists get started. However, it is really simple. As projects get bigger and more complex, Arduino developers need something mo…&lt;/p&gt;
-</description>
     </item>
     
   </channel>
