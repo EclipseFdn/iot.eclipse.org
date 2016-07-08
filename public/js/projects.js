@@ -50,7 +50,7 @@ var releases = {
   "iot.eclipsescada": "0.3.0",
   "iot.concierge": "5.0",
   "iot.mosquitto": "1.4",
-  "iot.smarthome": "0.7.0",
+  "iot.smarthome": "0.8.0",
   "iot.kura": "2.0.0",
   "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0"
@@ -79,19 +79,21 @@ var download_urls = {
   "iot.hono": "http://projects.eclipse.org/projects/iot.hono",
   "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
   "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
-  "iot.milo": "http://projects.eclipse.org/projects/iot.milo"
+  "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
+  "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua"
 };
 var download_stats = {
-  "iot.leshan": 1456,
-  "iot.californium": 2980,
-  "iot.paho": 20811,
-  "iot.om2m": 53,
-  "iot.mosquitto": 11051,
-  "iot.smarthome": 3765,
-  "iot.eclipsescada": 2047,
-  "iot.kura": 1222,
-  "iot.ponte": 323
+  "iot.leshan": 1747,
+  "iot.californium": 3511,
+  "iot.paho": 1251,
+  "iot.om2m": 75,
+  "iot.mosquitto": 12326,
+  "iot.smarthome": 3851,
+  "iot.eclipsescada": 785,
+  "iot.kura": 1264,
+  "iot.ponte": 249
 };
+
 
 
 (function($, window, document) {
