@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:20-07:00"
 title = "Litmus Automation"
-logo = "litmus"
+logo = "litmus" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1151
 more_url = "http://www.litmusautomation.com"

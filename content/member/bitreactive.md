@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:15-07:00"
 title = "Bitreactive"
-logo = "bitreactive"
+logo = "bitreactive" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1103
 demo_url = "http://www.bitreactive.com/technology/"

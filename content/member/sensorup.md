@@ -1,7 +1,7 @@
 +++
 date = "2015-11-15"
 title = "SensorUp"
-logo = "sensorup"
+logo = "sensorup" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1187
 more_url = "http://www.sensorup.com/iot-platform/"

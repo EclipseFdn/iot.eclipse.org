@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:14-07:00"
 title = "OpenText Analytics"
-logo = "opentext"
+logo = "opentext" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 652
 demo_url = "http://blogs.opentext.com/creating-an-iot-dashboard-with-birt/"

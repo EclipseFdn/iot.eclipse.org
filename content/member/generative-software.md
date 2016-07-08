@@ -1,7 +1,7 @@
 +++
 date = "2015-07-01"
 title = "Generative Software"
-logo = "generative-software"
+logo = "generative-software" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1008
 more_url = "http://generative-software.com/"

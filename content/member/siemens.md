@@ -1,7 +1,7 @@
 +++
 date = "2015-09-28"
 title = "Siemens"
-logo = "siemens"
+logo = "siemens" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 895
 #demo_url = "https://www.youtube.com/watch?v=ZCOQhe5KiD4"
