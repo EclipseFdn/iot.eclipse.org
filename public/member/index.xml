@@ -6,8 +6,22 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SensorUp</title>
+      <link>http://iot.eclipse.org/member/sensorup/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/sensorup/</guid>
+      <description>&lt;p&gt;Data from all your different sensors, accessible in a single platform&lt;/p&gt;
+
+&lt;p&gt;SensorUp makes information from all different kinds of sensors accessible in a single platform, by using open standards to connect the sensors. Our IoT Platform is the world&amp;rsquo;s first, most complete, compliant implementation of the OGC SensorThings API.&lt;/p&gt;
+
+&lt;p&gt;SensorThings API was purpose-built for IoT, and manages low power, low bandwidth, and intermittent connectivity situations. The standard isREST-based and JSON encoded,so it&amp;rsquo;s developer friendly. Our easy-to-use APIs and SDKs can be understood and worked with in very little time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Siemens</title>
@@ -174,15 +188,6 @@
 
 &lt;p&gt;Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>IBM</title>
-      <link>http://iot.eclipse.org/member/ibm/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/ibm/</guid>
-      <description></description>
     </item>
     
   </channel>
