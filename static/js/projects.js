@@ -85,7 +85,7 @@ var download_urls = {
 var download_stats = {
   "iot.leshan": 1747,
   "iot.californium": 3511,
-  "iot.paho": 1251,
+  "iot.paho": 8846,
   "iot.om2m": 75,
   "iot.mosquitto": 12326,
   "iot.smarthome": 3851,
