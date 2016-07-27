@@ -46,9 +46,18 @@
     </item>
     
     <item>
+      <title>IoT Workshop: Get Started with the Open IoT - Women Who Code</title>
+      <link>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ThingMonk &#43; Eclipse IoT</title>
       <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
-      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
       <description></description>
@@ -132,15 +141,6 @@
       <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-04-06-openiot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CeBIT 2016</title>
-      <link>http://iot.eclipse.org/events/2016-03-14-CEBIT/</link>
-      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-03-14-CEBIT/</guid>
       <description></description>
     </item>
     

@@ -1,5 +1,5 @@
 +++
-date = "2016-09-13"
+date = "2016-09-12"
 event_date = "Sept 12-14, 2016"
 link = "http://thingmonk.com/"
 location = "London, UK"

@@ -46,9 +46,18 @@
     </item>
     
     <item>
+      <title>IoT Workshop: Get Started with the Open IoT - Women Who Code</title>
+      <link>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ThingMonk &#43; Eclipse IoT</title>
       <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
-      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
       <description></description>
@@ -140,16 +149,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-05-18-oscon/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT - A Simple Overview</title>
-      <link>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
-      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
-      <description>&lt;p&gt;Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
