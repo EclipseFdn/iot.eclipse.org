@@ -1,9 +1,9 @@
 +++
 date = "2016-09-13"
-event_date = "Sept 14-15, 2015"
+event_date = "Sept 12-14, 2016"
 link = "http://thingmonk.com/"
 location = "London, UK"
-title = "ThingMonk"
+title = "ThingMonk + Eclipse IoT"
 
 +++
 

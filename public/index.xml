@@ -28,6 +28,15 @@
     </item>
     
     <item>
+      <title>Smart Summit London</title>
+      <link>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</link>
+      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>JavaOne 2016</title>
       <link>http://iot.eclipse.org/events/2016-09-18-javaone/</link>
       <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
@@ -37,12 +46,22 @@
     </item>
     
     <item>
-      <title>ThingMonk</title>
+      <title>ThingMonk &#43; Eclipse IoT</title>
       <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day @ Thingmonk</title>
+      <link>http://iot.eclipse.org/news/2016-07-27-thingmonk/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-07-27-thingmonk/</guid>
+      <description>&lt;p&gt;A new addition for Thingmonk this year is the Eclipse IoT Day @ Thingmonk on Day 0. We are planning an equally awesome line-up of speakers that will showcase how open source and Eclipse IoT has changing the IoT industry.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -131,25 +150,6 @@
       <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
       <description>&lt;p&gt;Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>5 Things I learnt at IoT World 2016</title>
-      <link>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</guid>
-      <description>&lt;p&gt;Discover the five things Benjamin Cabé learnt at IoT World 2016 last week!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT World</title>
-      <link>http://iot.eclipse.org/events/2016-05-10-iot-world/</link>
-      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
-      <description></description>
     </item>
     
   </channel>
