@@ -64,6 +64,16 @@
     </item>
     
     <item>
+      <title>Smart Summit London</title>
+      <link>http://iot.eclipse.org/news/2016-08-08-smartsummit/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-08-08-smartsummit/</guid>
+      <description>&lt;p&gt;This year, Tracy Miranda will be representing Eclipse IoT and open source at the Smart Summit in London on Sept 21-22. Planning to attend? Be sure to sit in on her panel!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day @ Thingmonk</title>
       <link>http://iot.eclipse.org/news/2016-07-27-thingmonk/</link>
       <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
@@ -140,15 +150,6 @@
 
 &lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>OSCON 2016</title>
-      <link>http://iot.eclipse.org/events/2016-05-18-oscon/</link>
-      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-18-oscon/</guid>
-      <description></description>
     </item>
     
   </channel>
