@@ -6,8 +6,17 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT World Europe 2016</title>
+      <link>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ETSI IoT/M2M Workshop</title>
@@ -138,18 +147,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Software Updates in IoT with Eclipse hawkBit</title>
-      <link>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
-      <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
-
-&lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
-</description>
     </item>
     
   </channel>
