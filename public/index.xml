@@ -73,6 +73,22 @@
     </item>
     
     <item>
+      <title>IoTracks</title>
+      <link>http://iot.eclipse.org/member/iotracks/</link>
+      <pubDate>Wed, 31 Aug 2016 15:31:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/iotracks/</guid>
+      <description>&lt;p&gt;With IOTRACKS fog computing, developing for the edge becomes as easy as developing for the Web.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ioFabric gives you a universal runtime for the edge&lt;/li&gt;
+&lt;li&gt;ComSat lets you interconnect private locations using the public Internet&lt;/li&gt;
+&lt;li&gt;ioAuthoring gives you drag-and-drop microservices&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Smart Summit London</title>
       <link>http://iot.eclipse.org/news/2016-08-08-smartsummit/</link>
       <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
@@ -138,15 +154,6 @@
       <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>IoT DevCon</title>
-      <link>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</link>
-      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
-      <description></description>
     </item>
     
   </channel>
