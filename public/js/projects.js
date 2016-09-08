@@ -70,7 +70,6 @@ var download_urls = {
   "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
   "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
   "iot.leshan": "https://github.com/eclipse/leshan#test-leshan-locally",
-  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
   "iot.4diac": "http://www.eclipse.org/4diac",
   "iot.risev2g": "https://github.com/eclipse/risev2g",
   "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
@@ -80,18 +79,19 @@ var download_urls = {
   "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
   "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
   "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
-  "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua"
+  "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua",
+  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite"
 };
 var download_stats = {
-  "iot.leshan": 1747,
-  "iot.californium": 3511,
-  "iot.paho": 8846,
-  "iot.om2m": 75,
-  "iot.mosquitto": 12326,
-  "iot.smarthome": 3851,
-  "iot.eclipsescada": 785,
-  "iot.kura": 1264,
-  "iot.ponte": 249
+  "iot.leshan": 2012,
+  "iot.californium": 3184,
+  "iot.paho": 10777,
+  "iot.om2m": 110,
+  "iot.mosquitto": 5266,
+  "iot.smarthome": 3748,
+  "iot.eclipsescada": 442,
+  "iot.kura": 641,
+  "iot.ponte": 279
 };
 
 
@@ -158,6 +158,9 @@ var download_stats = {
 
                     projectInfo = {};
                     projectInfo.link = value.website;
+                    if (!validateUrl(projectInfo.link)) {
+                        projectInfo.link = "http://projects.eclipse.org/projects/" + id;
+                    }
                     projectInfo.logo = value.logo || 'http://fakeimg.pl/400x200/f5f5f5/000/?text=' + title //; || 'https://placeholdit.imgix.net/~text?txtsize=42&txt=' + title + '&w=200&h=80&bg=f5f5f5&txtclr=000000' ; //|| 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
                     projectInfo.id = id;
                     projectInfo.name = title;

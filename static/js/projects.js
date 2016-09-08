@@ -158,6 +158,9 @@ var download_stats = {
 
                     projectInfo = {};
                     projectInfo.link = value.website;
+                    if (!validateUrl(projectInfo.link)) {
+                        projectInfo.link = "http://projects.eclipse.org/projects/" + id;
+                    }
                     projectInfo.logo = value.logo || 'http://fakeimg.pl/400x200/f5f5f5/000/?text=' + title //; || 'https://placeholdit.imgix.net/~text?txtsize=42&txt=' + title + '&w=200&h=80&bg=f5f5f5&txtclr=000000' ; //|| 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
                     projectInfo.id = id;
                     projectInfo.name = title;
