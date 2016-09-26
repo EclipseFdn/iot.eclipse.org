@@ -45,6 +45,10 @@ var download_urls = {}
 for (var project in all.projects) {
 	if(project.startsWith('iot.')) {
 	//	console.log(project);
+        for(var repo in all.projects[project].github_repos)
+        {
+            console.log(all.projects[project].id[0].value.replace('iot.', '') + ':' + all.projects[project].github_repos[repo].url.replace('https://github.com/eclipse/',''))
+        }
 		if(all.projects[project].releases) {
 			for(var release in all.projects[project].releases)
 			{
