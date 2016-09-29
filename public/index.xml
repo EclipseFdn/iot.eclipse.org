@@ -46,6 +46,16 @@
     </item>
     
     <item>
+      <title>Everything IoT @ EclipseCon Europe</title>
+      <link>http://iot.eclipse.org/news/2016-09-29-iotece/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-09-29-iotece/</guid>
+      <description>&lt;p&gt;Don&amp;rsquo;t miss all the IoT events at EclipseCon Europe taking place Oct 24-27 in Ludwigsburg, Germany. The conference includes an IoT Working Group meeting, IoT Day filled with great speakers/talks, IoT Playground and more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>IoT613</title>
       <link>http://iot.eclipse.org/events/2016-09-29-IoT-613/</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
@@ -142,16 +152,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New Eclipse IoT project releases to accelerate IoT solution development</title>
-      <link>http://iot.eclipse.org/news/2016-06-16-new-project-releases/</link>
-      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-06-16-new-project-releases/</guid>
-      <description>&lt;p&gt;The Eclipse Internet of Things (IoT) Working Group, hosted at the Eclipse Foundation, is pleased to announce new releases for four open source IoT projects: Eclipse Kura 2.0, Eclipse Paho 1.2, Eclipse SmartHome 0.8 and Eclipse OM2M 1.0.&lt;/p&gt;
 </description>
     </item>
     

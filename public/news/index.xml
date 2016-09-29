@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Everything IoT @ EclipseCon Europe</title>
+      <link>http://iot.eclipse.org/news/2016-09-29-iotece/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-09-29-iotece/</guid>
+      <description>&lt;p&gt;Don&amp;rsquo;t miss all the IoT events at EclipseCon Europe taking place Oct 24-27 in Ludwigsburg, Germany. The conference includes an IoT Working Group meeting, IoT Day filled with great speakers/talks, IoT Playground and more.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Smart Summit London</title>
@@ -148,16 +158,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
       <description>&lt;p&gt;If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tutorial: Connecting Eclipse Kura to AWS IoT</title>
-      <link>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</link>
-      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-10-23-Kura-and-AWS-IoT/</guid>
-      <description>&lt;p&gt;Just a few weeks ago, Amazon Web Services (AWS) announced that they added the ability for their customers to manage IoT solutions. More specifically, they are offering a managed IoT platform that allows to connect your devices using HTTP or MQTT, and that integrates with other AWS services…&lt;/p&gt;
 </description>
     </item>
     
