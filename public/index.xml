@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>IoT Day @ EclipseCon Europe</title>
+      <link>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Women in IoT meetup w/ Benjamin Cabé</title>
       <link>http://iot.eclipse.org/events/2016-10-19-women-in-IoT-meetup/</link>
       <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
@@ -143,16 +152,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-07-22-get-d/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Getting Started with a W3C Web of Things Project</title>
-      <link>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
-      <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
-</description>
     </item>
     
   </channel>

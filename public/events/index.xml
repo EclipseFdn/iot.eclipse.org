@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>IoT Day @ EclipseCon Europe</title>
+      <link>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Women in IoT meetup w/ Benjamin Cabé</title>
       <link>http://iot.eclipse.org/events/2016-10-19-women-in-IoT-meetup/</link>
       <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
@@ -132,15 +141,6 @@
       <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Day Grenoble</title>
-      <link>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-04-28-IoT-day-grenoble/</guid>
       <description></description>
     </item>
     
