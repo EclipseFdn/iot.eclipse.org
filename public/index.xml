@@ -74,6 +74,18 @@
     </item>
     
     <item>
+      <title>Eclipse Edje: A Java API for Microcontrollers</title>
+      <link>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
+      <pubDate>Wed, 28 Sep 2016 15:58:06 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides available at: &lt;a href=&#34;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&#34;&gt;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Smart Summit London</title>
       <link>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</link>
       <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
@@ -136,22 +148,13 @@
     </item>
     
     <item>
-      <title>Eclipse IoT Day @ Thingmonk</title>
-      <link>http://iot.eclipse.org/news/2016-07-27-thingmonk/</link>
-      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      <title>Introduction to IoTivity</title>
+      <link>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
+      <pubDate>Wed, 03 Aug 2016 16:03:41 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2016-07-27-thingmonk/</guid>
-      <description>&lt;p&gt;A new addition for Thingmonk this year is the Eclipse IoT Day @ Thingmonk on Day 0. We are planning an equally awesome line-up of speakers that will showcase how open source and Eclipse IoT has changing the IoT industry.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>GetD</title>
-      <link>http://iot.eclipse.org/events/2016-07-22-get-d/</link>
-      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-07-22-get-d/</guid>
-      <description></description>
     </item>
     
   </channel>

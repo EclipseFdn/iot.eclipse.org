@@ -4,7 +4,6 @@
   <url>
     <loc>http://iot.eclipse.org/</loc>
     <lastmod>2016-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -43,6 +42,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</loc>
+    <lastmod>2016-09-28T15:58:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</loc>
     <lastmod>2016-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -73,6 +77,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</loc>
+    <lastmod>2016-08-03T16:03:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/news/2016-07-27-thingmonk/</loc>
     <lastmod>2016-07-27T00:00:00+00:00</lastmod>
   </url>
@@ -80,6 +89,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2016-07-22-get-d/</loc>
     <lastmod>2016-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</loc>
+    <lastmod>2016-07-20T16:05:25+00:00</lastmod>
   </url>
   
   <url>

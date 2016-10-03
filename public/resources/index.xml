@@ -6,8 +6,40 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jun 2016 16:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Sep 2016 15:58:06 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse Edje: A Java API for Microcontrollers</title>
+      <link>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
+      <pubDate>Wed, 28 Sep 2016 15:58:06 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides available at: &lt;a href=&#34;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&#34;&gt;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to IoTivity</title>
+      <link>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
+      <pubDate>Wed, 03 Aug 2016 16:03:41 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building Ecological Houses with Open Source and IoT</title>
+      <link>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</link>
+      <pubDate>Wed, 20 Jul 2016 16:05:25 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Open Building Institute (OBI) was launched to make affordable, ecological housing accessible to everyone—using a library of engineered modules and a series of rapid-build procedures. We are developing…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Started with a W3C Web of Things Project</title>
@@ -127,34 +159,6 @@
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
-      <link>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
-      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
-      <link>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
-      <link>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2015-12-22-case-study-01/</guid>
       <description></description>
     </item>
     
