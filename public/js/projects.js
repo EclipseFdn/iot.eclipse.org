@@ -41,8 +41,8 @@ var projectsAssociation = {
 
 
 var projectAliases = {
-    'iot.californium': 'Californium',
-    'iot.4diac': '4DIAC'
+    'iot.californium': 'Eclipse Californium',
+    'iot.4diac': 'Eclipse 4DIAC'
 };
 
 var releases = {
@@ -80,20 +80,21 @@ var download_urls = {
   "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
   "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
   "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua",
-  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite"
+  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
+  "iot.unide": "http://www.eclipse.org/unide",
+  "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog"
 };
 var download_stats = {
-  "iot.leshan": 2012,
-  "iot.californium": 3184,
-  "iot.paho": 10777,
-  "iot.om2m": 110,
-  "iot.mosquitto": 5266,
-  "iot.smarthome": 3748,
-  "iot.eclipsescada": 442,
-  "iot.kura": 641,
-  "iot.ponte": 279
+  "iot.leshan": 2456,
+  "iot.californium": 4420,
+  "iot.paho": 16532,
+  "iot.om2m": 124,
+  "iot.mosquitto": 12777,
+  "iot.smarthome": 3993,
+  "iot.eclipsescada": 475,
+  "iot.kura": 600,
+  "iot.ponte": 321
 };
-
 
 
 (function($, window, document) {
