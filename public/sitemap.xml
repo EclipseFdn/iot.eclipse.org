@@ -4,7 +4,6 @@
   <url>
     <loc>http://iot.eclipse.org/</loc>
     <lastmod>2016-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -30,6 +29,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2016-10-19-women-in-IoT-meetup/</loc>
     <lastmod>2016-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</loc>
+    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>

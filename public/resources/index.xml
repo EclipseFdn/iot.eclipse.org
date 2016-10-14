@@ -6,8 +6,17 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Sep 2016 15:58:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Three Software Stacks Required for IoT Architectures</title>
+      <link>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eclipse Edje: A Java API for Microcontrollers</title>
@@ -151,15 +160,6 @@
       <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
       <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
-      <link>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
-      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
-      <description></description>
     </item>
     
   </channel>

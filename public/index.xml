@@ -55,6 +55,15 @@
     </item>
     
     <item>
+      <title>The Three Software Stacks Required for IoT Architectures</title>
+      <link>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Everything IoT @ EclipseCon Europe</title>
       <link>http://iot.eclipse.org/news/2016-09-29-iotece/</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
@@ -144,16 +153,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-08-08-smartsummit/</guid>
       <description>&lt;p&gt;This year, Tracy Miranda will be representing Eclipse IoT and open source at the Smart Summit in London on Sept 21-22. Planning to attend? Be sure to sit in on her panel!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to IoTivity</title>
-      <link>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
-      <pubDate>Wed, 03 Aug 2016 16:03:41 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…&lt;/p&gt;
 </description>
     </item>
     
