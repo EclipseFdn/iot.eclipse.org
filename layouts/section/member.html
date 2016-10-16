@@ -68,11 +68,11 @@
 </head>
 
 <body class="homepage">
-            <div class="row">
+            <div class="row" id="members">
 
               {{ range where .Data.Pages ".Type" "member" }}
 
-              <div class="col-md-2 col-xs-2" style="padding:20px 20px;">
+              <div class="col-md-2 col-xs-2 member" style="padding:20px 20px;" title="{{ .Title }}">
                 <div style="height: 120px; line-height: 120px; ">
                   <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
                     <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
@@ -88,6 +88,27 @@
 </div>
  -->
             </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+    // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
+    var $wrapper = $('#members');
+
+    $wrapper.find('.member').sort(function(a, b) {
+        //           console.log(a.getAttribute('title').toLowerCase());
+        var s1 = a.getAttribute('title').toLowerCase();
+        var s2 = b.getAttribute('title').toLowerCase();
+
+        return s1.localeCompare(s2);
+      })
+      .appendTo($wrapper);
+  });
+  </script>
 
 </body>
 
