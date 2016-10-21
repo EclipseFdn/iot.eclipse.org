@@ -6,8 +6,28 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Aug 2016 15:31:16 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 20 Oct 2016 15:31:16 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IncQuery Labs Ltd.</title>
+      <link>http://iot.eclipse.org/member/incquery/</link>
+      <pubDate>Thu, 20 Oct 2016 15:31:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/incquery/</guid>
+      <description>&lt;p&gt;IncQuery Labs Ltd. is a young and innovative company, founded in 2013 by a group of experts, with over 50 years of total R&amp;amp;D experience in model driven engineering. Our mission is to accelerate technology transfer from top-notch academic research to challenging industrial projects. We offer innovative R&amp;amp;D solutions like:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;high performance modeling tools with innovative traceability support,&lt;/li&gt;
+&lt;li&gt;code generators and transformation chains (both batch and incremental),&lt;/li&gt;
+&lt;li&gt;tool and runtime development for critical embedded and cyber-physical systems,&lt;/li&gt;
+&lt;li&gt;superscalable queries for big data apps, and&lt;/li&gt;
+&lt;li&gt;event and stream processing for IoT.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Our expertise covers model queries, transformations and compilers, domain-specific language engineering, incremental solutions, performance tuning, configuration design and deployment, tool development and integration in the automotive, avionics, Internet of Things and other domains.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IOTRACKS</title>
@@ -178,20 +198,6 @@
       
       <guid>http://iot.eclipse.org/member/itemis/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>GadgetKeeper</title>
-      <link>http://iot.eclipse.org/member/gadgetkeeper/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/gadgetkeeper/</guid>
-      <description>&lt;p&gt;GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.&lt;/p&gt;
-
-&lt;p&gt;GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.&lt;/p&gt;
-
-&lt;p&gt;GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
