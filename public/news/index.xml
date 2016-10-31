@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing Open IoT Challenge 3.0</title>
+      <link>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</guid>
+      <description>&lt;p&gt;The Open IoT Challenge is back for a third edition and it is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology! Submit your solution proposal by November 25, 2016.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Everything IoT @ EclipseCon Europe</title>
@@ -148,16 +158,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</guid>
       <description>&lt;p&gt;We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT at JavaOne 2015</title>
-      <link>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</link>
-      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-10-25-Eclipse-IoT-at-JavaOne-2015/</guid>
-      <description>&lt;p&gt;If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…&lt;/p&gt;
 </description>
     </item>
     

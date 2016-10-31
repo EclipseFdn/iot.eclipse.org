@@ -28,6 +28,16 @@
     </item>
     
     <item>
+      <title>Announcing Open IoT Challenge 3.0</title>
+      <link>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</guid>
+      <description>&lt;p&gt;The Open IoT Challenge is back for a third edition and it is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology! Submit your solution proposal by November 25, 2016.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>EclipseCon Europe 2016</title>
       <link>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
@@ -148,22 +158,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>IOTRACKS</title>
-      <link>http://iot.eclipse.org/member/iotracks/</link>
-      <pubDate>Wed, 31 Aug 2016 15:31:16 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/iotracks/</guid>
-      <description>&lt;p&gt;With IOTRACKS fog computing, developing for the edge becomes as easy as developing for the Web.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ioFabric gives you a universal runtime for the edge&lt;/li&gt;
-&lt;li&gt;ComSat lets you interconnect private locations using the public Internet&lt;/li&gt;
-&lt;li&gt;ioAuthoring gives you drag-and-drop microservices&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>
