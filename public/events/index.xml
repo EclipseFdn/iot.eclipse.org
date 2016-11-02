@@ -6,8 +6,35 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</link>
+      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devoxx US 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-21-devoxxus/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-21-devoxxus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Converge 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT World Europe 2016</title>
@@ -114,33 +141,6 @@
       <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT DevCon</title>
-      <link>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</link>
-      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OSCON 2016</title>
-      <link>http://iot.eclipse.org/events/2016-05-18-oscon/</link>
-      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-18-oscon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT World</title>
-      <link>http://iot.eclipse.org/events/2016-05-10-iot-world/</link>
-      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
       <description></description>
     </item>
     

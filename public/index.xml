@@ -6,8 +6,35 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</link>
+      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devoxx US 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-21-devoxxus/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-21-devoxxus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Converge 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT World Europe 2016</title>
@@ -130,33 +157,6 @@
       <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaOne 2016</title>
-      <link>http://iot.eclipse.org/events/2016-09-18-javaone/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-18-javaone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Workshop: Get Started with the Open IoT - Women Who Code</title>
-      <link>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</link>
-      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ThingMonk &#43; Eclipse IoT</title>
-      <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
       <description></description>
     </item>
     
