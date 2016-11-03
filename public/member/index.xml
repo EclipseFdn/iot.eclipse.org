@@ -6,8 +6,20 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2016 15:31:16 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 03 Nov 2016 16:47:16 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Codenvy, S.A.</title>
+      <link>http://iot.eclipse.org/member/codenvy/</link>
+      <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/codenvy/</guid>
+      <description>&lt;p&gt;Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.&lt;/p&gt;
+
+&lt;p&gt;Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>IncQuery Labs Ltd.</title>
@@ -188,15 +200,6 @@
       <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
       
       <guid>http://iot.eclipse.org/member/laas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>itemis</title>
-      <link>http://iot.eclipse.org/member/itemis/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/itemis/</guid>
       <description></description>
     </item>
     
