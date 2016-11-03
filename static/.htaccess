@@ -4,6 +4,9 @@
 #RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
 #RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
 
+
+Redirect permanent "/white-paper-iot-architectures" "/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf"
+
 <IfModule pagespeed_module>
     ModPagespeed off
 </IfModule>
