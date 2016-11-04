@@ -56,60 +56,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            <img alt="Brand" src="/assets/images/iot-logo.png">
-          </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/getting-started">Getting Started</a>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/case-studies">Case Studies</a>
-   
-
-              </ul>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Resources</a>
-                </li>
-                <li><a href="#">News</a>
-                </li>
-                <li><a href="#">Events</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/working-group">Working Group</a>
-            </li>
-            <li style="  padding-top: 15px; padding-left: 8px;">
-              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
+    {{ partial "navbar.html" . }}
   </header>
   <!-- Place this tag after the last +1 button tag. -->
   <script type="text/javascript">
@@ -189,54 +136,10 @@
     </section>
   </main>
 
-  <footer>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <nav>
-              <ul class="list-inline menu dropdown">
-	            <li><a href="/getting-started">Getting Started</a>
-	            </li>
-	            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-	              <ul class="dropdown-menu" role="menu">
-	                <li><a href="/standards">Standards</a>
-	                </li>
-	                <li><a href="/frameworks">Services &amp; Frameworks</a>
-	                </li>
-	                <li><a href="/projects">All the projects</a>
-	                </li>
-	              </ul>
-	            </li>
-	            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-	              <ul class="dropdown-menu" role="menu">
-	                <li><a href="/resources">Resources</a>
-	                </li>
-	                <li><a href="/news">News</a>
-	                </li>
-	                <li><a href="/events">Events</a>
-	                </li>
-	              </ul>
-	            </li>
-	            <li><a href="/working-group">Working Group</a>
-	            </li>
-              </ul>
-          </nav>
-          <div class="socials">
-<!--             <a href="#" class="social-facebook">&nbsp;</a> -->
-            <a href="https://twitter.com/EclipseIoT" class="social-twitter">&nbsp;</a>
-            <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" class="social-youtube">&nbsp;</a>
-<!--             <a href="#" class="social-share">&nbsp;</a> -->
-          </div>
-        </div>
-        <div class="col-md-6">
-          <p class="copyright">Copyright © 2016 The Eclipse Foundation. All Rights Reserved.</p>
-        </div>
-      </div>
-    </div>
+    {{ partial "footer.html" . }}
 
 
-  </footer>
     <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
     </div>
     </div>

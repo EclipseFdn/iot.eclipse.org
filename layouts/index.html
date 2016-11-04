@@ -70,85 +70,7 @@
     <body class="homepage">
 
       <header>
-
-        <nav class="navbar navbar-default">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">
-                <img alt="Brand" src="/assets/images/iot-logo.png">
-              </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="/getting-started">Getting Started</a>
-                </li>
-                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="/standards">Open Standards</a>
-                    </li>
-                    <li><a href="/iot-architectures">IoT Architectures</a>
-                    </li>
-
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Eclipse IoT for…</li>
-                    <li><a href="/constrained-devices">Constrained Devices</a>
-                    </li>
-                    <li><a href="/smart-devices">Smart Devices / Gateways</a>
-                    </li>
-                    <li><a href="/iot-cloud-platforms">IoT Cloud Platforms</a>
-                    </li>
-
-                    <li role="separator" class="divider"></li>
-
-                    <li><a href="/projects">Browse the Projects</a>
-                    </li>
-                    <li><a href="/case-studies">Case Studies</a>
-                    </ul>
-                  </li>
-                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li>
-                        <a href="/resources">Resources</a>
-                      </li>
-                      <li>
-                        <a href="/news">News</a>
-                      </li>
-                      <li>
-                        <a href="/events">Events</a>
-                      </li>
-                      <li>
-                        <a href="/open-iot-challenge">Open IoT Challenge</a>
-                      </li>
-                      <li>
-                        <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="/working-group">Working Group</a>
-                  </li>
-                  <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
-                    <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
-                  </li>
-                  <li style="min-width: 100px; padding-top: 15px; padding-left: 0px; margin-left:-35px">
-                    <a href="https://twitter.com/eclipseiot" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-align="center">Follow @eclipseiot</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-                  </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-              </div>
-              <!-- /.container-fluid -->
-            </nav>
-
-
+            {{ partial "navbar.html" . }}
 
             <section class="container">
               <div class="row">
@@ -189,22 +111,19 @@
       <div class="container">
         <div class="row">
 
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-            Lorem ipsum In dolore quis laboris nostrud consequat proident fugiat sit magna Ut sit in non esse ullamco sed sint dolore sed quis cupidatat sint deserunt culpa ullamco in qui Ut aute aliquip nisi sunt consectetur qui officia pariatur in.
-          </p>
-        </div>
+<!--         <div>
+          <h3 class="purple">
+            A typical IoT solution is characterized by many <strong>devices</strong>
+            that may use a <strong>gateway</strong> to communicate through a
+            network to an enterprise back-end server that is running an <strong>IoT
+            cloud platform</strong> that helps integrate the IoT information into the existing
+            enterprise. <br>
+            Eclipse IoT provides the open source technology to build these three stacks.
+          </h3>
+        </div> -->
 
           <div class="col-md-4 first-col">
-            <a href="/devices">
+            <a href="/device-stack">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-device" aria-hidden="true"></span>
@@ -218,7 +137,7 @@
           </div>
           
           <div class="col-md-4 first-col">
-            <a href="/xxx">
+            <a href="/gateway-stack">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-gateway" aria-hidden="true"></span>
@@ -232,7 +151,7 @@
           </div>
           
           <div class="col-md-4 first-col">
-            <a href="/devices">
+            <a href="/cloud-stack">
               <div class="row">
                 <div class="col-xs-2 col-md-3">
                   <span class="icon-cloud" aria-hidden="true"></span>
@@ -450,28 +369,7 @@
 
 </main>
 
-
-<footer>
-  <!--     TODO footer copyright -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="socials">
-          <!--             <a href="#" class="social-facebook">&nbsp;</a> -->
-          <a href="https://twitter.com/EclipseIoT" class="social-twitter">&nbsp;</a>
-          <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" class="social-youtube">&nbsp;</a>
-          <!--             <a href="#" class="social-share">&nbsp;</a> -->
-        </div>
-      </div>
-      <div class="col-md-6">
-        <p class="copyright">Copyright © 2016 The Eclipse Foundation. All Rights Reserved.</p>
-      </div>
-    </div>
-  </div>
-
-
-</footer>
+{{ partial "footer.html" . }}
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
