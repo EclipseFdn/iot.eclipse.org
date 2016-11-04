@@ -55,6 +55,18 @@
     </item>
     
     <item>
+      <title>Codenvy, S.A.</title>
+      <link>http://iot.eclipse.org/member/codenvy/</link>
+      <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/codenvy/</guid>
+      <description>&lt;p&gt;Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.&lt;/p&gt;
+
+&lt;p&gt;Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Announcing Open IoT Challenge 3.0</title>
       <link>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</link>
       <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
@@ -149,15 +161,6 @@
 
 &lt;p&gt;The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Smart Summit London</title>
-      <link>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</link>
-      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</guid>
-      <description></description>
     </item>
     
   </channel>
