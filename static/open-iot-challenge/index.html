@@ -205,9 +205,9 @@
                                 <div class="col-xs-6 col-sm-4 ">
                                     <span class="icon icon-users" aria-hidden="true"></span>
  
-                                    <p><a href="/open-iot-challenge/second-edition" target="_blank"><strong>Previous edition</strong></a><br/>
-                                        <span class="fact-highlight">80+</span><br/>
-                                        <span style="margin-top:-18px; display: block; font-size:0.8em;">entering teams</span>
+                                    <p><a href="https://goo.gl/forms/80zyVCtWPpkIR1lF2" target="_blank"><strong>Enter today!</strong></a><br/>
+                                        <span class="fact-highlight" id="number-of-teams">-</span><br/>
+                                        <span style="margin-top:-18px; display: block; font-size:0.8em;">teams already entered!</span>
                                     </p> 
                                 </div>
 
@@ -539,6 +539,13 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+        $.getJSON("https://spreadsheets.google.com/feeds/list/1wcQzgLooYXILoFkWyaw4lewfFAsw_zKf_pN8HjbIfuk/2/public/values?alt=json", function(data) {
+            //first row "title" column
+            $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
+        });
+    </script>
 
 
 </body>
