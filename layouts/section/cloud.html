@@ -67,7 +67,14 @@
           <div class="col-md-7">
             <h1 class="purple">IoT Cloud Platform Stack</h1>
             <p>The IoT Cloud Platform represents the software infrastructure and services required to enable an IoT solution. An IoT Cloud Platform typically operates on a cloud infrastructure (e.g. OpenShift, AWS, Microsoft Azure, Cloud Foundry) or inside an enterprise data center and is expected to scale both horizontally, to support the large number of devices connected, as well as vertically to address the variety of IoT solutions. The IoT Cloud Platform will facilitate the interoperability of the IoT solution with existing enterprise applications and other IoT solutions.</p>
+
+            <p>Also check out:</p>
+            <ul>
+              <li><a href="/devices">Device stack</a></li>
+              <li><a href="/gateways">Gateway stack</a></li>
+            </ul>
           </div>
+
           <div class="col-md-4 col-md-offset-1">
             <img src="/images/stacks/cloud.png" class="img-responsive">
           </div>
@@ -77,17 +84,43 @@
     <section class="second row-fluid">
       <div class="container">
         <!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
+
+        <h1 class="purple">Eclipse Kapua</h1>
+
+        <h1 class="purple">Eclipse OM2M</h1>
+
         <h1 class="purple">Open source components for IoT Cloud Platforms</h1>
         <h2>Connectivity &amp; Message Routing</h2>
         <ul>
           <li>Eclipse Hono provides a uniform API for interacting with devices using arbitrary protocols, as well as an extensible framework to add other protocols.</li>
           <li>Eclipse Mosquitto provides an implementation of an MQTT broker.</li>
         </ul>
-        <h2>Device Registry</h2>
+
         <h2>Device Management</h2>
+        <ul>
+          <li>Eclipse Leshan provides an implementation of the OMA LWM2M device management protocol</li>
+        </ul>
+
+        <h2>Device Management</h2>
+        <ul>
+          <li>Eclipse hawkBit provides the management tools to roll out software updates to devices and gateways</li>
+        </ul>
+        
         <h2>Data Management</h2>
+        <ul>
+          <li></li>
+        </ul>
+        
         <h2>Analytics</h2>
+        <ul>
+          <li></li>
+        </ul>
+        
         <h2>Application Enablement</h2>
+        <ul>
+          <li></li>
+        </ul>
+      
       </div>
     </section>
   </main>
