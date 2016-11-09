@@ -45,7 +45,6 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
   ga('create', 'UA-594061-11', 'auto');
   ga('send', 'pageview');
   </script>
@@ -124,11 +123,12 @@
         <div class="lead">
           <p>The IoT Working Group is supporting open standards for the Internet of Things.</p>
           <p>
-            We provide open source implementations for IoT protocols such as <a href="#coap">CoAP</a>, <a href="#oneM2M">oneM2M</a>, <a href="#mqtt">MQTT</a> or <a href="#oma-lwm2m">LwM2M</a>.
+            We provide open source implementations for IoT protocols such as <a href="#coap">CoAP</a>, <a href="#oneM2M">oneM2M</a>, <a href="#oma-lwm2m">LwM2M</a>, <a href="#mqtt">MQTT</a>, <a href="#opc-ua">OPC-UA</a>, and more.
           </p>
         </div>
       </div>
     </div>
+
     <section class="first">
       <div class="container">
         <h1 id="protocols-vision" class="purple">Vision</h1>
@@ -151,7 +151,25 @@
         </div>
       </div>
     </section>
-    <section class="second">
+
+    <section class="second" style="padding-bottom: 120px;">
+      <div class="container">
+        <h3 class="purple">You can get open source implementations of the following open standards from Eclipse IoT:</h3>
+
+        <a href="#coap"><button class="btn btn-info" type="button">CoAP</button></a>
+        <a href="#mqtt"><button class="btn btn-info" type="button">MQTT</button></a>
+        <a href="#opc-ua"><button class="btn btn-info" type="button">OPC-UA</button></a>
+        <a href="#onem2m"><button class="btn btn-info" type="button">oneM2M</button></a>
+        <a href="#dtls"><button class="btn btn-info" type="button">DTLS</button></a>
+        <a href="#ppmp"><button class="btn btn-info" type="button">PPMP</button></a>
+        <a href="#iec-15118"><button class="btn btn-info" type="button">IEC 15118</button></a>
+        <a href="#iec-61499"><button class="btn btn-info" type="button">IEC 61499</button></a>
+        <a href="#sensorthings"><button class="btn btn-info" type="button">OGC SensorThings API</button></a>
+
+      </div>
+    </section>
+
+    <section class="third">
       <div class="container">
         <h1 id="coap" class="purple">CoAP</h1>
         <p>CoAP (Constrained Application Protocol) is a protocol specialized for use with constrained nodes and networks.</p>
@@ -159,16 +177,16 @@
         <div class="row">
           <div class="col-md-6">
             <h2>
-                    <i class="icon-forward"></i> Download CoAP runtime
-                </h2>
+                    <i class="icon-forward"></i> Download a CoAP runtime
+            </h2>
             <p>
               The <a href="http://www.eclipse.org/californium/" target="_blank">Eclipse Californium project</a> provides a Java implementation of the CoAP protocol, including support for the DTLS security layer. The source code of Californium is available from the <a href="http://www.eclipse.org/californium">project webpage</a>, and is also available from Maven Central.</p>
             </p>
           </div>
           <div class="col-md-6">
             <h2>
-                    <i class="icon-forward"></i> Sandbox CoAP Server
-                </h2>
+                    <i class="icon-forward"></i> CoAP Sandbox Server
+            </h2>
             <p>
               We provide a <a href="sandbox.html#coap">sandbox server</a> that exposes some testing resources over CoAP. You can use it to test your CoAP communication scenarios.
             </p>
@@ -176,21 +194,44 @@
         </div>
       </div>
     </section>
-    <section class="third">
+
+    <section class="second">
       <div class="container">
-        <h1 id="oneM2M" class="purple">oneM2M</h1>
-        <p>ETSI SmartM2M provides specifications for M2M services and applications, and particularly focuses on aspects of the Internet of Things (IoT) and Smart Cities.</p>
+        <h1 id="mqtt" class="purple">IEC-15118</h1>
+        <p>
+          desc
+        </p>
+
         <div class="row">
           <div class="col-md-6">
             <h2>
-                    <i class="icon-forward"></i> Download ETSI SmartM2M runtime
+                    <i class="icon-forward"></i> Download an IEC-15118 runtime
                 </h2>
-            <p> The <a href="http://www.eclipse.org/om2m/" target="_blank">Eclipse OM2M project</a> provides a Java implementation of the ETSI SmartM2M standard. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications and heterogeneous devices. The source code of OM2M is available from the <a href="http://www.eclipse.org/om2m">project webpage</a>.</p>
+            <p>xxx</p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="second">
+      <div class="container">
+        <h1 id="mqtt" class="purple">IEC-61499</h1>
+        <p>
+          desc
+        </p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+                    <i class="icon-forward"></i> Download an IEC-61499 toolset and runtime
+                </h2>
+            <p>xxx</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third">
       <div class="container">
         <h1 id="mqtt" class="purple">MQTT</h1>
         <p>
@@ -217,7 +258,7 @@
           </div>
           <div class="col-md-6">
             <h2>
-                    <i class="icon-forward"></i> Sandbox MQTT Server
+                    <i class="icon-forward"></i> MQTT Sandbox Server
                 </h2>
             <p>
               We provide a <a href="sandbox.html#mqtt">sandbox server</a> so that you can test your MQTT-based applications against an actual MQTT broker.
@@ -226,7 +267,23 @@
         </div>
       </div>
     </section>
-    <section class="third">
+
+    <section class="second">
+      <div class="container">
+        <h1 id="oneM2M" class="purple">oneM2M</h1>
+        <p>oneM2M specifications provide a horizontal framework to support a wide range of applications and services such as smart cities, smart grid, connected car, home automation, public safety, and health.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+                    <i class="icon-forward"></i> Download a oneM2M stack
+                </h2>
+            <p> The <a href="http://www.eclipse.org/om2m/" target="_blank">Eclipse OM2M project</a> provides a Java implementation of the ETSI oneM2M. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications on heterogeneous devices. The source code of OM2M is available from the <a href="http://www.eclipse.org/om2m">project webpage</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second">
       <div class="container">
         <h1 id="oma-lwm2m" class="purple">OMA LightweightM2M</h1>
         <p>
@@ -238,25 +295,74 @@
         <div class="row">
           <div class="col-md-6">
             <h2>
-                    <i class="icon-forward"></i> Download LWM2M runtime
+                    <i class="icon-forward"></i> Download a LWM2M runtime
                 </h2>
             <p>
-              The <a href="http://www.eclipse.org/wakaama/" target="_blank">Wakaama project</a> provides a <strong>C portable framework</strong> for building LWM2M clients and/or servers. The source code of Wakaama is available from the <a href="http://www.eclipse.org/wakaama">project webpage</a>.</p>
+              The <a href="http://www.eclipse.org/wakaama/" target="_blank">Eclipse Wakaama project</a> provides a <strong>C portable framework</strong> for building LWM2M clients and/or servers. The source code of Wakaama is available from the <a href="http://www.eclipse.org/wakaama">project webpage</a>.</p>
             <p>
               The <a href="http://www.eclipse.org/leshan/" target="_blank">Eclipse Leshan project</a> provides a <strong>Java implementation</strong> of LwM2M, allowing to build LwM2M servers and clients. The source code of Leshan is available from the <a href="http://www.eclipse.org/leshan">project webpage</a>.</p>
             </p>
           </div>
           <div class="col-md-6">
             <h2>
-                <i class="icon-forward"></i> Sandbox LWM2M Server
+                <i class="icon-forward"></i> LWM2M Sandbox Server
             </h2>
             <p>
-              We provide a Leshan-based <a href="sandbox.html#lwm2m">sandbox LWM2M server</a> against which LWM2M clients can be registered. The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients.
+              We provide a Leshan-based <a href="sandbox.html#lwm2m">LWM2M sandbox server</a> against which LWM2M clients can be registered. The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients.
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="third">
+      <div class="container">
+        <h1 id="opc-ua" class="purple">OPC Unified Architecture (UA)</h1>
+        <p>
+          OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.
+        </p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+                    <i class="icon-forward"></i> Download an OPC-UA runtime 
+                </h2>
+            <p>
+              The <a href="http://www.eclipse.org/milo/" target="_blank">Eclipse Milo project</a> provides all the tools necessary to implement OPC Unified Architecture (UA) client and/or server functionality in any Java-based project.</p>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h2>
+                <i class="icon-forward"></i> OPC-UA Sandbox Server
+            </h2>
+            <p>
+              <em>Coming soon.</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second">
+      <div class="container">
+        <h1 id="sensorthings" class="purple">Open Geospatial Consortium (OGC) SensorThings API</h1>
+        <p>
+          SensorThings API is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.
+        </p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>
+                    <i class="icon-forward"></i> Download a SensorThings API runtime 
+                </h2>
+            <p>
+              The <a href="http://www.eclipse.org/whiskers/" target="_blank">Eclipse Whiskers project</a> provides a JavaScript client and a light-weight server for IoT gateways.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
   <!-- /container -->
   <footer>
