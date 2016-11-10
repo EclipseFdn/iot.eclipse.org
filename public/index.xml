@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>Eclipse Converge: Open Data, Open Tools</title>
+      <link>http://iot.eclipse.org/events/2016-11-24-converge-london/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2016-11-24-converge-london/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IoT World Europe 2016</title>
       <link>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</link>
       <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
@@ -154,15 +163,6 @@
       <guid>http://iot.eclipse.org/news/2016-09-29-iotece/</guid>
       <description>&lt;p&gt;Don&amp;rsquo;t miss all the IoT events at EclipseCon Europe taking place Oct 24-27 in Ludwigsburg, Germany. The conference includes an IoT Working Group meeting, IoT Day filled with great speakers/talks, IoT Playground and more.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>IoT613</title>
-      <link>http://iot.eclipse.org/events/2016-09-29-IoT-613/</link>
-      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-29-IoT-613/</guid>
-      <description></description>
     </item>
     
   </channel>
