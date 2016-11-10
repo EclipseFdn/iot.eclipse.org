@@ -55,6 +55,20 @@
     </item>
     
     <item>
+      <title>EclipseSource</title>
+      <link>http://iot.eclipse.org/member/eclipsesource/</link>
+      <pubDate>Mon, 07 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/eclipsesource/</guid>
+      <description>&lt;p&gt;EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.&lt;/p&gt;
+
+&lt;p&gt;EclipseSource is focused on Business Applications, Mobile Applications, Modeling Tools and Frameworks/Developer Tooling. We provide a complete range of services including conception, evaluation, training, support, consulting/implementation with a special focus on framework adoption, creation and maintenance.&lt;/p&gt;
+
+&lt;p&gt;EclipseSource is distributed over multiple locations in North America and Europe and serves a truly global customer base from various domains, ranging from Fortune 100 corporations to individual developers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Codenvy, S.A.</title>
       <link>http://iot.eclipse.org/member/codenvy/</link>
       <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
@@ -149,18 +163,6 @@
       
       <guid>http://iot.eclipse.org/events/2016-09-29-IoT-613/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse Edje: A Java API for Microcontrollers</title>
-      <link>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
-      <pubDate>Wed, 28 Sep 2016 15:58:06 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides available at: &lt;a href=&#34;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&#34;&gt;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…&lt;/p&gt;
-</description>
     </item>
     
   </channel>

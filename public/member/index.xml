@@ -6,8 +6,22 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Nov 2016 16:47:16 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 07 Nov 2016 15:31:21 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseSource</title>
+      <link>http://iot.eclipse.org/member/eclipsesource/</link>
+      <pubDate>Mon, 07 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/eclipsesource/</guid>
+      <description>&lt;p&gt;EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.&lt;/p&gt;
+
+&lt;p&gt;EclipseSource is focused on Business Applications, Mobile Applications, Modeling Tools and Frameworks/Developer Tooling. We provide a complete range of services including conception, evaluation, training, support, consulting/implementation with a special focus on framework adoption, creation and maintenance.&lt;/p&gt;
+
+&lt;p&gt;EclipseSource is distributed over multiple locations in North America and Europe and serves a truly global customer base from various domains, ranging from Fortune 100 corporations to individual developers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Codenvy, S.A.</title>
@@ -192,15 +206,6 @@
       <guid>http://iot.eclipse.org/member/m2m-alliance/</guid>
       <description>&lt;p&gt;As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>LAAS-CNRS</title>
-      <link>http://iot.eclipse.org/member/laas/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/laas/</guid>
-      <description></description>
     </item>
     
   </channel>
