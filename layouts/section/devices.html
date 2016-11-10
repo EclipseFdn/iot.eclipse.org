@@ -44,10 +44,13 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
   ga('create', 'UA-594061-11', 'auto');
   ga('send', 'pageview');
   </script>
+
+  <!-- icomoon -->
+  <link href="/assets/css/icomoon.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -61,30 +64,65 @@
         <p class="lead">Eclipse IoT provides a set of libraries that can be deployed on a constrained embedded device to provide a complete IoT development stack.</p>
       </div>
     </div>
-    <section class="first row-fluid"  style="padding-bottom: 50px;">
+    <section class="first row-fluid" style="padding-bottom: 50px;">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <h1 class="purple">IoT Device Stack</h1>
             <p>The “Thing” in the IoT is the starting point for an IoT solution. It is typically the originator of the data, and it interacts with the physical world. Things are often very constrained in terms of size or power supply; therefore, they are often programmed using microcontrollers (MCU) that have very limited capabilities. The microcontrollers powering IoT devices are specialized for a specific task and are designed for mass production and low cost.</p>
 
-            <p>Also check out:</p>
-            <ul>
-              <li><a href="/gateways">Gateway &amp; smart device stack</a></li>
-              <li><a href="/cloud">Cloud stack</a></li>
-            </ul>
+            <div class="row" style="font-size: .5em;">
+              <div class="col-md-4 first-col">
+                <div class="row">
+                  <div class="col-xs-2 col-md-3">
+                    <span class="icon-device" aria-hidden="true"></span>
+                  </div>
+                  <div class="col-xs-10 col-md-9">
+                    <u><h4>Constrained Devices</h4></u>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 first-col">
+                <a href="/gateways">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-gateway" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h4>Smart Devices</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 first-col">
+                <a href="/cloud">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-cloud" aria-hidden="true" style="line-height: .9em;"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h4>Cloud Platforms</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
           </div>
-       
+
           <div class="col-md-4 col-md-offset-1">
             <img src="/images/stacks/device.png" class="img-responsive">
           </div>
-       
+
         </div>
       </div>
     </section>
     <section class="second row-fluid">
       <div class="container">
-<!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
+        <!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
 
         <h1 class="purple">Open source components for IoT Devices</h1>
 
