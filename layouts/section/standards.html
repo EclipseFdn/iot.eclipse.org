@@ -48,6 +48,23 @@
   ga('create', 'UA-594061-11', 'auto');
   ga('send', 'pageview');
   </script>
+
+  <style>
+    .panel-heading .accordion-toggle.collapsed:after {
+        /* symbol for "collapsed" panels */
+        content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+    }
+
+    .panel-heading .accordion-toggle:after {
+        /* symbol for "opening" panels */
+        margin-right: .2em;
+        font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+        content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+        float: left;        /* adjust as needed */
+        color: grey;         /* adjust as needed */
+    }
+  </style>
+
 </head>
 
 <body>
@@ -73,11 +90,11 @@
           <p>Eclipse IoT supports open standards for the Internet of Things. </p>
 
           <p>We provide open source implementations for IoT protocols such as 
-            <a href="#coap">CoAP</a>,
-            <a href="#oneM2M">oneM2M</a>,
-            <a href="#oma-lwm2m">LwM2M</a>,
-            <a href="#mqtt">MQTT</a>,
-            <a href="#opc-ua">OPC-UA</a>, and more.
+            <a href="#coap" data-toggle="collapse" aria-controls="coap">CoAP</a>,
+            <a href="#onem2m" data-toggle="collapse" aria-controls="onem2m">oneM2M</a>,
+            <a href="#lwm2m" data-toggle="collapse" aria-controls="lwm2m">LWM2M</a>,
+            <a href="#mqtt"  data-toggle="collapse" aria-controls="mqtt">MQTT</a>,
+            <a href="#opc-ua"  data-toggle="collapse" aria-controls="opc-ua">OPC-UA</a>, and more.
           </p>
         </div>
       </div>
@@ -125,11 +142,11 @@
           {{ range where .Data.Pages ".Type" "standards" }}
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="heading{{ .Title }}">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ .Title }}" aria-expanded="true" aria-controls="{{ .Title }}">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#{{ .Title }}" aria-expanded="true" aria-controls="{{ .Title }}">
                     {{ .Description }}
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="{{ .Title }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ .Title }}">
                 <div class="panel-body">
@@ -158,9 +175,10 @@
     $(function () {
     $('#accordion').on('shown.bs.collapse', function (e) {
         var offset = $('.panel.panel-default > .panel-collapse.in').offset();
+        $('.panel.panel-default > .panel-collapse.in').siblings('.panel-heading').find('.accordion-toggle').removeClass('collapsed');
         if(offset) {
             $('html,body').animate({
-                scrollTop: $('.panel-title a').offset().top + 30
+                scrollTop: $('.panel-title a').offset().top + 0
             }, 200); 
         }
     }); 

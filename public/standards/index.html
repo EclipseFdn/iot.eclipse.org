@@ -46,6 +46,23 @@
   ga('create', 'UA-594061-11', 'auto');
   ga('send', 'pageview');
   </script>
+
+  <style>
+    .panel-heading .accordion-toggle.collapsed:after {
+         
+        content: "\e080";     
+    }
+
+    .panel-heading .accordion-toggle:after {
+         
+        margin-right: .2em;
+        font-family: 'Glyphicons Halflings';   
+        content: "\e114";     
+        float: left;         
+        color: grey;          
+    }
+  </style>
+
 </head>
 
 <body>
@@ -74,19 +91,14 @@
           <ul class="dropdown-menu" role="menu">
 
             <li class="dropdown-header">Eclipse IoT for…</li>
-            <li><a href="/devices">Constrained Devices</a>
-            </li>
-            <li><a href="/gateways">Gateways &amp; Smart Devices</a>
-            </li>
-            <li><a href="/cloud">IoT Cloud Platforms</a>
-            </li>
+            <li><a href="/devices">Constrained Devices</a></li>
+            <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
+            <li><a href="/cloud">IoT Cloud Platforms</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="/standards">Open Standards</a>
-            </li>
-            <li role="separator" class="divider"></li>
+            <li><a href="/standards">Open Standards</a></li>
+            <li><a href="/case-studies">Case Studies</a></li>
             <li><a href="/projects">Browse the Projects</a>
             </li>
-            <li><a href="/case-studies">Case Studies</a></li>
           </ul>
         </li>
         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
@@ -111,7 +123,7 @@
         <li><a href="/working-group">Working Group</a>
         </li>
 
-        <li style="min-width: 100px; padding-top: 15px; padding-left: 15px; margin-left:-35px">
+        <li style="min-width: 100px; padding-top: 12px; padding-left: 15px; margin-left:-35px">
           <a href="https://twitter.com/eclipseiot" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-align="center">Follow @eclipseiot</a>
           <script>
           ! function(d, s, id) {
@@ -153,11 +165,11 @@
           <p>Eclipse IoT supports open standards for the Internet of Things. </p>
 
           <p>We provide open source implementations for IoT protocols such as 
-            <a href="#coap">CoAP</a>,
-            <a href="#oneM2M">oneM2M</a>,
-            <a href="#oma-lwm2m">LwM2M</a>,
-            <a href="#mqtt">MQTT</a>,
-            <a href="#opc-ua">OPC-UA</a>, and more.
+            <a href="#coap" data-toggle="collapse" aria-controls="coap">CoAP</a>,
+            <a href="#onem2m" data-toggle="collapse" aria-controls="onem2m">oneM2M</a>,
+            <a href="#lwm2m" data-toggle="collapse" aria-controls="lwm2m">LWM2M</a>,
+            <a href="#mqtt"  data-toggle="collapse" aria-controls="mqtt">MQTT</a>,
+            <a href="#opc-ua"  data-toggle="collapse" aria-controls="opc-ua">OPC-UA</a>, and more.
           </p>
         </div>
       </div>
@@ -201,7 +213,7 @@
             
               <a href="#ogc-sensorthings-api" data-toggle="collapse" aria-controls="ogc-sensorthings-api"><button class="btn btn-info" type="button">OGC SensorThings API</button></a>
             
-              <a href="#oneM2M" data-toggle="collapse" aria-controls="oneM2M"><button class="btn btn-info" type="button">oneM2M</button></a>
+              <a href="#onem2m" data-toggle="collapse" aria-controls="onem2m"><button class="btn btn-info" type="button">oneM2M</button></a>
             
               <a href="#opc-ua" data-toggle="collapse" aria-controls="opc-ua"><button class="btn btn-info" type="button">OPC UA</button></a>
             
@@ -223,11 +235,11 @@
           
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingcoap">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#coap" aria-expanded="true" aria-controls="coap">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#coap" aria-expanded="true" aria-controls="coap">
                     CoAP
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="coap" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingcoap">
                 <div class="panel-body">
@@ -261,11 +273,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingdtls">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#dtls" aria-expanded="true" aria-controls="dtls">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#dtls" aria-expanded="true" aria-controls="dtls">
                     DTLS
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="dtls" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingdtls">
                 <div class="panel-body">
@@ -289,11 +301,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingiec-15118">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#iec-15118" aria-expanded="true" aria-controls="iec-15118">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#iec-15118" aria-expanded="true" aria-controls="iec-15118">
                     IEC 15118
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="iec-15118" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingiec-15118">
                 <div class="panel-body">
@@ -320,11 +332,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingiec-61499">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#iec-61499" aria-expanded="true" aria-controls="iec-61499">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#iec-61499" aria-expanded="true" aria-controls="iec-61499">
                     IEC 61499
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="iec-61499" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingiec-61499">
                 <div class="panel-body">
@@ -348,11 +360,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headinglwm2m">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#lwm2m" aria-expanded="true" aria-controls="lwm2m">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#lwm2m" aria-expanded="true" aria-controls="lwm2m">
                     OMA LWM2M
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="lwm2m" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headinglwm2m">
                 <div class="panel-body">
@@ -394,11 +406,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingmqtt">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#mqtt" aria-expanded="true" aria-controls="mqtt">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#mqtt" aria-expanded="true" aria-controls="mqtt">
                     MQTT
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="mqtt" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingmqtt">
                 <div class="panel-body">
@@ -446,11 +458,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingogc-sensorthings-api">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ogc-sensorthings-api" aria-expanded="true" aria-controls="ogc-sensorthings-api">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#ogc-sensorthings-api" aria-expanded="true" aria-controls="ogc-sensorthings-api">
                     OGC SensorThings API
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="ogc-sensorthings-api" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingogc-sensorthings-api">
                 <div class="panel-body">
@@ -478,14 +490,14 @@
             </div>          
             
            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingoneM2M">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#oneM2M" aria-expanded="true" aria-controls="oneM2M">
+              <div class="panel-heading" role="tab" id="headingonem2m">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#onem2m" aria-expanded="true" aria-controls="onem2m">
                     oneM2M
                   </a>
-                </h1>
+                </h2>
               </div>
-              <div id="oneM2M" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingoneM2M">
+              <div id="onem2m" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingonem2m">
                 <div class="panel-body">
                   <p><strong>oneM2M</strong> specifications provide a horizontal framework to support a wide range of applications and services such as smart cities, smart grid, connected car, home automation, public safety, and health.</p>
 <div class="row">
@@ -505,11 +517,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingopc-ua">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#opc-ua" aria-expanded="true" aria-controls="opc-ua">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#opc-ua" aria-expanded="true" aria-controls="opc-ua">
                     OPC UA
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="opc-ua" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingopc-ua">
                 <div class="panel-body">
@@ -543,11 +555,11 @@
             
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingppmp">
-                <h1 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ppmp" aria-expanded="true" aria-controls="ppmp">
+                <h2 class="panel-title" style="font-size: 30px;" class="purple">
+                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#ppmp" aria-expanded="true" aria-controls="ppmp">
                     PPMP
                   </a>
-                </h1>
+                </h2>
               </div>
               <div id="ppmp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingppmp">
                 <div class="panel-body">
@@ -624,9 +636,10 @@
     $(function () {
     $('#accordion').on('shown.bs.collapse', function (e) {
         var offset = $('.panel.panel-default > .panel-collapse.in').offset();
+        $('.panel.panel-default > .panel-collapse.in').siblings('.panel-heading').find('.accordion-toggle').removeClass('collapsed');
         if(offset) {
             $('html,body').animate({
-                scrollTop: $('.panel-title a').offset().top + 30
+                scrollTop: $('.panel-title a').offset().top + 0
             }, 200); 
         }
     }); 
