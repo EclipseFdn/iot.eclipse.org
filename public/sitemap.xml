@@ -4,7 +4,6 @@
   <url>
     <loc>http://iot.eclipse.org/</loc>
     <lastmod>2017-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -33,8 +32,63 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/standards/coap/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/dtls/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/iec-15118/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/iec-61499/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/lwm2m/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/mqtt/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/ogc-sensorthings-api/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/onem2m/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/opc-ua/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/ppmp/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/member/eclipsesource/</loc>
     <lastmod>2016-11-07T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/devices/eclipse-edje/</loc>
+    <lastmod>2016-11-04T14:48:48+01:00</lastmod>
   </url>
   
   <url>
@@ -820,6 +874,18 @@
   <url>
     <loc>http://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</loc>
     <lastmod>2014-09-09T15:48:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/cloud/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/gateways/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/projects/dummy/</loc>
   </url>
   
   <url>

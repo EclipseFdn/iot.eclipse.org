@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-studies on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/case-studies/</link>
+    <link>http://iot.eclipse.org/case-studies/index.xml</link>
     <description>Recent content in Case-studies on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
