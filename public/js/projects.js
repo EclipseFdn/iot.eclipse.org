@@ -23,18 +23,43 @@ var projectsAssociation = {
         'iot.milo': true
     },
 
-    'Frameworks': {
-        'iot.hono': true,
-        'iot.om2m': true,
-        'iot.krikkit': true,
+    'Devices': {
+        'iot.concierge': true,
+        'iot.paho': true,
+        'iot.edje': true,
+        'iot.wakaama': true,
+    },
+
+    'Gateways': {
+        'iot.concierge': true,
         'iot.kura': true,
-        'iot.mihini': true,
-        'iot.ponte': true,
-        'iot.smarthome': true,
-        'iot.eclipsescada': true,
-        'iot.4diac': true,
+        'iot.smarthome': true
+    },
+
+    'Cloud': {
+        'iot.hono': true,
+        'iot.kapua': true,
+        'iot.mosquitto': true,
+        'iot.hawkbit': true,
+        'iot.leshan': true,
+        'iot.ponte': true
+    },
+
+    'Tools': {
+        'iot.eclipsescada': true
+    },
+
+    'Ontologies': {
+        'iot.vorto': true,
+        'iot.unide': true,
         'iot.whiskers': true
-    }
+    },
+
+    'Security': {
+        'iot.tinydtls': true,
+        'iot.tiaki': true,
+    },
+
 
     // rest is 'others' (Ignite, ...)
 };
@@ -55,6 +80,7 @@ var releases = {
   "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0"
 };
+
 var download_urls = {
   "iot.paho": "https://www.eclipse.org/paho/downloads.php",
   "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
@@ -220,7 +246,7 @@ var download_stats = {
                         }, {
                             name: 'downloadUrl', attr:'href'
                         },
-                        //'labels'
+                        'labels'
                     ]
                 };
 
@@ -242,6 +268,13 @@ var download_stats = {
                 $("#update-project").empty();
                 $("#update-project").removeClass("loading");
 
+                
+
+                $('.btn-filter-project').on('click', function() {    setTimeout(function() {
+                    list.filter();
+                    list.filter(computeFilterFunction());
+                    }, 10) ; });
+
                 //    setTimeout(1000, rez;
 
 
@@ -249,6 +282,36 @@ var download_stats = {
         });
 
     });
+
+    var computeFilterFunction = function() {
+        console.log("recompute filter");
+        return function(item) {
+            var filter = [];
+
+            $('.btn-filter-project').each( function(index, elem) {
+                console.log($(elem));
+                if ($(elem).hasClass('active')) 
+                    filter.push($(elem).text());
+            });
+
+            console.log(filter);
+
+            if(filter.length == 0) return true;
+
+            var found = false;
+
+            filter.forEach(function(element) {
+                if(item.values().labels.indexOf(element) !== -1) {
+                    console.log(item.values().id + '... ok');
+                    found = true;
+                    return
+                }
+            });
+
+            return found;
+        }
+
+    }
 
     // Validate URL.
     var validateUrl = function validateUrl(str) {
