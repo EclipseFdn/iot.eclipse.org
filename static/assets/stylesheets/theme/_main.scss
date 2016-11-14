@@ -249,6 +249,16 @@ main.main {
 
 
     /* Project list: projects.html */
+    .btn-filter-project.active {
+    background-color: darken($btn-warning-bg, 25%) !important;
+        border-color: darken($btn-warning-bg, 20%) !important;
+    }
+
+    .btn-filter-project:hover, .btn-filter-project:focus {
+        background: $btn-warning-bg;
+    }
+
+
     #project-list {
         
         #search-and-sort {
