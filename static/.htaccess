@@ -1,9 +1,11 @@
-# Redirects domain.com/file.html to domain.com/file
-#RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
-#RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
-#RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
-#RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
+<IfModule mod_rewrite.c>
+RewriteEngine On
 
+# Redirects domain.com/file.html to domain.com/file
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]  
+
+</IfModule>
 
 Redirect permanent "/white-paper-iot-architectures" "/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf"
 
