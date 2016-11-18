@@ -111,7 +111,7 @@
         <div class="row">
 
           {{ range where .Site.Pages.ByTitle ".Type" "case-studies" }} 
-            <div class="col-md-6" style="padding-bottom:20px">
+            <div class="col-md-6">
               <div class="row">
 
                 <div class="col-md-12">
@@ -120,7 +120,7 @@
                   </a>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" style="padding-bottom: 20px">
                   <a href=" {{ .Params.link }}">
                     <img src="{{ .Params.img }}" class="img-responsive"/>
                   </a>
