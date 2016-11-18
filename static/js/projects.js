@@ -303,7 +303,7 @@ var download_stats = {
             filter.forEach(function(element) {
                 if(item.values().labels.indexOf(element) !== -1) {
                     console.log(item.values().id + '... ok');
-                    found = true;
+                    found = true; // TODO maybe implement as an AND rather than an OR search?
                     return
                 }
             });
