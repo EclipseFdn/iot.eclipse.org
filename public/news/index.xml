@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/news/index.xml</link>
+    <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,12 +10,12 @@
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Announcing Open IoT Challenge 3.0</title>
+      <title>Open IoT Challenge 3.0 | Deadline is this Friday!</title>
       <link>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</link>
       <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/news/2016-10-31-iotchallenge/</guid>
-      <description>&lt;p&gt;The Open IoT Challenge is back for a third edition and it is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology! Submit your solution proposal by November 25, 2016.&lt;/p&gt;
+      <description>&lt;p&gt;This is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology! Submit your solution proposal by this Friday, November 25, 2016.&lt;/p&gt;
 </description>
     </item>
     
