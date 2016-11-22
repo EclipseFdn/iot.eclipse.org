@@ -117,23 +117,24 @@
         <h1 class="purple">Integrated IoT Gateway and Smart Devices stacks</h1>
         <h2>Eclipse Kura</h2>
         <p><a href="https://eclipse.org/kura" target="_blank">Eclipse Kura</a> provides a general purpose middleware and application container for IoT gateway services. An IoT gateway stack based on Eclipse Kura would include the following</p>
-     
+
         <div class="row">
 
           <div class="col-md-7">
 
-        <ul>
-               <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows.</li>
-          <li><strong>Application Container or Runtime Environment</strong> – <a href="https://eclipse.org/equinox" target="_blank">Eclipse Equinox</a> or <a href="https://eclipse.org/concierge" target="_blank">Eclipse Concierge</a> (OSGi Runtime).</li>
-          <li><strong>Communication &amp; Connectivity</strong> – Eclipse Kura includes APIs to interface with the gateway I/Os (e.g. Serial, RS-485, BLE, GPIO, etc.) and support for many field protocols that can be used to connect to devices, e.g MODBUS, CAN bus, etc.</li>
-          <li><strong>Network Management</strong> – Eclipse Kura provides advanced networking and routing capabilities over a wide-range of interfaces (cellular, Wi-Fi, Ethernet, etc.).</li>
-          <li><strong>Data management &amp; Messaging</strong> – Eclipse Kura implements a native MQTT-based messaging solution, that allows application running on the gateway to transparently communicate with a Cloud Platform, without having to deal with the availability of the network interfaces, or how to represent IoT data. Support for additional messaging protocols is available through the built-in Apache Camel message routing engine.</li>
-          <li><strong>Remote management</strong> – Eclipse Kura provides a remote management solution based on the MQTT protocol, that allows to monitor the overall health of an IoT gateway, in addition to control (install, update, modify settings) the software it’s running.</li>
-        </ul>
+            <ul>
+              <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows.</li>
+              <li><strong>Application Container or Runtime Environment</strong> – <a href="https://eclipse.org/equinox" target="_blank">Eclipse Equinox</a> or <a href="https://eclipse.org/concierge" target="_blank">Eclipse Concierge</a> (OSGi Runtime).</li>
+              <li><strong>Communication &amp; Connectivity</strong> – Eclipse Kura includes APIs to interface with the gateway I/Os (e.g. Serial, RS-485, BLE, GPIO, etc.) and support for many field protocols that can be used to connect to devices, e.g MODBUS, CAN bus, etc.</li>
+              <li><strong>Network Management</strong> – Eclipse Kura provides advanced networking and routing capabilities over a wide-range of interfaces (cellular, Wi-Fi, Ethernet, etc.).</li>
+              <li><strong>Data management &amp; Messaging</strong> – Eclipse Kura implements a native MQTT-based messaging solution, that allows application running on the gateway to transparently communicate with a Cloud Platform, without having to deal with the availability of the network interfaces, or how to represent IoT data. Support for additional messaging protocols is available through the built-in Apache Camel message routing engine.</li>
+              <li><strong>Remote management</strong> – Eclipse Kura provides a remote management solution based on the MQTT protocol, that allows to monitor the overall health of an IoT gateway, in addition to control (install, update, modify settings) the software it’s running.</li>
+            </ul>
           </div>
           <div class="col-md-5">
+            <a href="/assets/images/stacks/gw-eclipse-kura-architecture.png" data-title="Eclipse Kura overview" data-toggle="lightbox">
             <img src="/assets/images/stacks/gw-eclipse-kura-architecture.png" alt="Eclipse Kura Architecture" class="img-responsive">
-          </div>
+</a>          </div>
         </div>
 
         <h2>Eclipse SmartHome</h2>
@@ -152,7 +153,9 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <img src="/assets/images/stacks/gw-esh-architecture.png" alt="Eclipse SmartHome Architecture" class="img-responsive">
+            <a href="/assets/images/stacks/gw-esh-architecture.png" data-title="Eclipse SmartHome overview" data-toggle="lightbox">
+              <img src="/assets/images/stacks/gw-esh-architecture.png" alt="Eclipse SmartHome Architecture" class="img-responsive">
+            </a>
           </div>
         </div>
 
@@ -164,12 +167,6 @@
         <p>
           The IEC 61499 standard defines a domain specific modeling language for developing distributed industrial control solutions by providing a vendor independent format and for simplifying support for controller to controller communication.
         </p>
-
-        <h1 class="purple">Open source components for IoT Gateways</h1>
-        <h2>Application Runtime</h2>
-        <h2>Communication</h2>
-        <h2>Data Management and Messaging</h2>
-        <h2>Remote Management</h2>
       </div>
     </section>
   </main>
@@ -178,14 +175,20 @@
   </div>
   </div>
   <!-- /container -->
-  <!-- JS is at the end of the document so the pages load faster -->
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
-  <script src="js/projects.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
+
+  <script>
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  </script>
 </body>
 
 </html>

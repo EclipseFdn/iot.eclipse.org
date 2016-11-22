@@ -122,41 +122,66 @@
     <section class="second row-fluid">
       <div class="container">
         <!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
+        <h1 class="purple">Cloud stacks</h1>
+        <h2>Eclipse Kapua</h2>
 
-        <h1 class="purple">Eclipse Kapua</h1>
+        <p>
+          <a href="https://eclipse.org/kapua" target="_blank">Eclipse Kapua</a> is a modular platform providing the services required to manage IoT gateways and smart edge devices. Kapua provides a core integration framework and an initial set of core IoT services including a device registry, device management services, messaging services, data management, and application enablement.
+        </p>
+        <p>
+          The goal of Eclipse Kapua is to create a growing ecosystem of micro services through the extensions provided by other Eclipse IoT projects and organizations.
+        </p>
 
-        <h1 class="purple">Eclipse OM2M</h1>
+        <h2>Eclipse OM2M</h2>
+
+        <p>
+          <a href="https://eclipse.org/om2m" target="_blank">Eclipse OM2M</a> is an IoT Platform specific for the telecommunication industry, based on the oneM2M specification.
+        </p>
+        <p>
+          It provides a horizontal Common Service Entity (CSE) that can be deployed in an M2M server, a gateway, or a device. Each CSE provides Application Enablement, Security, Triggering, Notification, Persistency, Device Interworking, Device Management.
+        </p>
 
         <h1 class="purple">Open source components for IoT Cloud Platforms</h1>
+
         <h2>Connectivity &amp; Message Routing</h2>
+
+        <p>IoT platforms need to be able to interact with very large numbers of devices and gateways using different protocols and data formats, but then normalize it to allow for easy integration into the rest of the enterprise.</p>
+
         <ul>
-          <li>Eclipse Hono provides a uniform API for interacting with devices using arbitrary protocols, as well as an extensible framework to add other protocols.</li>
-          <li>Eclipse Mosquitto provides an implementation of an MQTT broker.</li>
+          <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> provides a uniform API for interacting with devices using arbitrary protocols, as well as an extensible framework to add other protocols.</li>
+
+          <li><a href="https://eclipse.org/mosquitto" target="_blank">Eclipse Mosquitto</a> provides an implementation of an MQTT broker.</li>
         </ul>
 
         <h2>Device Management</h2>
+
+        <p>An IoT platform shoud have the ability to provision new software updates and manage the devices.</p>
+
         <ul>
-          <li>Eclipse Leshan provides an implementation of the OMA LWM2M device management protocol</li>
+          <li><a href="https://eclipse.org/leshan" target="_blank">Eclipse Leshan</a> provides an implementation of the OMA LWM2M device management protocol</li>
         </ul>
 
-        <h2>Device Management</h2>
-        <ul>
-          <li>Eclipse hawkBit provides the management tools to roll out software updates to devices and gateways</li>
-        </ul>
+        <h2>Device Registry</h2>
 
-        <h2>Data Management</h2>
+        <p>A central registry helps to identify and authenticate the devices/gateways running in an IoT solution</p>
+
         <ul>
-          <li></li>
+          <li><a href="https://eclipse.org/hawkbit" target="_blank">Eclipse hawkBit</a> provides the management tools to roll out software updates to devices and gateways</li>
         </ul>
 
         <h2>Analytics</h2>
+
         <ul>
-          <li></li>
+          <li>Outside of the Eclipse IoT community there are many open source options for data analytics and visualization, including Apache Hadoop, Apache Spark, and Apache Storm. Within the Eclipse community, <a href="https://eclipse.org/birt" target="_blank">Eclipse BIRT</a> provides support for dashboards and reporting of data stored in a variety of data repositories.
+          </li>
         </ul>
 
         <h2>Application Enablement</h2>
+
+        <p>Ability to consolidate and analyze data, and to create reports, graphs, and dashboards by exposing Application Programming Interfaces (API).
+
         <ul>
-          <li></li>
+          <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> helps to expose consistent APIs for consuming telemetry data or sending commands to devices, so as to rationalize IoT application development.</li>
         </ul>
 
       </div>
@@ -172,9 +197,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
-  <script src="js/projects.js"></script>
 </body>
 
 </html>
