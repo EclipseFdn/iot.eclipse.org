@@ -156,9 +156,8 @@
           <div class="row">
 
           <div class="col-md-12 first-col">
-            <hr/>
-<!--             <hr style="border-top:1px solid #551f62;"/>
- -->          </div>
+             <hr style="border-top:2px dotted #bbb;"></hr>
+           </div>
           
           <div class="col-md-4 first-col">
             <a href="/standards">
@@ -240,7 +239,13 @@
 
               <div class="row">
 
-                {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Type" "resources") }}
+                <div class="col-md-6">
+                  <div class="featured-articles-item embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLy7t4z5SYNaQS1XZ8uiqqn0nNLi4qU-VW&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> 
+                  </div>
+                </div>
+
+                {{ range first 1 (where .Data.Pages.ByDate.Reverse ".Type" "resources") }}
 
                 <div class="col-md-6">
                   <div class="featured-articles-item">
