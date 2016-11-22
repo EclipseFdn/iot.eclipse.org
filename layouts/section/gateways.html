@@ -117,30 +117,49 @@
         <h1 class="purple">Integrated IoT Gateway and Smart Devices stacks</h1>
         <h2>Eclipse Kura</h2>
         <p><a href="https://eclipse.org/kura" target="_blank">Eclipse Kura</a> provides a general purpose middleware and application container for IoT gateway services. An IoT gateway stack based on Eclipse Kura would include the following</p>
+     
+        <div class="row">
+
+          <div class="col-md-7">
+
         <ul>
-          <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows.</li>
+               <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows.</li>
           <li><strong>Application Container or Runtime Environment</strong> – <a href="https://eclipse.org/equinox" target="_blank">Eclipse Equinox</a> or <a href="https://eclipse.org/concierge" target="_blank">Eclipse Concierge</a> (OSGi Runtime).</li>
           <li><strong>Communication &amp; Connectivity</strong> – Eclipse Kura includes APIs to interface with the gateway I/Os (e.g. Serial, RS-485, BLE, GPIO, etc.) and support for many field protocols that can be used to connect to devices, e.g MODBUS, CAN bus, etc.</li>
           <li><strong>Network Management</strong> – Eclipse Kura provides advanced networking and routing capabilities over a wide-range of interfaces (cellular, Wi-Fi, Ethernet, etc.).</li>
           <li><strong>Data management &amp; Messaging</strong> – Eclipse Kura implements a native MQTT-based messaging solution, that allows application running on the gateway to transparently communicate with a Cloud Platform, without having to deal with the availability of the network interfaces, or how to represent IoT data. Support for additional messaging protocols is available through the built-in Apache Camel message routing engine.</li>
           <li><strong>Remote management</strong> – Eclipse Kura provides a remote management solution based on the MQTT protocol, that allows to monitor the overall health of an IoT gateway, in addition to control (install, update, modify settings) the software it’s running.</li>
         </ul>
+          </div>
+          <div class="col-md-5">
+            <img src="/assets/images/stacks/gw-eclipse-kura-architecture.png" alt="Eclipse Kura Architecture" class="img-responsive">
+          </div>
+        </div>
 
         <h2>Eclipse SmartHome</h2>
 
         <p><a href="https://eclipse.org/smarthome" target="_blank">Eclipse SmartHome</a> provides an IoT gateway platform that is specifically focused on the home automation domain. An Eclipse SmartHome stack would including the following:</p>
-        <ul>
-          <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows or macOS.</li>
-          <li><strong>Application Container or Runtime Environment</strong> – Eclipse Equinox or Eclipse Concierge (OSGi Runtimes).</li>
-          <li><strong>Communication &amp; Connectivity</strong> – Eclipse SmartHome brings support for many off-the-shelf home automation devices such as Belkin WeMo, LIFX, Philips Hue, Sonos, etc. Eclipse SmartHome focuses on enabling home automation solutions to communicate within an “Intranet of Things” ; therefore offline capabilities are a paramount design goal.</li>
-          <li><strong>Data Management &amp; Messaging</strong> – Eclipse SmartHome has an internal event bus, which can be exposed to external systems through e.g. SSE or MQTT. It furthermore provides mechanisms for persisting values in databases and for running local business logic through a rule engine. </li>
-          <li><strong>Remote Management</strong> – Eclipse SmartHome supports device onboarding and configuration through its APIs. It furthermore provides an infrastructure to perform firmware update of connected devices.</li>
-        </ul>
+        <div class="row">
+
+          <div class="col-md-8">
+
+            <ul>
+              <li><strong>Operating System</strong> – Linux (Ubuntu/Ubuntu Core, Yocto-based linux distribution), Windows or macOS.</li>
+              <li><strong>Application Container or Runtime Environment</strong> – Eclipse Equinox or Eclipse Concierge (OSGi Runtimes).</li>
+              <li><strong>Communication &amp; Connectivity</strong> – Eclipse SmartHome brings support for many off-the-shelf home automation devices such as Belkin WeMo, LIFX, Philips Hue, Sonos, etc. Eclipse SmartHome focuses on enabling home automation solutions to communicate within an “Intranet of Things” ; therefore offline capabilities are a paramount design goal.</li>
+              <li><strong>Data Management &amp; Messaging</strong> – Eclipse SmartHome has an internal event bus, which can be exposed to external systems through e.g. SSE or MQTT. It furthermore provides mechanisms for persisting values in databases and for running local business logic through a rule engine. </li>
+              <li><strong>Remote Management</strong> – Eclipse SmartHome supports device onboarding and configuration through its APIs. It furthermore provides an infrastructure to perform firmware update of connected devices.</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <img src="/assets/images/stacks/gw-esh-architecture.png" alt="Eclipse SmartHome Architecture" class="img-responsive">
+          </div>
+        </div>
 
         <h2>Eclipse 4diac</h2>
 
         <p>
-          <a href="https://eclipse.org/4diac" target="_blank">Eclipse 4diac</a> provides an industrial-grade open source infrastructure for distributed industrial process measurement and control systems based on the IEC 61499 standard. 4DIAC is ideally suited for Industrie 4.0 and Industrial IoT applications in a manufacturing setting. 
+          <a href="https://eclipse.org/4diac" target="_blank">Eclipse 4diac</a> provides an industrial-grade open source infrastructure for distributed industrial process measurement and control systems based on the IEC 61499 standard. 4DIAC is ideally suited for Industrie 4.0 and Industrial IoT applications in a manufacturing setting.
         </p>
         <p>
           The IEC 61499 standard defines a domain specific modeling language for developing distributed industrial control solutions by providing a vendor independent format and for simplifying support for controller to controller communication.
