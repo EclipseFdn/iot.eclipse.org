@@ -245,7 +245,9 @@
                   </div>
                 </div>
 
-                {{ range first 1 (where .Data.Pages.ByDate.Reverse ".Type" "resources") }}
+                {{/* Show the first resource that's not a "virtualiot" resource */}}
+
+                {{ range first 1 (where (where .Site.Pages.ByDate.Reverse ".Type" "resources") "Params.tags" "!=" "virtualiot") }}
 
                 <div class="col-md-6">
                   <div class="featured-articles-item">
