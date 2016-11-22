@@ -300,13 +300,15 @@ var download_stats = {
 
             var found = false;
 
-            filter.forEach(function(element) {
+            for (var i = 0; i < filter.length; i++) {
+                var element = filter[i]
                 if(item.values().labels.indexOf(element) !== -1) {
-                    console.log(item.values().id + '... ok');
-                    found = true; // TODO maybe implement as an AND rather than an OR search?
-                    return
+                    found = true;
+                    continue;
                 }
-            });
+                found = false;
+                break;
+            }
 
             return found;
         }

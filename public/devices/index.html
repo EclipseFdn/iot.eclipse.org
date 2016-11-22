@@ -70,8 +70,14 @@
     
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/getting-started">Getting Started</a>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/getting-started#tutorials">Tutorials</a></li>
+            <li><a href="/getting-started#sandboxes">Sandboxes</a></li>
+          </ul>
         </li>
+
         <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
           <ul class="dropdown-menu" role="menu">
@@ -203,17 +209,17 @@
 
         <h2>Hardware abstraction</h2>
         <ul>
-          <li>Eclipse Edje provides an high-level API for accessing hardware features provided by microcontrollers (e.g GPIO, ADC, MEMS, etc.). It can directly connect to native libraries, drivers, and board support packages provided by silicon vendors.</li>
+          <li><a href="https://eclipse.org/edje" target="_blank">Eclipse Edje</a> provides an high-level API for accessing hardware features provided by microcontrollers (e.g GPIO, ADC, MEMS, etc.). It can directly connect to native libraries, drivers, and board support packages provided by silicon vendors.</li>
         </ul>
 
         <h2>Communication</h2>
         <ul>
-          <li>Eclipse Paho provides an implementation of the <a href="/standards#mqtt">MQTT</a> protocol.</li>
+          <li><a href="https://eclipse.org/paho" target="_blank">Eclipse Paho</a> provides an implementation of the <a href="/standards#mqtt">MQTT</a> protocol.</li>
         </ul>
 
         <h2>Remote Management</h2>
         <ul>
-          <li>Eclipse Wakaama provides an implementation of the OMA LWM2M standard.</li>
+          <li><a href="https://eclipse.org/wakaama" target="_blank">Eclipse Wakaama</a> provides an implementation of the OMA LWM2M standard.</li>
         </ul>
 
       </div>
@@ -224,34 +230,48 @@
     <div class="row">
       <div class="col-md-6">
         <nav>
+
           <ul class="list-inline menu dropdown">
             <li><a href="/getting-started">Getting Started</a>
             </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
+                
+                
+                <li><a href="/devices">Constrained Devices</a></li>
+                <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
+                <li><a href="/cloud">IoT Cloud Platforms</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="/case-studies">Case Studies</a>
+                <li><a href="/standards">Open Standards</a></li>
+                <li><a href="/case-studies">Case Studies</a></li>
+                <li><a href="/projects">Browse the Projects</a>
+                </li>
               </ul>
-              </li>
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="/resources">Resources</a>
-                  </li>
-                  <li><a href="/news">News</a>
-                  </li>
-                  <li><a href="/events">Events</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="/working-group">Working Group</a>
-              </li>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="/resources">Resources</a>
+                </li>
+                <li>
+                  <a href="/news">News</a>
+                </li>
+                <li>
+                  <a href="/events">Events</a>
+                </li>
+                <li>
+                  <a href="/open-iot-challenge">Open IoT Challenge</a>
+                </li>
+                <li>
+                  <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
           </ul>
+
         </nav>
         <div class="socials">
           
@@ -277,9 +297,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
-  <script src="js/projects.js"></script>
 </body>
 
 </html>

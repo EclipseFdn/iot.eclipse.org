@@ -76,8 +76,14 @@
     
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/getting-started">Getting Started</a>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/getting-started#tutorials">Tutorials</a></li>
+            <li><a href="/getting-started#sandboxes">Sandboxes</a></li>
+          </ul>
         </li>
+
         <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
           <ul class="dropdown-menu" role="menu">
@@ -171,8 +177,40 @@
               <div class="grid-item col-md-4">
 
                 <div class="row">
+                  <h3 class="purple col-md-12">Create Your IoT Services &amp; Applications with COMPOSE Platform</h3>
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
+                    <a href="https://www.youtube.com/watch?v=SrAvCHbgxCY" class="oembed"></a>
+                  </div>
+                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>COMPOSE platform enables new services that can integrate the Internet of Services with the Internet of Things. Connected devices are associated to services that can be combined and managed in a standa…</p>
+ </div>
+                  
+                  <a href="https://www.youtube.com/watch?v=SrAvCHbgxCY" class="btn btn-default col-md-12" role="button">Read more…</a>
+                </div>
+              </div>
+
+              
+
+              <div class="grid-item col-md-4">
+
+                <div class="row">
+                  <h3 class="purple col-md-12">Introducing Zulu Embedded and running Java on Intel® Edison and Galileo</h3>
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
+                    <a href="https://www.youtube.com/watch?v=0U_YOW8WWTc" class="oembed"></a>
+                  </div>
+                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>Zulu Embedded is fully certified, 100% open source Java SE platform based on OpenJDK for embedded devices, M2M, and IoT.  Java’s growth in the embedded and IoT space has been limited by licensing and …</p>
+ </div>
+                  
+                  <a href="https://www.youtube.com/watch?v=0U_YOW8WWTc" class="btn btn-default col-md-12" role="button">Read more…</a>
+                </div>
+              </div>
+
+              
+
+              <div class="grid-item col-md-4">
+
+                <div class="row">
                   <h3 class="purple col-md-12">Building &amp; managing IoT applications with LightweightM2M</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
                     <a href="https://www.youtube.com/watch?v=MMDPPWvmXyk" class="oembed"></a>
                   </div>
                   <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.</p>
@@ -194,7 +232,7 @@
 
                 <div class="row">
                   <h3 class="purple col-md-12">MQTT Security Fundamentals</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
                     <a href="http://www.hivemq.com/mqtt-security-fundamentals-wrap-up/" class="oembed"></a>
                   </div>
                   <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.</p>
@@ -210,7 +248,7 @@
 
                 <div class="row">
                   <h3 class="purple col-md-12">Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
                     <a href="http://blog.benjamin-cabe.com/2015/07/08/remote-management-of-an-arm-mbed-device-using-lwm2m-wakaama-leshan" class="oembed"></a>
                   </div>
                   <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.</p>
@@ -226,7 +264,7 @@
 
                 <div class="row">
                   <h3 class="purple col-md-12">Programming IoT Gateways in JavaScript with macchina.io</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
+                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
                     <a href="https://www.youtube.com/watch?v=aUkeAW91k4E" class="oembed"></a>
                   </div>
                   <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>In this talk +Günter Obiltschnig will introduce macchina.io (<a href="http://macchina.io">http://macchina.io</a>), a new open source platform for programming Linux-based IoT gateway devices.
@@ -234,38 +272,6 @@ macchina.io provides a rich programming en…</p>
  </div>
                   
                   <a href="https://www.youtube.com/watch?v=aUkeAW91k4E" class="btn btn-default col-md-12" role="button">Read more…</a>
-                </div>
-              </div>
-
-              
-
-              <div class="grid-item col-md-4">
-
-                <div class="row">
-                  <h3 class="purple col-md-12">Getting started with MQTT: Everything you need to know about the lightweight IoT protocol</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
-                    <a href="https://www.youtube.com/watch?v=1GbYkCrbChw" class="oembed"></a>
-                  </div>
-                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…</p>
- </div>
-                  
-                  <a href="https://www.youtube.com/watch?v=1GbYkCrbChw" class="btn btn-default col-md-12" role="button">Read more…</a>
-                </div>
-              </div>
-
-              
-
-              <div class="grid-item col-md-4">
-
-                <div class="row">
-                  <h3 class="purple col-md-12">MQTT Essentials</h3>
-                  <div class="embed-responsivee embed-responsive-16by9 col-md-12">
-                    <a href="http://www.hivemq.com/mqtt-essentials-wrap-up/" class="oembed"></a>
-                  </div>
-                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;"><p>Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!</p>
- </div>
-                  
-                  <a href="http://www.hivemq.com/mqtt-essentials-wrap-up/" class="btn btn-default col-md-12" role="button">Read more…</a>
                 </div>
               </div>
 
@@ -335,34 +341,48 @@ macchina.io provides a rich programming en…</p>
     <div class="row">
       <div class="col-md-6">
         <nav>
+
           <ul class="list-inline menu dropdown">
             <li><a href="/getting-started">Getting Started</a>
             </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
+                
+                
+                <li><a href="/devices">Constrained Devices</a></li>
+                <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
+                <li><a href="/cloud">IoT Cloud Platforms</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="/case-studies">Case Studies</a>
+                <li><a href="/standards">Open Standards</a></li>
+                <li><a href="/case-studies">Case Studies</a></li>
+                <li><a href="/projects">Browse the Projects</a>
+                </li>
               </ul>
-              </li>
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="/resources">Resources</a>
-                  </li>
-                  <li><a href="/news">News</a>
-                  </li>
-                  <li><a href="/events">Events</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="/working-group">Working Group</a>
-              </li>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="/resources">Resources</a>
+                </li>
+                <li>
+                  <a href="/news">News</a>
+                </li>
+                <li>
+                  <a href="/events">Events</a>
+                </li>
+                <li>
+                  <a href="/open-iot-challenge">Open IoT Challenge</a>
+                </li>
+                <li>
+                  <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
           </ul>
+
         </nav>
         <div class="socials">
           
@@ -403,7 +423,7 @@ macchina.io provides a rich programming en…</p>
       includeHandle:false,
       
       embedMethod: 'fill',
-      maxHeight: 220, maxWidth:'100%',
+
       afterEmbed: function () {
         setTimeout(function () {
                            $('.grid').masonry({

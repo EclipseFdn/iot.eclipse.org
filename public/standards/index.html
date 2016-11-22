@@ -84,8 +84,14 @@
     
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/getting-started">Getting Started</a>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/getting-started#tutorials">Tutorials</a></li>
+            <li><a href="/getting-started#sandboxes">Sandboxes</a></li>
+          </ul>
         </li>
+
         <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
           <ul class="dropdown-menu" role="menu">
@@ -466,8 +472,7 @@
               </div>
               <div id="ogc-sensorthings-api" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingogc-sensorthings-api">
                 <div class="panel-body">
-                  <h1 id="sensorthings" class="purple">Open Geospatial Consortium (OGC) SensorThings API</h1>
-<p>
+                  <p>
   <strong>SensorThings API</strong> is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.
 </p>
 
@@ -563,7 +568,24 @@
               </div>
               <div id="ppmp" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingppmp">
                 <div class="panel-body">
-                  
+                  <p>
+  <strong>PPMP</strong> (Production Performance Management Protocol) specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.
+</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>
+      <i class="icon-forward"></i> Download a PPMP runtime
+    </h2>
+    <p>
+      The
+      <a href="http://www.eclipse.org/unide/" target="_blank">Eclipse Unide project</a> publishes the current version of PPMP and develops simple server/client implementations. The source code of Unide is available on the project's
+      <a href="https://www.github.com/eclipse/unide">Github repository</a>.</p>
+  </div>
+  </p>
+  </p>
+</div>
+
                 </div>
               </div>
             </div>          
@@ -581,34 +603,48 @@
     <div class="row">
       <div class="col-md-6">
         <nav>
+
           <ul class="list-inline menu dropdown">
             <li><a href="/getting-started">Getting Started</a>
             </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
+                
+                
+                <li><a href="/devices">Constrained Devices</a></li>
+                <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
+                <li><a href="/cloud">IoT Cloud Platforms</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="/case-studies">Case Studies</a>
+                <li><a href="/standards">Open Standards</a></li>
+                <li><a href="/case-studies">Case Studies</a></li>
+                <li><a href="/projects">Browse the Projects</a>
+                </li>
               </ul>
-              </li>
-              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="/resources">Resources</a>
-                  </li>
-                  <li><a href="/news">News</a>
-                  </li>
-                  <li><a href="/events">Events</a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="/working-group">Working Group</a>
-              </li>
+            </li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="/resources">Resources</a>
+                </li>
+                <li>
+                  <a href="/news">News</a>
+                </li>
+                <li>
+                  <a href="/events">Events</a>
+                </li>
+                <li>
+                  <a href="/open-iot-challenge">Open IoT Challenge</a>
+                </li>
+                <li>
+                  <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="/working-group">Working Group</a>
+            </li>
           </ul>
+
         </nav>
         <div class="socials">
           

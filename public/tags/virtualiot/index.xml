@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/resources/index.xml</link>
-    <description>Recent content in Resources on Eclipse IoT</description>
+    <title>Virtualiot on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/tags/virtualiot/index.xml</link>
+    <description>Recent content in Virtualiot on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Nov 2016 16:56:18 +0000</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://iot.eclipse.org/tags/virtualiot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
@@ -27,15 +26,6 @@
       <guid>http://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</guid>
       <description>&lt;p&gt;There are many great ways to build IoT software in the cloud. And there are many great ways to store and analyze the large amounts of data produced by sensors and devices. Yet there are few ways to bu…&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The Three Software Stacks Required for IoT Architectures</title>
-      <link>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</link>
-      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-10-14-white-paper-IoT-architectures/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -103,16 +93,6 @@
     </item>
     
     <item>
-      <title>Eclipse IoT - A Simple Overview</title>
-      <link>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
-      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
-      <description>&lt;p&gt;Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
       <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
       <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
@@ -159,6 +139,26 @@
       
       <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Vorto as a Service</title>
+      <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
+      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
     </item>
     

@@ -202,8 +202,7 @@
       <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
       
       <guid>http://iot.eclipse.org/standards/ogc-sensorthings-api/</guid>
-      <description>&lt;h1 id=&#34;sensorthings&#34; class=&#34;purple&#34;&gt;Open Geospatial Consortium (OGC) SensorThings API&lt;/h1&gt;
-&lt;p&gt;
+      <description>&lt;p&gt;
   &lt;strong&gt;SensorThings API&lt;/strong&gt; is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.
 &lt;/p&gt;
 
@@ -281,7 +280,24 @@
       <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
       
       <guid>http://iot.eclipse.org/standards/ppmp/</guid>
-      <description></description>
+      <description>&lt;p&gt;
+  &lt;strong&gt;PPMP&lt;/strong&gt; (Production Performance Management Protocol) specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.
+&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-md-6&#34;&gt;
+    &lt;h2&gt;
+      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a PPMP runtime
+    &lt;/h2&gt;
+    &lt;p&gt;
+      The
+      &lt;a href=&#34;http://www.eclipse.org/unide/&#34; target=&#34;_blank&#34;&gt;Eclipse Unide project&lt;/a&gt; publishes the current version of PPMP and develops simple server/client implementations. The source code of Unide is available on the project&#39;s
+      &lt;a href=&#34;https://www.github.com/eclipse/unide&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;/p&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

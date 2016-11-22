@@ -58,60 +58,94 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            <img alt="Brand" src="/assets/images/iot-logo.png">
-          </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/getting-started">Getting Started</a>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/standards">Standards</a>
-                </li>
-                <li><a href="/frameworks">Services &amp; Frameworks</a>
-                </li>
-                <li><a href="/projects">All the projects</a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/case-studies">Case Studies</a>
-   
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img alt="Eclipse IoT" src="/assets/images/iot-logo.png">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started</a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/getting-started#tutorials">Tutorials</a></li>
+            <li><a href="/getting-started#sandboxes">Sandboxes</a></li>
+          </ul>
+        </li>
 
-              </ul>
-            </li>
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/resources">Resources</a>
-                </li>
-                <li><a href="/news">News</a>
-                </li>
-                <li><a href="/events">Events</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/working-group">Working Group</a>
-            </li>
-            <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
-              <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+          <ul class="dropdown-menu" role="menu">
+<!--             <li><a href="/iot-architectures">IoT Architectures</a></li>
+            <li role="separator" class="divider"></li> -->
+<!--             <li class="dropdown-header">Eclipse IoT for…</li> -->
+            <li><a href="/devices">Constrained Devices</a></li>
+            <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
+            <li><a href="/cloud">IoT Cloud Platforms</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/standards">Open Standards</a></li>
+            <li><a href="/case-studies">Case Studies</a></li>
+            <li><a href="/projects">Browse the Projects</a>
             </li>
           </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
+        </li>
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/resources">Resources</a>
+            </li>
+            <li>
+              <a href="/news">News</a>
+            </li>
+            <li>
+              <a href="/events">Events</a>
+            </li>
+            <li>
+              <a href="/open-iot-challenge">Open IoT Challenge</a>
+            </li>
+            <li>
+              <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/working-group">Working Group</a>
+        </li>
+<!--         <li style="min-width: 100px; padding-top: 15px; padding-left: 8px;">
+          <div class="g-plusone" data-size="medium" data-href="http://iot.eclipse.org"></div>
+        </li> -->
+        <li style="min-width: 100px; padding-top: 12px; padding-left: 15px; margin-left:-35px">
+          <a href="https://twitter.com/eclipseiot" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-align="center">Follow @eclipseiot</a>
+          <script>
+          ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');
+          </script>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
+
   </header>
   <main class="main">
     <div class="well">
@@ -125,7 +159,7 @@
     </div>
     <section class="first">
       <div class="container">
-        <div class="row tutorials">
+        <div class="row tutorials" id="tutorials">
           <div class="col-md-12">
             <h1 class="purple">Connected Greenhouse Tutorial</h1>
             <p>If you are a Java developer we have a great <a href="/java/tutorial">tutorial</a> for you to get started with Eclipse IoT technology and help you implement an end-to-end solution that will help you connect a greenhouse and associated sensors to the Internet of Things.</p>

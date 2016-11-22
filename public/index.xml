@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
+      <link>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
+      <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The Internet of Things is rising fast, but how can it be run safely and efficiently using standards?  OMA Lightweight M2M is an IoT protocol for managing smart objects. It provides answers to the typi…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ETSI IoT/M2M Workshop</title>
       <link>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</link>
       <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
@@ -256,8 +266,7 @@
       <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
       
       <guid>http://iot.eclipse.org/standards/ogc-sensorthings-api/</guid>
-      <description>&lt;h1 id=&#34;sensorthings&#34; class=&#34;purple&#34;&gt;Open Geospatial Consortium (OGC) SensorThings API&lt;/h1&gt;
-&lt;p&gt;
+      <description>&lt;p&gt;
   &lt;strong&gt;SensorThings API&lt;/strong&gt; is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.
 &lt;/p&gt;
 
@@ -292,38 +301,6 @@
     &lt;p&gt;The
       &lt;a href=&#34;http://www.eclipse.org/om2m/&#34; target=&#34;_blank&#34;&gt;Eclipse OM2M project&lt;/a&gt; provides a Java implementation of the ETSI oneM2M. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications on heterogeneous devices. The source code of OM2M is available from the
       &lt;a href=&#34;http://www.eclipse.org/om2m&#34;&gt;project webpage&lt;/a&gt;.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>opc-ua</title>
-      <link>http://iot.eclipse.org/standards/opc-ua/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/opc-ua/</guid>
-      <description>&lt;p&gt;
-  &lt;strong&gt;OPC Unified Architecture (UA)&lt;/strong&gt; is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download an OPC-UA runtime
-    &lt;/h2&gt;
-    &lt;p&gt;
-      The
-      &lt;a href=&#34;http://www.eclipse.org/milo/&#34; target=&#34;_blank&#34;&gt;Eclipse Milo project&lt;/a&gt; provides all the tools necessary to implement OPC UA client and/or server functionality in any Java-based project.&lt;/p&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; OPC-UA Sandbox Server
-    &lt;/h2&gt;
-    &lt;p&gt;
-      &lt;em&gt;Coming soon.&lt;/em&gt;
-    &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
