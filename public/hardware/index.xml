@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardwares on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/hardware/index.xml</link>
+    <link>http://iot.eclipse.org/hardware/</link>
     <description>Recent content in Hardwares on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
