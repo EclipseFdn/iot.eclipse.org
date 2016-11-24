@@ -2,12 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/news/</link>
+    <link>http://iot.eclipse.org/news/index.xml</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open IoT Challenge 3.0 | Deadline Extended!</title>
+      <link>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</guid>
+      <description>&lt;p&gt;The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We received many great submissions already, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open IoT Challenge 3.0 | Deadline is this Friday!</title>
@@ -148,16 +158,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</guid>
       <description>&lt;p&gt;In 2013 through the move to the Eclipse Foundation, the existing openSCADA project became Eclipse SCADA. Being a very industrial oriented project it naturally has a different audience than most other projects…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open IoT Challenge - Second edition!</title>
-      <link>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</link>
-      <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-11-09-Open-IoT-Challenge/</guid>
-      <description>&lt;p&gt;We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!&lt;/p&gt;
 </description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eclipse IoT</title>
-    <link>http://iot.eclipse.org/</link>
+    <link>http://iot.eclipse.org/index.xml</link>
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -43,6 +43,16 @@
       
       <guid>http://iot.eclipse.org/events/2016-11-24-meetup-london/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge 3.0 | Deadline Extended!</title>
+      <link>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</guid>
+      <description>&lt;p&gt;The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We received many great submissions already, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -282,26 +292,6 @@
   &lt;/div&gt;
   &lt;/p&gt;
   &lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>onem2m</title>
-      <link>http://iot.eclipse.org/standards/onem2m/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/onem2m/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;oneM2M&lt;/strong&gt; specifications provide a horizontal framework to support a wide range of applications and services such as smart cities, smart grid, connected car, home automation, public safety, and health.&lt;/p&gt;
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a oneM2M stack
-    &lt;/h2&gt;
-    &lt;p&gt;The
-      &lt;a href=&#34;http://www.eclipse.org/om2m/&#34; target=&#34;_blank&#34;&gt;Eclipse OM2M project&lt;/a&gt; provides a Java implementation of the ETSI oneM2M. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications on heterogeneous devices. The source code of OM2M is available from the
-      &lt;a href=&#34;http://www.eclipse.org/om2m&#34;&gt;project webpage&lt;/a&gt;.&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
