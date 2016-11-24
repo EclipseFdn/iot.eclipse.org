@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/projects/index.xml</link>
+    <link>http://iot.eclipse.org/projects/</link>
     <description>Recent content in Projects on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
