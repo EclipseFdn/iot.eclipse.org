@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtualiot on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/tags/virtualiot/index.xml</link>
+    <link>http://iot.eclipse.org/tags/virtualiot/</link>
     <description>Recent content in Virtualiot on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2016 16:56:18 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/tags/virtualiot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

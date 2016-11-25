@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/news/index.xml</link>
+    <link>http://iot.eclipse.org/news/</link>
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
       <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</guid>
-      <description>&lt;p&gt;The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We received many great submissions already, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!&lt;/p&gt;
+      <description>&lt;p&gt;The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We already received many great submissions, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!&lt;/p&gt;
 </description>
     </item>
     
