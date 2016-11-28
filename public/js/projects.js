@@ -33,7 +33,8 @@ var projectsAssociation = {
     'Gateways': {
         'iot.concierge': true,
         'iot.kura': true,
-        'iot.smarthome': true
+        'iot.smarthome': true,
+        'iot.leshan': true
     },
 
     'Cloud': {
@@ -58,7 +59,8 @@ var projectsAssociation = {
     'Security': {
         'iot.tinydtls': true,
         'iot.tiaki': true,
-        'iot.californium': true
+        'iot.californium': true,
+        'iot.leshan': true
     },
 
 
