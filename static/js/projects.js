@@ -76,11 +76,10 @@ var releases = {
   "iot.concierge": "5.0",
   "iot.mosquitto": "1.4",
   "iot.smarthome": "0.8.0",
-  "iot.kura": "2.0.0",
+  "iot.kura": "2.1.0",
   "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0"
 };
-
 var download_urls = {
   "iot.paho": "https://www.eclipse.org/paho/downloads.php",
   "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
@@ -96,7 +95,7 @@ var download_urls = {
   "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
   "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
   "iot.leshan": "https://github.com/eclipse/leshan#test-leshan-locally",
-  "iot.4diac": "http://www.eclipse.org/4diac",
+  "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
   "iot.risev2g": "https://github.com/eclipse/risev2g",
   "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
   "iot.tiaki": "http://projects.eclipse.org/projects/iot.tiaki/downloads",
@@ -108,18 +107,20 @@ var download_urls = {
   "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua",
   "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
   "iot.unide": "http://www.eclipse.org/unide",
-  "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog"
+  "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
+  "iot.agail": "http://projects.eclipse.org/projects/iot.agail"
 };
 var download_stats = {
-  "iot.leshan": 2456,
-  "iot.californium": 4420,
-  "iot.paho": 16532,
-  "iot.om2m": 124,
-  "iot.mosquitto": 12777,
-  "iot.smarthome": 3993,
-  "iot.eclipsescada": 475,
-  "iot.kura": 600,
-  "iot.ponte": 321
+  "iot.hawkbit": 1174,
+  "iot.leshan": 2220,
+  "iot.californium": 4086,
+  "iot.paho": 17500,
+  "iot.om2m": 131,
+  "iot.mosquitto": 13994,
+  "iot.smarthome": 6073,
+  "iot.eclipsescada": 614,
+  "iot.kura": 608,
+  "iot.ponte": 508
 };
 
 

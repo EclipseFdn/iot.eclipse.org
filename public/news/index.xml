@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/news/</link>
-    <description>Recent content in News on Eclipse IoT</description>
+    <title>News-rsses on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/news/index.xml</link>
+    <description>Recent content in News-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Nov 2016 00:00:00 +0000</lastBuildDate>

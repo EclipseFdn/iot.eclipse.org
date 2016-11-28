@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hardwares on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/hardware/</link>
-    <description>Recent content in Hardwares on Eclipse IoT</description>
+    <title>Hardware-rsses on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/hardware/index.xml</link>
+    <description>Recent content in Hardware-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Oct 2015 00:00:00 +0000</lastBuildDate>

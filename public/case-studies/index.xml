@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Case-studies on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/case-studies/</link>
-    <description>Recent content in Case-studies on Eclipse IoT</description>
+    <title>Case-studies-rsses on Eclipse IoT</title>
+    <link>http://iot.eclipse.org/case-studies/index.xml</link>
+    <description>Recent content in Case-studies-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2016 00:00:00 +0000</lastBuildDate>
