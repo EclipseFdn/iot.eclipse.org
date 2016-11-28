@@ -58,6 +58,7 @@ var projectsAssociation = {
     'Security': {
         'iot.tinydtls': true,
         'iot.tiaki': true,
+        'iot.californium': true
     },
 
 
