@@ -1,0 +1,318 @@
+/***************************************************************************/
+/* VARIABLES */
+/***************************************************************************/
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    text-align: center;
+    margin: auto !important;
+    overflow-x: hidden;
+    color: #8d8d8d;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  /*
+	 ********************************
+	 *
+	 *  Header CSS
+	 *  
+	 */
+  .header-navbar .navbar-toggle {
+    padding: 0px;
+    padding-top: 7px;
+  }
+  .header-navbar .navbar-toggle .icon-bar {
+    width: 25px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+  .header-navbar ul li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .count_down {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .count_down .time .counter {
+    font-size: 35px;
+  }
+  .count_down .time .title {
+    font-size: 10px;
+  }
+  /*
+ ********************************
+ *
+ *  Collapse CSS
+ *  
+ */
+  .panel-collapse .panel-body {
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 991px) {
+  body {
+    font-size: 14px;
+    text-align: center;
+    margin: auto !important;
+    overflow-x: hidden;
+    color: #8d8d8d;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .btn-group .btn-cus {
+    float: none;
+  }
+  /*
+	 ********************************
+	 *
+	 *  Header CSS
+	 *  
+	 */
+  .navbar-fixed-top {
+    position: relative;
+  }
+  .navbar-fixed-top.navbar-home {
+    position: fixed !important;
+    padding-top: 0px !important;
+    background-color: #1f1e25;
+    opacity: 0.80;
+  }
+  .navbar-fixed-top.navbar-home .navbar-inverse {
+    border-color: #080808;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
+  }
+  .header-navbar .navbar-toggle {
+    padding: 0px;
+    padding-top: 7px;
+  }
+  .header-navbar .navbar-toggle .icon-bar {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 5px;
+  }
+  .header-navbar ul li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .header-body .pera p {
+    text-align: center;
+  }
+  /*
+	********************************
+	*
+	*  our featured speaker CSS
+	*  
+	*/
+  .our-featured-speaker-left {
+    margin-bottom: 80px;
+  }
+  /*
+	 ********************************
+	 *
+	 *  Scedule CSS
+	 *  
+	 */
+  .tab-content .tab-pane p {
+    display: block;
+  }
+  .dropdown-menu {
+    float: none;
+    margin: 0;
+    transition: all 0.8s;
+  }
+  .scedule-body .tab-pane ul {
+    padding: 0;
+    display: none;
+  }
+  .scedule-body .tab-pane h3 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .scedule-body .tab-pane p {
+    display: none;
+  }
+  .scedule-main {
+    padding-right: 0px;
+  }
+  .scedule-main .btn-group {
+    margin-top: 10px;
+    float: left;
+  }
+  .float-right {
+    float: right;
+  }
+  .dropdown {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+  }
+  .dropdown .label,
+  .dropdown ul li {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeef3;
+    padding: 8px 20px;
+    transition: all 0.8s;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .dropdown .label:hover,
+  .dropdown ul li:hover,
+  .dropdown .label:hover,
+  .dropdown ul li:hover {
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  .dropdown .label:hover .nav-header,
+  .dropdown ul li:hover .nav-header,
+  .dropdown .label:hover .nav-header,
+  .dropdown ul li:hover .nav-header,
+  .dropdown .label:hover .nav-time,
+  .dropdown ul li:hover .nav-time,
+  .dropdown .label:hover .nav-time,
+  .dropdown ul li:hover .nav-time {
+    color: #FFFFFF !important;
+  }
+  .dropdown .label {
+    color: #FFFFFF;
+    border-radius: 0 5px 0 0;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+  }
+  .dropdown .label:hover {
+    color: #FFFFFF !important;
+  }
+  .nav-cus .active a {
+    background: none;
+  }
+  .nav-cus .active a:hover {
+    color: #FFFFFF;
+  }
+  .nav-cus .active a:hover .nav-header,
+  .nav-cus .active a:hover .nav-time {
+    color: #FFFFFF !important;
+  }
+  .nav-cus li:focus .nav-header,
+  .nav-cus li:hover .nav-header,
+  .nav-cus li:focus .nav-time,
+  .nav-cus li:hover .nav-time {
+    opacity: 1 !important;
+  }
+  .nav-cus a {
+    padding: 0px 15px;
+    margin-bottom: 0px;
+    color: #242429;
+  }
+  .nav-cus a .nav-header,
+  .nav-cus a .nav-time {
+    color: #242429;
+  }
+  /*
+	 ********************************
+	 *
+	 *  Testimonial CSS
+	 *  
+	 */
+  .testimonial-body .dropdown label:hover,
+  .testimonial-body .dropdown ul li:hover,
+  .testimonial-body .dropdown label:hover,
+  .testimonial-body .dropdown ul li:hover {
+    cursor: pointer;
+    transition: all 0.8s;
+  }
+  .testimonial-body .dropdown label:hover op .nav-header,
+  .testimonial-body .dropdown ul li:hover op .nav-header,
+  .testimonial-body .dropdown label:hover op .nav-header,
+  .testimonial-body .dropdown ul li:hover op .nav-header,
+  .testimonial-body .dropdown label:hover .nav-time,
+  .testimonial-body .dropdown ul li:hover .nav-time,
+  .testimonial-body .dropdown label:hover .nav-time,
+  .testimonial-body .dropdown ul li:hover .nav-time {
+    color: #FFFFFF !important;
+  }
+  .testimonial-body .dropdown label:hover {
+    color: #FFFFFF;
+  }
+  .testimonial-body .testimonial-img {
+    margin-top: 50px;
+  }
+  .testimonial-body .tab-content .tab-pane p {
+    display: block;
+  }
+  /*
+	********************************
+	*
+	*  Pricing Tables CSS
+	*  
+	*/
+  .table-single .btn-group {
+    display: inline-block;
+  }
+  /*
+	 ********************************
+	 *
+	 *  Contact Us CSS
+	 *  
+	 */
+  .social-icon ul {
+    display: inline-block;
+    justify-content: center;
+    float: none !important;
+  }
+  /*
+	******************************************
+	*
+	*   Footer CSS
+	*   
+	*/
+  footer .btn-top {
+    padding: 8px 12px 2px 12px;
+  }
+}
+/************************************************
+*
+*   Blog Page css START here
+*
+*************************************************/
+@media (max-width: 767px) {
+  /*
+	********************************
+	*
+	*  Blog Body CSS
+	*   
+	*/
+  /*     blog-post CSS     */
+  aside ul .title {
+    text-align: left !important;
+  }
+  aside ul .number {
+    text-align: right !important;
+  }
+}
+@media (max-width: 991px) {
+  /*
+	********************************
+	*
+	*  header CSS
+	*  
+	*/
+  .blog-header {
+    margin-top: 0px;
+  }
+  .blog-header .input-group {
+    float: none;
+    display: inline-block;
+  }
+}
