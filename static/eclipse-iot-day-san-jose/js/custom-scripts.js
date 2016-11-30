@@ -316,7 +316,7 @@
     /*   GOOGLE MAP                                           */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(37.323832038, -121.88666312);
+        var myLocation = new google.maps.LatLng(37.327353,-121.888594);
             
             var draggableValue;
             if($(document).width() <= 768){
@@ -329,7 +329,7 @@
 
         var mapOptions = {
             center: myLocation,
-            zoom: 16,
+            zoom: 12,
             mapTypeControl: true,  /*This option will hide map type.*/
             draggable: draggableValue,
             scaleControl: false,   /*This option is used for disable zoom by scale.*/
