@@ -346,7 +346,7 @@
 
         var marker = new google.maps.Marker({
             position: myLocation,
-            title:"Peggy Guggenheim Collection"});
+            title:"San Jose Convention Center"});
           
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
