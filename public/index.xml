@@ -65,6 +65,25 @@
     </item>
     
     <item>
+      <title>Samsung Artik</title>
+      <link>http://iot.eclipse.org/member/samsung/</link>
+      <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/samsung/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Samsung and Eclipse&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;About Samsung ARTIK&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Samsung ARTIK end-to-end, integrated platform unifies hardware, software, cloud, security, and a partner ecosystem in a single offering. ARTIK does the heavy lifting so you can focus on differentiating your products and services. Reduce costs, time and risk.&lt;/p&gt;
+
+&lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
+We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
       <link>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
       <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
@@ -266,32 +285,6 @@
       &lt;a href=&#34;sandbox.html#mqtt&#34;&gt;sandbox server&lt;/a&gt; so that you can test your MQTT-based applications against an actual MQTT broker.
     &lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ogc-sensorthings-api</title>
-      <link>http://iot.eclipse.org/standards/ogc-sensorthings-api/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/ogc-sensorthings-api/</guid>
-      <description>&lt;p&gt;
-  &lt;strong&gt;SensorThings API&lt;/strong&gt; is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a SensorThings API runtime
-    &lt;/h2&gt;
-    &lt;p&gt;
-      The
-      &lt;a href=&#34;http://www.eclipse.org/whiskers/&#34; target=&#34;_blank&#34;&gt;Eclipse Whiskers project&lt;/a&gt; provides a JavaScript client and a light-weight server for IoT gateways. The source code of Whiskers is available on the project&#39;s
-      &lt;a href=&#34;https://www.github.com/eclipse/whiskers&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;/p&gt;
-  &lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

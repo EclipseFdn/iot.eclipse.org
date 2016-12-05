@@ -6,8 +6,27 @@
     <description>Recent content in Member-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2016 15:31:21 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 18 Nov 2016 15:31:21 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Samsung Artik</title>
+      <link>http://iot.eclipse.org/member/samsung/</link>
+      <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/samsung/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Samsung and Eclipse&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;About Samsung ARTIK&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Samsung ARTIK end-to-end, integrated platform unifies hardware, software, cloud, security, and a partner ecosystem in a single offering. ARTIK does the heavy lifting so you can focus on differentiating your products and services. Reduce costs, time and risk.&lt;/p&gt;
+
+&lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
+We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>EclipseSource</title>
@@ -195,16 +214,6 @@
       
       <guid>http://iot.eclipse.org/member/litmus/</guid>
       <description>&lt;p&gt;Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>M2M Alliance</title>
-      <link>http://iot.eclipse.org/member/m2m-alliance/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/m2m-alliance/</guid>
-      <description>&lt;p&gt;As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.&lt;/p&gt;
 </description>
     </item>
     
