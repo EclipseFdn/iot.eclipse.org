@@ -17,7 +17,7 @@ angular.module('myApp.controllers', [])
 
             console.log(appSettings);
 
-            var client = new Paho.MQTT.Client("ws://iot.eclipse.org/ws", "gh-" + new Date().getTime());
+            var client = new Paho.MQTT.Client("wss://iot.eclipse.org/ws", "gh-" + new Date().getTime());
             client.onConnectionLost = function(responseObject) {
                 if (responseObject.errorCode !== 0) {
                     console.log("onConnectionLost:" + responseObject.errorMessage);
