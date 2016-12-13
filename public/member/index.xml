@@ -10,7 +10,7 @@
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Samsung Artik</title>
+      <title>Samsung ARTIK</title>
       <link>http://iot.eclipse.org/member/samsung/</link>
       <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
       
@@ -25,6 +25,19 @@
 
 &lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
 We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>fortiss GmbH</title>
+      <link>http://iot.eclipse.org/member/fortiss/</link>
+      <pubDate>Tue, 08 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/fortiss/</guid>
+      <description>&lt;p&gt;fortiss is an institute associated with the Technical University of Munich and as such a full-fledged academic research institute while enjoying the independence granted by its legal form as a non-profit
+organization. Our mandate is to facilitate research and technology transfer in software-intensive systems and services, thereby triggering future ready innovation, with a focus on Bavaria. In this role fortiss
+acts as a technological think tank, bridging the notorious gap between fundamental research in academia and its fruitful implementation in an industrially and commercially feasible context. We see this role as a two-way street; preparing advanced fundamental research results for
+practical use, but also identifying problems and challenges in industry and communicating them for resolution by academia.&lt;/p&gt;
 </description>
     </item>
     
@@ -171,12 +184,13 @@ We specifically focus our activities on the openHAB project, but we are also pro
     </item>
     
     <item>
-      <title>Red Hat</title>
+      <title>Red Hat, Inc.</title>
       <link>http://iot.eclipse.org/member/redhat/</link>
       <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/member/redhat/</guid>
-      <description></description>
+      <description>&lt;p&gt;Red Hat, the world&amp;rsquo;s leading open source solutions provider, is headquartered in Raleigh, NC with over 50 satellite offices spanning the globe. CIOs have ranked Red Hat first for value in Enterprise Software for four consecutive years in the CIO Insight Magazine Vendor Value study.Red Hat provides high-quality, affordable technology with its operating system platform, Red Hat Enterprise Linux, together with applications, management and Services Oriented Architecture (SOA) solutions, including the JBoss Enterprise Middleware Suite. Red Hat also offers support, training and consulting services to its customers worldwide.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -204,16 +218,6 @@ We specifically focus our activities on the openHAB project, but we are also pro
 &lt;p&gt;More and more new technologies and devices are introduced to our living, working and business environment. Although all of them are designed to make our lives easier, they have a common problem: The lack of interoperability, due to incompatible technology stacks and conflicting commercial interests. Market consolidation and cooperation between all stakeholders therefore remains a vision. System-wide, multi-vendor interoperability can only succeed if it is free from monetary interests. Free Software is the best option to boost innovation and to make smart home technology available for everybody. Furthermore, Free Software is irreplaceable for research and teaching.&lt;/p&gt;
 
 &lt;p&gt;We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Litmus Automation</title>
-      <link>http://iot.eclipse.org/member/litmus/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/litmus/</guid>
-      <description>&lt;p&gt;Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.&lt;/p&gt;
 </description>
     </item>
     

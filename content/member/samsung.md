@@ -1,6 +1,6 @@
 +++
 date = "2016-11-18T15:31:21-07:00"
-title = "Samsung Artik"
+title = "Samsung ARTIK"
 logo = "samsung-artik" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1224
