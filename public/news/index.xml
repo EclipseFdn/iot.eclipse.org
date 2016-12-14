@@ -6,8 +6,18 @@
     <description>Recent content in News-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing the Open IoT Challenge 3.0 Scholars!</title>
+      <link>http://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</guid>
+      <description>&lt;p&gt;The third edition of the Open IoT Challenge officially started. More than 80 teams have submitted their entries and are now in the running to win the Open IoT Challenge 3.0! The judges have reviewed all submissions and we have awarded a “starter kit” to the most promising solutions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Open IoT Challenge 3.0 | Deadline Extended!</title>
@@ -148,16 +158,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</guid>
       <description>&lt;p&gt;It’s now been a bit more than 2 weeks since the second edition of the Open IoT Challenge has officially started. More than 80 teams have applied to be part of the challenge, and if you ask me, that’s really exciting!…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A new name: Eclipse NeoSCADA</title>
-      <link>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-11-19-NeoSCADA/</guid>
-      <description>&lt;p&gt;In 2013 through the move to the Eclipse Foundation, the existing openSCADA project became Eclipse SCADA. Being a very industrial oriented project it naturally has a different audience than most other projects…&lt;/p&gt;
 </description>
     </item>
     
