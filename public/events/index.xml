@@ -11,10 +11,19 @@
     
     <item>
       <title>IoT World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</link>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannover Messe 2017</title>
+      <link>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</guid>
       <description></description>
     </item>
     
@@ -33,6 +42,15 @@
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day - San Jose</title>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</guid>
       <description></description>
     </item>
     
@@ -123,24 +141,6 @@
       <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ThingMonk &#43; Eclipse IoT</title>
-      <link>http://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GetD</title>
-      <link>http://iot.eclipse.org/events/2016-07-22-get-d/</link>
-      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-07-22-get-d/</guid>
       <description></description>
     </item>
     

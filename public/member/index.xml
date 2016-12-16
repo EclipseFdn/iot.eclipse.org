@@ -6,8 +6,42 @@
     <description>Recent content in Member-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Nov 2016 15:31:21 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Dec 2016 15:31:21 -0700</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CEA List</title>
+      <link>http://iot.eclipse.org/member/cealist/</link>
+      <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/cealist/</guid>
+      <description>&lt;p&gt;&lt;b&gt;List, expert on digital systems&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;100 industrial collaborations per year&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:
+&lt;ul&gt;
+&lt;li&gt;Advanced Manufacturing&lt;/li&gt;
+&lt;li&gt;Embedded systems&lt;/li&gt;
+&lt;li&gt;Ambient intelligence&lt;/li&gt;
+&lt;li&gt;Health ionizing radiations&lt;/li&gt;
+&lt;/ul&gt;
+Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.&lt;/p&gt;
+
+&lt;p&gt;CEA Tech as CEA (Commissariat a l&amp;rsquo;energie atomique et aux energies alternatives) Technological Research Division, gathers three specialised technological research institutes among which List institute specialised on digital systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;At a world class state-of-the-art&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Our activity is based on three main pillars
+&lt;ul&gt;
+&lt;li&gt;Scientific excellence: List research engineers dedicate a 100% of their time to R&amp;amp;D activities and publish their results into international leading conferences and scientific journals. Keeping a strong link with academic research, they base their research on world-wide state of the art.&lt;/li&gt;
+&lt;li&gt;The Culture of Industry:Our research teams are enlightened and motivated by a results-driven culture of projects, fixing themselves clear objectives to reach within committed deadlines and budgets. Each project launched by List Institute is fully assigned to permanent and suited human resources. The project management is based on a precise calendar, identified milestones and a clear description of deliverables. Research results confidentiality and intellectual property (patents) are defined by the parties in the collaboration agreement.&lt;/li&gt;
+&lt;li&gt;Opening to the world: List Institute is fully integrated into a local and national particularly dynamic ecosystem through strategic academic, institutional and industrial partnerships. In order to maintain the best level internationally in its fields of activity List institute is also involved in more than 200 European collaborative projects, collaborates with leading foreign academic laboratories and conducts research activities at an international level, especially in the USA.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Samsung ARTIK</title>
@@ -202,22 +236,6 @@ practical use, but also identifying problems and challenges in industry and comm
       <description>&lt;p&gt;Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry&amp;rsquo;s most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.&lt;/p&gt;
 
 &lt;p&gt;Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>openHAB Foundation</title>
-      <link>http://iot.eclipse.org/member/openhab/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:21 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/openhab/</guid>
-      <description>&lt;p&gt;The openHAB Foundation e.V. is a non-profit organisation.&lt;/p&gt;
-
-&lt;p&gt;Its purpose is to educate the public about the possibilities that Free software offers in the domain of smart homes.&lt;/p&gt;
-
-&lt;p&gt;More and more new technologies and devices are introduced to our living, working and business environment. Although all of them are designed to make our lives easier, they have a common problem: The lack of interoperability, due to incompatible technology stacks and conflicting commercial interests. Market consolidation and cooperation between all stakeholders therefore remains a vision. System-wide, multi-vendor interoperability can only succeed if it is free from monetary interests. Free Software is the best option to boost innovation and to make smart home technology available for everybody. Furthermore, Free Software is irreplaceable for research and teaching.&lt;/p&gt;
-
-&lt;p&gt;We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
 </description>
     </item>
     

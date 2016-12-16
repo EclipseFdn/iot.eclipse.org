@@ -11,10 +11,19 @@
     
     <item>
       <title>IoT World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</link>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-05-16-iot-world-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannover Messe 2017</title>
+      <link>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</guid>
       <description></description>
     </item>
     
@@ -34,6 +43,49 @@
       
       <guid>http://iot.eclipse.org/events/2017-03-20-eclipse-converge/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day - San Jose</title>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CEA List</title>
+      <link>http://iot.eclipse.org/member/cealist/</link>
+      <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
+      
+      <guid>http://iot.eclipse.org/member/cealist/</guid>
+      <description>&lt;p&gt;&lt;b&gt;List, expert on digital systems&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;100 industrial collaborations per year&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:
+&lt;ul&gt;
+&lt;li&gt;Advanced Manufacturing&lt;/li&gt;
+&lt;li&gt;Embedded systems&lt;/li&gt;
+&lt;li&gt;Ambient intelligence&lt;/li&gt;
+&lt;li&gt;Health ionizing radiations&lt;/li&gt;
+&lt;/ul&gt;
+Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.&lt;/p&gt;
+
+&lt;p&gt;CEA Tech as CEA (Commissariat a l&amp;rsquo;energie atomique et aux energies alternatives) Technological Research Division, gathers three specialised technological research institutes among which List institute specialised on digital systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;At a world class state-of-the-art&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Our activity is based on three main pillars
+&lt;ul&gt;
+&lt;li&gt;Scientific excellence: List research engineers dedicate a 100% of their time to R&amp;amp;D activities and publish their results into international leading conferences and scientific journals. Keeping a strong link with academic research, they base their research on world-wide state of the art.&lt;/li&gt;
+&lt;li&gt;The Culture of Industry:Our research teams are enlightened and motivated by a results-driven culture of projects, fixing themselves clear objectives to reach within committed deadlines and budgets. Each project launched by List Institute is fully assigned to permanent and suited human resources. The project management is based on a precise calendar, identified milestones and a clear description of deliverables. Research results confidentiality and intellectual property (patents) are defined by the parties in the collaboration agreement.&lt;/li&gt;
+&lt;li&gt;Opening to the world: List Institute is fully integrated into a local and national particularly dynamic ecosystem through strategic academic, institutional and industrial partnerships. In order to maintain the best level internationally in its fields of activity List institute is also involved in more than 200 European collaborative projects, collaborates with leading foreign academic laboratories and conducts research activities at an international level, especially in the USA.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -161,93 +213,6 @@ We specifically focus our activities on the openHAB project, but we are also pro
     &lt;p&gt;The
       &lt;a href=&#34;https://eclipse.org/tinydtls&#34; target=&#34;_blank&#34;&gt;Eclipse tinydtls project&lt;/a&gt; provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.e. in the order of 100 KiB flash memory and about 10 KiB RAM. You can
       &lt;a href=&#34;http://git.eclipse.org/c/tinydtls/org.eclipse.tinydtls.git&#34; target=&#34;_blank&#34;&gt;download tinydtls source code&lt;/a&gt; from the project&#39;s Git repository.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>iec-15118</title>
-      <link>http://iot.eclipse.org/standards/iec-15118/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/iec-15118/</guid>
-      <description>&lt;p&gt;
-  The international standard &lt;strong&gt;ISO/IEC 15118&lt;/strong&gt;, entitled &#34;Road vehicles - Vehicle to grid communication interface&#34;, defines a digital IP-based communication interface between an electric vehicle (EV) and a charging station (named Electric Vehicle Supply Equipment - EVSE).
-&lt;/p&gt;
-&lt;p&gt;
-  It allows for a user-friendly &#34;plug-and-charge&#34; mechanism for authentication, authorization, billing, and flexible load control based on a wide set of information exchanged between the EV and EVSE.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download an IEC-15118 runtime
-    &lt;/h2&gt; The
-    &lt;a href=&#34;http://www.eclipse.org/risev2g/&#34; target=&#34;_blank&#34;&gt;Eclipse RISE V2G project&lt;/a&gt; provides a Java implementation of the IEC-15118 standard that allows to implement clients (a.k.a. electric vehicles communication controllers) as well as servers (a.k.a. charging stations). The source code of RISE V2G is available on the project&#39;s
-    &lt;a href=&#34;https://www.github.com/eclipse/risev2g&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>iec-61499</title>
-      <link>http://iot.eclipse.org/standards/iec-61499/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/iec-61499/</guid>
-      <description>&lt;p&gt;
-  The international standard &lt;strong&gt;IEC 61499&lt;/strong&gt;, addressing the topic of function blocks for industrial process measurement and control system. The specification of IEC 61499 defines a generic model for distributed control systems and is based on the IEC 61131 standard.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download an IEC-61499 toolset and runtime
-    &lt;/h2&gt;
-    &lt;p&gt;The
-      &lt;a href=&#34;https://eclipse.org/4diac&#34; target=&#34;_blank&#34;&gt;Eclipse 4DIAC project&lt;/a&gt; provides an industrial-grade open source infrastructure for distributed Industrial Process Measurement and Control Systems (IPMCS) based on the IEC 61499 standard.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>lwm2m</title>
-      <link>http://iot.eclipse.org/standards/lwm2m/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/lwm2m/</guid>
-      <description>&lt;p&gt;
-  &lt;strong&gt;OMA LightweightM2M (LWM2M)&lt;/strong&gt; is an industry standard for device management of M2M/IoT devices. It heavily relies on CoAP and therefore is optimized for communications over sensor or cellular networks.
-&lt;/p&gt;
-&lt;p&gt;
-  OMA LWM2M provides an extensible object model that allows to enable application data exchanges in addition to the core device management features (firmware upgrade, connectivity monitoring, &amp;hellip;)
-&lt;/p&gt;
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a LWM2M runtime
-    &lt;/h2&gt;
-    &lt;p&gt;
-      The
-      &lt;a href=&#34;http://www.eclipse.org/wakaama/&#34; target=&#34;_blank&#34;&gt;Eclipse Wakaama project&lt;/a&gt; provides a &lt;strong&gt;C portable framework&lt;/strong&gt; for building LWM2M clients and/or servers. The source code of Wakaama is available from the
-      &lt;a href=&#34;http://www.eclipse.org/wakaama&#34;&gt;project webpage&lt;/a&gt;.&lt;/p&gt;
-    &lt;p&gt;
-      The
-      &lt;a href=&#34;http://www.eclipse.org/leshan/&#34; target=&#34;_blank&#34;&gt;Eclipse Leshan project&lt;/a&gt; provides a &lt;strong&gt;Java implementation&lt;/strong&gt; of LwM2M, allowing to build LwM2M servers and clients. The source code of Leshan is available from the
-      &lt;a href=&#34;http://www.eclipse.org/leshan&#34;&gt;project webpage&lt;/a&gt;.&lt;/p&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; LWM2M Sandbox Server
-    &lt;/h2&gt;
-    &lt;p&gt;
-      We provide a Leshan-based
-      &lt;a href=&#34;sandbox.html#lwm2m&#34;&gt;LWM2M sandbox server&lt;/a&gt; against which LWM2M clients can be registered. The sandbox server provides a Web UI and a REST API to enable interaction with the registered clients.
-    &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
