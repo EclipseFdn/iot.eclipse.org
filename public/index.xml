@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Eclipse IoT Day San Jose</title>
+      <link>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
+      <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</guid>
+      <description>&lt;p&gt;We excited to announce the Eclipse IoT Day San Jose 2017. The event will take place on March 20, in co-location with Eclipse Converge and Devoxx US. The agenda is packed with great speakers covering a wide range of IoT topics, from Industry 4.0 and fog computing for devices at the edge, to smart homes and more!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CEA List</title>
       <link>http://iot.eclipse.org/member/cealist/</link>
       <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
@@ -191,28 +201,6 @@ We specifically focus our activities on the openHAB project, but we are also pro
       We provide a
       &lt;a href=&#34;sandbox.html#coap&#34;&gt;sandbox server&lt;/a&gt; that exposes some testing resources over CoAP. You can use it to test your CoAP communication scenarios.
     &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dtls</title>
-      <link>http://iot.eclipse.org/standards/dtls/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/dtls/</guid>
-      <description>&lt;p&gt;
-  The &lt;strong&gt;Datagram Transport Layer Security (DTLS)&lt;/strong&gt; protocol provides communications security for datagram protocols such as. DTLS allows datagram-based applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. For IoT applications, DTLS can be used to secure CoAP-based communications.
-&lt;/p&gt;
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a DTLS implementation
-    &lt;/h2&gt;
-    &lt;p&gt;The
-      &lt;a href=&#34;https://eclipse.org/tinydtls&#34; target=&#34;_blank&#34;&gt;Eclipse tinydtls project&lt;/a&gt; provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.e. in the order of 100 KiB flash memory and about 10 KiB RAM. You can
-      &lt;a href=&#34;http://git.eclipse.org/c/tinydtls/org.eclipse.tinydtls.git&#34; target=&#34;_blank&#34;&gt;download tinydtls source code&lt;/a&gt; from the project&#39;s Git repository.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>

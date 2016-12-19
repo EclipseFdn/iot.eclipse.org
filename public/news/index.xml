@@ -6,8 +6,18 @@
     <description>Recent content in News-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT Day San Jose</title>
+      <link>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
+      <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</guid>
+      <description>&lt;p&gt;We excited to announce the Eclipse IoT Day San Jose 2017. The event will take place on March 20, in co-location with Eclipse Converge and Devoxx US. The agenda is packed with great speakers covering a wide range of IoT topics, from Industry 4.0 and fog computing for devices at the edge, to smart homes and more!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Announcing the Open IoT Challenge 3.0 Scholars!</title>
@@ -148,16 +158,6 @@
       <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
 
 &lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Announcing The 16 Winners Of The Open Iot Challenge Starter Kit!</title>
-      <link>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</link>
-      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-12-09-Open-IoT-Challenge-devkits/</guid>
-      <description>&lt;p&gt;It’s now been a bit more than 2 weeks since the second edition of the Open IoT Challenge has officially started. More than 80 teams have applied to be part of the challenge, and if you ask me, that’s really exciting!…&lt;/p&gt;
 </description>
     </item>
     
