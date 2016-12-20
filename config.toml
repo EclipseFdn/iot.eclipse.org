@@ -2,3 +2,5 @@ title		= "Eclipse IoT"
 languageCode = "en-us"
 baseurl 	= "http://iot.eclipse.org"
 paginate 	= 6
+[permalinks]
+  open-iot-challenge-entries = "/open-iot-challenge/entries/:title/"

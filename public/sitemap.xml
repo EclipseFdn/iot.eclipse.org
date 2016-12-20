@@ -940,6 +940,10 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/dummy/</loc>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/projects/dummy/</loc>
   </url>
   

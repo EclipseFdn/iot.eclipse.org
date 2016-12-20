@@ -47,7 +47,7 @@ for (var project in all.projects) {
 	//	console.log(project);
         for(var repo in all.projects[project].github_repos)
         {
-            console.log(all.projects[project].id[0].value.replace('iot.', '') + ':' + all.projects[project].github_repos[repo].url.replace('https://github.com/eclipse/',''))
+       //     console.log(all.projects[project].id[0].value.replace('iot.', '') + ':' + all.projects[project].github_repos[repo].url.replace('https://github.com/eclipse/',''))
         }
 		if(all.projects[project].releases) {
 			for(var release in all.projects[project].releases)
@@ -58,6 +58,21 @@ for (var project in all.projects) {
 					break;
 				}
 			}
+
+
+
+            for(var release in all.projects[project].releases)
+            {
+                if(all.projects[project].releases[release].review && all.projects[project].releases[release].review.state[0].value == 'success') {
+                  console.log(
+                                all.projects[project].releases[release].date[0].value,
+                                all.projects[project].releases[release].parent_project[0].id,
+                                all.projects[project].releases[release].title
+                    );
+                }
+            }
+
+
 		} 
 
         var url = url = 'http://projects.eclipse.org/projects/' + project;

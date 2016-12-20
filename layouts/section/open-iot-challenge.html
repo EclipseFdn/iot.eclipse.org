@@ -25,7 +25,7 @@
 </script>
 
 
-  
+  <!-- favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -51,90 +51,7 @@
 
 
   <header>
-    <nav class="navbar navbar-default">
-  <div class="container">
-    
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        <img alt="Eclipse IoT" src="/assets/images/iot-logo.png">
-      </a>
-    </div>
-    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started</a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="/getting-started#tutorials">Tutorials</a></li>
-            <li><a href="/getting-started#sandboxes">Sandboxes</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
-          <ul class="dropdown-menu" role="menu">
-
-
-            <li><a href="/devices">Constrained Devices</a></li>
-            <li><a href="/gateways">Gateways &amp; Smart Devices</a></li>
-            <li><a href="/cloud">IoT Cloud Platforms</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="/standards">Open Standards</a></li>
-            <li><a href="/case-studies">Case Studies</a></li>
-            <li><a href="/projects">Browse the Projects</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community</a>
-          <ul class="dropdown-menu" role="menu">
-            <li>
-              <a href="/resources">Resources</a>
-            </li>
-            <li>
-              <a href="/news">News</a>
-            </li>
-            <li>
-              <a href="/events">Events</a>
-            </li>
-            <li>
-              <a href="/open-iot-challenge">Open IoT Challenge</a>
-            </li>
-            <li>
-              <a href="http://www.meetup.com/Virtual-IoT" target="_blank">Virtual IoT Meetup</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="/working-group">Working Group</a>
-        </li>
-
-        <li style="min-width: 100px; padding-top: 12px; padding-left: 15px; margin-left:-35px">
-          <a href="https://twitter.com/eclipseiot" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-align="center">Follow @eclipseiot</a>
-          <script>
-          ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-              p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-              js = d.createElement(s);
-              js.id = id;
-              js.src = p + '://platform.twitter.com/widgets.js';
-              fjs.parentNode.insertBefore(js, fjs);
-            }
-          }(document, 'script', 'twitter-wjs');
-          </script>
-        </li>
-      </ul>
-    </div>
-    
-  </div>
-  
-</nav>
-
+    {{ partial "navbar.html" . }}
   </header>
 
   <main class="main openiot-challenge">
@@ -147,7 +64,12 @@
                     <img src="images/header-logo.png" alt="" class="img-responsive" style="margin: 0 auto;">
 
                 </div>
-               
+               <!--  <div class="col-md-6 col-md-offset-3">
+                  <hr>
+                    <a href="https://goo.gl/forms/80zyVCtWPpkIR1lF2" target="_blank">Apply</a> before November 30!
+                    <br>
+                    <a href="#content"><span class="icon-circle-down" aria-hidden="true"></span></a>
+                </div> -->
             </div>
         </div>
     </div>
@@ -164,7 +86,17 @@
               <h2>Latest blog posts<span></span></h2> 
 
               <div class="row">
-                
+                {{ range first 6 (where .Site.Pages.ByDate.Reverse ".Type" "open-iot-challenge-entries") }}
+                <div class="col-md-4">
+                  <div class="latest-news-item">
+                    <a href="{{ .Params.link }}">
+                      <h3>{{ .Title }}</h3>
+                    </a>
+<!--                     {{ .Content }} -->
+                    <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
+                  </div>
+                </div>
+                {{ end }}
               </div>
 
                 <a href="/open-iot-challenge-entries"><button>More blog posts…</button></a>
@@ -175,9 +107,17 @@
             <p>December 15 | <a target="_blank" href="https://www.youtube.com/watch?v=a8gex7goj_g">Watch Now</a></p>
           
 
-					 
+					<!-- <p>To participate, submit a proposal that describes the solution you want to build. Tell us the open technology you plan to use, the industry you plan to address, and a general overview of the solution you want to build. You will have until February 26, 2017 to build your solution, so think big and be innovative!</p> 
+					<p>The top 10 proposals will receive a hardware development kit to help get them started on their Open IoT Challenge. Deadline for proposals was November 30, 2016. The top 10 proposals will be announced on December 5, 2016.</p>
+					 <p align="center"><a href="https://goo.gl/forms/80zyVCtWPpkIR1lF2" target="_blank">
+                            <button>APPLY NOW</button>
+                        </a></p>--> 
 
-                    
+                    <!-- 4:3 aspect ratio 
+                    <div class="embed-responsive" style="padding-bottom: 35%;">
+                      <iframe class="embed-responsive-item" src="http://openiotchallenge.tumblr.com/#content"></iframe>
+                    </div>
+					-->
 
                 </div>
             </div>
@@ -322,7 +262,9 @@
                             <li style="padding-top:0.7em;"><strong>Submissions</strong> of the final solution must be completed by <u>February 27, 2017</u> (11.59pm PDT). Prizes will be awarded for the <u>top 3 solutions</u>.</li>
                         </ul>
 
-                        
+                       <!--  <a target="_blank" href="https://goo.gl/forms/80zyVCtWPpkIR1lF2">
+                            <button class="center-block">APPLY NOW</button>
+                        </a> --> 
                         <p><strong>The solutions will be judged on the following criteria:</strong>
                         </p>
                         <ul>
@@ -352,7 +294,11 @@
        <div class="tech-apply">
             <div class="container">
                 <div class="row">
-                    
+                    <!-- <div class="col-md-12">
+                        <a href="https://goo.gl/forms/80zyVCtWPpkIR1lF2" target="_blank">
+                            <button>APPLY NOW</button>
+                        </a>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -516,7 +462,15 @@
                             </li>
                             <li class="pull-right">Copyright © 2016 The Eclipse Foundation. All Rights Reserved.</li>
                         </ul>
-                        
+                        <!-- <ul class="list-inline">
+    <li><img src="images/social-facebook.jpg">
+    </li>
+    <li><img src="images/social-twitter.jpg">
+    </li>
+    <li><img src="images/social-youtube.jpg">
+    </li>
+</ul>
+ -->
                     </div>
 
                 </div>
@@ -550,7 +504,7 @@
 
 
 
-    
+    <!-- JS is at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
@@ -558,7 +512,7 @@
 
     <script type="text/javascript">
         $.getJSON("https://spreadsheets.google.com/feeds/list/1wcQzgLooYXILoFkWyaw4lewfFAsw_zKf_pN8HjbIfuk/2/public/values?alt=json", function(data) {
-            
+            //first row "title" column
             $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
         });
     </script>
