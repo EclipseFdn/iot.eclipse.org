@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Blog post from Challenger John Doe</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</link>
+      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</guid>
+      <description>&lt;p&gt;Lorem ipsum Nulla culpa fugiat ea eiusmod laboris et ut nostrud adipisicing nisi in adipisicing ad sint do cillum culpa velit elit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day San Jose</title>
       <link>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
       <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
@@ -172,38 +182,6 @@ We specifically focus our activities on the openHAB project, but we are also pro
       
       <guid>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>coap</title>
-      <link>http://iot.eclipse.org/standards/coap/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>http://iot.eclipse.org/standards/coap/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;CoAP&lt;/strong&gt; (Constrained Application Protocol) is a protocol specialized for use with constrained nodes and networks.&lt;/p&gt;
-&lt;p&gt;It implements the REST architectural style, it can be transparently mapped to HTTP. However, CoAP also provides features that go beyond HTTP such as native push notifications and group communication.&lt;/p&gt;
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; Download a CoAP runtime
-    &lt;/h2&gt;
-    &lt;p&gt;
-      The
-      &lt;a href=&#34;http://www.eclipse.org/californium/&#34; target=&#34;_blank&#34;&gt;Eclipse Californium project&lt;/a&gt; provides a Java implementation of the CoAP protocol, including support for the DTLS security layer. The source code of Californium is available from the
-      &lt;a href=&#34;http://www.eclipse.org/californium&#34;&gt;project webpage&lt;/a&gt;, and is also available from Maven Central.&lt;/p&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;col-md-6&#34;&gt;
-    &lt;h2&gt;
-      &lt;i class=&#34;icon-forward&#34;&gt;&lt;/i&gt; CoAP Sandbox Server
-    &lt;/h2&gt;
-    &lt;p&gt;
-      We provide a
-      &lt;a href=&#34;sandbox.html#coap&#34;&gt;sandbox server&lt;/a&gt; that exposes some testing resources over CoAP. You can use it to test your CoAP communication scenarios.
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
     </item>
     
   </channel>
