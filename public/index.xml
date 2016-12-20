@@ -55,22 +55,22 @@
     </item>
     
     <item>
-      <title>Blog post from Challenger John Doe</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</link>
-      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</guid>
-      <description>&lt;p&gt;Lorem ipsum Nulla culpa fugiat ea eiusmod laboris et ut nostrud adipisicing nisi in adipisicing ad sint do cillum culpa velit elit.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Eclipse IoT Day San Jose</title>
       <link>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
       <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</guid>
       <description>&lt;p&gt;We excited to announce the Eclipse IoT Day San Jose 2017. The event will take place on March 20, in co-location with Eclipse Converge and Devoxx US. The agenda is packed with great speakers covering a wide range of IoT topics, from Industry 4.0 and fog computing for devices at the edge, to smart homes and more!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Overview and Architecture of Wireless Sensor Network System (WSN)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
+      <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
 </description>
     </item>
     

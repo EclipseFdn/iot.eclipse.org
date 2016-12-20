@@ -6,16 +6,16 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blog post from Challenger John Doe</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</link>
-      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+      <title>Agrinode | Overview and Architecture of Wireless Sensor Network System (WSN)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/blog-post-from-challenger-john-doe/</guid>
-      <description>&lt;p&gt;Lorem ipsum Nulla culpa fugiat ea eiusmod laboris et ut nostrud adipisicing nisi in adipisicing ad sint do cillum culpa velit elit.&lt;/p&gt;
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
+      <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
 </description>
     </item>
     
