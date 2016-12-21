@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducing krishi IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</guid>
+      <description>&lt;p&gt;In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Retail IoT | Overview of the Solution - The Story</title>

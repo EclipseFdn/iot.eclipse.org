@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Introducing krishi IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</guid>
+      <description>&lt;p&gt;In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Retail IoT | Overview of the Solution - The Story</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</link>
       <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
@@ -172,16 +182,6 @@ Labeled as Carnot Institute , List invests every year 25% of its budget into sci
 
 &lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
 We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
-      <link>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
-      <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The Internet of Things is rising fast, but how can it be run safely and efficiently using standards?  OMA Lightweight M2M is an IoT protocol for managing smart objects. It provides answers to the typi…&lt;/p&gt;
 </description>
     </item>
     
