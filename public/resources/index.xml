@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Using MQTT and Eclipse Paho in Android Things</title>
+      <link>http://iot.eclipse.org/resources/2016-12-19-mqtt-android-things/</link>
+      <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-12-19-mqtt-android-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IoT Microservices at the Edge with Eclipse ioFog</title>
       <link>http://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</link>
       <pubDate>Thu, 20 Oct 2016 17:03:01 +0000</pubDate>
@@ -149,16 +158,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse Kura: A gateway framework built for IoT</title>
-      <link>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
-      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
 </description>
     </item>
     
