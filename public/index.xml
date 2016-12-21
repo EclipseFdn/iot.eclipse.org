@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>CCP | Life on CCP</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</guid>
+      <description>&lt;p&gt;CCP stands for Cloud-based Collaborative PACS (Picture Archiving and Communication Systems). A picture archiving and communication system (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types)wiki.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introducing krishi IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
@@ -164,25 +174,6 @@ Labeled as Carnot Institute , List invests every year 25% of its budget into sci
       
       <guid>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Samsung ARTIK</title>
-      <link>http://iot.eclipse.org/member/samsung/</link>
-      <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/samsung/</guid>
-      <description>&lt;p&gt;&lt;b&gt;Samsung and Eclipse&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;About Samsung ARTIK&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;The Samsung ARTIK end-to-end, integrated platform unifies hardware, software, cloud, security, and a partner ecosystem in a single offering. ARTIK does the heavy lifting so you can focus on differentiating your products and services. Reduce costs, time and risk.&lt;/p&gt;
-
-&lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
-We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
