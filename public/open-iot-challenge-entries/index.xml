@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Smart Traffic | Traffic Lights</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
+      <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
@@ -26,16 +36,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</guid>
       <description>&lt;p&gt;The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Traffic | Traffic Lights</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
-      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
-      <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,5 +1,5 @@
 +++
-date = "2016-12-25"
+date = "2016-12-27"
 title = "Smart Traffic | Traffic Lights"
 link = "http://smarttrafficlights.blogspot.de/2016/12/traffic-lights.html"
 +++
