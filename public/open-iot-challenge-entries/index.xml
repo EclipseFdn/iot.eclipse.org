@@ -6,8 +6,48 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</guid>
+      <description>&lt;p&gt;For a 3.0 edition of the Challenge I’m working on a Fault Management solution for a distributed Environmental Monitoring IoT system. The solution is based on a Rule-Based principles of errors (symptoms) detection and faults isolation and diagnose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | The Beginning</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</guid>
+      <description>&lt;p&gt;The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | Traffic Lights</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
+      <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Fully System Architecture for Agrinode Project</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</link>
+      <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</guid>
+      <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>

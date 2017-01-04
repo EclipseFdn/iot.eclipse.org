@@ -55,6 +55,46 @@
     </item>
     
     <item>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</guid>
+      <description>&lt;p&gt;For a 3.0 edition of the Challenge I’m working on a Fault Management solution for a distributed Environmental Monitoring IoT system. The solution is based on a Rule-Based principles of errors (symptoms) detection and faults isolation and diagnose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | The Beginning</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</guid>
+      <description>&lt;p&gt;The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | Traffic Lights</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
+      <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Fully System Architecture for Agrinode Project</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</link>
+      <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</guid>
+      <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</link>
       <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
@@ -111,69 +151,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
       <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CEA List</title>
-      <link>http://iot.eclipse.org/member/cealist/</link>
-      <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
-      
-      <guid>http://iot.eclipse.org/member/cealist/</guid>
-      <description>&lt;p&gt;&lt;b&gt;List, expert on digital systems&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;100 industrial collaborations per year&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:
-&lt;ul&gt;
-&lt;li&gt;Advanced Manufacturing&lt;/li&gt;
-&lt;li&gt;Embedded systems&lt;/li&gt;
-&lt;li&gt;Ambient intelligence&lt;/li&gt;
-&lt;li&gt;Health ionizing radiations&lt;/li&gt;
-&lt;/ul&gt;
-Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.&lt;/p&gt;
-
-&lt;p&gt;CEA Tech as CEA (Commissariat a l&amp;rsquo;energie atomique et aux energies alternatives) Technological Research Division, gathers three specialised technological research institutes among which List institute specialised on digital systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;At a world class state-of-the-art&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Our activity is based on three main pillars
-&lt;ul&gt;
-&lt;li&gt;&lt;u&gt;Scientific excellence&lt;/u&gt;: List research engineers dedicate a 100% of their time to R&amp;amp;D activities and publish their results into international leading conferences and scientific journals. Keeping a strong link with academic research, they base their research on world-wide state of the art.&lt;/li&gt;
-&lt;li&gt;&lt;u&gt;The Culture of Industry&lt;/u&gt;: Our research teams are enlightened and motivated by a results-driven culture of projects, fixing themselves clear objectives to reach within committed deadlines and budgets. Each project launched by List Institute is fully assigned to permanent and suited human resources. The project management is based on a precise calendar, identified milestones and a clear description of deliverables. Research results confidentiality and intellectual property (patents) are defined by the parties in the collaboration agreement.&lt;/li&gt;
-&lt;li&gt;&lt;u&gt;Opening to the world&lt;/u&gt;: List Institute is fully integrated into a local and national particularly dynamic ecosystem through strategic academic, institutional and industrial partnerships. In order to maintain the best level internationally in its fields of activity List institute is also involved in more than 200 European collaborative projects, collaborates with leading foreign academic laboratories and conducts research activities at an international level, especially in the USA.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Announcing the Open IoT Challenge 3.0 Scholars!</title>
-      <link>http://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</link>
-      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</guid>
-      <description>&lt;p&gt;The third edition of the Open IoT Challenge officially started. More than 80 teams have submitted their entries and are now in the running to win the Open IoT Challenge 3.0! The judges have reviewed all submissions and we have awarded a “starter kit” to the most promising solutions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open Data, Open Tools: Transforming IoT, LocationTech &amp; Science</title>
-      <link>http://iot.eclipse.org/events/2016-11-24-meetup-london/</link>
-      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-11-24-meetup-london/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open IoT Challenge 3.0 | Deadline Extended!</title>
-      <link>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</link>
-      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</guid>
-      <description>&lt;p&gt;The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We already received many great submissions, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!&lt;/p&gt;
 </description>
     </item>
     
