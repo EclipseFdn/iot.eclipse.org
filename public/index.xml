@@ -55,6 +55,26 @@
     </item>
     
     <item>
+      <title>Agrinode | MQTT Demo</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
+      <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</guid>
+      <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Smart Traffic | Traffic Lights</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
       <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
@@ -131,26 +151,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</guid>
       <description>&lt;p&gt;To start with I will describe the intended solution &amp;amp; the initial architecture that we have in mind. Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Day San Jose</title>
-      <link>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
-      <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</guid>
-      <description>&lt;p&gt;We excited to announce the Eclipse IoT Day San Jose 2017. The event will take place on March 20, in co-location with Eclipse Converge and Devoxx US. The agenda is packed with great speakers covering a wide range of IoT topics, from Industry 4.0 and fog computing for devices at the edge, to smart homes and more!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Overview and Architecture of Wireless Sensor Network System (WSN)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
-      <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
 </description>
     </item>
     

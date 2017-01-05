@@ -6,8 +6,28 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agrinode | MQTT Demo</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
+      <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</guid>
+      <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Smart Traffic | Traffic Lights</title>
@@ -96,6 +116,16 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
       <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | First prototype of sensor with nanoESP</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</link>
+      <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</guid>
+      <description>&lt;p&gt;Here is the latest update from the Farm-Team featuring the first prototype of sensor with nanoESP.&lt;/p&gt;
 </description>
     </item>
     

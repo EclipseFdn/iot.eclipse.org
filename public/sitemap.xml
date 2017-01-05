@@ -32,6 +32,16 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</loc>
+    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</loc>
     <lastmod>2016-12-27T00:00:00+00:00</lastmod>
   </url>
@@ -89,6 +99,11 @@
   <url>
     <loc>http://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</loc>
     <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</loc>
+    <lastmod>2016-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
