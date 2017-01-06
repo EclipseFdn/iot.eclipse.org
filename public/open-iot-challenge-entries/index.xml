@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>dGator | A new year and a change to the project proposal</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</guid>
+      <description>&lt;p&gt;Change to original submission: instead of making the service available primarily only on CoAP I will be using HTTP.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
       <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
