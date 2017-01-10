@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>InMoodforLife| Beddit Reverse Engineering</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</guid>
+      <description>&lt;p&gt;Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Agrinode | MQTT Demo</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
@@ -141,16 +151,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</guid>
       <description>&lt;p&gt;InMoodForLife aims to build a device to track and analyse sleep patterns for young people with bipolar disorders, in order to better regulate their sleep rhythms, contributing them to prevent mood swing relapses.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CCP | Life on CCP</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</link>
-      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</guid>
-      <description>&lt;p&gt;CCP stands for Cloud-based Collaborative PACS (Picture Archiving and Communication Systems). A picture archiving and communication system (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types)wiki.&lt;/p&gt;
 </description>
     </item>
     
