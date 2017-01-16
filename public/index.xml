@@ -55,6 +55,15 @@
     </item>
     
     <item>
+      <title>Building a wireless sensor network using Bluetooth Low Energy, MQTT-SN, and the BBC micro:bit</title>
+      <link>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</link>
+      <pubDate>Mon, 16 Jan 2017 10:56:18 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>InMoodforLife| Beddit Reverse Engineering</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
@@ -141,16 +150,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</guid>
       <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</link>
-      <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</guid>
-      <description>&lt;p&gt;InMoodForLife aims to build a device to track and analyse sleep patterns for young people with bipolar disorders, in order to better regulate their sleep rhythms, contributing them to prevent mood swing relapses.&lt;/p&gt;
 </description>
     </item>
     

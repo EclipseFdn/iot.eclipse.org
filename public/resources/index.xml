@@ -6,8 +6,17 @@
     <description>Recent content in Resources-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Nov 2016 16:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jan 2017 10:56:18 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a wireless sensor network using Bluetooth Low Energy, MQTT-SN, and the BBC micro:bit</title>
+      <link>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</link>
+      <pubDate>Mon, 16 Jan 2017 10:56:18 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
@@ -148,16 +157,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Web developers now enjoy a culture and set of tools that allow them to deploy software up to many times per day, quickly and safely. By contrast, much of the embedded world still operates on the annua…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What Makes an Open IoT Developer Challenge Winner!</title>
-      <link>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</link>
-      <pubDate>Wed, 30 Mar 2016 15:59:39 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…&lt;/p&gt;
 </description>
     </item>
     
