@@ -20,11 +20,11 @@
     </item>
     
     <item>
-      <title>Agrinode | Develop an AgriNode bundle for Kura (using Bitreactive)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-kura-using-bitreactive/</link>
+      <title>Agrinode | Develop an AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-kura-using-bitreactive/</guid>
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
       <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
 </description>
     </item>
