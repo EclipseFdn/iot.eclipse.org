@@ -59,7 +59,7 @@ for (var project in all.projects) {
 				}
 			}
 
-
+console.log(all.projects[project])
 
             for(var release in all.projects[project].releases)
             {
