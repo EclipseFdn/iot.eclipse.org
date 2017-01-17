@@ -6,15 +6,45 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>InMoodforLife| Beddit Reverse Engineering</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</link>
+      <title>InMoodforLife | Is my Pi strong enough?</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</link>
+      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</guid>
+      <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Develop an AgriNode bundle for Kura (using Bitreactive)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-kura-using-bitreactive/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-kura-using-bitreactive/</guid>
+      <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | High-level architecture of krishi-IoT</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</guid>
+      <description>&lt;p&gt;In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Beddit Reverse Engineering</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</guid>
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</guid>
       <description>&lt;p&gt;Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.&lt;/p&gt;
 </description>
     </item>
@@ -120,42 +150,12 @@
     </item>
     
     <item>
-      <title>Introducing krishi IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
+      <title>Introducing krishi-IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</guid>
       <description>&lt;p&gt;In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Retail IoT | Overview of the Solution - The Story</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</link>
-      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</guid>
-      <description>&lt;p&gt;To start with I will describe the intended solution &amp;amp; the initial architecture that we have in mind. Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Overview and Architecture of Wireless Sensor Network System (WSN)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
-      <description>&lt;p&gt;We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | First prototype of sensor with nanoESP</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</link>
-      <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</guid>
-      <description>&lt;p&gt;Here is the latest update from the Farm-Team featuring the first prototype of sensor with nanoESP.&lt;/p&gt;
 </description>
     </item>
     

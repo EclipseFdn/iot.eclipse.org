@@ -32,12 +32,27 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</loc>
+    <lastmod>2017-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</loc>
     <lastmod>2017-01-16T10:56:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife-beddit-reverse-engineering/</loc>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-kura-using-bitreactive/</loc>
+    <lastmod>2017-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</loc>
     <lastmod>2017-01-10T00:00:00+00:00</lastmod>
   </url>
   
