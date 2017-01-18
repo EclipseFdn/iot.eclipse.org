@@ -7,154 +7,154 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>InMoodforLife | Is my Pi strong enough?</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</link>
+      <link>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</link>
       <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</guid>
+      <guid>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</guid>
       <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Agrinode | Develop an AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
+      <link>https://agrinode.blogspot.de/2017/01/develop-aginrode-bundle-for-kura-using.html</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
+      <guid>https://agrinode.blogspot.de/2017/01/develop-aginrode-bundle-for-kura-using.html</guid>
       <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>krishi-IoT | High-level architecture of krishi-IoT</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</link>
+      <link>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</guid>
+      <guid>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</guid>
       <description>&lt;p&gt;In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>InMoodforLife | Beddit Reverse Engineering</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</link>
+      <link>https://medium.com/inmoodforlife/beddit-reverse-engineering-c4bdca8e07b8</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</guid>
+      <guid>https://medium.com/inmoodforlife/beddit-reverse-engineering-c4bdca8e07b8</guid>
       <description>&lt;p&gt;Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Agrinode | MQTT Demo</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
+      <link>https://agrinode.blogspot.de/2016/12/mosquitto-mqtt-broker-demo-mqtt-for.html</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
+      <guid>https://agrinode.blogspot.de/2016/12/mosquitto-mqtt-broker-demo-mqtt-for.html</guid>
       <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>dGator | A new year and a change to the project proposal</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</link>
+      <link>http://blog.datagator.tech/post/2017/01/05/A-new-year-and-a-change-to-the-project-proposal</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</guid>
+      <guid>http://blog.datagator.tech/post/2017/01/05/A-new-year-and-a-change-to-the-project-proposal</guid>
       <description>&lt;p&gt;Change to original submission: instead of making the service available primarily only on CoAP I will be using HTTP.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
+      <link>https://smartwatering.blogspot.de/2017/01/update-from-cloud-team-setting-up-ibm.html</link>
       <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</guid>
+      <guid>https://smartwatering.blogspot.de/2017/01/update-from-cloud-team-setting-up-ibm.html</guid>
       <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Eneristics | Introducing the Residential Home Diagnostic System (RHDS)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--introducing-the-residential-home-diagnostic-system-rhds/</link>
+      <link>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</link>
       <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--introducing-the-residential-home-diagnostic-system-rhds/</guid>
+      <guid>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</guid>
       <description>&lt;p&gt;Helping to create a more adaptable and responsive environment using open source technology.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Smart Traffic | Traffic Lights</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
+      <link>http://smarttrafficlights.blogspot.de/2016/12/traffic-lights.html</link>
       <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
+      <guid>http://smarttrafficlights.blogspot.de/2016/12/traffic-lights.html</guid>
       <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</link>
+      <link>http://iot-sergevas.blogspot.de/2016/12/rule-based-fault-management-for.html</link>
       <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</guid>
+      <guid>http://iot-sergevas.blogspot.de/2016/12/rule-based-fault-management-for.html</guid>
       <description>&lt;p&gt;For a 3.0 edition of the Challenge I’m working on a Fault Management solution for a distributed Environmental Monitoring IoT system. The solution is based on a Rule-Based principles of errors (symptoms) detection and faults isolation and diagnose.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Smart Traffic | The Beginning</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</link>
+      <link>http://smarttrafficlights.blogspot.de/2016/12/the-beginning-idea-of-creating-smart.html</link>
       <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</guid>
+      <guid>http://smarttrafficlights.blogspot.de/2016/12/the-beginning-idea-of-creating-smart.html</guid>
       <description>&lt;p&gt;The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Agrinode | Fully System Architecture for Agrinode Project</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</link>
+      <link>https://agrinode.blogspot.de/2016/12/fully-system-architecture-for-agrinode.html</link>
       <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</guid>
+      <guid>https://agrinode.blogspot.de/2016/12/fully-system-architecture-for-agrinode.html</guid>
       <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</link>
+      <link>https://medium.com/inmoodforlife/introducing-inmoodforlife-a-sleep-tracking-and-analysing-device-for-young-people-with-mood-28f8b77f3c31#.rdet1apss</link>
       <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</guid>
+      <guid>https://medium.com/inmoodforlife/introducing-inmoodforlife-a-sleep-tracking-and-analysing-device-for-young-people-with-mood-28f8b77f3c31#.rdet1apss</guid>
       <description>&lt;p&gt;InMoodForLife aims to build a device to track and analyse sleep patterns for young people with bipolar disorders, in order to better regulate their sleep rhythms, contributing them to prevent mood swing relapses.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CCP | Life on CCP</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</link>
+      <link>https://fbxie.github.io/lifeccp/</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</guid>
+      <guid>https://fbxie.github.io/lifeccp/</guid>
       <description>&lt;p&gt;CCP stands for Cloud-based Collaborative PACS (Picture Archiving and Communication Systems). A picture archiving and communication system (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types)wiki.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Introducing krishi-IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
+      <link>http://krishi-iot.blogspot.de/2016/12/introducing-krishi-iot-open-source.html</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</guid>
+      <guid>http://krishi-iot.blogspot.de/2016/12/introducing-krishi-iot-open-source.html</guid>
       <description>&lt;p&gt;In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.&lt;/p&gt;
 </description>
     </item>
