@@ -80,12 +80,42 @@
     </item>
     
     <item>
+      <title>Smart Watering | Update from Cloud-Team: Deploying Cassandra Image as a Container in Bluemix</title>
+      <link>https://smartwatering.blogspot.de/2017/01/introduction-to-cassandra-apache.html</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smartwatering.blogspot.de/2017/01/introduction-to-cassandra-apache.html</guid>
+      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run cassandra as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Cloud-Team: Deploying MongoDB Image as a Container in Bluemix</title>
+      <link>https://smartwatering.blogspot.de/2017/01/introduction-to-mongodb-mongodb-is-open.html</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smartwatering.blogspot.de/2017/01/introduction-to-mongodb-mongodb-is-open.html</guid>
+      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run mongoDB as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eneristics | Introducing the Residential Home Diagnostic System (RHDS)</title>
       <link>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</link>
       <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</guid>
       <description>&lt;p&gt;Helping to create a more adaptable and responsive environment using open source technology.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | The Architecture</title>
+      <link>http://smarttrafficlights.blogspot.de/2016/12/the-architecture.html</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://smarttrafficlights.blogspot.de/2016/12/the-architecture.html</guid>
+      <description>&lt;p&gt;As covered in my earlier post the architecture has been evolved and this is how it looks like.&lt;/p&gt;
 </description>
     </item>
     
@@ -126,36 +156,6 @@
       
       <guid>https://agrinode.blogspot.de/2016/12/fully-system-architecture-for-agrinode.html</guid>
       <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>
-      <link>https://medium.com/inmoodforlife/introducing-inmoodforlife-a-sleep-tracking-and-analysing-device-for-young-people-with-mood-28f8b77f3c31#.rdet1apss</link>
-      <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/inmoodforlife/introducing-inmoodforlife-a-sleep-tracking-and-analysing-device-for-young-people-with-mood-28f8b77f3c31#.rdet1apss</guid>
-      <description>&lt;p&gt;InMoodForLife aims to build a device to track and analyse sleep patterns for young people with bipolar disorders, in order to better regulate their sleep rhythms, contributing them to prevent mood swing relapses.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CCP | Life on CCP</title>
-      <link>https://fbxie.github.io/lifeccp/</link>
-      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fbxie.github.io/lifeccp/</guid>
-      <description>&lt;p&gt;CCP stands for Cloud-based Collaborative PACS (Picture Archiving and Communication Systems). A picture archiving and communication system (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types)wiki.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introducing krishi-IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
-      <link>http://krishi-iot.blogspot.de/2016/12/introducing-krishi-iot-open-source.html</link>
-      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishi-iot.blogspot.de/2016/12/introducing-krishi-iot-open-source.html</guid>
-      <description>&lt;p&gt;In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.&lt;/p&gt;
 </description>
     </item>
     
