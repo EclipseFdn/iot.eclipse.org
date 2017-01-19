@@ -55,6 +55,16 @@
     </item>
     
     <item>
+      <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
+      <link>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</guid>
+      <description>&lt;p&gt;The Challenge teams have been working really hard and have been blogging about their solutions. Here are some of the most active blogs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>InMoodforLife | Is my Pi strong enough?</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</link>
       <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
@@ -140,16 +150,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</guid>
       <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run cassandra as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Cloud-Team: Deploying MongoDB Image as a Container in Bluemix</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-mongodb-image-as-a-container-in-bluemix/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-mongodb-image-as-a-container-in-bluemix/</guid>
-      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run mongoDB as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     

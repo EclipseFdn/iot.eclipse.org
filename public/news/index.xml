@@ -6,8 +6,18 @@
     <description>Recent content in News-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
+      <link>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</guid>
+      <description>&lt;p&gt;The Challenge teams have been working really hard and have been blogging about their solutions. Here are some of the most active blogs.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day San Jose</title>
@@ -146,18 +156,6 @@
       
       <guid>http://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</guid>
       <description>&lt;p&gt;The Eclipse IoT community has grown significantly over the last 1-2 years. There are now 20+ Eclipse IoT projects building open source technology for IoT solutions. We are well on our way to providing the key building blocks developers need to build IoT solutions…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT’s 2015 Year in Review</title>
-      <link>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</guid>
-      <description>&lt;p&gt;Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.&lt;/p&gt;
-
-&lt;p&gt;For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…&lt;/p&gt;
 </description>
     </item>
     
