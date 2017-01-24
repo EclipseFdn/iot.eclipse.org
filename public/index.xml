@@ -55,6 +55,26 @@
     </item>
     
     <item>
+      <title>InMoodforLife | Vert.x the perfect reactor for IoT devices</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--vert.x-the-perfect-reactor-for-iot-devices/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--vert.x-the-perfect-reactor-for-iot-devices/</guid>
+      <description>&lt;p&gt;This time we have opted for a Reactive approach based on Eclipse Vert.x. Vert.x is a toolkit for building applications on top of the JVM, another cool Open Source project of the Eclipse Foundation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dGator | Create a Topic</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</guid>
+      <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
       <link>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
@@ -81,6 +101,16 @@
       
       <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>WaziUp | IoT Challenge Fish Farming</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</guid>
+      <description>&lt;p&gt;The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -120,36 +150,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
       <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dGator | A new year and a change to the project proposal</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</guid>
-      <description>&lt;p&gt;Change to original submission: instead of making the service available primarily only on CoAP I will be using HTTP.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</guid>
-      <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Cloud-Team: Deploying Cassandra Image as a Container in Bluemix</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</guid>
-      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run cassandra as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,28 @@
     <description>Recent content in Open-iot-challenge-entries-rsses on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>InMoodforLife | Vert.x the perfect reactor for IoT devices</title>
+      <link>https://medium.com/inmoodforlife/vert-x-the-perfect-reactor-for-iot-devices-5d0b3cb36a98</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/inmoodforlife/vert-x-the-perfect-reactor-for-iot-devices-5d0b3cb36a98</guid>
+      <description>&lt;p&gt;This time we have opted for a Reactive approach based on Eclipse Vert.x. Vert.x is a toolkit for building applications on top of the JVM, another cool Open Source project of the Eclipse Foundation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dGator | Create a Topic</title>
+      <link>http://blog.datagator.tech/post/2017/01/22/Create-a-Topic</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.datagator.tech/post/2017/01/22/Create-a-Topic</guid>
+      <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>InMoodforLife | Is my Pi strong enough?</title>
@@ -16,6 +36,16 @@
       
       <guid>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</guid>
       <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WaziUp | IoT Challenge Fish Farming</title>
+      <link>http://www.waziup.io/resources/iot-challenge/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.waziup.io/resources/iot-challenge/</guid>
+      <description>&lt;p&gt;The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.&lt;/p&gt;
 </description>
     </item>
     
@@ -126,36 +156,6 @@
       
       <guid>http://smarttrafficlights.blogspot.de/2016/12/traffic-lights.html</guid>
       <description>&lt;p&gt;Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
-      <link>http://iot-sergevas.blogspot.de/2016/12/rule-based-fault-management-for.html</link>
-      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot-sergevas.blogspot.de/2016/12/rule-based-fault-management-for.html</guid>
-      <description>&lt;p&gt;For a 3.0 edition of the Challenge I’m working on a Fault Management solution for a distributed Environmental Monitoring IoT system. The solution is based on a Rule-Based principles of errors (symptoms) detection and faults isolation and diagnose.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Traffic | The Beginning</title>
-      <link>http://smarttrafficlights.blogspot.de/2016/12/the-beginning-idea-of-creating-smart.html</link>
-      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://smarttrafficlights.blogspot.de/2016/12/the-beginning-idea-of-creating-smart.html</guid>
-      <description>&lt;p&gt;The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Fully System Architecture for Agrinode Project</title>
-      <link>https://agrinode.blogspot.de/2016/12/fully-system-architecture-for-agrinode.html</link>
-      <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://agrinode.blogspot.de/2016/12/fully-system-architecture-for-agrinode.html</guid>
-      <description>&lt;p&gt;View the Full System Architecture for Agrinode Project&lt;/p&gt;
 </description>
     </item>
     

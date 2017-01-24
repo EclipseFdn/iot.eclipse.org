@@ -32,6 +32,16 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--vert.x-the-perfect-reactor-for-iot-devices/</loc>
+    <lastmod>2017-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</loc>
+    <lastmod>2017-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</loc>
     <lastmod>2017-01-19T00:00:00+00:00</lastmod>
   </url>
@@ -44,6 +54,11 @@
   <url>
     <loc>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</loc>
     <lastmod>2017-01-16T10:56:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</loc>
+    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
