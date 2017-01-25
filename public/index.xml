@@ -55,11 +55,21 @@
     </item>
     
     <item>
-      <title>InMoodforLife | Vert.x the perfect reactor for IoT devices</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--vert.x-the-perfect-reactor-for-iot-devices/</link>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Hardware setup</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</guid>
+      <description>&lt;p&gt;For the hardware part of the system I&amp;rsquo;m using two DIY environmental sensors where each sensor consists of two parts: the external part, mounted on the outside of the window and the internal part, mounted in the apartment of the apartment building.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Eclipse Vert.x the perfect reactor for IoT devices</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</link>
       <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--vert.x-the-perfect-reactor-for-iot-devices/</guid>
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</guid>
       <description>&lt;p&gt;This time we have opted for a Reactive approach based on Eclipse Vert.x. Vert.x is a toolkit for building applications on top of the JVM, another cool Open Source project of the Eclipse Foundation.&lt;/p&gt;
 </description>
     </item>
@@ -140,16 +150,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</guid>
       <description>&lt;p&gt;Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | MQTT Demo</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
-      <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
 </description>
     </item>
     
