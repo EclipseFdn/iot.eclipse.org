@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://iot.eclipse.org/</loc>
-    <lastmod>2017-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</loc>
     <lastmod>2017-05-21T00:00:00+00:00</lastmod>
   </url>
@@ -29,6 +24,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</loc>
     <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1089,6 +1089,108 @@
   
   <url>
     <loc>http://iot.eclipse.org/working-group/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/case-studies/</loc>
+    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/cloud/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/devices/</loc>
+    <lastmod>2016-11-04T14:48:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/</loc>
+    <lastmod>2017-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/</loc>
+    <lastmod>2017-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/gateways/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/hardware/</loc>
+    <lastmod>2015-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/member/</loc>
+    <lastmod>2016-12-15T15:31:21-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge-entries/</loc>
+    <lastmod>2017-01-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/projects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/</loc>
+    <lastmod>2017-01-16T10:56:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/standards/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/video/</loc>
+    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/virtualiot/</loc>
+    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/working-group/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

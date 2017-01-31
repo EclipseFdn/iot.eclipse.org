@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eclipse IoT</title>
+    <title>Virtualiot on Eclipse IoT</title>
     <link>http://iot.eclipse.org/tags/virtualiot/index.xml</link>
-    <description>Recent content on Eclipse IoT</description>
+    <description>Recent content in Virtualiot on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://iot.eclipse.org/tags/virtualiot/index.xml" rel="self" type="application/rss+xml" />
