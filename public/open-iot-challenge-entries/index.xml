@@ -6,8 +6,28 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eneristics | Project Update — Let’s Build a RHDS System from Scratch (part 1)</title>
+      <link>https://eneristics.wordpress.com/2017/02/06/project-update-lets-build-a-rhds-system-from-scratch-part-1/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/06/project-update-lets-build-a-rhds-system-from-scratch-part-1/</guid>
+      <description>&lt;p&gt;In this tutorial we will outline how we built our “Energy Modelling” system that measures conduction, heat loss through the building envelope.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Update AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
+      <link>https://agrinode.blogspot.de/2017/02/update-agrinode-bundle-for-eclipse-kura.html</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://agrinode.blogspot.de/2017/02/update-agrinode-bundle-for-eclipse-kura.html</guid>
+      <description>&lt;p&gt;In this post, I update the &amp;ldquo;AgriNode bundle&amp;rdquo; which runs on Eclipse Kura platform.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Hardware setup</title>
@@ -36,6 +56,16 @@
       
       <guid>http://blog.datagator.tech/post/2017/01/22/Create-a-Topic</guid>
       <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Farm-Team: Building a power independent solar battery circuit</title>
+      <link>https://smartwatering.blogspot.de/2017/01/upate-from-farm-team-building-power.html</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smartwatering.blogspot.de/2017/01/upate-from-farm-team-building-power.html</guid>
+      <description>&lt;p&gt;Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.&lt;/p&gt;
 </description>
     </item>
     
@@ -90,6 +120,16 @@
     </item>
     
     <item>
+      <title>Smart Watering | Update from Farm-Team: Second prototype with Arduino Pro Mini board</title>
+      <link>https://smartwatering.blogspot.de/2017/01/update-from-farm-team-second-prototype.html</link>
+      <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smartwatering.blogspot.de/2017/01/update-from-farm-team-second-prototype.html</guid>
+      <description>&lt;p&gt;Testing Arduino board clones. They can operate with up to 5V. I used the FTDI as power supply. This will give enough power for the Arduino. But as soon as the ESP8266 is in operational mode the power supplied by the FTDI is not enough.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Agrinode | MQTT Demo</title>
       <link>https://agrinode.blogspot.de/2016/12/mosquitto-mqtt-broker-demo-mqtt-for.html</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
@@ -116,46 +156,6 @@
       
       <guid>https://smartwatering.blogspot.de/2017/01/update-from-cloud-team-setting-up-ibm.html</guid>
       <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Cloud-Team: Deploying Cassandra Image as a Container in Bluemix</title>
-      <link>https://smartwatering.blogspot.de/2017/01/introduction-to-cassandra-apache.html</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2017/01/introduction-to-cassandra-apache.html</guid>
-      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run cassandra as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Cloud-Team: Deploying MongoDB Image as a Container in Bluemix</title>
-      <link>https://smartwatering.blogspot.de/2017/01/introduction-to-mongodb-mongodb-is-open.html</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2017/01/introduction-to-mongodb-mongodb-is-open.html</guid>
-      <description>&lt;p&gt;In this blog, I plan to give a quick tutorial in how to run mongoDB as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eneristics | Introducing the Residential Home Diagnostic System (RHDS)</title>
-      <link>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</link>
-      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eneristics.wordpress.com/2016/01/02/first-blog-post/</guid>
-      <description>&lt;p&gt;Helping to create a more adaptable and responsive environment using open source technology.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Traffic | The Architecture</title>
-      <link>http://smarttrafficlights.blogspot.de/2016/12/the-architecture.html</link>
-      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://smarttrafficlights.blogspot.de/2016/12/the-architecture.html</guid>
-      <description>&lt;p&gt;As covered in my earlier post the architecture has been evolved and this is how it looks like.&lt;/p&gt;
 </description>
     </item>
     

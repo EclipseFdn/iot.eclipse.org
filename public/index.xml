@@ -55,6 +55,26 @@
     </item>
     
     <item>
+      <title>Eneristics | Project Update — Let’s Build a RHDS System from Scratch (part 1)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</guid>
+      <description>&lt;p&gt;In this tutorial we will outline how we built our “Energy Modelling” system that measures conduction, heat loss through the building envelope.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Update AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
+      <description>&lt;p&gt;In this post, I update the &amp;ldquo;AgriNode bundle&amp;rdquo; which runs on Eclipse Kura platform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day San Jose - Program Announced</title>
       <link>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
@@ -95,6 +115,16 @@
     </item>
     
     <item>
+      <title>Smart Watering | Update from Farm-Team: Building a power independent solar battery circuit</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</guid>
+      <description>&lt;p&gt;Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
       <link>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
@@ -121,36 +151,6 @@
       
       <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>WaziUp | IoT Challenge Fish Farming</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</link>
-      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</guid>
-      <description>&lt;p&gt;The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Develop an AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
-      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
-      <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>krishi-IoT | High-level architecture of krishi-IoT</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</link>
-      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</guid>
-      <description>&lt;p&gt;In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -27,6 +27,16 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</loc>
+    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url>
@@ -44,6 +54,11 @@
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</loc>
     <lastmod>2017-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</loc>
+    <lastmod>2017-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,6 +94,11 @@
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</loc>
     <lastmod>2017-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-second-prototype-with-arduino-pro-mini-board/</loc>
+    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1140,7 +1160,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2017-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
