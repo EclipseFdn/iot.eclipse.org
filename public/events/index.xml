@@ -6,15 +6,15 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IoT World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</link>
-      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      <link>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
       <description></description>
     </item>
     
@@ -47,10 +47,19 @@
     
     <item>
       <title>Eclipse IoT Day - San Jose</title>
-      <link>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</link>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-2017/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Container World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-02-21-containerworld/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-02-21-containerworld/</guid>
       <description></description>
     </item>
     
@@ -132,15 +141,6 @@
       <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-18-javaone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Workshop: Get Started with the Open IoT - Women Who Code</title>
-      <link>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</link>
-      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
       <description></description>
     </item>
     

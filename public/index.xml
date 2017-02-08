@@ -6,15 +6,15 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IoT World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</link>
-      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      <link>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-sanjose-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
       <description></description>
     </item>
     
@@ -47,11 +47,30 @@
     
     <item>
       <title>Eclipse IoT Day - San Jose</title>
-      <link>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</link>
+      <link>http://iot.eclipse.org/events/2017-03-20-iot-day-2017/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-03-20-iot-world-2017/</guid>
+      <guid>http://iot.eclipse.org/events/2017-03-20-iot-day-2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Container World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-02-21-containerworld/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-02-21-containerworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Participate in the IoT Developer Survey 2017</title>
+      <link>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</guid>
+      <description>&lt;p&gt;We are pleased to launch the third annual IoT Developer Survey. Complete the survey now!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -132,25 +151,6 @@
       <guid>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</guid>
       <description>&lt;p&gt;The Challenge teams have been working really hard and have been blogging about their solutions. Here are some of the most active blogs.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Is my Pi strong enough?</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</link>
-      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</guid>
-      <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building a wireless sensor network using Bluetooth Low Energy, MQTT-SN, and the BBC micro:bit</title>
-      <link>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</link>
-      <pubDate>Mon, 16 Jan 2017 10:56:18 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
-      <description></description>
     </item>
     
   </channel>

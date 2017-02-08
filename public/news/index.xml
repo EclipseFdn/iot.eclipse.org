@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Participate in the IoT Developer Survey 2017</title>
+      <link>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</guid>
+      <description>&lt;p&gt;We are pleased to launch the third annual IoT Developer Survey. Complete the survey now!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day San Jose - Program Announced</title>
@@ -146,16 +156,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
       <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IoT Developer Survey Results Are In!</title>
-      <link>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
-      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
-      <description>&lt;p&gt;The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…&lt;/p&gt;
 </description>
     </item>
     
