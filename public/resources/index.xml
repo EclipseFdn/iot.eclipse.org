@@ -6,8 +6,28 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Jan 2017 10:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Jan 2017 16:55:49 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
+      <link>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
+      <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
+      <link>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
+      <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building a wireless sensor network using Bluetooth Low Energy, MQTT-SN, and the BBC micro:bit</title>
@@ -16,6 +36,27 @@
       
       <guid>http://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Kura Wires - A Mashup in Eclipse Kura for Industry 4.0</title>
+      <link>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</link>
+      <pubDate>Thu, 12 Jan 2017 17:05:29 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides:&lt;a href=&#34;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&#34;&gt;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&lt;/a&gt;
+Video recording of the demo part: &lt;a href=&#34;https://s3.amazonaws.com/kura-resources/Webminar-re…&#34;&gt;https://s3.amazonaws.com/kura-resources/Webminar-re…&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 Reasons Why Java Is The Best Platform For Developing IoT Applications</title>
+      <link>http://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</link>
+      <pubDate>Thu, 08 Dec 2016 16:52:50 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The Java platform has many merits that make it an obvious choice for developing IoT applications.  In this webinar, we’ll walk through the top ten reasons why you would want to use Java and Zulu Java,…&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -117,46 +158,6 @@
       <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
 
 &lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT - A Simple Overview</title>
-      <link>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
-      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
-      <description>&lt;p&gt;Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
-      <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
-      <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spy on your MQTT devices for fun and profit with mqtt-spy</title>
-      <link>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</link>
-      <pubDate>Wed, 20 Apr 2016 16:04:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;In this webinar +Kamil Baczkowicz will go through the key features of mqtt-spy, a JavaFX based application for MQTT/IoT developers, and explain how it can help you monitor and test your MQTT-based IoT…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Strong devices weakly connected: bringing DevOps to IoT with resin.io</title>
-      <link>http://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</link>
-      <pubDate>Wed, 06 Apr 2016 15:54:48 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Web developers now enjoy a culture and set of tools that allow them to deploy software up to many times per day, quickly and safely. By contrast, much of the embedded world still operates on the annua…&lt;/p&gt;
 </description>
     </item>
     

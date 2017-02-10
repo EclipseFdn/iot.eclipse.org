@@ -94,12 +94,32 @@
     </item>
     
     <item>
+      <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
+      <link>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
+      <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day San Jose - Program Announced</title>
       <link>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</guid>
       <description>&lt;p&gt;The program for the Eclipse IoT Day in San Jose on March 20 is now availble! We&amp;rsquo;re very excited about this event and we hope to see you there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
+      <link>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
+      <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…&lt;/p&gt;
 </description>
     </item>
     
@@ -130,26 +150,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</guid>
       <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Farm-Team: Building a power independent solar battery circuit</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</link>
-      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</guid>
-      <description>&lt;p&gt;Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
-      <link>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
-      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</guid>
-      <description>&lt;p&gt;The Challenge teams have been working really hard and have been blogging about their solutions. Here are some of the most active blogs.&lt;/p&gt;
 </description>
     </item>
     

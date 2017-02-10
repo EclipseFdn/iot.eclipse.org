@@ -47,8 +47,18 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</loc>
+    <lastmod>2017-01-31T16:55:49+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</loc>
+    <lastmod>2017-01-26T17:01:10+00:00</lastmod>
   </url>
   
   <url>
@@ -94,6 +104,11 @@
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</loc>
     <lastmod>2017-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</loc>
+    <lastmod>2017-01-12T17:05:29+00:00</lastmod>
   </url>
   
   <url>
@@ -199,6 +214,11 @@
   <url>
     <loc>http://iot.eclipse.org/member/cealist/</loc>
     <lastmod>2016-12-15T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</loc>
+    <lastmod>2016-12-08T16:52:50+00:00</lastmod>
   </url>
   
   <url>
@@ -1186,7 +1206,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-01-16T10:56:18+00:00</lastmod>
+    <lastmod>2017-01-31T16:55:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1203,13 +1223,13 @@
   
   <url>
     <loc>http://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+    <lastmod>2017-01-31T16:55:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/tags/virtualiot/</loc>
-    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+    <lastmod>2017-01-31T16:55:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   

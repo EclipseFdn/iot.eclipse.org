@@ -9,6 +9,37 @@
     <atom:link href="http://iot.eclipse.org/tags/video/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
+      <link>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
+      <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
+      <link>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
+      <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kura Wires - A Mashup in Eclipse Kura for Industry 4.0</title>
+      <link>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</link>
+      <pubDate>Thu, 12 Jan 2017 17:05:29 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Slides:&lt;a href=&#34;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&#34;&gt;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&lt;/a&gt;
+Video recording of the demo part: &lt;a href=&#34;https://s3.amazonaws.com/kura-resources/Webminar-re…&#34;&gt;https://s3.amazonaws.com/kura-resources/Webminar-re…&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
       <link>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
       <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
@@ -129,36 +160,6 @@
       
       <guid>http://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse Kura: A gateway framework built for IoT</title>
-      <link>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
-      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Eclipse Kura: A gateway framework built for IoT&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse Vorto as a Service</title>
-      <link>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
-      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
-      <link>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
-      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT&lt;/p&gt;
 </description>
     </item>
     
