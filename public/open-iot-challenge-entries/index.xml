@@ -6,8 +6,48 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>dgator | Updating Topic Data</title>
+      <link>http://blog.datagator.tech/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.datagator.tech/</guid>
+      <description>&lt;p&gt;In this post I will describe one way how the Topics data can get updated and thus aggregated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Tutorial: Build a Configurable Eclipse Kura Application via Reactive Blocks</title>
+      <link>https://agrinode.blogspot.de/2017/02/tutorial-build-configurable-eclipse.html</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://agrinode.blogspot.de/2017/02/tutorial-build-configurable-eclipse.html</guid>
+      <description>&lt;p&gt;This tutorial demonstrates how to build a Kura application into a bundle by using Reactive Blocks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antipollution | Car Antipollution System</title>
+      <link>https://iotindia.quora.com/CAR-ANTIPOLLUTION-SYSTEM</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iotindia.quora.com/CAR-ANTIPOLLUTION-SYSTEM</guid>
+      <description>&lt;p&gt;Goal: To control the problem of pollution through effective monitoring by environment officials, to reward the people following proper norms, and to help user to diagnose the car and keep it e-healthy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | krishi-IoT: More love to Vorto</title>
+      <link>http://krishi-iot.blogspot.de/2017/02/krishi-iot-more-love-to-vorto.html</link>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishi-iot.blogspot.de/2017/02/krishi-iot-more-love-to-vorto.html</guid>
+      <description>&lt;p&gt;Our team loved the Eclipse Vorto project as it offers great benefits to different players of an IoT solution together - Device manufacturers, IoT platform vendors and Solution developers. Here&amp;rsquo;s the crux of the Vorto and its benefits.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eneristics | Project Update — Let’s Build a RHDS System from Scratch (part 1)</title>
@@ -100,62 +140,22 @@
     </item>
     
     <item>
+      <title>Smart Watering | Update from Farm-Team: Power regulation of the sensor nodes</title>
+      <link>https://smartwatering.blogspot.de/2016/12/update-from-farm-team-power-regulation.html</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smartwatering.blogspot.de/2016/12/update-from-farm-team-power-regulation.html</guid>
+      <description>&lt;p&gt;Our aim is to produce an independent power solar battery system for our nodes and our main hub.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>krishi-IoT | High-level architecture of krishi-IoT</title>
       <link>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</guid>
       <description>&lt;p&gt;In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Beddit Reverse Engineering</title>
-      <link>https://medium.com/inmoodforlife/beddit-reverse-engineering-c4bdca8e07b8</link>
-      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/inmoodforlife/beddit-reverse-engineering-c4bdca8e07b8</guid>
-      <description>&lt;p&gt;Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Farm-Team: Second prototype with Arduino Pro Mini board</title>
-      <link>https://smartwatering.blogspot.de/2017/01/update-from-farm-team-second-prototype.html</link>
-      <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2017/01/update-from-farm-team-second-prototype.html</guid>
-      <description>&lt;p&gt;Testing Arduino board clones. They can operate with up to 5V. I used the FTDI as power supply. This will give enough power for the Arduino. But as soon as the ESP8266 is in operational mode the power supplied by the FTDI is not enough.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | MQTT Demo</title>
-      <link>https://agrinode.blogspot.de/2016/12/mosquitto-mqtt-broker-demo-mqtt-for.html</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://agrinode.blogspot.de/2016/12/mosquitto-mqtt-broker-demo-mqtt-for.html</guid>
-      <description>&lt;p&gt;Have a look at the our latest Mosquitto (MQTT Broker) demo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dGator | A new year and a change to the project proposal</title>
-      <link>http://blog.datagator.tech/post/2017/01/05/A-new-year-and-a-change-to-the-project-proposal</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.datagator.tech/post/2017/01/05/A-new-year-and-a-change-to-the-project-proposal</guid>
-      <description>&lt;p&gt;Change to original submission: instead of making the service available primarily only on CoAP I will be using HTTP.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
-      <link>https://smartwatering.blogspot.de/2017/01/update-from-cloud-team-setting-up-ibm.html</link>
-      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2017/01/update-from-cloud-team-setting-up-ibm.html</guid>
-      <description>&lt;p&gt;Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.&lt;/p&gt;
 </description>
     </item>
     

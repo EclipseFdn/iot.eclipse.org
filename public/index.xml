@@ -82,6 +82,46 @@
     </item>
     
     <item>
+      <title>dgator | Updating Topic Data</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</guid>
+      <description>&lt;p&gt;In this post I will describe one way how the Topics data can get updated and thus aggregated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Tutorial: Build a Configurable Eclipse Kura Application via Reactive Blocks</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</guid>
+      <description>&lt;p&gt;This tutorial demonstrates how to build a Kura application into a bundle by using Reactive Blocks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antipollution | Car Antipollution System</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</guid>
+      <description>&lt;p&gt;Goal: To control the problem of pollution through effective monitoring by environment officials, to reward the people following proper norms, and to help user to diagnose the car and keep it e-healthy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | krishi-IoT: More love to Vorto</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</link>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</guid>
+      <description>&lt;p&gt;Our team loved the Eclipse Vorto project as it offers great benefits to different players of an IoT solution together - Device manufacturers, IoT platform vendors and Solution developers. Here&amp;rsquo;s the crux of the Vorto and its benefits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Participate in the IoT Developer Survey 2017</title>
       <link>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</link>
       <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
@@ -108,46 +148,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
       <description>&lt;p&gt;In this post, I update the &amp;ldquo;AgriNode bundle&amp;rdquo; which runs on Eclipse Kura platform.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
-      <link>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
-      <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Day San Jose - Program Announced</title>
-      <link>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</link>
-      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2017-01-31-iotdayprogram/</guid>
-      <description>&lt;p&gt;The program for the Eclipse IoT Day in San Jose on March 20 is now availble! We&amp;rsquo;re very excited about this event and we hope to see you there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
-      <link>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
-      <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Hardware setup</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</link>
-      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</guid>
-      <description>&lt;p&gt;For the hardware part of the system I&amp;rsquo;m using two DIY environmental sensors where each sensor consists of two parts: the external part, mounted on the outside of the window and the internal part, mounted in the apartment of the apartment building.&lt;/p&gt;
 </description>
     </item>
     
