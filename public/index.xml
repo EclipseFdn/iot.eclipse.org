@@ -55,6 +55,24 @@
     </item>
     
     <item>
+      <title>Bosch Connected World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Container World 2017</title>
       <link>http://iot.eclipse.org/events/2017-02-21-containerworld/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
@@ -130,26 +148,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</guid>
       <description>&lt;p&gt;For the hardware part of the system I&amp;rsquo;m using two DIY environmental sensors where each sensor consists of two parts: the external part, mounted on the outside of the window and the internal part, mounted in the apartment of the apartment building.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Eclipse Vert.x the perfect reactor for IoT devices</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</link>
-      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</guid>
-      <description>&lt;p&gt;This time we have opted for a Reactive approach based on Eclipse Vert.x. Vert.x is a toolkit for building applications on top of the JVM, another cool Open Source project of the Eclipse Foundation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dGator | Create a Topic</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</link>
-      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</guid>
-      <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
 </description>
     </item>
     

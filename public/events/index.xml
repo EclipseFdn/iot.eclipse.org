@@ -55,6 +55,24 @@
     </item>
     
     <item>
+      <title>Bosch Connected World 2017</title>
+      <link>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Container World 2017</title>
       <link>http://iot.eclipse.org/events/2017-02-21-containerworld/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
@@ -123,24 +141,6 @@
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-09-29-IoT-613/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smart Summit London</title>
-      <link>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</link>
-      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-21-smartsummituk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaOne 2016</title>
-      <link>http://iot.eclipse.org/events/2016-09-18-javaone/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-09-18-javaone/</guid>
       <description></description>
     </item>
     
