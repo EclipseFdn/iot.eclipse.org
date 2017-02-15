@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>Eclipse IoT Announces Support for OMA LightweightM2M 1.0 Device Management Standard</title>
+      <link>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</guid>
+      <description>&lt;p&gt;We are pleased to announce the Eclipse Leshan open source project will support the newly ratified Open Mobile Alliance (OMA) LightweightM2M (LwM2M) 1.0 device management standard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>dgator | Updating Topic Data</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
@@ -138,16 +148,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</guid>
       <description>&lt;p&gt;In this tutorial we will outline how we built our “Energy Modelling” system that measures conduction, heat loss through the building envelope.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Update AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
-      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
-      <description>&lt;p&gt;In this post, I update the &amp;ldquo;AgriNode bundle&amp;rdquo; which runs on Eclipse Kura platform.&lt;/p&gt;
 </description>
     </item>
     

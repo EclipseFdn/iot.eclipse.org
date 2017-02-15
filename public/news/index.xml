@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse IoT Announces Support for OMA LightweightM2M 1.0 Device Management Standard</title>
+      <link>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</guid>
+      <description>&lt;p&gt;We are pleased to announce the Eclipse Leshan open source project will support the newly ratified Open Mobile Alliance (OMA) LightweightM2M (LwM2M) 1.0 device management standard.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Participate in the IoT Developer Survey 2017</title>
@@ -146,16 +156,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-04-27-case-study-noja/</guid>
       <description>&lt;p&gt;Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Can open source solve the too many IoT standards problem?</title>
-      <link>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
-      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
-      <description>&lt;p&gt;An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…&lt;/p&gt;
 </description>
     </item>
     
