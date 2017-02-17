@@ -6,8 +6,18 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2017 16:55:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Feb 2017 17:03:38 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
+      <link>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Feb 2017 17:03:38 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
@@ -146,18 +156,6 @@ Video recording of the demo part: &lt;a href=&#34;https://s3.amazonaws.com/kura-
       
       <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
       <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Software Updates in IoT with Eclipse hawkBit</title>
-      <link>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
-      <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
-
-&lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
 </description>
     </item>
     

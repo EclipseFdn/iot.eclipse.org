@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
+      <link>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Feb 2017 17:03:38 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Announces Support for OMA LightweightM2M 1.0 Device Management Standard</title>
       <link>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
@@ -138,16 +148,6 @@
       
       <guid>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</guid>
       <description>&lt;p&gt;We are pleased to launch the third annual IoT Developer Survey. Complete the survey now!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eneristics | Project Update — Let’s Build a RHDS System from Scratch (part 1)</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</link>
-      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</guid>
-      <description>&lt;p&gt;In this tutorial we will outline how we built our “Energy Modelling” system that measures conduction, heat loss through the building envelope.&lt;/p&gt;
 </description>
     </item>
     
