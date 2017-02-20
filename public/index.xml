@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>krishi-IoT | Deploy the Eclipse Kapua, an open source IoT Cloud Backend Platform</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</guid>
+      <description>&lt;p&gt;As per our architecture post and the priorities, our plan is to try and use the promising open source IoT cloud backend platform - the Eclipse Kapua as our backend.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
       <link>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
       <pubDate>Thu, 16 Feb 2017 17:03:38 +0000</pubDate>
@@ -138,16 +148,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</guid>
       <description>&lt;p&gt;Our team loved the Eclipse Vorto project as it offers great benefits to different players of an IoT solution together - Device manufacturers, IoT platform vendors and Solution developers. Here&amp;rsquo;s the crux of the Vorto and its benefits.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Participate in the IoT Developer Survey 2017</title>
-      <link>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</link>
-      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</guid>
-      <description>&lt;p&gt;We are pleased to launch the third annual IoT Developer Survey. Complete the survey now!&lt;/p&gt;
 </description>
     </item>
     

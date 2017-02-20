@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>krishi-IoT | Deploy the Eclipse Kapua, an open source IoT Cloud Backend Platform</title>
+      <link>http://krishi-iot.blogspot.de/2017/02/krishi-iot-deploy-eclipse-kapua-open.html</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishi-iot.blogspot.de/2017/02/krishi-iot-deploy-eclipse-kapua-open.html</guid>
+      <description>&lt;p&gt;As per our architecture post and the priorities, our plan is to try and use the promising open source IoT cloud backend platform - the Eclipse Kapua as our backend.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>dgator | Updating Topic Data</title>
@@ -146,16 +156,6 @@
       
       <guid>https://smartwatering.blogspot.de/2016/12/update-from-farm-team-power-regulation.html</guid>
       <description>&lt;p&gt;Our aim is to produce an independent power solar battery system for our nodes and our main hub.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>krishi-IoT | High-level architecture of krishi-IoT</title>
-      <link>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</link>
-      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishi-iot.blogspot.de/2017/01/high-level-architecture-of-krishi-iot.html</guid>
-      <description>&lt;p&gt;In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.&lt;/p&gt;
 </description>
     </item>
     
