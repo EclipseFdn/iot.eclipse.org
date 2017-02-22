@@ -73,6 +73,16 @@
     </item>
     
     <item>
+      <title>InMoodforLife | Data science, Heart of IoT</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</guid>
+      <description>&lt;p&gt;We began by describing how we reverse engineered the Beddit sensor, then our Raspberry Pi based setup to collect and analyse the data and the Vert.x and Warp10 stack that we put into the Raspberry Pi to do it. Today we talk about a key point of the project, the data analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Container World 2017</title>
       <link>http://iot.eclipse.org/events/2017-02-21-containerworld/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
@@ -138,16 +148,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</guid>
       <description>&lt;p&gt;This tutorial demonstrates how to build a Kura application into a bundle by using Reactive Blocks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Antipollution | Car Antipollution System</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</guid>
-      <description>&lt;p&gt;Goal: To control the problem of pollution through effective monitoring by environment officials, to reward the people following proper norms, and to help user to diagnose the car and keep it e-healthy.&lt;/p&gt;
 </description>
     </item>
     

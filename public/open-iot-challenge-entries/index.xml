@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>InMoodforLife | Data science, Heart of IoT</title>
+      <link>https://medium.com/inmoodforlife/data-science-heart-of-iot-89dc6845fdc#.yqlozy101</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/inmoodforlife/data-science-heart-of-iot-89dc6845fdc#.yqlozy101</guid>
+      <description>&lt;p&gt;We began by describing how we reverse engineered the Beddit sensor, then our Raspberry Pi based setup to collect and analyse the data and the Vert.x and Warp10 stack that we put into the Raspberry Pi to do it. Today we talk about a key point of the project, the data analysis.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>krishi-IoT | Deploy the Eclipse Kapua, an open source IoT Cloud Backend Platform</title>
@@ -146,16 +156,6 @@
       
       <guid>http://www.waziup.io/resources/iot-challenge/</guid>
       <description>&lt;p&gt;The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Develop an AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
-      <link>https://agrinode.blogspot.de/2017/01/develop-aginrode-bundle-for-kura-using.html</link>
-      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://agrinode.blogspot.de/2017/01/develop-aginrode-bundle-for-kura-using.html</guid>
-      <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
 </description>
     </item>
     

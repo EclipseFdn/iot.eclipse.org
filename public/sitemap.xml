@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-02-21-containerworld/</loc>
     <lastmod>2017-02-21T00:00:00+00:00</lastmod>
   </url>
@@ -1245,7 +1250,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
