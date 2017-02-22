@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Smart Watering | Update from the Farm-Team: Main hub server, part one</title>
+      <link>http://smartwatering.blogspot.de/2017/02/update-from-farm-team-main-hub-server.html</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://smartwatering.blogspot.de/2017/02/update-from-farm-team-main-hub-server.html</guid>
+      <description>&lt;p&gt;We are using a Raspberry Pi Model B+ with the current Raspbian (Jessie) and a 32 GB SD card. Setting up Eclipse Mosquitto on Raspbian was really easy as its available in the Raspbian main repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>dgator | Updating Topic Data</title>
       <link>http://blog.datagator.tech/</link>
       <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
@@ -146,16 +156,6 @@
       
       <guid>https://agrinode.blogspot.de/2017/01/develop-aginrode-bundle-for-kura-using.html</guid>
       <description>&lt;p&gt;In my previous post:  MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Farm-Team: Power regulation of the sensor nodes</title>
-      <link>https://smartwatering.blogspot.de/2016/12/update-from-farm-team-power-regulation.html</link>
-      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2016/12/update-from-farm-team-power-regulation.html</guid>
-      <description>&lt;p&gt;Our aim is to produce an independent power solar battery system for our nodes and our main hub.&lt;/p&gt;
 </description>
     </item>
     
