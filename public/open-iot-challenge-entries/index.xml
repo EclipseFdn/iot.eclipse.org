@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eneristics | Energy Audit — Let’s Build a RHDS System from Scratch (part II)</title>
+      <link>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</guid>
+      <description>&lt;p&gt;In this tutorial, we will conclude the series on how we built our “Energy Modeling” system. The working RHDS system can be seen here. The best browser to use is Safari. Here’s an example of what you will see.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Eneristics | Energy Audit — Let’s get some baseline data for the project</title>
@@ -146,16 +156,6 @@
       
       <guid>http://blog.datagator.tech/post/2017/01/22/Create-a-Topic</guid>
       <description>&lt;p&gt;The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from Farm-Team: Building a power independent solar battery circuit</title>
-      <link>https://smartwatering.blogspot.de/2017/01/upate-from-farm-team-building-power.html</link>
-      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartwatering.blogspot.de/2017/01/upate-from-farm-team-building-power.html</guid>
-      <description>&lt;p&gt;Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.&lt;/p&gt;
 </description>
     </item>
     

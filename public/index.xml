@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>Eneristics | Energy Audit — Let’s Build a RHDS System from Scratch (part II)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</guid>
+      <description>&lt;p&gt;In this tutorial, we will conclude the series on how we built our “Energy Modeling” system. The working RHDS system can be seen here. The best browser to use is Safari. Here’s an example of what you will see.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eneristics | Energy Audit — Let’s get some baseline data for the project</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-get-some-baseline-data-for-the-project/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
@@ -137,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Announces Support for OMA LightweightM2M 1.0 Device Management Standard</title>
-      <link>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</guid>
-      <description>&lt;p&gt;We are pleased to announce the Eclipse Leshan open source project will support the newly ratified Open Mobile Alliance (OMA) LightweightM2M (LwM2M) 1.0 device management standard.&lt;/p&gt;
 </description>
     </item>
     
