@@ -92,6 +92,16 @@
     </item>
     
     <item>
+      <title>dgator | Visualizing Aggregated Data (part 1)</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--visualizing-aggregated-data-part-1/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--visualizing-aggregated-data-part-1/</guid>
+      <description>&lt;p&gt;To create a Candlestick chart of the aggregated data all that is needed is to make a request to the chart end point. But, before that will work first the basic details of the chart need to be configured.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>InMoodforLife | Data science, Heart of IoT</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
@@ -137,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/news/2017-02-15-leshan-pr/</guid>
       <description>&lt;p&gt;We are pleased to announce the Eclipse Leshan open source project will support the newly ratified Open Mobile Alliance (OMA) LightweightM2M (LwM2M) 1.0 device management standard.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from the Farm-Team: Main hub server, part one</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</guid>
-      <description>&lt;p&gt;We are using a Raspberry Pi Model B+ with the current Raspbian (Jessie) and a 32 GB SD card. Setting up Eclipse Mosquitto on Raspbian was really easy as its available in the Raspbian main repository.&lt;/p&gt;
 </description>
     </item>
     

@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>dgator | Visualizing Aggregated Data (part 1)</title>
+      <link>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</guid>
+      <description>&lt;p&gt;To create a Candlestick chart of the aggregated data all that is needed is to make a request to the chart end point. But, before that will work first the basic details of the chart need to be configured.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>InMoodforLife | Data science, Heart of IoT</title>
       <link>https://medium.com/inmoodforlife/data-science-heart-of-iot-89dc6845fdc#.yqlozy101</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
@@ -146,16 +156,6 @@
       
       <guid>https://smartwatering.blogspot.de/2017/01/upate-from-farm-team-building-power.html</guid>
       <description>&lt;p&gt;Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Is my Pi strong enough?</title>
-      <link>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</link>
-      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</guid>
-      <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
 </description>
     </item>
     
