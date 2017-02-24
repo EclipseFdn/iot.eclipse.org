@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eneristics | Energy Audit — Let’s get some baseline data for the project</title>
+      <link>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</guid>
+      <description>&lt;p&gt;In this tutorial we will we take you through an actual home Energy Audit (EA) and share the report that the Energy Advisor produced.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>InMoodforLife | Data science, Heart of IoT</title>
@@ -146,16 +156,6 @@
       
       <guid>https://medium.com/inmoodforlife/is-my-pi-strong-enough-a2fd62cccfd</guid>
       <description>&lt;p&gt;We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WaziUp | IoT Challenge Fish Farming</title>
-      <link>http://www.waziup.io/resources/iot-challenge/</link>
-      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.waziup.io/resources/iot-challenge/</guid>
-      <description>&lt;p&gt;The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.&lt;/p&gt;
 </description>
     </item>
     

@@ -82,6 +82,16 @@
     </item>
     
     <item>
+      <title>Eneristics | Energy Audit — Let’s get some baseline data for the project</title>
+      <link>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-get-some-baseline-data-for-the-project/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-get-some-baseline-data-for-the-project/</guid>
+      <description>&lt;p&gt;In this tutorial we will we take you through an actual home Energy Audit (EA) and share the report that the Energy Advisor produced.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>InMoodforLife | Data science, Heart of IoT</title>
       <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
@@ -137,16 +147,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</guid>
       <description>&lt;p&gt;We are using a Raspberry Pi Model B+ with the current Raspbian (Jessie) and a 32 GB SD card. Setting up Eclipse Mosquitto on Raspbian was really easy as its available in the Raspbian main repository.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dgator | Updating Topic Data</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</link>
-      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</guid>
-      <description>&lt;p&gt;In this post I will describe one way how the Topics data can get updated and thus aggregated.&lt;/p&gt;
 </description>
     </item>
     
