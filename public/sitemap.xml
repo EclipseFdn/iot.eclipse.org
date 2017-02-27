@@ -42,6 +42,31 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--iot-app-now-available-on-web-thanks-to-ibm-bluemix-cloud-foundry/</loc>
+    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--launching-krishi-iot-mobile-app/</loc>
+    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/dgator--a-live-demo-of-the-project-part-1of-4/</loc>
+    <lastmod>2017-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/agrinode--hardware-choices-for-agrinode-system--wireless-sensor-network-system/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--a-small-touch-of-frontend-for-inmoodforlife/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -69,6 +94,11 @@
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</loc>
     <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-sensor-node-software/</loc>
+    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1270,7 +1300,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
