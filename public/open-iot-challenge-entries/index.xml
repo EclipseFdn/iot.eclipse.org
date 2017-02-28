@@ -6,8 +6,108 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agrinode | Final Report</title>
+      <link>https://agrinode.blogspot.de/2017/02/final-report-for-open-iot-challenge-30.html</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://agrinode.blogspot.de/2017/02/final-report-for-open-iot-challenge-30.html</guid>
+      <description>&lt;p&gt;AgriNode project goal is to build an Internet of Things – IoT solutions for various agricultural applications. We successfully developed the AgriNode system which is a Wireless Sensor Network – WSN consisting a gateway and sensor nodes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Antipollution | Final Report</title>
+      <link>https://iotindia.quora.com/Final-Report-for-openiotchallenge</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iotindia.quora.com/Final-Report-for-openiotchallenge</guid>
+      <description>&lt;p&gt;Harmful effluents by old vehicles and no controlled system in hands of government to stop it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eneristics | Final Report</title>
+      <link>https://eneristics.wordpress.com/2017/02/27/rhds-final-report-what-we-accomplished/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/27/rhds-final-report-what-we-accomplished/</guid>
+      <description>&lt;p&gt;We undertook this challenge with a thought in mind; “Imagine being able to reduce your home energy bill, increase comfort, and create a healthier living environment on the planet”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I-Greenhouse | Final Report</title>
+      <link>http://air.imag.fr/index.php/I-Greenhouse_progress</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://air.imag.fr/index.php/I-Greenhouse_progress</guid>
+      <description>&lt;p&gt;The urban agriculture aims to answer future challenges: reduction of the cultivated area, green economy, carbon footprint for transport of goods, self-production towards alimentary self-sufficiency of cities.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Final Report</title>
+      <link>https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc</guid>
+      <description>&lt;p&gt;Researchers have found than Bipolar’s sleep architecture is deeply impacted during a depression or mania state. REM appears to be the aspect of sleep architecture most affected.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retail IoT | Final Report</title>
+      <link>http://retailiot.blogspot.de/2017/02/overview-of-solution-story-to-start.html</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://retailiot.blogspot.de/2017/02/overview-of-solution-story-to-start.html</guid>
+      <description>&lt;p&gt;Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sergevas | Final Report</title>
+      <link>https://iot-sergevas.blogspot.de/2017/02/rule-based-fault-management-for.html</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot-sergevas.blogspot.de/2017/02/rule-based-fault-management-for.html</guid>
+      <description>&lt;p&gt;The idea of the project was to build a fault management solution for distributed IoT systems. Fault managment, along with security, is among the most important management features of IoT networks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Final Report</title>
+      <link>http://smartwatering.blogspot.de/2017/02/final-report-quick-summary-to-project.html</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://smartwatering.blogspot.de/2017/02/final-report-quick-summary-to-project.html</guid>
+      <description>&lt;p&gt;Idea: Building low cost soil moisture sensory system for farmers facing drought with low cost sensors (&amp;lt;$10)  and gateways to easily scale up if necessary.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dgator | Final Report</title>
+      <link>http://blog.datagator.tech/post/2017/02/26/Final-Report</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.datagator.tech/post/2017/02/26/Final-Report</guid>
+      <description>&lt;p&gt;This project can be described as aggregating IoT time series data and creating Candlestick visualizations using that data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | Final Report</title>
+      <link>http://krishi-iot.blogspot.de/2017/02/krishi-iot-final-report.html</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishi-iot.blogspot.de/2017/02/krishi-iot-final-report.html</guid>
+      <description>&lt;p&gt;We presented krishi IoT, a comprehensive Internet of Things solution to help farmers execute agricultural operations in smarter and efficient way.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>krishi-IoT | IoT App now available on Web, thanks to IBM Bluemix Cloud Foundry</title>
@@ -56,106 +156,6 @@
       
       <guid>https://medium.com/inmoodforlife/a-small-touch-of-frontend-for-inmoodforlife-11f182f80084#.uvml9uer0</guid>
       <description>&lt;p&gt;If everything goes according to the plan, we will soon be able to automatically analyse the sleep of our users and extract the sleep cycles information.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eneristics | Energy Audit — Let’s Build a RHDS System from Scratch (part II)</title>
-      <link>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</guid>
-      <description>&lt;p&gt;In this tutorial, we will conclude the series on how we built our “Energy Modeling” system. The working RHDS system can be seen here. The best browser to use is Safari. Here’s an example of what you will see.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eneristics | Energy Audit — Let’s get some baseline data for the project</title>
-      <link>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</link>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</guid>
-      <description>&lt;p&gt;In this tutorial we will we take you through an actual home Energy Audit (EA) and share the report that the Energy Advisor produced.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dgator | Visualizing Aggregated Data (part 1)</title>
-      <link>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</link>
-      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</guid>
-      <description>&lt;p&gt;To create a Candlestick chart of the aggregated data all that is needed is to make a request to the chart end point. But, before that will work first the basic details of the chart need to be configured.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Data science, Heart of IoT</title>
-      <link>https://medium.com/inmoodforlife/data-science-heart-of-iot-89dc6845fdc#.yqlozy101</link>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/inmoodforlife/data-science-heart-of-iot-89dc6845fdc#.yqlozy101</guid>
-      <description>&lt;p&gt;We began by describing how we reverse engineered the Beddit sensor, then our Raspberry Pi based setup to collect and analyse the data and the Vert.x and Warp10 stack that we put into the Raspberry Pi to do it. Today we talk about a key point of the project, the data analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>krishi-IoT | Deploy the Eclipse Kapua, an open source IoT Cloud Backend Platform</title>
-      <link>http://krishi-iot.blogspot.de/2017/02/krishi-iot-deploy-eclipse-kapua-open.html</link>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishi-iot.blogspot.de/2017/02/krishi-iot-deploy-eclipse-kapua-open.html</guid>
-      <description>&lt;p&gt;As per our architecture post and the priorities, our plan is to try and use the promising open source IoT cloud backend platform - the Eclipse Kapua as our backend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Sensor node software</title>
-      <link>https://iot-sergevas.blogspot.de/2017/02/rule-based-fault-management-for_18.html</link>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot-sergevas.blogspot.de/2017/02/rule-based-fault-management-for_18.html</guid>
-      <description>&lt;p&gt;In this post I&amp;rsquo;m showing the software part of the sensors. The code is implemented with Arduino IDE. Libs used:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Watering | Update from the Farm-Team: Main hub server, part one</title>
-      <link>http://smartwatering.blogspot.de/2017/02/update-from-farm-team-main-hub-server.html</link>
-      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://smartwatering.blogspot.de/2017/02/update-from-farm-team-main-hub-server.html</guid>
-      <description>&lt;p&gt;We are using a Raspberry Pi Model B+ with the current Raspbian (Jessie) and a 32 GB SD card. Setting up Eclipse Mosquitto on Raspbian was really easy as its available in the Raspbian main repository.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>dgator | Updating Topic Data</title>
-      <link>http://blog.datagator.tech/</link>
-      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.datagator.tech/</guid>
-      <description>&lt;p&gt;In this post I will describe one way how the Topics data can get updated and thus aggregated.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agrinode | Tutorial: Build a Configurable Eclipse Kura Application via Reactive Blocks</title>
-      <link>https://agrinode.blogspot.de/2017/02/tutorial-build-configurable-eclipse.html</link>
-      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://agrinode.blogspot.de/2017/02/tutorial-build-configurable-eclipse.html</guid>
-      <description>&lt;p&gt;This tutorial demonstrates how to build a Kura application into a bundle by using Reactive Blocks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Antipollution | Car Antipollution System</title>
-      <link>https://iotindia.quora.com/CAR-ANTIPOLLUTION-SYSTEM</link>
-      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://iotindia.quora.com/CAR-ANTIPOLLUTION-SYSTEM</guid>
-      <description>&lt;p&gt;Goal: To control the problem of pollution through effective monitoring by environment officials, to reward the people following proper norms, and to help user to diagnose the car and keep it e-healthy.&lt;/p&gt;
 </description>
     </item>
     
