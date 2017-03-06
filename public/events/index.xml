@@ -6,8 +6,26 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon France 2017</title>
+      <link>http://iot.eclipse.org/events/2017-06-21-ecf2017/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-06-21-ecf2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Live Slam</title>
+      <link>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT World 2017</title>
@@ -123,24 +141,6 @@
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT Day @ EclipseCon Europe</title>
-      <link>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</link>
-      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-10-25-iot-day-ece/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Women in IoT meetup</title>
-      <link>http://iot.eclipse.org/events/2016-10-19-women-in-IoT-meetup/</link>
-      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-10-19-women-in-IoT-meetup/</guid>
       <description></description>
     </item>
     

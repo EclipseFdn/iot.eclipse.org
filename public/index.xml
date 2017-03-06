@@ -6,8 +6,26 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EclipseCon France 2017</title>
+      <link>http://iot.eclipse.org/events/2017-06-21-ecf2017/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-06-21-ecf2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Live Slam</title>
+      <link>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IoT World 2017</title>
@@ -128,26 +146,6 @@
       
       <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</guid>
       <description>&lt;p&gt;Researchers have found than Bipolar’s sleep architecture is deeply impacted during a depression or mania state. REM appears to be the aspect of sleep architecture most affected.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Retail IoT | Final Report</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--final-report/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/retail-iot--final-report/</guid>
-      <description>&lt;p&gt;Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sergevas | Final Report</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--final-report/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/sergevas--final-report/</guid>
-      <description>&lt;p&gt;The idea of the project was to build a fault management solution for distributed IoT systems. Fault managment, along with security, is among the most important management features of IoT networks.&lt;/p&gt;
 </description>
     </item>
     
