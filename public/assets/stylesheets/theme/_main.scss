@@ -27,6 +27,7 @@ main.main {
         background-image: url(../images/well-bg-tl.png), url(../images/well-bg-br.png);
         background-position: left top, right bottom;
         background-repeat: no-repeat;
+        border-radius: 0px !important;
         color: $white !important;
         border: 0px;
         margin-bottom: 0px;
