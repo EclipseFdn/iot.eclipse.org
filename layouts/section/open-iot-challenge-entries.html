@@ -89,7 +89,7 @@
         <div class="row">
           <div class="col-md-12 grid">
 
-              {{ range .Paginator.Pages }}
+              {{ range (.Paginate ( .Data.Pages.ByWeight )).Pages }}
 
               <div class="grid-item col-md-4">
 

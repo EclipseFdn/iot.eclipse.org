@@ -94,7 +94,7 @@
               <h2>Final Reports and Blog Posts<span></span></h2> 
 
               <div class="row">
-                {{ range first 6 (where .Site.Pages.ByDate.Reverse ".Type" "open-iot-challenge-entries") }}
+                {{ range first 6 (where .Site.Pages ".Type" "open-iot-challenge-entries") }}
                 <div class="col-md-4">
                   <div class="latest-news-item">
                     <a href="{{ .Params.link }}">
