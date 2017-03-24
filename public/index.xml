@@ -76,6 +76,16 @@
     </item>
     
     <item>
+      <title>How Eclipse Hono enables device-related communication for the IoT</title>
+      <link>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</link>
+      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</guid>
+      <description>&lt;p&gt;Connectivity is at the heart of IoT solutions. Devices (things) need to be connected to a backend component where the data and functionality of the devices is leveraged to provide some higher level business value.…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Devoxx US 2017</title>
       <link>http://iot.eclipse.org/events/2017-03-21-devoxxus/</link>
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
@@ -137,15 +147,6 @@
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internet of Manufacturing</title>
-      <link>http://iot.eclipse.org/events/2017-03-07-iotmanufacturing/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2017-03-07-iotmanufacturing/</guid>
       <description></description>
     </item>
     

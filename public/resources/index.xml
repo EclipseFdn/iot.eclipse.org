@@ -6,8 +6,28 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2017 17:03:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 17:03:38 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How Eclipse Hono enables device-related communication for the IoT</title>
+      <link>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</link>
+      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</guid>
+      <description>&lt;p&gt;Connectivity is at the heart of IoT solutions. Devices (things) need to be connected to a backend component where the data and functionality of the devices is leveraged to provide some higher level business value.…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visually Developing Solutions for the IoT with Reactive Blocks</title>
+      <link>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</link>
+      <pubDate>Wed, 08 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</guid>
+      <description>&lt;p&gt;Reactive Blocks is a visual model-driven development environment supporting formal model analysis, automated code generation, hierarchical modelling, and an extensive library of ready-to-use components for the Java platform.…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
@@ -136,26 +156,6 @@ Video recording of the demo part: &lt;a href=&#34;https://s3.amazonaws.com/kura-
       
       <guid>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</guid>
       <description>&lt;p&gt;Open Building Institute (OBI) was launched to make affordable, ecological housing accessible to everyone—using a library of engineered modules and a series of rapid-build procedures. We are developing…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with a W3C Web of Things Project</title>
-      <link>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
-      <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Concierge - Bringing OSGi (back) to Embedded Devices</title>
-      <link>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
-      <pubDate>Thu, 02 Jun 2016 16:09:17 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
 </description>
     </item>
     

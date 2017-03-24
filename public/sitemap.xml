@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-03-21-devoxxus/</loc>
     <lastmod>2017-03-21T00:00:00+00:00</lastmod>
   </url>
@@ -69,6 +74,11 @@
   <url>
     <loc>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</loc>
     <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</loc>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
   </url>
   
   <url>
@@ -1312,6 +1322,18 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/tags/bitreactive/</loc>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/bosch-si/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/case-studies/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1325,6 +1347,12 @@
   <url>
     <loc>http://iot.eclipse.org/devices/</loc>
     <lastmod>2016-11-04T14:48:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/eclipse-hono/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1381,7 +1409,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1398,13 +1426,13 @@
   
   <url>
     <loc>http://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/tags/virtualiot/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
