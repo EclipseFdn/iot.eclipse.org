@@ -30,5 +30,28 @@
 </description>
     </item>
     
+    <item>
+      <title>Propose a new testbed</title>
+      <link>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</link>
+      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;Eclipse Open IoT Testbeds&lt;/strong&gt; are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating
+how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Short description of the scenario&lt;/li&gt;
+&lt;li&gt;High-level architecture&lt;/li&gt;
+&lt;li&gt;Identified extension points&lt;/li&gt;
+&lt;li&gt;List of interested members&lt;/li&gt;
+&lt;li&gt;List of applicable Eclipse IoT projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to lead a testbed, your company needs to be a member of &lt;a href=&#34;http://iot.eclipse.org/working-group&#34;&gt;the Eclipse IoT Working Group&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
