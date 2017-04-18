@@ -40,6 +40,24 @@
     </item>
     
     <item>
+      <title>Thingmonk 2017</title>
+      <link>http://iot.eclipse.org/events/2017-09-12-thingmonk/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-09-12-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day @ Thingmonk</title>
+      <link>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EclipseCon France 2017</title>
       <link>http://iot.eclipse.org/events/2017-06-21-ecf2017/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
@@ -63,6 +81,15 @@
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Hat Summit</title>
+      <link>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</guid>
       <description></description>
     </item>
     
@@ -120,34 +147,6 @@
       <guid>http://iot.eclipse.org/news/2017-03-16-iotchallenge3-winners/</guid>
       <description>&lt;p&gt;Congratulations to this year&amp;rsquo;s Open IoT Challenge winners! Find out which team had the best solution.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Bosch Connected World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Last Call | Complete the IoT Developer Survey 2017</title>
-      <link>http://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</link>
-      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</guid>
-      <description>&lt;p&gt;This is your last chance to complete the IoT Developer Survey 2017. The survey will close on March 17 at 11:59 PM PDT. Participate now.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT Day Grenoble</title>
-      <link>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</guid>
-      <description></description>
     </item>
     
   </channel>
