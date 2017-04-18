@@ -6,8 +6,26 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thingmonk 2017</title>
+      <link>http://iot.eclipse.org/events/2017-09-12-thingmonk/</link>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-09-12-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day @ Thingmonk</title>
+      <link>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EclipseCon France 2017</title>
@@ -33,6 +51,15 @@
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Hat Summit</title>
+      <link>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</guid>
       <description></description>
     </item>
     
@@ -114,33 +141,6 @@
       <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://iot.eclipse.org/events/2016-11-24-meetup-london/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT World Europe 2016</title>
-      <link>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</link>
-      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-11-20-iot-world-europe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ETSI IoT/M2M Workshop</title>
-      <link>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</link>
-      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EclipseCon Europe 2016</title>
-      <link>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</link>
-      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</guid>
       <description></description>
     </item>
     

@@ -30,32 +30,12 @@
     </item>
     
     <item>
-      <title>Eneristics | Final Report</title>
-      <link>https://eneristics.wordpress.com/2017/02/27/rhds-final-report-what-we-accomplished/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://eneristics.wordpress.com/2017/02/27/rhds-final-report-what-we-accomplished/</guid>
-      <description>&lt;p&gt;We undertook this challenge with a thought in mind; “Imagine being able to reduce your home energy bill, increase comfort, and create a healthier living environment on the planet”.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>I-Greenhouse | Final Report</title>
       <link>http://air.imag.fr/index.php/I-Greenhouse_progress</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>http://air.imag.fr/index.php/I-Greenhouse_progress</guid>
       <description>&lt;p&gt;The urban agriculture aims to answer future challenges: reduction of the cultivated area, green economy, carbon footprint for transport of goods, self-production towards alimentary self-sufficiency of cities.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>InMoodforLife | Final Report</title>
-      <link>https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/inmoodforlife/in-the-mood-for-life-open-iot-challenge-final-report-a0c19482118c#.fgxnwhxqc</guid>
-      <description>&lt;p&gt;Researchers have found than Bipolar’s sleep architecture is deeply impacted during a depression or mania state. REM appears to be the aspect of sleep architecture most affected.&lt;/p&gt;
 </description>
     </item>
     
@@ -96,16 +76,6 @@
       
       <guid>http://blog.datagator.tech/post/2017/02/26/Final-Report</guid>
       <description>&lt;p&gt;This project can be described as aggregating IoT time series data and creating Candlestick visualizations using that data.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>krishi-IoT | Final Report</title>
-      <link>http://krishi-iot.blogspot.de/2017/02/krishi-iot-final-report.html</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishi-iot.blogspot.de/2017/02/krishi-iot-final-report.html</guid>
-      <description>&lt;p&gt;We presented krishi IoT, a comprehensive Internet of Things solution to help farmers execute agricultural operations in smarter and efficient way.&lt;/p&gt;
 </description>
     </item>
     
@@ -156,6 +126,36 @@
       
       <guid>https://medium.com/inmoodforlife/a-small-touch-of-frontend-for-inmoodforlife-11f182f80084#.uvml9uer0</guid>
       <description>&lt;p&gt;If everything goes according to the plan, we will soon be able to automatically analyse the sleep of our users and extract the sleep cycles information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Energy Audit — Let’s Build a RHDS System from Scratch (part II)</title>
+      <link>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/24/project-update-lets-build-a-rhds-system-from-scratch-part-ii/</guid>
+      <description>&lt;p&gt;In this tutorial, we will conclude the series on how we built our “Energy Modeling” system. The working RHDS system can be seen here. The best browser to use is Safari. Here’s an example of what you will see.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Energy Audit — Let’s get some baseline data for the project</title>
+      <link>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://eneristics.wordpress.com/2017/02/23/energy-audit-lets-get-some-baseline-data-for-the-project/</guid>
+      <description>&lt;p&gt;In this tutorial we will we take you through an actual home Energy Audit (EA) and share the report that the Energy Advisor produced.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dgator | Visualizing Aggregated Data (part 1)</title>
+      <link>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.datagator.tech/post/2017/02/23/Visualizing-Aggregated-Data-%28part-1%29</guid>
+      <description>&lt;p&gt;To create a Candlestick chart of the aggregated data all that is needed is to make a request to the chart end point. But, before that will work first the basic details of the chart need to be configured.&lt;/p&gt;
 </description>
     </item>
     

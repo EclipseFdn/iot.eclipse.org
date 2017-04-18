@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2017-09-12-thingmonk/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-06-21-ecf2017/</loc>
     <lastmod>2017-06-21T00:00:00+00:00</lastmod>
   </url>
@@ -17,8 +47,23 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</loc>
     <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -37,13 +82,28 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/news/2017-03-16-iotchallenge3-winners/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</loc>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</loc>
     <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</loc>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
   </url>
   
   <url>
@@ -67,17 +127,7 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/i-greenhouse--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,11 +148,6 @@
   
   <url>
     <loc>http://iot.eclipse.org/open-iot-challenge/entries/dgator--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -132,12 +177,12 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</loc>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</loc>
     <lastmod>2017-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--energy-audit--lets-get-some-baseline-data-for-the-project/</loc>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-get-some-baseline-data-for-the-project/</loc>
     <lastmod>2017-02-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -207,7 +252,7 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--project-update--lets-build-a-rhds-system-from-scratch-part-1/</loc>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/rhds--project-update--lets-build-a-rhds-system-from-scratch-part-1/</loc>
     <lastmod>2017-02-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -327,7 +372,7 @@
   </url>
   
   <url>
-    <loc>http://iot.eclipse.org/open-iot-challenge/entries/eneristics--introducing-the-residential-home-diagnostic-system-rhds/</loc>
+    <loc>http://iot.eclipse.org/open-iot-challenge/entries/rhds--introducing-the-residential-home-diagnostic-system-rhds/</loc>
     <lastmod>2017-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -1307,6 +1352,18 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/tags/bitreactive/</loc>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iot.eclipse.org/tags/bosch-si/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/case-studies/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1324,14 +1381,20 @@
   </url>
   
   <url>
+    <loc>http://iot.eclipse.org/tags/eclipse-hono/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iot.eclipse.org/</loc>
-    <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/events/</loc>
-    <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1354,7 +1417,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/news/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1376,7 +1439,7 @@
   
   <url>
     <loc>http://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1399,13 +1462,13 @@
   
   <url>
     <loc>http://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iot.eclipse.org/tags/virtualiot/</loc>
-    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
     <priority>0</priority>
   </url>
   
