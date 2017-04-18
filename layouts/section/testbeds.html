@@ -62,16 +62,16 @@
       <div class="container">
         <h1>Testbeds</h1>
         <p class="lead">
-          Industry leaders are deploying Eclipse IoT technology today. <br/>
-          Check out the applications that XXX
+          Industry leaders are <strong>deploying Eclipse IoT technology today</strong>.<br/>
+          Check out the testbeds that are being built by our community and vendor ecosystem.
         </p>
       </div>
     </div>
     <section class="first row-fluid" style="padding-bottom: 70px;">
       <div class="container">
         <div class="row">
-          <p> Lorem ipsum Commodo tempor magna ut irure esse irure proident veniam in anim tempor in voluptate ut culpa proident et exercitation voluptate Duis pariatur minim sit nulla proident nostrud dolore do occaecat consectetur.</p>
-          <p>Lorem ipsum Irure tempor adipisicing elit irure eiusmod et reprehenderit nisi pariatur enim mollit ea minim sint Duis est elit et ad voluptate exercitation in dolor sint ut Duis veniam nulla magna qui.</p>
+          <p style="font-size: 16px;">The Eclipse IoT Open Testbeds are collaborations between vendors and open source communities to demonstrate and test 
+          commercial and open source components needed to create specific industry solutions.<br><br><br><br></p>
         </div>
       </div>
     </section>
@@ -80,8 +80,10 @@
         <div class="row">
           {{ range .Data.Pages }}
           <div class="col-md-4">
-            <div class="testbed-thumbnail">
-                <h3>{{ .Title }}</h3>
+            <div class="testbed-thumbnail" id="{{ .File.TranslationBaseName }}">
+                <a href="{{ .Permalink }}">
+	                <h3>{{ .Title }}</h3>
+	            </a>
             </div>
           </div>
           {{ end }}

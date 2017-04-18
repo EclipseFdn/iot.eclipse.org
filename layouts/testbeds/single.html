@@ -60,10 +60,11 @@
   <main class="main">
     <div class="well" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
       <div class="container xpurple">
+        <h2><a href="/testbeds" style="color: white; ">Eclipse Open IoT Testbeds</a><h2>
         <h1>{{ .Title }}</h1>
-        <p class="lead">
+<!--         <p class="lead">
           Lorem ipsum Mollit dolore ullamco cillum dolor aliqua quis Excepteur incididunt proident sed aliqua laboris consectetur sit deserunt mollit amet.
-        </p>
+        </p> -->
       </div>
     </div>
     <section class="first row-fluid" style="padding-bottom: 70px;">
@@ -71,32 +72,41 @@
         <div class="row">
           <div class="col-md-12">
 
+            {{ if .Params.challenge }}
             <h1>The Challenge</h1>
 
             <p>{{ .Params.challenge | safeHTML }}</p>
+            {{ end }}
 
+            {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
             <h1>Proposed Solution</h1>
+            {{ end }}
 
             <p>{{ .Content | safeHTML }}</p>
 
+            {{ if .Params.benefits }}
             <h1>Benefits</h1>
 
             <ul>
             {{ range .Params.benefits }}
-              <li>{{ . }}</li>
+              <li><span style="font-weight: 900;">{{ .title }}</span>: {{ .content }}</li>
             {{ end }}
             </ul>
+            {{ end }}
 
+
+            {{ if .Params.organizations }}
             <h1>Participating Organizations</h1>
             <div class="row">
               {{ range .Params.organizations }}
-              <div class="col-md-4 col-xs-6" style="padding:20px 60px; ">
+              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
                 <div style="height: 120px; line-height: 120px; ">
                   <img src="/assets/images/members/logo-{{ . }}.png" class="img-responsive" alt="logo-{{ .}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
                 </div>
               </div>
               {{ end }}
             </div>
+            {{ end }}
 
             <br><br><br>
 
@@ -109,13 +119,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12" style="margin-top: -3em;">
+            {{ if .Params.learn_more }}
             <h1>Learn More</h1>
 
             <ul>
             {{ range .Params.learn_more }}
-              <li>{{ . }}</li>
+              <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
             {{ end }}
             </ul>
+            {{ end }}
 
           </div>
       </div>
