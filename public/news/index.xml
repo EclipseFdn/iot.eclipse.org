@@ -6,8 +6,18 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Eclipse Newsletter - Internet of all the Things</title>
+      <link>http://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</guid>
+      <description>&lt;p&gt;This month, the Eclipse Newsletter is all about the Internet of Things (IoT). The articles feature various Eclipse IoT projects including, Eclipse Hono, Eclipse ioFog, Eclipse Kapua, and Eclipse Vorto.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Congratulations | Open IoT Challenge 3.0 Winners!</title>
@@ -146,16 +156,6 @@
       
       <guid>http://iot.eclipse.org/news/2016-06-16-new-project-releases/</guid>
       <description>&lt;p&gt;The Eclipse Internet of Things (IoT) Working Group, hosted at the Eclipse Foundation, is pleased to announce new releases for four open source IoT projects: Eclipse Kura 2.0, Eclipse Paho 1.2, Eclipse SmartHome 0.8 and Eclipse OM2M 1.0.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>5 Things I learnt at IoT World 2016</title>
-      <link>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</guid>
-      <description>&lt;p&gt;Discover the five things Benjamin Cabé learnt at IoT World 2016 last week!&lt;/p&gt;
 </description>
     </item>
     
