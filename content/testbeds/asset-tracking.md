@@ -40,10 +40,10 @@
     ],
     
     "learn_more": [
-        { "name": "Samsung ARTIK", "link": "#" },
-        { "name": "Red Hat IoT", "link": "#" },
-        { "name": "Zulu embedded", "link": "#" },
-        { "name": "Eurotech ReliaGATE", "link": "#" },
+        { "name": "Samsung ARTIK", "link": "https://www.artik.io/" },
+        { "name": "Red Hat IoT", "link": "https://developers.redhat.com/iot/" },
+        { "name": "Zulu embedded", "link": "https://www.azul.com/products/zulu-embedded/" },
+        { "name": "Eurotech gateways", "link": "http://www.eurotech.com/en/products/devices/iot+gateways" },
         { "name": "Access the source code", "link": "https://github.com/eclipselabs/eclipseiot-testbed-assettracking" }
     ]
 }
