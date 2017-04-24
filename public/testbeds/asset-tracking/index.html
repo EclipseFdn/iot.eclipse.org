@@ -182,9 +182,9 @@
             
               <li><span style="font-weight: 900;">Low-latency, Real-Time, Reliable Messaging</span>: One of the challenges for efficiently tracking valuable assets is the ability to access information in real-time. The Asset Tracking Management testbed provides a scalable infrastructure based on a multi-tier architecture that allows information to be processed and analyzed both in the field and in the enterprise backend.</li>
             
-              <li><span style="font-weight: 900;">Flexible Deployment Model</span>: Building on state-of-the-art containerization technologies such as Java, OSGi, Kubernetes and OpenShift, the edge gateway and cloud software stacks can run on a wide range of platforms, minimizing the cost of deployment and operation of the solution in addition to simplifying the integration with existing systems. The Eclipse Kura based gateway acts as an integration point for various sensor technologies such as Bluetooth Smart or RFID.</li>
+              <li><span style="font-weight: 900;">Flexible Deployment Model</span>: Building on state-of-the-art containerization technologies such as Java, OSGi, Linux Containers and Kubernetes through OpenShift, the edge intelligent gateway and cloud software stacks can run on a wide range of platforms and cloud environments, minimizing the solution’s deployment and operational costs in addition together with simplifying the integration with existing systems. The Eclipse Kura based gateway acts as an integration point for various sensor technologies such as Bluetooth Smart or RFID.</li>
             
-              <li><span style="font-weight: 900;">Interoperability</span>: By using messaging technologies such as MQTT or ActiveMQ, the Asset Tracking Management testbed demonstrates how open standards enable interoperability across the different components of an IoT solution.</li>
+              <li><span style="font-weight: 900;">Interoperability</span>: By using messaging technologies such as MQTT through Apache ActiveMQ, the Asset Tracking Management testbed demonstrates how open standards enable interoperability across the different components of an IoT solution.</li>
             
             </ul>
             
@@ -192,33 +192,62 @@
 
             
             <h1>Participating Organizations</h1>
-            <div class="row">
               
-              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
-                <div style="height: 120px; line-height: 120px; ">
-                  <img src="/assets/images/members/logo-redhat.png" class="img-responsive" alt="logo-redhat" style="max-height:110px; display:inline-block; vertical-align:middle;">
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-redhat.png" class="img-responsive" alt="logo-redhat" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter">Leveraging <strong>Red Hat</strong>’s OpenShift PaaS (Platform-as-a-Service), the Asset Tracking Management testbed can be deployed on virtually any cloud environment, as well as easily scale as the number of assets that need to be tracked grows.</p>
                 </div>
               </div>
               
-              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
-                <div style="height: 120px; line-height: 120px; ">
-                  <img src="/assets/images/members/logo-azul-systems.png" class="img-responsive" alt="logo-azul-systems" style="max-height:110px; display:inline-block; vertical-align:middle;">
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-azul-systems.png" class="img-responsive" alt="logo-azul-systems" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter"><strong>Azul Systems</strong> is contributing their Java and JVM expertise by enabling the edge gateways to run on Zulu Embedded, a 100% open source Java platform</p>
                 </div>
               </div>
               
-              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
-                <div style="height: 120px; line-height: 120px; ">
-                  <img src="/assets/images/members/logo-eurotech.png" class="img-responsive" alt="logo-eurotech" style="max-height:110px; display:inline-block; vertical-align:middle;">
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-codenvy.png" class="img-responsive" alt="logo-codenvy" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter"><strong>Codenvy</strong> provides world class tools that simplify developers’ lives by enabling on-demand, collaborative and constraint-free workspaces. Codenvy is contributing to the testbed by providing the Eclipse Che recipes needed to start developing extensions to the testbeds in minutes.</p>
                 </div>
               </div>
               
-              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
-                <div style="height: 120px; line-height: 120px; ">
-                  <img src="/assets/images/members/logo-samsung-artik.png" class="img-responsive" alt="logo-samsung-artik" style="max-height:110px; display:inline-block; vertical-align:middle;">
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-eurotech.png" class="img-responsive" alt="logo-eurotech" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter"><strong>Eurotech</strong>’s industrial IoT gateways such as the ReliaGATE series are fully compatible with Eclipse Kura and provide a commercial-grade solution that XXX</p>
                 </div>
               </div>
               
-            </div>
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-samsung-artik.png" class="img-responsive" alt="logo-samsung-artik" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter">The <strong>Samsung</strong> ARTIK 5 family provides a powerful platform, with extensive connectivity options, to build the edge gateways featured in the Asset Tracking Management testbed.</p>
+                </div>
+              </div>
+              
             
 
             <br><br><br>

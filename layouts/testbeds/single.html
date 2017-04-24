@@ -97,15 +97,18 @@
 
             {{ if .Params.organizations }}
             <h1>Participating Organizations</h1>
-            <div class="row">
               {{ range .Params.organizations }}
-              <div class="col-md-3 col-xs-6" style="padding:20px 60px; ">
-                <div style="height: 120px; line-height: 120px; ">
-                  <img src="/assets/images/members/logo-{{ . }}.png" class="img-responsive" alt="logo-{{ .}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
+              <div class="row">
+                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                  <div style="height: 110px; line-height: 110px;">
+                    <img src="/assets/images/members/logo-{{ .name }}.png" class="img-responsive" alt="logo-{{ .name }}" style="max-height:110px; display:inline-block; vertical-align:middle;">
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                  <p class="vcenter">{{ .role | safeHTML }}</p>
                 </div>
               </div>
               {{ end }}
-            </div>
             {{ end }}
 
             <br><br><br>
