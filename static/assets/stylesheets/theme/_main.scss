@@ -718,25 +718,34 @@ main.main {
 
 
 .testbed-thumbnail {
-    border-radius: 2em;
-    min-height: 12em;
-    background: lighten($blue, 0%);
-    text-align: center;
-    line-height: 10em;
-
-    &#propose-a-new-testbed {
-    background: lighten($blue, 20%);
-    }
-
     a {
        color: white;
     }
 
-    h3 {
-        display: inline-block;
-        vertical-align: middle;
-    }
+    .testbed-thumbnail-box {
+        border-radius: 2em;
+        min-height: 12em;
+        text-align: center;
+        line-height: 10em;
 
+        background: lighten($blue, 0%);
+        &:hover {
+            background: darken($blue, 5%);
+        } 
+
+        &#propose-a-new-testbed {
+            background: lighten($blue, 20%);
+            &:hover {
+                background: lighten($blue, 15%);
+            } 
+        }
+
+
+        h3 {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
 }
 
 

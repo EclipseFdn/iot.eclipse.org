@@ -79,12 +79,12 @@
       <div class="container" style="margin-bottom: 5em;">
         <div class="row">
           {{ range .Data.Pages }}
-          <div class="col-md-4">
-            <div class="testbed-thumbnail" id="{{ .File.TranslationBaseName }}">
-                <a href="{{ .Permalink }}">
-	                <h3>{{ .Title }}</h3>
-	            </a>
-            </div>
+          <div class="col-md-4 testbed-thumbnail">
+            <a href="{{ .Permalink }}">
+              <div class="testbed-thumbnail-box" id="{{ .File.TranslationBaseName }}">
+                <h3>{{ .Title }}</h3>
+              </div>
+            </a>
           </div>
           {{ end }}
         </div>
