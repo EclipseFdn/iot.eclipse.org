@@ -57,7 +57,7 @@
   <header>
     {{ partial "navbar.html" . }}
   </header>
-  <main class="main">
+  <main class="main testbeds-single-page">
     <div class="well" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
       <div class="container xpurple">
         <h2><a href="/testbeds" style="color: white; ">Eclipse Open IoT Testbeds</a><h2>
@@ -73,19 +73,19 @@
           <div class="col-md-12">
 
             {{ if .Params.challenge }}
-            <h1>The Challenge</h1>
+            <h1 class="purple">The Challenge</h1>
 
             <p>{{ .Params.challenge | safeHTML }}</p>
             {{ end }}
 
             {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
-            <h1>Proposed Solution</h1>
+            <h1 class="purple">Proposed Solution</h1>
             {{ end }}
 
             <p>{{ .Content | safeHTML }}</p>
 
             {{ if .Params.benefits }}
-            <h1>Benefits</h1>
+            <h1 class="purple">Benefits</h1>
 
             <ul>
             {{ range .Params.benefits }}
@@ -96,15 +96,15 @@
 
 
             {{ if .Params.organizations }}
-            <h1>Participating Organizations</h1>
+            <h1 class="purple">Participating Organizations</h1>
               {{ range .Params.organizations }}
               <div class="row">
                 <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
-                  <div style="height: 110px; line-height: 110px;">
+                  <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-{{ .name }}.png" class="img-responsive" alt="logo-{{ .name }}" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
                 </div>
-                <div class="col-md-9 col-xs-8" style="height: 120px; display: flex; flex-direction: column; justify-content: center;">
+                <div class="col-md-9 col-xs-8" style="min-height: 120px; display: flex; flex-direction: column; justify-content: center;">
                   <p class="vcenter">{{ .role | safeHTML }}</p>
                 </div>
               </div>
@@ -123,7 +123,7 @@
         <div class="row">
           <div class="col-md-12" style="margin-top: -3em;">
             {{ if .Params.learn_more }}
-            <h1>Learn More</h1>
+            <h1 class="purple">Learn More</h1>
 
             <ul>
             {{ range .Params.learn_more }}

@@ -716,39 +716,44 @@ main.main {
 }
 
 
-
-.testbed-thumbnail {
-    a {
-       color: white;
-    }
-
-    .testbed-thumbnail-box {
-        border-radius: 2em;
-        min-height: 12em;
-        text-align: center;
-        line-height: 10em;
-
-        background: lighten($blue, 0%);
-        &:hover {
-            background: darken($blue, 5%);
-        } 
-
-        &#propose-a-new-testbed {
-            background: lighten($blue, 20%);
-            &:hover {
-                background: lighten($blue, 15%);
-            } 
+.testbeds-page {
+    .testbed-thumbnail {
+        a {
+           color: white;
         }
 
-        h3 {
-            display: inline-block;
-            vertical-align: middle;
-            padding-top: 0.5em;
+        .testbed-thumbnail-box {
+            border-radius: 2em;
+            min-height: 12em;
+            text-align: center;
+            line-height: 10em;
+
+            background: lighten($blue, 0%);
+            &:hover {
+                background: darken($blue, 5%);
+            } 
+
+            &#propose-a-new-testbed {
+                background: lighten($blue, 20%);
+                &:hover {
+                    background: lighten($blue, 15%);
+                } 
+            }
+
+            h3 {
+                display: inline-block;
+                vertical-align: middle;
+                padding-top: 0.5em;
+            }
         }
     }
 }
 
 
-
-
+.testbeds-single-page {
+    h1 {
+        margin-top: 1.2em;
+        margin-bottom: .5em;
+    }
+}
 

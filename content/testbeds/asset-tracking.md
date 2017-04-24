@@ -5,7 +5,7 @@
     
     "organizations": [
         { "name": "redhat",
-          "role": "Leveraging <strong>Red Hat</strong>’s OpenShift PaaS (Platform-as-a-Service), the Asset Tracking Management testbed can be deployed on virtually any cloud environment, as well as easily scale as the number of assets that need to be tracked grows."
+          "role": "Leveraging <strong>Red Hat</strong>’s OpenShift PaaS (Platform-as-a-Service), the Asset Tracking Management testbed can be deployed on virtually any cloud environment, as well as easily scale as the number of assets that need to be tracked grows.<br/>Apache Camel and Apache ActiveMQ, on which Red Hat JBoss Fuse is based, are also key components of the Testbed, providing MQTT messaging infrastructure, routing and integration capabilities."
         },
         { "name": "azul-systems",
           "role": "<strong>Azul Systems</strong> is contributing their Java and JVM expertise by enabling the edge gateways to run on Zulu Embedded, a 100% open source Java platform"
