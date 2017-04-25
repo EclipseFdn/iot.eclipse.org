@@ -6,11 +6,12 @@ market_segment = [
 ]
 
 description = """
-Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.<br/>
-The Asset Tracking Management testbed demonstrates how assets with various sensors can be tracked in real-time in order to minimize the cost of lost or damaged parcels.
+<p>Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.</p>
+<p>The <strong>Asset Tracking Management</strong> testbed demonstrates how assets with various sensors can be tracked in real-time in order to minimize the cost of lost or damaged parcels.</p>
 """
 
 demo_link = "http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/"
+source_code_link = "https://github.com/eclipselabs/eclipseiot-testbed-assettracking"
 
 challenge =  """
 <p>
