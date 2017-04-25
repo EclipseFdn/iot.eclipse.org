@@ -15,9 +15,6 @@ challenge =  """
     What's more, an efficient asset tracking solution needs to adapt to XXX</br>
     Finally, it might be desirable for a shipping company to not only use data collected on parcels internally (e.g to help prevent damages based on correlations found in certain datasets), but also to expose it to their customers, and raise their satisfaction level by means of providing live feedback and guarantees on how a package is being handled.   
 </p>
-<p>
-    Blah
-</p>
 """
 
 [[organizations]]
@@ -78,13 +75,19 @@ link = "https://github.com/eclipselabs/eclipseiot-testbed-assettracking"
         <img src="/assets/images/testbeds/asset-tracking-architecture.png" class="img-responsive">        
     </div>
     <div class="col-md-12">
-        <h2 class="purple">Leveraging Eclipse Kura for data acquisition and reliable connectivity</h2>
+        <h3 class="purple">Leveraging Eclipse Kura for data acquisition and reliable connectivity</h3>
 
-        <p>Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.</p>
+        <p>The <a href="https://eclipse.org/kura" target="_blank">Eclipse Kura</a> open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.</p>
+        <p>It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, XXX.</p>
 
-        <h2 class="purple">Eclipse Kapua and OpenShift at the heart of the backend system</h2>
 
-        <p>Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.</p>
-        <p>Occaecat duis aliquip adipisicing aliquip voluptate deserunt exercitation magna anim ea ut aute excepteur dolore ut dolor in voluptate commodo laborum nostrud aliqua sunt sunt esse laborum aute consequat adipisicing ut nostrud dolore minim exercitation do. Lorem ipsum dolor nisi culpa in non exercitation magna labore elit sit in deserunt dolore dolore.</p>
+        <h3 class="purple">Eclipse Kapua and OpenShift at the heart of the backend system</h3>
+
+        <p>The backend system for the Eclipse IoT Asset Tracking testbed is based on <a href="https://iot.eclipse.org/kapua" target="_blank">Eclipse Kapua</a>. Eclipse Kapua is a modular platform providing the services required to manage IoT gateways and smart edge devices.</p>
+   
+        <h3 class="purple">Open APIs</h3>
+
+        <p>Eclipse Kapua's REST API enables third parties to easily interact with field devices and their data. The Asset Tracking testbed showcases a web application built using the AngularJS framework and that uses Kapua's API to display sensor data in real-time, access consolidated historical data, send alerts in the field, etc.</p>
+
     </div>
 </div>
