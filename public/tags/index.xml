@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Eclipse IoT</title>
+    <link>https://iot.eclipse.org/tags/</link>
+    <description>Recent content in Tags on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Mar 2017 17:03:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://iot.eclipse.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitreactive</title>
+      <link>https://iot.eclipse.org/tags/bitreactive/</link>
+      <pubDate>Wed, 08 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/bitreactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bosch Si</title>
+      <link>https://iot.eclipse.org/tags/bosch-si/</link>
+      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/bosch-si/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Hono</title>
+      <link>https://iot.eclipse.org/tags/eclipse-hono/</link>
+      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/eclipse-hono/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://iot.eclipse.org/tags/video/</link>
+      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualiot</title>
+      <link>https://iot.eclipse.org/tags/virtualiot/</link>
+      <pubDate>Wed, 08 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/virtualiot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

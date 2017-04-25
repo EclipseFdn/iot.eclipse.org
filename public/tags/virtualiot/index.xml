@@ -2,165 +2,391 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtualiot on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/tags/virtualiot/index.xml</link>
+    <link>https://iot.eclipse.org/tags/virtualiot/</link>
     <description>Recent content in Virtualiot on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://iot.eclipse.org/tags/virtualiot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2017 17:03:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://iot.eclipse.org/tags/virtualiot/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Visually Developing Solutions for the IoT with Reactive Blocks</title>
-      <link>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</link>
       <pubDate>Wed, 08 Mar 2017 17:03:38 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Reactive Blocks is a visual model-driven development environment supporting formal model analysis, automated code generation, hierarchical modelling, and an extensive library of ready-to-use components for the Java platform.…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</guid>
+      <description>Reactive Blocks is a visual model-driven development environment supporting formal model analysis, automated code generation, hierarchical modelling, and an extensive library of ready-to-use components for the Java platform.…</description>
     </item>
     
     <item>
       <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
-      <link>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
       <pubDate>Thu, 16 Feb 2017 17:03:38 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
+      <description>Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…</description>
     </item>
     
     <item>
       <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
-      <link>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
       <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
+      <description>Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…</description>
     </item>
     
     <item>
       <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
-      <link>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
       <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
+      <description>The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…</description>
     </item>
     
     <item>
       <title>Kura Wires - A Mashup in Eclipse Kura for Industry 4.0</title>
-      <link>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</link>
       <pubDate>Thu, 12 Jan 2017 17:05:29 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides:&lt;a href=&#34;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&#34;&gt;http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires&lt;/a&gt;
-Video recording of the demo part: &lt;a href=&#34;https://s3.amazonaws.com/kura-resources/Webminar-re…&#34;&gt;https://s3.amazonaws.com/kura-resources/Webminar-re…&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</guid>
+      <description>Slides:http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires Video recording of the demo part: https://s3.amazonaws.com/kura-resources/Webminar-re…</description>
     </item>
     
     <item>
       <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
-      <link>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
       <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The Internet of Things is rising fast, but how can it be run safely and efficiently using standards?  OMA Lightweight M2M is an IoT protocol for managing smart objects. It provides answers to the typi…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</guid>
+      <description>The Internet of Things is rising fast, but how can it be run safely and efficiently using standards? OMA Lightweight M2M is an IoT protocol for managing smart objects. It provides answers to the typi…</description>
     </item>
     
     <item>
       <title>IoT Microservices at the Edge with Eclipse ioFog</title>
-      <link>http://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</link>
       <pubDate>Thu, 20 Oct 2016 17:03:01 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;There are many great ways to build IoT software in the cloud. And there are many great ways to store and analyze the large amounts of data produced by sensors and devices. Yet there are few ways to bu…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</guid>
+      <description>There are many great ways to build IoT software in the cloud. And there are many great ways to store and analyze the large amounts of data produced by sensors and devices. Yet there are few ways to bu…</description>
     </item>
     
     <item>
       <title>Eclipse Edje: A Java API for Microcontrollers</title>
-      <link>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
       <pubDate>Wed, 28 Sep 2016 15:58:06 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Slides available at: &lt;a href=&#34;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&#34;&gt;http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
+      <description>Slides available at: http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372
+The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…</description>
     </item>
     
     <item>
       <title>Introduction to IoTivity</title>
-      <link>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
       <pubDate>Wed, 03 Aug 2016 16:03:41 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
+      <description>IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…</description>
     </item>
     
     <item>
       <title>Building Ecological Houses with Open Source and IoT</title>
-      <link>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</link>
       <pubDate>Wed, 20 Jul 2016 16:05:25 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Open Building Institute (OBI) was launched to make affordable, ecological housing accessible to everyone—using a library of engineered modules and a series of rapid-build procedures. We are developing…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</guid>
+      <description>Open Building Institute (OBI) was launched to make affordable, ecological housing accessible to everyone—using a library of engineered modules and a series of rapid-build procedures. We are developing…</description>
     </item>
     
     <item>
       <title>Getting Started with a W3C Web of Things Project</title>
-      <link>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
       <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
+      <description>The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…</description>
     </item>
     
     <item>
       <title>Concierge - Bringing OSGi (back) to Embedded Devices</title>
-      <link>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
       <pubDate>Thu, 02 Jun 2016 16:09:17 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
+      <description>The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…</description>
     </item>
     
     <item>
       <title>Software Updates in IoT with Eclipse hawkBit</title>
-      <link>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
       <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.&lt;/p&gt;
-
-&lt;p&gt;However, rolling out software updates in an…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
+      <description>Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.
+However, rolling out software updates in an…</description>
     </item>
     
     <item>
       <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
-      <link>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
       <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
+      <description>PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…</description>
     </item>
     
     <item>
       <title>Spy on your MQTT devices for fun and profit with mqtt-spy</title>
-      <link>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</link>
+      <link>https://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</link>
       <pubDate>Wed, 20 Apr 2016 16:04:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</guid>
-      <description>&lt;p&gt;In this webinar +Kamil Baczkowicz will go through the key features of mqtt-spy, a JavaFX based application for MQTT/IoT developers, and explain how it can help you monitor and test your MQTT-based IoT…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</guid>
+      <description>In this webinar +Kamil Baczkowicz will go through the key features of mqtt-spy, a JavaFX based application for MQTT/IoT developers, and explain how it can help you monitor and test your MQTT-based IoT…</description>
+    </item>
+    
+    <item>
+      <title>Strong devices weakly connected: bringing DevOps to IoT with resin.io</title>
+      <link>https://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</link>
+      <pubDate>Wed, 06 Apr 2016 15:54:48 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</guid>
+      <description>Web developers now enjoy a culture and set of tools that allow them to deploy software up to many times per day, quickly and safely. By contrast, much of the embedded world still operates on the annua…</description>
+    </item>
+    
+    <item>
+      <title>What Makes an Open IoT Developer Challenge Winner!</title>
+      <link>https://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</link>
+      <pubDate>Wed, 30 Mar 2016 15:59:39 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
+      <description>The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Kura: A gateway framework built for IoT</title>
+      <link>https://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
+      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
+      <description>Eclipse Kura: A gateway framework built for IoT</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Vorto as a Service</title>
+      <link>https://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
+      <description>For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…</description>
+    </item>
+    
+    <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>https://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
+      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
+      <description>OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT</description>
+    </item>
+    
+    <item>
+      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
+      <link>https://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
+      <description>OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …</description>
+    </item>
+    
+    <item>
+      <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
+      <link>https://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
+      <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</guid>
+      <description>RISE V2G is a Reference Implementation Supporting the Evolution of the Vehicle-2-Grid communication interface ISO 15118. The international standard ISO 15118, entitled &amp;ldquo;Road vehicles - Vehicle to grid…</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Arduino C&#43;&#43; IDE for Eclipse</title>
+      <link>https://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</link>
+      <pubDate>Wed, 02 Dec 2015 16:54:42 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</guid>
+      <description>The Arduino IDE from arduino.cc provides a simple IDE that lets these hobbyists get started. However, it is really simple. As projects get bigger and more complex, Arduino developers need something mo…</description>
+    </item>
+    
+    <item>
+      <title>The Things Network: an open &amp; free IoT network for the masses</title>
+      <link>https://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</link>
+      <pubDate>Thu, 12 Nov 2015 17:02:57 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</guid>
+      <description>Join us on next Thursday to learn more about The Things Network with Johan Stokking.
+Last June, my co-founder Wienke heard about a piece of hardware that would create coverage for Internet of Things …</description>
+    </item>
+    
+    <item>
+      <title>Create Your IoT Services &amp; Applications with COMPOSE Platform</title>
+      <link>https://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</link>
+      <pubDate>Thu, 29 Oct 2015 16:56:45 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</guid>
+      <description>COMPOSE platform enables new services that can integrate the Internet of Services with the Internet of Things. Connected devices are associated to services that can be combined and managed in a standa…</description>
+    </item>
+    
+    <item>
+      <title>Introducing Zulu Embedded and running Java on Intel® Edison and Galileo</title>
+      <link>https://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</link>
+      <pubDate>Thu, 24 Sep 2015 16:49:24 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</guid>
+      <description>Zulu Embedded is fully certified, 100% open source Java SE platform based on OpenJDK for embedded devices, M2M, and IoT. Java’s growth in the embedded and IoT space has been limited by licensing and …</description>
+    </item>
+    
+    <item>
+      <title>Building &amp; managing IoT applications with LightweightM2M</title>
+      <link>https://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
+      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
+      <description>In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.
+We will cover the following topics:
+ From M2M to Web-of-things, new…  </description>
+    </item>
+    
+    <item>
+      <title>Programming IoT Gateways in JavaScript with macchina.io</title>
+      <link>https://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</link>
+      <pubDate>Thu, 23 Jul 2015 16:02:36 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</guid>
+      <description>In this talk +Günter Obiltschnig will introduce macchina.io (http://macchina.io), a new open source platform for programming Linux-based IoT gateway devices. macchina.io provides a rich programming en…</description>
+    </item>
+    
+    <item>
+      <title>Getting started with MQTT: Everything you need to know about the lightweight IoT protocol</title>
+      <link>https://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</link>
+      <pubDate>Thu, 02 Jul 2015 16:02:06 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</guid>
+      <description>Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…</description>
+    </item>
+    
+    <item>
+      <title>Working without wires: Simulating hardware components for IoT application development</title>
+      <link>https://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Jun 2015 16:40:57 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</guid>
+      <description>IoT software development is often slowed or delayed because the target hardware is unfinished, unstable, or just a few units are available. Existing hardware simulation tools allow developers to test …</description>
+    </item>
+    
+    <item>
+      <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
+      <link>https://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</link>
+      <pubDate>Wed, 27 May 2015 16:19:10 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</guid>
+      <description>There’s no good reason for Operational Intelligence or data-driven insights to be a bottleneck for progress or innovation, especially when it comes to the Internet of Things (IoT). Learn how Splunk’s …</description>
+    </item>
+    
+    <item>
+      <title>Creating end-to-end IoT applications with Eclipse Kura &amp; Solair IoT Platform</title>
+      <link>https://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 May 2015 15:52:28 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</guid>
+      <description>SLIDES: http://www.slideshare.net/solaircorporate/creating-endtoend-iot-applications-with-eclipse-kura-solair-iot-platform
+Starting from the winner project of the first Eclipse Open IoT Challenge, Ca…</description>
+    </item>
+    
+    <item>
+      <title>The IoT Gateway Dream Team: Eclipse Kura &amp; Apache Camel</title>
+      <link>https://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</link>
+      <pubDate>Wed, 06 May 2015 15:44:55 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</guid>
+      <description>Slides from the presentation available at: http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel
+Eclipse Kura is the well recognized field gateway for Internet Of T…</description>
+    </item>
+    
+    <item>
+      <title>Bring Your IoT Ideas to Life with the WunderBar</title>
+      <link>https://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Dec 2014 16:38:12 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</guid>
+      <description>You’re full of fantastic IoT ideas, but bringing them to fruition is never an easy task. Especially when it comes time to work with your sensors and electronics. Hardware can present a significant obs…</description>
+    </item>
+    
+    <item>
+      <title>Building home gateways with Eclipse SmartHome</title>
+      <link>https://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</link>
+      <pubDate>Tue, 04 Nov 2014 16:44:55 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</guid>
+      <description>Slides are available on Slideshare: http://slideshare.net/xthirtynine/eclipse-smart-home-webinar
+Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…</description>
+    </item>
+    
+    <item>
+      <title>Introducing an open plaform for your SCADA project</title>
+      <link>https://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
+      <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
+      <description>Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…</description>
+    </item>
+    
+    <item>
+      <title>OM2M: Standardized service platform for M2M interoperability</title>
+      <link>https://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</link>
+      <pubDate>Tue, 14 Oct 2014 15:48:40 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</guid>
+      <description>Machine-to Machine (M2M) promises to interconnect billions of devices in near future covering various domains. However, M2M is suffering from a high vertical fragmentation of current M2M markets and l…</description>
+    </item>
+    
+    <item>
+      <title>Visualize IoT data with BIRT</title>
+      <link>https://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</link>
+      <pubDate>Tue, 07 Oct 2014 15:39:58 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</guid>
+      <description>IoT refers to the connection and intercommunication of different devices, systems, and services in a single platform. This plays right into BIRT&amp;rsquo;s ability to connect to and relate many different sourc…</description>
+    </item>
+    
+    <item>
+      <title>Connecting Sensor Networks</title>
+      <link>https://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</link>
+      <pubDate>Tue, 23 Sep 2014 15:47:16 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</guid>
+      <description>Slides: http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks Sensor networks are a fundamental building of Internet of Things (IoT) applications, as they provide the interf…</description>
+    </item>
+    
+    <item>
+      <title>Building the Internet of Things with the Eclipse IoT stack: a practical example</title>
+      <link>https://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Sep 2014 15:50:54 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</guid>
+      <description>It may seem hard to get started with the Internet of Things (IoT) with so many technologies, protocols, hardware platforms, … involved. In this session, Benjamin Cabé from the Eclipse Foundation will …</description>
+    </item>
+    
+    <item>
+      <title>IoT Gateway: Reducing the distance between embedded and enterprise technologies</title>
+      <link>https://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</link>
+      <pubDate>Tue, 09 Sep 2014 15:48:31 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</guid>
+      <description>Slides of the presentation: http://slideshare.net/Eurotechchannel/kuram2miotgateway
+Internet of Things adoption is constrained by disparate implementations and proprietary solutions. The emergence of…</description>
     </item>
     
   </channel>

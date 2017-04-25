@@ -2,58 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testbeds on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/testbeds/index.xml</link>
+    <link>https://iot.eclipse.org/testbeds/</link>
     <description>Recent content in Testbeds on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Mar 2017 10:48:55 +0100</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/testbeds/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://iot.eclipse.org/testbeds/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Asset Tracking</title>
-      <link>http://iot.eclipse.org/testbeds/asset-tracking/</link>
+      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
       <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
       
-      <guid>http://iot.eclipse.org/testbeds/asset-tracking/</guid>
-      <description>&lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;col-md-12&#34;&gt;
-        &lt;img src=&#34;http://iot.eclipse.org/assets/images/testbeds/asset-tracking-architecture.png&#34; class=&#34;img-responsive&#34;&gt;        
-    &lt;/div&gt;
-    &lt;div class=&#34;col-md-12&#34;&gt;
-        &lt;h2 class=&#34;purple&#34;&gt;Leveraging Eclipse Kura for data acquisition and reliable connectivity&lt;/h2&gt;
-
-        &lt;p&gt;Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.&lt;/p&gt;
-
-        &lt;h2 class=&#34;purple&#34;&gt;Eclipse Kapua and OpenShift at the heart of the backend system&lt;/h2&gt;
-
-        &lt;p&gt;Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.&lt;/p&gt;
-        &lt;p&gt;Occaecat duis aliquip adipisicing aliquip voluptate deserunt exercitation magna anim ea ut aute excepteur dolore ut dolor in voluptate commodo laborum nostrud aliqua sunt sunt esse laborum aute consequat adipisicing ut nostrud dolore minim exercitation do. Lorem ipsum dolor nisi culpa in non exercitation magna labore elit sit in deserunt dolore dolore.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
+      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.
+Eclipse Kapua and OpenShift at the heart of the backend system Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.</description>
     </item>
     
     <item>
       <title>Propose a new testbed</title>
-      <link>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</link>
+      <link>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</guid>
-      <description>&lt;p&gt;The &lt;strong&gt;Eclipse Open IoT Testbeds&lt;/strong&gt; are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating
-how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.&lt;/p&gt;
-
-&lt;p&gt;If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Short description of the scenario&lt;/li&gt;
-&lt;li&gt;High-level architecture&lt;/li&gt;
-&lt;li&gt;Identified extension points&lt;/li&gt;
-&lt;li&gt;List of interested members&lt;/li&gt;
-&lt;li&gt;List of applicable Eclipse IoT projects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In order to lead a testbed, your company needs to be a member of &lt;a href=&#34;http://iot.eclipse.org/working-group&#34;&gt;the Eclipse IoT Working Group&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</guid>
+      <description>The Eclipse Open IoT Testbeds are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.
+If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:
+ Short description of the scenario High-level architecture Identified extension points List of interested members List of applicable Eclipse IoT projects  In order to lead a testbed, your company needs to be a member of the Eclipse IoT Working Group.</description>
     </item>
     
   </channel>

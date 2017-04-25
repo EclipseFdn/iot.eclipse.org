@@ -246,7 +246,7 @@
                   </div>
                 </div>
 
-                {{/* Show the first resource that's not a "virtualiot" resource */}} {{ range first 1 (where (where .Site.Pages.ByDate.Reverse ".Type" "resources") "Params.tags" "!=" "virtualiot") }}
+                {{/* Show the first resource that's not a "virtualiot" resource */}} {{ range first 1 (where (where .Site.RegularPages.ByDate.Reverse ".Section" "resources") "Params.tags" "!=" "virtualiot") }}
 
                 <div class="col-md-6">
                   <div class="featured-articles-item">
@@ -269,7 +269,7 @@
 
           <div class="col-md-6">
             <section class="subsection-header latest-news">
-              <h2>Latest News<span></span></h2> {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Type" "news") }}
+              <h2>Latest News<span></span></h2> {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Section" "news") }}
 
               <div class="latest-news-item">
                 <a href="{{ .Params.link }}">
@@ -294,7 +294,7 @@
               <h2>Upcoming Events<span></span></h2>
               <div class="row">
 
-                {{ $.Scratch.Set "idx" 0 }} {{ range (where .Data.Pages.ByDate ".Type" "events") }} {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
+                {{ $.Scratch.Set "idx" 0 }} {{ range (where .Data.Pages.ByDate ".Section" "events") }} {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
 
                 <div class="col-sm-6" itemscope itemtype="http://schema.org/Event">
                   <a href="{{ .Params.link }}" target="_blank">
@@ -333,7 +333,7 @@
 
             <div class="row">
 
-              {{ range where .Data.Pages ".Type" "member" }}
+              {{ range where .Data.Pages ".Section" "member" }}
 
               <div class="col-md-4 col-xs-6" style="padding:20px 60px; display:none;">
                 <div style="height: 120px; line-height: 120px; ">

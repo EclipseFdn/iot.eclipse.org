@@ -109,7 +109,7 @@
         </p>
         <h2 class="purple">Steering committee members<br/><br/></h2>
         <div id="sc-members">
-          {{ range where .Site.Pages.ByTitle ".Type" "member" }} 
+          {{ range where .Site.RegularPages.ByTitle ".Section" "member" }} 
           {{ if .Params.is_steering }}
           <div class="row members-info" id="member-{{ .Params.logo }}">
             <div class="col-md-2 col-md-offset-1 mb-logo">
@@ -140,7 +140,7 @@
         </div>
         <h2 class="purple" style="margin-top: 2em;">Participating members<br/><br/></h2>
         <div id="other-members">
-          {{ range where .Site.Pages.ByTitle ".Type" "member" }} 
+          {{ range where .Site.RegularPages.ByTitle ".Section" "member" }} 
           {{ if not .Params.is_steering }}
           <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
             <div class="col-md-2 col-md-offset-1 mb-logo">

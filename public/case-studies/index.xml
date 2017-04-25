@@ -2,51 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-studies on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/case-studies/index.xml</link>
+    <link>https://iot.eclipse.org/case-studies/</link>
     <description>Recent content in Case-studies on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://iot.eclipse.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
-      <link>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
+      <link>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
-      <description>&lt;p&gt;NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
+      <description>NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.</description>
     </item>
     
     <item>
       <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
-      <link>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
+      <link>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
-      <description>&lt;p&gt;We chose Eclipse Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
+      <description>We chose Eclipse Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java</description>
     </item>
     
     <item>
       <title>Eclipse IoT case study: Building Virtual Power Plants</title>
-      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
+      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
-      <description>&lt;p&gt;The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
+      <description>The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful</description>
     </item>
     
     <item>
       <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
-      <link>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
-      <description>&lt;p&gt;We wanted a SCADA system we could use with access to some of the developers, which gives us the  exibility to adjust the system to our needs and grow over time.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
+      <description>We wanted a SCADA system we could use with access to some of the developers, which gives us the exibility to adjust the system to our needs and grow over time.</description>
     </item>
     
   </channel>

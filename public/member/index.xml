@@ -2,241 +2,324 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on Eclipse IoT</title>
-    <link>http://iot.eclipse.org/member/index.xml</link>
+    <link>https://iot.eclipse.org/member/</link>
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Dec 2016 15:31:21 -0700</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CEA List</title>
-      <link>http://iot.eclipse.org/member/cealist/</link>
+      <link>https://iot.eclipse.org/member/cealist/</link>
       <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/cealist/</guid>
-      <description>&lt;p&gt;&lt;b&gt;List, expert on digital systems&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;100 industrial collaborations per year&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:
-&lt;ul&gt;
-&lt;li&gt;Advanced Manufacturing&lt;/li&gt;
-&lt;li&gt;Embedded systems&lt;/li&gt;
-&lt;li&gt;Ambient intelligence&lt;/li&gt;
-&lt;li&gt;Health ionizing radiations&lt;/li&gt;
-&lt;/ul&gt;
-Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.&lt;/p&gt;
-
-&lt;p&gt;CEA Tech as CEA (Commissariat a l&amp;rsquo;energie atomique et aux energies alternatives) Technological Research Division, gathers three specialised technological research institutes among which List institute specialised on digital systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;At a world class state-of-the-art&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Our activity is based on three main pillars
-&lt;ul&gt;
-&lt;li&gt;&lt;u&gt;Scientific excellence&lt;/u&gt;: List research engineers dedicate a 100% of their time to R&amp;amp;D activities and publish their results into international leading conferences and scientific journals. Keeping a strong link with academic research, they base their research on world-wide state of the art.&lt;/li&gt;
-&lt;li&gt;&lt;u&gt;The Culture of Industry&lt;/u&gt;: Our research teams are enlightened and motivated by a results-driven culture of projects, fixing themselves clear objectives to reach within committed deadlines and budgets. Each project launched by List Institute is fully assigned to permanent and suited human resources. The project management is based on a precise calendar, identified milestones and a clear description of deliverables. Research results confidentiality and intellectual property (patents) are defined by the parties in the collaboration agreement.&lt;/li&gt;
-&lt;li&gt;&lt;u&gt;Opening to the world&lt;/u&gt;: List Institute is fully integrated into a local and national particularly dynamic ecosystem through strategic academic, institutional and industrial partnerships. In order to maintain the best level internationally in its fields of activity List institute is also involved in more than 200 European collaborative projects, collaborates with leading foreign academic laboratories and conducts research activities at an international level, especially in the USA.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/cealist/</guid>
+      <description>List, expert on digital systems
+Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.
+100 industrial collaborations per year
+List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:  Advanced Manufacturing Embedded systems Ambient intelligence Health ionizing radiations  Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.</description>
     </item>
     
     <item>
       <title>Samsung ARTIK</title>
-      <link>http://iot.eclipse.org/member/samsung/</link>
+      <link>https://iot.eclipse.org/member/samsung/</link>
       <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/samsung/</guid>
-      <description>&lt;p&gt;&lt;b&gt;Samsung and Eclipse&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;About Samsung ARTIK&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;The Samsung ARTIK end-to-end, integrated platform unifies hardware, software, cloud, security, and a partner ecosystem in a single offering. ARTIK does the heavy lifting so you can focus on differentiating your products and services. Reduce costs, time and risk.&lt;/p&gt;
-
-&lt;p&gt;Within the platform, the Samsung ARTIK Cloud provides easy-to-use, open, and enterprise-grade APIs, SDKs, and tools in a single integrated platform. Companies can use these APIs, SDKs, and tools to collect, store, and act on any data from any device or cloud service, and speed up their product development process, accelerate time to market and revenue, and improve value to customers.
-We specifically focus our activities on the openHAB project, but we are also promoting the ideals of Free software in general.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/samsung/</guid>
+      <description>Samsung and Eclipse
+In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.</description>
     </item>
     
     <item>
       <title>fortiss GmbH</title>
-      <link>http://iot.eclipse.org/member/fortiss/</link>
+      <link>https://iot.eclipse.org/member/fortiss/</link>
       <pubDate>Tue, 08 Nov 2016 15:31:21 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/fortiss/</guid>
-      <description>&lt;p&gt;fortiss is an institute associated with the Technical University of Munich and as such a full-fledged academic research institute while enjoying the independence granted by its legal form as a non-profit
-organization. Our mandate is to facilitate research and technology transfer in software-intensive systems and services, thereby triggering future ready innovation, with a focus on Bavaria. In this role fortiss
-acts as a technological think tank, bridging the notorious gap between fundamental research in academia and its fruitful implementation in an industrially and commercially feasible context. We see this role as a two-way street; preparing advanced fundamental research results for
-practical use, but also identifying problems and challenges in industry and communicating them for resolution by academia.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/fortiss/</guid>
+      <description>fortiss is an institute associated with the Technical University of Munich and as such a full-fledged academic research institute while enjoying the independence granted by its legal form as a non-profit organization. Our mandate is to facilitate research and technology transfer in software-intensive systems and services, thereby triggering future ready innovation, with a focus on Bavaria. In this role fortiss acts as a technological think tank, bridging the notorious gap between fundamental research in academia and its fruitful implementation in an industrially and commercially feasible context.</description>
     </item>
     
     <item>
       <title>EclipseSource</title>
-      <link>http://iot.eclipse.org/member/eclipsesource/</link>
+      <link>https://iot.eclipse.org/member/eclipsesource/</link>
       <pubDate>Mon, 07 Nov 2016 15:31:21 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/eclipsesource/</guid>
-      <description>&lt;p&gt;EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.&lt;/p&gt;
-
-&lt;p&gt;EclipseSource is focused on Business Applications, Mobile Applications, Modeling Tools and Frameworks/Developer Tooling. We provide a complete range of services including conception, evaluation, training, support, consulting/implementation with a special focus on framework adoption, creation and maintenance.&lt;/p&gt;
-
-&lt;p&gt;EclipseSource is distributed over multiple locations in North America and Europe and serves a truly global customer base from various domains, ranging from Fortune 100 corporations to individual developers.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/eclipsesource/</guid>
+      <description>EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.
+EclipseSource is focused on Business Applications, Mobile Applications, Modeling Tools and Frameworks/Developer Tooling. We provide a complete range of services including conception, evaluation, training, support, consulting/implementation with a special focus on framework adoption, creation and maintenance.</description>
     </item>
     
     <item>
       <title>Codenvy, S.A.</title>
-      <link>http://iot.eclipse.org/member/codenvy/</link>
+      <link>https://iot.eclipse.org/member/codenvy/</link>
       <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/codenvy/</guid>
-      <description>&lt;p&gt;Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.&lt;/p&gt;
-
-&lt;p&gt;Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/codenvy/</guid>
+      <description>Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.
+Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.</description>
     </item>
     
     <item>
       <title>IncQuery Labs Ltd.</title>
-      <link>http://iot.eclipse.org/member/incquery/</link>
+      <link>https://iot.eclipse.org/member/incquery/</link>
       <pubDate>Thu, 20 Oct 2016 15:31:16 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/incquery/</guid>
-      <description>&lt;p&gt;IncQuery Labs Ltd. is a young and innovative company, founded in 2013 by a group of experts, with over 50 years of total R&amp;amp;D experience in model driven engineering. Our mission is to accelerate technology transfer from top-notch academic research to challenging industrial projects. We offer innovative R&amp;amp;D solutions like:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;high performance modeling tools with innovative traceability support,&lt;/li&gt;
-&lt;li&gt;code generators and transformation chains (both batch and incremental),&lt;/li&gt;
-&lt;li&gt;tool and runtime development for critical embedded and cyber-physical systems,&lt;/li&gt;
-&lt;li&gt;superscalable queries for big data apps, and&lt;/li&gt;
-&lt;li&gt;event and stream processing for IoT.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Our expertise covers model queries, transformations and compilers, domain-specific language engineering, incremental solutions, performance tuning, configuration design and deployment, tool development and integration in the automotive, avionics, Internet of Things and other domains.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/incquery/</guid>
+      <description>IncQuery Labs Ltd. is a young and innovative company, founded in 2013 by a group of experts, with over 50 years of total R&amp;amp;D experience in model driven engineering. Our mission is to accelerate technology transfer from top-notch academic research to challenging industrial projects. We offer innovative R&amp;amp;D solutions like:
+ high performance modeling tools with innovative traceability support, code generators and transformation chains (both batch and incremental), tool and runtime development for critical embedded and cyber-physical systems, superscalable queries for big data apps, and event and stream processing for IoT.</description>
     </item>
     
     <item>
       <title>IOTRACKS</title>
-      <link>http://iot.eclipse.org/member/iotracks/</link>
+      <link>https://iot.eclipse.org/member/iotracks/</link>
       <pubDate>Wed, 31 Aug 2016 15:31:16 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/iotracks/</guid>
-      <description>&lt;p&gt;With IOTRACKS fog computing, developing for the edge becomes as easy as developing for the Web.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ioFabric gives you a universal runtime for the edge&lt;/li&gt;
-&lt;li&gt;ComSat lets you interconnect private locations using the public Internet&lt;/li&gt;
-&lt;li&gt;ioAuthoring gives you drag-and-drop microservices&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/iotracks/</guid>
+      <description>With IOTRACKS fog computing, developing for the edge becomes as easy as developing for the Web.
+ ioFabric gives you a universal runtime for the edge ComSat lets you interconnect private locations using the public Internet ioAuthoring gives you drag-and-drop microservices  </description>
     </item>
     
     <item>
       <title>SensorUp</title>
-      <link>http://iot.eclipse.org/member/sensorup/</link>
+      <link>https://iot.eclipse.org/member/sensorup/</link>
       <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/sensorup/</guid>
-      <description>&lt;p&gt;Data from all your different sensors, accessible in a single platform&lt;/p&gt;
-
-&lt;p&gt;SensorUp makes information from all different kinds of sensors accessible in a single platform, by using open standards to connect the sensors. Our IoT Platform is the world&amp;rsquo;s first, most complete, compliant implementation of the OGC SensorThings API.&lt;/p&gt;
-
-&lt;p&gt;SensorThings API was purpose-built for IoT, and manages low power, low bandwidth, and intermittent connectivity situations. The standard isREST-based and JSON encoded,so it&amp;rsquo;s developer friendly. Our easy-to-use APIs and SDKs can be understood and worked with in very little time.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/sensorup/</guid>
+      <description>Data from all your different sensors, accessible in a single platform
+SensorUp makes information from all different kinds of sensors accessible in a single platform, by using open standards to connect the sensors. Our IoT Platform is the world&amp;rsquo;s first, most complete, compliant implementation of the OGC SensorThings API.
+SensorThings API was purpose-built for IoT, and manages low power, low bandwidth, and intermittent connectivity situations. The standard isREST-based and JSON encoded,so it&amp;rsquo;s developer friendly.</description>
     </item>
     
     <item>
       <title>Siemens</title>
-      <link>http://iot.eclipse.org/member/siemens/</link>
+      <link>https://iot.eclipse.org/member/siemens/</link>
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/siemens/</guid>
-      <description>&lt;p&gt;Siemens is a global powerhouse in electrical engineering and electronics. The company has 343,000 employees (as of September 30, 2014) working to develop and manufacture products, design and install complex systems and projects, and tailor a wide range of services for individual requirements.&lt;/p&gt;
-
-&lt;p&gt;Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.&lt;/p&gt;
-
-&lt;p&gt;Siemens contributes to various open source projects and also initiated several open source projects.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/siemens/</guid>
+      <description>Siemens is a global powerhouse in electrical engineering and electronics. The company has 343,000 employees (as of September 30, 2014) working to develop and manufacture products, design and install complex systems and projects, and tailor a wide range of services for individual requirements.
+Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.</description>
     </item>
     
     <item>
       <title>CA Technologies</title>
-      <link>http://iot.eclipse.org/member/ca/</link>
+      <link>https://iot.eclipse.org/member/ca/</link>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/ca/</guid>
-      <description>&lt;p&gt;CA Technologies (NASDAQ: CA) creates software that fuels transformation for companies and enables them to seize the opportunities of the application economy. Software is at the heart of every business, in every industry. From planning to development to management and security, CA is working with companies worldwide to change the way we live, transact and communicate.&lt;/p&gt;
-
-&lt;p&gt;CA software and solutions help our customers drive enterprise-wide productivity, offer differentiated user experiences and open new growth opportunities.&lt;/p&gt;
-
-&lt;p&gt;And, we are able to deliver this value across multiple environments &amp;ndash; mobile, private and public cloud, distributed and mainframe. Our goal is to be recognized by our customers as their critical partner in the new application economy.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/ca/</guid>
+      <description>CA Technologies (NASDAQ: CA) creates software that fuels transformation for companies and enables them to seize the opportunities of the application economy. Software is at the heart of every business, in every industry. From planning to development to management and security, CA is working with companies worldwide to change the way we live, transact and communicate.
+CA software and solutions help our customers drive enterprise-wide productivity, offer differentiated user experiences and open new growth opportunities.</description>
     </item>
     
     <item>
       <title>Generative Software</title>
-      <link>http://iot.eclipse.org/member/generative-software/</link>
+      <link>https://iot.eclipse.org/member/generative-software/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/generative-software/</guid>
-      <description>&lt;p&gt;Generative Software is an Eclipse Solution Member since 2011 and joined the Working Group in summer 2015. It aims to provide DSLs, a canonical IoT meta model and Open-Source code generators that target the Eclipse IoT components and projects. This allows you to design and develop complete IoT solutions in a model-driven way, do rapid prototyping and keep track of the solution’s system and software architecture. At the same time, the Virtual Developer Platform serves as a central place, where many different IoT related generators can be found and all of them are accessed in a uniform way, without installation on a developer’s computer, no matter who develops or owns a generator (device manufacturer, platform vendor, solution developer, …).&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/generative-software/</guid>
+      <description>Generative Software is an Eclipse Solution Member since 2011 and joined the Working Group in summer 2015. It aims to provide DSLs, a canonical IoT meta model and Open-Source code generators that target the Eclipse IoT components and projects. This allows you to design and develop complete IoT solutions in a model-driven way, do rapid prototyping and keep track of the solution’s system and software architecture. At the same time, the Virtual Developer Platform serves as a central place, where many different IoT related generators can be found and all of them are accessed in a uniform way, without installation on a developer’s computer, no matter who develops or owns a generator (device manufacturer, platform vendor, solution developer, …).</description>
     </item>
     
     <item>
       <title>Huawei</title>
-      <link>http://iot.eclipse.org/member/huawei/</link>
+      <link>https://iot.eclipse.org/member/huawei/</link>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/huawei/</guid>
-      <description>&lt;p&gt;Huawei Technologies is a high-tech enterprise which specializes in research and development (R&amp;amp;D), production and marketing of communications equipment, providing customized network solutions for telecom carriers in optical, fixed, mobile and data communications networks.&lt;/p&gt;
-
-&lt;p&gt;Huawei’s IoT platform is open and standard based. It provides a common foundation across different applications and services. Its flexible  and scalable architecture supports both Carrier and Enterprise market. The unified authentication and flexible data management Improves MSISDN Resource Utilization and provides Anti-theft, anti-attack and anti-embezzlement. The IoT SDK connect people and machine seamlessly and enable updatable and secure devices at the edge capable of additional processing and functionality. As a turnkey solution provider huawei IoT solution integrate with difference devices with heterogeneous network access path to allow heterogeneous protocols  to be connected to IoT platform.&lt;/p&gt;
-
-&lt;p&gt;Huawei is the active participant in the open source community.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/huawei/</guid>
+      <description>Huawei Technologies is a high-tech enterprise which specializes in research and development (R&amp;amp;D), production and marketing of communications equipment, providing customized network solutions for telecom carriers in optical, fixed, mobile and data communications networks.
+Huawei’s IoT platform is open and standard based. It provides a common foundation across different applications and services. Its flexible and scalable architecture supports both Carrier and Enterprise market. The unified authentication and flexible data management Improves MSISDN Resource Utilization and provides Anti-theft, anti-attack and anti-embezzlement.</description>
     </item>
     
     <item>
       <title>Azul Systems</title>
-      <link>http://iot.eclipse.org/member/azul/</link>
+      <link>https://iot.eclipse.org/member/azul/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/azul/</guid>
-      <description>&lt;p&gt;Azul Systems is the world’s only company that is 100% focused on Java and Java runtime technology. We believe that we can help the IoT developers take advantage of the power and productivity of Java by reducing the frictions (licensing costs, field-of-use restrictions) and perceptions (footprint, etc.) gating widespread adoption of the language throughout the IoT.&lt;/p&gt;
-
-&lt;p&gt;As members of the Eclipse community we are bringing Zulu and Zulu Embedded – our 100% open source JDKs, to the IoT. Our Zulu products are certified builds of OpenJDK and meet the Java SE standards for Java 8, 7 and 6.  Each release of Zulu and Zulu Embedded has passed the thousands of tests in OpenJDK Technology Compatibility Kit (TCK) as well as Azul’s extensive in-house verification suite. Zulu runs on many Linux distros, on Windows and the Mac.&lt;/p&gt;
-
-&lt;p&gt;Zulu is a complete Java Development Kit, and Zulu Enterprise provides designers with a choice of storage footprint, bitness (32 or 64-bit configurations), headless or headful, and both development and runtime-only options.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/azul/</guid>
+      <description>Azul Systems is the world’s only company that is 100% focused on Java and Java runtime technology. We believe that we can help the IoT developers take advantage of the power and productivity of Java by reducing the frictions (licensing costs, field-of-use restrictions) and perceptions (footprint, etc.) gating widespread adoption of the language throughout the IoT.
+As members of the Eclipse community we are bringing Zulu and Zulu Embedded – our 100% open source JDKs, to the IoT.</description>
     </item>
     
     <item>
       <title>Red Hat, Inc.</title>
-      <link>http://iot.eclipse.org/member/redhat/</link>
+      <link>https://iot.eclipse.org/member/redhat/</link>
       <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/member/redhat/</guid>
-      <description>&lt;p&gt;Red Hat, the world&amp;rsquo;s leading open source solutions provider, is headquartered in Raleigh, NC with over 50 satellite offices spanning the globe. CIOs have ranked Red Hat first for value in Enterprise Software for four consecutive years in the CIO Insight Magazine Vendor Value study.Red Hat provides high-quality, affordable technology with its operating system platform, Red Hat Enterprise Linux, together with applications, management and Services Oriented Architecture (SOA) solutions, including the JBoss Enterprise Middleware Suite. Red Hat also offers support, training and consulting services to its customers worldwide.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/redhat/</guid>
+      <description>Red Hat, the world&amp;rsquo;s leading open source solutions provider, is headquartered in Raleigh, NC with over 50 satellite offices spanning the globe. CIOs have ranked Red Hat first for value in Enterprise Software for four consecutive years in the CIO Insight Magazine Vendor Value study.Red Hat provides high-quality, affordable technology with its operating system platform, Red Hat Enterprise Linux, together with applications, management and Services Oriented Architecture (SOA) solutions, including the JBoss Enterprise Middleware Suite.</description>
     </item>
     
     <item>
       <title>Sierra Wireless</title>
-      <link>http://iot.eclipse.org/member/sierra/</link>
+      <link>https://iot.eclipse.org/member/sierra/</link>
       <pubDate>Sun, 08 Mar 2015 15:31:22 -0700</pubDate>
       
-      <guid>http://iot.eclipse.org/member/sierra/</guid>
-      <description>&lt;p&gt;Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry&amp;rsquo;s most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.&lt;/p&gt;
-
-&lt;p&gt;Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/member/sierra/</guid>
+      <description>Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry&amp;rsquo;s most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.
+Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.</description>
+    </item>
+    
+    <item>
+      <title>openHAB Foundation</title>
+      <link>https://iot.eclipse.org/member/openhab/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/openhab/</guid>
+      <description>The openHAB Foundation e.V. is a non-profit organisation.
+Its purpose is to educate the public about the possibilities that Free software offers in the domain of smart homes.
+More and more new technologies and devices are introduced to our living, working and business environment. Although all of them are designed to make our lives easier, they have a common problem: The lack of interoperability, due to incompatible technology stacks and conflicting commercial interests.</description>
+    </item>
+    
+    <item>
+      <title>Litmus Automation</title>
+      <link>https://iot.eclipse.org/member/litmus/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/litmus/</guid>
+      <description>Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.</description>
+    </item>
+    
+    <item>
+      <title>M2M Alliance</title>
+      <link>https://iot.eclipse.org/member/m2m-alliance/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/m2m-alliance/</guid>
+      <description>As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.</description>
+    </item>
+    
+    <item>
+      <title>LAAS-CNRS</title>
+      <link>https://iot.eclipse.org/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/laas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itemis</title>
+      <link>https://iot.eclipse.org/member/itemis/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/itemis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GadgetKeeper</title>
+      <link>https://iot.eclipse.org/member/gadgetkeeper/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/gadgetkeeper/</guid>
+      <description>GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.
+GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.
+GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>IBH SYSTEMS</title>
+      <link>https://iot.eclipse.org/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/ibh/</guid>
+      <description>IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.
+Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.</description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://iot.eclipse.org/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MicroEJ</title>
+      <link>https://iot.eclipse.org/member/microej/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/microej/</guid>
+      <description>MicroEJ is an independent software vendor of cost-driven solutions for the smart digital world. With more than $20M of R&amp;amp;D investment, MicroEJ is focused on providing turnkey software products to solve the embedded worlds major business challenges and to enable application-driven uses and services in the IoT world commensurate with the cost and resource constraints of that world. MicroEJ helps OEMs create flexible and future-proof smart devices, brings rich user experiences, and enables additional sources of revenue across the whole value chain, from sensor data collection to cloud-based services.</description>
+    </item>
+    
+    <item>
+      <title>Deutsche Telekom</title>
+      <link>https://iot.eclipse.org/member/dtag/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/dtag/</guid>
+      <description>QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.</description>
+    </item>
+    
+    <item>
+      <title>Eurotech</title>
+      <link>https://iot.eclipse.org/member/eurotech/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/eurotech/</guid>
+      <description>Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.
+Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success.</description>
+    </item>
+    
+    <item>
+      <title>Canonical</title>
+      <link>https://iot.eclipse.org/member/canonical/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/canonical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cisco</title>
+      <link>https://iot.eclipse.org/member/cisco/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/cisco/</guid>
+      <description>Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies.</description>
+    </item>
+    
+    <item>
+      <title>dc-square</title>
+      <link>https://iot.eclipse.org/member/dcsquare/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/dcsquare/</guid>
+      <description>dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them.</description>
+    </item>
+    
+    <item>
+      <title>Bitreactive</title>
+      <link>https://iot.eclipse.org/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/bitreactive/</guid>
+      <description>Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.</description>
+    </item>
+    
+    <item>
+      <title>Bosch Software Innovations</title>
+      <link>https://iot.eclipse.org/member/bosch/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/bosch/</guid>
+      <description>Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.
+The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models.</description>
+    </item>
+    
+    <item>
+      <title>OpenText Analytics</title>
+      <link>https://iot.eclipse.org/member/opentext/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:14 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/opentext/</guid>
+      <description>OpenText Analytics and Reporting products make data-driven applications simple for everyone in your organization, including developers, employees, partners, IT, and customers. Build enterprise reporting applications that are as unique as your business, personalized to meet your data needs in any industry, on any platform, for any device.
+To stay competitive, your organization needs to make the right business decisions at the right time, with compelling data to back up your actions.</description>
     </item>
     
   </channel>

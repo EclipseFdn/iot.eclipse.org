@@ -2,165 +2,2500 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eclipse IoT</title>
-    <link>http://iot.eclipse.org/index.xml</link>
+    <link>https://iot.eclipse.org/</link>
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>InMoodforLife | Final Report</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</link>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</guid>
-      <description>&lt;p&gt;Researchers have found than Bipolar’s sleep architecture is deeply impacted during a depression or mania state. REM appears to be the aspect of sleep architecture most affected.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</guid>
+      <description>Researchers have found than Bipolar’s sleep architecture is deeply impacted during a depression or mania state. REM appears to be the aspect of sleep architecture most affected.</description>
     </item>
     
     <item>
       <title>krishi-IoT | Final Report</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</link>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</guid>
-      <description>&lt;p&gt;We presented krishi IoT, a comprehensive Internet of Things solution to help farmers execute agricultural operations in smarter and efficient way.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</guid>
+      <description>We presented krishi IoT, a comprehensive Internet of Things solution to help farmers execute agricultural operations in smarter and efficient way.</description>
     </item>
     
     <item>
       <title>RHDS | Final Report</title>
-      <link>http://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</link>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</guid>
-      <description>&lt;p&gt;We undertook this challenge with a thought in mind; “Imagine being able to reduce your home energy bill, increase comfort, and create a healthier living environment on the planet”.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</guid>
+      <description>We undertook this challenge with a thought in mind; “Imagine being able to reduce your home energy bill, increase comfort, and create a healthier living environment on the planet”.</description>
     </item>
     
     <item>
       <title>Propose a new testbed</title>
-      <link>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</link>
+      <link>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</link>
       <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/testbeds/propose-a-new-testbed/</guid>
-      <description>&lt;p&gt;The &lt;strong&gt;Eclipse Open IoT Testbeds&lt;/strong&gt; are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating
-how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.&lt;/p&gt;
-
-&lt;p&gt;If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Short description of the scenario&lt;/li&gt;
-&lt;li&gt;High-level architecture&lt;/li&gt;
-&lt;li&gt;Identified extension points&lt;/li&gt;
-&lt;li&gt;List of interested members&lt;/li&gt;
-&lt;li&gt;List of applicable Eclipse IoT projects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In order to lead a testbed, your company needs to be a member of &lt;a href=&#34;http://iot.eclipse.org/working-group&#34;&gt;the Eclipse IoT Working Group&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</guid>
+      <description>The Eclipse Open IoT Testbeds are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.
+If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:
+ Short description of the scenario High-level architecture Identified extension points List of interested members List of applicable Eclipse IoT projects  In order to lead a testbed, your company needs to be a member of the Eclipse IoT Working Group.</description>
     </item>
     
     <item>
       <title>Thingmonk 2017</title>
-      <link>http://iot.eclipse.org/events/2017-09-12-thingmonk/</link>
+      <link>https://iot.eclipse.org/events/2017-09-12-thingmonk/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-09-12-thingmonk/</guid>
+      <guid>https://iot.eclipse.org/events/2017-09-12-thingmonk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eclipse IoT Day @ Thingmonk</title>
-      <link>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</link>
+      <link>https://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</guid>
+      <guid>https://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EclipseCon France 2017</title>
-      <link>http://iot.eclipse.org/events/2017-06-21-ecf2017/</link>
+      <link>https://iot.eclipse.org/events/2017-06-21-ecf2017/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-06-21-ecf2017/</guid>
+      <guid>https://iot.eclipse.org/events/2017-06-21-ecf2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT Live Slam</title>
-      <link>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</link>
+      <link>https://iot.eclipse.org/events/2017-06-21-iot-slam-live/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-06-21-iot-slam-live/</guid>
+      <guid>https://iot.eclipse.org/events/2017-06-21-iot-slam-live/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT World 2017</title>
-      <link>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</link>
+      <link>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
+      <guid>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Red Hat Summit</title>
-      <link>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</link>
+      <link>https://iot.eclipse.org/events/2017-05-02-redhatsummit/</link>
       <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-05-02-redhatsummit/</guid>
+      <guid>https://iot.eclipse.org/events/2017-05-02-redhatsummit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hannover Messe 2017</title>
-      <link>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</link>
+      <link>https://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</guid>
+      <guid>https://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT Developer Trends 2017 Edition</title>
-      <link>http://iot.eclipse.org/news/2017-04-19-iot-developer-survey-2017/</link>
+      <link>https://iot.eclipse.org/news/2017-04-19-iot-developer-survey-2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2017-04-19-iot-developer-survey-2017/</guid>
-      <description>&lt;p&gt;Earlier this year, we conducted the third annual IoT Developer Survey in partnership with AGILE IoT, IEEE IoT, and the IoT Council. We&amp;rsquo;re pleased to announced that the results are now available! What has changed in IoT since 2016? Find out!&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/news/2017-04-19-iot-developer-survey-2017/</guid>
+      <description>Earlier this year, we conducted the third annual IoT Developer Survey in partnership with AGILE IoT, IEEE IoT, and the IoT Council. We&amp;rsquo;re pleased to announced that the results are now available! What has changed in IoT since 2016? Find out!</description>
     </item>
     
     <item>
       <title>How Eclipse Hono enables device-related communication for the IoT</title>
-      <link>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</link>
+      <link>https://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</link>
       <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</guid>
-      <description>&lt;p&gt;Connectivity is at the heart of IoT solutions. Devices (things) need to be connected to a backend component where the data and functionality of the devices is leveraged to provide some higher level business value.…&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</guid>
+      <description>Connectivity is at the heart of IoT solutions. Devices (things) need to be connected to a backend component where the data and functionality of the devices is leveraged to provide some higher level business value.…</description>
     </item>
     
     <item>
       <title>Eclipse Newsletter - Internet of all the Things</title>
-      <link>http://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</link>
+      <link>https://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</link>
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</guid>
-      <description>&lt;p&gt;This month, the Eclipse Newsletter is all about the Internet of Things (IoT). The articles feature various Eclipse IoT projects including, Eclipse Hono, Eclipse ioFog, Eclipse Kapua, and Eclipse Vorto.&lt;/p&gt;
-</description>
+      <guid>https://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</guid>
+      <description>This month, the Eclipse Newsletter is all about the Internet of Things (IoT). The articles feature various Eclipse IoT projects including, Eclipse Hono, Eclipse ioFog, Eclipse Kapua, and Eclipse Vorto.</description>
     </item>
     
     <item>
       <title>Devoxx US 2017</title>
-      <link>http://iot.eclipse.org/events/2017-03-21-devoxxus/</link>
+      <link>https://iot.eclipse.org/events/2017-03-21-devoxxus/</link>
       <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iot.eclipse.org/events/2017-03-21-devoxxus/</guid>
+      <guid>https://iot.eclipse.org/events/2017-03-21-devoxxus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Converge 2017</title>
+      <link>https://iot.eclipse.org/events/2017-03-20-eclipse-converge/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-03-20-eclipse-converge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day - San Jose</title>
+      <link>https://iot.eclipse.org/events/2017-03-20-iot-day-2017/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-03-20-iot-day-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congratulations | Open IoT Challenge 3.0 Winners!</title>
+      <link>https://iot.eclipse.org/news/2017-03-16-iotchallenge3-winners/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-03-16-iotchallenge3-winners/</guid>
+      <description>Congratulations to this year&amp;rsquo;s Open IoT Challenge winners! Find out which team had the best solution.</description>
+    </item>
+    
+    <item>
+      <title>Bosch Connected World 2017</title>
+      <link>https://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Last Call | Complete the IoT Developer Survey 2017</title>
+      <link>https://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</guid>
+      <description>This is your last chance to complete the IoT Developer Survey 2017. The survey will close on March 17 at 11:59 PM PDT. Participate now.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>https://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visually Developing Solutions for the IoT with Reactive Blocks</title>
+      <link>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</link>
+      <pubDate>Wed, 08 Mar 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</guid>
+      <description>Reactive Blocks is a visual model-driven development environment supporting formal model analysis, automated code generation, hierarchical modelling, and an extensive library of ready-to-use components for the Java platform.…</description>
+    </item>
+    
+    <item>
+      <title>Asset Tracking</title>
+      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
+      <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
+      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.
+Eclipse Kapua and OpenShift at the heart of the backend system Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.</description>
+    </item>
+    
+    <item>
+      <title>Internet of Manufacturing</title>
+      <link>https://iot.eclipse.org/events/2017-03-07-iotmanufacturing/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-03-07-iotmanufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--final-report/</guid>
+      <description>AgriNode project goal is to build an Internet of Things – IoT solutions for various agricultural applications. We successfully developed the AgriNode system which is a Wireless Sensor Network – WSN consisting a gateway and sensor nodes.</description>
+    </item>
+    
+    <item>
+      <title>Antipollution | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--final-report/</guid>
+      <description>Harmful effluents by old vehicles and no controlled system in hands of government to stop it.</description>
+    </item>
+    
+    <item>
+      <title>I-Greenhouse | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/i-greenhouse--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/i-greenhouse--final-report/</guid>
+      <description>The urban agriculture aims to answer future challenges: reduction of the cultivated area, green economy, carbon footprint for transport of goods, self-production towards alimentary self-sufficiency of cities.</description>
+    </item>
+    
+    <item>
+      <title>Retail IoT | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--final-report/</guid>
+      <description>Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.</description>
+    </item>
+    
+    <item>
+      <title>Sergevas | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--final-report/</guid>
+      <description>The idea of the project was to build a fault management solution for distributed IoT systems. Fault managment, along with security, is among the most important management features of IoT networks.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--final-report/</guid>
+      <description>Idea: Building low cost soil moisture sensory system for farmers facing drought with low cost sensors (&amp;lt;$10) and gateways to easily scale up if necessary.</description>
+    </item>
+    
+    <item>
+      <title>dgator | Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--final-report/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--final-report/</guid>
+      <description>This project can be described as aggregating IoT time series data and creating Candlestick visualizations using that data.</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | IoT App now available on Web, thanks to IBM Bluemix Cloud Foundry</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--iot-app-now-available-on-web-thanks-to-ibm-bluemix-cloud-foundry/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--iot-app-now-available-on-web-thanks-to-ibm-bluemix-cloud-foundry/</guid>
+      <description>In continuation to the krishi-IoT mobile app release, we worked on providing the krishi-IoT application over the Web as well. With this, you can experience the app without installing the app. Check it out at: http://krishi-iot.mybluemix.net*</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | Launching krishi IoT Mobile App</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--launching-krishi-iot-mobile-app/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--launching-krishi-iot-mobile-app/</guid>
+      <description>We have some good news to share today. As part of the krishi-IoT project, we accomplished a major milestone and we are ready to share our krishi-IoT mobile app on the android platform.</description>
+    </item>
+    
+    <item>
+      <title>dgator | A Live demo of the Project (part 1of 4)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-live-demo-of-the-project-part-1of-4/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-live-demo-of-the-project-part-1of-4/</guid>
+      <description>First I will disclaim that this project currently uses alpha level code and many things can or even should be expected to go wrong.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Hardware choices for AgriNode System- Wireless Sensor Network System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--hardware-choices-for-agrinode-system--wireless-sensor-network-system/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--hardware-choices-for-agrinode-system--wireless-sensor-network-system/</guid>
+      <description>The goal of AgriNode project is to build a Wireless Sensor Network - WSN for agricultural applications such as greenhouse management, monitoring water quality for a fish farm.</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | A small touch of frontend for InMoodForLife</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--a-small-touch-of-frontend-for-inmoodforlife/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--a-small-touch-of-frontend-for-inmoodforlife/</guid>
+      <description>If everything goes according to the plan, we will soon be able to automatically analyse the sleep of our users and extract the sleep cycles information.</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Energy Audit — Let’s Build a RHDS System from Scratch (part II)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</guid>
+      <description>In this tutorial, we will conclude the series on how we built our “Energy Modeling” system. The working RHDS system can be seen here. The best browser to use is Safari. Here’s an example of what you will see.</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Energy Audit — Let’s get some baseline data for the project</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-get-some-baseline-data-for-the-project/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-get-some-baseline-data-for-the-project/</guid>
+      <description>In this tutorial we will we take you through an actual home Energy Audit (EA) and share the report that the Energy Advisor produced.</description>
+    </item>
+    
+    <item>
+      <title>dgator | Visualizing Aggregated Data (part 1)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--visualizing-aggregated-data-part-1/</link>
+      <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--visualizing-aggregated-data-part-1/</guid>
+      <description>To create a Candlestick chart of the aggregated data all that is needed is to make a request to the chart end point. But, before that will work first the basic details of the chart need to be configured.</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Data science, Heart of IoT</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</guid>
+      <description>We began by describing how we reverse engineered the Beddit sensor, then our Raspberry Pi based setup to collect and analyse the data and the Vert.x and Warp10 stack that we put into the Raspberry Pi to do it. Today we talk about a key point of the project, the data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Container World 2017</title>
+      <link>https://iot.eclipse.org/events/2017-02-21-containerworld/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-02-21-containerworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | Deploy the Eclipse Kapua, an open source IoT Cloud Backend Platform</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</guid>
+      <description>As per our architecture post and the priorities, our plan is to try and use the promising open source IoT cloud backend platform - the Eclipse Kapua as our backend.</description>
+    </item>
+    
+    <item>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Sensor node software</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-sensor-node-software/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-sensor-node-software/</guid>
+      <description>In this post I&amp;rsquo;m showing the software part of the sensors. The code is implemented with Arduino IDE. Libs used:</description>
+    </item>
+    
+    <item>
+      <title>Developing IoT-enabled Distributed Real-time Control Apps with Eclipse 4diac</title>
+      <link>https://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Feb 2017 17:03:38 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</guid>
+      <description>Industry 4.0 requires more interconnected, decentralized, and autonomous control entities seamless interacting with each other and the cloud. However, current systems are either limited in their adapt…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Announces Support for OMA LightweightM2M 1.0 Device Management Standard</title>
+      <link>https://iot.eclipse.org/news/2017-02-15-leshan-pr/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-02-15-leshan-pr/</guid>
+      <description>We are pleased to announce the Eclipse Leshan open source project will support the newly ratified Open Mobile Alliance (OMA) LightweightM2M (LwM2M) 1.0 device management standard.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from the Farm-Team: Main hub server, part one</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</guid>
+      <description>We are using a Raspberry Pi Model B+ with the current Raspbian (Jessie) and a 32 GB SD card. Setting up Eclipse Mosquitto on Raspbian was really easy as its available in the Raspbian main repository.</description>
+    </item>
+    
+    <item>
+      <title>dgator | Updating Topic Data</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</guid>
+      <description>In this post I will describe one way how the Topics data can get updated and thus aggregated.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Tutorial: Build a Configurable Eclipse Kura Application via Reactive Blocks</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</guid>
+      <description>This tutorial demonstrates how to build a Kura application into a bundle by using Reactive Blocks.</description>
+    </item>
+    
+    <item>
+      <title>Antipollution | Car Antipollution System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</guid>
+      <description>Goal: To control the problem of pollution through effective monitoring by environment officials, to reward the people following proper norms, and to help user to diagnose the car and keep it e-healthy.</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | krishi-IoT: More love to Vorto</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</link>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</guid>
+      <description>Our team loved the Eclipse Vorto project as it offers great benefits to different players of an IoT solution together - Device manufacturers, IoT platform vendors and Solution developers. Here&amp;rsquo;s the crux of the Vorto and its benefits.</description>
+    </item>
+    
+    <item>
+      <title>Participate in the IoT Developer Survey 2017</title>
+      <link>https://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</guid>
+      <description>We are pleased to launch the third annual IoT Developer Survey. Complete the survey now!</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Project Update — Let’s Build a RHDS System from Scratch (part 1)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/rhds--project-update--lets-build-a-rhds-system-from-scratch-part-1/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/rhds--project-update--lets-build-a-rhds-system-from-scratch-part-1/</guid>
+      <description>In this tutorial we will outline how we built our “Energy Modelling” system that measures conduction, heat loss through the building envelope.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Update AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
+      <description>In this post, I update the &amp;ldquo;AgriNode bundle&amp;rdquo; which runs on Eclipse Kura platform.</description>
+    </item>
+    
+    <item>
+      <title>My Minecraft-Smart-Home: Prototyping the Internet of Uncanny Things</title>
+      <link>https://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</link>
+      <pubDate>Tue, 31 Jan 2017 16:55:49 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</guid>
+      <description>Software solutions and everyday objects are becoming increasingly &amp;ldquo;smarter&amp;rdquo;, take over more &amp;ldquo;responsibility&amp;rdquo; and know more and more about us and our intentions. But what does that mean for developers,…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day San Jose - Program Announced</title>
+      <link>https://iot.eclipse.org/news/2017-01-31-iotdayprogram/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-01-31-iotdayprogram/</guid>
+      <description>The program for the Eclipse IoT Day in San Jose on March 20 is now availble! We&amp;rsquo;re very excited about this event and we hope to see you there.</description>
+    </item>
+    
+    <item>
+      <title>Building a Smarter Eclipse IoT Greenhouse with Eclipse Vorto, Kura, Californium</title>
+      <link>https://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</link>
+      <pubDate>Thu, 26 Jan 2017 17:01:10 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</guid>
+      <description>The official Eclipse IoT tutorial uses Eclipse Kura, Paho and Californium together with a Raspberry Pi, a temperature and a humidity sensor to implement a simple IoT example based on Eclipse IoT proje…</description>
+    </item>
+    
+    <item>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT system Hardware setup</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</guid>
+      <description>For the hardware part of the system I&amp;rsquo;m using two DIY environmental sensors where each sensor consists of two parts: the external part, mounted on the outside of the window and the internal part, mounted in the apartment of the apartment building.</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Eclipse Vert.x the perfect reactor for IoT devices</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</guid>
+      <description>This time we have opted for a Reactive approach based on Eclipse Vert.x. Vert.x is a toolkit for building applications on top of the JVM, another cool Open Source project of the Eclipse Foundation.</description>
+    </item>
+    
+    <item>
+      <title>dGator | Create a Topic</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</guid>
+      <description>The curl command below will create a new Topic that will aggregate the IoT data of the supplied topicURI. Below is the data portion of the response.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Farm-Team: Building a power independent solar battery circuit</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</guid>
+      <description>Connected 6V solar panel to battery with Z-Diode to battery and the battery than directly into the RAW input of the Arduino board. I used 3.6V (3x1.2V) NiMh battery.</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge 3.0 — Mid-point Update!</title>
+      <link>https://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</guid>
+      <description>The Challenge teams have been working really hard and have been blogging about their solutions. Here are some of the most active blogs.</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Is my Pi strong enough?</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</link>
+      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</guid>
+      <description>We need to be able to run all the algorithms for collecting and analyzing the data in a way more modest setup: an autonomous, always running, humble Raspberry Pi that will be installed near the Beddit sensor (in Bluetooth LTE range). Is it strong enough?</description>
+    </item>
+    
+    <item>
+      <title>Building a wireless sensor network using Bluetooth Low Energy, MQTT-SN, and the BBC micro:bit</title>
+      <link>https://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</link>
+      <pubDate>Mon, 16 Jan 2017 10:56:18 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WaziUp | IoT Challenge Fish Farming</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</guid>
+      <description>The team from Easy Global Market composed of Sabrine, Charlotte, Franck and me Benjamin are currently working on Waziup Project and more precisely on the MVP water part of the project.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Develop an AgriNode bundle for Eclipse Kura (using Bitreactive)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</guid>
+      <description>In my previous post: MOSQUITTO (MQTT BROKER) DEMO. (MQTT broker is installed into a Gateway with host IP: 172.16.1.1:1883). In this demo, I build a bundle which is installed in Kura.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Farm-Team: Power regulation of the sensor nodes</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-power-regulation-of-the-sensor-nodes/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-power-regulation-of-the-sensor-nodes/</guid>
+      <description>Our aim is to produce an independent power solar battery system for our nodes and our main hub.</description>
+    </item>
+    
+    <item>
+      <title>Kura Wires - A Mashup in Eclipse Kura for Industry 4.0</title>
+      <link>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</link>
+      <pubDate>Thu, 12 Jan 2017 17:05:29 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</guid>
+      <description>Slides:http://www.slideshare.net/eclipsekura/building-iot-mashups-for-industry-40-with-eclipse-kura-and-kura-wires Video recording of the demo part: https://s3.amazonaws.com/kura-resources/Webminar-re…</description>
+    </item>
+    
+    <item>
+      <title>krishi-IoT | High-level architecture of krishi-IoT</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</guid>
+      <description>In this blog, you&amp;rsquo;ll find a description of its internal components, challenges and thoughts.</description>
+    </item>
+    
+    <item>
+      <title>InMoodforLife | Beddit Reverse Engineering</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</guid>
+      <description>Before choosing a sleep tracker for InMoodForLife, we spent some time studying the specifications of the different available trackers.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Farm-Team: Second prototype with Arduino Pro Mini board</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-second-prototype-with-arduino-pro-mini-board/</link>
+      <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-second-prototype-with-arduino-pro-mini-board/</guid>
+      <description>Testing Arduino board clones. They can operate with up to 5V. I used the FTDI as power supply. This will give enough power for the Arduino. But as soon as the ESP8266 is in operational mode the power supplied by the FTDI is not enough.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | MQTT Demo</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</guid>
+      <description>Have a look at the our latest Mosquitto (MQTT Broker) demo.</description>
+    </item>
+    
+    <item>
+      <title>dGator | A new year and a change to the project proposal</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</guid>
+      <description>Change to original submission: instead of making the service available primarily only on CoAP I will be using HTTP.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Setting up IBM IoT to execute OpenWhisk actions</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</guid>
+      <description>Here is the latest Update from Cloud-Team on setting up IBM IoT to execute OpenWhisk actions.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Cloud-Team: Deploying Cassandra Image as a Container in Bluemix</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</guid>
+      <description>In this blog, I plan to give a quick tutorial in how to run cassandra as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | Update from Cloud-Team: Deploying MongoDB Image as a Container in Bluemix</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-mongodb-image-as-a-container-in-bluemix/</link>
+      <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-mongodb-image-as-a-container-in-bluemix/</guid>
+      <description>In this blog, I plan to give a quick tutorial in how to run mongoDB as a container in IBM cloud platform &amp;ldquo;Bluemix&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>RHDS | Introducing the Residential Home Diagnostic System (RHDS)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/rhds--introducing-the-residential-home-diagnostic-system-rhds/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/rhds--introducing-the-residential-home-diagnostic-system-rhds/</guid>
+      <description>Helping to create a more adaptable and responsive environment using open source technology.</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | The Architecture</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-architecture/</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-architecture/</guid>
+      <description>As covered in my earlier post the architecture has been evolved and this is how it looks like.</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | Traffic Lights</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</guid>
+      <description>Design was frozen and given to a manufacturer. Decent progress has been made. Though its not upto my satisfaction in terms of weight and size but pretty much for a POC that is fine. Here is how it looks like.</description>
+    </item>
+    
+    <item>
+      <title>Sergevas | Rule-Based Fault Management for Environmental Monitoring IoT System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</guid>
+      <description>For a 3.0 edition of the Challenge I’m working on a Fault Management solution for a distributed Environmental Monitoring IoT system. The solution is based on a Rule-Based principles of errors (symptoms) detection and faults isolation and diagnose.</description>
+    </item>
+    
+    <item>
+      <title>Smart Traffic | The Beginning</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</guid>
+      <description>The idea of creating Smart Traffic Lights dawned upon my mind upon moving back to India. In absence of traffic lights at majority of the places, due to lack of funding, traffic goes at a snail pace.</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Fully System Architecture for Agrinode Project</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</link>
+      <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</guid>
+      <description>View the Full System Architecture for Agrinode Project</description>
+    </item>
+    
+    <item>
+      <title>Introducing InMoodForLife | A sleep tracking and analysing device for young people with mood disorders</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</link>
+      <pubDate>Thu, 22 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</guid>
+      <description>InMoodForLife aims to build a device to track and analyse sleep patterns for young people with bipolar disorders, in order to better regulate their sleep rhythms, contributing them to prevent mood swing relapses.</description>
+    </item>
+    
+    <item>
+      <title>CCP | Life on CCP</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</guid>
+      <description>CCP stands for Cloud-based Collaborative PACS (Picture Archiving and Communication Systems). A picture archiving and communication system (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types)wiki.</description>
+    </item>
+    
+    <item>
+      <title>Introducing krishi-IoT | An open-source, wireless IoT powered solution for agricultural applications</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</guid>
+      <description>In this blog, we will post the updates about the progress we make and the challenges we faced in building the krishi IoT solution. Our team has already taking strides towards making krishi IoT reality. Please keep visit us for updates.</description>
+    </item>
+    
+    <item>
+      <title>Retail IoT | Overview of the Solution - The Story</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</link>
+      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</guid>
+      <description>To start with I will describe the intended solution &amp;amp; the initial architecture that we have in mind. Retail is a fast moving industry and consumers have a negative sentiment about products which are not kept in proper storage condition &amp;amp; which are about to expire or already expired.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day San Jose</title>
+      <link>https://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</link>
+      <pubDate>Mon, 19 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</guid>
+      <description>We excited to announce the Eclipse IoT Day San Jose 2017. The event will take place on March 20, in co-location with Eclipse Converge and Devoxx US. The agenda is packed with great speakers covering a wide range of IoT topics, from Industry 4.0 and fog computing for devices at the edge, to smart homes and more!</description>
+    </item>
+    
+    <item>
+      <title>Agrinode | Overview and Architecture of Wireless Sensor Network System (WSN)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</guid>
+      <description>We are going to build a system that consists of two main components which are a gateway and sensor nodes. The sensor nodes collect environmental parameters, then send data to the gateway via WiFi connection.</description>
+    </item>
+    
+    <item>
+      <title>CEA List</title>
+      <link>https://iot.eclipse.org/member/cealist/</link>
+      <pubDate>Thu, 15 Dec 2016 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/cealist/</guid>
+      <description>List, expert on digital systems
+Based in Saclay (Paris region, France), List is a public research institute specialized in digital systems design. Its main mission is based on achieving excellence technological development on behalf of industrial partners for value creation.
+100 industrial collaborations per year
+List institute counts more than 700 partners and every year more than a 100 partnership activities are being conducted with French and foreign industrial companies on applied research projects in four main topics:  Advanced Manufacturing Embedded systems Ambient intelligence Health ionizing radiations  Labeled as Carnot Institute , List invests every year 25% of its budget into scientific resourcing actions in order to identify better tomorrows technological breakthroughs.</description>
+    </item>
+    
+    <item>
+      <title>10 Reasons Why Java Is The Best Platform For Developing IoT Applications</title>
+      <link>https://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</link>
+      <pubDate>Thu, 08 Dec 2016 16:52:50 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</guid>
+      <description>The Java platform has many merits that make it an obvious choice for developing IoT applications. In this webinar, we’ll walk through the top ten reasons why you would want to use Java and Zulu Java,…</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open IoT Challenge 3.0 Scholars!</title>
+      <link>https://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</guid>
+      <description>The third edition of the Open IoT Challenge officially started. More than 80 teams have submitted their entries and are now in the running to win the Open IoT Challenge 3.0! The judges have reviewed all submissions and we have awarded a “starter kit” to the most promising solutions.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watering | First prototype of sensor with nanoESP</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</link>
+      <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</guid>
+      <description>Here is the latest update from the Farm-Team featuring the first prototype of sensor with nanoESP.</description>
+    </item>
+    
+    <item>
+      <title>Open Data, Open Tools: Transforming IoT, LocationTech &amp; Science</title>
+      <link>https://iot.eclipse.org/events/2016-11-24-meetup-london/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-11-24-meetup-london/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge 3.0 | Deadline Extended!</title>
+      <link>https://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</guid>
+      <description>The submission deadline for the Open IoT Challenge 3.0 has been extended to November 30 @ 11:59 PM PT. We already received many great submissions, but wanted to give submitters more time. Don&amp;rsquo;t delay, submit today!</description>
+    </item>
+    
+    <item>
+      <title>IoT World Europe 2016</title>
+      <link>https://iot.eclipse.org/events/2016-11-20-iot-world-europe/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-11-20-iot-world-europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samsung ARTIK</title>
+      <link>https://iot.eclipse.org/member/samsung/</link>
+      <pubDate>Fri, 18 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/samsung/</guid>
+      <description>Samsung and Eclipse
+In an effort to strengthen our commitment to open source development, Samsung Semiconductor Inc. is proud to be a solution member of the Eclipse Foundation. In May 2015, Samsung announced the Samsung ARTIK Smart IoT platform in effort to provide an end-to-end solution to help accelerate the development of IoT solutions. Samsung ARTIK leverages many projects sponsored by the Eclipse Foundation IoT Working Group, including Mosquitto, Paho, KURA, Wakaama and more.</description>
+    </item>
+    
+    <item>
+      <title>Connecting Objects to the Cloud using Eclipse Leshan</title>
+      <link>https://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</link>
+      <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</guid>
+      <description>The Internet of Things is rising fast, but how can it be run safely and efficiently using standards? OMA Lightweight M2M is an IoT protocol for managing smart objects. It provides answers to the typi…</description>
+    </item>
+    
+    <item>
+      <title>Using MQTT and Eclipse Paho in Android Things</title>
+      <link>https://iot.eclipse.org/resources/2016-12-19-mqtt-android-things/</link>
+      <pubDate>Wed, 16 Nov 2016 16:56:18 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-12-19-mqtt-android-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ETSI IoT/M2M Workshop</title>
+      <link>https://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</link>
+      <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coap</title>
+      <link>https://iot.eclipse.org/standards/coap/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/coap/</guid>
+      <description>CoAP (Constrained Application Protocol) is a protocol specialized for use with constrained nodes and networks.
+It implements the REST architectural style, it can be transparently mapped to HTTP. However, CoAP also provides features that go beyond HTTP such as native push notifications and group communication.
+  Download a CoAP runtime   The Eclipse Californium project provides a Java implementation of the CoAP protocol, including support for the DTLS security layer.</description>
+    </item>
+    
+    <item>
+      <title>dtls</title>
+      <link>https://iot.eclipse.org/standards/dtls/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/dtls/</guid>
+      <description>The Datagram Transport Layer Security (DTLS) protocol provides communications security for datagram protocols such as. DTLS allows datagram-based applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery. For IoT applications, DTLS can be used to secure CoAP-based communications.   Download a DTLS implementation  The Eclipse tinydtls project provides a light-weight implementation of the DTLS protocol that can be used in devices with tight memory constraints, i.</description>
+    </item>
+    
+    <item>
+      <title>iec-15118</title>
+      <link>https://iot.eclipse.org/standards/iec-15118/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/iec-15118/</guid>
+      <description>The international standard ISO/IEC 15118, entitled &#34;Road vehicles - Vehicle to grid communication interface&#34;, defines a digital IP-based communication interface between an electric vehicle (EV) and a charging station (named Electric Vehicle Supply Equipment - EVSE).  It allows for a user-friendly &#34;plug-and-charge&#34; mechanism for authentication, authorization, billing, and flexible load control based on a wide set of information exchanged between the EV and EVSE.   Download an IEC-15118 runtime  The Eclipse RISE V2G project provides a Java implementation of the IEC-15118 standard that allows to implement clients (a.</description>
+    </item>
+    
+    <item>
+      <title>iec-61499</title>
+      <link>https://iot.eclipse.org/standards/iec-61499/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/iec-61499/</guid>
+      <description>The international standard IEC 61499, addressing the topic of function blocks for industrial process measurement and control system. The specification of IEC 61499 defines a generic model for distributed control systems and is based on the IEC 61131 standard.   Download an IEC-61499 toolset and runtime  The Eclipse 4DIAC project provides an industrial-grade open source infrastructure for distributed Industrial Process Measurement and Control Systems (IPMCS) based on the IEC 61499 standard.</description>
+    </item>
+    
+    <item>
+      <title>lwm2m</title>
+      <link>https://iot.eclipse.org/standards/lwm2m/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/lwm2m/</guid>
+      <description>OMA LightweightM2M (LWM2M) is an industry standard for device management of M2M/IoT devices. It heavily relies on CoAP and therefore is optimized for communications over sensor or cellular networks.  OMA LWM2M provides an extensible object model that allows to enable application data exchanges in addition to the core device management features (firmware upgrade, connectivity monitoring, &amp;hellip;)   Download a LWM2M runtime   The Eclipse Wakaama project provides a C portable framework for building LWM2M clients and/or servers.</description>
+    </item>
+    
+    <item>
+      <title>mqtt</title>
+      <link>https://iot.eclipse.org/standards/mqtt/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/mqtt/</guid>
+      <description>MQTT is a protocol designed to connect the physical world devices and networks, with applications and middleware used in IT and Web development, making it an ideal connectivity protocol for IoT and M2M. It is a lightweight publish-subscribe protocol that runs on embedded devices and mobile platforms, while connecting to highly scalable enterprise and web servers over wired and wireless networks. It is useful for connections with remote embedded systems where a small code footprint is required and/or network bandwidth is at a premium or connectivity unpredictable, and, for mobile applications that require small size, low power usage, minimised data packets, and efficient distribution of information to one or many receivers.</description>
+    </item>
+    
+    <item>
+      <title>ogc-sensorthings-api</title>
+      <link>https://iot.eclipse.org/standards/ogc-sensorthings-api/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/ogc-sensorthings-api/</guid>
+      <description>SensorThings API is an Open Geospatial Consortium (OGC) standard providing an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things.   Download a SensorThings API runtime   The Eclipse Whiskers project provides a JavaScript client and a light-weight server for IoT gateways. The source code of Whiskers is available on the project&#39;s Github repository.</description>
+    </item>
+    
+    <item>
+      <title>onem2m</title>
+      <link>https://iot.eclipse.org/standards/onem2m/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/onem2m/</guid>
+      <description>oneM2M specifications provide a horizontal framework to support a wide range of applications and services such as smart cities, smart grid, connected car, home automation, public safety, and health.
+  Download a oneM2M stack  The Eclipse OM2M project provides a Java implementation of the ETSI oneM2M. It provides a horizontal M2M service platform for developing services independently of the underlying network, with the aim to facilitate the deployment of vertical applications on heterogeneous devices.</description>
+    </item>
+    
+    <item>
+      <title>opc-ua</title>
+      <link>https://iot.eclipse.org/standards/opc-ua/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/opc-ua/</guid>
+      <description>OPC Unified Architecture (UA) is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The specification is developed and maintained by the OPC Foundation with the guidance of individual software developers, industry vendors, and end-users. It defines the interface between Clients and Servers, including access to real-time data, monitoring of alarms and events, historical data access, and data modeling.</description>
+    </item>
+    
+    <item>
+      <title>ppmp</title>
+      <link>https://iot.eclipse.org/standards/ppmp/</link>
+      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/standards/ppmp/</guid>
+      <description>PPMP (Production Performance Management Protocol) specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.   Download a PPMP runtime   The Eclipse Unide project publishes the current version of PPMP and develops simple server/client implementations.</description>
+    </item>
+    
+    <item>
+      <title>fortiss GmbH</title>
+      <link>https://iot.eclipse.org/member/fortiss/</link>
+      <pubDate>Tue, 08 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/fortiss/</guid>
+      <description>fortiss is an institute associated with the Technical University of Munich and as such a full-fledged academic research institute while enjoying the independence granted by its legal form as a non-profit organization. Our mandate is to facilitate research and technology transfer in software-intensive systems and services, thereby triggering future ready innovation, with a focus on Bavaria. In this role fortiss acts as a technological think tank, bridging the notorious gap between fundamental research in academia and its fruitful implementation in an industrially and commercially feasible context.</description>
+    </item>
+    
+    <item>
+      <title>EclipseSource</title>
+      <link>https://iot.eclipse.org/member/eclipsesource/</link>
+      <pubDate>Mon, 07 Nov 2016 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/eclipsesource/</guid>
+      <description>EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.
+EclipseSource is focused on Business Applications, Mobile Applications, Modeling Tools and Frameworks/Developer Tooling. We provide a complete range of services including conception, evaluation, training, support, consulting/implementation with a special focus on framework adoption, creation and maintenance.</description>
+    </item>
+    
+    <item>
+      <title>eclipse edje</title>
+      <link>https://iot.eclipse.org/devices/eclipse-edje/</link>
+      <pubDate>Fri, 04 Nov 2016 14:48:48 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/devices/eclipse-edje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codenvy, S.A.</title>
+      <link>https://iot.eclipse.org/member/codenvy/</link>
+      <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/codenvy/</guid>
+      <description>Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.
+Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge 3.0 | Deadline is this Friday!</title>
+      <link>https://iot.eclipse.org/news/2016-10-31-iotchallenge/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-10-31-iotchallenge/</guid>
+      <description>This is your chance to demonstrate what you can build for the Internet of Things using open standards and open source technology! Submit your solution proposal by this Friday, November 25, 2016.</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon Europe 2016</title>
+      <link>https://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Day @ EclipseCon Europe</title>
+      <link>https://iot.eclipse.org/events/2016-10-25-iot-day-ece/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-10-25-iot-day-ece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IncQuery Labs Ltd.</title>
+      <link>https://iot.eclipse.org/member/incquery/</link>
+      <pubDate>Thu, 20 Oct 2016 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/incquery/</guid>
+      <description>IncQuery Labs Ltd. is a young and innovative company, founded in 2013 by a group of experts, with over 50 years of total R&amp;amp;D experience in model driven engineering. Our mission is to accelerate technology transfer from top-notch academic research to challenging industrial projects. We offer innovative R&amp;amp;D solutions like:
+ high performance modeling tools with innovative traceability support, code generators and transformation chains (both batch and incremental), tool and runtime development for critical embedded and cyber-physical systems, superscalable queries for big data apps, and event and stream processing for IoT.</description>
+    </item>
+    
+    <item>
+      <title>IoT Microservices at the Edge with Eclipse ioFog</title>
+      <link>https://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</link>
+      <pubDate>Thu, 20 Oct 2016 17:03:01 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</guid>
+      <description>There are many great ways to build IoT software in the cloud. And there are many great ways to store and analyze the large amounts of data produced by sensors and devices. Yet there are few ways to bu…</description>
+    </item>
+    
+    <item>
+      <title>Women in IoT meetup</title>
+      <link>https://iot.eclipse.org/events/2016-10-19-women-in-iot-meetup/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-10-19-women-in-iot-meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Three Software Stacks Required for IoT Architectures</title>
+      <link>https://iot.eclipse.org/resources/2016-10-14-white-paper-iot-architectures/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-10-14-white-paper-iot-architectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Everything IoT @ EclipseCon Europe</title>
+      <link>https://iot.eclipse.org/news/2016-09-29-iotece/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-09-29-iotece/</guid>
+      <description>Don&amp;rsquo;t miss all the IoT events at EclipseCon Europe taking place Oct 24-27 in Ludwigsburg, Germany. The conference includes an IoT Working Group meeting, IoT Day filled with great speakers/talks, IoT Playground and more.</description>
+    </item>
+    
+    <item>
+      <title>IoT613</title>
+      <link>https://iot.eclipse.org/events/2016-09-29-iot-613/</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-09-29-iot-613/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Edje: A Java API for Microcontrollers</title>
+      <link>https://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</link>
+      <pubDate>Wed, 28 Sep 2016 15:58:06 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</guid>
+      <description>Slides available at: http://www.slideshare.net/MicroEJ/eclipse-edje-a-java-api-for-microcontrollers-66604372
+The Eclipse Edje project defines a standard high-level Java API called Hardware Abstractio…</description>
+    </item>
+    
+    <item>
+      <title>Smart Summit London</title>
+      <link>https://iot.eclipse.org/events/2016-09-21-smartsummituk/</link>
+      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-09-21-smartsummituk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaOne 2016</title>
+      <link>https://iot.eclipse.org/events/2016-09-18-javaone/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-09-18-javaone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Workshop: Get Started with the Open IoT - Women Who Code</title>
+      <link>https://iot.eclipse.org/events/2016-09-14-iotworkshop/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-09-14-iotworkshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ThingMonk &#43; Eclipse IoT</title>
+      <link>https://iot.eclipse.org/events/2016-09-12-thingmonk/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-09-12-thingmonk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IOTRACKS</title>
+      <link>https://iot.eclipse.org/member/iotracks/</link>
+      <pubDate>Wed, 31 Aug 2016 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/iotracks/</guid>
+      <description>With IOTRACKS fog computing, developing for the edge becomes as easy as developing for the Web.
+ ioFabric gives you a universal runtime for the edge ComSat lets you interconnect private locations using the public Internet ioAuthoring gives you drag-and-drop microservices  </description>
+    </item>
+    
+    <item>
+      <title>Smart Summit London</title>
+      <link>https://iot.eclipse.org/news/2016-08-08-smartsummit/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-08-08-smartsummit/</guid>
+      <description>This year, Tracy Miranda will be representing Eclipse IoT and open source at the Smart Summit in London on Sept 21-22. Planning to attend? Be sure to sit in on her panel!</description>
+    </item>
+    
+    <item>
+      <title>Introduction to IoTivity</title>
+      <link>https://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</link>
+      <pubDate>Wed, 03 Aug 2016 16:03:41 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</guid>
+      <description>IoTivity is an open source implementation of the standards and specifications provided by the Open Connectivity Foundation. It is a communications framework for the Internet of Things that provides am…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day @ Thingmonk</title>
+      <link>https://iot.eclipse.org/news/2016-07-27-thingmonk/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-07-27-thingmonk/</guid>
+      <description>A new addition for Thingmonk this year is the Eclipse IoT Day @ Thingmonk on Day 0. We are planning an equally awesome line-up of speakers that will showcase how open source and Eclipse IoT has changing the IoT industry.</description>
+    </item>
+    
+    <item>
+      <title>GetD</title>
+      <link>https://iot.eclipse.org/events/2016-07-22-get-d/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-07-22-get-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Ecological Houses with Open Source and IoT</title>
+      <link>https://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</link>
+      <pubDate>Wed, 20 Jul 2016 16:05:25 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</guid>
+      <description>Open Building Institute (OBI) was launched to make affordable, ecological housing accessible to everyone—using a library of engineered modules and a series of rapid-build procedures. We are developing…</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with a W3C Web of Things Project</title>
+      <link>https://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</link>
+      <pubDate>Thu, 16 Jun 2016 16:11:41 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</guid>
+      <description>The W3C Web of Things (WoT) Interest Group (IG) is designing technological building blocks that help to complement existing IoT platforms and protocols, and thereby enable interoperability at a Web sc…</description>
+    </item>
+    
+    <item>
+      <title>New Eclipse IoT project releases to accelerate IoT solution development</title>
+      <link>https://iot.eclipse.org/news/2016-06-16-new-project-releases/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-06-16-new-project-releases/</guid>
+      <description>The Eclipse Internet of Things (IoT) Working Group, hosted at the Eclipse Foundation, is pleased to announce new releases for four open source IoT projects: Eclipse Kura 2.0, Eclipse Paho 1.2, Eclipse SmartHome 0.8 and Eclipse OM2M 1.0.</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon France 2016</title>
+      <link>https://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concierge - Bringing OSGi (back) to Embedded Devices</title>
+      <link>https://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</link>
+      <pubDate>Thu, 02 Jun 2016 16:09:17 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</guid>
+      <description>The OSGi specifications provide a set of open standards describing a dynamic module system for the Java language which greatly facilitates the development of complex modular applications.The Eclipse C…</description>
+    </item>
+    
+    <item>
+      <title>IoT DevCon</title>
+      <link>https://iot.eclipse.org/events/2016-05-25-iot-devcon/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-05-25-iot-devcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Updates in IoT with Eclipse hawkBit</title>
+      <link>https://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</link>
+      <pubDate>Wed, 18 May 2016 15:47:14 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</guid>
+      <description>Updating software (components) on constrained edge devices as well as more powerful controllers and gateways is a common requirement in most IoT scenarios.
+However, rolling out software updates in an…</description>
+    </item>
+    
+    <item>
+      <title>OSCON 2016</title>
+      <link>https://iot.eclipse.org/events/2016-05-18-oscon/</link>
+      <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-05-18-oscon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT - A Simple Overview</title>
+      <link>https://iot.eclipse.org/resources/2016-05-17-iot-overview/</link>
+      <pubDate>Tue, 17 May 2016 19:41:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-05-17-iot-overview/</guid>
+      <description>Eclipse IoT simplifies IoT developement. Learn all about Eclipse IoT by listening to this simple overview.</description>
+    </item>
+    
+    <item>
+      <title>5 Things I learnt at IoT World 2016</title>
+      <link>https://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</guid>
+      <description>Discover the five things Benjamin Cabé learnt at IoT World 2016 last week!</description>
+    </item>
+    
+    <item>
+      <title>IoT World</title>
+      <link>https://iot.eclipse.org/events/2016-05-10-iot-world/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-05-10-iot-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PlatformIO: a cross-platform IoT solution to build them all!</title>
+      <link>https://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</link>
+      <pubDate>Thu, 05 May 2016 16:06:11 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</guid>
+      <description>PlatformIO is an open source environment for IoT development based on a cross-platform build system and a library manager. It&amp;rsquo;s simplifying continuous integration (including in the cloud!) of IoT syst…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Day Grenoble</title>
+      <link>https://iot.eclipse.org/events/2016-04-28-iot-day-grenoble/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-04-28-iot-day-grenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse NeoSCADA 0.3.0 released</title>
+      <link>https://iot.eclipse.org/news/2016-04-28-neoscada-release/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-04-28-neoscada-release/</guid>
+      <description>The Eclipse NeoSCADA team is proud to finally announce the 0.3.0 release!</description>
+    </item>
+    
+    <item>
+      <title>Case Study 4DIAC: Smart Grid Automation (SGA) Software</title>
+      <link>https://iot.eclipse.org/news/2016-04-27-case-study-noja/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-04-27-case-study-noja/</guid>
+      <description>Read the latest case study and see how NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
+      <link>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
+      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
+      <description>NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.</description>
+    </item>
+    
+    <item>
+      <title>Can open source solve the too many IoT standards problem?</title>
+      <link>https://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</guid>
+      <description>An important issue in the IoT industry is the plethora of IoT standards that exist today and new standards being created. The current situation for IoT standards has been described as…</description>
+    </item>
+    
+    <item>
+      <title>Spy on your MQTT devices for fun and profit with mqtt-spy</title>
+      <link>https://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</link>
+      <pubDate>Wed, 20 Apr 2016 16:04:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</guid>
+      <description>In this webinar +Kamil Baczkowicz will go through the key features of mqtt-spy, a JavaFX based application for MQTT/IoT developers, and explain how it can help you monitor and test your MQTT-based IoT…</description>
+    </item>
+    
+    <item>
+      <title>IoT Developer Survey Results Are In!</title>
+      <link>https://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</guid>
+      <description>The results of our second annual IoT Developer Survey were released. They provide an interesting insight into how developers are building IoT solutions. Find out more…</description>
+    </item>
+    
+    <item>
+      <title>SIdO</title>
+      <link>https://iot.eclipse.org/events/2016-04-07-sido/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-04-07-sido/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Summit</title>
+      <link>https://iot.eclipse.org/events/2016-04-07-smart-summit/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-04-07-smart-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strong devices weakly connected: bringing DevOps to IoT with resin.io</title>
+      <link>https://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</link>
+      <pubDate>Wed, 06 Apr 2016 15:54:48 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</guid>
+      <description>Web developers now enjoy a culture and set of tools that allow them to deploy software up to many times per day, quickly and safely. By contrast, much of the embedded world still operates on the annua…</description>
+    </item>
+    
+    <item>
+      <title>OpenIoT Summit</title>
+      <link>https://iot.eclipse.org/events/2016-04-06-openiot/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-04-06-openiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Makes an Open IoT Developer Challenge Winner!</title>
+      <link>https://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</link>
+      <pubDate>Wed, 30 Mar 2016 15:59:39 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</guid>
+      <description>The Open IoT Developer Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners were selected this month and they will be joining us to prese…</description>
+    </item>
+    
+    <item>
+      <title>CeBIT 2016</title>
+      <link>https://iot.eclipse.org/events/2016-03-14-cebit/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-03-14-cebit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon - IoT Summit 2016</title>
+      <link>https://iot.eclipse.org/events/2016-03-10-eclipsecon/</link>
+      <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-03-10-eclipsecon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Kura: A gateway framework built for IoT</title>
+      <link>https://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</link>
+      <pubDate>Mon, 07 Mar 2016 19:41:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</guid>
+      <description>Eclipse Kura: A gateway framework built for IoT</description>
+    </item>
+    
+    <item>
+      <title>Embedded World 2016</title>
+      <link>https://iot.eclipse.org/events/2016-02-23-embedded-world/</link>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-02-23-embedded-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse Vorto as a Service</title>
+      <link>https://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Feb 2016 17:09:33 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</guid>
+      <description>For the IoT domain cloud based solutions are getting more and more important. In this context buzzwords like SaaS, PaaS, or just microservices are common vocabularies. This trend of course also affect…</description>
+    </item>
+    
+    <item>
+      <title>OGC SensorThings: IoT Data Interoperability with a GeoWeb approach</title>
+      <link>https://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</link>
+      <pubDate>Mon, 01 Feb 2016 18:01:29 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</guid>
+      <description>OGC SensorThings: IoT Data Interoperability with a GeoWeb approachstrial Automation &amp;amp; Industrial IoT</description>
+    </item>
+    
+    <item>
+      <title>IoT Evolution Expo</title>
+      <link>https://iot.eclipse.org/events/2016-01-26-iot-evolution/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2016-01-26-iot-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
+      <description>We chose Eclipse Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>https://iot.eclipse.org/resources/2016-01-27-case-study-03/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-01-27-case-study-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Summit: An opportunity to learn what open source can offer to IoT</title>
+      <link>https://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</link>
+      <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</guid>
+      <description>The Eclipse IoT community has grown significantly over the last 1-2 years. There are now 20+ Eclipse IoT projects building open source technology for IoT solutions. We are well on our way to providing the key building blocks developers need to build IoT solutions…</description>
+    </item>
+    
+    <item>
+      <title>Introduction to OPC-UA: Interoperability for Industrial Automation &amp; Industrial IoT</title>
+      <link>https://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 Jan 2016 16:57:45 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</guid>
+      <description>OPC-UA is the interoperability standard for the secure and reliable exchange of data and information in the industrial automation space and in other industries. It is platform independent and ensures …</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
+      <description>The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <link>https://iot.eclipse.org/resources/2015-12-22-case-study-02/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
+      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
+      <description>We wanted a SCADA system we could use with access to some of the developers, which gives us the exibility to adjust the system to our needs and grow over time.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
+      <link>https://iot.eclipse.org/resources/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-22-case-study-01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT’s 2015 Year in Review</title>
+      <link>https://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</guid>
+      <description>Come the end of the year and you usually want to look back at what you’ve accomplished during the past twelve months.
+For us, at Eclipse IoT, it’s been a pretty busy and successful year! So without further ado, here are the 5 most noteworthy things that happened in the Eclipse IoT community this year.…</description>
+    </item>
+    
+    <item>
+      <title>Smart Charging of Electric Vehicles with RISE V2G Project</title>
+      <link>https://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</link>
+      <pubDate>Wed, 16 Dec 2015 16:59:13 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</guid>
+      <description>RISE V2G is a Reference Implementation Supporting the Evolution of the Vehicle-2-Grid communication interface ISO 15118. The international standard ISO 15118, entitled &amp;ldquo;Road vehicles - Vehicle to grid…</description>
+    </item>
+    
+    <item>
+      <title>IEEE World Forum on Internet of Things</title>
+      <link>https://iot.eclipse.org/events/2015-12-16-ieee/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-12-16-ieee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Announcing The 16 Winners Of The Open Iot Challenge Starter Kit!</title>
+      <link>https://iot.eclipse.org/news/2015-12-09-open-iot-challenge-devkits/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-12-09-open-iot-challenge-devkits/</guid>
+      <description>It’s now been a bit more than 2 weeks since the second edition of the Open IoT Challenge has officially started. More than 80 teams have applied to be part of the challenge, and if you ask me, that’s really exciting!…</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Arduino C&#43;&#43; IDE for Eclipse</title>
+      <link>https://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</link>
+      <pubDate>Wed, 02 Dec 2015 16:54:42 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</guid>
+      <description>The Arduino IDE from arduino.cc provides a simple IDE that lets these hobbyists get started. However, it is really simple. As projects get bigger and more complex, Arduino developers need something mo…</description>
+    </item>
+    
+    <item>
+      <title>SPS IPC Drives 2015</title>
+      <link>https://iot.eclipse.org/events/2015-11-23-sps/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-11-23-sps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A new name: Eclipse NeoSCADA</title>
+      <link>https://iot.eclipse.org/news/2015-11-19-neoscada/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-11-19-neoscada/</guid>
+      <description>In 2013 through the move to the Eclipse Foundation, the existing openSCADA project became Eclipse SCADA. Being a very industrial oriented project it naturally has a different audience than most other projects…</description>
+    </item>
+    
+    <item>
+      <title>SensorUp</title>
+      <link>https://iot.eclipse.org/member/sensorup/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/sensorup/</guid>
+      <description>Data from all your different sensors, accessible in a single platform
+SensorUp makes information from all different kinds of sensors accessible in a single platform, by using open standards to connect the sensors. Our IoT Platform is the world&amp;rsquo;s first, most complete, compliant implementation of the OGC SensorThings API.
+SensorThings API was purpose-built for IoT, and manages low power, low bandwidth, and intermittent connectivity situations. The standard isREST-based and JSON encoded,so it&amp;rsquo;s developer friendly.</description>
+    </item>
+    
+    <item>
+      <title>The Things Network: an open &amp; free IoT network for the masses</title>
+      <link>https://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</link>
+      <pubDate>Thu, 12 Nov 2015 17:02:57 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</guid>
+      <description>Join us on next Thursday to learn more about The Things Network with Johan Stokking.
+Last June, my co-founder Wienke heard about a piece of hardware that would create coverage for Internet of Things …</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge - Second edition!</title>
+      <link>https://iot.eclipse.org/news/2015-11-09-open-iot-challenge/</link>
+      <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-11-09-open-iot-challenge/</guid>
+      <description>We are happy to unveil the second edition of the Open IoT Challenge. Submit your application before November 23 to get a chance to win one of our numerous prizes and hardware kits!</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon Europe 2015</title>
+      <link>https://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Create Your IoT Services &amp; Applications with COMPOSE Platform</title>
+      <link>https://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</link>
+      <pubDate>Thu, 29 Oct 2015 16:56:45 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</guid>
+      <description>COMPOSE platform enables new services that can integrate the Internet of Services with the Internet of Things. Connected devices are associated to services that can be combined and managed in a standa…</description>
+    </item>
+    
+    <item>
+      <title>JavaOne 2015</title>
+      <link>https://iot.eclipse.org/events/2015-10-25-javaone/</link>
+      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-10-25-javaone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT at JavaOne 2015</title>
+      <link>https://iot.eclipse.org/news/2015-10-25-eclipse-iot-at-javaone-2015/</link>
+      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-10-25-eclipse-iot-at-javaone-2015/</guid>
+      <description>If you are attending JavaOne this week, I want to make sure you don’t miss out on the many opportunities to learn more about Eclipse IoT, and meet the people behind it. You can find us at the Eclipse Foundation booth (#5710). There will be…</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Connecting Eclipse Kura to AWS IoT</title>
+      <link>https://iot.eclipse.org/news/2015-10-23-kura-and-aws-iot/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-10-23-kura-and-aws-iot/</guid>
+      <description>Just a few weeks ago, Amazon Web Services (AWS) announced that they added the ability for their customers to manage IoT solutions. More specifically, they are offering a managed IoT platform that allows to connect your devices using HTTP or MQTT, and that integrates with other AWS services…</description>
+    </item>
+    
+    <item>
+      <title>Coding Serbia Conference</title>
+      <link>https://iot.eclipse.org/events/2015-10-08-codingserbia/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-10-08-codingserbia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MangOH</title>
+      <link>https://iot.eclipse.org/hardware/mangoh/</link>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/hardware/mangoh/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</description>
+    </item>
+    
+    <item>
+      <title>ReliaGATE 10-20</title>
+      <link>https://iot.eclipse.org/hardware/reliagate-10-20/</link>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/hardware/reliagate-10-20/</guid>
+      <description>Lorem ipsum Occaecat ex reprehenderit sint aliqua magna reprehenderit pariatur in incididunt ut qui reprehenderit magna et exercitation ex reprehenderit adipisicing occaecat Duis irure ex reprehenderit aute occaecat commodo commodo.</description>
+    </item>
+    
+    <item>
+      <title>IoT is Everywhere at EclipseCon Europe</title>
+      <link>https://iot.eclipse.org/news/2015-10-01-iot-is-everywhere-ateclipsecon-europe/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-10-01-iot-is-everywhere-ateclipsecon-europe/</guid>
+      <description>The best thing about the Eclipse IoT community is that participants are real IoT practitioners and IoT experts. Our face-2-face meetings bring together senior technical leaders that are working on the core technology…</description>
+    </item>
+    
+    <item>
+      <title>Siemens</title>
+      <link>https://iot.eclipse.org/member/siemens/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/siemens/</guid>
+      <description>Siemens is a global powerhouse in electrical engineering and electronics. The company has 343,000 employees (as of September 30, 2014) working to develop and manufacture products, design and install complex systems and projects, and tailor a wide range of services for individual requirements.
+Electrification, automation and digitalization are the long-term growth fields of Siemens. In order to take full advantage of the market potential in these fields, our businesses are bundled into nine divisions and healthcare as a separately managed business: Power and Gas, Wind Power and Renewables, Power Generation Services, Energy Management, Building Technologies, Mobility, Digital Factory, Process Industries and Drives, Financial Services, and Healthcare.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Zulu Embedded and running Java on Intel® Edison and Galileo</title>
+      <link>https://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</link>
+      <pubDate>Thu, 24 Sep 2015 16:49:24 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</guid>
+      <description>Zulu Embedded is fully certified, 100% open source Java SE platform based on OpenJDK for embedded devices, M2M, and IoT. Java’s growth in the embedded and IoT space has been limited by licensing and …</description>
+    </item>
+    
+    <item>
+      <title>Industry of Things World</title>
+      <link>https://iot.eclipse.org/events/2015-09-21/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-09-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling the Eclipse IoT Demo Box</title>
+      <link>https://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</link>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</guid>
+      <description>Now that the holiday season is over, we’re fully into “conference season” mode, as the fall is packed with IoT conferences (look at our Events Calendar to see where we will have a presence in the next couple months). Last week, the Eclipse Foundation was exhibiting at M2M Summit…</description>
+    </item>
+    
+    <item>
+      <title>Building &amp; managing IoT applications with LightweightM2M</title>
+      <link>https://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</link>
+      <pubDate>Thu, 10 Sep 2015 16:04:46 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</guid>
+      <description>In this webinar we will present how to solve those problems using OMA LightweightM2M and Eclipse IoT projects Leshan and Wakaama.
+We will cover the following topics:
+ From M2M to Web-of-things, new…  </description>
+    </item>
+    
+    <item>
+      <title>M2M Summit 2015</title>
+      <link>https://iot.eclipse.org/events/2015-09-08-m2m-summit/</link>
+      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-09-08-m2m-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3 hardware platforms of choice to get started with Eclipse IoT</title>
+      <link>https://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</link>
+      <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</guid>
+      <description>When you prototype IoT solutions, it becomes necessary very early in your development phase to use an actual embedded platform to run your software, and to test it in an environment that is as close as possible of what you expect your production environment to be…</description>
+    </item>
+    
+    <item>
+      <title>MQTT Security Fundamentals</title>
+      <link>https://iot.eclipse.org/resources/2015-08-10-mqtt-security/</link>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-08-10-mqtt-security/</guid>
+      <description>Following their MQTT Essentials series, the HiveMQ team is back with 10 great articles on how to secure data exchanges when implementing MQTT communication scenarios. A must read.</description>
+    </item>
+    
+    <item>
+      <title>Remote management of an mbed device with LwM2M, Wakaama &amp; Leshan</title>
+      <link>https://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</link>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</guid>
+      <description>In this video, you can see how Eclipse Wakaama (C implementation of LwM2M) has been ported to an mbed NXP LPC1768 – a device with just 32KB of RAM! – and is controlled from Eclipse Leshan, a LwM2M server in Java.</description>
+    </item>
+    
+    <item>
+      <title>Growing an open community: 3 interesting facts about Eclipse IoT</title>
+      <link>https://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</link>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</guid>
+      <description>About 9 months ago, I published a blog post showing up some interesting metrics about the Eclipse IoT open-source community. I have recently crunched the numbers again and here are 3 interesting facts about Eclipse IoT and its developer community…</description>
+    </item>
+    
+    <item>
+      <title>IoT? No more excuses. Solair to launch “IoT-in-a-Box”</title>
+      <link>https://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</guid>
+      <description>Solair Corporate announces the first IoT “off-the-shelf” product that allows you to connect machines, things and sensors in a few clicks.</description>
+    </item>
+    
+    <item>
+      <title>Programming IoT Gateways in JavaScript with macchina.io</title>
+      <link>https://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</link>
+      <pubDate>Thu, 23 Jul 2015 16:02:36 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</guid>
+      <description>In this talk +Günter Obiltschnig will introduce macchina.io (http://macchina.io), a new open source platform for programming Linux-based IoT gateway devices. macchina.io provides a rich programming en…</description>
+    </item>
+    
+    <item>
+      <title>CA Technologies</title>
+      <link>https://iot.eclipse.org/member/ca/</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/ca/</guid>
+      <description>CA Technologies (NASDAQ: CA) creates software that fuels transformation for companies and enables them to seize the opportunities of the application economy. Software is at the heart of every business, in every industry. From planning to development to management and security, CA is working with companies worldwide to change the way we live, transact and communicate.
+CA software and solutions help our customers drive enterprise-wide productivity, offer differentiated user experiences and open new growth opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Learn from IoT experts with the Virtual IoT meetup group</title>
+      <link>https://iot.eclipse.org/news/2015-07-14-meetup/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-07-14-meetup/</guid>
+      <description>About a year ago, we realized that although the IoT is on everyone’s lips, there is a huge lack of technical resources available for people interested in learning more and getting their hands dirty with…</description>
+    </item>
+    
+    <item>
+      <title>Getting started with MQTT: Everything you need to know about the lightweight IoT protocol</title>
+      <link>https://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</link>
+      <pubDate>Thu, 02 Jul 2015 16:02:06 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</guid>
+      <description>Our digital world is growing rapidly and we have more devices connected to the internet than ever. On top of that every second 80 new devices are added, which introduces new challenges to communicatio…</description>
+    </item>
+    
+    <item>
+      <title>Getting started with MQTT</title>
+      <link>https://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</link>
+      <pubDate>Thu, 02 Jul 2015 17:00:00 +0200</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Software</title>
+      <link>https://iot.eclipse.org/member/generative-software/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/generative-software/</guid>
+      <description>Generative Software is an Eclipse Solution Member since 2011 and joined the Working Group in summer 2015. It aims to provide DSLs, a canonical IoT meta model and Open-Source code generators that target the Eclipse IoT components and projects. This allows you to design and develop complete IoT solutions in a model-driven way, do rapid prototyping and keep track of the solution’s system and software architecture. At the same time, the Virtual Developer Platform serves as a central place, where many different IoT related generators can be found and all of them are accessed in a uniform way, without installation on a developer’s computer, no matter who develops or owns a generator (device manufacturer, platform vendor, solution developer, …).</description>
+    </item>
+    
+    <item>
+      <title>MQTT Essentials</title>
+      <link>https://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</guid>
+      <description>Eclipse IoT Working Group member dc-square, who develops the HiveMQ MQTT broker, has put together a great series of articles to help you master MQTT. Check it out!</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon France 2015</title>
+      <link>https://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huawei</title>
+      <link>https://iot.eclipse.org/member/huawei/</link>
+      <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/huawei/</guid>
+      <description>Huawei Technologies is a high-tech enterprise which specializes in research and development (R&amp;amp;D), production and marketing of communications equipment, providing customized network solutions for telecom carriers in optical, fixed, mobile and data communications networks.
+Huawei’s IoT platform is open and standard based. It provides a common foundation across different applications and services. Its flexible and scalable architecture supports both Carrier and Enterprise market. The unified authentication and flexible data management Improves MSISDN Resource Utilization and provides Anti-theft, anti-attack and anti-embezzlement.</description>
+    </item>
+    
+    <item>
+      <title>O&#39;Reilly SOLID</title>
+      <link>https://iot.eclipse.org/events/2015-06-23-solidcon/</link>
+      <pubDate>Tue, 23 Jun 2015 16:12:42 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-06-23-solidcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Security: An open source and open standard approach</title>
+      <link>https://iot.eclipse.org/news/2015-06-15-iot-security/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-06-15-iot-security/</guid>
+      <description>High on any list of IoT concerns is the security for an IoT solution. How do you make sure devices only talk to the correct servers and only the ‘correct’ devices talk to your servers? Lots of people…</description>
+    </item>
+    
+    <item>
+      <title>Bridging IoTivity and Eclipse SmartHome</title>
+      <link>https://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</link>
+      <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</guid>
+      <description>There are several ongoing initiatives that aim at standardizing protocols and interfaces in order to enable a truly interoperable Internet of Things. On the protocol front, I would certainly argue…</description>
+    </item>
+    
+    <item>
+      <title>Working without wires: Simulating hardware components for IoT application development</title>
+      <link>https://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</link>
+      <pubDate>Wed, 10 Jun 2015 16:40:57 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</guid>
+      <description>IoT software development is often slowed or delayed because the target hardware is unfinished, unstable, or just a few units are available. Existing hardware simulation tools allow developers to test …</description>
+    </item>
+    
+    <item>
+      <title>Simulating hardware components for IoT application development</title>
+      <link>https://iot.eclipse.org/events/2015-06-10-kinoma/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-06-10-kinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESP8266 programming from Eclipse</title>
+      <link>https://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</guid>
+      <description>A really nice article on how to setup Eclipse to program the ESP8266, an incredibly cheap ($3!) and versatile IoT WiFi chip.</description>
+    </item>
+    
+    <item>
+      <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
+      <link>https://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</link>
+      <pubDate>Wed, 27 May 2015 16:19:10 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</guid>
+      <description>There’s no good reason for Operational Intelligence or data-driven insights to be a bottleneck for progress or innovation, especially when it comes to the Internet of Things (IoT). Learn how Splunk’s …</description>
+    </item>
+    
+    <item>
+      <title>Practical Operational Intelligence and Fast Time to Value for the IoT</title>
+      <link>https://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</link>
+      <pubDate>Wed, 27 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Breakfast</title>
+      <link>https://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet of Things: The Role of Free and Open Source Software</title>
+      <link>https://iot.eclipse.org/events/2015-05-20-webinar-dla-piper/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-20-webinar-dla-piper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating end-to-end IoT applications with Eclipse Kura &amp; Solair IoT Platform</title>
+      <link>https://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</link>
+      <pubDate>Thu, 14 May 2015 15:52:28 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</guid>
+      <description>SLIDES: http://www.slideshare.net/solaircorporate/creating-endtoend-iot-applications-with-eclipse-kura-solair-iot-platform
+Starting from the winner project of the first Eclipse Open IoT Challenge, Ca…</description>
+    </item>
+    
+    <item>
+      <title>Creating end-to-end IoT applications with Eclipse Kura &amp; Solair IoT Platform</title>
+      <link>https://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</link>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT World</title>
+      <link>https://iot.eclipse.org/events/2015-05-12-iot-world/</link>
+      <pubDate>Tue, 12 May 2015 16:12:42 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-12-iot-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azul Systems Joins Eclipse Foundation</title>
+      <link>https://iot.eclipse.org/news/2015-05-12-azul/</link>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-05-12-azul/</guid>
+      <description>Azul Systems (Azul), the award-winning leader in Java runtime solutions, today announced its membership in the Eclipse Foundation, bringing over a decade of Java knowledge and expertise to multiple…</description>
+    </item>
+    
+    <item>
+      <title>The IoT Gateway Dream Team: Eclipse Kura &amp; Apache Camel</title>
+      <link>https://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</link>
+      <pubDate>Wed, 06 May 2015 15:44:55 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</guid>
+      <description>Slides from the presentation available at: http://www.slideshare.net/hekonsek/io-t-gateway-dream-team-eclipse-kura-and-apache-camel
+Eclipse Kura is the well recognized field gateway for Internet Of T…</description>
+    </item>
+    
+    <item>
+      <title>IoT DevCon</title>
+      <link>https://iot.eclipse.org/events/2015-05-06-iot-devcon/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-06-iot-devcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The IoT Gateway Dream Team: Eclipse Kura &amp; Apache Camel</title>
+      <link>https://iot.eclipse.org/events/2015-05-06-virtualiot-kura-camel/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-05-06-virtualiot-kura-camel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azul Systems</title>
+      <link>https://iot.eclipse.org/member/azul/</link>
+      <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/azul/</guid>
+      <description>Azul Systems is the world’s only company that is 100% focused on Java and Java runtime technology. We believe that we can help the IoT developers take advantage of the power and productivity of Java by reducing the frictions (licensing costs, field-of-use restrictions) and perceptions (footprint, etc.) gating widespread adoption of the language throughout the IoT.
+As members of the Eclipse community we are bringing Zulu and Zulu Embedded – our 100% open source JDKs, to the IoT.</description>
+    </item>
+    
+    <item>
+      <title>Red Hat, Inc.</title>
+      <link>https://iot.eclipse.org/member/redhat/</link>
+      <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/redhat/</guid>
+      <description>Red Hat, the world&amp;rsquo;s leading open source solutions provider, is headquartered in Raleigh, NC with over 50 satellite offices spanning the globe. CIOs have ranked Red Hat first for value in Enterprise Software for four consecutive years in the CIO Insight Magazine Vendor Value study.Red Hat provides high-quality, affordable technology with its operating system platform, Red Hat Enterprise Linux, together with applications, management and Services Oriented Architecture (SOA) solutions, including the JBoss Enterprise Middleware Suite.</description>
+    </item>
+    
+    <item>
+      <title>Interview with Benjamin Cabé on the Internet of Things at Eclipse</title>
+      <link>https://iot.eclipse.org/news/2015-04-15-infoq/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-04-15-infoq/</guid>
+      <description>Recorded at EclipseCon 2015</description>
+    </item>
+    
+    <item>
+      <title>Journée IoT INSA</title>
+      <link>https://iot.eclipse.org/events/2015-04-09-iot-insa/</link>
+      <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-04-09-iot-insa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open IoT Challenge Winners</title>
+      <link>https://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</guid>
+      <description>Oh boy, this has been a difficult call, but we are happy to finally be able to announce the three winners of our Open IoT Challenge! The challenge has been keeping our participants busy for two months, and…</description>
+    </item>
+    
+    <item>
+      <title>IoT Developer Survey: What are developers doing with IoT?</title>
+      <link>https://iot.eclipse.org/news/2015-04-03-survey/</link>
+      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-04-03-survey/</guid>
+      <description>We have just published the results of the first IoT Developer Survey. There are some very interesting findings so I encourage you to check out the report. The raw data is also available…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse OM2M Tutorial</title>
+      <link>https://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</guid>
+      <description>If you want to develop plug-ins for the Eclipse OM2M project, an implementation of the SmartM2M standard, this is the perfect tutorial to get you started!</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge – Final submissions</title>
+      <link>https://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</guid>
+      <description>The Open IoT challenge ended earlier this week, and it was pretty exciting to see the final submissions coming in the form of blog posts and video during the last hours before the deadline…</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Stack for Java Tutorial</title>
+      <link>https://iot.eclipse.org/resources/2015-03-24-java-tutorial/</link>
+      <pubDate>Tue, 24 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2015-03-24-java-tutorial/</guid>
+      <description>Using Eclipse Kura, MQTT and CoAP to build a smart greenhouse. Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.
+Thanks to the recent efforts towards making Java…</description>
+    </item>
+    
+    <item>
+      <title>IoT Conference – Spring</title>
+      <link>https://iot.eclipse.org/events/2015-03-23-iot-conference/</link>
+      <pubDate>Mon, 23 Mar 2015 16:12:42 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-03-23-iot-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Open IoT Challenge projects are way cool</title>
+      <link>https://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</guid>
+      <description>There are only a few days left for the participants to the Open IoT Challenge to wrap up their projects and share the final results of what they have achieved over the course of the last couple months…</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Day Dresden</title>
+      <link>https://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EclipseCon NA 2015</title>
+      <link>https://iot.eclipse.org/events/2015-03-09-eclipsecon2015/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2015-03-09-eclipsecon2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sierra Wireless</title>
+      <link>https://iot.eclipse.org/member/sierra/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:22 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/sierra/</guid>
+      <description>Sierra Wireless is the global leader in machine-to-machine (M2M) devices and cloud services, delivering intelligent wireless solutions that simplify the connected world. We offer the industry&amp;rsquo;s most comprehensive portfolio of 2G, 3G and 4G embedded modules and gateways, seamlessly integrated with our secure M2M cloud services.
+Sierra Wireless is deeply involved in the Eclipse IoT community: we founded the IoT Working Group, and are contributing to several projects including Wakaama, Californium, LDT,… The Eclipse IoT technologies are also used in our AirVantage M2M Cloud.</description>
+    </item>
+    
+    <item>
+      <title>openHAB Foundation</title>
+      <link>https://iot.eclipse.org/member/openhab/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/openhab/</guid>
+      <description>The openHAB Foundation e.V. is a non-profit organisation.
+Its purpose is to educate the public about the possibilities that Free software offers in the domain of smart homes.
+More and more new technologies and devices are introduced to our living, working and business environment. Although all of them are designed to make our lives easier, they have a common problem: The lack of interoperability, due to incompatible technology stacks and conflicting commercial interests.</description>
+    </item>
+    
+    <item>
+      <title>Litmus Automation</title>
+      <link>https://iot.eclipse.org/member/litmus/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/litmus/</guid>
+      <description>Litmus Automation aims to help businesses adapt to the smart revolution in technology by enabling connected solutions. The company&amp;rsquo;s full-featured Internet of Things platform Loop aids in accelerating revenue generation and operational business impact from connected applications.</description>
+    </item>
+    
+    <item>
+      <title>M2M Alliance</title>
+      <link>https://iot.eclipse.org/member/m2m-alliance/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:20 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/m2m-alliance/</guid>
+      <description>As the largest association for the machine-to-machine sector, the M2M Alliance is considered the platform and voice for providers and users of M2M solutions. The primary objective of the M2M Alliance is to promote M2M technologies and solutions. The M2M Alliance actively advocates for the economic interests of its members, and promotes cooperation and the exchange of experiences among the various sectors and companies. The M2M Alliance represents the interests of the M2M industry by creating better general conditions for attractive and lucrative M2M solutions through the constant interaction among industry, R&amp;amp;D and policy makers.</description>
+    </item>
+    
+    <item>
+      <title>LAAS-CNRS</title>
+      <link>https://iot.eclipse.org/member/laas/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/laas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itemis</title>
+      <link>https://iot.eclipse.org/member/itemis/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:19 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/itemis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GadgetKeeper</title>
+      <link>https://iot.eclipse.org/member/gadgetkeeper/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/gadgetkeeper/</guid>
+      <description>GadgetKeeper is an Internet Of Things platform allowing the rapid creation if IoT solutions to connect your sensors, devices, equipment (&amp;ldquo;Things&amp;rdquo;) with people and systems.
+GadgetKeeper&amp;rsquo;s technology eliminates complexity by simplifying and standardizing the way information is managed and exchanged so that physical and virtual assets and services can work together as one integrated system.
+GadgetKeeper provides you with foundational IoT building blocks (compete object model for things/services, templates and versioning, reach data types, programmable business logic) and services (data storage, time series, multiple communication protocols, integration with external services, life-cycle management and elastic scalability) allowing you to focus on product innovation rather than on enabling infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>IBH SYSTEMS</title>
+      <link>https://iot.eclipse.org/member/ibh/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/ibh/</guid>
+      <description>IBH SYSTEMS GmbH is the lead developer of the Eclipse SCADA system, a true open source SCADA platform.
+Eclipse SCADA offers a fully featured SCADA platform from the integration of field devices, over middleware functionality, to HMI components. It provides a communication abstraction layer, monitoring and archival services, a visual interface and a sophisticated system to configure complex SCADA installations. As the lead developer, IBH SYSTEMS GmbH offers consulting, custom development and integration for Eclipse SCADA.</description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://iot.eclipse.org/member/ibm/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MicroEJ</title>
+      <link>https://iot.eclipse.org/member/microej/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:18 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/microej/</guid>
+      <description>MicroEJ is an independent software vendor of cost-driven solutions for the smart digital world. With more than $20M of R&amp;amp;D investment, MicroEJ is focused on providing turnkey software products to solve the embedded worlds major business challenges and to enable application-driven uses and services in the IoT world commensurate with the cost and resource constraints of that world. MicroEJ helps OEMs create flexible and future-proof smart devices, brings rich user experiences, and enables additional sources of revenue across the whole value chain, from sensor data collection to cloud-based services.</description>
+    </item>
+    
+    <item>
+      <title>Deutsche Telekom</title>
+      <link>https://iot.eclipse.org/member/dtag/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/dtag/</guid>
+      <description>QIVICON is an alliance of leading German industrial companies, initiated by Deutsche Telekom AG with the aim of promoting the field of Smart Home technology and providing solutions for customers on a multi-manufacturer basis. Together with its partners EnBW, eQ-3, Miele and Samsung, Deutsche Telekom is developing a platform that covers areas such as energy efficiency, security and convenience in the home for people of every age group. QIVICON enables appliances and functions from different brands to be combined easily in the Smart Home.</description>
+    </item>
+    
+    <item>
+      <title>Eurotech</title>
+      <link>https://iot.eclipse.org/member/eurotech/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:17 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/eurotech/</guid>
+      <description>Eurotech believes in open, standards-based systems to deliver on the promise of the Internet of Things, and works with world-class partners and organizations to evangelize that strategy, including as a founding member of the IoT Working Group in the Eclipse Foundation and OASIS MQTT Technical Committee. Eurotech has contributed the Kura project to the Eclipse Foundation and actively participates in many associated projects and activities.
+Eurotech solutions combine software, application framework, hardware, and device cloud services that drive business success.</description>
+    </item>
+    
+    <item>
+      <title>Canonical</title>
+      <link>https://iot.eclipse.org/member/canonical/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/canonical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cisco</title>
+      <link>https://iot.eclipse.org/member/cisco/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/cisco/</guid>
+      <description>Cisco (NASDAQ: CSCO) enables people to make powerful connections-whether in business, education, philanthropy, or creativity. Cisco hardware, software, and service offerings are used to create the Internet solutions that make networks possible-providing easy access to information anywhere, at any time.Cisco was founded in 1984 by a small group of computer scientists from Stanford University. Since the company&amp;rsquo;s inception, Cisco engineers have been leaders in the development of Internet Protocol (IP)-based networking technologies.</description>
+    </item>
+    
+    <item>
+      <title>dc-square</title>
+      <link>https://iot.eclipse.org/member/dcsquare/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/dcsquare/</guid>
+      <description>dc-square is a company based in Southern Germany building software solutions for the Internet of Things. Our product HiveMQ is a MQTT broker for the enterprise, which makes it possible to connect thousands and millions of devices over wired or wireless networks with very efficient bandwidth usage and push technology. Our focus is on providing IoT building blocks for the enterprise and advice on, consult on or implement IoT solutions for companies around them.</description>
+    </item>
+    
+    <item>
+      <title>Bitreactive</title>
+      <link>https://iot.eclipse.org/member/bitreactive/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/bitreactive/</guid>
+      <description>Bitreactive makes Reactive Blocks, a tool designed to accelerate and simplify M2M and IoT software development. Its benefits are especially well suited for applications that run autonomously on gateways. Functionality that is often used is provided by dedicated building blocks, for instance for protocols like MQTT or Modbus, access to data collection APIs or processing and buffering of data. The tool checks if applications work correctly with regard to their behavior, and detects a range of errors automatically that are hard to find by traditional testing.</description>
+    </item>
+    
+    <item>
+      <title>Bosch Software Innovations</title>
+      <link>https://iot.eclipse.org/member/bosch/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/bosch/</guid>
+      <description>Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.
+The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models.</description>
+    </item>
+    
+    <item>
+      <title>OpenText Analytics</title>
+      <link>https://iot.eclipse.org/member/opentext/</link>
+      <pubDate>Sun, 08 Mar 2015 15:31:14 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/opentext/</guid>
+      <description>OpenText Analytics and Reporting products make data-driven applications simple for everyone in your organization, including developers, employees, partners, IT, and customers. Build enterprise reporting applications that are as unique as your business, personalized to meet your data needs in any industry, on any platform, for any device.
+To stay competitive, your organization needs to make the right business decisions at the right time, with compelling data to back up your actions.</description>
+    </item>
+    
+    <item>
+      <title>Case Study MQTT: Why Open Source and Open Standards Drives Adoption</title>
+      <link>https://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</link>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</guid>
+      <description>For the last 3 years, we have been talking about why IoT needs open source and open standards to be successful. We are now seeing great examples of why this is so true and why open communities will lead IoT adoption…</description>
+    </item>
+    
+    <item>
+      <title>Announcing the Open IoT Challenge</title>
+      <link>https://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</link>
+      <pubDate>Mon, 09 Feb 2015 16:28:26 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</guid>
+      <description>2014 is almost over, and one of the first big events for Eclipse IoT next year will be EclipseCon 2015, March 9-12 in Burlingame, California. If you haven’t seen the EclipseCon program already, I highly…</description>
+    </item>
+    
+    <item>
+      <title>Bring Your IoT Ideas to Life with the WunderBar</title>
+      <link>https://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Dec 2014 16:38:12 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</guid>
+      <description>You’re full of fantastic IoT ideas, but bringing them to fruition is never an easy task. Especially when it comes time to work with your sensors and electronics. Hardware can present a significant obs…</description>
+    </item>
+    
+    <item>
+      <title>Building home gateways with Eclipse SmartHome</title>
+      <link>https://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</link>
+      <pubDate>Tue, 04 Nov 2014 16:44:55 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</guid>
+      <description>Slides are available on Slideshare: http://slideshare.net/xthirtynine/eclipse-smart-home-webinar
+Despite the buzz around the Internet of Things (IoT) there are still many devices, systems and protoco…</description>
+    </item>
+    
+    <item>
+      <title>Introducing an open plaform for your SCADA project</title>
+      <link>https://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</link>
+      <pubDate>Tue, 21 Oct 2014 15:38:06 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</guid>
+      <description>Eclipse SCADA provides a platform independent, comprehensive SCADA solution from the connection to the field devices, through the data enrichment in the SCADA server, and the visualization for the use…</description>
+    </item>
+    
+    <item>
+      <title>OM2M: Standardized service platform for M2M interoperability</title>
+      <link>https://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</link>
+      <pubDate>Tue, 14 Oct 2014 15:48:40 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</guid>
+      <description>Machine-to Machine (M2M) promises to interconnect billions of devices in near future covering various domains. However, M2M is suffering from a high vertical fragmentation of current M2M markets and l…</description>
+    </item>
+    
+    <item>
+      <title>Visualize IoT data with BIRT</title>
+      <link>https://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</link>
+      <pubDate>Tue, 07 Oct 2014 15:39:58 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</guid>
+      <description>IoT refers to the connection and intercommunication of different devices, systems, and services in a single platform. This plays right into BIRT&amp;rsquo;s ability to connect to and relate many different sourc…</description>
+    </item>
+    
+    <item>
+      <title>Connecting Sensor Networks</title>
+      <link>https://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</link>
+      <pubDate>Tue, 23 Sep 2014 15:47:16 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</guid>
+      <description>Slides: http://www.slideshare.net/mkovatsc/virtual-iot-meetup-connecting-sensor-networks Sensor networks are a fundamental building of Internet of Things (IoT) applications, as they provide the interf…</description>
+    </item>
+    
+    <item>
+      <title>Building the Internet of Things with the Eclipse IoT stack: a practical example</title>
+      <link>https://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</link>
+      <pubDate>Tue, 16 Sep 2014 15:50:54 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</guid>
+      <description>It may seem hard to get started with the Internet of Things (IoT) with so many technologies, protocols, hardware platforms, … involved. In this session, Benjamin Cabé from the Eclipse Foundation will …</description>
+    </item>
+    
+    <item>
+      <title>IoT Gateway: Reducing the distance between embedded and enterprise technologies</title>
+      <link>https://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</link>
+      <pubDate>Tue, 09 Sep 2014 15:48:31 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</guid>
+      <description>Slides of the presentation: http://slideshare.net/Eurotechchannel/kuram2miotgateway
+Internet of Things adoption is constrained by disparate implementations and proprietary solutions. The emergence of…</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot.eclipse.org/cloud/dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/cloud/dummy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot.eclipse.org/gateways/dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/gateways/dummy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot.eclipse.org/open-iot-challenge/dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/dummy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot.eclipse.org/projects/dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/projects/dummy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot.eclipse.org/working-group/dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/working-group/dummy/</guid>
       <description></description>
     </item>
     
