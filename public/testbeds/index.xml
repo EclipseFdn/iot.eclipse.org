@@ -16,9 +16,18 @@
       
       <guid>http://iot.eclipse.org/testbeds/asset-tracking/</guid>
       <description>&lt;div class=&#34;row&#34;&gt;
-    &lt;img src=&#34;http://iot.eclipse.org/assets/images/testbeds/asset-tracking-architecture.png&#34; class=&#34;img-responsive&#34;&gt;
-    &lt;div class=&#34;col-md-3&#34;&gt;
-        
+    &lt;div class=&#34;col-md-12&#34;&gt;
+        &lt;img src=&#34;http://iot.eclipse.org/assets/images/testbeds/asset-tracking-architecture.png&#34; class=&#34;img-responsive&#34;&gt;        
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-12&#34;&gt;
+        &lt;h2 class=&#34;purple&#34;&gt;Leveraging Eclipse Kura for data acquisition and reliable connectivity&lt;/h2&gt;
+
+        &lt;p&gt;Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.&lt;/p&gt;
+
+        &lt;h2 class=&#34;purple&#34;&gt;Eclipse Kapua and OpenShift at the heart of the backend system&lt;/h2&gt;
+
+        &lt;p&gt;Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.&lt;/p&gt;
+        &lt;p&gt;Occaecat duis aliquip adipisicing aliquip voluptate deserunt exercitation magna anim ea ut aute excepteur dolore ut dolor in voluptate commodo laborum nostrud aliqua sunt sunt esse laborum aute consequat adipisicing ut nostrud dolore minim exercitation do. Lorem ipsum dolor nisi culpa in non exercitation magna labore elit sit in deserunt dolore dolore.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 </description>
