@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iot.eclipse.org &mdash; Testbeds / Asset Tracking</title>
-  <meta name="description" content="iot.eclipse.org is all about getting the IoT and M2M developers involved in what is happening in the different Eclipse projects">
+  <meta name="description" content="Eclipse IoT hosts open testbeds that demonstrate and test commercial and open source components needed to create specific industry solutions.">
   <meta name="author" content="Eclipse.org">
   <link rel="author" href="humans.txt" />
   
@@ -146,9 +146,30 @@
 
       </div>
     </div>
+
+
+
+
     <section class="first row-fluid" style="padding-bottom: 70px;">
       <div class="container">
+
         <div class="row">
+
+      <div class="jumbotron col-md-12" style="margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
+        <div class="row">
+          <div class="col-md-8">
+            <p>Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.<br/>
+The Asset Tracking Management testbed demonstrates how assets with various sensors can be tracked in real-time in order to minimize the cost of lost or damaged parcels.
+</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/" target="_blank"><img src="/assets/images/testbeds/asset-tracking-demo.png" class="img-responsive"></a>
+            <p><a class="btn btn-primary btn-lg" href="http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/" target="_blank" role="button" style="margin-top: .5em;">Live Demo</a></p>
+          </div>
+        </div>
+      </div>
+
+
           <div class="col-md-12">
 
             
@@ -160,11 +181,8 @@
 </p>
 <p>
     Valuable parcels may be equipped with a removable sensor that can collect information such as temperature, humidity, or vibration levels during transit. However, the wide variety of environments that parcels go through, from planes, to airports to delivery trucks makes it particularly challenging to provide a solution that enables tracking in real-time.<br/>
-    What's more, an efficient asset tracking solution needs to adapt to XXX</br>
+    What's more, an efficient asset tracking solution should enable the implementation of alerts that, based on specific business rules, can let people in the field (e.g truck drivers) when they need to perform given action (e.g drive slower!).</br>
     Finally, it might be desirable for a shipping company to not only use data collected on parcels internally (e.g to help prevent damages based on correlations found in certain datasets), but also to expose it to their customers, and raise their satisfaction level by means of providing live feedback and guarantees on how a package is being handled.   
-</p>
-<p>
-    Blah
 </p>
 </p>
             
@@ -178,14 +196,23 @@
         <img src="/assets/images/testbeds/asset-tracking-architecture.png" class="img-responsive">        
     </div>
     <div class="col-md-12">
-        <h2 class="purple">Leveraging Eclipse Kura for data acquisition and reliable connectivity</h2>
+        <h3 class="purple">Leveraging Eclipse Kura for data acquisition and reliable connectivity</h3>
 
-        <p>Lorem ipsum officia excepteur labore dolor ex dolore ex exercitation consequat et incididunt do veniam duis nulla incididunt adipisicing ea dolor laborum nostrud.</p>
+        <p>The <a href="https://eclipse.org/kura" target="_blank">Eclipse Kura</a> open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.</p>
+        <p>It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, it provides a great starting point for interfacing with the sensors in order to collect data such as temperature, humidity, vibration, etc.</p>
+        <p>The Kura application is using the IoT cloud communication capabilities of the framework to periodically update sensor data to an Eclipse Kapua backend where the data will be consolidated, archived, and exposed to third-party applications. Eclipse Kura being agnostic of the cloud backend it is being connected to, it is important to not that the gateway could be connected to e.g AWS IoT, IBM Waton IoT or Microsoft Azure IoT Hub, and not just Eclipse Kapua.</p>
 
-        <h2 class="purple">Eclipse Kapua and OpenShift at the heart of the backend system</h2>
 
-        <p>Elit dolore nisi amet ut enim aliqua elit reprehenderit officia ad culpa dolore ullamco amet officia mollit tempor aliqua irure eiusmod id in consequat proident enim sed dolore veniam dolore elit pariatur dolore ad laborum duis.</p>
-        <p>Occaecat duis aliquip adipisicing aliquip voluptate deserunt exercitation magna anim ea ut aute excepteur dolore ut dolor in voluptate commodo laborum nostrud aliqua sunt sunt esse laborum aute consequat adipisicing ut nostrud dolore minim exercitation do. Lorem ipsum dolor nisi culpa in non exercitation magna labore elit sit in deserunt dolore dolore.</p>
+        <h3 class="purple">Eclipse Kapua and OpenShift at the heart of the backend system</h3>
+
+        <p>The backend system for the Eclipse IoT Asset Tracking testbed is based on <a href="https://iot.eclipse.org/kapua" target="_blank">Eclipse Kapua</a>. Eclipse Kapua is a modular platform providing the services required to manage IoT gateways and smart edge devices.</p>
+
+        <p>The Asset Tracking testbed features an Eclipse Kapua environment running on top of OpenShift, an open source application container platform, that provides a solid foundation for scaling the cloud backend should the number of assets to monitor grow substantially. As Eclipse Kapua is based on microservices, a typical example would be to create additional instances (pods) of the database service in order to handle better the amount of data generated by the assets/gateways on the field.</p>
+   
+        <h3 class="purple">Open APIs</h3>
+
+        <p>Eclipse Kapua's REST API enables third parties to easily interact with field devices and their data. The Asset Tracking testbed showcases a web application built using the AngularJS framework and that uses Kapua's API to display sensor data in real-time, access consolidated historical data, send alerts in the field, etc.</p>
+
     </div>
 </div>
 </p>
@@ -209,7 +236,7 @@
             <h1 class="purple">Participating Organizations</h1>
               
               <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
                   <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-redhat.png" class="img-responsive" alt="logo-redhat" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
@@ -220,7 +247,7 @@
               </div>
               
               <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
                   <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-azul-systems.png" class="img-responsive" alt="logo-azul-systems" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
@@ -231,7 +258,7 @@
               </div>
               
               <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
                   <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-codenvy.png" class="img-responsive" alt="logo-codenvy" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
@@ -242,7 +269,7 @@
               </div>
               
               <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
                   <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-eurotech.png" class="img-responsive" alt="logo-eurotech" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
@@ -253,7 +280,7 @@
               </div>
               
               <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 50px; ">
+                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
                   <div style="min-height: 120px; line-height: 120px;">
                     <img src="/assets/images/members/logo-samsung-artik.png" class="img-responsive" alt="logo-samsung-artik" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </div>
