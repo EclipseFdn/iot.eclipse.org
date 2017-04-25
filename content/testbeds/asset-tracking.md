@@ -6,8 +6,12 @@ market_segment = [
 ]
 
 description = """
-<p>Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.</p>
 <p>The <strong>Asset Tracking Management</strong> testbed demonstrates how assets with various sensors can be tracked in real-time in order to minimize the cost of lost or damaged parcels.</p>
+"""
+
+sub_description = """
+<p>Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.</p>
+<p>XXX Et exercitation eiusmod deserunt amet in do velit labore dolor in ex qui nisi proident cillum sed eu nulla.</p>
 """
 
 demo_link = "http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/"

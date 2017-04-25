@@ -61,16 +61,16 @@
     <div class="well" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
       <div class="container xpurple">
         <h2><a href="/testbeds" style="color: white; ">Eclipse Open IoT Testbeds</a><h2>
-        <h1>{{ .Title }}</h1>
-<!--         <p class="lead">
-          Lorem ipsum Mollit dolore ullamco cillum dolor aliqua quis Excepteur incididunt proident sed aliqua laboris consectetur sit deserunt mollit amet.
-        </p> -->
+        <h1>» {{ .Title }}</h1>
+         <p class="lead">
+                {{ .Description | safeHTML }}
+        </p> 
       </div>
     </div>
 
 
 
-
+  {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
     <section class="row-fluid" style="padding-bottom: 0px;">
       <div class="container">
 
@@ -79,7 +79,7 @@
           <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
             <div class="row">
               <div class="col-md-8">
-                <p>{{ .Description | safeHTML }}</p>
+                <p>{{ .Params.sub_description | safeHTML }}</p>
               </div>
               <div class="col-md-4 text-center">
                 <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
@@ -92,6 +92,7 @@
         </div>
       </div>
     </section>
+  {{ end }}
 
     <section class="second row-fluid" style="padding-bottom: 70px;">
       <div class="container">

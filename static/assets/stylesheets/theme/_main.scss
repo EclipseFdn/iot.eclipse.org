@@ -728,15 +728,15 @@ main.main {
             text-align: center;
             line-height: 10em;
 
-            background: lighten($blue, 0%);
+            background: darken($blue, 20%);
             &:hover {
-                background: darken($blue, 5%);
+                background: darken($blue, 30%);
             } 
 
             &#propose-a-new-testbed {
-                background: lighten($blue, 20%);
+                background: lighten($blue, 15%);
                 &:hover {
-                    background: lighten($blue, 15%);
+                    background: lighten($blue, 5%);
                 } 
             }
 
@@ -744,6 +744,9 @@ main.main {
                 display: inline-block;
                 vertical-align: middle;
                 padding-top: 0.5em;
+                font-size: 32px;
+                //font-weight: 500;
+                font-variant: small-caps;
             }
         }
     }
@@ -751,8 +754,12 @@ main.main {
 
 
 .testbeds-single-page {
+    .well {
+        background-color: darken($blue, 20%) !important;
+    }
+
     h1 {
-        margin-top: 1.2em;
+        margin-top: 0em;
         margin-bottom: .5em;
     }
 }
