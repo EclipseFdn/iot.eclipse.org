@@ -71,26 +71,32 @@
 
 
 
-    <section class="first row-fluid" style="padding-bottom: 70px;">
+    <section class="row-fluid" style="padding-bottom: 0px;">
       <div class="container">
 
         <div class="row">
 
-      <div class="jumbotron col-md-12" style="margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
-        <div class="row">
-          <div class="col-md-8">
-            <p>{{ .Description | safeHTML }}</p>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
-            <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
-            &nbsp;
-            <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
+          <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
+            <div class="row">
+              <div class="col-md-8">
+                <p>{{ .Description | safeHTML }}</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
+                <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
+                &nbsp;
+                <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="second row-fluid" style="padding-bottom: 70px;">
+      <div class="container">
 
+        <div class="row">
           <div class="col-md-12">
 
             {{ if .Params.challenge }}
@@ -139,7 +145,7 @@
       </div>
     </section>
 
-    <section class="second row-fluid">
+    <section class="third row-fluid">
       <div class="container">
         <div class="row">
           <div class="col-md-12" style="margin-top: -3em;">
