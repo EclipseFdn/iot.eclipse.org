@@ -58,8 +58,8 @@ EclipseSource is focused on Business Applications, Mobile Applications, Modeling
       <pubDate>Thu, 03 Nov 2016 16:47:16 -0700</pubDate>
       
       <guid>https://iot.eclipse.org/member/codenvy/</guid>
-      <description>Codenvy makes cloud workspaces for development teams. Our product is based on the Eclipse Che project (many of our developers are Che committers) and adds enterprise features and management capabilities to Che. We have worked with Samsung and others to build out IoT-focused development products based on Che.
-Codenvy has 50 employees and has raised $9M from Toba Capital, Auriga Ventures, and angels.</description>
+      <description>Eclipse Che provides an open source developer workspace server and cloud IDE that can be used with IoT platforms leveraging any language - from C/C++ to Java, JavaScript, Python and others. Che&amp;rsquo;s unique architecture allows it to be used locally or in the cloud at codenvy.io.
+Organizations productizing IoT can white label Eclipse Che, or create an IoT focused multi-tenant cloud IDE derived from Codenvy&amp;rsquo;s on-premises offering. For more information contact info@codenvy.</description>
     </item>
     
     <item>
