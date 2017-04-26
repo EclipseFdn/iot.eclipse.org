@@ -11,7 +11,7 @@ description = """
 
 sub_description = """
 <p>Many high-value assets move through airports, railways, and via trucks. These assets need to be monitored in real-time for location and environmental conditions.</p>
-<p>XXX Et exercitation eiusmod deserunt amet in do velit labore dolor in ex qui nisi proident cillum sed eu nulla.</p>
+<p>Check out how the Eclipse IoT Open Testbed for Asset Tracking is solving this problem.</p>
 """
 
 demo_link = "http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/"
@@ -43,7 +43,7 @@ role = "<strong>Codenvy</strong> provides world class tools that simplify develo
 
 [[organizations]]
 name = "eurotech"
-role = "<strong>Eurotech</strong>’s industrial IoT gateways such as the ReliaGATE series are fully compatible with Eclipse Kura and provide a commercial-grade solution that XXX"
+role = "<strong>Eurotech</strong>’s industrial IoT gateways such as the ReliaGATE series are fully compatible with Eclipse Kura and provide a turnkey solution for deploying software at the edge that is fully compatible with the Eclipse Kapua-based cloud backend used in the testbed."
 
 [[organizations]]
 name = "samsung-artik"
