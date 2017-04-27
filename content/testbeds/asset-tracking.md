@@ -22,6 +22,7 @@ challenge =  """
     The overall cost of mishandled bags to the air transport industry was US$2.4 billion in 2014 [<a href=\"http://www.sita.aero/resources/type/surveys-reports/baggage-report-2015\" target=\"blank\">SITA - Baggage Report 2015</a>].<br/>
     A key concern for shipping companies is to be able to know when and where damage is taking place so that they can, overtime, learn from this data and minimize the number of damaged parcels.
 </p>
+<img src="/assets/images/testbeds/asset-tracking-value-proposition.png" class="img-responsive" style="margin-top: 3em;margin-bottom: 3em;">        
 <p>
     Valuable parcels may be equipped with a removable sensor that can collect information such as temperature, humidity, or vibration levels during transit. However, the wide variety of environments that parcels go through, from planes, to airports to delivery trucks makes it particularly challenging to provide a solution that enables tracking in real-time.<br/>
     What's more, an efficient asset tracking solution should enable the implementation of alerts that, based on specific business rules, can let people in the field (e.g truck drivers) when they need to perform given action (e.g drive slower!).</br>
@@ -39,7 +40,7 @@ role = "<strong>Azul Systems</strong> is contributing their Java and JVM experti
 
 [[organizations]]
 name = "codenvy"
-role = "<strong>Codenvy</strong> provides world class tools that simplify developers’ lives by enabling on-demand, collaborative and constraint-free workspaces. Codenvy is contributing to the testbed by providing the Eclipse Che recipes needed to start developing extensions to the testbeds in minutes."
+role = "<strong>Codenvy</strong> provides world class tools that simplify developers’ lives by enabling on-demand, collaborative and constraint-free workspaces. Codenvy is contributing to the testbed by providing the Eclipse Che recipes needed to start developing extensions to the testbed in minutes."
 
 [[organizations]]
 name = "eurotech"
@@ -76,6 +77,10 @@ link = "https://www.azul.com/products/zulu-embedded/"
 [[learn_more]]
 name = "Eurotech gateways"
 link = "http://www.eurotech.com/en/products/devices/iot+gateways"
+
+[[learn_more]]
+name = "Codenvy Getting Started"
+link = "https://codenvy.com/product/"
 
 [[learn_more]]
 name = "Access the source code"
