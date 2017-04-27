@@ -14,7 +14,7 @@ sub_description = """
 <p>Check out how the Eclipse IoT Open Testbed for Asset Tracking is solving this problem.</p>
 """
 
-demo_link = "http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/"
+demo_link = "https://iot.eclipse.org/testbeds/asset-tracking/demo"
 source_code_link = "https://github.com/eclipselabs/eclipseiot-testbed-assettracking"
 
 challenge =  """
