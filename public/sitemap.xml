@@ -52,6 +52,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/news/2017-04-27-testbeds/</loc>
+    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</loc>
     <lastmod>2017-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -1427,7 +1432,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/</loc>
-    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unveiling the Eclipse IoT Open Testbeds</title>
+      <link>https://iot.eclipse.org/news/2017-04-27-testbeds/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-04-27-testbeds/</guid>
+      <description>Today we are announcing the Eclipse IoT Open Testbeds, a new initiative for driving adoption of open source and open standards in the industry.</description>
+    </item>
     
     <item>
       <title>IoT Developer Trends 2017 Edition</title>
