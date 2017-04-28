@@ -82,7 +82,8 @@ var releases = {
   "iot.kura": "2.1.0",
   "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0",
-  "iot.vorto": "0.9"
+  "iot.vorto": "0.9",
+  "iot.milo": "0.1.0"
 };
 var download_urls = {
   "iot.paho": "https://www.eclipse.org/paho/downloads.php",
@@ -111,7 +112,9 @@ var download_urls = {
   "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
   "iot.unide": "http://www.eclipse.org/unide",
   "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
-  "iot.agail": "http://projects.eclipse.org/projects/iot.agail"
+  "iot.agail": "http://projects.eclipse.org/projects/iot.agail",
+  "iot.ditto": "http://projects.eclipse.org/projects/iot.ditto",
+  "iot.keti": "http://projects.eclipse.org/projects/iot.keti"
 };
 var download_stats = {
   "iot.hawkbit": 472,
@@ -125,7 +128,6 @@ var download_stats = {
   "iot.kura": 541,
   "iot.ponte": 174
 };
-
 
 (function($, window, document) {
     $(function() {
