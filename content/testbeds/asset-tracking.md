@@ -40,7 +40,7 @@ role = "<strong>Azul Systems</strong> is contributing their Java and JVM experti
 
 [[organizations]]
 name = "codenvy"
-role = "<strong>Codenvy</strong> provides world class tools that simplify developers’ lives by enabling on-demand, collaborative and constraint-free workspaces. Codenvy is contributing to the testbed by providing the Eclipse Che recipes needed to start developing extensions to the testbed in minutes."
+role = "<strong>Codenvy</strong> provides world class tools that simplify developers’ lives by enabling on-demand, collaborative and constraint-free workspaces. Codenvy is contributing to the testbed by providing the Eclipse Che recipes needed to start developing extensions to the testbed in minutes. <br/>Organizations productizing IoT can white label Eclipse Che, or create an IoT focused multi-tenant cloud IDE derived from Codenvy's on-premises offering."
 
 [[organizations]]
 name = "eurotech"
