@@ -6,10 +6,28 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 17:03:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2017 15:34:37 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IoT Developer Trends - 2017 Edition</title>
+      <link>https://iot.eclipse.org/resources/2017-04-26-virtual-iot-recording/</link>
+      <pubDate>Wed, 26 Apr 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-04-26-virtual-iot-recording/</guid>
+      <description>Slides: https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017 The IoT Developer Survey Results are in for 2017! We received a record of 713 responses this year. During the webinar, we will …</description>
+    </item>
+    
+    <item>
+      <title>What Makes an Open IoT Developer Challenge 3.0 Winner!</title>
+      <link>https://iot.eclipse.org/resources/2017-04-13-virtual-iot-recording/</link>
+      <pubDate>Thu, 13 Apr 2017 14:10:46 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-04-13-virtual-iot-recording/</guid>
+      <description>The Open IoT Challenge is an annual challenge to promote the use of open source and open standards in IoT solutions. The winners of the third Challenge were recently announced and they will be joining…</description>
+    </item>
     
     <item>
       <title>How Eclipse Hono enables device-related communication for the IoT</title>
