@@ -47,6 +47,16 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/resources/2017-05-09-testbed-demo/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-05-09-testbed-demo/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-05-02-redhatsummit/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
   </url>
@@ -1372,6 +1382,12 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/asset-tracking/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/tags/bitreactive/</loc>
     <lastmod>2017-04-26T15:34:37+00:00</lastmod>
     <priority>0</priority>
@@ -1396,6 +1412,12 @@
   
   <url>
     <loc>https://iot.eclipse.org/cloud/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/demo/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1442,7 +1464,13 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/</loc>
-    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/open-iot/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1464,7 +1492,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1476,7 +1504,13 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/</loc>
-    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/testbeds/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1488,7 +1522,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   

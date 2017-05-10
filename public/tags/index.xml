@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Apr 2017 15:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 15:34:37 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asset Tracking</title>
+      <link>https://iot.eclipse.org/tags/asset-tracking/</link>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/asset-tracking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bitreactive</title>
@@ -30,6 +39,15 @@
     </item>
     
     <item>
+      <title>Demo</title>
+      <link>https://iot.eclipse.org/tags/demo/</link>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Eclipse Hono</title>
       <link>https://iot.eclipse.org/tags/eclipse-hono/</link>
       <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
@@ -39,9 +57,27 @@
     </item>
     
     <item>
+      <title>Open Iot</title>
+      <link>https://iot.eclipse.org/tags/open-iot/</link>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/open-iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testbeds</title>
+      <link>https://iot.eclipse.org/tags/testbeds/</link>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/testbeds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Video</title>
       <link>https://iot.eclipse.org/tags/video/</link>
-      <pubDate>Wed, 26 Apr 2017 15:34:37 +0000</pubDate>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/video/</guid>
       <description></description>

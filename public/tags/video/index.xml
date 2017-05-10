@@ -6,10 +6,19 @@
     <description>Recent content in Video on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Apr 2017 15:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 15:34:37 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/tags/video/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT Open Testbed for Asset Tracking - Live Demo</title>
+      <link>https://iot.eclipse.org/resources/2017-05-09-testbed-demo/</link>
+      <pubDate>Tue, 09 May 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-05-09-testbed-demo/</guid>
+      <description>Unveiling the first Eclipse IoT Open Testbed for Asset Tracking Management. Check out this short video to get the gist of the business case. More info on Open Testbeds: https://iot.eclipse.org/testbeds/</description>
+    </item>
     
     <item>
       <title>IoT Developer Trends - 2017 Edition</title>
