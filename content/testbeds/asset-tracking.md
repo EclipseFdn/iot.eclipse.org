@@ -108,6 +108,8 @@ link = "https://github.com/eclipselabs/eclipseiot-testbed-assettracking"
         <h3 class="purple">Open APIs</h3>
 
         <p>Eclipse Kapua's REST API enables third parties to easily interact with field devices and their data. The Asset Tracking testbed showcases a web application built using the AngularJS framework and that uses Kapua's API to display sensor data in real-time, access consolidated historical data, send alerts in the field, etc.</p>
-
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1VIDLuUucug" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
