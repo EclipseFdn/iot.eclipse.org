@@ -86,12 +86,21 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Eclipse IoT case study: Deploying IoT on Germany&#39;s DB Railway System</title>
+      <title>Eclipse IoT Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
       <link>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</guid>
-      <description>Deutche Bahn (DB) has adopted Eclipse Mosquitto, Eclipse Paho’s open source MQTT libraries to make their railway system more efficient and to create more value for their passengers.</description>
+      <description>Deutche Bahn (DB) has adopted Eclipse Paho’s open source MQTT libraries and Eclipse Mosquitto to make their railway system more efficient and to create more value for their passengers.</description>
+    </item>
+    
+    <item>
+      <title>New Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
+      <link>https://iot.eclipse.org/news/2017-05-17-db-case-study/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-05-17-db-case-study/</guid>
+      <description>We worked with Deutsche Bahn (DB) and DB Systel to create this great case study about how DB uses Eclipse IoT technology on their German railway system!</description>
     </item>
     
     <item>
@@ -1396,7 +1405,7 @@ However, rolling out software updates in an…</description>
     </item>
     
     <item>
-      <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
+      <title>Eclipse IoT Case Study: Smart Grid Automation (SGA) Software</title>
       <link>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
@@ -1540,7 +1549,7 @@ However, rolling out software updates in an…</description>
     </item>
     
     <item>
-      <title>Eclipse IoT case study: An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <title>Eclipse IoT Case Study: An IoT Software Suite to Connect Products to Customers’ Business</title>
       <link>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
       
@@ -1576,12 +1585,21 @@ However, rolling out software updates in an…</description>
     </item>
     
     <item>
-      <title>Eclipse IoT case study: Building Virtual Power Plants</title>
+      <title>Eclipse IoT Case Study: Building Virtual Power Plants</title>
       <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
       <description>The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful</description>
+    </item>
+    
+    <item>
+      <title>Eclipse IoT Case Study: Monitoring Industrial Power Distribution</title>
+      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
+      <description>We wanted a SCADA system we could use with access to some of the developers, which gives us the exibility to adjust the system to our needs and grow over time.</description>
     </item>
     
     <item>
@@ -1591,15 +1609,6 @@ However, rolling out software updates in an…</description>
       
       <guid>https://iot.eclipse.org/resources/2015-12-22-case-study-02/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Eclipse IoT case study: Monitoring Industrial Power Distribution</title>
-      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
-      <description>We wanted a SCADA system we could use with access to some of the developers, which gives us the exibility to adjust the system to our needs and grow over time.</description>
     </item>
     
     <item>
