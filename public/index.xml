@@ -86,6 +86,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Eclipse IoT case study: Deploying IoT on Germany&#39;s DB Railway System</title>
+      <link>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</guid>
+      <description>Deutche Bahn (DB) has adopted Eclipse Mosquitto, Eclipse Paho’s open source MQTT libraries to make their railway system more efficient and to create more value for their passengers.</description>
+    </item>
+    
+    <item>
       <title>IoT World 2017</title>
       <link>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>

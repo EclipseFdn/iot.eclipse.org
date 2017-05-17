@@ -6,10 +6,19 @@
     <description>Recent content in Case-studies on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT case study: Deploying IoT on Germany&#39;s DB Railway System</title>
+      <link>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</guid>
+      <description>Deutche Bahn (DB) has adopted Eclipse Mosquitto, Eclipse Paho’s open source MQTT libraries to make their railway system more efficient and to create more value for their passengers.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT case study: Smart Grid Automation (SGA) Software</title>
