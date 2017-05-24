@@ -95,6 +95,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>DB Systel</title>
+      <link>https://iot.eclipse.org/member/db-systel/</link>
+      <pubDate>Tue, 23 May 2017 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/db-systel/</guid>
+      <description>DB Systel is using MQTT for a large number of IoT use cases, utilizing Eclipse Paho and Eclipse Mosquitto. We want to actively promote open standards and openness to enable digital innovation in the logistics and transportation industry.</description>
+    </item>
+    
+    <item>
       <title>Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
       <link>https://iot.eclipse.org/news/2017-05-17-db-case-study/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
@@ -2411,16 +2420,6 @@ Eurotech solutions combine software, application framework, hardware, and device
       <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
       
       <guid>https://iot.eclipse.org/member/bosch/</guid>
-      <description>Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.
-The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models.</description>
-    </item>
-    
-    <item>
-      <title>Bosch Software Innovations</title>
-      <link>https://iot.eclipse.org/member/db-systel/</link>
-      <pubDate>Sun, 08 Mar 2015 15:31:15 -0700</pubDate>
-      
-      <guid>https://iot.eclipse.org/member/db-systel/</guid>
       <description>Bosch Software Innovations GmbH, the Bosch Group&amp;rsquo;s software and systems house, designs, develops, and operates innovative software and system solutions that help our customers around the world both in the Internet of Things and in the traditional enterprise environment. We place particular focus on the topics of mobility, energy, manufacturing, and smart home.
 The focus of the Eclipse Vorto project, which has been proposed by Bosch Software Innovations, is the standardization of so called information models.</description>
     </item>

@@ -1,7 +1,7 @@
 +++
 date = "2017-05-23T15:31:15-07:00"
 title = "DB Systel"
-logo = "db" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "db-systel" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
 member_id = 1144
 more_url = "http://www.dbsystel.de"
