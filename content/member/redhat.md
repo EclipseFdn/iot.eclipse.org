@@ -2,7 +2,7 @@
 date = "2015-04-21"
 title = "Red Hat, Inc."
 logo = "redhat" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+is_steering = true
 member_id = 731
 # description is taken from eclipse.org
 +++
