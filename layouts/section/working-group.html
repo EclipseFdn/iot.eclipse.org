@@ -119,7 +119,7 @@
             </div>
             <div class="col-md-8 col-md-offset-1 mb-info">
               <div class="mb-info-container">
-                <h2>{{ .Title }} </h2> {{ .Content }}
+                <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
               </div>
               <div>
                 {{ if isset .Params "more_url" }}
@@ -150,7 +150,7 @@
             </div>
             <div class="col-md-8 col-md-offset-1 mb-info">
               <div class="mb-info-container">
-                <h2>{{ .Title }} </h2> {{ .Content }}
+                <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
               </div>
               <div>
                 {{ if isset .Params "more_url" }}
