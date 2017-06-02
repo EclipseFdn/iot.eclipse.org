@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</loc>
@@ -44,6 +45,11 @@
   <url>
     <loc>https://iot.eclipse.org/events/2017-06-21-iot-slam-live/</loc>
     <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/sap/</loc>
+    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1468,7 +1474,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/member/</loc>
-    <lastmod>2017-05-23T15:31:15-07:00</lastmod>
+    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
