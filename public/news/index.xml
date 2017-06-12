@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT Day @ EclipseCon Europe</title>
+      <link>https://iot.eclipse.org/news/2017-06-12-ece-2017-cfp/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-06-12-ece-2017-cfp/</guid>
+      <description>We are hosting the annual Eclipse IoT Day @ EclipseCon Europe on October 24! The call for papers is open. We know you have something awesome to talk about, so submit your talk!</description>
+    </item>
     
     <item>
       <title>Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
@@ -17,15 +26,6 @@
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/news/2017-05-17-db-case-study/</guid>
-      <description>We worked with Deutsche Bahn (DB) to create this great case study about how they uses Eclipse IoT technology on their German railway system!</description>
-    </item>
-    
-    <item>
-      <title>Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
-      <link>https://iot.eclipse.org/news/2017-06-12-ece-2017-cfp/</link>
-      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/news/2017-06-12-ece-2017-cfp/</guid>
       <description>We worked with Deutsche Bahn (DB) to create this great case study about how they uses Eclipse IoT technology on their German railway system!</description>
     </item>
     
