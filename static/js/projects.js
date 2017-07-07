@@ -74,16 +74,17 @@ var projectAliases = {
 };
 
 var releases = {
-  "iot.paho": "1.2.0 (Neon)",
+  "iot.paho": "1.3.0 (Oxygen)",
   "iot.eclipsescada": "0.4.0",
   "iot.concierge": "5.0",
   "iot.mosquitto": "1.4",
   "iot.smarthome": "0.8.0",
-  "iot.kura": "2.1.0",
+  "iot.kura": "3.0.0",
   "iot.om2m": "1.0.0",
   "iot.californium": "1.0.0",
   "iot.vorto": "0.9",
-  "iot.milo": "0.1.0"
+  "iot.milo": "0.1.0",
+  "iot.kapua": "0.2.0"
 };
 var download_urls = {
   "iot.paho": "https://www.eclipse.org/paho/downloads.php",
@@ -117,17 +118,18 @@ var download_urls = {
   "iot.keti": "http://projects.eclipse.org/projects/iot.keti"
 };
 var download_stats = {
-  "iot.hawkbit": 472,
-  "iot.leshan": 1793,
-  "iot.californium": 5873,
-  "iot.paho": 21331,
-  "iot.om2m": 136,
-  "iot.mosquitto": 15989,
-  "iot.smarthome": 8511,
-  "iot.eclipsescada": 443,
-  "iot.kura": 541,
-  "iot.ponte": 174
+  "iot.hawkbit": 889,
+  "iot.leshan": 1492,
+  "iot.californium": 7101,
+  "iot.paho": 32657,
+  "iot.om2m": 117,
+  "iot.mosquitto": 8830,
+  "iot.smarthome": 10800,
+  "iot.eclipsescada": 2132,
+  "iot.kura": 715,
+  "iot.ponte": 269
 };
+
 
 (function($, window, document) {
     $(function() {
@@ -144,7 +146,7 @@ var download_stats = {
 
         $.ajax({
             type: "GET",
-            //            url: "//projects.eclipse.org/jsonp/technology/Internet%20of%20Things",
+            //            url: "//projects.eclipse.org/json/technology/Internet%20of%20Things",
             //            dataType: "jsonp",
             url: "/projects.json",
             dataType: "json",
