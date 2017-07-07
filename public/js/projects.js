@@ -188,7 +188,7 @@ var download_stats = {
                     var style = "";
                     var showlogo = true;
 
-                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki" )
+                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki"  || id == "technology.sensinact"  || id == "technology.iottestware" )
                         return true;
 
                     projectInfo = {};
