@@ -1,10 +1,21 @@
+(function(d){d.fn.shuffle2=function(c){c=[];return this.each(function(){c.push(d(this).clone(true))}).each(function(a,b){d(b).replaceWith(c[a=Math.floor(Math.random()*c.length)]);c.splice(a,1)})};d.shuffle=function(a){return d(a).shuffle()}})(jQuery);
+
 (function($, window, document) {
         $(function() {
-                $('.logos .row').shuffle();
+                $('.logos .row .regular-member').shuffle2();
+				$('.logos .row').children('.regular-member').shuffle2();
 
-                $('.logos .row').children().filter(function(index) {
-                    return index < 9;
+                $('.logos .row').children('.regular-member').filter(function(index) {
+                    return index < 5;
                 }).css( "display", "inline-block");
+
+//                $('.logos .row .regular-member').css( "display", "inline-block");
+
+                $('.logos .row .sc-member').
+                	css( "display", "inline-block");
+
+                console.log($('.logos .row').children().length);
+
         });
 
 }(window.jQuery, window, document));
