@@ -2,6 +2,7 @@
 date = "2016-08-31T15:31:16-07:00"
 title = "IOTRACKS"
 logo = "iotracks" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+is_steering = false
 member_id = 1213
 more_url = "https://iotracks.com/"
 # description is taken from eclipse.org

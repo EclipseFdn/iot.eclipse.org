@@ -2,8 +2,11 @@
 
 (function($, window, document) {
         $(function() {
+
+                $("#link-more-members").html( "and " + ($('.logos .row').children().length - 1 - 8) + " others…") ;
+
                 $('.logos .row .regular-member').shuffle2();
-				$('.logos .row').children('.regular-member').shuffle2();
+//				$('.logos .row').children('.regular-member').shuffle2();
 
                 $('.logos .row').children('.regular-member').filter(function(index) {
                     return index < 5;
@@ -14,7 +17,7 @@
                 $('.logos .row .sc-member').
                 	css( "display", "inline-block");
 
-                console.log($('.logos .row').children().length);
+                
 
         });
 
