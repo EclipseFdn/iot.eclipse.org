@@ -6,10 +6,20 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2017 15:31:15 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CONTACT Software</title>
+      <link>https://iot.eclipse.org/member/contact-software/</link>
+      <pubDate>Fri, 30 Jun 2017 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/contact-software/</guid>
+      <description>CONTACT Software is a leading vendor of software for the product engineering process and the digital transformation.
+We connect people, teams and companies. Our mission: Energizing great minds. Instead of rigid systems, we create a working world in which employees can concentrate their skills on providing better products and services. A working world in which collaboration runs more smoothly, processes become more efficient and routine work becomes easier. Our guiding framework provides both security and freedom allowing agile interaction between individuals and teams in complex projects.</description>
+    </item>
     
     <item>
       <title>SAP</title>
