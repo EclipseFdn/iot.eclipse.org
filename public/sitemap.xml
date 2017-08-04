@@ -53,6 +53,16 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/news/2017-08-01-thingmonk/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +70,11 @@
   <url>
     <loc>https://iot.eclipse.org/member/contact-software/</loc>
     <lastmod>2017-06-30T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</loc>
+    <lastmod>2017-06-28T15:34:37+00:00</lastmod>
   </url>
   
   <url>
@@ -1446,6 +1461,12 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/boschsi/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/case-studies/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1486,6 +1507,18 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/eclipse-unide/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/eclipse-vorto/</loc>
+    <lastmod>2017-06-28T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/</loc>
     <lastmod>2017-10-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1503,6 +1536,12 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/industry-4.0/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/member/</loc>
     <lastmod>2017-06-30T15:31:15-07:00</lastmod>
     <priority>0</priority>
@@ -1510,7 +1549,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1538,7 +1577,13 @@
   
   <url>
     <loc>https://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/smart-manufacturing/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1568,13 +1613,13 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://iot.eclipse.org/tags/virtualiot/</loc>
-    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   

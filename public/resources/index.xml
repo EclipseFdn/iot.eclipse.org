@@ -6,10 +6,28 @@
     <description>Recent content in Resources on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 May 2017 15:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Aug 2017 15:34:37 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse Unide – A way to establish an open Industry 4.0 standard</title>
+      <link>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</link>
+      <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</guid>
+      <description>With Industry 4.0 and Smart Manufacturing the need of communication and interoperability of machines and the Internet of Things (IoT) became bigger and bigger …</description>
+    </item>
+    
+    <item>
+      <title>Rapid IoT Prototyping with Eclipse Vorto</title>
+      <link>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</link>
+      <pubDate>Wed, 28 Jun 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</guid>
+      <description>Eclipse Vorto focuses on the interoperability for integrating IoT devices into various IoT Platforms …</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Open Testbed for Asset Tracking - Live Demo</title>

@@ -104,6 +104,24 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Lauching Eclipse IoT Newsletter</title>
+      <link>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</guid>
+      <description>Great news! We are lauching a quartely Eclipse IoT Newsletter. The first issue will be sent at the end of September. Subcribe to the list to stay up-to-date about everything Eclipse IoT.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Unide – A way to establish an open Industry 4.0 standard</title>
+      <link>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</link>
+      <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</guid>
+      <description>With Industry 4.0 and Smart Manufacturing the need of communication and interoperability of machines and the Internet of Things (IoT) became bigger and bigger …</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day @ ThingMonk</title>
       <link>https://iot.eclipse.org/news/2017-08-01-thingmonk/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
@@ -120,6 +138,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       <guid>https://iot.eclipse.org/member/contact-software/</guid>
       <description>CONTACT Software is a leading vendor of software for the product engineering process and the digital transformation.
 We connect people, teams and companies. Our mission: Energizing great minds. Instead of rigid systems, we create a working world in which employees can concentrate their skills on providing better products and services. A working world in which collaboration runs more smoothly, processes become more efficient and routine work becomes easier. Our guiding framework provides both security and freedom allowing agile interaction between individuals and teams in complex projects.</description>
+    </item>
+    
+    <item>
+      <title>Rapid IoT Prototyping with Eclipse Vorto</title>
+      <link>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</link>
+      <pubDate>Wed, 28 Jun 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</guid>
+      <description>Eclipse Vorto focuses on the interoperability for integrating IoT devices into various IoT Platforms …</description>
     </item>
     
     <item>

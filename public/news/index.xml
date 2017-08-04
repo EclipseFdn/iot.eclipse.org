@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lauching Eclipse IoT Newsletter</title>
+      <link>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</guid>
+      <description>Great news! We are lauching a quartely Eclipse IoT Newsletter. The first issue will be sent at the end of September. Subcribe to the list to stay up-to-date about everything Eclipse IoT.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day @ ThingMonk</title>
