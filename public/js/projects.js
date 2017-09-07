@@ -100,7 +100,7 @@ var download_urls = {
   "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
   "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
   "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
-  "iot.leshan": "https://github.com/eclipse/leshan#test-leshan-locally",
+  "iot.leshan": "https://github.com/eclipse/leshan/releases",
   "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
   "iot.risev2g": "https://github.com/eclipse/risev2g",
   "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
@@ -117,17 +117,55 @@ var download_urls = {
   "iot.ditto": "http://projects.eclipse.org/projects/iot.ditto",
   "iot.keti": "http://projects.eclipse.org/projects/iot.keti"
 };
+
+var project_state = {
+  "iot.paho": "Regular",
+  "iot.eclipsescada": "Incubating",
+  "iot.ponte": "Incubating",
+  "iot.concierge": "Incubating",
+  "iot.mosquitto": "Incubating",
+  "iot.smarthome": "Incubating",
+  "iot.kura": "Regular",
+  "iot.krikkit": "Incubating",
+  "iot.om2m": "Incubating",
+  "iot.californium": "Regular",
+  "iot.wakaama": "Incubating",
+  "iot.paho.incubator": "Incubating",
+  "iot.vorto": "Incubating",
+  "iot.leshan": "Incubating",
+  "iot.4diac": "Incubating",
+  "iot.risev2g": "Incubating",
+  "iot.tinydtls": "Incubating",
+  "iot.hawkbit": "Incubating",
+  "iot.hono": "Incubating",
+  "iot.edje": "Incubating",
+  "iot.whiskers": "Incubating",
+  "iot.milo": "Incubating",
+  "iot.kapua": "Incubating",
+  "iot.ignite": "Incubating",
+  "iot.unide": "Incubating",
+  "iot.iofog": "Incubating",
+  "iot.agail": "Incubating",
+  "iot.ditto": "Incubating",
+  "iot.keti": "Incubating"
+};
+
 var download_stats = {
-  "iot.hawkbit": 889,
-  "iot.leshan": 1492,
-  "iot.californium": 7101,
-  "iot.paho": 32657,
-  "iot.om2m": 117,
-  "iot.mosquitto": 8830,
-  "iot.smarthome": 10800,
-  "iot.eclipsescada": 2132,
-  "iot.kura": 715,
-  "iot.ponte": 269
+  "iot.hawkbit": 594,
+  "iot.leshan": 1882,
+  "iot.californium": 10683,
+  "iot.paho": 37411,
+  "iot.om2m": 95,
+  "iot.mosquitto": 8489,
+  "iot.smarthome": 9841,
+  "iot.eclipsescada": 1281,
+  "iot.kura": 590,
+  "iot.ponte": 270
+};
+
+var project_state_aliases = {
+    "Incubating": "Incubating",
+    "Regular": "Stable"
 };
 
 
@@ -199,6 +237,11 @@ var download_stats = {
                     projectInfo.logo = value.logo || '//fakeimg.pl/400x200/f5f5f5/000/?text=' + title //; || 'https://placeholdit.imgix.net/~text?txtsize=42&txt=' + title + '&w=200&h=80&bg=f5f5f5&txtclr=000000' ; //|| 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
                     projectInfo.id = id;
                     projectInfo.name = title;
+
+                    console.log(project_state[value.id])
+
+                    projectInfo.project_state = project_state_aliases[project_state[value.id]];
+
                     projectInfo.labels = '';
                     for (var k in projectsAssociation) {
                         if (projectsAssociation[k][value.id]) {
@@ -218,7 +261,6 @@ var download_stats = {
 
                     i++;
                 });
-
 
                 // Insert html and resize the boxes.
                 //$("#update-project").append('</div>' + output);
@@ -240,6 +282,7 @@ var download_stats = {
                                         <p class="downloads" style="display:none;"></p>\
                                         <div class="col-md-12">Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></div>\
                                         <div class="col-md-12">Latest release: <span class="badge version">1.4</span></a></div>\
+                                        <div class="col-md-12">Project status: <span class="badge project_state">Incubating</span></a></div>\
                                         <div class="col-md-12"><a class="btn btn-sm btn-info downloadUrl" href="#">Download</a></div>\
                                     </div>\
                                 </div>\
@@ -254,7 +297,7 @@ var download_stats = {
                         }, {
                             name: 'downloadUrl', attr:'href'
                         },
-                        'labels'
+                        'labels', 'project_state'
                     ]
                 };
 
