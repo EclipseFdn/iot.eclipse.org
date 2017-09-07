@@ -8,21 +8,6 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/rhds--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</loc>
     <lastmod>2017-04-03T00:00:00+00:00</lastmod>
   </url>
@@ -228,98 +213,13 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--final-report/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/aute-dolor-nisi-fugiat/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/i-greenhouse--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--final-report/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--iot-app-now-available-on-web-thanks-to-ibm-bluemix-cloud-foundry/</loc>
-    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--launching-krishi-iot-mobile-app/</loc>
-    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-live-demo-of-the-project-part-1of-4/</loc>
-    <lastmod>2017-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--hardware-choices-for-agrinode-system--wireless-sensor-network-system/</loc>
-    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--a-small-touch-of-frontend-for-inmoodforlife/</loc>
-    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-build-a-rhds-system-from-scratch-part-ii/</loc>
-    <lastmod>2017-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/rhds--energy-audit--lets-get-some-baseline-data-for-the-project/</loc>
-    <lastmod>2017-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--visualizing-aggregated-data-part-1/</loc>
-    <lastmod>2017-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--data-science-heart-of-iot/</loc>
-    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://iot.eclipse.org/events/2017-02-21-containerworld/</loc>
     <lastmod>2017-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--deploy-the-eclipse-kapua-an-open-source-iot-cloud-backend-platform/</loc>
-    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-sensor-node-software/</loc>
-    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -333,43 +233,8 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-the-farm-team-main-hub-server-part-one/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--updating-topic-data/</loc>
-    <lastmod>2017-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--tutorial-build-a-configurable-eclipse-kura-application-via-reactive-blocks/</loc>
-    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/antipollution--car-antipollution-system/</loc>
-    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--krishi-iot-more-love-to-vorto/</loc>
-    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</loc>
     <lastmod>2017-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/rhds--project-update--lets-build-a-rhds-system-from-scratch-part-1/</loc>
-    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--update-agrinode-bundle-for-eclipse-kura-using-bitreactive/</loc>
-    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -388,33 +253,8 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system-hardware-setup/</loc>
-    <lastmod>2017-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--eclipse-vert.x-the-perfect-reactor-for-iot-devices/</loc>
-    <lastmod>2017-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--create-a-topic/</loc>
-    <lastmod>2017-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-building-a-power-independent-solar-battery-circuit/</loc>
-    <lastmod>2017-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</loc>
     <lastmod>2017-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--is-my-pi-strong-enough/</loc>
-    <lastmod>2017-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -423,123 +263,13 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/waziup--iot-challenge-fish-farming/</loc>
-    <lastmod>2017-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--develop-an-agrinode-bundle-for-eclipse-kura-using-bitreactive/</loc>
-    <lastmod>2017-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-power-regulation-of-the-sensor-nodes/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</loc>
     <lastmod>2017-01-12T17:05:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/krishi-iot--high-level-architecture-of-krishi-iot/</loc>
-    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/inmoodforlife--beddit-reverse-engineering/</loc>
-    <lastmod>2017-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-farm-team-second-prototype-with-arduino-pro-mini-board/</loc>
-    <lastmod>2017-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--mqtt-demo/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/dgator--a-new-year-and-a-change-to-the-project-proposal/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--setting-up-ibm-iot-to-execute-openwhisk-actions/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-cassandra-image-as-a-container-in-bluemix/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--update-from-cloud-team-deploying-mongodb-image-as-a-container-in-bluemix/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/rhds--introducing-the-residential-home-diagnostic-system-rhds/</loc>
-    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-architecture/</loc>
-    <lastmod>2016-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--traffic-lights/</loc>
-    <lastmod>2016-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/sergevas--rule-based-fault-management-for-environmental-monitoring-iot-system/</loc>
-    <lastmod>2016-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-traffic--the-beginning/</loc>
-    <lastmod>2016-12-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--fully-system-architecture-for-agrinode-project/</loc>
-    <lastmod>2016-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/introducing-inmoodforlife--a-sleep-tracking-and-analysing-device-for-young-people-with-mood-disorders/</loc>
-    <lastmod>2016-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/ccp--life-on-ccp/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/introducing-krishi-iot--an-open-source-wireless-iot-powered-solution-for-agricultural-applications/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/retail-iot--overview-of-the-solution---the-story/</loc>
-    <lastmod>2016-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</loc>
     <lastmod>2016-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/agrinode--overview-and-architecture-of-wireless-sensor-network-system-wsn/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -555,11 +285,6 @@
   <url>
     <loc>https://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</loc>
     <lastmod>2016-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-watering--first-prototype-of-sensor-with-nanoesp/</loc>
-    <lastmod>2016-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
