@@ -95,6 +95,16 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Cloudera</title>
+      <link>https://iot.eclipse.org/member/cloudera/</link>
+      <pubDate>Fri, 25 Aug 2017 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/cloudera/</guid>
+      <description>Cloudera delivers the modern platform for machine learning and advanced analytics built on the latest open source technologies. The world&amp;rsquo;s leading organizations trust Cloudera to help solve their most challenging business problems by efficiently capturing, storing, processing and analyzing vast amounts of data.
+Cloudera was founded in 2008 by some of the brightest minds at Silicon Valleys leading companies including Google (Christophe Bisciglia), Yahoo! (Amr Awadallah), Oracle (Mike Olson), and Facebook (Jeff Hammerbacher).</description>
+    </item>
+    
+    <item>
       <title>Lauching Eclipse IoT Newsletter</title>
       <link>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</link>
       <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
@@ -394,18 +404,6 @@ It is used for communicating with Bluetooth low energy sensors that are attached
     </item>
     
     <item>
-<<<<<<< HEAD
-      <title>Aute dolor nisi fugiat</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/aute-dolor-nisi-fugiat/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/aute-dolor-nisi-fugiat/</guid>
-      <description>Qui nulla in sint exercitation ut aliqua aliquip consectetur veniam ex do id in eu id ad sed nulla sed nostrud in fugiat ut reprehenderit officia occaecat aliqua dolor cillum dolore.</description>
-    </item>
-    
-    <item>
-=======
->>>>>>> branch 'master' of ssh://roxanne@m2m.eclipse.org/srv/git/m2m.eclipse.org.git
       <title>Container World 2017</title>
       <link>https://iot.eclipse.org/events/2017-02-21-containerworld/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>

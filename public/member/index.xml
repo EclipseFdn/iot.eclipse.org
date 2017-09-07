@@ -6,10 +6,20 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2017 15:31:15 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 25 Aug 2017 15:31:16 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloudera</title>
+      <link>https://iot.eclipse.org/member/cloudera/</link>
+      <pubDate>Fri, 25 Aug 2017 15:31:16 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/cloudera/</guid>
+      <description>Cloudera delivers the modern platform for machine learning and advanced analytics built on the latest open source technologies. The world&amp;rsquo;s leading organizations trust Cloudera to help solve their most challenging business problems by efficiently capturing, storing, processing and analyzing vast amounts of data.
+Cloudera was founded in 2008 by some of the brightest minds at Silicon Valleys leading companies including Google (Christophe Bisciglia), Yahoo! (Amr Awadallah), Oracle (Mike Olson), and Facebook (Jeff Hammerbacher).</description>
+    </item>
     
     <item>
       <title>CONTACT Software</title>
