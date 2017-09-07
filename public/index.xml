@@ -394,6 +394,7 @@ It is used for communicating with Bluetooth low energy sensors that are attached
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>Aute dolor nisi fugiat</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/aute-dolor-nisi-fugiat/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
@@ -403,6 +404,8 @@ It is used for communicating with Bluetooth low energy sensors that are attached
     </item>
     
     <item>
+=======
+>>>>>>> branch 'master' of ssh://roxanne@m2m.eclipse.org/srv/git/m2m.eclipse.org.git
       <title>Container World 2017</title>
       <link>https://iot.eclipse.org/events/2017-02-21-containerworld/</link>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>

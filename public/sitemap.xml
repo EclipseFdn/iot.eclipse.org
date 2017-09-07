@@ -213,11 +213,14 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://iot.eclipse.org/open-iot-challenge/entries/aute-dolor-nisi-fugiat/</loc>
     <lastmod>2017-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+=======
+>>>>>>> branch 'master' of ssh://roxanne@m2m.eclipse.org/srv/git/m2m.eclipse.org.git
     <loc>https://iot.eclipse.org/events/2017-02-21-containerworld/</loc>
     <lastmod>2017-02-21T00:00:00+00:00</lastmod>
   </url>
@@ -1291,12 +1294,6 @@
   <url>
     <loc>https://iot.eclipse.org/tags/open-iot/</loc>
     <lastmod>2017-05-09T15:34:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

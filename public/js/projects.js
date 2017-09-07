@@ -262,7 +262,6 @@ var project_state_aliases = {
                     i++;
                 });
 
-
                 // Insert html and resize the boxes.
                 //$("#update-project").append('</div>' + output);
                 //resize();
