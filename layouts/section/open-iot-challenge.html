@@ -77,43 +77,15 @@
     <div id="content" class="blurb">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
 
 
-                <h2>Open IoT Challenge 3.0 | <strong>Winners</strong></h2>
-
-
-                <img src="images/openiot-challenge-3-winners.png" class="img-responsive">
-
-
-
-			<p align="center">&#9733;&#9733;&#9733;</p>
-            <p><b><a target="_blank" href="https://medium.com/@roxanne.iot/open-iot-challenge-3-0-finalists-ef619b6b9e72#.gex2mvsno">View the 10 Finalists</a></b></p>
-			
-
-              <h2>Final Reports and Blog Posts<span></span></h2> 
-
-              <div class="row">
-                {{ range first 6 (where .Site.RegularPages ".Section" "open-iot-challenge-entries") }}
-                <div class="col-md-4">
-                  <div class="latest-news-item">
-                    <a href="{{ .Params.link }}">
-                      <h3>{{ .Title }}</h3>
-                    </a>
-<!--                     {{ .Content }} -->
-                    <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
-                  </div>
-                </div>
-                {{ end }}
-              </div>
-
-                <a href="/open-iot-challenge-entries"><button>More posts…</button></a>
-
-					<!-- <p>To participate, submit a proposal that describes the solution you want to build. Tell us the open technology you plan to use, the industry you plan to address, and a general overview of the solution you want to build. You will have until February 26, 2017 to build your solution, so think big and be innovative!</p> 
+					<p>To participate, submit a proposal that describes the solution you want to build. Tell us the open technology you plan to use, the industry you plan to address, and a general overview of the solution you want to build. You will have until February 26, 2017 to build your solution, so think big and be innovative!</p> 
 					<p>The top 10 proposals will receive a hardware development kit to help get them started on their Open IoT Challenge. Deadline for proposals was November 30, 2016. The top 10 proposals will be announced on December 5, 2016.</p>
 					 <p align="center"><a href="https://goo.gl/forms/80zyVCtWPpkIR1lF2" target="_blank">
                             <button>APPLY NOW</button>
-                        </a></p>--> 
+                        </a></p>
+
+                    <p>add link to <a href="third-edition">PREVIOUS EDITION</a></p>
 
                     <!-- 4:3 aspect ratio 
                     <div class="embed-responsive" style="padding-bottom: 35%;">
