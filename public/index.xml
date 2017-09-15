@@ -6,10 +6,20 @@
     <description>Recent content on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Mar 2017 10:48:55 +0100</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asset Tracking</title>
+      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
+      <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
+      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity The Eclipse Kura open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.
+It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, it provides a great starting point for interfacing with the sensors in order to collect data such as temperature, humidity, vibration, etc.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
@@ -382,16 +392,6 @@ We connect people, teams and companies. Our mission: Energizing great minds. Ins
       
       <guid>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</guid>
       <description>Reactive Blocks is a visual model-driven development environment supporting formal model analysis, automated code generation, hierarchical modelling, and an extensive library of ready-to-use components for the Java platform.…</description>
-    </item>
-    
-    <item>
-      <title>Asset Tracking</title>
-      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
-      <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
-      
-      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
-      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity The Eclipse Kura open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.
-It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, it provides a great starting point for interfacing with the sensors in order to collect data such as temperature, humidity, vibration, etc.</description>
     </item>
     
     <item>

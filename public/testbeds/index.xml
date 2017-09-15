@@ -6,10 +6,20 @@
     <description>Recent content in Testbeds on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Mar 2017 10:48:55 +0100</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/testbeds/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asset Tracking</title>
+      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
+      <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
+      
+      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
+      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity The Eclipse Kura open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.
+It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, it provides a great starting point for interfacing with the sensors in order to collect data such as temperature, humidity, vibration, etc.</description>
+    </item>
     
     <item>
       <title>Propose a new testbed</title>
@@ -20,16 +30,6 @@
       <description>The Eclipse Open IoT Testbeds are an initiative of the Eclipse IoT Working Group. The testbeds focus on demonstrating how open source, open standards along with commercial solutions can be used to create real-world, industry specific IoT solutions.
 If you are interested in proposing a new testbed, you can send an email to iot@eclipse.org. A proposal for a new testbed should include the following details:
  Short description of the scenario High-level architecture Identified extension points List of interested members List of applicable Eclipse IoT projects  In order to lead a testbed, your company needs to be a member of the Eclipse IoT Working Group.</description>
-    </item>
-    
-    <item>
-      <title>Asset Tracking</title>
-      <link>https://iot.eclipse.org/testbeds/asset-tracking/</link>
-      <pubDate>Wed, 08 Mar 2017 10:48:55 +0100</pubDate>
-      
-      <guid>https://iot.eclipse.org/testbeds/asset-tracking/</guid>
-      <description>Leveraging Eclipse Kura for data acquisition and reliable connectivity The Eclipse Kura open source project is used to provide an easy-to-deploy edge computing stack that can run on virtually any IoT gateway device that would typically be found in airport baggage management systems or in a delivery truck.
-It is used for communicating with Bluetooth low energy sensors that are attached to valuable parcels that need to be tracked. As Kura provides built-in support for Bluetooth communication, it provides a great starting point for interfacing with the sensors in order to collect data such as temperature, humidity, vibration, etc.</description>
     </item>
     
   </channel>

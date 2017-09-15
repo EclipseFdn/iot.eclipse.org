@@ -1,4 +1,5 @@
 +++
+weight = 1
 title = "Asset Tracking"
 date = "2017-03-08T10:48:55+01:00"
 market_segment = [
