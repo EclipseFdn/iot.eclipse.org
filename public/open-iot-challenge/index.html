@@ -558,7 +558,7 @@
 
     <script type="text/javascript">
         $.getJSON("https://spreadsheets.google.com/feeds/list/1wcQzgLooYXILoFkWyaw4lewfFAsw_zKf_pN8HjbIfuk/2/public/values?alt=json", function(data) {
-            
+
             $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
         });
     </script>
