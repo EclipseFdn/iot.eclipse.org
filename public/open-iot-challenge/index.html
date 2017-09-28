@@ -240,7 +240,7 @@
  
                                     <p>
                                         <span class="fact-highlight" id="number-of-teams">-</span><br/>
-                                        <span style="margin-top:-18px; display: block; font-size:0.8em;">teams entered the previous edition!</span><br/>
+                                        <span style="margin-top:-18px; display: block; font-size:0.8em;">teams entered so far!</span><br/>
                                         
                                     </p> 
                                 </div>
@@ -557,8 +557,7 @@
     <script src="js/custom.js"></script>
 
     <script type="text/javascript">
-        $.getJSON("https://spreadsheets.google.com/feeds/list/1wcQzgLooYXILoFkWyaw4lewfFAsw_zKf_pN8HjbIfuk/2/public/values?alt=json", function(data) {
-
+       $.getJSON("https://spreadsheets.google.com/feeds/list/1TN2fNsinqp2Bp4SRa3wLuuIAW2NFiPiPTO4cDYMYw4E/2/public/values?alt=json", function(data) {
             $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
         });
     </script>
