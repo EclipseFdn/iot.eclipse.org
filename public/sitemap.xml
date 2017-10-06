@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/events/2017-11-24-iot-day-italy/</loc>
+    <lastmod>2017-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-10-24-eclipsecon-europe/</loc>
     <lastmod>2017-10-24T00:00:00+00:00</lastmod>
   </url>
@@ -1265,7 +1270,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/events/</loc>
-    <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
