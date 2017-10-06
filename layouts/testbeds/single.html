@@ -76,19 +76,22 @@
 
         <div class="row">
 
-          <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
-            <div class="row">
-              <div class="col-md-8">
-                <p>{{ .Params.sub_description | safeHTML }}</p>
-              </div>
-              <div class="col-md-4 text-center">
-                <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
-                <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
-                &nbsp;
-                <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
+          {{ if .Params.sub_description }}
+            <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
+              <div class="row">
+                <div class="col-md-8">
+                  <p>{{ .Params.sub_description | safeHTML }}</p>
+                </div>
+                <div class="col-md-4 text-center">
+                  <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
+                  <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
+                  &nbsp;
+                  <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
+                </div>
               </div>
             </div>
-          </div>
+          {{ end }}
+
         </div>
       </div>
     </section>
@@ -106,11 +109,13 @@
             <p>{{ .Params.challenge | safeHTML }}</p>
             {{ end }}
 
-            {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
+            {{ if and (ne .File.TranslationBaseName "propose-a-new-testbed") (.Content) }}
             <h1 class="purple">Proposed Solution</h1>
             {{ end }}
 
-            <p>{{ .Content | safeHTML }}</p>
+            {{ if .Content }}
+              <p>{{ .Content | safeHTML }}</p>
+            {{ end }}
 
             {{ if .Params.benefits }}
             <h1 class="purple">Benefits</h1>
