@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Case Study: Supporting Software update with Open Source IoT</title>
+      <link>https://iot.eclipse.org/news/2017-10-11-case-study-kynetics/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-10-11-case-study-kynetics/</guid>
+      <description>We worked with Kynetics to create this case study featuring their use of Eclipse hawkBit to support IoT software updates!</description>
+    </item>
     
     <item>
       <title>Lauching Open IoT Challenge 4.0</title>
