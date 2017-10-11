@@ -31,6 +31,15 @@ It is used for communicating with Bluetooth low energy sensors that are attached
     </item>
     
     <item>
+      <title>Eclipse IoT Case Study: Supporting Software Updates with Open Source IoT</title>
+      <link>https://iot.eclipse.org/case-studies/2017-10-11-case-study-06/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/case-studies/2017-10-11-case-study-06/</guid>
+      <description>Kynetics is using Eclipse hawkBit to provide a platform for remote software updates of embedded systems.</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
       <link>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
