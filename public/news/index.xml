@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT Newsletter - First Issue Published</title>
+      <link>https://iot.eclipse.org/news/2017-10-12-iot-newsletter-oct/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2017-10-12-iot-newsletter-oct/</guid>
+      <description>Yesterday we published the first issue of the new Eclipse IoT Newsletter! Thank you to the authors for contributing such great articles. Subscribe to receive the next one.</description>
+    </item>
     
     <item>
       <title>Case Study: Supporting Software Updates with Open Source IoT</title>
