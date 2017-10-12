@@ -43,8 +43,18 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/resources/2017-10-12-challenge4-video/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/news/2017-10-12-iot-newsletter-oct/</loc>
     <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-10-11-virtual-iot-recording/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
   </url>
   
   <url>
@@ -1237,7 +1247,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/boschsi/</loc>
-    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1258,6 +1268,12 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/command-and-control/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/tags/demo/</loc>
     <lastmod>2017-05-09T15:34:37+00:00</lastmod>
     <priority>0</priority>
@@ -1271,7 +1287,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/eclipse-hono/</loc>
-    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1296,6 +1312,12 @@
   <url>
     <loc>https://iot.eclipse.org/events/</loc>
     <lastmod>2017-11-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/events/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1335,6 +1357,12 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/open-iot-challenge/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/open-iot-challenge/</loc>
     <priority>0</priority>
   </url>
@@ -1345,14 +1373,26 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/tags/red-hat/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/resources/</loc>
-    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://iot.eclipse.org/tags/smart-manufacturing/</loc>
     <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/solution/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1365,6 +1405,12 @@
   <url>
     <loc>https://iot.eclipse.org/tags/</loc>
     <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/telemetry/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1382,13 +1428,13 @@
   
   <url>
     <loc>https://iot.eclipse.org/tags/video/</loc>
-    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://iot.eclipse.org/tags/virtualiot/</loc>
-    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solution on Eclipse IoT</title>
+    <link>https://iot.eclipse.org/tags/solution/</link>
+    <description>Recent content in Solution on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Oct 2017 15:34:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://iot.eclipse.org/tags/solution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open IoT Challenge 4.0 - Video</title>
+      <link>https://iot.eclipse.org/resources/2017-10-12-challenge4-video/</link>
+      <pubDate>Thu, 12 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-10-12-challenge4-video/</guid>
+      <description>Work on things that matter and submit your open IoT solution idea for the fourth Open IoT Challenge!</description>
+    </item>
+    
+  </channel>
+</rss>

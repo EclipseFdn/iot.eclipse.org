@@ -41,9 +41,18 @@
     <item>
       <title>Boschsi</title>
       <link>https://iot.eclipse.org/tags/boschsi/</link>
-      <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/boschsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command And Control</title>
+      <link>https://iot.eclipse.org/tags/command-and-control/</link>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/command-and-control/</guid>
       <description></description>
     </item>
     
@@ -59,7 +68,7 @@
     <item>
       <title>Eclipse Hono</title>
       <link>https://iot.eclipse.org/tags/eclipse-hono/</link>
-      <pubDate>Fri, 24 Mar 2017 17:03:38 +0000</pubDate>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/eclipse-hono/</guid>
       <description></description>
@@ -84,6 +93,15 @@
     </item>
     
     <item>
+      <title>Events</title>
+      <link>https://iot.eclipse.org/tags/events/</link>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Industry 4.0</title>
       <link>https://iot.eclipse.org/tags/industry-4.0/</link>
       <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
@@ -102,11 +120,47 @@
     </item>
     
     <item>
+      <title>Open Iot Challenge</title>
+      <link>https://iot.eclipse.org/tags/open-iot-challenge/</link>
+      <pubDate>Thu, 12 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/open-iot-challenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Hat</title>
+      <link>https://iot.eclipse.org/tags/red-hat/</link>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/red-hat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Smart Manufacturing</title>
       <link>https://iot.eclipse.org/tags/smart-manufacturing/</link>
       <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/smart-manufacturing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solution</title>
+      <link>https://iot.eclipse.org/tags/solution/</link>
+      <pubDate>Thu, 12 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/solution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telemetry</title>
+      <link>https://iot.eclipse.org/tags/telemetry/</link>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/tags/telemetry/</guid>
       <description></description>
     </item>
     
@@ -122,7 +176,7 @@
     <item>
       <title>Video</title>
       <link>https://iot.eclipse.org/tags/video/</link>
-      <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
+      <pubDate>Thu, 12 Oct 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/video/</guid>
       <description></description>
@@ -131,7 +185,7 @@
     <item>
       <title>Virtualiot</title>
       <link>https://iot.eclipse.org/tags/virtualiot/</link>
-      <pubDate>Wed, 02 Aug 2017 15:34:37 +0000</pubDate>
+      <pubDate>Thu, 12 Oct 2017 15:34:37 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/tags/virtualiot/</guid>
       <description></description>

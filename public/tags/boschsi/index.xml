@@ -6,10 +6,19 @@
     <description>Recent content in Boschsi on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Aug 2017 15:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2017 15:34:37 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/tags/boschsi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse Hono – Eclipse Hono : Connect. Command. Control.</title>
+      <link>https://iot.eclipse.org/resources/2017-10-11-virtual-iot-recording/</link>
+      <pubDate>Wed, 11 Oct 2017 15:34:37 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/resources/2017-10-11-virtual-iot-recording/</guid>
+      <description>The open source response to closed and proprietary IoT solutions is called Eclipse Hono!</description>
+    </item>
     
     <item>
       <title>Eclipse Unide – A way to establish an open Industry 4.0 standard</title>
