@@ -8,6 +8,7 @@ RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
 </IfModule>
 
 Redirect permanent "/white-paper-iot-architectures" "/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf"
+Redirect permanent "/white-paper-industry-40" "/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20Open%20Source%20Software%20for%20Industry%204.0.pdf"
 Redirect permanent "/testbeds/asset-tracking/demo" "http://dashboard-eclipseiot-assettracking-testbed.35.187.55.21.nip.io/"
 
 <IfModule pagespeed_module>
