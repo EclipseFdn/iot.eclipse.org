@@ -226,7 +226,7 @@ var project_state_aliases = {
                     var style = "";
                     var showlogo = true;
 
-                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki"  || id == "technology.sensinact"  || id == "technology.iottestware" )
+                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki"  || id == "technology.sensinact"  || id == "technology.iottestware"  || id == "iot.krikkit" )
                         return true;
 
                     projectInfo = {};
