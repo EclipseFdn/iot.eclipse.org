@@ -27,7 +27,7 @@ It is used for communicating with Bluetooth low energy sensors that are attached
       <pubDate>Fri, 06 Oct 2017 16:54:14 +0200</pubDate>
       
       <guid>https://iot.eclipse.org/testbeds/production-performance-management/</guid>
-      <description></description>
+      <description>At the heart of the testbed is the Production Performance Management Protocol (PPMP), which allows uniform representation of all the data and information related to manufacturing processes. Standardized communication using PPMP  PPMP specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process.</description>
     </item>
     
     <item>

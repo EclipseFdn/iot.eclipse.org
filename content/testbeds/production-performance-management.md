@@ -7,7 +7,27 @@ market_segment = [
 ]
 
 description = """
-<p>The <strong>Production Performance Management</strong> demonstrates how to monitor the performance of heterogeneous industrial equipment on a shop floor.</p>
+<p>The <strong>Production Performance Management</strong> demonstrates how to continuously monitor the performance of heterogeneous industrial equipment on a shop floor.</p>
+"""
+
+sub_description = """
+<p>A key challenges of the manufacturing industry is to improve capacity, quality and flexibility, while lowering costs.</p>
+<p>The Eclipse IoT Open Testbed for Production Performance Management demonstrates how to gather key performance data from heteregeneous industrial assets, and how to analyze it in backend systems.</p>
+"""
+
+demo_link = "#"
+source_code_link = "https://github.com/eclipselabs/eclipseiot-testbed-productionperformancemanagement"
+
+challenge =  """
+<p>
+    Key challenges for the manufacturing industry are to improve capacity, quality and flexibility, while lowering costs. 
+</p>
+<p>
+    To overcome these challenges, factories look to improve optimization of factory equipment, referred to as Production Performance Management (PPM). However, the the heterogenous nature of the equipment used in the manufacturing industry sometimes makes it difficult to get an overall perspective. The equipment used in factories is often based on proprietary software that uses proprietary protocols, and it’s often difficult to update to more modern protocols. This environment makes it challenging to create solutions that monitor equipment across entire factory floors, and across different factories.
+</p>
+<p>
+    The <strong>Eclipse Production Performance Management Testbed</strong> aims to showcase how consistent monitoring across all factory equipment leads to improved factory equipment optimization.
+</p>
 """
 
 [[organizations]]
@@ -15,14 +35,48 @@ name = "bosch"
 role = ""
 
 [[organizations]]
-name = "eurotech"
+name = "contact-software"
 role = ""
 
 [[organizations]]
-name = "contact-software"
+name = "eurotech"
 role = ""
 
 [[organizations]]
 name = "fortiss"
 role = ""
+
+[[organizations]]
+name = "influxdata"
+role = ""
+
 +++
+<div class="row">
+    <div class="col-md-12">
+        <p>
+        At the heart of the testbed is the Production Performance Management Protocol (PPMP), which allows uniform representation of all the data and information related to manufacturing processes.
+        </p>
+        <h3 class="purple">Standardized communication using PPMP</h3>
+        <p>
+            PPMP specifies a format that allows to capture data that is required to do performance analysis of production facilities. It allows monitoring backends to collect and evaluate key metrics of machines in the context of a production process. It is doing that by allowing to relate the machine status with currently produced parts.
+        </p>
+        <p>
+            All the devices that are part of the testbeds are leveraging PPMP as a way to describe measurements in a consistent format. The implementations of the PPMP libraries used in the testbed come from the <a href="https://www.eclipse.org/unide/" target="_blank">Eclipse Unide</a> open source project. As of today, Unide provides a Java and a Python implementation of PPMP.
+        </p>
+        <h3 class="purple">Open Source based PLCs and IoT Gateways</h3>
+        <p>
+            A typical Industry 4.0 IoT architecture will include PLCs that actually control the manufacturing process and, either directly or through a more general purpose IoT Gateway, are communicating with a backend server where data is being stored and can be further analyzed. More and more, edge computing scenarios are implemented, where part of the data processing is actually performed directly in the factory, i.e on the gateways.
+        </p>
+        <h4>➔ Eclipse 4diac™️</h4>
+        <p>4diac is an open source PLC environment that allows to implement industrial control solutions in a vendor neutral way. 4diac implements IEC 61499 extending IEC 61131-3 with better support for controller to controller communication and dynamic reconfiguration. 4diac provides support for PPMP, that is leveraged in the testbed for connecting a boiler (simulated using a sample application made available with 4diac, but it can be easily replaced by a real machine) to the backend.</p>
+        <h4>➔ Eclipse Kura™</h4>
+        <p>The testbed includes a Kura based gateway with a PPMP plug-in that allows to easily interface a Modbus PLC to a PPMP backend.</p>
+        <h3 class="purple">Enabling Advanced Data Analytics</h3>
+        <p>
+            The different endpoints of the testbed are all communicating with the same backend server that runs InfluxDB, a time series database that stores all the PPMP messages.
+        </p>
+        <p>
+            The <a href="https://www.eclipse.org/unide/specification/" target="_blank">PPMP specification</a> is pretty straightforward, which enables people to easily implement data analytics based on the collected metrics (measurements, information regarding the industrial processes, …). An example of data visualization and analytics is provided in the form of a <a href="https://grafana.com/" target="_blank">Grafana</a> dashboard that aggregates and displays all the measurements coming from the different assets that are part of the testbed.
+        </p>
+    </div>
+</div>

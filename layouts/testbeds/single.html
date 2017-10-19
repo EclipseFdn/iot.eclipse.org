@@ -83,7 +83,20 @@
                   <p>{{ .Params.sub_description | safeHTML }}</p>
                 </div>
                 <div class="col-md-4 text-center">
-                  <a href="{{ .Params.demo_link }}" target="_blank"><img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive"></a>
+                  <a href="{{ .Params.demo_link }}" target="_blank">
+
+
+                    {{/* look for a .webp video as the "demo" thumbnail, otherwise fallback to .png */}}
+                    {{ $directory := "static/assets/images/testbeds/" }}
+                    {{ $filename := .File.TranslationBaseName | printf "%s-demo.webp" }}
+                    {{ if (where (readDir $directory) "Name" $filename) }}
+                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.webp" class="img-responsive">
+                    {{ else }}
+                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive">
+                    {{ end }}
+
+
+                  </a>
                   <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
                   &nbsp;
                   <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
