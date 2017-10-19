@@ -32,23 +32,27 @@ challenge =  """
 
 [[organizations]]
 name = "bosch"
-role = ""
+role = "“The Production Performance Management Testbed shows how simple performance monitoring can be be quickly implemented using open standards and open source software, like Eclipse Unide. This collaboration shows how different vendors can work together to solve Industry 4.0 solutions.” – Dr. Nils-H. Schmidt, Portfolio Management Industrial IoT"
 
 [[organizations]]
 name = "contact-software"
-role = ""
+role = "“CONTACT is committed to the outstanding work of the Eclipse Open Source community. The PPM Open IoT testbed and our implementation of the PPMP protocol are excellent examples, stimulating future editions of CONTACT’s Elements for IoT framework.” — Frank Patz-Brockmann, Director Software-Development"
 
 [[organizations]]
 name = "eurotech"
-role = ""
+role = "“We are excited to support the new Eclipse IoT Open Testbeds for Industry 4.0 with our partners. We continue to believe that testbeds are an important initiative in showcasing how open source components provide solid building blocks to accelerate the development and the deployment of IoT solutions and applications.” – Marco Carrer, CTO"
 
 [[organizations]]
 name = "fortiss"
-role = ""
+role = "“With the Production Performance Management Testbed we can show how production performance data can easily be generated within Eclipse 4diac PLCs programs reducing the effort of integrating monitoring functionalities in PLC programs.” – Dr. Alois Zoitl, Head of Competence Field Industrie 4.0"
 
 [[organizations]]
 name = "influxdata"
-role = ""
+role = "“InfluxData is pleased to be contributing to the Eclipse IoT Working Group’s Open IoT Testbed. As the leader in time-series event monitoring, InfluxData is excited to see the Open IoT Testbed’s continued progress towards IoT monitoring solutions which utilize time series data to increase efficiencies and lower costs.” – David G. Simmons, Senior Developer Evangelist"
+
+[[learn_more]]
+name = "PPMP Specification"
+link = "https://www.eclipse.org/unide/specification/"
 
 +++
 <div class="row">
