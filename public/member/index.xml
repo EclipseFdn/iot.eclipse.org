@@ -6,10 +6,19 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2017 15:31:16 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Oct 2017 15:31:21 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>InfluxData</title>
+      <link>https://iot.eclipse.org/member/influxdata/</link>
+      <pubDate>Thu, 19 Oct 2017 15:31:21 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/influxdata/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cloudera</title>
