@@ -15,7 +15,7 @@ sub_description = """
 <p>The Eclipse IoT Open Testbed for Production Performance Management demonstrates how to gather performance data from heterogeneous industrial assets, and how to analyze it in backend systems.</p>
 """
 
-demo_link = "http://unide.eclipse.org:8081/dashboard/snapshot/aBpb279wqHd0vqSYA7z1rXEJ39sUv0uQ"
+demo_link = "http://unide.eclipse.org:8081/dashboard/snapshot/VP1fKWuQmgeD9wuJMsMSOaOmqeO8mNus"
 source_code_link = "https://github.com/eclipselabs/eclipseiot-testbed-productionperformancemanagement"
 
 challenge =  """
