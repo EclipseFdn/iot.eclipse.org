@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/news/2017-11-14-challenge4-deadline-extended/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/news/2017-11-03-challenge4-ideas/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -1386,7 +1391,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
