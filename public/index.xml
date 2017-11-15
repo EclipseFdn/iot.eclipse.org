@@ -61,10 +61,10 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     
     <item>
       <title>KubeCon</title>
-      <link>https://iot.eclipse.org/events/2017-12-06/</link>
+      <link>https://iot.eclipse.org/events/2017-12-06-kubecon/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/events/2017-12-06/</guid>
+      <guid>https://iot.eclipse.org/events/2017-12-06-kubecon/</guid>
       <description></description>
     </item>
     
@@ -83,6 +83,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/events/2017-11-24-iot-day-italy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacking Climate Change</title>
+      <link>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</guid>
       <description></description>
     </item>
     
