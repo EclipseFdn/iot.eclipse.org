@@ -6,26 +6,17 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>EclipseCon France 2018</title>
-      <link>https://iot.eclipse.org/events/2018-06-13-ecf-2018/</link>
-      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/events/2018-06-13-ecf-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>IoT World 2018</title>
-      <link>https://iot.eclipse.org/events/2018-04-14-iot-world-2018/</link>
-      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      <link>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/events/2018-04-14-iot-world-2018/</guid>
+      <guid>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</guid>
       <description></description>
     </item>
     
