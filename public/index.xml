@@ -60,6 +60,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>IoT World 2018</title>
+      <link>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>KubeCon</title>
       <link>https://iot.eclipse.org/events/2017-12-06-kubecon/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
@@ -392,15 +401,6 @@ We connect people, teams and companies. Our mission: Energizing great minds. Ins
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IoT World 2018</title>
-      <link>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</guid>
       <description></description>
     </item>
     

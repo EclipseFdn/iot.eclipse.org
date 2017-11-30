@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-12-06-kubecon/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url>
@@ -210,11 +215,6 @@
   <url>
     <loc>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</loc>
     <lastmod>2017-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/events/2018-05-14-iotworld2018/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1361,7 +1361,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/events/</loc>
-    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
