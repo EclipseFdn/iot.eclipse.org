@@ -232,6 +232,15 @@ We are singularly focused on reducing the Time to Awesome ™, we truly care abo
     </item>
     
     <item>
+      <title>Open Source Software for Industry 4.0</title>
+      <link>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</guid>
+      <description>The purpose of this white paper is to identify the types of software required to implement an Industry 4.0 solution. Software is a key enabling technology for any IoT solution, including IoT in manufacturing. This white paper investigates how software solutions can be used to integrate existing operational technologies on a factory floor with the existing enterprise applications, like PLM and ERP solutions.</description>
+    </item>
+    
+    <item>
       <title>IoT Solutions World Congress</title>
       <link>https://iot.eclipse.org/events/2017-10-03-iot-world-congress/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
@@ -960,6 +969,15 @@ EclipseSource is focused on Business Applications, Mobile Applications, Modeling
       
       <guid>https://iot.eclipse.org/resources/2016-10-14-white-paper-iot-architectures/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>The Three Software Stacks Required for IoT Architectures</title>
+      <link>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</guid>
+      <description>In this white paper we look at the new technology requirements and architectures required for IoT solutions. It identifies three stacks of software required by any IoT solution and presents how open source communities, such as the Eclipse IoT community, are already supplying the critical software technology needed by IoT solution providers.</description>
     </item>
     
     <item>

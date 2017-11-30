@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>White-papers on Eclipse IoT</title>
+    <link>https://iot.eclipse.org/white-papers/</link>
+    <description>Recent content in White-papers on Eclipse IoT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://iot.eclipse.org/white-papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Source Software for Industry 4.0</title>
+      <link>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</guid>
+      <description>The purpose of this white paper is to identify the types of software required to implement an Industry 4.0 solution. Software is a key enabling technology for any IoT solution, including IoT in manufacturing. This white paper investigates how software solutions can be used to integrate existing operational technologies on a factory floor with the existing enterprise applications, like PLM and ERP solutions.</description>
+    </item>
+    
+    <item>
+      <title>The Three Software Stacks Required for IoT Architectures</title>
+      <link>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</guid>
+      <description>In this white paper we look at the new technology requirements and architectures required for IoT solutions. It identifies three stacks of software required by any IoT solution and presents how open source communities, such as the Eclipse IoT community, are already supplying the critical software technology needed by IoT solution providers.</description>
+    </item>
+    
+  </channel>
+</rss>
