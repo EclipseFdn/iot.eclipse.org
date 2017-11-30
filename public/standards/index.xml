@@ -32,15 +32,6 @@ It implements the REST architectural style, it can be transparently mapped to HT
     </item>
     
     <item>
-      <title>iec-15118</title>
-      <link>https://iot.eclipse.org/standards/iec-15118/</link>
-      <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
-      
-      <guid>https://iot.eclipse.org/standards/iec-15118/</guid>
-      <description>The international standard ISO/IEC 15118, entitled &#34;Road vehicles - Vehicle to grid communication interface&#34;, defines a digital IP-based communication interface between an electric vehicle (EV) and a charging station (named Electric Vehicle Supply Equipment - EVSE).  It allows for a user-friendly &#34;plug-and-charge&#34; mechanism for authentication, authorization, billing, and flexible load control based on a wide set of information exchanged between the EV and EVSE.   Download an IEC-15118 runtime  The Eclipse RISE V2G project provides a Java implementation of the IEC-15118 standard that allows to implement clients (a.</description>
-    </item>
-    
-    <item>
       <title>iec-61499</title>
       <link>https://iot.eclipse.org/standards/iec-61499/</link>
       <pubDate>Thu, 10 Nov 2016 17:57:25 +0100</pubDate>
