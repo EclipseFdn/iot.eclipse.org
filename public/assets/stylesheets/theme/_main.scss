@@ -46,22 +46,23 @@ main.main {
         h2 {
             color: $white;
             display: block;
-            height: 76px;
+            height: 50px;
             width: 100%;
             background-size: 100%;
-            padding: 28px;
+            padding: 15px;
             font-size: 21px;
-            margin-bottom: 30px;
+            margin-bottom: 26px;
 
             span {
-              width: 83px;
-              height: 76px;
-              background: $blue;
+              width: 55px;
+              height: 50px;
+              background-color: $blue;
               position: absolute;
               top: 25px;
               @media (max-width: $screen-sm-max) {
                 top: 0px;
               }
+              background-size: contain;
               right: 15px;
             }
 
@@ -78,7 +79,7 @@ main.main {
             //margin-top:15px;
             h2 {
                 font-size: 22px;
-                font-weight: 700;
+                font-weight: 600;
                 color: $black !important;
             }
             p {
@@ -89,7 +90,7 @@ main.main {
             span {
                 width: 100%;
                 display: block;
-                font-size: 5em;
+                font-size: 4.2em;
                 text-align: right;
                 @media (max-width: $screen-xs-max) {
                     font-size: 4em;
@@ -136,11 +137,12 @@ main.main {
                 }
             }
             .latest-news-item {
-                border-bottom: 1px solid darken($white, 20%);
-                padding-bottom: 10px;
-              //  margin-bottom: 20px;
+                // border-bottom: 1px solid darken($white, 20%);
+                padding-bottom: 0;
+                //  margin-bottom: 20px;
                 h3 {
-                    font-size: 18px;
+                    margin-bottom:0.3em;
+                    font-size: 20px;
                 }
                 p {
                     font-size: 14px;
@@ -148,11 +150,13 @@ main.main {
                 p.date {
                     color: $green;
                     font-size: 12px;
+                    float: right;
+                    display: none;
                 }
             }
             .latest-news-item:last-of-type {
                 // margin-bottom: 35px;
-                border-bottom: 0px;
+                // border-bottom: 0px;
             }
         }
         .featured-articles {
@@ -212,6 +216,33 @@ main.main {
             }
         }
     }
+
+    #resources-list {
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: $black !important;
+        }
+        p {
+            text-align: justify;
+            font-weight: 400;
+        }
+        span {
+            width: 100%;
+            display: block;
+            font-size: 4.2em;
+            text-align: right;
+            @media (max-width: $screen-xs-max) {
+                font-size: 4em;
+                margin-top: 20px;
+                margin-left: 0px;
+            }
+            color: $blue;
+            margin-top: 12px;
+            margin-left: 4px;
+        }
+}
+
     /* Item box: Layout item */
     
     .itembox {
@@ -441,12 +472,12 @@ main.main {
             margin: 0;
             span.name {
                     display: block;
-                    min-height:3.2em;
-                    margin-bottom:8px;
+                    min-height:2.7em;
+                    // margin-bottom:8px;
                 }
             span.date {
                 font-weight: normal;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         h3:hover {
@@ -455,8 +486,8 @@ main.main {
         }
         p {
             background-color: $blue;
-            padding: 10px 0;
-            font-size: 14px;
+            padding: 8px 0;
+            font-size: 12px;
             line-height: 1.2;
             position: relative;
             color: $white;

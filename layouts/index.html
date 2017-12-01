@@ -119,7 +119,11 @@
         <div class="row">
           <div class="col-md-10">
 
-            <div class="row" style="padding-bottom: 15px; padding-top: 10px; ">
+            <div class="row" style="padding-bottom: 25px; padding-top: 10px; ">
+              <!-- <div class="col-md-12 first-col" style="text-align: center; padding-bottom:5px;">
+                <h2 style="">Open Source Technology for:</h2>
+              </div> -->
+
               <div class="col-md-4 first-col">
                 <a href="/devices">
                   <div class="row">
@@ -167,7 +171,7 @@
             <div class="row">
 
               <div class="col-md-12 first-col">
-                <hr style="border-top:2px dotted #bbb;"></hr>
+                <hr style="border-top:2px dotted #bbb; margin-top:-8px; margin-bottom:0;"></hr>
               </div>
 
               <div class="col-md-4 first-col">
@@ -185,15 +189,14 @@
               </div>
 
               <div class="col-md-4 first-col">
-                <a href="/getting-started">
+                <a href="/testbeds">
                   <div class="row">
                     <div class="col-xs-2 col-md-3">
-                      <span class="icon-switch" aria-hidden="true"></span>
+                      <span class="icon-testbed" aria-hidden="true"></span>
                     </div>
                     <div class="col-xs-10 col-md-9">
-                      <h2>Getting Started</h2>
-
-                      <p>Step-by-step guide to getting started on IoT development</p>
+                      <h2>Open Testbeds</h2>
+                      <p>End-to-end solutions based on open source &amp; commercial software from our vendor ecosystem</p>
                     </div>
                   </div>
                 </a>
@@ -228,60 +231,22 @@
 
     <section class="second">
       <div class="container">
-        <div class="row">
+        <div class="row" style="margin-top:-60px;">
 
-          <div class="col-md-5">
-            <section class="community">
-              <h1 class="purple">Community</h1>
-              <p>
-                <strong>Eclipse IoT</strong> is an ecosystem of companies and individuals that are working together to establish an Internet of Things based on open technologies.
-              </p>
-            </section>
+          <div class="col-md-12">
+            <h1 class="purple">Community</h1>
           </div>
 
-          <div class="col-md-6 col-md-offset-1">
-            <section class="subsection-header featured-articles">
-              <h2>Featured Resources<span></span></h2>
-
-              <div class="row">
-
-                <div class="col-md-6">
-                  <div class="featured-articles-item embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLy7t4z5SYNaQS1XZ8uiqqn0nNLi4qU-VW&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                </div>
-
-                {{/* Show the first resource that's not a "virtualiot" resource */}} {{ range first 1 (where (where .Site.RegularPages.ByDate.Reverse ".Section" "resources") "Params.tags" "!=" "virtualiot") }}
-
-                <div class="col-md-6">
-                  <div class="featured-articles-item">
-                    <a href="{{ .Params.link }}">
-                      <h3>{{ .Title }} </h3>
-                    </a>
-                  </div>
-                </div>
-
-                {{ end }}
-
-              </div>
-
-              <p>
-                <a href="/resources" class="btn btn-primary">More Resources</a>
-              </p>
-            </section>
-            <!-- .featured-article -->
-          </div>
-
-          <div class="col-md-6">
+          <div class="col-md-8">
             <section class="subsection-header latest-news">
-              <h2>Latest News<span></span></h2> {{ range first 2 (where .Data.Pages.ByDate.Reverse ".Section" "news") }}
+              <h2>Latest News<span></span></h2> {{ range first 3 (where .Data.Pages.ByDate.Reverse ".Section" "news") }}
 
               <div class="latest-news-item">
                 <a href="{{ .Params.link }}">
                   <h3>{{ .Title }}</h3>
+                  <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
                 </a>
                 {{ .Content }}
-                <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
               </div>
 
               {{ end }}
@@ -294,7 +259,7 @@
           </div>
           <!-- .col-md-6 -->
 
-          <div class="col-md-6">
+          <div class="col-md-4">
             <section class="subsection-header upcoming-events">
               <h2>Upcoming Events<span></span></h2>
               <div class="row">
@@ -325,8 +290,65 @@
             </section>
             <!-- .upcoming-events -->
           </div>
-
           <!-- .col-md-6 -->
+
+          <div class="col-md-12">
+            <h1 class="purple">Resources</h1>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row" id="resources-list" style="padding-top: 1em; padding-bottom: 3em;">
+              <div class="col-md-3">
+                <a href="/case-studies">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-case-study" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h2>Case Studies</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="/white-papers">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-whitepaper" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h2>White Papers</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="/resources">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-resources" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h2>Articles &amp; Videos</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="https://meetup.com/Virtual-IoT" target="_blank">
+                  <div class="row">
+                    <div class="col-xs-2 col-md-3">
+                      <span class="icon-meetup" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-10 col-md-9">
+                      <h2>Virtual IoT Meetup</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
