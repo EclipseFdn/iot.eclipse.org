@@ -34,10 +34,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-newsletter:before {
+  content: "\e908";
+}
 .icon-resources:before {
   content: "\e907";
 }
-
 .icon-meetup:before {
   content: "\e903";
 }
