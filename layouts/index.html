@@ -95,10 +95,10 @@
             <div class="carousel-inner" role="listbox">
               <!--               <div class="item active">
                 <a href="/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf" target="_blank"><img src="/images/_home/iot-architectures-whitepaper.png" alt="IoT White Paper"></a>
-              </div>  -->
+              </div>  
               <div class="item active">
-               <a target="_blank" href="https://medium.com/@roxanne.iot/open-iot-challenge-4-0-scholars-cf750ec3b14b"><img src="/assets/images/banners/challengetop12banner.png" alt="Open IoT Challenge 4 Top 12"></a>
-              </div>
+               <a target="_blank" href="/open-iot-challenge/"><img src="/assets/images/banners/things_that_matter_challenge4.png" alt="Open IoT Challenge 4"></a>
+              </div>  -->
             </div>
 
           </div>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="col-xs-10 col-md-9">
                       <h2>Open Testbeds</h2>
-                      <p>End-to-end solutions based on open source &amp; commercial software from our vendor ecosystem</p>
+                      <p>Solutions based on open source &amp; commercial software from our member ecosystem</p>
                     </div>
                   </div>
                 </a>
@@ -239,19 +239,19 @@
 
           <div class="col-md-8">
             <section class="subsection-header latest-news">
-              <h2>Latest News<span></span></h2> {{ range first 3 (where .Data.Pages.ByDate.Reverse ".Section" "news") }}
+              <h2>Latest News<span></span></h2> {{ range first 4 (where .Data.Pages.ByDate.Reverse ".Section" "news") }}
 
               <div class="latest-news-item">
                 <a href="{{ .Params.link }}">
+                  <p class="date">/ {{ dateFormat "Jan 2, 2006" .Date }} /</p>
                   <h3>{{ .Title }}</h3>
-                  <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
                 </a>
                 {{ .Content }}
               </div>
 
               {{ end }}
-
-              <p>
+              <br>
+              <p style="text-align: center;">
                 <a href="/news" class="btn btn-primary">More News</a>
               </p>
             </section>
@@ -261,16 +261,33 @@
 
           <div class="col-md-4">
             <section class="subsection-header upcoming-events">
-              <h2>Upcoming Events<span></span></h2>
-              <div class="row">
+              
+              <h2>Stay in touch<span></span></h2>
 
+              <h3 class="purple" id="title-subscribe-newsletter">Subscribe to our newsletter:</h3>
+
+              <!-- Begin MailChimp Signup Form -->
+              <form action="//eclipse.us6.list-manage.com/subscribe/post?u=eaf9e1f06f194eadc66788a85&amp;id=b952cd0879" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                <div class="input-group">
+                    <input type="email" value="" name="EMAIL" id="mce-EMAIL" required="required" class="form-control">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="icon icon-newsletter"></i>&nbsp;</button>
+                    </span>
+                </div>
+
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97f1bc02efa56031b67a2b00f_fc7b4ce646" tabindex="-1" value=""></div>
+              </form>
+              <!--End mc_embed_signup-->
+
+              <h3 class="purple" id="title-upcoming-events">Upcoming events:</h3>
+              
+              <div class="row">
                 {{ $.Scratch.Set "idx" 0 }} {{ range (where .Data.Pages.ByDate ".Section" "events") }} {{ if and (ge .Date.Unix .Now.Unix) (not (eq ($.Scratch.Get "idx") 4)) }}
 
-                <div class="col-sm-6" itemscope itemtype="http://schema.org/Event">
-                  <a href="{{ .Params.link }}" target="_blank">
+                <div class="col-xs-12 col-sm-6 col-md-12">
+                <a href="{{ .Params.link }}" target="_blank">
                     <div class="upcoming-events-item">
                       <h3>
-
                         <span class="name" itemprop="name">{{ .Title }}</span>
                         <span class="date" itemprop="startDate" content="{{ .Date.Format "2006-01-02" }}">{{ .Params.event_date }}</span>
 
@@ -283,7 +300,8 @@
                 {{ $.Scratch.Add "idx" 1 }} {{ end }} {{ end }}
               </div>
 
-              <p>
+              <br>
+              <p style="text-align: center;">
                 <a href="/events" class="btn btn-primary">More Events</a>
               </p>
 
@@ -302,7 +320,7 @@
                 <a href="/case-studies">
                   <div class="row">
                     <div class="col-xs-2 col-md-3">
-                      <span class="icon-case-study" aria-hidden="true"></span>
+                      <span class="icon-search" aria-hidden="true"></span>
                     </div>
                     <div class="col-xs-10 col-md-9">
                       <h2>Case Studies</h2>
