@@ -100,10 +100,29 @@
             <div class="row">
                 <div class="col-md-12">
 					<p><strong><a target="_blank" href="https://medium.com/@roxanne.iot/open-iot-challenge-4-0-scholars-cf750ec3b14b">Top 12 Proposals Announced!</a><br>Congratulations to the 12 teams who won starter kits.</strong></p>
-                    <p>Let the building begin &rarr; Deadline is March 15</p>
-					<!--  <p><b>To participate, submit a proposal that:</b></p> -->
+                    
+                    <!-- <p>Let the building begin &rarr; Deadline is March 15</p> -->
+                    
+                    <!--  <p><b>To participate, submit a proposal that:</b></p> -->
                 </div>
 
+                <h2><strong>Blog Posts</strong></h2>
+
+                <div class="row">
+                        {{ range first 6 (where .Site.RegularPages ".Section" "open-iot-challenge-entries") }}
+                        <div class="col-md-4">
+                          <div class="latest-news-item">
+                            <a href="{{ .Params.link }}">
+                              <h3>{{ .Title }}</h3>
+                            </a>
+        <!--                     {{ .Content }} -->
+                            <p class="date">{{ dateFormat "Jan 2, 2006" .Date }} </p>
+                          </div>
+                        </div>
+                        {{ end }}
+                </div>
+                <a href="/open-iot-challenge-entries"><button>More posts…</button></a>
+        
               <!--    <div class="col-md-8 col-md-offset-2">
 					<ol style="text-align: left;     font-size: 24px; line-height: 1.5em; font-weight: 300; background: #d7d7d744; border-radius: 17px; padding: 20px 60px;">
                     <li>Names the solution you want to build</li>
@@ -120,13 +139,13 @@
 					<p align="center"><a href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2" target="_blank">
                             <button>APPLY NOW</button>
                         </a></p> -->
-                </div>
-                    <!-- 4:3 aspect ratio 
-                    <div class="embed-responsive" style="padding-bottom: 35%;">
-                      <iframe class="embed-responsive-item" src="http://openiotchallenge.tumblr.com/#content"></iframe>
+                        <!-- 4:3 aspect ratio 
+                            <div class="embed-responsive" style="padding-bottom: 35%;">
+                                <iframe class="embed-responsive-item" src="http://openiotchallenge.tumblr.com/#content"></iframe>
+                            </div>
+                        -->
+                        
                     </div>
-					-->
-
                 </div>
             </div>
         </div>
