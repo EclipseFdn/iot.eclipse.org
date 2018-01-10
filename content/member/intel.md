@@ -1,5 +1,5 @@
 +++
-date = "2015-09-25"
+date = "2017-09-25"
 title = "Intel"
 logo = "intel" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 is_steering = false
