@@ -53,8 +53,43 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---top-12/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---update/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-12-06-kubecon/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---update-1/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---smadatalogger-github/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---overview/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,13 +98,48 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---pharo-smalltalk-resource-usage/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---analysis-tools/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---base-features/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---difficulties/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/what-is-pharothings/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-11-24-iot-day-italy/</loc>
     <lastmod>2017-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother-iot/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/open-source-cloud-oscilloscope/</loc>
+    <lastmod>2017-11-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1444,6 +1514,12 @@
   <url>
     <loc>https://iot.eclipse.org/tags/open-iot-challenge/</loc>
     <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

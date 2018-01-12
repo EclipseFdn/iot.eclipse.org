@@ -6,16 +6,146 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Aute dolor nisi fugiat</title>
-      <link>#</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <title>Cloud Oscilloscope - Meet the team</title>
+      <link>http://dronov.net/2018/01/07/happy-new-2018-year.html</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>#</guid>
-      <description>&lt;p&gt;Qui nulla in sint exercitation ut aliqua aliquip consectetur veniam ex do id in eu id ad sed nulla sed nostrud in fugiat ut reprehenderit officia occaecat aliqua dolor cillum dolore.&lt;/p&gt;
+      <guid>http://dronov.net/2018/01/07/happy-new-2018-year.html</guid>
+      <description>&lt;p&gt;Happy New Year! I would like to take an opportunity and introduce our team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Top 12</title>
+      <link>http://dronov.net/2017/12/21/we-won-an-iot-starter-kit.html</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2017/12/21/we-won-an-iot-starter-kit.html</guid>
+      <description>&lt;p&gt;We have became a TOP-12 Proposal at Eclipse Open IoT Challenge! Thanks to everyone who believed in us.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother - Update</title>
+      <link>https://dissentric.weebly.com/littlebrother/december-19th-2017</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/december-19th-2017</guid>
+      <description>&lt;p&gt;“little brother” runs in two language VM’s on the Raspberry PI. The first, Pharo, I’ve discussed at some length. The second I haven’t, partly because it’s better known, but partly because the use case has become clearer during development.  It is the Java VM, specifically used with OSGi in the form of Eclipse Kura.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomy of Things</title>
+      <link>https://medium.com/@cayeric/autonomy-of-things-c5863233774c</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@cayeric/autonomy-of-things-c5863233774c</guid>
+      <description>&lt;p&gt;Introducing an approach to create IoT solutions that base their functionality on momentarly available devices and resources, and do not rely on a fixed cloud provider.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Update 1</title>
+      <link>http://dronov.net/2017/12/01/cloud-oscilloscope-update.html</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2017/12/01/cloud-oscilloscope-update.html</guid>
+      <description>&lt;p&gt;Recently we&amp;rsquo;ve improved qt program on orange pi, now we can handle and show correct signal on display.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Solar Logger - smaDataLogger Github</title>
+      <link>http://joern-karthaus.de/iot_challenge/blog/2017/1201.html</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://joern-karthaus.de/iot_challenge/blog/2017/1201.html</guid>
+      <description>&lt;p&gt;View the Solar Logger GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Solar Logger - Overview</title>
+      <link>http://joern-karthaus.de/iot_challenge/blog/2017/1130.html</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://joern-karthaus.de/iot_challenge/blog/2017/1130.html</guid>
+      <description>&lt;p&gt;This Graphic gives an technical Overview to the Solar Data Logger Project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother - Pharo Smalltalk Resource Usage</title>
+      <link>https://dissentric.weebly.com/littlebrother/pharo-smalltalk-resource-usage</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/pharo-smalltalk-resource-usage</guid>
+      <description>&lt;p&gt;One of the reasons for using Pharo, aside from the ease of controlling the hardware via object representations down to the pin level, is the relatively low resource usage compared with other IoT environments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother - Analysis Tools</title>
+      <link>https://dissentric.weebly.com/littlebrother/little-brother-query-analysis-and-visualization-tools</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/little-brother-query-analysis-and-visualization-tools</guid>
+      <description>&lt;p&gt;To understand how the query, analysis and visualization tools work, a short overview of the Pharo Smalltalk environment in which they run is necessary.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother - Base Features</title>
+      <link>https://dissentric.weebly.com/littlebrother/little-brother-base-features</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/little-brother-base-features</guid>
+      <description>&lt;p&gt;What are the base features of “little brother”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother - Difficulties</title>
+      <link>https://dissentric.weebly.com/littlebrother/difficulties-to-be-solved-in-completing-little-brother-infrastructure-analysis-iot-initiative</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/difficulties-to-be-solved-in-completing-little-brother-infrastructure-analysis-iot-initiative</guid>
+      <description>&lt;p&gt;Here are some of the main difficulties in completing the “little brother” infrastructure analysis IoT Initiative.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is PharoThings?</title>
+      <link>https://www.slideshare.net/esug/pharothings-a-live-programming-iotplatform/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.slideshare.net/esug/pharothings-a-live-programming-iotplatform/</guid>
+      <description>&lt;p&gt;PharoThings: a live programming IoT-platform&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little brother IoT</title>
+      <link>https://dissentric.weebly.com/littlebrother/little-brother</link>
+      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dissentric.weebly.com/littlebrother/little-brother</guid>
+      <description>&lt;p&gt;The core notion behind “little brother” is to overcome the inevitable lag between the increase in data volume and increases in available bandwidth and centralized processing power.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Source Cloud Oscilloscope</title>
+      <link>http://dronov.net/2017/11/17/we-make-an-open-source-cloud-oscilloscope.html</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2017/11/17/we-make-an-open-source-cloud-oscilloscope.html</guid>
+      <description>&lt;p&gt;This is a short story about our Cloud Oscilloscope or why should we be in Top 10 proposals at Open IoT Challenge.&lt;/p&gt;
 </description>
     </item>
     
