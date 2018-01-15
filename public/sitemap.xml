@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/events/2018-05-14-iot-day-santa-clara/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2018-04-14-iot-world-2018/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
@@ -58,8 +63,13 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/news/2018-01-15-challenge4-blogs/</loc>
+    <loc>https://iot.eclipse.org/news/2018-01-15-iot-day-santa-clara/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

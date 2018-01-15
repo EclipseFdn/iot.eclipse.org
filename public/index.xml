@@ -69,6 +69,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Eclipse IoT Day Santa Clara</title>
+      <link>https://iot.eclipse.org/events/2018-05-14-iot-day-santa-clara/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2018-05-14-iot-day-santa-clara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IoT World 2018</title>
       <link>https://iot.eclipse.org/events/2018-04-14-iot-world-2018/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
@@ -114,11 +123,20 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Open IoT Challenge 4.0 - Teams are blogging</title>
-      <link>https://iot.eclipse.org/news/2018-01-15-challenge4-blogs/</link>
+      <title>Eclipse IoT Day Santa Clara</title>
+      <link>https://iot.eclipse.org/news/2018-01-15-iot-day-santa-clara/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/news/2018-01-15-challenge4-blogs/</guid>
+      <guid>https://iot.eclipse.org/news/2018-01-15-iot-day-santa-clara/</guid>
+      <description>We are happy to announce the upcoming Eclipse IoT Day Santa Clara on May 14, 2018, in co-location with IoT World 2018.</description>
+    </item>
+    
+    <item>
+      <title>Open IoT Challenge 4.0 - Teams are blogging</title>
+      <link>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</guid>
       <description>Follow the journey of Open IoT Challenge teams as they build their open IoT solutions! Click to read their blogs.</description>
     </item>
     
