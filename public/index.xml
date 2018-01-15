@@ -78,6 +78,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Bosch ConnectedWorld 2018</title>
+      <link>https://iot.eclipse.org/events/2018-02-21-bcw-2018/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2018-02-21-bcw-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jfokus 2018</title>
       <link>https://iot.eclipse.org/events/2018-02-05-jfokus-2018/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
@@ -105,12 +114,75 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Cloud Oscilloscope - Meet the team</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</guid>
+      <description>Happy New Year! I would like to take an opportunity and introduce our team.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Top 12</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---top-12/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---top-12/</guid>
+      <description>We have became a TOP-12 Proposal at Eclipse Open IoT Challenge! Thanks to everyone who believed in us.</description>
+    </item>
+    
+    <item>
+      <title>little brother - Update</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---update/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---update/</guid>
+      <description>“little brother” runs in two language VM’s on the Raspberry PI. The first, Pharo, I’ve discussed at some length. The second I haven’t, partly because it’s better known, but partly because the use case has become clearer during development. It is the Java VM, specifically used with OSGi in the form of Eclipse Kura.</description>
+    </item>
+    
+    <item>
+      <title>Autonomy of Things</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things/</guid>
+      <description>Introducing an approach to create IoT solutions that base their functionality on momentarly available devices and resources, and do not rely on a fixed cloud provider.</description>
+    </item>
+    
+    <item>
       <title>KubeCon</title>
       <link>https://iot.eclipse.org/events/2017-12-06-kubecon/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/events/2017-12-06-kubecon/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Update 1</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---update-1/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---update-1/</guid>
+      <description>Recently we&amp;rsquo;ve improved qt program on orange pi, now we can handle and show correct signal on display.</description>
+    </item>
+    
+    <item>
+      <title>Solar Logger - smaDataLogger Github</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---smadatalogger-github/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---smadatalogger-github/</guid>
+      <description>View the Solar Logger GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Solar Logger - Overview</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---overview/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---overview/</guid>
+      <description>This Graphic gives an technical Overview to the Solar Data Logger Project.</description>
     </item>
     
     <item>
@@ -123,6 +195,51 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>little brother - Pharo Smalltalk Resource Usage</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---pharo-smalltalk-resource-usage/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---pharo-smalltalk-resource-usage/</guid>
+      <description>One of the reasons for using Pharo, aside from the ease of controlling the hardware via object representations down to the pin level, is the relatively low resource usage compared with other IoT environments.</description>
+    </item>
+    
+    <item>
+      <title>little brother - Analysis Tools</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---analysis-tools/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---analysis-tools/</guid>
+      <description>To understand how the query, analysis and visualization tools work, a short overview of the Pharo Smalltalk environment in which they run is necessary.</description>
+    </item>
+    
+    <item>
+      <title>little brother - Base Features</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---base-features/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---base-features/</guid>
+      <description>What are the base features of “little brother”.</description>
+    </item>
+    
+    <item>
+      <title>little brother - Difficulties</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---difficulties/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---difficulties/</guid>
+      <description>Here are some of the main difficulties in completing the “little brother” infrastructure analysis IoT Initiative.</description>
+    </item>
+    
+    <item>
+      <title>What is PharoThings?</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/what-is-pharothings/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/what-is-pharothings/</guid>
+      <description>PharoThings: a live programming IoT-platform</description>
+    </item>
+    
+    <item>
       <title>IoT Day Italy</title>
       <link>https://iot.eclipse.org/events/2017-11-24-iot-day-italy/</link>
       <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
@@ -132,12 +249,30 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>little brother IoT</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/little-brother-iot/</link>
+      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/little-brother-iot/</guid>
+      <description>The core notion behind “little brother” is to overcome the inevitable lag between the increase in data volume and increases in available bandwidth and centralized processing power.</description>
+    </item>
+    
+    <item>
       <title>Hacking Climate Change</title>
       <link>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source Cloud Oscilloscope</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/open-source-cloud-oscilloscope/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/open-source-cloud-oscilloscope/</guid>
+      <description>This is a short story about our Cloud Oscilloscope or why should we be in Top 10 proposals at Open IoT Challenge.</description>
     </item>
     
     <item>
