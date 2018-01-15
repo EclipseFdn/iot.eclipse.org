@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/news/2018-01-15-challenge4-blogs/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
   </url>
@@ -79,6 +84,11 @@
   
   <url>
     <loc>https://iot.eclipse.org/events/2017-12-06-kubecon/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-12-06-challenge4-top12/</loc>
     <lastmod>2017-12-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -149,11 +159,6 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/2017-11-14-challenge4-deadline-extended/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.eclipse.org/news/2017-12-06-challenge4-top12/</loc>
     <lastmod>2017-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -1506,7 +1511,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/news/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

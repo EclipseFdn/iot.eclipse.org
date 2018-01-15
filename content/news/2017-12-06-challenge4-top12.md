@@ -1,5 +1,5 @@
 +++
-date = "2017-11-14"
+date = "2017-12-06"
 title = "Open IoT Challenge 4.0 - Top 12"
 link = "https://medium.com/@roxanne.iot/open-iot-challenge-4-0-scholars-cf750ec3b14b"
 +++
