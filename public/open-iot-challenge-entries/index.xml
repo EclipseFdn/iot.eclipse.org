@@ -6,8 +6,28 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hardware solutions for Eclipse IOT Challenge: Exploring LoRa/LoRaWAN</title>
+      <link>https://medium.com/@IoTagger/hardware-solutions-for-eclipse-iot-challenge-exploring-lora-lorawan-5002ab6c2a82</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@IoTagger/hardware-solutions-for-eclipse-iot-challenge-exploring-lora-lorawan-5002ab6c2a82</guid>
+      <description>&lt;p&gt;The Open IoT challenge lead me to research more in depth different technologies both from the hardware and the software aspect.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy at a Glance</title>
+      <link>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</guid>
+      <description>&lt;p&gt;ActivIoTy is a project, part of the Eclipse Open IoT Challenge 4.0 aiming at enhancing sports timekeeping systems, through IoT low-cost devices.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Oscilloscope - Meet the team</title>
@@ -16,6 +36,16 @@
       
       <guid>http://dronov.net/2018/01/07/happy-new-2018-year.html</guid>
       <description>&lt;p&gt;Happy New Year! I would like to take an opportunity and introduce our team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - Sports Timekeeping &#43; IoT for Eclipse Challenge</title>
+      <link>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</guid>
+      <description>&lt;p&gt;To make running attractive among runners there are two important aspects to take into account: accurate/official timekeeping, and publication of comparable results for statistics and competition.&lt;/p&gt;
 </description>
     </item>
     
@@ -126,26 +156,6 @@
       
       <guid>https://www.slideshare.net/esug/pharothings-a-live-programming-iotplatform/</guid>
       <description>&lt;p&gt;PharoThings: a live programming IoT-platform&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>little brother IoT</title>
-      <link>https://dissentric.weebly.com/littlebrother/little-brother</link>
-      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://dissentric.weebly.com/littlebrother/little-brother</guid>
-      <description>&lt;p&gt;The core notion behind “little brother” is to overcome the inevitable lag between the increase in data volume and increases in available bandwidth and centralized processing power.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open Source Cloud Oscilloscope</title>
-      <link>http://dronov.net/2017/11/17/we-make-an-open-source-cloud-oscilloscope.html</link>
-      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://dronov.net/2017/11/17/we-make-an-open-source-cloud-oscilloscope.html</guid>
-      <description>&lt;p&gt;This is a short story about our Cloud Oscilloscope or why should we be in Top 10 proposals at Open IoT Challenge.&lt;/p&gt;
 </description>
     </item>
     

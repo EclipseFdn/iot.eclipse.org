@@ -132,6 +132,24 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Hardware solutions for Eclipse IOT Challenge: Exploring LoRa/LoRaWAN</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/hardware-solutions-for-eclipse-iot-challenge-exploring-lora/lorawan/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/hardware-solutions-for-eclipse-iot-challenge-exploring-lora/lorawan/</guid>
+      <description>The Open IoT challenge lead me to research more in depth different technologies both from the hardware and the software aspect.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy at a Glance</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</guid>
+      <description>ActivIoTy is a project, part of the Eclipse Open IoT Challenge 4.0 aiming at enhancing sports timekeeping systems, through IoT low-cost devices.</description>
+    </item>
+    
+    <item>
       <title>Open IoT Challenge 4.0 - Teams are blogging</title>
       <link>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
@@ -147,6 +165,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</guid>
       <description>Happy New Year! I would like to take an opportunity and introduce our team.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - Sports Timekeeping &#43; IoT for Eclipse Challenge</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</guid>
+      <description>To make running attractive among runners there are two important aspects to take into account: accurate/official timekeeping, and publication of comparable results for statistics and competition.</description>
     </item>
     
     <item>

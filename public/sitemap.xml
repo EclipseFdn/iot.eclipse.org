@@ -68,6 +68,16 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/hardware-solutions-for-eclipse-iot-challenge-exploring-lora/lorawan/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url>
@@ -75,6 +85,11 @@
   <url>
     <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</loc>
+    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1539,7 +1554,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
