@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT Newsletter - January 2018</title>
+      <link>https://iot.eclipse.org/news/2018-01-18-iot-newsletter-jan/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-01-18-iot-newsletter-jan/</guid>
+      <description>The latest newsletter is available! It features articles about, Eclipse Cyclone, Eclipse Kura, Eclipse hono, IoT APIs, cloud-native IoT, and IoT trends in 2018.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day Santa Clara</title>
