@@ -20,7 +20,9 @@ var projectsAssociation = {
         'iot.4diac': true,
         'iot.tiaki': true,
         'iot.tinydtls': true,
-        'iot.milo': true
+        'iot.milo': true,
+        'iot.cyclonedds':true,
+        'iot.unide': true
     },
 
     'Devices': {
@@ -34,7 +36,8 @@ var projectsAssociation = {
         'iot.concierge': true,
         'iot.kura': true,
         'iot.smarthome': true,
-        'iot.leshan': true
+        'iot.leshan': true,
+        'iot.agail': true
     },
 
     'Cloud': {
@@ -43,7 +46,8 @@ var projectsAssociation = {
         'iot.mosquitto': true,
         'iot.hawkbit': true,
         'iot.leshan': true,
-        'iot.ponte': true
+        'iot.ponte': true,
+        'iot.ditto': true
     },
 
     'Tools': {
@@ -58,7 +62,7 @@ var projectsAssociation = {
 
     'Security': {
         'iot.tinydtls': true,
-        'iot.tiaki': true,
+        'iot.keti': true,
         'iot.californium': true,
         'iot.leshan': true
     },
@@ -74,94 +78,98 @@ var projectAliases = {
 };
 
 var releases = {
-  "iot.paho": "1.3.0 (Oxygen)",
-  "iot.eclipsescada": "0.4.0",
-  "iot.concierge": "5.0",
-  "iot.mosquitto": "1.4",
-  "iot.smarthome": "0.8.0",
-  "iot.kura": "3.0.0",
-  "iot.om2m": "1.0.0",
-  "iot.californium": "1.0.0",
-  "iot.vorto": "0.9",
-  "iot.milo": "0.1.0",
-  "iot.kapua": "0.2.0"
-};
-var download_urls = {
-  "iot.paho": "https://www.eclipse.org/paho/downloads.php",
-  "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
-  "iot.ponte": "http://eclipse.org/ponte",
-  "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
-  "iot.mosquitto": "https://www.eclipse.org/mosquitto/download/",
-  "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
-  "iot.kura": "https://www.eclipse.org/kura/downloads.php",
-  "iot.krikkit": "http://projects.eclipse.org/projects/iot.krikkit",
-  "iot.om2m": "https://wiki.eclipse.org/OM2M/Download",
-  "iot.californium": "http://projects.eclipse.org/projects/iot.californium/downloads",
-  "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
-  "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
-  "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
-  "iot.leshan": "https://github.com/eclipse/leshan/releases",
-  "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
-  "iot.risev2g": "https://github.com/eclipse/risev2g",
-  "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
-  "iot.hawkbit": "http://projects.eclipse.org/projects/iot.hawkbit",
-  "iot.hono": "http://projects.eclipse.org/projects/iot.hono",
-  "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
-  "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
-  "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
-  "iot.kapua": "http://projects.eclipse.org/projects/iot.kapua",
-  "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
-  "iot.unide": "http://www.eclipse.org/unide",
-  "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
-  "iot.agail": "http://projects.eclipse.org/projects/iot.agail",
-  "iot.ditto": "http://projects.eclipse.org/projects/iot.ditto",
-  "iot.keti": "http://projects.eclipse.org/projects/iot.keti"
-};
-
-var project_state = {
-  "iot.paho": "Regular",
-  "iot.eclipsescada": "Incubating",
-  "iot.ponte": "Incubating",
-  "iot.concierge": "Incubating",
-  "iot.mosquitto": "Incubating",
-  "iot.smarthome": "Incubating",
-  "iot.kura": "Regular",
-  "iot.krikkit": "Incubating",
-  "iot.om2m": "Incubating",
-  "iot.californium": "Regular",
-  "iot.wakaama": "Incubating",
-  "iot.paho.incubator": "Incubating",
-  "iot.vorto": "Incubating",
-  "iot.leshan": "Incubating",
-  "iot.4diac": "Incubating",
-  "iot.risev2g": "Incubating",
-  "iot.tinydtls": "Incubating",
-  "iot.hawkbit": "Incubating",
-  "iot.hono": "Incubating",
-  "iot.edje": "Incubating",
-  "iot.whiskers": "Incubating",
-  "iot.milo": "Incubating",
-  "iot.kapua": "Incubating",
-  "iot.ignite": "Incubating",
-  "iot.unide": "Incubating",
-  "iot.iofog": "Incubating",
-  "iot.agail": "Incubating",
-  "iot.ditto": "Incubating",
-  "iot.keti": "Incubating"
-};
-
-var download_stats = {
-  "iot.hawkbit": 594,
-  "iot.leshan": 1882,
-  "iot.californium": 10683,
-  "iot.paho": 37411,
-  "iot.om2m": 95,
-  "iot.mosquitto": 8489,
-  "iot.smarthome": 9841,
-  "iot.eclipsescada": 1281,
-  "iot.kura": 590,
-  "iot.ponte": 270
-};
+    "iot.paho": "1.3.0 (Oxygen)",
+    "iot.eclipsescada": "0.4.0",
+    "iot.concierge": "5.0",
+    "iot.mosquitto": "1.4",
+    "iot.smarthome": "0.9.0",
+    "iot.kura": "3.1.0",
+    "iot.om2m": "1.1.0",
+    "iot.californium": "1.0.0",
+    "iot.vorto": "0.9",
+    "iot.milo": "0.1.0",
+    "iot.kapua": "0.3.0",
+    "iot.unide": "0.1.0"
+  };
+  var download_urls = {
+    "iot.paho": "https://www.eclipse.org/paho/downloads.php",
+    "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
+    "iot.ponte": "http://eclipse.org/ponte",
+    "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
+    "iot.mosquitto": "https://www.eclipse.org/mosquitto/download/",
+    "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
+    "iot.kura": "https://www.eclipse.org/kura/downloads.php",
+    "iot.om2m": "https://wiki.eclipse.org/OM2M/Download",
+    "iot.californium": "http://projects.eclipse.org/projects/iot.californium/downloads",
+    "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
+    "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
+    "iot.vorto": "https://www.eclipse.org/vorto/downloads/index.html",
+    "iot.leshan": "https://github.com/eclipse/leshan/releases",
+    "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
+    "iot.risev2g": "https://github.com/eclipse/risev2g",
+    "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
+    "iot.hawkbit": "http://projects.eclipse.org/projects/iot.hawkbit",
+    "iot.hono": "http://www.eclipse.org/hono/download/",
+    "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
+    "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
+    "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
+    "iot.kapua": "https://www.eclipse.org/kapua/",
+    "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
+    "iot.unide": "http://www.eclipse.org/unide",
+    "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
+    "iot.agail": "http://agile-iot.eu",
+    "iot.ditto": "https://www.eclipse.org/ditto",
+    "iot.keti": "http://projects.eclipse.org/projects/iot.keti",
+    "iot.duttile": "https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/+archive/master.tar.gz",
+    "iot.kuksa": "http://projects.eclipse.org/projects/iot.kuksa",
+    "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds"
+  };
+  var project_states = {
+    "iot.paho": "Regular",
+    "iot.eclipsescada": "Incubating",
+    "iot.ponte": "Incubating",
+    "iot.concierge": "Incubating",
+    "iot.mosquitto": "Incubating",
+    "iot.smarthome": "Incubating",
+    "iot.kura": "Regular",
+    "iot.om2m": "Incubating",
+    "iot.californium": "Regular",
+    "iot.wakaama": "Incubating",
+    "iot.paho.incubator": "Incubating",
+    "iot.vorto": "Incubating",
+    "iot.leshan": "Incubating",
+    "iot.4diac": "Incubating",
+    "iot.risev2g": "Incubating",
+    "iot.tinydtls": "Incubating",
+    "iot.hawkbit": "Incubating",
+    "iot.hono": "Incubating",
+    "iot.edje": "Incubating",
+    "iot.whiskers": "Incubating",
+    "iot.milo": "Incubating",
+    "iot.kapua": "Incubating",
+    "iot.ignite": "Incubating",
+    "iot.unide": "Incubating",
+    "iot.iofog": "Incubating",
+    "iot.agail": "Incubating",
+    "iot.ditto": "Incubating",
+    "iot.keti": "Incubating",
+    "iot.duttile": "Incubating",
+    "iot.kuksa": "Incubating",
+    "iot.cyclonedds": "Incubating"
+  };
+  var download_stats = {
+    "iot.neoscada": 5129,
+    "iot.milo": 11323,
+    "iot.hawkbit": 1205,
+    "iot.leshan": 1509,
+    "iot.californium": 12048,
+    "iot.paho": 54416,
+    "iot.om2m": 158,
+    "iot.mosquitto": 11167,
+    "iot.smarthome": 12332,
+    "iot.kura": 655,
+    "iot.ponte": 167
+  };
 
 var project_state_aliases = {
     "Incubating": "Incubating",
@@ -226,7 +234,7 @@ var project_state_aliases = {
                     var style = "";
                     var showlogo = true;
 
-                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki"  || id == "technology.sensinact"  || id == "technology.iottestware"  || id == "iot.krikkit" )
+                    if (id == 'rt.ecf' || id == 'tools.mtj' || id == "technology.koneki" || id == "tools.titan" || id == "iot.tiaki"  || id == "technology.sensinact"  || id == "technology.iottestware"  || id == "iot.krikkit" || id == "technology.uomo" || id == "iot.risev2g")
                         return true;
 
                     projectInfo = {};
@@ -238,9 +246,9 @@ var project_state_aliases = {
                     projectInfo.id = id;
                     projectInfo.name = title;
 
-                    console.log(project_state[value.id])
+                    console.log(project_states[value.id])
 
-                    projectInfo.project_state = project_state_aliases[project_state[value.id]];
+                    projectInfo.project_state = project_state_aliases[project_states[value.id]];
 
                     projectInfo.labels = '';
                     for (var k in projectsAssociation) {

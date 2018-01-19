@@ -1,3 +1,11 @@
+/*
+
+wget http://projects.eclipse.org/json/projects/all -O all.json
+wget http://projects.eclipse.org/json/technology/internet%20of%20things -O projects.json 
+
+*/
+
+
 var httpreq = require('httpreq');
 var parse = require('csv-parse');
 var fs = require('fs');
@@ -41,6 +49,7 @@ var all = require('./all.json');
 
 var releases = {}
 var download_urls = {}
+var project_states = {}
 
 for (var project in all.projects) {
 	if(project.startsWith('iot.')) {
@@ -59,7 +68,7 @@ for (var project in all.projects) {
 				}
 			}
 
-console.log(all.projects[project])
+//console.log(all.projects[project])
 
             for(var release in all.projects[project].releases)
             {
@@ -85,8 +94,9 @@ console.log(all.projects[project])
             url = all.projects[project].website_url[0].url ;
         }
         download_urls[project] = url ;
+        project_states[project] =  all.projects[project].state[0].value;
 	}
 }
 console.log('var releases = ' + JSON.stringify(releases, null, 2) + ';');
 console.log('var download_urls = ' + JSON.stringify(download_urls, null, 2) + ';');
-
+console.log('var project_states = ' + JSON.stringify(project_states, null, 2) + ';');
