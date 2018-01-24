@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lauching IoT Developer Survey 2018</title>
+      <link>https://iot.eclipse.org/news/2018-01-24-iot-survey-2018/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-01-24-iot-survey-2018/</guid>
+      <description>We just launched the fourth IoT Developer Survey in partnership with IEEE IoT Initiative, the Open Mobile Alliance, and the AGILE-IoT. Please take 10 short minutes to complete the survey.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Newsletter - January 2018</title>
