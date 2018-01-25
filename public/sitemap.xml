@@ -68,6 +68,31 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cissos---getting-started-with-the-open-iot-challenge/</loc>
+    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</loc>
+    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-2/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-1/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/news/2018-01-18-iot-newsletter-jan/</loc>
     <lastmod>2018-01-18T00:00:00+00:00</lastmod>
   </url>
@@ -1564,7 +1589,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

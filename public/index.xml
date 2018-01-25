@@ -132,6 +132,51 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>CISSOS - Getting started with the Open IoT Challenge!</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cissos---getting-started-with-the-open-iot-challenge/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cissos---getting-started-with-the-open-iot-challenge/</guid>
+      <description>Two months have passed since we handed in our topic for the Open IoT Challenge and now we (finally!) want to give an introduction to our project and what we want to (and have already) achieve(d).</description>
+    </item>
+    
+    <item>
+      <title>Protocol Layers of ActivIoTy</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</guid>
+      <description>ActivIoTy is based on recognized standard protocols. Since the platform is designed to allow different and heterogeneous devices and implementations, standard technologies are crucial for scalability, enhancement of the system, and also to preserve integrity of data.</description>
+    </item>
+    
+    <item>
+      <title>Trync - Setup development environment for ESP32 - Part 2</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-2/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-2/</guid>
+      <description>In the first part we have already setup and configured ESP-IDF. So let&amp;rsquo;s do the code, compile and flash with an IDE. I have choose Eclipse IDE which is my favorite for a long time for Java, Atmel AVR and now ESP32 developments.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy Components</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</guid>
+      <description>Checkpoints and Controller: these are the main pieces of ActivIoTy.</description>
+    </item>
+    
+    <item>
+      <title>Trync - Setup development environment for ESP32 - Part 1</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-1/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-1/</guid>
+      <description>For Trync hardware development the key component (Trync agent or Trync-a in short) is ESP32 SoC microcontroller by Espressif.</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Newsletter - January 2018</title>
       <link>https://iot.eclipse.org/news/2018-01-18-iot-newsletter-jan/</link>
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
