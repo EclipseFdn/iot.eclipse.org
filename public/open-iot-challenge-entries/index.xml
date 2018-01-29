@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MQTT: Cornerstone of Activ-IoTy</title>
+      <link>https://www.espinr.es/post/170182288043/mqtt-cornerstone-of-activ-ioty</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/170182288043/mqtt-cornerstone-of-activ-ioty</guid>
+      <description>&lt;p&gt;Activ-IoTy is based on the pub-sub paradigm. This means that some components (publishers or senders) send messages to a central point, called broker, that delivers the messages to other components (subscribers or receivers) interested in receiving the information send by the publishers…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CISSOS - Getting started with the Open IoT Challenge!</title>
@@ -146,16 +156,6 @@
       
       <guid>http://joern-karthaus.de/iot_challenge/blog/2017/1201.html</guid>
       <description>&lt;p&gt;View the Solar Logger GitHub.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Solar Logger - Overview</title>
-      <link>http://joern-karthaus.de/iot_challenge/blog/2017/1130.html</link>
-      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://joern-karthaus.de/iot_challenge/blog/2017/1130.html</guid>
-      <description>&lt;p&gt;This Graphic gives an technical Overview to the Solar Data Logger Project.&lt;/p&gt;
 </description>
     </item>
     

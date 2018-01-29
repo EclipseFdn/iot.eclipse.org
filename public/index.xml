@@ -123,6 +123,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>MQTT: Cornerstone of Activ-IoTy</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/mqtt-cornerstone-of-activ-ioty/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/mqtt-cornerstone-of-activ-ioty/</guid>
+      <description>Activ-IoTy is based on the pub-sub paradigm. This means that some components (publishers or senders) send messages to a central point, called broker, that delivers the messages to other components (subscribers or receivers) interested in receiving the information send by the publishers…</description>
+    </item>
+    
+    <item>
       <title>Lauching IoT Developer Survey 2018</title>
       <link>https://iot.eclipse.org/news/2018-01-24-iot-survey-2018/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
