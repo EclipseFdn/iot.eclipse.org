@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Trusted IoT - Preliminary results</title>
+      <link>https://trusted827.wordpress.com/2018/01/28/preliminary-results/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/01/28/preliminary-results/</guid>
+      <description>&lt;p&gt;This has been a great week for us :). Our team consists of three computer engineers; all of us from different fields, with great interest and curiosity about IoT but inexperienced in it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CISSOS - Getting started with the Open IoT Challenge!</title>
       <link>https://medium.com/@cissos/getting-started-with-the-eclipse-open-iot-challenge-bc36797b4781</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
@@ -140,22 +150,12 @@
     </item>
     
     <item>
-      <title>Cloud Oscilloscope - Update 1</title>
-      <link>http://dronov.net/2017/12/01/cloud-oscilloscope-update.html</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <title>Trusted IoT - Our Approach</title>
+      <link>https://trusted827.wordpress.com/2017/12/03/our-approach-part-i-indoor-positioning-system/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://dronov.net/2017/12/01/cloud-oscilloscope-update.html</guid>
-      <description>&lt;p&gt;Recently we&amp;rsquo;ve improved qt program on orange pi, now we can handle and show correct signal on display.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Solar Logger - smaDataLogger Github</title>
-      <link>http://joern-karthaus.de/iot_challenge/blog/2017/1201.html</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://joern-karthaus.de/iot_challenge/blog/2017/1201.html</guid>
-      <description>&lt;p&gt;View the Solar Logger GitHub.&lt;/p&gt;
+      <guid>https://trusted827.wordpress.com/2017/12/03/our-approach-part-i-indoor-positioning-system/</guid>
+      <description>&lt;p&gt;For the Open IoT Challenge 4.0 we propose a “trusted indoor positioning system for nursing homes” but, first of all, it is necessary to ask ourselves, do we know what is this?&lt;/p&gt;
 </description>
     </item>
     
