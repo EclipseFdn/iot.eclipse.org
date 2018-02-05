@@ -63,7 +63,12 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/mqtt-cornerstone-of-activ-ioty/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activiiot---video/</loc>
+    <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---mqtt-cornerstone-of-activ-ioty/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,7 +88,7 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activ-ioty/</loc>
     <lastmod>2018-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-components/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +123,7 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-at-a-glance/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,7 +138,7 @@
   </url>
   
   <url>
-    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</loc>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---sports-timekeeping---iot-for-eclipse-challenge/</loc>
     <lastmod>2018-01-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -1604,7 +1609,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2018-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

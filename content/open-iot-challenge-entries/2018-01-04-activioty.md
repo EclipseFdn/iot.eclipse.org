@@ -1,6 +1,6 @@
 +++
 date = "2018-01-04"
-title = "ActivIoTy - Sports Timekeeping + IoT for Eclipse Challenge"
+title = "Activ-IoTy - Sports Timekeeping + IoT for Eclipse Challenge"
 link = "https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge"
 draft = false
 +++

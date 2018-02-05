@@ -123,11 +123,20 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>MQTT: Cornerstone of Activ-IoTy</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/mqtt-cornerstone-of-activ-ioty/</link>
+      <title>ActiviIoT - Video</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activiiot---video/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activiiot---video/</guid>
+      <description>High level explanation of the objectives of Activ-IoTy, a personal project being developed for the Open IoT Challenge.</description>
+    </item>
+    
+    <item>
+      <title>Activ-IoTy - MQTT: Cornerstone of Activ-IoTy</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---mqtt-cornerstone-of-activ-ioty/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/mqtt-cornerstone-of-activ-ioty/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---mqtt-cornerstone-of-activ-ioty/</guid>
       <description>Activ-IoTy is based on the pub-sub paradigm. This means that some components (publishers or senders) send messages to a central point, called broker, that delivers the messages to other components (subscribers or receivers) interested in receiving the information send by the publishers…</description>
     </item>
     
@@ -159,11 +168,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Protocol Layers of ActivIoTy</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</link>
+      <title>Protocol Layers of Activ-IoTy</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activ-ioty/</link>
       <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activioty/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activ-ioty/</guid>
       <description>ActivIoTy is based on recognized standard protocols. Since the platform is designed to allow different and heterogeneous devices and implementations, standard technologies are crucial for scalability, enhancement of the system, and also to preserve integrity of data.</description>
     </item>
     
@@ -177,11 +186,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>ActivIoTy Components</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</link>
+      <title>Activ-IoTy Components</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-components/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty-components/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-components/</guid>
       <description>Checkpoints and Controller: these are the main pieces of ActivIoTy.</description>
     </item>
     
@@ -222,11 +231,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>ActivIoTy at a Glance</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</link>
+      <title>Activ-IoTy at a Glance</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-at-a-glance/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty-at-a-glance/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-at-a-glance/</guid>
       <description>ActivIoTy is a project, part of the Eclipse Open IoT Challenge 4.0 aiming at enhancing sports timekeeping systems, through IoT low-cost devices.</description>
     </item>
     
@@ -249,11 +258,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>ActivIoTy - Sports Timekeeping &#43; IoT for Eclipse Challenge</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</link>
+      <title>Activ-IoTy - Sports Timekeeping &#43; IoT for Eclipse Challenge</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---sports-timekeeping---iot-for-eclipse-challenge/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---sports-timekeeping---iot-for-eclipse-challenge/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---sports-timekeeping---iot-for-eclipse-challenge/</guid>
       <description>To make running attractive among runners there are two important aspects to take into account: accurate/official timekeeping, and publication of comparable results for statistics and competition.</description>
     </item>
     

@@ -1,6 +1,6 @@
 +++
 date = "2018-01-23"
-title = "Protocol Layers of ActivIoTy"
+title = "Protocol Layers of Activ-IoTy"
 link = "https://www.espinr.es/post/170031969458/protocol-layers-of-activioty"
 draft = false
 +++

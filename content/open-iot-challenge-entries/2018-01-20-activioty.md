@@ -1,6 +1,6 @@
 +++
 date = "2018-01-20"
-title = "ActivIoTy Components"
+title = "Activ-IoTy Components"
 link = "https://www.espinr.es/post/169927462078/activioty-components"
 draft = false
 +++
