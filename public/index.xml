@@ -96,6 +96,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Activ-IoTy Checkpoint: UHF RFID &#43; RPi &#43; Paho for Python</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-checkpoint-uhf-rfid---rpi---paho-for-python/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-checkpoint-uhf-rfid---rpi---paho-for-python/</guid>
+      <description>One of the most important pieces of Activ-IoTy is Checkpoints. This article features the implementation of a checkpoint based on a IND903 UHF RFID Reader, connected to a Raspberry Pi (or a Intel Up Squared).</description>
+    </item>
+    
+    <item>
       <title>Jfokus 2018</title>
       <link>https://iot.eclipse.org/events/2018-02-05-jfokus-2018/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>

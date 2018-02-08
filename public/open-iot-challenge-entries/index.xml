@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Activ-IoTy Checkpoint: UHF RFID &#43; RPi &#43; Paho for Python</title>
+      <link>https://www.espinr.es/post/170609161368/activioty-checkpoint-rfid-paho-python-raspberry-pi</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/170609161368/activioty-checkpoint-rfid-paho-python-raspberry-pi</guid>
+      <description>&lt;p&gt;One of the most important pieces of Activ-IoTy is Checkpoints. This article features the implementation of a checkpoint based on a IND903 UHF RFID Reader, connected to a Raspberry Pi (or a Intel Up Squared).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Activ-IoTy - new Video</title>
@@ -146,16 +156,6 @@
       
       <guid>https://dissentric.weebly.com/littlebrother/december-19th-2017</guid>
       <description>&lt;p&gt;“little brother” runs in two language VM’s on the Raspberry PI. The first, Pharo, I’ve discussed at some length. The second I haven’t, partly because it’s better known, but partly because the use case has become clearer during development.  It is the Java VM, specifically used with OSGi in the form of Eclipse Kura.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Autonomy of Things</title>
-      <link>https://medium.com/@cayeric/autonomy-of-things-c5863233774c</link>
-      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@cayeric/autonomy-of-things-c5863233774c</guid>
-      <description>&lt;p&gt;Introducing an approach to create IoT solutions that base their functionality on momentarly available devices and resources, and do not rely on a fixed cloud provider.&lt;/p&gt;
 </description>
     </item>
     
