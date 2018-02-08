@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---faro-a-multimodal-ble-beacon/</loc>
+    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/events/2018-02-05-jfokus-2018/</loc>
     <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +65,11 @@
   <url>
     <loc>https://iot.eclipse.org/events/2018-02-03-fosdem-2018/</loc>
     <lastmod>2018-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---building-deployment-packages-for-eclipse-kura/</loc>
+    <lastmod>2018-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>

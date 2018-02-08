@@ -105,6 +105,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Trusted IoT - Faro: A Multimodal BLE Beacon</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---faro-a-multimodal-ble-beacon/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---faro-a-multimodal-ble-beacon/</guid>
+      <description>Faro is the Spanish term for a lighthouse, as well as a multimodal Bluetooth Low Energy Beacon service for Eclipse Kura.</description>
+    </item>
+    
+    <item>
       <title>Jfokus 2018</title>
       <link>https://iot.eclipse.org/events/2018-02-05-jfokus-2018/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
@@ -120,6 +129,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/events/2018-02-03-fosdem-2018/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Building Deployment Packages for Eclipse Kura</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---building-deployment-packages-for-eclipse-kura/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---building-deployment-packages-for-eclipse-kura/</guid>
+      <description>OSGi is ideal for managing IoT gateways and we believe that it is a wise move that Eclipse Kura has been developed using it.</description>
     </item>
     
     <item>
