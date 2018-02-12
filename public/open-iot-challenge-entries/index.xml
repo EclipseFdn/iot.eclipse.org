@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>“alya” a DIY modular personalized open-source smart mirror</title>
+      <link>https://medium.com/@bilal.alsaeedi/alya-a-diy-modular-personalized-open-source-smart-mirror-bcc869f970b</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@bilal.alsaeedi/alya-a-diy-modular-personalized-open-source-smart-mirror-bcc869f970b</guid>
+      <description>&lt;p&gt;Two months has passed since the eclipse open IoT challenge 4.0 started, and in this first blog we are so excited to talk about our idea “alya-smart-mirror”.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Activ-IoTy Checkpoint: UHF RFID &#43; RPi &#43; Paho for Python</title>
@@ -146,16 +156,6 @@
       
       <guid>http://dronov.net/2018/01/07/happy-new-2018-year.html</guid>
       <description>&lt;p&gt;Happy New Year! I would like to take an opportunity and introduce our team.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy - Sports Timekeeping &#43; IoT for Eclipse Challenge</title>
-      <link>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</link>
-      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</guid>
-      <description>&lt;p&gt;To make running attractive among runners there are two important aspects to take into account: accurate/official timekeeping, and publication of comparable results for statistics and competition.&lt;/p&gt;
 </description>
     </item>
     
