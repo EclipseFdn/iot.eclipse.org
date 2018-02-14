@@ -5,6 +5,9 @@ date = "2017-10-06T16:54:14+02:00"
 market_segment = [
     "manufacturing"
 ]
+aliases = [
+    "/testbeds/ppm"
+]
 
 description = """
 <p>The <strong>Production Performance Management</strong> demonstrates how to continuously monitor the performance of heterogeneous industrial equipment on a shop floor.</p>
