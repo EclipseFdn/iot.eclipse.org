@@ -89,7 +89,7 @@
                   <a href="{{ .Params.link }}" target="_blank">
 
 
-                    <div class="upcoming-events-item {{ if (lt .Date.Unix .Now.Unix) }} past {{ end }}">
+                    <div class="upcoming-events-item {{ if (lt .Date.Unix now.Unix) }} past {{ end }}">
                       <h3>
 
                       {{ .Title }}<br>
