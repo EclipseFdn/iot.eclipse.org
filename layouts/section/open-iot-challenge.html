@@ -110,7 +110,7 @@
                 <h2><strong>Blog Posts</strong></h2>
 
                 <div class="row">
-                        {{ range first 6 (where .Site.RegularPages ".Section" "open-iot-challenge-entries") }}
+                        {{ range first 6 (where .Site.RegularPages "Section" "open-iot-challenge-entries") }}
                         <div class="col-md-4">
                           <div class="latest-news-item">
                             <a href="{{ .Params.link }}">

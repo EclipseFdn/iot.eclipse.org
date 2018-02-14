@@ -12,57 +12,60 @@
     
     
     <item>
-      <title>Eclipse IoT Case Study: Supporting Software Updates with Open Source IoT</title>
-      <link>https://iot.eclipse.org/case-studies/2017-10-11-case-study-06/</link>
+      <title>Supporting Software Updates with Open Source IoT</title>
+      <link>https://iot.eclipse.org/case-studies/supporting-software-updates-with-open-source-iot/</link>
       <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2017-10-11-case-study-06/</guid>
-      <description>Kynetics is using Eclipse hawkBit to provide a platform for remote software updates of embedded systems.</description>
+      <guid>https://iot.eclipse.org/case-studies/supporting-software-updates-with-open-source-iot/</guid>
+      <description>Kynetics is a Software Development Company with offices in California and Italy. It was founded in 2006 and specializes in embedded and server-side technologies. Kynetics provides tools and services that feature an integrated and consistent Internet of Things (IoT) development software pipeline. The company provides software as a service (SaaS) that is reliable and resilient, built utilizing open source technologies to deploy software updates to IoT devices, along with a recovery system for safe measure.</description>
     </item>
     
     <item>
-      <title>Eclipse IoT Case Study: Deploying IoT on Germany&#39;s DB Railway System</title>
-      <link>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</link>
+      <title>Deploying IoT on Germany&#39;s DB Railway System</title>
+      <link>https://iot.eclipse.org/case-studies/iot-on-railway-systems-db/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2017-05-17-case-study-05/</guid>
-      <description>Deutche Bahn (DB) has adopted Eclipse Paho’s open source MQTT libraries and Eclipse Mosquitto to make their railway system more efficient and to create more value for their passengers.</description>
+      <guid>https://iot.eclipse.org/case-studies/iot-on-railway-systems-db/</guid>
+      <description>Deutsche Bahn AG (DB), German Railway, is one of the largest transport and logistics companies in the world. DB Systel is DB&amp;rsquo;s internal Information and Communication Technology (ICT) partner, providing modern and efficient ICT products and services on the national and international level.&amp;nbsp;
+The rail expertise of DB Systel covers the whole lifecycle of ICT solutions, from planning and development to operation and optimization. &amp;ldquo;Our goal is to be the company that integrates and enables digitalization at Deutsche Bahn,&amp;rdquo; says Alexander Schmitt, Chief Architect at DB Systel.</description>
     </item>
     
     <item>
-      <title>Eclipse IoT Case Study: Smart Grid Automation (SGA) Software</title>
-      <link>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</link>
+      <title>Smart Grid Automation (SGA) Software</title>
+      <link>https://iot.eclipse.org/case-studies/smart-grid-automation-software/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2016-04-26-case-study-04/</guid>
-      <description>NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the Eclipse 4DIAC FORTE Runtime Environment into its controllers, and integrating the Eclipse 4DIAC IDE into its design toolset.</description>
+      <guid>https://iot.eclipse.org/case-studies/smart-grid-automation-software/</guid>
+      <description>NOJA Power (NOJA) researches, develops, manufactures and supplies low and medium voltage switchgear, specialising in auto reclosing circuit breakers for industrial, infrastructure and electricity distribution utilities.
+NOJA&amp;rsquo;s signature product is the OSM series of medium-voltage (11kV and above) Automatic Circuit Reclosers (ACRs) which combine vacuum interruptors and solid dielectric insulation for switching, with state-of-the-art microelectronics for protection, SCADA and automation.
+NOJA&amp;rsquo;s vision is to be the world leader in medium-voltage outdoor switchgear.</description>
     </item>
     
     <item>
-      <title>Eclipse IoT Case Study: An IoT Software Suite to Connect Products to Customers’ Business</title>
-      <link>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</link>
+      <title>An IoT Software Suite to Connect Products to Customers’ Business</title>
+      <link>https://iot.eclipse.org/case-studies/connected-products-with-eclipse-kura/</link>
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2016-01-27-case-study-03/</guid>
-      <description>We chose Eclipse Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java</description>
+      <guid>https://iot.eclipse.org/case-studies/connected-products-with-eclipse-kura/</guid>
+      <description>Solair started in Italy in 2011 with the observation that enterprise software severely lagged behind consumer software in affordability and simplicity. They have worked with customers in many industries including smart cities, manufacturing, industrial machinery and retail. Solair has recently begun to expand to do business mainly in Japan, Germany and the United States.  “There are still many companies that don’t completely understand how to benefit from the potential advantages of connected products and they are looking for ready to use solutions that are quick to implement and bring measurable economic results,” said Martina Casani, Marketing Director, Solair.</description>
     </item>
     
     <item>
-      <title>Eclipse IoT Case Study: Building Virtual Power Plants</title>
-      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</link>
+      <title>Building Virtual Power Plants</title>
+      <link>https://iot.eclipse.org/case-studies/building-virtual-power-plants/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-02/</guid>
-      <description>The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful</description>
+      <guid>https://iot.eclipse.org/case-studies/building-virtual-power-plants/</guid>
+      <description>The Business Application – Monitoring Industrial Power Distribution  Kevin Read and his father, John Read, have a background in energy data monitoring and noticed a market need a few years ago. Large data centers worldwide are using rack-mountable power distribution units (PDUs) to control and monitor electrical power in the data center. These smart PDUs measure the power consumption of each device plugged into the socket, along with temperature, humidity and other environmental factors.</description>
     </item>
     
     <item>
-      <title>Eclipse IoT Case Study: Monitoring Industrial Power Distribution</title>
-      <link>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</link>
+      <title>Monitoring Industrial Power Distribution</title>
+      <link>https://iot.eclipse.org/case-studies/monitoring-industrial-power-distribution/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/case-studies/2015-12-22-case-study-01/</guid>
-      <description>We wanted a SCADA system we could use with access to some of the developers, which gives us the exibility to adjust the system to our needs and grow over time.</description>
+      <guid>https://iot.eclipse.org/case-studies/monitoring-industrial-power-distribution/</guid>
+      <description>The business application: building virtual power plants  E.ON Connecting Energies is a business unit of E.ON and an international provider of integrated energy solutions for commercial and industrial customers as well as public- sector institutions. E.ON is an international privately- owned energy supplier and will in future be focusing entirely on renewables, energy networks and customer solutions. In the 2014 financial year, more than 58,000 employees based in many countries in Europe as well as in Russia and North America generated sales of around EUR 112 billion.</description>
     </item>
     
   </channel>

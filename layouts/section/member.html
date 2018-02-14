@@ -69,7 +69,7 @@
 <body class="homepage" style="background-color: rgba(255,255,255,0.8);">
             <div class="row" id="members" style="text-align: center;">
 
-              {{ range where .Data.Pages ".Section" "member" }}
+              {{ range where .Data.Pages "Section" "member" }}
 
               <div class="col-md-2 col-xs-2 member" style="padding:20px 20px;" title="{{ .Title }}">
                 <div style="height: 120px; line-height: 120px; ">

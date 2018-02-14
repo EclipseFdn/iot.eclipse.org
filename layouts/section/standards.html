@@ -123,7 +123,7 @@
           <div class="col-md-12">
             <h3 class="purple">Open standard implementations</h3>
 
-            {{ range where .Data.Pages ".Section" "standards" }}
+            {{ range where .Data.Pages "Section" "standards" }}
               <a href="#{{ .Title }}" data-toggle="collapse" aria-controls="{{ .Title }}"><button class="btn btn-info" type="button">{{ .Description }}</button></a>
             {{ end }}
 
@@ -139,7 +139,7 @@
 
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-          {{ range where .Data.Pages ".Section" "standards" }}
+          {{ range where .Data.Pages "Section" "standards" }}
            <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="heading{{ .Title }}">
                 <h2 class="panel-title" style="font-size: 30px;" class="purple">
