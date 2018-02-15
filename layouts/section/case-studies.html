@@ -115,13 +115,11 @@
               <div class="row">
 
                 <div class="col-md-12">
-                  <a href=" {{ .URL }}">
                     <h3>{{ .Params.company }} </h3>
-                  </a>
                 </div>
 
                 <div class="col-md-4" style="padding-bottom: 20px">
-                  <a href=" {{ .Params.link }}">
+                  <a href="{{ .Params.link }}">
                     <img src="{{ .Params.img }}" class="img-responsive"/>
                   </a>
                 </div>
@@ -129,7 +127,15 @@
                   <blockquote>
                     {{ .Params.description }}
                   </blockquote>
-                </div>
+                   &nbsp; &nbsp;
+                   <a href="{{ .Params.link }}">
+                    <img src="/assets/images/icon_pdf.png"> PDF 
+                  </a>
+                  &nbsp; 
+                  <a href="{{ .URL }}">
+                    <img src="/assets/images/icon_html.png"> HTML
+                  </a>
+                  </div>
               </div>
             </div>
           {{ end }}
