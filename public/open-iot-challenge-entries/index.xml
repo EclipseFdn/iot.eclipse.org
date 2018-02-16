@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Trusted IoT - Graba: A BLE Beacons Recording System</title>
+      <link>https://trusted827.wordpress.com/2018/02/12/graba-a-ble-beacons-recording-system/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/02/12/graba-a-ble-beacons-recording-system/</guid>
+      <description>&lt;p&gt;Grabar is the Spanish word of the verb &amp;ldquo;to record&amp;rdquo;. The translation of graba in English is “it records“. Graba is part of Jura and its function is to record datasets. It consists of two Kura’s plug-ins: iot.challenge.jura.graba and iot.challenge.jura.graba.web.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>“alya” a DIY modular personalized open-source smart mirror</title>
@@ -146,16 +156,6 @@
       
       <guid>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</guid>
       <description>&lt;p&gt;ActivIoTy is a project, part of the Eclipse Open IoT Challenge 4.0 aiming at enhancing sports timekeeping systems, through IoT low-cost devices.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Oscilloscope - Meet the team</title>
-      <link>http://dronov.net/2018/01/07/happy-new-2018-year.html</link>
-      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://dronov.net/2018/01/07/happy-new-2018-year.html</guid>
-      <description>&lt;p&gt;Happy New Year! I would like to take an opportunity and introduce our team.&lt;/p&gt;
 </description>
     </item>
     

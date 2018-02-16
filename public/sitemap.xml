@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---graba-a-ble-beacons-recording-system/</loc>
+    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya-a-diy-modular-personalized-open-source-smart-mirror/</loc>
     <lastmod>2018-02-11T00:00:00+00:00</lastmod>
   </url>
@@ -1629,7 +1634,7 @@
   
   <url>
     <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
-    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
