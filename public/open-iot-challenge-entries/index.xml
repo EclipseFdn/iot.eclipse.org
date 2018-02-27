@@ -6,8 +6,18 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A React component for getting YouTube videos using voice</title>
+      <link>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</guid>
+      <description>&lt;p&gt;A week ago, we have introduced our new project “Alya” in participation for Eclipse Open IoT Challenge , “Alya” is a modular personalized open-source smart mirror. In this blog, I am excited to talk about one of the core addons…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Trusted IoT - Graba: A BLE Beacons Recording System</title>
@@ -146,16 +156,6 @@
       
       <guid>https://medium.com/@IoTagger/hardware-solutions-for-eclipse-iot-challenge-exploring-lora-lorawan-5002ab6c2a82</guid>
       <description>&lt;p&gt;The Open IoT challenge lead me to research more in depth different technologies both from the hardware and the software aspect.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy at a Glance</title>
-      <link>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/169685763888/activioty-at-a-glance-eclipse-iot-challenge</guid>
-      <description>&lt;p&gt;ActivIoTy is a project, part of the Eclipse Open IoT Challenge 4.0 aiming at enhancing sports timekeeping systems, through IoT low-cost devices.&lt;/p&gt;
 </description>
     </item>
     
