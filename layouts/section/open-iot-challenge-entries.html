@@ -91,14 +91,11 @@
 
               {{ range (.Paginate ( .Data.Pages.ByWeight )).Pages }}
 
-              <div class="grid-item col-md-4">
+              <div class="grid-item col-md-4" >
 
-                <div class="row">
+                <div class="row" >
                   <h3 class="purple col-md-12">{{ .Title }}</h3>
-                  <div class="embed-responsive embed-responsive-16by9 col-md-12">
-                    <a href="{{ .Params.link }}" class="oembed"></a>
-                  </div>
-                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;">{{ .Content }} </div>
+                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify; min-height: 12em;">{{ .Content }} </div>
                   
                   <a href="{{ .Params.link }}" class="btn btn-default col-md-12" role="button">Read more…</a>
                 </div>
@@ -128,38 +125,8 @@
 
     <script src="//npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 
-    <script type="text/javascript" src="/assets/js/jquery.oembed.js"></script>
-
 
     <script type="text/javascript">
-
-    
-    $(".oembed").oembed(null, {
-      apikeys: {
-        //etsy : 'd0jq4lmfi5bjbrxq2etulmjr',
-        amazon : 'caterwall-20',
-        //eventbrite: 'SKOFRBQRGNQW5VAS6P',
-      },
-      includeHandle:false,
-      //fallback: false,
-      embedMethod: 'fill',
-//      maxHeight: 220, maxWidth:'100%',
-      afterEmbed: function () {
-        setTimeout(function () {
-                           $('.grid').masonry({
-                            // options
-                            itemSelector: '.grid-item',
-                            itemSelector: '.grid-item',
-                            gutter: 10
-
-                          });
-                  }, 500);
-      }
-    });
-
-
-
-
 
     $(document).ready(function() {
    
