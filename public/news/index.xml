@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open IoT Challenge - 2 weeks to go!</title>
+      <link>https://iot.eclipse.org/news/2018-03-02-challenge/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-03-02-challenge/</guid>
+      <description>There are about 12 teams actively participating and blogging about their journey (and probably more that are working in “stealth mode”), and I thought I would take some time to highlight some of the really cool things they are working on.</description>
+    </item>
     
     <item>
       <title>Lauching IoT Developer Survey 2018</title>
