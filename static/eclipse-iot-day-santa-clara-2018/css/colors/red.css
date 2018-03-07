@@ -87,6 +87,17 @@
 .speakers-body .item h3 {
   color: #ff3030;
 }
+
+.pc-body h2 {
+  color: #ff3030;
+}
+.pc-body .item a {
+  color: #ff3030 !important;
+}
+.pc-body .item h3 {
+  color: #ff3030;
+}
+
 /*
  ********************************
  *
