@@ -6,10 +6,28 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2017 15:31:21 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 15:31:15 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nokia</title>
+      <link>https://iot.eclipse.org/member/nokia/</link>
+      <pubDate>Mon, 05 Mar 2018 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/nokia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V2COM</title>
+      <link>https://iot.eclipse.org/member/v2com/</link>
+      <pubDate>Thu, 15 Feb 2018 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/v2com/</guid>
+      <description>With more than 12 years of Internet of Things (IoT) experience and more than one million devices connected world-wide, V2COM provides a platform to turn products into intelligent connected devices. V2COMs technology accelerates IoT project deployments and their time-to-market. V2COMs core offerings and products serve as an operating system that removes the complexity of data protocols, sensors interfaces, security, microprocessors architecture, software application language and wireless connectivity to create seamless, device intelligence.</description>
+    </item>
     
     <item>
       <title>ADLINK Technology Inc.</title>
