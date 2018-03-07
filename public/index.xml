@@ -97,12 +97,57 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Autonomy of Things - Location Awareness in IoT with Beacon Technology</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---location-awareness-in-iot-with-beacon-technology/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---location-awareness-in-iot-with-beacon-technology/</guid>
+      <description>In this article I’ll share the findings of my feasibility tests for implementing a location service with Bluetooth beacon using iOS and Linux-powered devices.</description>
+    </item>
+    
+    <item>
       <title>Nokia</title>
       <link>https://iot.eclipse.org/member/nokia/</link>
       <pubDate>Mon, 05 Mar 2018 15:31:15 -0700</pubDate>
       
       <guid>https://iot.eclipse.org/member/nokia/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Trync - Installing and configuring Mosquitto MQTT broker</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-mosquitto-mqtt-broker/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-mosquitto-mqtt-broker/</guid>
+      <description>For communicating between Trync gateways (trync-g) and Trync main server we are using MQTT and we have chosen Mosquitto MQTT broker.</description>
+    </item>
+    
+    <item>
+      <title>Trync - Installing and configuring WildFly application server with a Let&#39;s Encrypt SSL/TLS certificate</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-wildfly-application-server-with-a-lets-encrypt-ssl/tls-certificate/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-wildfly-application-server-with-a-lets-encrypt-ssl/tls-certificate/</guid>
+      <description>We are using WildFly application server for hosting Trync dashboard and its services written in Java. Following steps will describe how we configured WildFly on our DigitalOcean droplet running CentOS 7.4.</description>
+    </item>
+    
+    <item>
+      <title>Trync - Server infrastructure for Trync</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---server-infrastructure-for-trync/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---server-infrastructure-for-trync/</guid>
+      <description>For deploying Trync dashboard and services we have choose a DigitalOcean droplet running CentOS 7.4.</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Testing: One, two, three</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-one-two-three/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-one-two-three/</guid>
+      <description>This weekend we have met up in order to perform some experiments, and taking advantage of this meeting we are going to show you how to install Jura.</description>
     </item>
     
     <item>
@@ -115,12 +160,57 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>A React component for getting YouTube videos using voice</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/a-react-component-for-getting-youtube-videos-using-voice/</link>
+      <title>Trusted IoT - Firma: In IOTA We Trust</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---firma-in-iota-we-trust/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---firma-in-iota-we-trust/</guid>
+      <description>We are pleased to present Firma, the last part of Jura. “Firmar” is the Spanish word of the verb “to sign” and the translation of firma in English is &amp;ldquo;it signs&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - The (Activ-IoTy) Controller</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---the-activ-ioty-controller/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---the-activ-ioty-controller/</guid>
+      <description>The Controller is a MQTT subscriber that processes the checkins performed on Checkpoints.</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Our Approach. Part II. Trusted IPS</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---our-approach.-part-ii.-trusted-ips/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---our-approach.-part-ii.-trusted-ips/</guid>
+      <description>We have been waiting to post this for weeks. It is not because we are playing hard to get, we just wanted to see how far we could go :)</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - The Race to the Tangle</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle/</guid>
+      <description>These days we are using the starter kit that we got for our proposal for the Eclipse Open IoT Challenge 4.0 to carry out different tests.</description>
+    </item>
+    
+    <item>
+      <title>Alya - A React component for getting YouTube videos using voice</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---a-react-component-for-getting-youtube-videos-using-voice/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/a-react-component-for-getting-youtube-videos-using-voice/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---a-react-component-for-getting-youtube-videos-using-voice/</guid>
       <description>A week ago, we have introduced our new project “Alya” in participation for Eclipse Open IoT Challenge , “Alya” is a modular personalized open-source smart mirror. In this blog, I am excited to talk about one of the core addons…</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - Implementation of Low-Cost Activ-IoTy Checkpoint in Python</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---implementation-of-low-cost-activ-ioty-checkpoint-in-python/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---implementation-of-low-cost-activ-ioty-checkpoint-in-python/</guid>
+      <description>This solution only needs a bluetooth input device connected to a Raspberry Pi, or similar.</description>
     </item>
     
     <item>
@@ -133,12 +223,30 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Trusted IoT - Ubica: An Indoor Positioning System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---ubica-an-indoor-positioning-system/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---ubica-an-indoor-positioning-system/</guid>
+      <description>Ubicar is the Spanish word of the verb “to locate“. The translation of ubica in English is “it locates“. Ubica is another part of Jura and its function is to locate BLE beacons, hereinafter beacons.</description>
+    </item>
+    
+    <item>
       <title>V2COM</title>
       <link>https://iot.eclipse.org/member/v2com/</link>
       <pubDate>Thu, 15 Feb 2018 15:31:15 -0700</pubDate>
       
       <guid>https://iot.eclipse.org/member/v2com/</guid>
       <description>With more than 12 years of Internet of Things (IoT) experience and more than one million devices connected world-wide, V2COM provides a platform to turn products into intelligent connected devices. V2COMs technology accelerates IoT project deployments and their time-to-market. V2COMs core offerings and products serve as an operating system that removes the complexity of data protocols, sensors interfaces, security, microprocessors architecture, software application language and wireless connectivity to create seamless, device intelligence.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - IR Keypad on Arduino</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---ir-keypad-on-arduino/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---ir-keypad-on-arduino/</guid>
+      <description>A system based on Infrared (IR) remote control, is not very reliable for our purpose since there must be a direct visual line between transmitter and receiver –likely TV remote controls. More than a real solution, this is a proof of concept.</description>
     </item>
     
     <item>

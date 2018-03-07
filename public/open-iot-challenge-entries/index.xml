@@ -6,16 +6,136 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A React component for getting YouTube videos using voice</title>
+      <title>Autonomy of Things - Location Awareness in IoT with Beacon Technology</title>
+      <link>https://medium.com/@cayeric/location-awareness-in-iot-with-beacon-technology-2803f48a4e8c</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@cayeric/location-awareness-in-iot-with-beacon-technology-2803f48a4e8c</guid>
+      <description>&lt;p&gt;In this article I’ll share the findings of my feasibility tests for implementing a location service with Bluetooth beacon using iOS and Linux-powered devices.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trync - Installing and configuring Mosquitto MQTT broker</title>
+      <link>https://trync.blogspot.de/2018/03/installing-and-configuring-mosquitto.html</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trync.blogspot.de/2018/03/installing-and-configuring-mosquitto.html</guid>
+      <description>&lt;p&gt;For communicating between Trync gateways (trync-g) and Trync main server we are using MQTT and we have chosen Mosquitto MQTT broker.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trync - Installing and configuring WildFly application server with a Let&#39;s Encrypt SSL/TLS certificate</title>
+      <link>https://trync.blogspot.de/2018/03/installing-and-configuring-wildfly.html</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trync.blogspot.de/2018/03/installing-and-configuring-wildfly.html</guid>
+      <description>&lt;p&gt;We are using WildFly application server for hosting Trync dashboard and its services written in Java. Following steps will describe how we configured WildFly on our DigitalOcean droplet running CentOS 7.4.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trync - Server infrastructure for Trync</title>
+      <link>https://trync.blogspot.de/2018/03/server-infrastructure-for-trync.html</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trync.blogspot.de/2018/03/server-infrastructure-for-trync.html</guid>
+      <description>&lt;p&gt;For deploying Trync dashboard and services we have choose a DigitalOcean droplet running CentOS 7.4.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Testing: One, two, three</title>
+      <link>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</guid>
+      <description>&lt;p&gt;This weekend we have met up in order to perform some experiments, and taking advantage of this meeting we are going to show you how to install Jura.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Firma: In IOTA We Trust</title>
+      <link>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</guid>
+      <description>&lt;p&gt;We are pleased to present Firma, the last part of Jura. “Firmar” is the Spanish word of the verb “to sign” and the translation of firma in English is &amp;ldquo;it signs&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - The (Activ-IoTy) Controller</title>
+      <link>https://www.espinr.es/post/171411615533/activioty-controller-mqtt-subscriber</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/171411615533/activioty-controller-mqtt-subscriber</guid>
+      <description>&lt;p&gt;The Controller is a MQTT subscriber that processes the checkins performed on Checkpoints.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Our Approach. Part II. Trusted IPS</title>
+      <link>https://trusted827.wordpress.com/2018/03/01/our-approach-part-ii-trusted-ips/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/01/our-approach-part-ii-trusted-ips/</guid>
+      <description>&lt;p&gt;We have been waiting to post this for weeks. It is not because we are playing hard to get, we just wanted to see how far we could go :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - The Race to the Tangle</title>
+      <link>https://trusted827.wordpress.com/2018/03/01/the-race-to-the-tangle/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/01/the-race-to-the-tangle/</guid>
+      <description>&lt;p&gt;These days we are using the starter kit that we got for our proposal for the Eclipse Open IoT Challenge 4.0 to carry out different tests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - A React component for getting YouTube videos using voice</title>
       <link>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</guid>
       <description>&lt;p&gt;A week ago, we have introduced our new project “Alya” in participation for Eclipse Open IoT Challenge , “Alya” is a modular personalized open-source smart mirror. In this blog, I am excited to talk about one of the core addons…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - Implementation of Low-Cost Activ-IoTy Checkpoint in Python</title>
+      <link>https://www.espinr.es/post/171193243053/implementation-of-low-cost-activ-ioty-checkpoint</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/171193243053/implementation-of-low-cost-activ-ioty-checkpoint</guid>
+      <description>&lt;p&gt;This solution only needs a bluetooth input device connected to a Raspberry Pi, or similar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Ubica: An Indoor Positioning System</title>
+      <link>https://trusted827.wordpress.com/2018/02/21/ubica-an-indoor-positioning-system/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/02/21/ubica-an-indoor-positioning-system/</guid>
+      <description>&lt;p&gt;Ubicar is the Spanish word of the verb “to locate“. The translation of ubica in English is “it locates“. Ubica is another part of Jura and its function is to locate BLE beacons, hereinafter beacons.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - IR Keypad on Arduino</title>
+      <link>https://www.espinr.es/post/170867888708/ir-keypad-remote-control-arduino</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/170867888708/ir-keypad-remote-control-arduino</guid>
+      <description>&lt;p&gt;A system based on Infrared (IR) remote control, is not very reliable for our purpose since there must be a direct visual line between transmitter and receiver –likely TV remote controls. More than a real solution, this is a proof of concept.&lt;/p&gt;
 </description>
     </item>
     
@@ -36,126 +156,6 @@
       
       <guid>https://medium.com/@bilal.alsaeedi/alya-a-diy-modular-personalized-open-source-smart-mirror-bcc869f970b</guid>
       <description>&lt;p&gt;Two months has passed since the eclipse open IoT challenge 4.0 started, and in this first blog we are so excited to talk about our idea “alya-smart-mirror”.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy Checkpoint: UHF RFID &#43; RPi &#43; Paho for Python</title>
-      <link>https://www.espinr.es/post/170609161368/activioty-checkpoint-rfid-paho-python-raspberry-pi</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/170609161368/activioty-checkpoint-rfid-paho-python-raspberry-pi</guid>
-      <description>&lt;p&gt;One of the most important pieces of Activ-IoTy is Checkpoints. This article features the implementation of a checkpoint based on a IND903 UHF RFID Reader, connected to a Raspberry Pi (or a Intel Up Squared).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Faro: A Multimodal BLE Beacon</title>
-      <link>https://trusted827.wordpress.com/2018/02/07/faro-a-multimodal-ble-beacon/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/02/07/faro-a-multimodal-ble-beacon/</guid>
-      <description>&lt;p&gt;Faro is the Spanish term for a lighthouse, as well as a multimodal Bluetooth Low Energy Beacon service for Eclipse Kura.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Building Deployment Packages for Eclipse Kura</title>
-      <link>https://trusted827.wordpress.com/2018/02/02/building-deployment-packages-for-kura/</link>
-      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/02/02/building-deployment-packages-for-kura/</guid>
-      <description>&lt;p&gt;OSGi is ideal for managing IoT gateways and we believe that it is a wise move that Eclipse Kura has been developed using it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy - new Video</title>
-      <link>https://www.espinr.es/post/170259709483/high-level-explanation-of-the-objectives-of</link>
-      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/170259709483/high-level-explanation-of-the-objectives-of</guid>
-      <description>&lt;p&gt;High level explanation of the objectives of Activ-IoTy, a personal project being developed for the Open IoT Challenge.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy - MQTT: Cornerstone of Activ-IoTy</title>
-      <link>https://www.espinr.es/post/170182288043/mqtt-cornerstone-of-activ-ioty</link>
-      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/170182288043/mqtt-cornerstone-of-activ-ioty</guid>
-      <description>&lt;p&gt;Activ-IoTy is based on the pub-sub paradigm. This means that some components (publishers or senders) send messages to a central point, called broker, that delivers the messages to other components (subscribers or receivers) interested in receiving the information send by the publishers…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Preliminary results</title>
-      <link>https://trusted827.wordpress.com/2018/01/28/preliminary-results/</link>
-      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/01/28/preliminary-results/</guid>
-      <description>&lt;p&gt;This has been a great week for us :). Our team consists of three computer engineers; all of us from different fields, with great interest and curiosity about IoT but inexperienced in it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CISSOS - Getting started with the Open IoT Challenge!</title>
-      <link>https://medium.com/@cissos/getting-started-with-the-eclipse-open-iot-challenge-bc36797b4781</link>
-      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@cissos/getting-started-with-the-eclipse-open-iot-challenge-bc36797b4781</guid>
-      <description>&lt;p&gt;Two months have passed since we handed in our topic for the Open IoT Challenge and now we (finally!) want to give an introduction to our project and what we want to (and have already) achieve(d).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Protocol Layers of Activ-IoTy</title>
-      <link>https://www.espinr.es/post/170031969458/protocol-layers-of-activioty</link>
-      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/170031969458/protocol-layers-of-activioty</guid>
-      <description>&lt;p&gt;ActivIoTy is based on recognized standard protocols. Since the platform is designed to allow different and heterogeneous devices and implementations, standard technologies are crucial for scalability, enhancement of the system, and also to preserve integrity of data.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - Setup development environment for ESP32 - Part 2</title>
-      <link>https://trync.blogspot.de/2018/01/setup-development-environment-for-esp32-part2.html</link>
-      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/01/setup-development-environment-for-esp32-part2.html</guid>
-      <description>&lt;p&gt;In the first part we have already setup and configured ESP-IDF. So let&amp;rsquo;s do the code, compile and flash with an IDE. I have choose Eclipse IDE which is my favorite for a long time for Java, Atmel AVR and now ESP32 developments.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Activ-IoTy Components</title>
-      <link>https://www.espinr.es/post/169927462078/activioty-components</link>
-      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/169927462078/activioty-components</guid>
-      <description>&lt;p&gt;Checkpoints and Controller: these are the main pieces of ActivIoTy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - Setup development environment for ESP32 - Part 1</title>
-      <link>https://trync.blogspot.de/2018/01/setup-development-environment-for-esp32.html</link>
-      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/01/setup-development-environment-for-esp32.html</guid>
-      <description>&lt;p&gt;For Trync hardware development the key component (Trync agent or Trync-a in short) is ESP32 SoC microcontroller by Espressif.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hardware solutions for Eclipse IOT Challenge: Exploring LoRa/LoRaWAN</title>
-      <link>https://medium.com/@IoTagger/hardware-solutions-for-eclipse-iot-challenge-exploring-lora-lorawan-5002ab6c2a82</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@IoTagger/hardware-solutions-for-eclipse-iot-challenge-exploring-lora-lorawan-5002ab6c2a82</guid>
-      <description>&lt;p&gt;The Open IoT challenge lead me to research more in depth different technologies both from the hardware and the software aspect.&lt;/p&gt;
 </description>
     </item>
     
