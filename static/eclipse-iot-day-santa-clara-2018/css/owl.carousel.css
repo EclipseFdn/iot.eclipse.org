@@ -84,6 +84,22 @@
 
 #slider .item img{
 	max-width: 216px;
+}	
+
+/*  carousel custom CSS  */
+#slider-pc .item{
+	background: none !important;
+	padding: 0px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+  }
+  
+#slider-pc .item img{
+	max-width: 216px;
 }
 
 .customNavigation{

@@ -71,8 +71,8 @@
 
               {{ range where .Data.Pages "Section" "member" }}
 
-              <div class="col-md-2 col-xs-2 member" style="padding:20px 20px;" title="{{ .Title }}">
-                <div style="height: 120px; line-height: 120px; ">
+              <div class="col-md-1 col-xs-1 member" style="padding:20px 20px;" title="{{ .Title }}">
+                <div style="height: 90px; line-height: 120px; ">
                   <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
                     <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </a>
