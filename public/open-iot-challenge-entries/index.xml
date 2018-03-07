@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Cloud Oscilloscope - Backend Architecture</title>
+      <link>http://dronov.net/2018/03/06/cloud-oscilloscope-backend-architecture.html</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2018/03/06/cloud-oscilloscope-backend-architecture.html</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re working on a backend for our Cloud Oscilloscope project. On the last meetings we decided to use common technologies for IoT to connect our device with backend.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Trync - Installing and configuring Mosquitto MQTT broker</title>
       <link>https://trync.blogspot.de/2018/03/installing-and-configuring-mosquitto.html</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
@@ -146,16 +156,6 @@
       
       <guid>https://trusted827.wordpress.com/2018/02/12/graba-a-ble-beacons-recording-system/</guid>
       <description>&lt;p&gt;Grabar is the Spanish word of the verb &amp;ldquo;to record&amp;rdquo;. The translation of graba in English is “it records“. Graba is part of Jura and its function is to record datasets. It consists of two Kura’s plug-ins: iot.challenge.jura.graba and iot.challenge.jura.graba.web.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>“alya” a DIY modular personalized open-source smart mirror</title>
-      <link>https://medium.com/@bilal.alsaeedi/alya-a-diy-modular-personalized-open-source-smart-mirror-bcc869f970b</link>
-      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@bilal.alsaeedi/alya-a-diy-modular-personalized-open-source-smart-mirror-bcc869f970b</guid>
-      <description>&lt;p&gt;Two months has passed since the eclipse open IoT challenge 4.0 started, and in this first blog we are so excited to talk about our idea “alya-smart-mirror”.&lt;/p&gt;
 </description>
     </item>
     

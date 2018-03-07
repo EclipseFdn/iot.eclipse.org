@@ -106,6 +106,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Cloud Oscilloscope - Backend Architecture</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---backend-architecture/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---backend-architecture/</guid>
+      <description>We&amp;rsquo;re working on a backend for our Cloud Oscilloscope project. On the last meetings we decided to use common technologies for IoT to connect our device with backend.</description>
+    </item>
+    
+    <item>
       <title>Nokia</title>
       <link>https://iot.eclipse.org/member/nokia/</link>
       <pubDate>Mon, 05 Mar 2018 15:31:15 -0700</pubDate>
