@@ -97,6 +97,33 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>ModeS3 - SmartCity Intro</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---smartcity-intro/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---smartcity-intro/</guid>
+      <description>MoDeS3 – Smart City project integrates these innovative solutions into a common framework and testbed.</description>
+    </item>
+    
+    <item>
+      <title>ActivIoTy - Checkpoints on the Move?</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activioty---checkpoints-on-the-move/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activioty---checkpoints-on-the-move/</guid>
+      <description>We are on the last mile of the challenge, and I’m exploring new ways to enrich the user experience of the platform, adding new features.</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Parallelizing IOTA transactions in Kura</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---parallelizing-iota-transactions-in-kura/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---parallelizing-iota-transactions-in-kura/</guid>
+      <description>What’s the fuss about? From now on, Jura is scalable in terms of locations stored in the tangle. How? Using IOTA’s workers.</description>
+    </item>
+    
+    <item>
       <title>Autonomy of Things - Location Awareness in IoT with Beacon Technology</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---location-awareness-in-iot-with-beacon-technology/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
