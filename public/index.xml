@@ -484,6 +484,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>IoT cloud platform with EnMasse and Apache Spark using Red Hat OpenShift</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/iot-cloud-platform-with-enmasse-and-apache-spark-using-red-hat-openshift/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/iot-cloud-platform-with-enmasse-and-apache-spark-using-red-hat-openshift/</guid>
+      <description>The server uses a computer with OpenShift to deploy EnMasse and Apache Spark.</description>
+    </item>
+    
+    <item>
       <title>Alya - A React component for getting YouTube videos using voice</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---a-react-component-for-getting-youtube-videos-using-voice/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
@@ -607,6 +616,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/events/2018-02-01-the-things-network-conference/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - IoT gateway with Raspberry Pi using Eclipse Kura</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-gateway-with-raspberry-pi-using-eclipse-kura/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-gateway-with-raspberry-pi-using-eclipse-kura/</guid>
+      <description>The gateway uses a Raspberry Pi with Eclipse Kura to run the application that controls the relay board, Eclipse Leshan to communicate with the sensor, and Eclipse Paho to communicate with the server.</description>
     </item>
     
     <item>
@@ -751,6 +769,33 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---sports-timekeeping---iot-for-eclipse-challenge/</guid>
       <description>To make running attractive among runners there are two important aspects to take into account: accurate/official timekeeping, and publication of comparable results for statistics and competition.</description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - IoT temperature sensor with ESP8266 using LWM2M (Eclipse Wakaama)</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-temperature-sensor-with-esp8266-using-lwm2m-eclipse-wakaama/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-temperature-sensor-with-esp8266-using-lwm2m-eclipse-wakaama/</guid>
+      <description>The sensor uses an ESP8266 board with the protocol Lightweight M2M to communicate the temperature read by DS18B20 to the gateway.</description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - Build an Android app to control a Q7 Camera P2P WIFI</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---build-an-android-app-to-control-a-q7-camera-p2p-wifi/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---build-an-android-app-to-control-a-q7-camera-p2p-wifi/</guid>
+      <description>This tutorial will teach you how to build an Android app to control a Q7 Camera P2P WIFI using the Android Studio development environment.</description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - Connect wan automatically at boot and after a disconnection on OpenWrt</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---connect-wan-automatically-at-boot-and-after-a-disconnection-on-openwrt/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---connect-wan-automatically-at-boot-and-after-a-disconnection-on-openwrt/</guid>
+      <description>OpenWrt is an open source project for embedded operating system based on Linux, primarily used on embedded devices to route network traffic.</description>
     </item>
     
     <item>
@@ -940,6 +985,15 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/news/2017-11-03-challenge4-ideas/</guid>
       <description>Get inspired by Benjamin&amp;rsquo;s ideas (deep learning, industrial IoT, blockchain and distributed ledgers, Low-power &amp;amp; long-life, &amp;hellip;) and enter this year&amp;rsquo;s Challenge!</description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - Intro</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---intro/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---intro/</guid>
+      <description>Smart solar water heating solution to take part in the Open IoT Challenge 4.0!</description>
     </item>
     
     <item>
