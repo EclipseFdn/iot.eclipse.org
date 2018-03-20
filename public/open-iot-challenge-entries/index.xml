@@ -6,8 +6,108 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cloud Oscilloscope - Final Report</title>
+      <link>http://dronov.net/2018/03/15/open-iot-challenge-4-final.html</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2018/03/15/open-iot-challenge-4-final.html</guid>
+      <description>&lt;p&gt;Welcome to our journey to Open IoT Challenge by Eclipse! Last December our proposal was chosen from 70 proposal to participate. Also we&amp;rsquo;ve got a promocode for electronics and started to work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ModeS3 - DDS and Xtext</title>
+      <link>http://modes3-smartcity.readthedocs.io/en/latest/blog/codegen/CodeGen/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://modes3-smartcity.readthedocs.io/en/latest/blog/codegen/CodeGen/</guid>
+      <description>&lt;p&gt;Code generation from state machines to DDS execution environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - Cloud voice recognition Alexa for alya-smart-mirror</title>
+      <link>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</guid>
+      <description>&lt;p&gt;Alya can be integrated with Alexa using all the great built in capabilities of Alexa.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - asm-app: a react native mobile app to configure alya-smart-mirror</title>
+      <link>https://medium.com/@sarahalsaeedi16/asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror-b81e437ee34a</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@sarahalsaeedi16/asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror-b81e437ee34a</guid>
+      <description>&lt;p&gt;Let’s introduce our react native app “asm app” which is one of the main alya core component. Our app plays a major role in our project as it’s an intermediary between the end user and the backend as discussed before in “asm-backend” .&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ModeS3 - Our choice of DDS implementation: Vortex OpenSplice DDS</title>
+      <link>http://modes3-smartcity.readthedocs.io/en/latest/blog/opensplice_dds/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://modes3-smartcity.readthedocs.io/en/latest/blog/opensplice_dds/</guid>
+      <description>&lt;p&gt;After we had decided to use DDS for the communication between the components of our distributed system that we would like to manage, we had to choose the implementation of this middleware.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Testing: Four, five, six</title>
+      <link>https://trusted827.wordpress.com/2018/03/14/testing-four-five-six/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/14/testing-four-five-six/</guid>
+      <description>&lt;p&gt;We commented on Testing: One, two, three, that we would like to develop a software tool which would allow anyone to fine-tune his/her installation to a position as accurately as possible. This tool is ready and available in mide repository.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trync - How we connect Eclipse Kura gateway to a web application hosted on WildFly</title>
+      <link>https://trync.blogspot.de/2018/03/how-we-connect-eclipse-kura-gateway-to.html</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trync.blogspot.de/2018/03/how-we-connect-eclipse-kura-gateway-to.html</guid>
+      <description>&lt;p&gt;As we are using RaspberryPI hardware running Eclipse Kura on top of Raspbian OS as Trync gateway we have to connect it to the Trync Dashboad, a web application developed with Java hosted on WildFly application server.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Build Scheme and components</title>
+      <link>http://dronov.net/2018/03/13/build-scheme.html</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://dronov.net/2018/03/13/build-scheme.html</guid>
+      <description>&lt;p&gt;You need a number of components to assemble Cloud Oscilloscope. Most of them can be bought at the nearest radio store or on AliExpress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - Cloud-based Face Recognition for Alya Smart Mirror</title>
+      <link>https://medium.com/@tareq_mamari/cloud-based-face-recognition-for-alya-smart-mirror-fd89e71ce0ec</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@tareq_mamari/cloud-based-face-recognition-for-alya-smart-mirror-fd89e71ce0ec</guid>
+      <description>&lt;p&gt;Alongside with the voice recognition support, Alya supports personalization through face recognition, in this article we will go through cloud-based face recognition in Alya.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - Offline voice recognition for “alya-smart-mirror</title>
+      <link>https://medium.com/@bilal.alsaeedi/offline-voice-recognition-for-alya-smart-mirror-600c20f6d87f</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@bilal.alsaeedi/offline-voice-recognition-for-alya-smart-mirror-600c20f6d87f</guid>
+      <description>&lt;p&gt;Having a voice recognition support in ASM is part of the core services which is used to recognize the voice commands given by the user. We selected an offline voice recognition service since it is less expensive and requires less configurations.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ModeS3 - SmartCity Intro</title>
@@ -56,106 +156,6 @@
       
       <guid>http://dronov.net/2018/03/06/cloud-oscilloscope-backend-architecture.html</guid>
       <description>&lt;p&gt;We&amp;rsquo;re working on a backend for our Cloud Oscilloscope project. On the last meetings we decided to use common technologies for IoT to connect our device with backend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - The Race to the Tangle II: Teamwork</title>
-      <link>https://trusted827.wordpress.com/2018/03/06/the-race-to-the-tangle-ii-teamwork/</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/06/the-race-to-the-tangle-ii-teamwork/</guid>
-      <description>&lt;p&gt;This post is a continuation of the race to the tangle in which we discuss how we try to increase the number of transactions we make to the tangle with the hardware we have.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - Installing and configuring Mosquitto MQTT broker</title>
-      <link>https://trync.blogspot.de/2018/03/installing-and-configuring-mosquitto.html</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/03/installing-and-configuring-mosquitto.html</guid>
-      <description>&lt;p&gt;For communicating between Trync gateways (trync-g) and Trync main server we are using MQTT and we have chosen Mosquitto MQTT broker.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - Installing and configuring WildFly application server with a Let&#39;s Encrypt SSL/TLS certificate</title>
-      <link>https://trync.blogspot.de/2018/03/installing-and-configuring-wildfly.html</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/03/installing-and-configuring-wildfly.html</guid>
-      <description>&lt;p&gt;We are using WildFly application server for hosting Trync dashboard and its services written in Java. Following steps will describe how we configured WildFly on our DigitalOcean droplet running CentOS 7.4.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - Server infrastructure for Trync</title>
-      <link>https://trync.blogspot.de/2018/03/server-infrastructure-for-trync.html</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/03/server-infrastructure-for-trync.html</guid>
-      <description>&lt;p&gt;For deploying Trync dashboard and services we have choose a DigitalOcean droplet running CentOS 7.4.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Testing: One, two, three</title>
-      <link>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</guid>
-      <description>&lt;p&gt;This weekend we have met up in order to perform some experiments, and taking advantage of this meeting we are going to show you how to install Jura.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Firma: In IOTA We Trust</title>
-      <link>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</link>
-      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/02/firma-in-iota-we-trust/</guid>
-      <description>&lt;p&gt;We are pleased to present Firma, the last part of Jura. “Firmar” is the Spanish word of the verb “to sign” and the translation of firma in English is &amp;ldquo;it signs&amp;rdquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ActivIoTy - The (Activ-IoTy) Controller</title>
-      <link>https://www.espinr.es/post/171411615533/activioty-controller-mqtt-subscriber</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/171411615533/activioty-controller-mqtt-subscriber</guid>
-      <description>&lt;p&gt;The Controller is a MQTT subscriber that processes the checkins performed on Checkpoints.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Our Approach. Part II. Trusted IPS</title>
-      <link>https://trusted827.wordpress.com/2018/03/01/our-approach-part-ii-trusted-ips/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/01/our-approach-part-ii-trusted-ips/</guid>
-      <description>&lt;p&gt;We have been waiting to post this for weeks. It is not because we are playing hard to get, we just wanted to see how far we could go :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - The Race to the Tangle</title>
-      <link>https://trusted827.wordpress.com/2018/03/01/the-race-to-the-tangle/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/01/the-race-to-the-tangle/</guid>
-      <description>&lt;p&gt;These days we are using the starter kit that we got for our proposal for the Eclipse Open IoT Challenge 4.0 to carry out different tests.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alya - A React component for getting YouTube videos using voice</title>
-      <link>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</link>
-      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@alialsaeedi19/asm-youtube-addon-a-react-component-for-getting-youtube-videos-using-voice-commands-f570d5e2ac8f</guid>
-      <description>&lt;p&gt;A week ago, we have introduced our new project “Alya” in participation for Eclipse Open IoT Challenge , “Alya” is a modular personalized open-source smart mirror. In this blog, I am excited to talk about one of the core addons…&lt;/p&gt;
 </description>
     </item>
     

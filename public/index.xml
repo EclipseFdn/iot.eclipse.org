@@ -97,12 +97,102 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Cloud Oscilloscope - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---final-report/</guid>
+      <description>Welcome to our journey to Open IoT Challenge by Eclipse! Last December our proposal was chosen from 70 proposal to participate. Also we&amp;rsquo;ve got a promocode for electronics and started to work.</description>
+    </item>
+    
+    <item>
+      <title>ModeS3 - DDS and Xtext</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</guid>
+      <description>Code generation from state machines to DDS execution environment.</description>
+    </item>
+    
+    <item>
+      <title>Alya - Cloud voice recognition Alexa for alya-smart-mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-voice-recognition-alexa-for-alya-smart-mirror/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-voice-recognition-alexa-for-alya-smart-mirror/</guid>
+      <description>Alya can be integrated with Alexa using all the great built in capabilities of Alexa.</description>
+    </item>
+    
+    <item>
+      <title>Alya - asm-app: a react native mobile app to configure alya-smart-mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror/</guid>
+      <description>Let’s introduce our react native app “asm app” which is one of the main alya core component. Our app plays a major role in our project as it’s an intermediary between the end user and the backend as discussed before in “asm-backend” .</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day Santa Clara | Speakers Announced</title>
       <link>https://iot.eclipse.org/news/2018-03-14-iot-sc-speakers/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/news/2018-03-14-iot-sc-speakers/</guid>
       <description>We are pleased to announce the speakers for the Eclipse IoT Day Santa Clara, co-located with IoT World 2018 on May 14.</description>
+    </item>
+    
+    <item>
+      <title>ModeS3 - Our choice of DDS implementation: Vortex OpenSplice DDS</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---our-choice-of-dds-implementation-vortex-opensplice-dds/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---our-choice-of-dds-implementation-vortex-opensplice-dds/</guid>
+      <description>After we had decided to use DDS for the communication between the components of our distributed system that we would like to manage, we had to choose the implementation of this middleware.</description>
+    </item>
+    
+    <item>
+      <title>Trusted IoT - Testing: Four, five, six</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-four-five-six/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-four-five-six/</guid>
+      <description>We commented on Testing: One, two, three, that we would like to develop a software tool which would allow anyone to fine-tune his/her installation to a position as accurately as possible. This tool is ready and available in mide repository.</description>
+    </item>
+    
+    <item>
+      <title>Trync - How we connect Eclipse Kura gateway to a web application hosted on WildFly</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---how-we-connect-eclipse-kura-gateway-to-a-web-application-hosted-on-wildfly/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---how-we-connect-eclipse-kura-gateway-to-a-web-application-hosted-on-wildfly/</guid>
+      <description>As we are using RaspberryPI hardware running Eclipse Kura on top of Raspbian OS as Trync gateway we have to connect it to the Trync Dashboad, a web application developed with Java hosted on WildFly application server.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Oscilloscope - Build Scheme and components</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---build-scheme-and-components/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---build-scheme-and-components/</guid>
+      <description>You need a number of components to assemble Cloud Oscilloscope. Most of them can be bought at the nearest radio store or on AliExpress.</description>
+    </item>
+    
+    <item>
+      <title>Alya - Cloud-based Face Recognition for Alya Smart Mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-based-face-recognition-for-alya-smart-mirror/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-based-face-recognition-for-alya-smart-mirror/</guid>
+      <description>Alongside with the voice recognition support, Alya supports personalization through face recognition, in this article we will go through cloud-based face recognition in Alya.</description>
+    </item>
+    
+    <item>
+      <title>Alya - Offline voice recognition for “alya-smart-mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-voice-recognition-for-alya-smart-mirror/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-voice-recognition-for-alya-smart-mirror/</guid>
+      <description>Having a voice recognition support in ASM is part of the core services which is used to recognize the voice commands given by the user. We selected an offline voice recognition service since it is less expensive and requires less configurations.</description>
     </item>
     
     <item>
