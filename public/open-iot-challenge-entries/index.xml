@@ -6,8 +6,78 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alya-Smart-Mirror from vision to reality</title>
+      <link>https://medium.com/@tagsaeedi/alya-smart-mirror-from-vision-to-reality-8b40faddf529</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@tagsaeedi/alya-smart-mirror-from-vision-to-reality-8b40faddf529</guid>
+      <description>&lt;p&gt;What does the Alya-Smart-Mirror look like? Find out!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Activ-IoTy Timekeeping - Final Report</title>
+      <link>https://www.espinr.es/post/171893735073/activioty-timekeeping-report</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.espinr.es/post/171893735073/activioty-timekeeping-report</guid>
+      <description>&lt;p&gt;Watch the video summarizing all the work done in this project in just 3 minutes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - Offline gesture recognition for alya-smart-mirror</title>
+      <link>https://medium.com/@alialsaeedi19/offline-gesture-recognition-for-alya-smart-mirror-8ef467e14164</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@alialsaeedi19/offline-gesture-recognition-for-alya-smart-mirror-8ef467e14164</guid>
+      <description>&lt;p&gt;Sensor hub is one of alya’s features collects and shows user’s various sensor hub such as temperature, humidity, light, face detections, face demographics and much more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - alya-smart-mirror as sensor hub for your home</title>
+      <link>https://medium.com/@ibrahimsenan3/alya-smart-mirror-as-sensor-hub-for-your-home-952ffd8fd58c</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@ibrahimsenan3/alya-smart-mirror-as-sensor-hub-for-your-home-952ffd8fd58c</guid>
+      <description>&lt;p&gt;We will talk about the offline gesture recognition support of Aly. Now, Alya supports for now palm and fist gestures using Matrix creator.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya-Smart-Mirror OpenIoTChallenge Final Report</title>
+      <link>https://medium.com/@bilal.alsaeedi/alya-smart-mirror-openiotchallenge-final-report-a8cc8e95885</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@bilal.alsaeedi/alya-smart-mirror-openiotchallenge-final-report-a8cc8e95885</guid>
+      <description>&lt;p&gt;There are already many impressive open source smart-mirror projects out there but we wanted to achieve even more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomy of Things - Final Report</title>
+      <link>https://medium.com/@cayeric/and-brought-into-existence-dd0cf1565c5e</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@cayeric/and-brought-into-existence-dd0cf1565c5e</guid>
+      <description>&lt;p&gt;Three months ago i took the chance to make a commitment — to realise an idea i had for years. Long before it became known as the Internet-Of-Things, i connected devices with wires and radio frequency.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CISSOS - Final Report</title>
+      <link>https://medium.com/@cissos/openiotchallenge-final-submission-2ab11e573159</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@cissos/openiotchallenge-final-submission-2ab11e573159</guid>
+      <description>&lt;p&gt;We wanted to investigate how open-source software from the Eclipse IoT community can be used to build a full (I)IoT solution-stack from sensor to visualization based on the classical three tier architecture for IoT.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Oscilloscope - Final Report</title>
@@ -16,6 +86,26 @@
       
       <guid>http://dronov.net/2018/03/15/open-iot-challenge-4-final.html</guid>
       <description>&lt;p&gt;Welcome to our journey to Open IoT Challenge by Eclipse! Last December our proposal was chosen from 70 proposal to participate. Also we&amp;rsquo;ve got a promocode for electronics and started to work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IIOT2K IoT Framework - Final Report</title>
+      <link>https://medium.com/@d.yolcubal/the-iiot2k-easy-to-use-iot-framework-accbbe896552</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@d.yolcubal/the-iiot2k-easy-to-use-iot-framework-accbbe896552</guid>
+      <description>&lt;p&gt;I start to design and write the IIOT2K framework and share it with to you in conjunction with Eclipse IoT challenge 4.0. I hope that my framework helps IoT enthusiasts to realize there IoT projects in easily way. I would happy for suggestions for this project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MoDeS3 - The Smart City - Final Report</title>
+      <link>http://modes3-smartcity.readthedocs.io/en/latest/summary/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://modes3-smartcity.readthedocs.io/en/latest/summary/</guid>
+      <description>&lt;p&gt;We continued the MoDeS3 project (which won third place in 2016) and we built a smart city on top of the physical architecture.&lt;/p&gt;
 </description>
     </item>
     
@@ -30,132 +120,42 @@
     </item>
     
     <item>
-      <title>Alya - Cloud voice recognition Alexa for alya-smart-mirror</title>
-      <link>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>OpenNMS - Final Report</title>
+      <link>http://opennms.co.uk/wordpress/2018/03/15/opennms-eclipse-iot-challenge-201718-final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</guid>
-      <description>&lt;p&gt;Alya can be integrated with Alexa using all the great built in capabilities of Alexa.&lt;/p&gt;
+      <guid>http://opennms.co.uk/wordpress/2018/03/15/opennms-eclipse-iot-challenge-201718-final-report/</guid>
+      <description>&lt;p&gt;The aim of this project is to use IoT pollution measurements as a compelling use case to prove a design for an MQTT plugin for OpenNMS.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Alya - asm-app: a react native mobile app to configure alya-smart-mirror</title>
-      <link>https://medium.com/@sarahalsaeedi16/asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror-b81e437ee34a</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>Poulpy - Final Report</title>
+      <link>https://demirago.wixsite.com/poulpyproject</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://medium.com/@sarahalsaeedi16/asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror-b81e437ee34a</guid>
-      <description>&lt;p&gt;Let’s introduce our react native app “asm app” which is one of the main alya core component. Our app plays a major role in our project as it’s an intermediary between the end user and the backend as discussed before in “asm-backend” .&lt;/p&gt;
+      <guid>https://demirago.wixsite.com/poulpyproject</guid>
+      <description>&lt;p&gt;Poulpy was born with the intent of creating a connected aquarium network all over the country so people can monitor their aquariums and learn more about marine life.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>ModeS3 - Our choice of DDS implementation: Vortex OpenSplice DDS</title>
-      <link>http://modes3-smartcity.readthedocs.io/en/latest/blog/opensplice_dds/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>Smart solar water heating (SWH) - Final Report</title>
+      <link>http://dev.bruscino.eu/2018/03/smart-solar-water-heating-solution.html</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://modes3-smartcity.readthedocs.io/en/latest/blog/opensplice_dds/</guid>
-      <description>&lt;p&gt;After we had decided to use DDS for the communication between the components of our distributed system that we would like to manage, we had to choose the implementation of this middleware.&lt;/p&gt;
+      <guid>http://dev.bruscino.eu/2018/03/smart-solar-water-heating-solution.html</guid>
+      <description>&lt;p&gt;Smart solar water heating solution uses IoT and AI technologies to improve the efficiency of passive solar water heating system. This solution has been developed to take part in the Open IoT Challenge 4.0!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Trusted IoT - Testing: Four, five, six</title>
-      <link>https://trusted827.wordpress.com/2018/03/14/testing-four-five-six/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <title>SmartOASYS - Final Report</title>
+      <link>https://smartoasysdashboard.blogspot.de/2018/03/smartoasys-dashboard-for-water_15.html</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://trusted827.wordpress.com/2018/03/14/testing-four-five-six/</guid>
-      <description>&lt;p&gt;We commented on Testing: One, two, three, that we would like to develop a software tool which would allow anyone to fine-tune his/her installation to a position as accurately as possible. This tool is ready and available in mide repository.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trync - How we connect Eclipse Kura gateway to a web application hosted on WildFly</title>
-      <link>https://trync.blogspot.de/2018/03/how-we-connect-eclipse-kura-gateway-to.html</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trync.blogspot.de/2018/03/how-we-connect-eclipse-kura-gateway-to.html</guid>
-      <description>&lt;p&gt;As we are using RaspberryPI hardware running Eclipse Kura on top of Raspbian OS as Trync gateway we have to connect it to the Trync Dashboad, a web application developed with Java hosted on WildFly application server.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Oscilloscope - Build Scheme and components</title>
-      <link>http://dronov.net/2018/03/13/build-scheme.html</link>
-      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://dronov.net/2018/03/13/build-scheme.html</guid>
-      <description>&lt;p&gt;You need a number of components to assemble Cloud Oscilloscope. Most of them can be bought at the nearest radio store or on AliExpress.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alya - Cloud-based Face Recognition for Alya Smart Mirror</title>
-      <link>https://medium.com/@tareq_mamari/cloud-based-face-recognition-for-alya-smart-mirror-fd89e71ce0ec</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@tareq_mamari/cloud-based-face-recognition-for-alya-smart-mirror-fd89e71ce0ec</guid>
-      <description>&lt;p&gt;Alongside with the voice recognition support, Alya supports personalization through face recognition, in this article we will go through cloud-based face recognition in Alya.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alya - Offline voice recognition for “alya-smart-mirror</title>
-      <link>https://medium.com/@bilal.alsaeedi/offline-voice-recognition-for-alya-smart-mirror-600c20f6d87f</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@bilal.alsaeedi/offline-voice-recognition-for-alya-smart-mirror-600c20f6d87f</guid>
-      <description>&lt;p&gt;Having a voice recognition support in ASM is part of the core services which is used to recognize the voice commands given by the user. We selected an offline voice recognition service since it is less expensive and requires less configurations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ModeS3 - SmartCity Intro</title>
-      <link>http://modes3-smartcity.readthedocs.io/en/latest/#a-project-for-the-open-iot-challenge-40</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://modes3-smartcity.readthedocs.io/en/latest/#a-project-for-the-open-iot-challenge-40</guid>
-      <description>&lt;p&gt;MoDeS3 – Smart City project integrates these innovative solutions into a common framework and testbed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ActivIoTy - Checkpoints on the Move?</title>
-      <link>https://www.espinr.es/post/171721865368/checkpoints-on-the-move-fona3g-arduino</link>
-      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.espinr.es/post/171721865368/checkpoints-on-the-move-fona3g-arduino</guid>
-      <description>&lt;p&gt;We are on the last mile of the challenge, and I’m exploring new ways to enrich the user experience of the platform, adding new features.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Trusted IoT - Parallelizing IOTA transactions in Kura</title>
-      <link>https://trusted827.wordpress.com/2018/03/10/parallelizing-iota-transactions-in-kura/</link>
-      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://trusted827.wordpress.com/2018/03/10/parallelizing-iota-transactions-in-kura/</guid>
-      <description>&lt;p&gt;What’s the fuss about? From now on, Jura is scalable in terms of locations stored in the tangle. How? Using IOTA’s workers.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Autonomy of Things - Location Awareness in IoT with Beacon Technology</title>
-      <link>https://medium.com/@cayeric/location-awareness-in-iot-with-beacon-technology-2803f48a4e8c</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@cayeric/location-awareness-in-iot-with-beacon-technology-2803f48a4e8c</guid>
-      <description>&lt;p&gt;In this article I’ll share the findings of my feasibility tests for implementing a location service with Bluetooth beacon using iOS and Linux-powered devices.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Oscilloscope - Backend Architecture</title>
-      <link>http://dronov.net/2018/03/06/cloud-oscilloscope-backend-architecture.html</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://dronov.net/2018/03/06/cloud-oscilloscope-backend-architecture.html</guid>
-      <description>&lt;p&gt;We&amp;rsquo;re working on a backend for our Cloud Oscilloscope project. On the last meetings we decided to use common technologies for IoT to connect our device with backend.&lt;/p&gt;
+      <guid>https://smartoasysdashboard.blogspot.de/2018/03/smartoasys-dashboard-for-water_15.html</guid>
+      <description>&lt;p&gt;SmartOASYS is a dashboard for Water Monitoring system using IoT - PaaS&lt;/p&gt;
 </description>
     </item>
     

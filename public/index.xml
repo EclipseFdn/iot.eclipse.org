@@ -97,6 +97,69 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Alya-Smart-Mirror from vision to reality</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</guid>
+      <description>What does the Alya-Smart-Mirror look like? Find out!</description>
+    </item>
+    
+    <item>
+      <title>Activ-IoTy Timekeeping - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-timekeeping---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-timekeeping---final-report/</guid>
+      <description>Watch the video summarizing all the work done in this project in just 3 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Alya - Offline gesture recognition for alya-smart-mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</guid>
+      <description>Sensor hub is one of alya’s features collects and shows user’s various sensor hub such as temperature, humidity, light, face detections, face demographics and much more.</description>
+    </item>
+    
+    <item>
+      <title>Alya - alya-smart-mirror as sensor hub for your home</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</guid>
+      <description>We will talk about the offline gesture recognition support of Aly. Now, Alya supports for now palm and fist gestures using Matrix creator.</description>
+    </item>
+    
+    <item>
+      <title>Alya-Smart-Mirror OpenIoTChallenge Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-openiotchallenge-final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-openiotchallenge-final-report/</guid>
+      <description>There are already many impressive open source smart-mirror projects out there but we wanted to achieve even more.</description>
+    </item>
+    
+    <item>
+      <title>Autonomy of Things - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---final-report/</guid>
+      <description>Three months ago i took the chance to make a commitment — to realise an idea i had for years. Long before it became known as the Internet-Of-Things, i connected devices with wires and radio frequency.</description>
+    </item>
+    
+    <item>
+      <title>CISSOS - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/cissos---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/cissos---final-report/</guid>
+      <description>We wanted to investigate how open-source software from the Eclipse IoT community can be used to build a full (I)IoT solution-stack from sensor to visualization based on the classical three tier architecture for IoT.</description>
+    </item>
+    
+    <item>
       <title>Cloud Oscilloscope - Final Report</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---final-report/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
@@ -106,12 +169,93 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>IIOT2K IoT Framework - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/iiot2k-iot-framework---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/iiot2k-iot-framework---final-report/</guid>
+      <description>I start to design and write the IIOT2K framework and share it with to you in conjunction with Eclipse IoT challenge 4.0. I hope that my framework helps IoT enthusiasts to realize there IoT projects in easily way. I would happy for suggestions for this project.</description>
+    </item>
+    
+    <item>
+      <title>MoDeS3 - The Smart City - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---the-smart-city---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---the-smart-city---final-report/</guid>
+      <description>We continued the MoDeS3 project (which won third place in 2016) and we built a smart city on top of the physical architecture.</description>
+    </item>
+    
+    <item>
       <title>ModeS3 - DDS and Xtext</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</guid>
       <description>Code generation from state machines to DDS execution environment.</description>
+    </item>
+    
+    <item>
+      <title>OpenNMS - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/opennms---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/opennms---final-report/</guid>
+      <description>The aim of this project is to use IoT pollution measurements as a compelling use case to prove a design for an MQTT plugin for OpenNMS.</description>
+    </item>
+    
+    <item>
+      <title>Poulpy - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/poulpy---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/poulpy---final-report/</guid>
+      <description>Poulpy was born with the intent of creating a connected aquarium network all over the country so people can monitor their aquariums and learn more about marine life.</description>
+    </item>
+    
+    <item>
+      <title>Smart solar water heating (SWH) - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---final-report/</guid>
+      <description>Smart solar water heating solution uses IoT and AI technologies to improve the efficiency of passive solar water heating system. This solution has been developed to take part in the Open IoT Challenge 4.0!</description>
+    </item>
+    
+    <item>
+      <title>SmartOASYS - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/smartoasys---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/smartoasys---final-report/</guid>
+      <description>SmartOASYS is a dashboard for Water Monitoring system using IoT - PaaS</description>
+    </item>
+    
+    <item>
+      <title>Trusting IoT - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---final-report/</guid>
+      <description>n this post, we make a similar journey through our participation in the Eclipse Open IoT Challenge 4.0 with the project trusted indoor positioning system for nursing homes.</description>
+    </item>
+    
+    <item>
+      <title>Trync - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trync---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trync---final-report/</guid>
+      <description>Here I&amp;rsquo;m going to write the worst final report for Open IoT Challenge 4.0 (may be the worst one in the Open IoT challenge history too 😞). Because than writing how we got success I&amp;rsquo;m writing here how we got failed.</description>
+    </item>
+    
+    <item>
+      <title>What about you (WAY) - Final Report</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/what-about-you-way---final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/what-about-you-way---final-report/</guid>
+      <description>What About You (WAY) is a project which has an IoT theme, a social &amp;amp; enjoyable characteristic and open source technologies. It focuses on informing people about each other’s mood.</description>
     </item>
     
     <item>
@@ -129,7 +273,7 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror/</guid>
-      <description>Let’s introduce our react native app “asm app” which is one of the main alya core component. Our app plays a major role in our project as it’s an intermediary between the end user and the backend as discussed before in “asm-backend” .</description>
+      <description>Let’s introduce our react native app “asm app” which is one of the main alya core component. Our app plays a major role in our project as it’s an intermediary between the end user and the backend as discussed before in “asm-backend”.</description>
     </item>
     
     <item>
@@ -151,11 +295,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Testing: Four, five, six</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-four-five-six/</link>
+      <title>Trusting IoT - Testing: Four, five, six</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-four-five-six/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-four-five-six/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-four-five-six/</guid>
       <description>We commented on Testing: One, two, three, that we would like to develop a software tool which would allow anyone to fine-tune his/her installation to a position as accurately as possible. This tool is ready and available in mide repository.</description>
     </item>
     
@@ -214,11 +358,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Parallelizing IOTA transactions in Kura</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---parallelizing-iota-transactions-in-kura/</link>
+      <title>Trusting IoT - Parallelizing IOTA transactions in Kura</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---parallelizing-iota-transactions-in-kura/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---parallelizing-iota-transactions-in-kura/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---parallelizing-iota-transactions-in-kura/</guid>
       <description>What’s the fuss about? From now on, Jura is scalable in terms of locations stored in the tangle. How? Using IOTA’s workers.</description>
     </item>
     
@@ -241,11 +385,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - The Race to the Tangle II: Teamwork</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle-ii-teamwork/</link>
+      <title>Trusting IoT - The Race to the Tangle II: Teamwork</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle-ii-teamwork/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle-ii-teamwork/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle-ii-teamwork/</guid>
       <description>This post is a continuation of the race to the tangle in which we discuss how we try to increase the number of transactions we make to the tangle with the hardware we have.</description>
     </item>
     
@@ -286,11 +430,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Testing: One, two, three</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-one-two-three/</link>
+      <title>Trusting IoT - Testing: One, two, three</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-one-two-three/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---testing-one-two-three/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-one-two-three/</guid>
       <description>This weekend we have met up in order to perform some experiments, and taking advantage of this meeting we are going to show you how to install Jura.</description>
     </item>
     
@@ -304,11 +448,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Firma: In IOTA We Trust</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---firma-in-iota-we-trust/</link>
+      <title>Trusting IoT - Firma: In IOTA We Trust</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---firma-in-iota-we-trust/</link>
       <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---firma-in-iota-we-trust/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---firma-in-iota-we-trust/</guid>
       <description>We are pleased to present Firma, the last part of Jura. “Firmar” is the Spanish word of the verb “to sign” and the translation of firma in English is &amp;ldquo;it signs&amp;rdquo;.</description>
     </item>
     
@@ -322,20 +466,20 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Our Approach. Part II. Trusted IPS</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---our-approach.-part-ii.-trusted-ips/</link>
+      <title>Trusting IoT - Our Approach. Part II. Trusted IPS</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---our-approach.-part-ii.-trusted-ips/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---our-approach.-part-ii.-trusted-ips/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---our-approach.-part-ii.-trusted-ips/</guid>
       <description>We have been waiting to post this for weeks. It is not because we are playing hard to get, we just wanted to see how far we could go :)</description>
     </item>
     
     <item>
-      <title>Trusted IoT - The Race to the Tangle</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle/</link>
+      <title>Trusting IoT - The Race to the Tangle</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---the-race-to-the-tangle/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle/</guid>
       <description>These days we are using the starter kit that we got for our proposal for the Eclipse Open IoT Challenge 4.0 to carry out different tests.</description>
     </item>
     
@@ -367,11 +511,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Ubica: An Indoor Positioning System</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---ubica-an-indoor-positioning-system/</link>
+      <title>Trusting IoT - Ubica: An Indoor Positioning System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---ubica-an-indoor-positioning-system/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---ubica-an-indoor-positioning-system/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---ubica-an-indoor-positioning-system/</guid>
       <description>Ubicar is the Spanish word of the verb “to locate“. The translation of ubica in English is “it locates“. Ubica is another part of Jura and its function is to locate BLE beacons, hereinafter beacons.</description>
     </item>
     
@@ -394,11 +538,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Graba: A BLE Beacons Recording System</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---graba-a-ble-beacons-recording-system/</link>
+      <title>Trusting IoT - Graba: A BLE Beacons Recording System</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---graba-a-ble-beacons-recording-system/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---graba-a-ble-beacons-recording-system/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---graba-a-ble-beacons-recording-system/</guid>
       <description>Grabar is the Spanish word of the verb &amp;ldquo;to record&amp;rdquo;. The translation of graba in English is “it records“. Graba is part of Jura and its function is to record datasets. It consists of two Kura’s plug-ins: iot.challenge.jura.graba and iot.challenge.jura.graba.web.</description>
     </item>
     
@@ -421,11 +565,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Faro: A Multimodal BLE Beacon</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---faro-a-multimodal-ble-beacon/</link>
+      <title>Trusting IoT - Faro: A Multimodal BLE Beacon</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---faro-a-multimodal-ble-beacon/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---faro-a-multimodal-ble-beacon/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---faro-a-multimodal-ble-beacon/</guid>
       <description>Faro is the Spanish term for a lighthouse, as well as a multimodal Bluetooth Low Energy Beacon service for Eclipse Kura.</description>
     </item>
     
@@ -448,11 +592,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Building Deployment Packages for Eclipse Kura</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---building-deployment-packages-for-eclipse-kura/</link>
+      <title>Trusting IoT - Building Deployment Packages for Eclipse Kura</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---building-deployment-packages-for-eclipse-kura/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---building-deployment-packages-for-eclipse-kura/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---building-deployment-packages-for-eclipse-kura/</guid>
       <description>OSGi is ideal for managing IoT gateways and we believe that it is a wise move that Eclipse Kura has been developed using it.</description>
     </item>
     
@@ -484,11 +628,11 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Trusted IoT - Preliminary results</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---preliminary-results/</link>
+      <title>Trusting IoT - Preliminary results</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---preliminary-results/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---preliminary-results/</guid>
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---preliminary-results/</guid>
       <description>This has been a great week for us :). Our team consists of three computer engineers; all of us from different fields, with great interest and curiosity about IoT but inexperienced in it.</description>
     </item>
     
