@@ -6,18 +6,8 @@
     <description>Recent content in Open-iot-challenge-entries on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/open-iot-challenge-entries/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Alya-Smart-Mirror from vision to reality</title>
-      <link>https://medium.com/@tagsaeedi/alya-smart-mirror-from-vision-to-reality-8b40faddf529</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@tagsaeedi/alya-smart-mirror-from-vision-to-reality-8b40faddf529</guid>
-      <description>&lt;p&gt;What does the Alya-Smart-Mirror look like? Find out!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Activ-IoTy Timekeeping - Final Report</title>
@@ -26,26 +16,6 @@
       
       <guid>https://www.espinr.es/post/171893735073/activioty-timekeeping-report</guid>
       <description>&lt;p&gt;Watch the video summarizing all the work done in this project in just 3 minutes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alya - Offline gesture recognition for alya-smart-mirror</title>
-      <link>https://medium.com/@alialsaeedi19/offline-gesture-recognition-for-alya-smart-mirror-8ef467e14164</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@alialsaeedi19/offline-gesture-recognition-for-alya-smart-mirror-8ef467e14164</guid>
-      <description>&lt;p&gt;Sensor hub is one of alya’s features collects and shows user’s various sensor hub such as temperature, humidity, light, face detections, face demographics and much more.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alya - alya-smart-mirror as sensor hub for your home</title>
-      <link>https://medium.com/@ibrahimsenan3/alya-smart-mirror-as-sensor-hub-for-your-home-952ffd8fd58c</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://medium.com/@ibrahimsenan3/alya-smart-mirror-as-sensor-hub-for-your-home-952ffd8fd58c</guid>
-      <description>&lt;p&gt;We will talk about the offline gesture recognition support of Aly. Now, Alya supports for now palm and fist gestures using Matrix creator.&lt;/p&gt;
 </description>
     </item>
     
@@ -110,16 +80,6 @@
     </item>
     
     <item>
-      <title>ModeS3 - DDS and Xtext</title>
-      <link>http://modes3-smartcity.readthedocs.io/en/latest/blog/codegen/CodeGen/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://modes3-smartcity.readthedocs.io/en/latest/blog/codegen/CodeGen/</guid>
-      <description>&lt;p&gt;Code generation from state machines to DDS execution environment.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>OpenNMS - Final Report</title>
       <link>http://opennms.co.uk/wordpress/2018/03/15/opennms-eclipse-iot-challenge-201718-final-report/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
@@ -156,6 +116,46 @@
       
       <guid>https://smartoasysdashboard.blogspot.de/2018/03/smartoasys-dashboard-for-water_15.html</guid>
       <description>&lt;p&gt;SmartOASYS is a dashboard for Water Monitoring system using IoT - PaaS&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trusting IoT - Final Report</title>
+      <link>https://trusted827.wordpress.com/2018/03/15/final-report/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trusted827.wordpress.com/2018/03/15/final-report/</guid>
+      <description>&lt;p&gt;n this post, we make a similar journey through our participation in the Eclipse Open IoT Challenge 4.0 with the project trusted indoor positioning system for nursing homes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trync - Final Report</title>
+      <link>https://trync.blogspot.de/2018/03/final-report.html</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://trync.blogspot.de/2018/03/final-report.html</guid>
+      <description>&lt;p&gt;Here I&amp;rsquo;m going to write the worst final report for Open IoT Challenge 4.0 (may be the worst one in the Open IoT challenge history too 😞). Because than writing how we got success I&amp;rsquo;m writing here how we got failed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What about you (WAY) - Final Report</title>
+      <link>http://www.eteration.com/eclipse-iot-challenge-40-final/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.eteration.com/eclipse-iot-challenge-40-final/</guid>
+      <description>&lt;p&gt;What About You (WAY) is a project which has an IoT theme, a social &amp;amp; enjoyable characteristic and open source technologies. It focuses on informing people about each other’s mood.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alya - Cloud voice recognition Alexa for alya-smart-mirror</title>
+      <link>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://medium.com/@alialsaeedi19/cloud-voice-recognition-alexa-for-alya-smart-mirror-c1389d2e612f</guid>
+      <description>&lt;p&gt;Alya can be integrated with Alexa using all the great built in capabilities of Alexa.&lt;/p&gt;
 </description>
     </item>
     

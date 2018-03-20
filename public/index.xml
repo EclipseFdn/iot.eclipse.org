@@ -97,39 +97,12 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
-      <title>Alya-Smart-Mirror from vision to reality</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</guid>
-      <description>What does the Alya-Smart-Mirror look like? Find out!</description>
-    </item>
-    
-    <item>
       <title>Activ-IoTy Timekeeping - Final Report</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-timekeeping---final-report/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-timekeeping---final-report/</guid>
       <description>Watch the video summarizing all the work done in this project in just 3 minutes.</description>
-    </item>
-    
-    <item>
-      <title>Alya - Offline gesture recognition for alya-smart-mirror</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</guid>
-      <description>Sensor hub is one of alya’s features collects and shows user’s various sensor hub such as temperature, humidity, light, face detections, face demographics and much more.</description>
-    </item>
-    
-    <item>
-      <title>Alya - alya-smart-mirror as sensor hub for your home</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</guid>
-      <description>We will talk about the offline gesture recognition support of Aly. Now, Alya supports for now palm and fist gestures using Matrix creator.</description>
     </item>
     
     <item>
@@ -184,15 +157,6 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
       
       <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---the-smart-city---final-report/</guid>
       <description>We continued the MoDeS3 project (which won third place in 2016) and we built a smart city on top of the physical architecture.</description>
-    </item>
-    
-    <item>
-      <title>ModeS3 - DDS and Xtext</title>
-      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</guid>
-      <description>Code generation from state machines to DDS execution environment.</description>
     </item>
     
     <item>
@@ -268,6 +232,24 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Alya - Offline gesture recognition for alya-smart-mirror</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</guid>
+      <description>Sensor hub is one of alya’s features collects and shows user’s various sensor hub such as temperature, humidity, light, face detections, face demographics and much more.</description>
+    </item>
+    
+    <item>
+      <title>Alya - alya-smart-mirror as sensor hub for your home</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</guid>
+      <description>We will talk about the offline gesture recognition support of Aly. Now, Alya supports for now palm and fist gestures using Matrix creator.</description>
+    </item>
+    
+    <item>
       <title>Alya - asm-app: a react native mobile app to configure alya-smart-mirror</title>
       <link>https://iot.eclipse.org/open-iot-challenge/entries/alya---asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
@@ -277,12 +259,30 @@ If you are interested in proposing a new testbed, you can send an email to iot@e
     </item>
     
     <item>
+      <title>Alya-Smart-Mirror from vision to reality</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</guid>
+      <description>What does the Alya-Smart-Mirror look like? Find out!</description>
+    </item>
+    
+    <item>
       <title>Eclipse IoT Day Santa Clara | Speakers Announced</title>
       <link>https://iot.eclipse.org/news/2018-03-14-iot-sc-speakers/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/news/2018-03-14-iot-sc-speakers/</guid>
       <description>We are pleased to announce the speakers for the Eclipse IoT Day Santa Clara, co-located with IoT World 2018 on May 14.</description>
+    </item>
+    
+    <item>
+      <title>ModeS3 - DDS and Xtext</title>
+      <link>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</guid>
+      <description>Code generation from state machines to DDS execution environment.</description>
     </item>
     
     <item>
