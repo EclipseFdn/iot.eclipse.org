@@ -22,7 +22,8 @@ var projectsAssociation = {
         'iot.tinydtls': true,
         'iot.milo': true,
         'iot.cyclonedds':true,
-        'iot.unide': true
+        'iot.unide': true,
+        'iot.thingweb': true
     },
 
     'Devices': {
