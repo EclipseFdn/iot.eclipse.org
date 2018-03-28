@@ -30,6 +30,7 @@ var projectsAssociation = {
         'iot.paho': true,
         'iot.edje': true,
         'iot.wakaama': true,
+        'iot.mita': true,
     },
 
     'Gateways': {
@@ -57,7 +58,8 @@ var projectsAssociation = {
     'Ontologies': {
         'iot.vorto': true,
         'iot.unide': true,
-        'iot.whiskers': true
+        'iot.whiskers': true,
+        'iot.thingweb': true
     },
 
     'Security': {
@@ -87,16 +89,17 @@ var releases = {
     "iot.om2m": "1.1.0",
     "iot.californium": "1.0.0",
     "iot.vorto": "0.9",
+    "iot.hono": "0.5",
     "iot.milo": "0.1.0",
     "iot.kapua": "0.3.0",
-    "iot.unide": "0.1.0"
+    "iot.unide": "0.2.0"
   };
   var download_urls = {
     "iot.paho": "https://www.eclipse.org/paho/downloads.php",
     "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
     "iot.ponte": "http://eclipse.org/ponte",
     "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
-    "iot.mosquitto": "https://www.eclipse.org/mosquitto/download/",
+    "iot.mosquitto": "https://www.eclipse.org/mosquitto",
     "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
     "iot.kura": "https://www.eclipse.org/kura/downloads.php",
     "iot.om2m": "https://wiki.eclipse.org/OM2M/Download",
@@ -115,14 +118,16 @@ var releases = {
     "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
     "iot.kapua": "https://www.eclipse.org/kapua/",
     "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
-    "iot.unide": "http://www.eclipse.org/unide",
+    "iot.unide": "http://projects.eclipse.org/projects/iot.unide/downloads",
     "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
     "iot.agail": "http://agile-iot.eu",
     "iot.ditto": "https://www.eclipse.org/ditto",
-    "iot.keti": "http://projects.eclipse.org/projects/iot.keti",
+    "iot.keti": "http://projects.eclipse.org/projects/iot.keti/downloads",
     "iot.duttile": "https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/+archive/master.tar.gz",
     "iot.kuksa": "http://projects.eclipse.org/projects/iot.kuksa",
-    "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds"
+    "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds",
+    "iot.thingweb": "http://projects.eclipse.org/projects/iot.thingweb",
+    "iot.mita": "http://projects.eclipse.org/projects/iot.mita"
   };
   var project_states = {
     "iot.paho": "Regular",
@@ -155,20 +160,23 @@ var releases = {
     "iot.keti": "Incubating",
     "iot.duttile": "Incubating",
     "iot.kuksa": "Incubating",
-    "iot.cyclonedds": "Incubating"
+    "iot.cyclonedds": "Incubating",
+    "iot.thingweb": "Incubating",
+    "iot.mita": "Incubating"
   };
   var download_stats = {
-    "iot.neoscada": 5129,
-    "iot.milo": 11323,
-    "iot.hawkbit": 1205,
-    "iot.leshan": 1509,
-    "iot.californium": 12048,
-    "iot.paho": 54416,
-    "iot.om2m": 158,
-    "iot.mosquitto": 11167,
-    "iot.smarthome": 12332,
-    "iot.kura": 655,
-    "iot.ponte": 167
+    "iot.ditto": 3217,
+    "iot.neoscada": 4239,
+    "iot.milo": 10350,
+    "iot.hawkbit": 1602,
+    "iot.leshan": 1704,
+    "iot.californium": 9387,
+    "iot.paho": 51119,
+    "iot.om2m": 133,
+    "iot.mosquitto": 9657,
+    "iot.smarthome": 12378,
+    "iot.kura": 514,
+    "iot.ponte": 84
   };
 
 var project_state_aliases = {
