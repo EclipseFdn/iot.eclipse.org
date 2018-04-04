@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Winners of Open IoT Challenge 4.0 Demonstrate How Open Source Accelerates Innovation</title>
+      <link>https://iot.eclipse.org/news/2018-04-04-iot-challenge4-winners/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-04-04-iot-challenge4-winners/</guid>
+      <description>We&amp;rsquo;re pleased to announce the winners of the fourth annual Open IoT Challenge! Thank you to the 78 teams who participated in this years Challenge.</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day Santa Clara | Speakers Announced</title>
