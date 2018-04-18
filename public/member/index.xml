@@ -6,10 +6,19 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Mar 2018 15:31:15 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 15:31:15 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kynetics</title>
+      <link>https://iot.eclipse.org/member/kynetics/</link>
+      <pubDate>Mon, 16 Apr 2018 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/kynetics/</guid>
+      <description>Kynetics provides full software stacks for the most popular embedded application processors focussing in particular on NXP SoCs. In cooperation with hardware manufacturers, Kynetics has been working on popular embedded products tailoring operating systems Android and Linux based including applications for different industries. Quality of the artifacts is delivered through a continuous integration process from source code management, build and image deployment on target devices. Kynetics leverages a solid background in the development of microservices architectures, and provides to its customers full support to the pipeline of product development in the IoT space, which starts from edge devices and their embedded software stack test and delivery.</description>
+    </item>
     
     <item>
       <title>Nokia</title>
