@@ -283,7 +283,7 @@
               
               <div class="row">
                 {{ range last 4 (where .Data.Pages.ByDate "Section" "events") }}
-
+                {{ if (ge .Date.Unix now.Unix) }}
                 <div class="col-xs-12 col-sm-6 col-md-12">
                 <a href="{{ .Params.link }}" target="_blank">
                     <div class="upcoming-events-item">
@@ -296,7 +296,7 @@
                     </div>
                   </a>
                 </div>
-
+                {{ end }}
                 {{ end }}
               </div>
 
