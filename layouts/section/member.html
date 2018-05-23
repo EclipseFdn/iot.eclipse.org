@@ -62,6 +62,44 @@
   .carousel-indicators{
     bottom:-36px; 
   }
+
+
+
+
+.col-xs-1-10,
+.col-sm-1-10 {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-xs-1-10 {
+  width: 10%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-10 {
+    width: 10%;
+    float: left;
+  }
+}
+
+
+
 </style>
 
 </head>
@@ -71,8 +109,8 @@
 
               {{ range where .Data.Pages "Section" "member" }}
 
-              <div class="col-md-1 col-xs-1 member" style="padding:20px 20px;" title="{{ .Title }}">
-                <div style="height: 90px; line-height: 120px; ">
+              <div class="col-md-1-10 col-xs-1-10 member" style="padding:50px 20px;" title="{{ .Title }}">
+                <div style="height: 120px; line-height: 200px; ">
                   <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
                     <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
                   </a>
