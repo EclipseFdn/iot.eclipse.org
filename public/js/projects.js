@@ -84,13 +84,14 @@ var releases = {
     "iot.paho": "1.3.0 (Oxygen)",
     "iot.eclipsescada": "0.4.0",
     "iot.concierge": "5.0",
-    "iot.mosquitto": "1.4",
+    "iot.mosquitto": "1.5",
     "iot.smarthome": "0.9.0",
-    "iot.kura": "3.1.0",
+    "iot.kura": "3.2.0",
     "iot.om2m": "1.1.0",
     "iot.californium": "1.0.0",
     "iot.vorto": "0.9",
-    "iot.hono": "0.5",
+    "iot.4diac": "1.9.0",
+    "iot.hono": "0.6",
     "iot.milo": "0.1.0",
     "iot.kapua": "0.3.0",
     "iot.unide": "0.2.0"
@@ -112,7 +113,7 @@ var releases = {
     "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
     "iot.risev2g": "https://github.com/eclipse/risev2g",
     "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
-    "iot.hawkbit": "http://projects.eclipse.org/projects/iot.hawkbit",
+    "iot.hawkbit": "https://www.eclipse.org/hawkbit/",
     "iot.hono": "http://www.eclipse.org/hono/download/",
     "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
     "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
@@ -128,7 +129,9 @@ var releases = {
     "iot.kuksa": "http://projects.eclipse.org/projects/iot.kuksa",
     "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds",
     "iot.thingweb": "http://projects.eclipse.org/projects/iot.thingweb",
-    "iot.mita": "http://projects.eclipse.org/projects/iot.mita"
+    "iot.mita": "http://projects.eclipse.org/projects/iot.mita",
+    "iot.hip": "http://www.eclipse.org/hip",
+    "iot.fog05": "http://projects.eclipse.org/projects/iot.fog05"
   };
   var project_states = {
     "iot.paho": "Regular",
@@ -163,7 +166,9 @@ var releases = {
     "iot.kuksa": "Incubating",
     "iot.cyclonedds": "Incubating",
     "iot.thingweb": "Incubating",
-    "iot.mita": "Incubating"
+    "iot.mita": "Incubating",
+    "iot.hip": "Incubating",
+    "iot.fog05": "Incubating"
   };
   var download_stats = {
     "iot.ditto": 3217,
