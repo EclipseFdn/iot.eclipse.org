@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eclipse IoT Day Santa Clara | Recorded Talks Available</title>
+      <link>https://iot.eclipse.org/news/2018-05-30-iot-day-sc-talks-recorded/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-05-30-iot-day-sc-talks-recorded/</guid>
+      <description>Couldn&amp;rsquo;t attend the Eclipse IoT Day Santa Clara in person? Watch the recording on YouTube!</description>
+    </item>
     
     <item>
       <title>Eclipse IoT Newsletter | May 2018</title>
