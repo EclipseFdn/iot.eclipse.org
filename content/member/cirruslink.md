@@ -5,6 +5,7 @@ logo = "cirruslink" #make sure to have a file named [logo].png in the static/ass
 is_steering = false
 member_id = 1310
 more_url = "https://www.cirrus-link.com/"
+demo_url = "https://vimeo.com/257174334"
 
 +++
 Cirrus Link Solutions provide secure and reliable IIOT software solutions enabled with MQTT that integrates process information throughout the organization bridging the IT / OT gap while supplying a superior OT solution.
