@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Do We Finally Have an Open and Realistic IoT Model?</title>
+      <link>https://iot.eclipse.org/news/2018-06-06-open-and-realistic-iot-model/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-06-06-open-and-realistic-iot-model/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eclipse IoT Day Santa Clara | Recorded Talks Available</title>
