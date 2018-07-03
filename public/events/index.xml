@@ -6,10 +6,19 @@
     <description>Recent content in Events on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>KubeCon &#43; CloudNativeCon China</title>
+      <link>https://iot.eclipse.org/events/2018-11-13-kubeconchina/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2018-11-13-kubeconchina/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>All Things IoT @ EclipseCon Europe</title>
@@ -17,6 +26,15 @@
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://iot.eclipse.org/events/2018-10-22-iot-ece-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ignition Community Conference 2018</title>
+      <link>https://iot.eclipse.org/events/2018-09-17-ignition-2018/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/events/2018-09-17-ignition-2018/</guid>
       <description></description>
     </item>
     
