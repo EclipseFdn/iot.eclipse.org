@@ -259,10 +259,12 @@
               
               <h2>Stay in touch<span></span></h2>
 
-              <h3 class="purple" id="title-subscribe-newsletter">Subscribe to our newsletter:</h3>
-              <p><a class="btn btn-primary" href="http://eclipse.us6.list-manage.com/subscribe/post?u=eaf9e1f06f194eadc66788a85&amp;id=b952cd0879">Subscribe</a></p>
+              <h3 class="purple" id="title-subscribe-newsletter">Subscribe to our newsletter</h3>
+              <p style="text-align: center;">
+                <a class="btn btn-primary" href="http://eclipse.us6.list-manage.com/subscribe/post?u=eaf9e1f06f194eadc66788a85&amp;id=b952cd0879">Subscribe</a>
+              </p>
 
-              <h3 class="purple" id="title-upcoming-events">Upcoming events:</h3>
+              <h3 class="purple" id="title-upcoming-events">Upcoming events</h3>
               
               <div class="row">
                 {{ range last 4 (where .Data.Pages.ByDate "Section" "events") }}
