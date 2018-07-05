@@ -4,11 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; White Papers</title>
-  <meta name="description" content="Our white papers are great resources for anyone looking at understanding how open source can help build successful IoT solutions">
+  <title>iot.eclipse.org &mdash; White Paper: {{ .Title }}</title>
+  <meta name="description" content="The Eclipse IoT White Papers are great resources for anyone looking at understanding how open source helps build scalable IoT solutions.">
   <meta name="author" content="Eclipse.org">
   <link rel="author" href="humans.txt" />
-
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -27,16 +26,12 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  
-
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
   <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
   <!-- Le styles -->
   <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -54,90 +49,83 @@
   <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
   <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
 
+  <!-- icomoon -->
+  <link href="/assets/css/icomoon.css" rel="stylesheet">
+
+  
   <style>
-    blockquote {
-      background: #f9f9f9;
-      border-left: 5px solid #ccc;
-      margin: 0.5em 10px;
-      padding: 0.5em 10px;
-      quotes: "\201C" "\201D";
-    }
+  
 
-    blockquote:before {
-      color: #ccc;
-      content: open-quote;
-      font-size: 4em;
-      line-height: 0.1em;
-      margin-right: 0.25em;
-      vertical-align: -0.4em;
-    }
 
-    blockquote p {
-      display: inline;
-    }
- 
+p.Body-Text_Body-Text---Justified {
+	text-align:justify;
+	text-align-last:left;
+	widows:2;
+}
+
+blockquote {
+  font-size: 1em;
+}
+
+.bold---brand1, .CharOverride-8 {
+  font-weight: 600;
+}
+
+.CharOverride-6 {
+  font-weight: 600;
+  font-style: italic;
+}
+  
   </style>
-
 
 </head>
 
 <body>
-
   <header>
     {{ partial "navbar.html" . }}
   </header>
-
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
-  (function() {
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-  })();
-  </script>
-
   <main class="main">
-
     <div class="well">
-      <div class="container">
-        <h1>White Papers</h1>
-
-        <div class="lead">
-          <p>Our white papers are great resources for anyone looking at understanding how open source can help build IoT solutions.</p>
-        </div>
+      <div class="container xpurple">
+        <h2><a href="/white-papers" style="color: white; ">White Paper</a><h2>
+        <h1>» {{ .Title }}</h1>
+         <!-- <p class="lead">
+                "{{ .Description | safeHTML }}"
+        </p>  -->
       </div>
     </div>
 
-    <section class="first">
+
+
+    <section class="row-fluid" style="padding-bottom: 0px;">
       <div class="container">
+
         <div class="row">
 
-          {{ range where .Site.RegularPages.ByWeight "Section" "white-papers" }} 
-            <div class="col-md-12">
+          {{ if .Params.sub_description }}
+            <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
               <div class="row">
-
-                <div class="col-md-2" style="padding-bottom: 20px">
-                  <a href="{{ .Params.link }}">
-                    <img src="{{ .Params.img }}" class="img-responsive"  style="max-height: 250px;"/>
-                  </a>
+                <div class="col-md-8">
+                  <p>{{ .Params.sub_description | safeHTML }}</p>
                 </div>
-                <div class="col-md-10">
-                    <h2 class="purple" style="margin-top: .5em">{{.Title}}</h2>
-                    {{ .Params.description }}
-                    <p style="margin-left: 2em; margin-top: 1em;">
+                <div class="col-md-4 text-center">
+                  <a href="{{ .Params.demo_link }}" target="_blank">
 
-                        &nbsp; &nbsp;
-                        <a href="{{ .Params.link }}">
-                         <img src="/assets/images/icon_pdf.png"> PDF 
-                       </a>
-                       &nbsp; 
-                       <a href="{{ .URL }}">
-                         <img src="/assets/images/icon_html.png"> HTML
-                       </a>     
-                    </p>
+
+                    {{/* look for a .webp video as the "demo" thumbnail, otherwise fallback to .png */}}
+                    {{ $directory := "static/assets/images/testbeds/" }}
+                    {{ $filename := .File.TranslationBaseName | printf "%s-demo.webp" }}
+                    {{ if (where (readDir $directory) "Name" $filename) }}
+                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.webp" class="img-responsive">
+                    {{ else }}
+                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive">
+                    {{ end }}
+
+
+                  </a>
+                  <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
+                  &nbsp;
+                  <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
                 </div>
               </div>
             </div>
@@ -147,21 +135,51 @@
       </div>
     </section>
 
-    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
+    <section class="second row-fluid" style="padding-bottom: 70px;">
+      <div class="container">
 
-    </div>
+        <div class="row">
+          <div class="col-md-12">
+
+
+            {{ if .Content }}
+              <p>{{ .Content | safeHTML }}</p>
+            {{ end }}
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third row-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" style="margin-top: -3em;">
+            {{ if .Params.learn_more }}
+            <h1 class="purple">Learn More</h1>
+
+            <ul>
+            {{ range .Params.learn_more }}
+              <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
+            {{ end }}
+            </ul>
+            {{ end }}
+
+          </div>
+      </div>
+    </section>
   </main>
-  <!-- /container -->
-
   {{ partial "footer.html" . }}
-
+  <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
+  </div>
+  </div>
+  <!-- /container -->
   <!-- JS is at the end of the document so the pages load faster -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
 </body>
 
 </html>

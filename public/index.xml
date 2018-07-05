@@ -1234,11 +1234,11 @@ We are singularly focused on reducing the Time to Awesome ™, we truly care abo
     
     <item>
       <title>Open Source Software for Industry 4.0</title>
-      <link>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</link>
+      <link>https://iot.eclipse.org/white-papers/industry40/</link>
       <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/white-papers/2017-10-19-industry40/</guid>
-      <description>The purpose of this white paper is to identify the types of software required to implement an Industry 4.0 solution. Software is a key enabling technology for any IoT solution, including IoT in manufacturing. This white paper investigates how software solutions can be used to integrate existing operational technologies on a factory floor with the existing enterprise applications, like PLM and ERP solutions.</description>
+      <guid>https://iot.eclipse.org/white-papers/industry40/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1984,11 +1984,11 @@ EclipseSource is focused on Business Applications, Mobile Applications, Modeling
     
     <item>
       <title>The Three Software Stacks Required for IoT Architectures</title>
-      <link>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</link>
+      <link>https://iot.eclipse.org/white-papers/iot-architectures/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.eclipse.org/white-papers/2016-10-01-iot-architectures/</guid>
-      <description>In this white paper we look at the new technology requirements and architectures required for IoT solutions. It identifies three stacks of software required by any IoT solution and presents how open source communities, such as the Eclipse IoT community, are already supplying the critical software technology needed by IoT solution providers.</description>
+      <guid>https://iot.eclipse.org/white-papers/iot-architectures/</guid>
+      <description>Introduction  The Internet of Things (IoT) is transforming how individuals and organizations connect with customers, suppliers, partners, and other individuals. IoT is all about connecting sensors, actuators, and devices to a network and enabling the collection, exchange, and analysis of generated information. Hardware innovations, like the Raspberry Pi, are making it easier, faster and cheaper to develop new devices. Networking standards for low power networks, like LoRaWAN or NB-IOT, create new opportunities for connecting very small devices to a network.</description>
     </item>
     
     <item>
