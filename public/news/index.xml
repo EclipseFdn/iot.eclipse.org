@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IoT Talk Recordings from EclipseCon France 2018</title>
+      <link>https://iot.eclipse.org/news/2018-07-05-ecf-iot-talk-recordings/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-07-05-ecf-iot-talk-recordings/</guid>
+      <description>The recordings from EclipseCon France 2018 (Jun 12-13) are now available. Follow the link above to watch the IoT talk recordings!</description>
+    </item>
     
     <item>
       <title>All Things IoT @ EclipseCon Europe | Call for Papers</title>
