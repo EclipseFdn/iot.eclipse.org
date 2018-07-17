@@ -330,7 +330,7 @@
     /*   GOOGLE MAP                                           */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(37.404670600, -121.975246900);
+        var myLocation = new google.maps.LatLng(1.2833754,103.8607264);
             
             var draggableValue;
             if($(document).width() <= 768){
@@ -360,7 +360,7 @@
 
         var marker = new google.maps.Marker({
             position: myLocation,
-            title:"San Jose Convention Center"});
+            title:"Marina Bay Sands, Singapore"});
           
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
