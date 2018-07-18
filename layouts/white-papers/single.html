@@ -118,45 +118,6 @@ h3:before {
     </div>
 
 
-
-    <section class="row-fluid" style="padding-bottom: 0px;">
-      <div class="container">
-
-        <div class="row">
-
-          {{ if .Params.sub_description }}
-            <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
-              <div class="row">
-                <div class="col-md-8">
-                  <p>{{ .Params.sub_description | safeHTML }}</p>
-                </div>
-                <div class="col-md-4 text-center">
-                  <a href="{{ .Params.demo_link }}" target="_blank">
-
-
-                    {{/* look for a .webp video as the "demo" thumbnail, otherwise fallback to .png */}}
-                    {{ $directory := "static/assets/images/testbeds/" }}
-                    {{ $filename := .File.TranslationBaseName | printf "%s-demo.webp" }}
-                    {{ if (where (readDir $directory) "Name" $filename) }}
-                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.webp" class="img-responsive">
-                    {{ else }}
-                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive">
-                    {{ end }}
-
-
-                  </a>
-                  <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
-                  &nbsp;
-                  <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
-                </div>
-              </div>
-            </div>
-          {{ end }}
-
-        </div>
-      </div>
-    </section>
-
     <section class="second row-fluid" style="padding-bottom: 70px;">
       <div class="container">
 
@@ -165,6 +126,14 @@ h3:before {
 
 
             {{ if .Content }}
+
+              <a href="{{ .Params.link }}">
+                <button class="btn btn-lg btn-danger">
+                  <img src="/assets/images/icon_pdf.png"> Download the PDF
+                </button>
+                </a>
+
+
               <p>{{ .Content | safeHTML }}</p>
             {{ end }}
 
