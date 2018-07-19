@@ -13,9 +13,21 @@ footer {
     }
     @media (min-width: $screen-md-max) {
         padding-top: 200px;
-        .container {
-            padding-bottom: 100px;
+    }
+    h2 {
+      font-size:1.5em;
+    }
+    
+    .nav {
+      margin-bottom:20px;
+      > li {
+        > a {
+          padding:5px 0;
+          &:hover {
+            background-color:transparent;
+          }
         }
+      }
     }
     nav {
         a {
@@ -34,7 +46,7 @@ footer {
         width: 36px;
         height: 35px;
         background-repeat: no-repeat;
-        float: left;
+        float: right;
         margin-right: 10px;
     }
     .social-facebook {
