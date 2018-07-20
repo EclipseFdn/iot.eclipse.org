@@ -1,0 +1,9 @@
++++
+date = "2018-07-11T15:31:15-07:00"
+title = "Calypso Networks Association"
+logo = "calypso" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+is_steering = false
+member_id = 1269
+more_url = "https://www.calypsonet-asso.org/"
++++
+Calypso technology has been designed to ensure interoperability between transportation networks equipments and is open to all manufacturers providers. It has been deployed for 20 years in 25 countries without any hacking reported since now and work with any kind of NFC portable objects: Smart Cards, Secures elements, Sim cards or HCE in Smart Phones. CNA is established in Brussels and has been founded in 2003, with the founder members of the european Calypso project : OTLIS, Ticketing operator of Lisbon ACTV, Transport operator of Venice STIB, Transport operator of Brussels LKRKN, Landrat of Constance RATP, Transport operator of Paris area SNCF, French national trainrail CNA is open to all actors playing a role in the Calypso environment, whether they are user of Calypso or a provider of Calypso. CNA has 80 active members and its main objectives are to define and direct the reference specifications, to implement a certification policy, to guarantee the compatibility of all current and future product, to establish a Calypso label issued by an independent organization, to promote Calypso to operators and manufacturers to yield its distribution, to contribute to the international standardization process, to facilitate and harmonize the shared members' needs and expriences. CNA is currently working on developping a full open source SDK for generic contactless Ticketing, which provides a library functions to developers, manages security and masks the complexity of a Calypso transaction.
