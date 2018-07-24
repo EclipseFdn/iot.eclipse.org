@@ -6,10 +6,19 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing Eclipse IoT Day Singapore</title>
+      <link>https://iot.eclipse.org/news/2018-07-24-iot-day-singapore/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-07-24-iot-day-singapore/</guid>
+      <description>We will be hosting our very first Eclipse IoT Day Singapore on September 18 in co-location with IoT World Asia 2018. Propose a talk now or plan to attend!</description>
+    </item>
     
     <item>
       <title>IoT Talk Recordings from EclipseCon France 2018</title>
