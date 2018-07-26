@@ -6,10 +6,19 @@
     <description>Recent content in Members on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jun 2018 15:31:15 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jul 2018 15:31:15 -0700</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calypso Networks Association</title>
+      <link>https://iot.eclipse.org/member/calypso/</link>
+      <pubDate>Wed, 11 Jul 2018 15:31:15 -0700</pubDate>
+      
+      <guid>https://iot.eclipse.org/member/calypso/</guid>
+      <description>Calypso technology has been designed to ensure interoperability between transportation networks equipments and is open to all manufacturers providers. It has been deployed for 20 years in 25 countries without any hacking reported since now and work with any kind of NFC portable objects: Smart Cards, Secures elements, Sim cards or HCE in Smart Phones. CNA is established in Brussels and has been founded in 2003, with the founder members of the european Calypso project : OTLIS, Ticketing operator of Lisbon ACTV, Transport operator of Venice STIB, Transport operator of Brussels LKRKN, Landrat of Constance RATP, Transport operator of Paris area SNCF, French national trainrail CNA is open to all actors playing a role in the Calypso environment, whether they are user of Calypso or a provider of Calypso.</description>
+    </item>
     
     <item>
       <title>BREDEX GmbH</title>
