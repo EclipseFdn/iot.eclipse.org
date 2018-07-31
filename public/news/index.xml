@@ -6,10 +6,28 @@
     <description>Recent content in News on Eclipse IoT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://iot.eclipse.org/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IIoT series: Get started with simulation, analytics &amp; modeling</title>
+      <link>https://iot.eclipse.org/news/2018-07-31-iiot-webcast/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-07-31-iiot-webcast/</guid>
+      <description>On August 23, Benjamin Cabé will be speaking at the IIoT webcast series. Don&amp;rsquo;t miss it! It starts at 11 AM PT.</description>
+    </item>
+    
+    <item>
+      <title>Create an IoT Gateway Using Eclipse Kura and Orange Pi Board</title>
+      <link>https://iot.eclipse.org/news/2018-07-27-iot-gateway-kura-orangepi/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot.eclipse.org/news/2018-07-27-iot-gateway-kura-orangepi/</guid>
+      <description>This project guides you through the process of creating an IoT gateway using Eclipse Kura project and Orange Pi boards.</description>
+    </item>
     
     <item>
       <title>Announcing Eclipse IoT Day Singapore</title>
