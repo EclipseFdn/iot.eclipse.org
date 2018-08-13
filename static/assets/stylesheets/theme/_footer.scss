@@ -1,7 +1,6 @@
 footer {
     background-image: url(../images/footer-bg.jpg);
     background-size: cover;
-    background-position: center bottom;
     background-repeat: no-repeat;
     background-color: $white;
     padding: 100px 0 50px;
@@ -10,9 +9,6 @@ footer {
         .container {
             padding-top: 40px;
         }
-    }
-    @media (min-width: $screen-md-max) {
-        padding-top: 200px;
     }
     h2 {
       font-size:1.5em;
