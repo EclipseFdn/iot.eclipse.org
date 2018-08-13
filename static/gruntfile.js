@@ -43,11 +43,10 @@ module.exports = function(grunt) {
         }
       }
     },
-    concat: {
+    concat_css: {
       options: {
-        separator: '\n',
       },
-      dist: {
+      all: {
         src: ['assets/css/font-awesome.css', 'assets/css/bootstrap.css'],
         dest: 'assets/css/bootstrap.css',
       },
@@ -58,10 +57,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-concat-css');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('build', ['copy', 'sass', 'concat']);
+  grunt.registerTask('build', ['copy', 'sass', 'concat_css']);
   grunt.registerTask('default', ['build', 'watch']);
 };
