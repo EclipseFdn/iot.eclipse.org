@@ -45,7 +45,7 @@ module.exports = function(grunt) {
     },
     concat: {
       options: {
-        separator: ';',
+        separator: '\n',
       },
       dist: {
         src: ['assets/css/font-awesome.css', 'assets/css/bootstrap.css'],
