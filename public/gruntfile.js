@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          outputStyle: 'compressed',
+     //     outputStyle: 'compressed',
           includePaths: ['assets/stylesheets', require('node-bourbon').includePaths]
         },
         files: {
@@ -44,13 +44,22 @@ module.exports = function(grunt) {
       }
     },
     concat_css: {
-      options: {
+       options: {
       },
       all: {
         src: ['assets/css/font-awesome.css', 'assets/css/bootstrap.css'],
         dest: 'assets/css/bootstrap.css',
       },
     },
+    cssmin: {
+      options: {
+      },
+      target: {
+        files: {
+          'assets/css/bootstrap.css': ['assets/css/bootstrap.css']
+        }
+      }
+    }
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -58,9 +67,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-concat-css');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('build', ['copy', 'sass', 'concat_css']);
+  grunt.registerTask('build', ['copy', 'sass', 'concat_css', 'cssmin']);
   grunt.registerTask('default', ['build', 'watch']);
 };
