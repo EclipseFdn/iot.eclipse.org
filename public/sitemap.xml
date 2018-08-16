@@ -1,69 +1,2118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://iot.eclipse.org/</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/index.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/frameworks.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/protocols.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/tools.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/community.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/demo/</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/sandbox.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/contact.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://iot.eclipse.org/demo/index.html</loc>
-  <lastmod>2014-02-04T15:20:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://iot.eclipse.org/testbeds/asset-tracking/</loc>
+    <lastmod>2017-03-08T10:48:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/testbeds/production-performance-management/</loc>
+    <lastmod>2017-10-06T16:54:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/supporting-software-updates-with-open-source-iot/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/iot-on-railway-systems-db/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/testbeds/propose-a-new-testbed/</loc>
+    <lastmod>2017-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-11-13-kubeconchina/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-10-22-iot-ece-2018/</loc>
+    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-09-18-iot-day-asia-2018/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-09-18-iot-world-asia-2018/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-09-17-ignition-2018/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-08-21-volttron-days/</loc>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-07-31-iiot-webcast/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-07-27-iot-gateway-kura-orangepi/</loc>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-07-24-iot-day-singapore/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/calypso/</loc>
+    <lastmod>2018-07-11T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-07-05-ecf-iot-talk-recordings/</loc>
+    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-06-29-allthingsiot-cfp/</loc>
+    <lastmod>2018-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/bredex/</loc>
+    <lastmod>2018-06-28T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-06-13-ecf-2018/</loc>
+    <lastmod>2018-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-06-06-open-and-realistic-iot-model/</loc>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-05-30-iot-day-sc-talks-recorded/</loc>
+    <lastmod>2018-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/cirruslink/</loc>
+    <lastmod>2018-05-29T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-05-23-iot-newsletter-may/</loc>
+    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/fbk/</loc>
+    <lastmod>2018-05-22T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-05-14-iot-day-santa-clara/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-04-14-iot-world-2018/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-05-02-kubecon/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-04-17-iot-surver-2018/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/kynetics/</loc>
+    <lastmod>2018-04-16T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-04-04-iot-challenge4-winners/</loc>
+    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-03-27-iotbuild/</loc>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-timekeeping---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-openiotchallenge-final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/aquaponics---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cissos---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/iiot2k-iot-framework---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/modes3---the-smart-city---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/opennms---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/poulpy---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smartoasys---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/what-about-you-way---final-report/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-voice-recognition-alexa-for-alya-smart-mirror/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-gesture-recognition-for-alya-smart-mirror/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---alya-smart-mirror-as-sensor-hub-for-your-home/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---asm-app-a-react-native-mobile-app-to-configure-alya-smart-mirror/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya-smart-mirror-from-vision-to-reality/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-03-14-iot-sc-speakers/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/modes3---dds-and-xtext/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/modes3---our-choice-of-dds-implementation-vortex-opensplice-dds/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-four-five-six/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---how-we-connect-eclipse-kura-gateway-to-a-web-application-hosted-on-wildfly/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---build-scheme-and-components/</loc>
+    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---cloud-based-face-recognition-for-alya-smart-mirror/</loc>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---offline-voice-recognition-for-alya-smart-mirror/</loc>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/modes3---smartcity-intro/</loc>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---checkpoints-on-the-move/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---parallelizing-iota-transactions-in-kura/</loc>
+    <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things---location-awareness-in-iot-with-beacon-technology/</loc>
+    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---backend-architecture/</loc>
+    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle-ii-teamwork/</loc>
+    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/nokia/</loc>
+    <lastmod>2018-03-05T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-mosquitto-mqtt-broker/</loc>
+    <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---installing-and-configuring-wildfly-application-server-with-a-lets-encrypt-ssl/tls-certificate/</loc>
+    <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---server-infrastructure-for-trync/</loc>
+    <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---testing-one-two-three/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-03-02-challenge/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---firma-in-iota-we-trust/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---the-activ-ioty-controller/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---our-approach.-part-ii.-trusted-ips/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---the-race-to-the-tangle/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/iot-cloud-platform-with-enmasse-and-apache-spark-using-red-hat-openshift/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya---a-react-component-for-getting-youtube-videos-using-voice/</loc>
+    <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---implementation-of-low-cost-activ-ioty-checkpoint-in-python/</loc>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-02-21-bcw-2018/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---ubica-an-indoor-positioning-system/</loc>
+    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/v2com/</loc>
+    <lastmod>2018-02-15T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activioty---ir-keypad-on-arduino/</loc>
+    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---graba-a-ble-beacons-recording-system/</loc>
+    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/alya-a-diy-modular-personalized-open-source-smart-mirror/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-checkpoint-uhf-rfid---rpi---paho-for-python/</loc>
+    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---faro-a-multimodal-ble-beacon/</loc>
+    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-02-05-jfokus-2018/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-02-03-fosdem-2018/</loc>
+    <lastmod>2018-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---building-deployment-packages-for-eclipse-kura/</loc>
+    <lastmod>2018-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2018-02-01-the-things-network-conference/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-gateway-with-raspberry-pi-using-eclipse-kura/</loc>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---new-video/</loc>
+    <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---mqtt-cornerstone-of-activ-ioty/</loc>
+    <lastmod>2018-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusting-iot---preliminary-results/</loc>
+    <lastmod>2018-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-01-24-iot-survey-2018/</loc>
+    <lastmod>2018-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cissos---getting-started-with-the-open-iot-challenge/</loc>
+    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/protocol-layers-of-activ-ioty/</loc>
+    <lastmod>2018-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-2/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-components/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trync---setup-development-environment-for-esp32---part-1/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-01-18-iot-newsletter-jan/</loc>
+    <lastmod>2018-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-01-15-iot-day-santa-clara/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/hardware-solutions-for-eclipse-iot-challenge-exploring-lora/lorawan/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty-at-a-glance/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2018-01-12-challenge4-blogs/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---meet-the-team/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/activ-ioty---sports-timekeeping---iot-for-eclipse-challenge/</loc>
+    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---iot-temperature-sensor-with-esp8266-using-lwm2m-eclipse-wakaama/</loc>
+    <lastmod>2017-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---build-an-android-app-to-control-a-q7-camera-p2p-wifi/</loc>
+    <lastmod>2017-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---connect-wan-automatically-at-boot-and-after-a-disconnection-on-openwrt/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---top-12/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---update/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/autonomy-of-things/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-12-06-kubecon/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-12-06-challenge4-top12/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/trusted-iot---our-approach/</loc>
+    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/cloud-oscilloscope---update-1/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---smadatalogger-github/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/solar-logger---overview/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-11-28-jvmcon/</loc>
+    <lastmod>2017-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---pharo-smalltalk-resource-usage/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---analysis-tools/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---base-features/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother---difficulties/</loc>
+    <lastmod>2017-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/what-is-pharothings/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-11-24-iot-day-italy/</loc>
+    <lastmod>2017-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/little-brother-iot/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-11-18-hack-climate-change/</loc>
+    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/open-source-cloud-oscilloscope/</loc>
+    <lastmod>2017-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-11-14-challenge4-deadline-extended/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-11-03-challenge4-ideas/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/entries/smart-solar-water-heating-swh---intro/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-10-24-eclipsecon-europe/</loc>
+    <lastmod>2017-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-10-23-eclipse-iot-ece/</loc>
+    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/adlink/</loc>
+    <lastmod>2017-10-20T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/orange/</loc>
+    <lastmod>2017-10-20T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/influxdata/</loc>
+    <lastmod>2017-10-19T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-10-19-industry40-testbed/</loc>
+    <lastmod>2017-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-10-19-industry40-whitepaper/</loc>
+    <lastmod>2017-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-10-12-challenge4-video/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-10-12-iot-newsletter-oct/</loc>
+    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-10-11-virtual-iot-recording/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-10-11-case-study-kynetics/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/white-papers/industry40/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-10-03-iot-world-congress/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-09-28-challenge4/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-09-27-all-things-iot-ece/</loc>
+    <lastmod>2017-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/intel/</loc>
+    <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-09-25-iot-hackathon/</loc>
+    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-09-12-thingmonk/</loc>
+    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-09-11-eclipse-thingmonk/</loc>
+    <lastmod>2017-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-09-05-iot-ece-program/</loc>
+    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/cloudera/</loc>
+    <lastmod>2017-08-25T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-08-04-iot-newsletter/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-08-02-virtual-iot-recording/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-08-01-thingmonk/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/contact-software/</loc>
+    <lastmod>2017-06-30T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-06-28-virtual-iot-recording/</loc>
+    <lastmod>2017-06-28T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-06-21-ecf2017/</loc>
+    <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-06-21-iot-slam-live/</loc>
+    <lastmod>2017-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-06-12-ece-2017-cfp/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/sap/</loc>
+    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/db-systel/</loc>
+    <lastmod>2017-05-23T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-05-17-db-case-study/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-05-16-iotworld2017/</loc>
+    <lastmod>2017-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-05-09-testbed-demo/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-05-09-testbed-demo/</loc>
+    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-05-02-redhatsummit/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-04-27-testbeds/</loc>
+    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-04-26-virtual-iot-recording/</loc>
+    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-04-24-hannover-messe-2017/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/kichwa-coders/</loc>
+    <lastmod>2017-04-20T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-04-19-iot-developer-survey-2017/</loc>
+    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-04-13-virtual-iot-recording/</loc>
+    <lastmod>2017-04-13T14:10:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-03-24-hono-boschsi/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-03-23-eclipse-newsletter/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-21-devoxxus/</loc>
+    <lastmod>2017-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-20-eclipse-converge/</loc>
+    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-20-iot-day-2017/</loc>
+    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-03-16-iotchallenge3-winners/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-15-boschconnectedworld/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-03-14-iotsurvey-lastcall/</loc>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-09-iotdaygrenoble/</loc>
+    <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-03-08-virtual-iot-recording/</loc>
+    <lastmod>2017-03-08T17:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-03-07-iotmanufacturing/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2017-02-21-containerworld/</loc>
+    <lastmod>2017-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-02-16-virtual-iot-recording/</loc>
+    <lastmod>2017-02-16T17:03:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-02-15-leshan-pr/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-02-07-iotsurvey2017/</loc>
+    <lastmod>2017-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-01-31-virtual-iot-recording/</loc>
+    <lastmod>2017-01-31T16:55:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-01-31-iotdayprogram/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-01-26-virtual-iot-recording/</loc>
+    <lastmod>2017-01-26T17:01:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2017-01-19-iotchallenge-update/</loc>
+    <lastmod>2017-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-01-16-mqtt-sn-ble-microbit/</loc>
+    <lastmod>2017-01-16T10:56:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2017-01-12-virtual-iot-recording/</loc>
+    <lastmod>2017-01-12T17:05:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-12-19-iotdaysanjose/</loc>
+    <lastmod>2016-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/cealist/</loc>
+    <lastmod>2016-12-15T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-12-08-virtual-iot-recording/</loc>
+    <lastmod>2016-12-08T16:52:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-12-06-iotchallenge-scholars/</loc>
+    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-11-24-meetup-london/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-11-24-iotchallenge-extension/</loc>
+    <lastmod>2016-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-11-20-iot-world-europe/</loc>
+    <lastmod>2016-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/samsung/</loc>
+    <lastmod>2016-11-18T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-11-16-virtual-iot-recording/</loc>
+    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-12-19-mqtt-android-things/</loc>
+    <lastmod>2016-11-16T16:56:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-11-14-etsi-iot-m2m-workshops/</loc>
+    <lastmod>2016-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/coap/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/dtls/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/iec-61499/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/lwm2m/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/mqtt/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/ogc-sensorthings-api/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/onem2m/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/opc-ua/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/ppmp/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/fortiss/</loc>
+    <lastmod>2016-11-08T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/eclipsesource/</loc>
+    <lastmod>2016-11-07T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/devices/eclipse-edje/</loc>
+    <lastmod>2016-11-04T14:48:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-10-31-iotchallenge/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-10-25-eclipsecon-europe/</loc>
+    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-10-25-iot-day-ece/</loc>
+    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/incquery/</loc>
+    <lastmod>2016-10-20T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-10-20-virtual-iot-recording/</loc>
+    <lastmod>2016-10-20T17:03:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-10-19-women-in-iot-meetup/</loc>
+    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-10-14-white-paper-iot-architectures/</loc>
+    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/white-papers/iot-architectures/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-09-29-iotece/</loc>
+    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-09-29-iot-613/</loc>
+    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-09-28-virtual-iot-recording/</loc>
+    <lastmod>2016-09-28T15:58:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-09-21-smartsummituk/</loc>
+    <lastmod>2016-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-09-18-javaone/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-09-14-iotworkshop/</loc>
+    <lastmod>2016-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-09-12-thingmonk/</loc>
+    <lastmod>2016-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/iotracks/</loc>
+    <lastmod>2016-08-31T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-08-08-smartsummit/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-08-03-virtual-iot-recording/</loc>
+    <lastmod>2016-08-03T16:03:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-07-27-thingmonk/</loc>
+    <lastmod>2016-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-07-22-get-d/</loc>
+    <lastmod>2016-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-07-20-virtual-iot-recording/</loc>
+    <lastmod>2016-07-20T16:05:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-06-16-virtual-iot-recording/</loc>
+    <lastmod>2016-06-16T16:11:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-06-16-new-project-releases/</loc>
+    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-06-07-eclipseconfrance2016/</loc>
+    <lastmod>2016-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-06-02-virtual-iot-recording/</loc>
+    <lastmod>2016-06-02T16:09:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-05-25-iot-devcon/</loc>
+    <lastmod>2016-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-05-18-virtual-iot-recording/</loc>
+    <lastmod>2016-05-18T15:47:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-05-18-oscon/</loc>
+    <lastmod>2016-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-05-17-iot-overview/</loc>
+    <lastmod>2016-05-17T19:41:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-05-16-learnt-iot-world/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-05-10-iot-world/</loc>
+    <lastmod>2016-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-05-05-virtual-iot-recording/</loc>
+    <lastmod>2016-05-05T16:06:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-04-28-iot-day-grenoble/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-04-28-neoscada-release/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-04-27-case-study-noja/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/smart-grid-automation-software/</loc>
+    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-04-22-iot-standard-problems/</loc>
+    <lastmod>2016-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-04-20-virtual-iot-recording/</loc>
+    <lastmod>2016-04-20T16:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2016-04-15-iot-developer-survey-2016/</loc>
+    <lastmod>2016-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-04-07-sido/</loc>
+    <lastmod>2016-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-04-07-smart-summit/</loc>
+    <lastmod>2016-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-04-06-virtual-iot-recording/</loc>
+    <lastmod>2016-04-06T15:54:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-04-06-openiot/</loc>
+    <lastmod>2016-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-03-30-virtual-iot-recording/</loc>
+    <lastmod>2016-03-30T15:59:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-03-14-cebit/</loc>
+    <lastmod>2016-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-03-10-eclipsecon/</loc>
+    <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-03-07-virtual-iot-recording/</loc>
+    <lastmod>2016-03-07T19:41:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-02-23-embedded-world/</loc>
+    <lastmod>2016-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-02-10-virtual-iot-recording/</loc>
+    <lastmod>2016-02-10T17:09:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-02-01-virtual-iot-recording/</loc>
+    <lastmod>2016-02-01T18:01:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2016-01-26-iot-evolution/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/connected-products-with-eclipse-kura/</loc>
+    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-01-27-case-study-03/</loc>
+    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-12-21-iot-summit-an-opportunity-to-learn-what-open-source-can-offer-iot/</loc>
+    <lastmod>2016-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2016-01-14-virtual-iot-recording/</loc>
+    <lastmod>2016-01-14T16:57:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/building-virtual-power-plants/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-12-22-case-study-02/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-12-22-case-study-01/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-12-21-2015-year-in-review/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/monitoring-industrial-power-distribution/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-12-16-virtual-iot-recording/</loc>
+    <lastmod>2015-12-16T16:59:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-12-16-ieee/</loc>
+    <lastmod>2015-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-12-09-open-iot-challenge-devkits/</loc>
+    <lastmod>2015-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-12-02-virtual-iot-recording/</loc>
+    <lastmod>2015-12-02T16:54:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-11-23-sps/</loc>
+    <lastmod>2015-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-11-19-neoscada/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/sensorup/</loc>
+    <lastmod>2015-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-11-12-virtual-iot-recording/</loc>
+    <lastmod>2015-11-12T17:02:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-11-09-open-iot-challenge/</loc>
+    <lastmod>2015-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-11-03-eclipsecon-europe/</loc>
+    <lastmod>2015-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-10-29-virtual-iot-recording/</loc>
+    <lastmod>2015-10-29T16:56:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-10-25-javaone/</loc>
+    <lastmod>2015-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-10-25-eclipse-iot-at-javaone-2015/</loc>
+    <lastmod>2015-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-10-23-kura-and-aws-iot/</loc>
+    <lastmod>2015-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-10-08-codingserbia/</loc>
+    <lastmod>2015-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/hardware/mangoh/</loc>
+    <lastmod>2015-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/hardware/reliagate-10-20/</loc>
+    <lastmod>2015-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-10-01-iot-is-everywhere-ateclipsecon-europe/</loc>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/siemens/</loc>
+    <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-09-24-virtual-iot-recording/</loc>
+    <lastmod>2015-09-24T16:49:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-09-21/</loc>
+    <lastmod>2015-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-09-16-unveiling-the-eclipse-iot-demo-box/</loc>
+    <lastmod>2015-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-09-10-virtual-iot-recording/</loc>
+    <lastmod>2015-09-10T16:04:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-09-08-m2m-summit/</loc>
+    <lastmod>2015-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-09-16-three-hardware-platforms-of-choice-to-get-started-with-eclipse-iot/</loc>
+    <lastmod>2015-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-08-10-mqtt-security/</loc>
+    <lastmod>2015-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-08-10-lwm2m-leshan-wakaama-mbed/</loc>
+    <lastmod>2015-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-08-07-growing-an-iot-community/</loc>
+    <lastmod>2015-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-07-31-solair-iot-in-a-box/</loc>
+    <lastmod>2015-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-07-23-virtual-iot-recording/</loc>
+    <lastmod>2015-07-23T16:02:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/ca/</loc>
+    <lastmod>2015-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-07-14-meetup/</loc>
+    <lastmod>2015-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-07-02-virtual-iot-recording/</loc>
+    <lastmod>2015-07-02T16:02:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-07-02-virtualiot-mqtt/</loc>
+    <lastmod>2015-07-02T17:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/generative-software/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-07-01-mqtt-essentials/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-06-24-eclipseconfrance2015/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/huawei/</loc>
+    <lastmod>2015-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-06-23-solidcon/</loc>
+    <lastmod>2015-06-23T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-06-15-iot-security/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-06-12-iotivity-and-smarthome/</loc>
+    <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-06-10-virtual-iot-recording/</loc>
+    <lastmod>2015-06-10T16:40:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-06-10-kinoma/</loc>
+    <lastmod>2015-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-06-08-esp8266-eclipse/</loc>
+    <lastmod>2015-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-05-27-virtual-iot-recording/</loc>
+    <lastmod>2015-05-27T16:19:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-27-virtualiot-splunk/</loc>
+    <lastmod>2015-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-12-iot-breakfast-madrid/</loc>
+    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-20-webinar-dla-piper/</loc>
+    <lastmod>2015-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-05-14-virtual-iot-recording/</loc>
+    <lastmod>2015-05-14T15:52:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-14-virtualiot-solair/</loc>
+    <lastmod>2015-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-12-iot-world/</loc>
+    <lastmod>2015-05-12T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-05-12-azul/</loc>
+    <lastmod>2015-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-05-06-virtual-iot-recording/</loc>
+    <lastmod>2015-05-06T15:44:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-06-iot-devcon/</loc>
+    <lastmod>2015-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-05-06-virtualiot-kura-camel/</loc>
+    <lastmod>2015-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/azul/</loc>
+    <lastmod>2015-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/redhat/</loc>
+    <lastmod>2015-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-04-15-infoq/</loc>
+    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-04-09-iot-insa/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-04-08-iot-challenge-results/</loc>
+    <lastmod>2015-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-04-03-survey/</loc>
+    <lastmod>2015-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-03-29-om2m-tutorial/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-03-26-open-iot-final-entries/</loc>
+    <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2015-03-24-java-tutorial/</loc>
+    <lastmod>2015-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-03-23-iot-conference/</loc>
+    <lastmod>2015-03-23T16:12:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-03-19-the-open-iot-challenge-project-are-way-cool/</loc>
+    <lastmod>2015-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-03-18-eclipse-day-dresden/</loc>
+    <lastmod>2015-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/2015-03-09-eclipsecon2015/</loc>
+    <lastmod>2015-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/sierra/</loc>
+    <lastmod>2015-03-08T15:31:22-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/openhab/</loc>
+    <lastmod>2015-03-08T15:31:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/litmus/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/m2m-alliance/</loc>
+    <lastmod>2015-03-08T15:31:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/laas/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/itemis/</loc>
+    <lastmod>2015-03-08T15:31:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/gadgetkeeper/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/ibh/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/ibm/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/microej/</loc>
+    <lastmod>2015-03-08T15:31:18-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/dtag/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/eurotech/</loc>
+    <lastmod>2015-03-08T15:31:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/canonical/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/dcsquare/</loc>
+    <lastmod>2015-03-08T15:31:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/bitreactive/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/bosch/</loc>
+    <lastmod>2015-03-08T15:31:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/opentext/</loc>
+    <lastmod>2015-03-08T15:31:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-03-04-case-study-mqtt/</loc>
+    <lastmod>2015-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/2015-02-09-announcing-open-iot-challenge/</loc>
+    <lastmod>2015-02-09T16:28:26-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-12-16-virtual-iot-recording/</loc>
+    <lastmod>2014-12-16T16:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-11-04-virtual-iot-recording/</loc>
+    <lastmod>2014-11-04T16:44:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-10-21-virtual-iot-recording/</loc>
+    <lastmod>2014-10-21T15:38:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-10-14-virtual-iot-recording/</loc>
+    <lastmod>2014-10-14T15:48:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-10-07-virtual-iot-recording/</loc>
+    <lastmod>2014-10-07T15:39:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-09-23-virtual-iot-recording/</loc>
+    <lastmod>2014-09-23T15:47:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-09-16-virtual-iot-recording/</loc>
+    <lastmod>2014-09-16T15:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/2014-09-09-virtual-iot-recording/</loc>
+    <lastmod>2014-09-09T15:48:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/cloud/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/gateways/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/projects/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/working-group/dummy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/asset-tracking/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/bitreactive/</loc>
+    <lastmod>2017-04-26T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/bosch-si/</loc>
+    <lastmod>2017-03-24T17:03:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/boschsi/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/case-studies/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/cloud/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/command-and-control/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/demo/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/devices/</loc>
+    <lastmod>2016-11-04T14:48:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/eclipse-hono/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/</loc>
+    <lastmod>2017-03-08T10:48:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/eclipse-unide/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/eclipse-vorto/</loc>
+    <lastmod>2017-06-28T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/events/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/events/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/gateways/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/hardware/</loc>
+    <lastmod>2015-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/industry-4.0/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/member/</loc>
+    <lastmod>2018-07-11T15:31:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/news/</loc>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/open-iot/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/open-iot-challenge/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge-entries/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/open-iot-challenge/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/projects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/red-hat/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/resources/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/smart-manufacturing/</loc>
+    <lastmod>2017-08-02T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/solution/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/standards/</loc>
+    <lastmod>2016-11-10T17:57:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/telemetry/</loc>
+    <lastmod>2017-10-11T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/testbeds/</loc>
+    <lastmod>2017-03-08T10:48:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/testbeds/</loc>
+    <lastmod>2017-05-09T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/video/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/tags/virtualiot/</loc>
+    <lastmod>2017-10-12T15:34:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/white-papers/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://iot.eclipse.org/working-group/</loc>
+    <priority>0</priority>
+  </url>
+  
 </urlset>
