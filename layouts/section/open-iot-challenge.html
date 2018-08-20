@@ -487,69 +487,8 @@
     </div> 
 
   </main>
-
-
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="clear">
-                        <ul class="menu list-inline">
-                            <li><a href="/">Home</a>
-                            </li>
-                            <li><a href="//www.eclipse.org/legal/privacy.php" target="_blank">Privacy Policy</a>
-                            </li>
-                            <li><a href="//www.eclipse.org/legal/termsofuse.php" target="_blank">Terms of Use</a>
-                            </li>
-                            <li><a href="//www.eclipse.org/legal/copyright.php" target="_blank">Copyright Agent</a>
-                            </li>
-                            <li><a href="//www.eclipse.org/legal/" target="_blank">Legal</a>
-                            </li>
-                            <li><a href="contact.html" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
-                            </li>
-                            <li class="pull-right">Copyright © 2018 The Eclipse Foundation. All Rights Reserved.</li>
-                        </ul>
-                        <!-- <ul class="list-inline">
-    <li><img src="images/social-facebook.jpg">
-    </li>
-    <li><img src="images/social-twitter.jpg">
-    </li>
-    <li><img src="images/social-youtube.jpg">
-    </li>
-</ul>
- -->
-                    </div>
-
-                </div>
-                <div class="col-md-4">
-
-
-                    <div class="twitter-header">
-                        <div class="icon icon-twitter left"></div>
-                        <h2>@eclipseiot</h2>
-                    </div>
-
-                    <a class="twitter-timeline" href="https://twitter.com/EclipseIoT" data-widget-id="543047114042138624">Tweets by @EclipseIoT</a>
-                    <script>
-                    ! function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0],
-                            p = /^http:/.test(d.location) ? 'http' : 'https';
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + "://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, "script", "twitter-wjs");
-                    </script>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    
+   {{ partial "footer.html" . }}
 
     <!-- JS is at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
