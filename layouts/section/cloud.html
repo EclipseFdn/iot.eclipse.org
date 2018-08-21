@@ -1,210 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Projects</title>
-  <meta name="description" content="iot.eclipse.org is all about getting the IoT and M2M developers involved in what is happening in the different Eclipse projects">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-  <!-- Le styles -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-  <!-- icomoon -->
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
-
-</head>
-
-<body>
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-  <main class="main">
-    <div class="well">
-      <div class="container">
-        <h1>Open source stack for IoT Cloud Platforms</h1>
-        <p class="lead">The Eclipse IoT Community has a number of projects that are focused on providing the functionality required for IoT cloud platforms.</p>
-      </div>
+{{ define "main" }}
+<main class="main">
+  <div class="well">
+    <div class="container">
+      <h1>Open source stack for IoT Cloud Platforms</h1>
+      <p class="lead">The Eclipse IoT Community has a number of projects that are focused on providing the functionality required for IoT cloud platforms.</p>
     </div>
-    <section class="first row-fluid" style="padding-bottom: 70px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h1 class="purple">IoT Cloud Platform Stack</h1>
-            <p>The IoT Cloud Platform represents the software infrastructure and services required to enable an IoT solution. An IoT Cloud Platform typically operates on a cloud infrastructure (e.g. OpenShift, AWS, Microsoft Azure, Cloud Foundry) or inside an enterprise data center and is expected to scale both horizontally, to support the large number of devices connected, as well as vertically to address the variety of IoT solutions. The IoT Cloud Platform will facilitate the interoperability of the IoT solution with existing enterprise applications and other IoT solutions.</p>
-
-            <div class="row" style="font-size: .5em;">
-              <div class="col-md-4 first-col">
-                <a href="/devices">
-                  <div class="row">
-                    <div class="col-xs-2 col-md-3">
-                      <span class="icon-device" aria-hidden="true"></span>
-                    </div>
-                    <div class="col-xs-10 col-md-9">
-                      <h4>Constrained Devices</h4>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-md-4 first-col">
-                <a href="/gateways">
-                  <div class="row">
-                    <div class="col-xs-2 col-md-3">
-                      <span class="icon-gateway" aria-hidden="true"></span>
-                    </div>
-                    <div class="col-xs-10 col-md-9">
-                      <h4>Gateways<br>&nbsp;</h4>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-md-4 first-col">
+  </div>
+  <section class="first row-fluid" style="padding-bottom: 70px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1 class="purple">IoT Cloud Platform Stack</h1>
+          <p>The IoT Cloud Platform represents the software infrastructure and services required to enable an IoT solution. An IoT Cloud Platform typically operates on a cloud infrastructure (e.g. OpenShift, AWS, Microsoft Azure, Cloud Foundry) or inside an enterprise data center and is expected to scale both horizontally, to support the large number of devices connected, as well as vertically to address the variety of IoT solutions. The IoT Cloud Platform will facilitate the interoperability of the IoT solution with existing enterprise applications and other IoT solutions.</p>
+          <div class="row" style="font-size: .5em;">
+            <div class="col-md-4 first-col">
+              <a href="/devices">
                 <div class="row">
                   <div class="col-xs-2 col-md-3">
-                    <span class="icon-cloud" aria-hidden="true" style="line-height: .9em;"></span>
+                    <span class="icon-device" aria-hidden="true"></span>
                   </div>
                   <div class="col-xs-10 col-md-9">
-                    <u><h4>Cloud Platforms</h4></u>
+                    <h4>Constrained Devices</h4>
                   </div>
                 </div>
-              </div>
-
+              </a>
             </div>
-
-          </div>
-
-          <div class="col-md-4 col-md-offset-1">
-            <img src="/images/stacks/cloud.png" class="img-responsive">
+            <div class="col-md-4 first-col">
+              <a href="/gateways">
+                <div class="row">
+                  <div class="col-xs-2 col-md-3">
+                    <span class="icon-gateway" aria-hidden="true"></span>
+                  </div>
+                  <div class="col-xs-10 col-md-9">
+                    <h4>Gateways<br>&nbsp;</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 first-col">
+              <div class="row">
+                <div class="col-xs-2 col-md-3">
+                  <span class="icon-cloud" aria-hidden="true" style="line-height: .9em;"></span>
+                </div>
+                <div class="col-xs-10 col-md-9">
+                  <u>
+                    <h4>Cloud Platforms</h4>
+                  </u>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="col-md-4 col-md-offset-1">
+          <img src="/images/stacks/cloud.png" class="img-responsive">
+        </div>
       </div>
-    </section>
-    <section class="second row-fluid">
-      <div class="container">
-        <!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
-        <h1 class="purple">Cloud stacks</h1>
-        <h2>Eclipse Kapua</h2>
-
-        <p>
-          <a href="https://eclipse.org/kapua" target="_blank">Eclipse Kapua</a> is a modular platform providing the services required to manage IoT gateways and smart edge devices. Kapua provides a core integration framework and an initial set of core IoT services including a device registry, device management services, messaging services, data management, and application enablement.
-        </p>
-        <p>
-          The goal of Eclipse Kapua is to create a growing ecosystem of micro services through the extensions provided by other Eclipse IoT projects and organizations.
-        </p>
-
-        <h2>Eclipse OM2M</h2>
-
-        <p>
-          <a href="https://eclipse.org/om2m" target="_blank">Eclipse OM2M</a> is an IoT Platform specific for the telecommunication industry, based on the oneM2M specification.
-        </p>
-        <p>
-          It provides a horizontal Common Service Entity (CSE) that can be deployed in an M2M server, a gateway, or a device. Each CSE provides Application Enablement, Security, Triggering, Notification, Persistency, Device Interworking, Device Management.
-        </p>
-
-        <h1 class="purple">Open source components for IoT Cloud Platforms</h1>
-
-        <h2>Connectivity &amp; Message Routing</h2>
-
-        <p>IoT platforms need to be able to interact with very large numbers of devices and gateways using different protocols and data formats, but then normalize it to allow for easy integration into the rest of the enterprise.</p>
-
-        <ul>
-          <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> provides a uniform API for interacting with devices using arbitrary protocols, as well as an extensible framework to add other protocols.</li>
-
-          <li><a href="https://eclipse.org/mosquitto" target="_blank">Eclipse Mosquitto</a> provides an implementation of an MQTT broker.</li>
-        </ul>
-
-        <h2>Device Management</h2>
-
-        <p>An IoT platform shoud have the ability to provision new software updates and manage the devices.</p>
-
-        <ul>
-          <li><a href="https://eclipse.org/leshan" target="_blank">Eclipse Leshan</a> provides an implementation of the OMA LWM2M device management protocol</li>
-        </ul>
-
-        <h2>Device Registry</h2>
-
-        <p>A central registry helps to identify and authenticate the devices/gateways running in an IoT solution</p>
-
-        <ul>
-          <li><a href="https://eclipse.org/hawkbit" target="_blank">Eclipse hawkBit</a> provides the management tools to roll out software updates to devices and gateways</li>
-        </ul>
-
-        <h2>Analytics</h2>
-
-        <ul>
-          <li>Outside of the Eclipse IoT community there are many open source options for data analytics and visualization, including Apache Hadoop, Apache Spark, and Apache Storm. Within the Eclipse community, <a href="https://eclipse.org/birt" target="_blank">Eclipse BIRT</a> provides support for dashboards and reporting of data stored in a variety of data repositories.
-          </li>
-        </ul>
-
-        <h2>Application Enablement</h2>
-
-        <p>Ability to consolidate and analyze data, and to create reports, graphs, and dashboards by exposing Application Programming Interfaces (API).</p>
-
-        <ul>
-          <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> helps to expose consistent APIs for consuming telemetry data or sending commands to devices, so as to rationalize IoT application development.</li>
-        </ul>
-
-        <hr/>
-
-        <a href="/projects">
-          <button class="btn btn-lg sort btn-info center-block" style="margin-top: 1em;margin-bottom: 1em;">
-            Browse all the Projects
-          </button>
-        </a>
-      </div>
-
-    </section>
-  </main>
-  {{ partial "footer.html" . }}
-  <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
-  </div>
-  </div>
-  <!-- /container -->
-  <!-- JS is at the end of the document so the pages load faster -->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    </div>
+  </section>
+  <section class="second row-fluid">
+    <div class="container">
+      <!--         {{ range .Data.Pages }} {{ .Render "project-description"}} {{ end }} -->
+      <h1 class="purple">Cloud stacks</h1>
+      <h2>Eclipse Kapua</h2>
+      <p>
+        <a href="https://eclipse.org/kapua" target="_blank">Eclipse Kapua</a> is a modular platform providing the services required to manage IoT gateways and smart edge devices. Kapua provides a core integration framework and an initial set of core IoT services including a device registry, device management services, messaging services, data management, and application enablement.
+      </p>
+      <p>
+        The goal of Eclipse Kapua is to create a growing ecosystem of micro services through the extensions provided by other Eclipse IoT projects and organizations.
+      </p>
+      <h2>Eclipse OM2M</h2>
+      <p>
+        <a href="https://eclipse.org/om2m" target="_blank">Eclipse OM2M</a> is an IoT Platform specific for the telecommunication industry, based on the oneM2M specification.
+      </p>
+      <p>
+        It provides a horizontal Common Service Entity (CSE) that can be deployed in an M2M server, a gateway, or a device. Each CSE provides Application Enablement, Security, Triggering, Notification, Persistency, Device Interworking, Device Management.
+      </p>
+      <h1 class="purple">Open source components for IoT Cloud Platforms</h1>
+      <h2>Connectivity &amp; Message Routing</h2>
+      <p>IoT platforms need to be able to interact with very large numbers of devices and gateways using different protocols and data formats, but then normalize it to allow for easy integration into the rest of the enterprise.</p>
+      <ul>
+        <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> provides a uniform API for interacting with devices using arbitrary protocols, as well as an extensible framework to add other protocols.</li>
+        <li><a href="https://eclipse.org/mosquitto" target="_blank">Eclipse Mosquitto</a> provides an implementation of an MQTT broker.</li>
+      </ul>
+      <h2>Device Management</h2>
+      <p>An IoT platform shoud have the ability to provision new software updates and manage the devices.</p>
+      <ul>
+        <li><a href="https://eclipse.org/leshan" target="_blank">Eclipse Leshan</a> provides an implementation of the OMA LWM2M device management protocol</li>
+      </ul>
+      <h2>Device Registry</h2>
+      <p>A central registry helps to identify and authenticate the devices/gateways running in an IoT solution</p>
+      <ul>
+        <li><a href="https://eclipse.org/hawkbit" target="_blank">Eclipse hawkBit</a> provides the management tools to roll out software updates to devices and gateways</li>
+      </ul>
+      <h2>Analytics</h2>
+      <ul>
+        <li>Outside of the Eclipse IoT community there are many open source options for data analytics and visualization, including Apache Hadoop, Apache Spark, and Apache Storm. Within the Eclipse community, <a href="https://eclipse.org/birt" target="_blank">Eclipse BIRT</a> provides support for dashboards and reporting of data stored in a variety of data repositories.
+        </li>
+      </ul>
+      <h2>Application Enablement</h2>
+      <p>Ability to consolidate and analyze data, and to create reports, graphs, and dashboards by exposing Application Programming Interfaces (API).</p>
+      <ul>
+        <li><a href="https://eclipse.org/hono" target="_blank">Eclipse Hono</a> helps to expose consistent APIs for consuming telemetry data or sending commands to devices, so as to rationalize IoT application development.</li>
+      </ul>
+      <hr/>
+      <a href="/projects">
+      <button class="btn btn-lg sort btn-info center-block" style="margin-top: 1em;margin-bottom: 1em;">
+      Browse all the Projects
+      </button>
+      </a>
+    </div>
+  </section>
+</main>
+{{ end }}

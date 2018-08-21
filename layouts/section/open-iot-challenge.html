@@ -1,508 +1,390 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iot.eclipse.org &mdash; Open IoT Developer Challenge</title>
-    <meta name="description" content="The Open IoT Challenge encourages developers from all over the world to build innovative IoT solutions using open source technologies" />
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@EclipseIoT">
-    <meta name="twitter:title" content="Open IoT Challenge 5.0">
-    <meta name="twitter:description" content="The Open IoT Challenge encourages developers from all over the world to build innovative IoT solutions using open source technologies">
-    <meta name="twitter:creator" content="@EclipseIoT">
-    <meta name="twitter:image" content="https://iot.eclipse.org/images/_home/iot-challenge-card.jpg">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Open IoT Challenge 5.0" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://iot.eclipse.org/open-iot-challenge/" />
-    <meta property="og:image" content="https://iot.eclipse.org/images/_home/iot-challenge-card.jpg" />
-    <meta property="og:description" content="The Open IoT Challenge encourages developers from all over the world to build innovative IoT solutions using open source technologies" /> 
-    <meta property="og:site_name" content="Eclipse IoT" />
-    <meta property="fb:admins" content="102596866881190" />
-
-
-
-    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-    <link href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/icomoon.css" rel="stylesheet">
-
-    <link href="stylesheet/theme.css" rel="stylesheet">
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  
-
-</head>
-
-<body>
-
-
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-
-  <main class="main openiot-challenge">
-
-
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="images/header-logo.png" alt="" class="img-responsive" style="margin: 0 auto;">
-
+{{ define "head-custom"}}
+{{- partial "head_custom.html" . }}
+<!-- Open Graph data -->
+<meta property="og:type" content="article" />
+<meta property="fb:admins" content="102596866881190" />
+<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+<link href="stylesheet/theme.css" rel="stylesheet">
+{{ end }}
+{{ define "main" }}
+<main class="main openiot-challenge">
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/header-logo.png" alt="" class="img-responsive" style="margin: 0 auto;">
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+          <hr>
+          <!--  <a href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2" target="_blank">Apply</a> by November 20 *Extended*!
+            <br>
+            <a href="#content"><span class="icon-circle-down" aria-hidden="true"></span></a>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="blurb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><b>The Challenge 5.0 will start accepting proposal on September 25, 2018.</b></p>
+          <p><b>To participate, submit a proposal that:</b></p>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <ol style="text-align: left;     font-size: 24px; line-height: 1.5em; font-weight: 300; background: #d7d7d744; border-radius: 17px; padding: 20px 60px;">
+            <li>Names the solution you want to build</li>
+            <li>Tells us the open technology you plan to use</li>
+            <li>Describes the industry you want to address</li>
+            <li>Gives an overview of the final solution</li>
+            <li>Includes a YouTube video or a blog post explaining why you should be in the Top 10 proposals.</li>
+          </ol>
+          <p style="font-size: 18px;"><em>#5 is optional but videos/blog posts will be promoted via our social media network!</em></p>
+        </div>
+        <!-- <div class="col-md-12">
+          <p><b>Deadline for proposals is November 12, 2018. Now Closed.</b></p>
+          <!-- <p align="center"><a href="" target="_blank">
+                                 <button>APPLY NOW</button>
+                             </a></p>                     
+                         </div> -->  
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="tech">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="keyfacts">
+          <h2><strong>Key Facts</strong></h2>
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 ">
+                  <span class="icon icon-calendar" aria-hidden="true"></span>
+                  <p><strong>Timeline</strong></p>
+                  <table id="timeline" style="text-align:left !important;">
+                    <tr>
+                      <td>Nov.&nbsp;12</td>
+                      <td>Application deadline</td>
+                    </tr>
+                    <tr>
+                      <td>Dec.&nbsp;11</td>
+                      <td>Hardware starter kits announced</td>
+                    </tr>
+                    <tr>
+                      <td>Mar.&nbsp;15</td>
+                      <td>Final submission deadline</td>
+                    </tr>
+                    <tr>
+                      <td>Mar.&nbsp;29</td>
+                      <td>Winners announced</td>
+                    </tr>
+                  </table>
                 </div>
-               <div class="col-md-6 col-md-offset-3">
+                <div class="col-xs-12 col-sm-4 ">
+                  <span class="icon icon-trophy" aria-hidden="true"></span>
+                  <p><a href="#prizes"><strong>Prize pool</strong></a><br/>
+                    <span class="fact-highlight">$20,000+</span>
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 ">
+                  <span class="icon icon-users" aria-hidden="true"></span>
+                  <p>
+                    <span class="fact-highlight" id="number-of-teams">-</span><br/>
+                    <span style="margin-top:-18px; display: block; font-size:0.8em;">teams entered last year!</span><br/>
+                    <!-- <span style="margin-top:-18px; display: block; font-size:0.8em;"><b><a target="_blank" href="">List of Proposals</a></b></span>-->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2><strong>Technology</strong> Involved</h2>
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+              <hr>
+            </div>
+          </div>
+          <p>We believe the IoT will be based on open standards and open source technology, and with this challenge we want to highlight how those can be used to build great solutions. Developers who participate in the challenge are encouraged to build their solutions using any or all of the following technologies:</p>
+        </div>
+      </div>
+    </div>
+    <div class="tech-bullets">
+      <div class="container">
+        <div class="row" style="padding-top:1em; padding-bottom:1em;">
+          <div class="col-md-4 col-md-offset-2">
+            <div class="clear">
+              <img class="left" src="images/purple-check.png">
+              <div class="left">
+                <p>IoT open standards <br>(e.g MQTT, CoAP, LWM2M, or OPC UA)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="clear">
+              <img class="left" src="images/purple-check.png">
+              <div class="left">
+                <p>Eclipse IoT <a href="/projects" target="_blank">projects</a>, such as <a href="//eclipse.org/californium" target="_blank">Californium</a>, <a href="//eclipse.org/fog05" target="_blank">fog05</a>, <a href="//eclipse.org/hawkbit" target="_blank">hawkBit</a>, <a href="//eclipse.org/kura" target="_blank">Kura</a>, <a href="//eclipse.org/leshan" target="_blank">Leshan</a>, <a href="://projects.eclipse.org/projects/iot.milo" target="_blank">Milo</a>, <a href="https://eclipse.org/mosquitto" target="_blank">Mosquitto</a>, <a href="//eclipse.org/paho" target="_blank">Paho</a>, <a href="//www.eclipse.org/smarthome/" target="_blank">SmartHome</a>, <a href="//projects.eclipse.org/projects/iot.unide">Unide</a>, <a href="//eclipse.org/vorto" target="_blank">Vorto</a> &hellip;
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <div class="clear">
+              <img class="left" src="images/purple-check.png">
+              <div class="left">
+                <p>Other open source technology, like Cloud Foundry, Kubernetes, OpenShift, Apache Spark or Camel.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="clear">
+              <img class="left" src="images/purple-check.png">
+              <div class="left">
+                <p>Commercial hardware and services that interact with open source software and open standards for for IoT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tech-expanded">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Tell Us <strong>How You Build It</strong></h2>
+            <p>A key aspect of this challenge is sharing knowledge with the community and therefore, we want participants to document and discuss their experience when building their IoT solution. So we expect you to <strong>blog</strong> about things like selection process for your hardware, architecture decisions, etc. Of course, <strong>publishing code</strong> and <strong>videos</strong> is also a great way to engage!</p>
+            <p><img src="images/tech-board.jpg" alt="" class="img-responsive">
+            </p>
+          </div>
+          <div class="col-md-6">
+            <ul style="padding-top:75px" id="timing">
+              <li><strong>Applications</strong> for the developer challenge will open on <u>September 25, 2018</u> and the submission deadline is <u>November 12, 2018</u>.</li>
+              <li style="padding-top:0.7em;"><strong>Hardware kits</strong> – On <u>December 11, 2018</u>, the teams behind the 10 best proposals will be offered $150 to buy hardware online, and access to special <a href="sponsors#sponsors">sponsors offerings</a>.</li>
+              <li style="padding-top:0.7em;"><strong>Submissions</strong> of the final solution must be completed by <u>March 15, 2019</u> (11.59pm PDT). Prizes will be awarded for the <u>top 3 solutions</u>.</li>
+            </ul>
+            <!--  <a target="_blank" href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2">
+              <button class="center-block">APPLY NOW</button>
+              </a> -->
+            <p><strong>The solutions will be judged on the following criteria:</strong>
+            </p>
+            <ul>
+              <li>Applicability of a solution to a specific industry, like Smart Cities, Industrie 4.0, Remote Health, etc.</li>
+              <li>Completeness of solution</li>
+              <li>Use of open standards and open source technology</li>
+              <li>Amount of community discussion from the participants when they built their solution</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 col-md-offset-4">
+            <div class="panel">
+              <h2>Contest <strong>Rules</strong><span></span></h2>
+              <ul>
+                <li>The challenge is open to any individual aged 18 years or older.</li>
+                <li>The solution submitted by the applicants must be a new solution created for this challenge.</li>
+                <li>More than one individual can participate in creating a solution but any prize will be awarded to the key contact who completed the entry form.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tech-apply">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!--  <a href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2" target="_blank">
+              <button>APPLY NOW</button>
+              </a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tech-plus">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a class="tech-activate"><img src="images/plus.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contest">
+    <div class="container">
+      <div class="row">
+        <!--    <div class="col-md-8 col-md-offset-2" style="padding-top:36px;">
+          <h2 id="jury">Our <strong>Jury</strong></h2>
+          <div class="row">
+              <div class="col-md-2 col-md-offset-5">
                   <hr>
-                    <!--  <a href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2" target="_blank">Apply</a> by November 20 *Extended*!
-                    <br>
-                    <a href="#content"><span class="icon-circle-down" aria-hidden="true"></span></a>-->
-                </div> 
+              </div>
+          </div>
+          
+          <div class="row" style="padding-top:2em; text-align: center">
+              <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/anne.jpg" alt="Anne Nevin" class="img-circle img-responsive">
+                  <strong>Anne Nevin</strong><br>Bitreactive
+              </div>
+              <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/bor.jpg" alt="Bor Gonzalez Usach" class="img-circle img-responsive">
+                  <strong>Bor Gonzalez Usach</strong><br>CONTACT Software
+              </div>
+              <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/franco.jpg" alt="Franco Potepan" class="img-circle img-responsive">
+                  <strong>Franco Potepan</strong><br>Eurotech
+              </div>
+              <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/joe.jpg" alt="Joe Butler" class="img-circle img-responsive">
+                  <strong>Joseph Butler</strong><br>Intel
+              </div>
+              <div class="col-md-3 col-md-offset-2 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/james.jpg" alt="James Kirkland" class="img-circle img-responsive">
+                  <strong>James Kirkland</strong><br>Red Hat
+              </div>
+              <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/ashish.jpg" alt="Ashsh Syal" class="img-circle img-responsive">
+                  <strong>Ashish Syal</strong><br>Sierra Wireless
+              </div>
+             <div class="col-md-3 col-xs-6 col-sm-3">
+                  <img src="/assets/images/open-iot-challenge/jury/benjamin.jpg" alt="Benjamin Cabé" class="img-circle img-responsive">
+                  <strong>Benjamin Cabé</strong><br>Eclipse Foundation
+              </div>
+             <div class="col-md-3 col-xs-6 col-sm-3">
+                  &nbsp;
+             </div>
+          </div>
+          </div> -->
+        <div class="col-md-8 col-md-offset-2" style="padding-top:36px;">
+          <h2>Our <strong><a href="sponsors#sponsors">Sponsors</a></strong></h2>
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+              <hr>
             </div>
+          </div>
+          <p>
+            Our sponsors are helping make this challenge possible by providing great prizes. If you want to sponsor the Open IoT Challenge 5.0, please <a href="mailto:iot@eclipse.org">email us</a>.<!--  and access to <a href="sponsors#sponsors">special offers</a>. Click on their logos to learn more!-->
+          </p>
+          <div class="row" style="padding-top:2em; margin-bottom: -8em;">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-xs-6 col-sm-4 sponsor ">
+                  <a href="sponsors#contact">
+                  <img src="/assets/images/members/logo-contact-software.png" class="img-responsive">
+                  </a>
+                </div>
+                <!--      <div class="col-xs-6 col-sm-4 sponsor ">
+                  <a href="sponsors#bitreactive">
+                      <img src="/assets/images/members/logo-bitreactive.png" class="img-responsive">
+                  </a>
+                  </div>
+                  <div class="col-xs-6 col-sm-4 sponsor ">
+                  <a href="sponsors#eurotech">
+                      <img src="/assets/images/members/logo-eurotech.png" class="img-responsive">
+                  </a>
+                  </div>
+                  <div class="col-xs-6 col-sm-4 sponsor" style="padding:4em;">
+                  <a href="sponsors#intel">
+                      <img src="/assets/images/members/logo-intel.png" class="img-responsive">
+                  </a>
+                  </div>
+                  <div class="col-xs-6 col-sm-4 sponsor">
+                  <a href="sponsors#redhat">
+                      <img src="/assets/images/members/logo-redhat.png" class="img-responsive">
+                  </a>
+                  </div>
+                  <div class="col-xs-6 col-sm-4 sponsor" style="padding:3em;">
+                  <a href="sponsors#sierra">
+                      <img src="/assets/images/members/logo-sierra.png" class="img-responsive">
+                  </a>
+                  </div> -->
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-md-8 col-md-offset-2" id="prizes" style="padding-top:10px;">
+          <h2>Contest <strong>Prizes</strong></h2>
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+              <hr>
+            </div>
+          </div>
+          <p>The three winners will be awarded prizes, allowing them to continue to innovate and build other IoT projects.
+          </p>
+        </div>
+      </div>
+      <div class="bubbles">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="panel">
+              <p><strong>1<sup style="text-transform: lowercase">st</sup> prize</strong>
+              <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
+                <li>$3,000 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
+                <li>$1,000 scholarship to attend a future Eclipse Event in 2018/19</li>
+              </ul>
+              </p><span class="arrow-right"></span>
+            </div>
+          </div>
+          <div class="col-md-2"><img src="images/contest-prizes-01.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-5"><img src="images/contest-prizes-02.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <div class="panel">
+              <p><strong>2<sup style="text-transform: lowercase">nd</sup> prize</strong>
+              <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
+                <li>$1,000 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
+              </ul>
+              </p><span class="arrow-left"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="panel">
+              <p><strong>3<sup style="text-transform: lowercase">rd</sup> prize</strong>
+              <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
+                <li>$500 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
+              </ul>
+              </p><span class="arrow-right"></span>
+            </div>
+          </div>
+          <div class="col-md-2"><img src="images/contest-prizes-03.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="content" class="blurb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-					<p><b>The Challenge 5.0 will start accepting proposal on September 25, 2018.</b></p>
-                    <p><b>To participate, submit a proposal that:</b></p>
-                </div>
-                
-                   <div class="col-md-8 col-md-offset-2">
-					<ol style="text-align: left;     font-size: 24px; line-height: 1.5em; font-weight: 300; background: #d7d7d744; border-radius: 17px; padding: 20px 60px;">
-                    <li>Names the solution you want to build</li>
-    					<li>Tells us the open technology you plan to use</li>
-    					<li>Describes the industry you want to address</li>
-    					<li>Gives an overview of the final solution</li> 
-    					<li>Includes a YouTube video or a blog post explaining why you should be in the Top 10 proposals.</li>
-                    </ol>
-					<p style="font-size: 18px;"><em>#5 is optional but videos/blog posts will be promoted via our social media network!</em></p>
-                </div>
-
-                <!-- <div class="col-md-12">
-					<p><b>Deadline for proposals is November 12, 2018. Now Closed.</b></p>
-					<!-- <p align="center"><a href="" target="_blank">
-                            <button>APPLY NOW</button>
-                        </a></p>                     
-                    </div> -->  
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="tech">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12" id="keyfacts">
-                    <h2><strong>Key Facts</strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
-                            <hr>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-4 ">
-                                    <span class="icon icon-calendar" aria-hidden="true"></span>
-
-                                    <p><strong>Timeline</strong></p> 
-
-                                    <table id="timeline" style="text-align:left !important;">
-                                      <tr>
-                                        <td>Nov.&nbsp;12</td>
-                                        <td>Application deadline</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Dec.&nbsp;11</td>
-                                        <td>Hardware starter kits announced</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Mar.&nbsp;15</td>
-                                        <td>Final submission deadline</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Mar.&nbsp;29</td>
-                                        <td>Winners announced</td>
-                                      </tr>
-                                    </table>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4 ">
-                                    <span class="icon icon-trophy" aria-hidden="true"></span>
- 
-                                    <p><a href="#prizes"><strong>Prize pool</strong></a><br/>
-                                        <span class="fact-highlight">$20,000+</span>
-                                    </p> 
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4 ">
-                                    <span class="icon icon-users" aria-hidden="true"></span>
- 
-                                    <p>
-                                        <span class="fact-highlight" id="number-of-teams">-</span><br/>
-                                        <span style="margin-top:-18px; display: block; font-size:0.8em;">teams entered last year!</span><br/>
-                                        <!-- <span style="margin-top:-18px; display: block; font-size:0.8em;"><b><a target="_blank" href="">List of Proposals</a></b></span>-->
-                                    </p> 
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h2><strong>Technology</strong> Involved</h2>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
-                            <hr>
-                        </div>
-                    </div>
-                    <p>We believe the IoT will be based on open standards and open source technology, and with this challenge we want to highlight how those can be used to build great solutions. Developers who participate in the challenge are encouraged to build their solutions using any or all of the following technologies:</p>
-                </div>
-            </div>
-        </div>
-        <div class="tech-bullets">
-            <div class="container">
-                <div class="row" style="padding-top:1em; padding-bottom:1em;">
-                    <div class="col-md-4 col-md-offset-2">
-                        <div class="clear">
-                            <img class="left" src="images/purple-check.png">
-                            <div class="left">
-                                <p>IoT open standards <br>(e.g MQTT, CoAP, LWM2M, or OPC UA)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="clear">
-                            <img class="left" src="images/purple-check.png">
-                            <div class="left">
-                                <p>Eclipse IoT <a href="/projects" target="_blank">projects</a>, such as <a href="//eclipse.org/californium" target="_blank">Californium</a>, <a href="//eclipse.org/fog05" target="_blank">fog05</a>, <a href="//eclipse.org/hawkbit" target="_blank">hawkBit</a>, <a href="//eclipse.org/kura" target="_blank">Kura</a>, <a href="//eclipse.org/leshan" target="_blank">Leshan</a>, <a href="://projects.eclipse.org/projects/iot.milo" target="_blank">Milo</a>, <a href="https://eclipse.org/mosquitto" target="_blank">Mosquitto</a>, <a href="//eclipse.org/paho" target="_blank">Paho</a>, <a href="//www.eclipse.org/smarthome/" target="_blank">SmartHome</a>, <a href="//projects.eclipse.org/projects/iot.unide">Unide</a>, <a href="//eclipse.org/vorto" target="_blank">Vorto</a> &hellip;
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-md-offset-2">
-                        <div class="clear">
-                            <img class="left" src="images/purple-check.png">
-                            <div class="left">
-                                <p>Other open source technology, like Cloud Foundry, Kubernetes, OpenShift, Apache Spark or Camel.</p>
-                            </div>
-                        </div>
-                    </div>                    
-                    <div class="col-md-6">
-                        <div class="clear">
-                            <img class="left" src="images/purple-check.png">
-                            <div class="left">
-                                <p>Commercial hardware and services that interact with open source software and open standards for for IoT</p>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-        <div class="tech-expanded">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Tell Us <strong>How You Build It</strong></h2>
-                        <p>A key aspect of this challenge is sharing knowledge with the community and therefore, we want participants to document and discuss their experience when building their IoT solution. So we expect you to <strong>blog</strong> about things like selection process for your hardware, architecture decisions, etc. Of course, <strong>publishing code</strong> and <strong>videos</strong> is also a great way to engage!</p>
-                        <p><img src="images/tech-board.jpg" alt="" class="img-responsive">
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <ul style="padding-top:75px" id="timing">
-                            <li><strong>Applications</strong> for the developer challenge will open on <u>September 25, 2018</u> and the submission deadline is <u>November 12, 2018</u>.</li>
-                            <li style="padding-top:0.7em;"><strong>Hardware kits</strong> – On <u>December 11, 2018</u>, the teams behind the 10 best proposals will be offered $150 to buy hardware online, and access to special <a href="sponsors#sponsors">sponsors offerings</a>.</li>
-                            <li style="padding-top:0.7em;"><strong>Submissions</strong> of the final solution must be completed by <u>March 15, 2019</u> (11.59pm PDT). Prizes will be awarded for the <u>top 3 solutions</u>.</li>
-                        </ul>
-                        
-                       <!--  <a target="_blank" href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2">
-                            <button class="center-block">APPLY NOW</button>
-                        </a> -->
-                        <p><strong>The solutions will be judged on the following criteria:</strong>
-                        </p>
-                        <ul>
-                            <li>Applicability of a solution to a specific industry, like Smart Cities, Industrie 4.0, Remote Health, etc.</li>
-                            <li>Completeness of solution</li>
-                            <li>Use of open standards and open source technology</li>
-                            <li>Amount of community discussion from the participants when they built their solution</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7 col-md-offset-4">
-                        <div class="panel">
-                            <h2>Contest <strong>Rules</strong><span></span></h2>
-                            <ul>
-                                <li>The challenge is open to any individual aged 18 years or older.</li>
-                                <li>The solution submitted by the applicants must be a new solution created for this challenge.</li>
-                                <li>More than one individual can participate in creating a solution but any prize will be awarded to the key contact who completed the entry form.</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       <div class="tech-apply">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!--  <a href="https://goo.gl/forms/DTJ7nG9fgtbxSDBw2" target="_blank">
-                            <button>APPLY NOW</button>
-                        </a>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tech-plus">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <a class="tech-activate"><img src="images/plus.jpg">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="contest">
-        <div class="container">
-            <div class="row">
-
-
-
-
-             <!--    <div class="col-md-8 col-md-offset-2" style="padding-top:36px;">
-                    <h2 id="jury">Our <strong>Jury</strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
-                            <hr>
-                        </div>
-                    </div>
-
-                <div class="row" style="padding-top:2em; text-align: center">
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/anne.jpg" alt="Anne Nevin" class="img-circle img-responsive">
-                            <strong>Anne Nevin</strong><br>Bitreactive
-                        </div>
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/bor.jpg" alt="Bor Gonzalez Usach" class="img-circle img-responsive">
-                            <strong>Bor Gonzalez Usach</strong><br>CONTACT Software
-                        </div>
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/franco.jpg" alt="Franco Potepan" class="img-circle img-responsive">
-                            <strong>Franco Potepan</strong><br>Eurotech
-                        </div>
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/joe.jpg" alt="Joe Butler" class="img-circle img-responsive">
-                            <strong>Joseph Butler</strong><br>Intel
-                        </div>
-                        <div class="col-md-3 col-md-offset-2 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/james.jpg" alt="James Kirkland" class="img-circle img-responsive">
-                            <strong>James Kirkland</strong><br>Red Hat
-                        </div>
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/ashish.jpg" alt="Ashsh Syal" class="img-circle img-responsive">
-                            <strong>Ashish Syal</strong><br>Sierra Wireless
-                        </div>
-                       <div class="col-md-3 col-xs-6 col-sm-3">
-                            <img src="/assets/images/open-iot-challenge/jury/benjamin.jpg" alt="Benjamin Cabé" class="img-circle img-responsive">
-                            <strong>Benjamin Cabé</strong><br>Eclipse Foundation
-                        </div>
-                       <div class="col-md-3 col-xs-6 col-sm-3">
-                            &nbsp;
-                       </div>
-                    </div>
-                </div> -->
-
-
-
-
-
-                <div class="col-md-8 col-md-offset-2" style="padding-top:36px;">
-                    <h2>Our <strong><a href="sponsors#sponsors">Sponsors</a></strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
-                            <hr>
-                        </div>
-                    </div>
-					<p>Our sponsors are helping make this challenge possible by providing great prizes. If you want to sponsor the Open IoT Challenge 5.0, please <a href="mailto:iot@eclipse.org">email us</a>.<!--  and access to <a href="sponsors#sponsors">special offers</a>. Click on their logos to learn more!--></p>
-
-               <div class="row" style="padding-top:2em; margin-bottom: -8em;">
-               
-                        <div class="col-md-12">
-                            <div class="row">
-                            		<div class="col-xs-6 col-sm-4 sponsor ">
-                                    <a href="sponsors#contact">
-                                        <img src="/assets/images/members/logo-contact-software.png" class="img-responsive">
-                                    </a>
-                                </div>
-					<!-- 			<div class="col-xs-6 col-sm-4 sponsor ">
-                                    <a href="sponsors#bitreactive">
-                                        <img src="/assets/images/members/logo-bitreactive.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 sponsor ">
-                                    <a href="sponsors#eurotech">
-                                        <img src="/assets/images/members/logo-eurotech.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 sponsor" style="padding:4em;">
-                                    <a href="sponsors#intel">
-                                        <img src="/assets/images/members/logo-intel.png" class="img-responsive">
-                                    </a>
-                                </div>
-								<div class="col-xs-6 col-sm-4 sponsor">
-                                    <a href="sponsors#redhat">
-                                        <img src="/assets/images/members/logo-redhat.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 sponsor" style="padding:3em;">
-                                    <a href="sponsors#sierra">
-                                        <img src="/assets/images/members/logo-sierra.png" class="img-responsive">
-                                    </a>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-
-               <div class="col-md-8 col-md-offset-2" id="prizes" style="padding-top:10px;">
-                    <h2>Contest <strong>Prizes</strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-5">
-                            <hr>
-                        </div>
-                    </div>
-                    <p>The three winners will be awarded prizes, allowing them to continue to innovate and build other IoT projects.
-               </p>
-                </div>
-            </div>
-            
-            <div class="bubbles">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="panel">
-                            <p><strong>1<sup style="text-transform: lowercase">st</sup> prize</strong>
-							 
-                                <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
-                                    <li>$3,000 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
-                                    <li>$1,000 scholarship to attend a future Eclipse Event in 2018/19</li>
-                                </ul>
-                            </p><span class="arrow-right"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-2"><img src="images/contest-prizes-01.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-5"><img src="images/contest-prizes-02.jpg" alt="">
-                    </div>
-                    <div class="col-md-5">
-                        <div class="panel">
-                            <p><strong>2<sup style="text-transform: lowercase">nd</sup> prize</strong>
-							
-                                <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
-                                    <li>$1,000 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
-                                </ul> 
-                            </p><span class="arrow-left"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="panel">
-                            <p><strong>3<sup style="text-transform: lowercase">rd</sup> prize</strong>
-							
-                                <ul style="font-weight: 300; font-size: 16px; margin-left:0;">
-                                    <li>$500 gift card to be used in an online shop toward electronic supplies and open hardware.</li>
-                                </ul>
-                            </p><span class="arrow-right"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-2"><img src="images/contest-prizes-03.jpg" alt="">
-                    </div>
-                </div> 
-
-            </div> 
-        </div>
-    </div> 
-
-  </main>
-    
-   {{ partial "footer.html" . }}
-
-    <!-- JS is at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-
-    <script type="text/javascript">
-       $.getJSON("https://spreadsheets.google.com/feeds/list/1TN2fNsinqp2Bp4SRa3wLuuIAW2NFiPiPTO4cDYMYw4E/2/public/values?alt=json", function(data) {
-            $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
-        });
-    </script>
-
-
-</body>
-
-</html>
+  </div>
+</main>
+{{ end }}
+{{ define "footer-suffix" }}
+<!-- JS is at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+  $.getJSON("https://spreadsheets.google.com/feeds/list/1TN2fNsinqp2Bp4SRa3wLuuIAW2NFiPiPTO4cDYMYw4E/2/public/values?alt=json", function(data) {
+       $('#number-of-teams').html(data.feed.entry[0]['title']['$t']);
+   });
+</script>
+{{ end }}

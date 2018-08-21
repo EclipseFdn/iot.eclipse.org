@@ -1,0 +1,10 @@
+{
+    "/assets/css/bootstrap.css": "/assets/css/bootstrap.css",
+    "/assets/css/jquery.oembed.css": "/assets/css/jquery.oembed.css",
+    "/assets/css/font-awesome.css": "/assets/css/font-awesome.css",
+    "/assets/js/main.js": "/assets/js/main.js",
+    "/js/bootstrap/bootstrap-sprockets.js": "/js/bootstrap/bootstrap-sprockets.js",
+    "/js/bootstrap/bootstrap.js": "/js/bootstrap/bootstrap.js",
+    "/js/bootstrap/bootstrap.min.js": "/js/bootstrap/bootstrap.min.js",
+    "/js/jquery.oembed.js": "/js/jquery.oembed.js"
+}

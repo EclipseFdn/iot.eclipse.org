@@ -1,6 +1,7 @@
 +++
 date = "2016-04-26"
 title = "Smart Grid Automation (SGA) Software"
+seo_title = "Case Study: Smart Grid Automation (SGA) Software"
 link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Noja.pdf"
 img = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Noja.png"
 company = "NOJA POWER"

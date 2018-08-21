@@ -1,6 +1,7 @@
 +++
 date = "2017-10-11"
 title = "Supporting Software Updates with Open Source IoT"
+seo_title = "Case Study: Supporting Software Updates with Open Source IoT"
 link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.pdf"
 img = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.png"
 company = "Kynetics"

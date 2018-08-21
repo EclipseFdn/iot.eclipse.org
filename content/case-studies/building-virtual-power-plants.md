@@ -1,6 +1,7 @@
 +++
 date = "2015-12-22"
 title = "Building Virtual Power Plants"
+seo_title = "Case Study: Building Virtual Power Plants"
 link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20OmSense.pdf"
 img = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20OmSense.png"
 company = "OmSense"

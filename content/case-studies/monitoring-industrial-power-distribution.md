@@ -1,6 +1,7 @@
 +++
 date = "2015-12-22"
 title = "Monitoring Industrial Power Distribution"
+seo_title = "Case Study: Monitoring Industrial Power Distribution"
 link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20E.ON.pdf"
 img = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20E.ON.png"
 company = "E.ON"

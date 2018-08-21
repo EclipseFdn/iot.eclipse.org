@@ -1,197 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Testbeds / {{ .Title }}</title>
-  <meta name="description" content="Eclipse IoT hosts open testbeds that demonstrate and test commercial and open source components needed to create specific industry solutions.">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-  <!-- Le styles -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-  <!-- icomoon -->
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
-
-</head>
-
-<body>
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-  <main class="main testbeds-single-page">
-    <div class="well" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
-      <div class="container xpurple">
-        <h2><a href="/testbeds" style="color: white; ">Eclipse Open IoT Testbeds</a><h2>
-        <h1>» {{ .Title }}</h1>
-         <p class="lead">
-                {{ .Description | safeHTML }}
-        </p> 
+{{ define "main" }}
+<main class="main testbeds-single-page">
+  <div class="well" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
+    <div class="container xpurple">
+      <h2>
+      <a href="/testbeds" style="color: white; ">Eclipse Open IoT Testbeds</a>
+      <h2>
+      <h1>» {{ .Title }}</h1>
+      <p class="lead">
+        {{ .Description | safeHTML }}
+      </p>
+    </div>
+  </div>
+  {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
+  <section class="row-fluid" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="row">
+        {{ if .Params.sub_description }}
+        <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
+          <div class="row">
+            <div class="col-md-8">
+              <p>{{ .Params.sub_description | safeHTML }}</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <a href="{{ .Params.demo_link }}" target="_blank">
+              {{/* look for a .webp video as the "demo" thumbnail, otherwise fallback to .png */}}
+              {{ $directory := "static/assets/images/testbeds/" }}
+              {{ $filename := .File.TranslationBaseName | printf "%s-demo.webp" }}
+              {{ if (where (readDir $directory) "Name" $filename) }}
+              <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.webp" class="img-responsive">
+              {{ else }}
+              <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive">
+              {{ end }}
+              </a>
+              <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
+                &nbsp;
+                <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
-
-
-
-  {{ if ne .File.TranslationBaseName "propose-a-new-testbed" }}
-    <section class="row-fluid" style="padding-bottom: 0px;">
-      <div class="container">
-
-        <div class="row">
-
-          {{ if .Params.sub_description }}
-            <div class="jumbotron col-md-12" style="margin-top: 40px; margin-bottom: 0px; padding-top: 30px; padding-bottom: 10px;">
-              <div class="row">
-                <div class="col-md-8">
-                  <p>{{ .Params.sub_description | safeHTML }}</p>
-                </div>
-                <div class="col-md-4 text-center">
-                  <a href="{{ .Params.demo_link }}" target="_blank">
-
-
-                    {{/* look for a .webp video as the "demo" thumbnail, otherwise fallback to .png */}}
-                    {{ $directory := "static/assets/images/testbeds/" }}
-                    {{ $filename := .File.TranslationBaseName | printf "%s-demo.webp" }}
-                    {{ if (where (readDir $directory) "Name" $filename) }}
-                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.webp" class="img-responsive">
-                    {{ else }}
-                    <img src="/assets/images/testbeds/{{.File.TranslationBaseName}}-demo.png" class="img-responsive">
-                    {{ end }}
-
-
-                  </a>
-                  <p><a class="btn btn-primary btn-lg" href="{{ .Params.demo_link }}" target="_blank" role="button" style="margin-top: .5em;">Demo</a>
-                  &nbsp;
-                  <a class="btn btn-primary btn-lg" href="{{ .Params.source_code_link }}" target="_blank" role="button" style="margin-top: .5em;">Source Code</a></p>
-                </div>
+  </section>
+  {{ end }}
+  <section class="second row-fluid" style="padding-bottom: 70px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{ if .Params.challenge }}
+          <h1 class="purple">The Challenge</h1>
+          <p>{{ .Params.challenge | safeHTML }}</p>
+          {{ end }}
+          {{ if and (ne .File.TranslationBaseName "propose-a-new-testbed") (.Content) }}
+          <h1 class="purple">Proposed Solution</h1>
+          {{ end }}
+          {{ if .Content }}
+          <p>{{ .Content | safeHTML }}</p>
+          {{ end }}
+          {{ if .Params.benefits }}
+          <h1 class="purple">Benefits</h1>
+          <ul>
+            {{ range .Params.benefits }}
+            <li style="margin-bottom: 1em;"><span style="font-weight: 900;">{{ .title }}</span>: {{ .content }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ if .Params.organizations }}
+          <h1 class="purple">Participating Organizations</h1>
+          {{ range .Params.organizations }}
+          <div class="row">
+            <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
+              <div style="min-height: 120px; line-height: 120px;">
+                <img src="/assets/images/members/logo-{{ .name }}.png" class="img-responsive" alt="logo-{{ .name }}" style="max-height:110px; display:inline-block; vertical-align:middle;">
               </div>
             </div>
+            <div class="col-md-9 col-xs-8" style="min-height: 120px; display: flex; flex-direction: column; justify-content: center;">
+              <p class="vcenter">{{ .role | safeHTML }}</p>
+            </div>
+          </div>
           {{ end }}
-
+          {{ end }}
+          <br><br><br>
         </div>
       </div>
-    </section>
-  {{ end }}
-
-    <section class="second row-fluid" style="padding-bottom: 70px;">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-12">
-
-            {{ if .Params.challenge }}
-            <h1 class="purple">The Challenge</h1>
-
-            <p>{{ .Params.challenge | safeHTML }}</p>
-            {{ end }}
-
-            {{ if and (ne .File.TranslationBaseName "propose-a-new-testbed") (.Content) }}
-            <h1 class="purple">Proposed Solution</h1>
-            {{ end }}
-
-            {{ if .Content }}
-              <p>{{ .Content | safeHTML }}</p>
-            {{ end }}
-
-            {{ if .Params.benefits }}
-            <h1 class="purple">Benefits</h1>
-
-            <ul>
-            {{ range .Params.benefits }}
-              <li style="margin-bottom: 1em;"><span style="font-weight: 900;">{{ .title }}</span>: {{ .content }}</li>
-            {{ end }}
-            </ul>
-            {{ end }}
-
-
-            {{ if .Params.organizations }}
-            <h1 class="purple">Participating Organizations</h1>
-              {{ range .Params.organizations }}
-              <div class="row">
-                <div class="col-md-3 col-xs-4" style="padding:2px 30px; ">
-                  <div style="min-height: 120px; line-height: 120px;">
-                    <img src="/assets/images/members/logo-{{ .name }}.png" class="img-responsive" alt="logo-{{ .name }}" style="max-height:110px; display:inline-block; vertical-align:middle;">
-                  </div>
-                </div>
-                <div class="col-md-9 col-xs-8" style="min-height: 120px; display: flex; flex-direction: column; justify-content: center;">
-                  <p class="vcenter">{{ .role | safeHTML }}</p>
-                </div>
-              </div>
-              {{ end }}
-            {{ end }}
-
-            <br><br><br>
-
-          </div>
-        </div>
+    </div>
+  </section>
+  <section class="third row-fluid">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="margin-top: -3em;">
+        {{ if .Params.learn_more }}
+        <h1 class="purple">Learn More</h1>
+        <ul>
+          {{ range .Params.learn_more }}
+          <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
       </div>
-    </section>
-
-    <section class="third row-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12" style="margin-top: -3em;">
-            {{ if .Params.learn_more }}
-            <h1 class="purple">Learn More</h1>
-
-            <ul>
-            {{ range .Params.learn_more }}
-              <li><a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
-            {{ end }}
-            </ul>
-            {{ end }}
-
-          </div>
-      </div>
-    </section>
-  </main>
-  {{ partial "footer.html" . }}
-  <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
-  </div>
-  </div>
-  <!-- /container -->
-  <!-- JS is at the end of the document so the pages load faster -->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    </div>
+  </section>
+</main>
+{{ end }}

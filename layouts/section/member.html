@@ -1,157 +1,71 @@
-<!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta itemprop="name" content="iot.eclipse.org - IoT development made simple">
-  <meta itemprop="description" content="iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. These technologies aim at establishing an open, end-to-end, IoT stack.">
-  <meta itemprop="image" content="http://iot.eclipse.org/site_preview.jpg">
-  <meta property="og:image" content="http://iot.eclipse.org/site_preview.jpg">
-
-  <title>iot.eclipse.org - IoT development made simple</title>
-
-  <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-
-  <!-- icomoon -->
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
-
-
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
-
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
+{{ define "main" }}
 <style>
   .carousel-inner img {
-    margin: auto;
+  margin: auto;
   }
-
   .carousel-indicators{
-    bottom:-36px; 
+  bottom:-36px; 
   }
-
-
-
-
-.col-xs-1-10,
-.col-sm-1-10 {
+  .col-xs-1-10,
+  .col-sm-1-10 {
   position: relative;
   min-height: 1px;
-}
-
-.col-xs-1-10 {
+  }
+  .col-xs-1-10 {
   width: 10%;
   float: left;
-}
-
-@media (min-width: 768px) {
+  }
+  @media (min-width: 768px) {
   .col-sm-1-10 {
-    width: 10%;
-    float: left;
+  width: 10%;
+  float: left;
   }
-}
-
-@media (min-width: 992px) {
+  }
+  @media (min-width: 992px) {
   .col-md-1-10 {
-    width: 10%;
-    float: left;
+  width: 10%;
+  float: left;
   }
-}
-
-@media (min-width: 1200px) {
+  }
+  @media (min-width: 1200px) {
   .col-lg-1-10 {
-    width: 10%;
-    float: left;
+  width: 10%;
+  float: left;
   }
-}
-
-
-
+  }
 </style>
-
-</head>
-
-<body class="homepage" style="background-color: rgba(255,255,255,0.8);">
-            <div class="row" id="members" style="text-align: center;">
-
-              {{ range where .Data.Pages "Section" "member" }}
-
-              <div class="col-md-1-10 col-xs-1-10 member" style="padding:50px 20px;" title="{{ .Title }}">
-                <div style="height: 120px; line-height: 200px; ">
-                  <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
-                    <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
-                  </a>
-                </div>
-              </div>
-
-              {{ end }}
-
-              <!-- <div class="col-md-12">
-  <p class="align-center"><a href="/ecosystem.html" class="btn btn-primary">More</a>
-  </p>
+<div class="row" id="members" style="text-align: center;">
+  {{ range where .Data.Pages "Section" "member" }}
+  <div class="col-md-1-10 col-xs-1-10 member" style="padding:50px 20px;" title="{{ .Title }}">
+    <div style="height: 120px; line-height: 200px; ">
+      <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
+      <img src="/assets/images/members/logo-{{ .Params.logo }}.png" class="img-responsive" alt="logo-{{ .Title}}" style="max-height:110px; display:inline-block; vertical-align:middle;">
+      </a>
+    </div>
+  </div>
+  {{ end }}
+  <!-- <div class="col-md-12">
+    <p class="align-center"><a href="/ecosystem.html" class="btn btn-primary">More</a>
+    </p>
+    </div>
+    -->
 </div>
- -->
-            </div>
+{{ end }}
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-  <script type="text/javascript">
+{{ define "footer-suffix" }}
+<script type="text/javascript">
   $(document).ready(function() {
-    // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
+    // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
     var $wrapper = $('#members');
-
+  
     $wrapper.find('.member').sort(function(a, b) {
         //           console.log(a.getAttribute('title').toLowerCase());
         var s1 = a.getAttribute('title').toLowerCase();
         var s2 = b.getAttribute('title').toLowerCase();
-
+  
         return s1.localeCompare(s2);
       })
       .appendTo($wrapper);
   });
-  </script>
-
-</body>
-
-</html>
+</script>
+{{ end }}

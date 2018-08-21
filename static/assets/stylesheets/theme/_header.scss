@@ -3,7 +3,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 header {
-    .homepage & {
+    &.homepage {
         background-image: url(../images/header-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
