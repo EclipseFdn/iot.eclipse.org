@@ -1,9 +1,0 @@
-# Redirects domain.com/file.html to domain.com/file
-#RewriteCond %{REQUEST_FILENAME} !-d          # is not directory
-#RewriteCond %{REQUEST_FILENAME}\.html -f     # is an existing html file
-#RewriteCond %{REQUEST_URI} ^(.+)\.html$      # request URI ends with .html
-#RewriteRule (.*)\.html$ /$1 [R=301,L]        # redirect from index.html to index
-
-<IfModule pagespeed_module>
-    ModPagespeed off
-</IfModule>
