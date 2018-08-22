@@ -1,114 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Open IoT Hardware Catalog</title>
-  <meta name="description" content="iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-  <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- icomoon -->
-  <link href="/assets/css/icomoon.css" rel="stylesheet"> 
-
-  <!-- lightbox -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/css/lightbox.min.css" rel="stylesheet"> 
-
-
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-</head>
-
-<body>
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
-  (function() {
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-  })();
-  </script>
-  <main class="main hardware-page">
-    <section class="first">
-      <div class="container">
-        <div class="row" id="hw-intro">
-          <div class="col-md-7 col-md-offset-1">
-            <p>Eclipse IoT supports an ecosystem of vendors that can help you find the best platform to run your IoT solution.</p> 
-            <p>You will find below a list of devices that are particularly suited for running the Eclipse Open IoT Stack.</p>
-          </div>
-          <div class="col-md-3">
-            <img class="img-responsive center-block" src="/assets/images/open-iot-ready.png">
-          </div>
+{{ define "main" }}
+<main class="main hardware-page">
+  <section class="first">
+    <div class="container">
+      <div class="row" id="hw-intro">
+        <div class="col-md-7 col-md-offset-1">
+          <p>Eclipse IoT supports an ecosystem of vendors that can help you find the best platform to run your IoT solution.</p>
+          <p>You will find below a list of devices that are particularly suited for running the Eclipse Open IoT Stack.</p>
+        </div>
+        <div class="col-md-3">
+          <img class="img-responsive center-block" src="/assets/images/open-iot-ready.png">
         </div>
       </div>
-      <div class="container" id="hw-products">
-        <div class="row">
-
-          <div class="col-md-12 grid" style="padding-left:0px; padding-right:0px;">
-
-
+    </div>
+    <div class="container" id="hw-products">
+      <div class="row">
+        <div class="col-md-12 grid" style="padding-left:0px; padding-right:0px;">
           {{ range where .Site.RegularPages.ByTitle "Section" "hardware" }} 
           <div class="col-md-4 product grid-item">
-              <div class="product_img">
-                <a href="http://placehold.it/600?text={{ .Title }}" data-lightbox="image-1" data-title="{{ .Title }}">
-                  <img class="img-responsive center-block" src="http://placehold.it/250?text={{ .Title }}">
-                  
-                  <div class="center-block zoom">
-                    <span class="icon-search" aria-hidden="true"></span>
-                  </div>
-                
-                  <div class="center-block member_logo {{ .Params.provider }}"></div>
-                </a>
+            <div class="product_img">
+              <a href="http://placehold.it/600?text={{ .Title }}" data-lightbox="image-1" data-title="{{ .Title }}">
+                <img class="img-responsive center-block" src="http://placehold.it/250?text={{ .Title }}">
+                <div class="center-block zoom">
+                  <span class="icon-search" aria-hidden="true"></span>
+                </div>
+                <div class="center-block member_logo {{ .Params.provider }}"></div>
+              </a>
             </div>
-            
             <div class="product_name">{{ .Title }}</div>
             <div class="product_desc">{{ .Content }}</div>
-            
             <div class="getting_started">
               Getting started
               <ul>
@@ -116,7 +35,6 @@
                 <li><a href="#">Tutorial</a></li>
               </ul>
             </div>
-
             <div class="product_compat_list">
               Compatible with
               <ul>
@@ -125,83 +43,62 @@
                 {{ end }}
               </ul>
             </div>
-
             <a href="#">
-              <button class="product_buyit btn btn-info XXXcenter-block">Buy it</button>
+            <button class="product_buyit btn btn-info XXXcenter-block">Buy it</button>
             </a>
-
           </div>
           {{ end }}
-
-          </div>
-
         </div>
       </div>
-    </section>
-  </main>
-
-
-    {{ partial "footer.html" . }}
-
-
-    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
     </div>
-    </div>
-    <!-- /container -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js"></script>
-
-    <!-- JS is at the end of the document so the pages load faster -->
-    <script type="text/javascript">
-      jQuery.fn.visible = function() {
-          return this.css('visibility', 'visible');
-      };
-
-      jQuery.fn.invisible = function() {
-          return this.css('visibility', 'hidden');
-      };
-
-      jQuery.fn.visibilityToggle = function() {
-          return this.css('visibility', function(i, visibility) {
-              return (visibility == 'visible') ? 'hidden' : 'visible';
-          });
-      };
-
-      $(document).ready(function() {
-        // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
-        var $wrapper = $('#other-members');
-
-        $wrapper.find('.members-info').sort(function (a, b) {
-  //           console.log(a.getAttribute('title').toLowerCase());
-             var s1 = a.getAttribute('title').toLowerCase();
-             var s2 = b.getAttribute('title').toLowerCase();
-
-            return s1.localeCompare(s2);
-        })
-        .appendTo( $wrapper );
-      
-        $('.product_img').hover(function() {
-          $(this).find('.zoom').visibilityToggle();
-        });
-
-        window.setTimeout(function() {
-          $('.grid').masonry({
-            // options
-            itemSelector: '.grid-item',
-            itemSelector: '.grid-item'
-          });
-        }, 200);
-
+  </section>
+</main>
+{{ end }}
+{{ define "footer-suffix" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/css/lightbox.min.css" rel="stylesheet">
+<!-- JS is at the end of the document so the pages load faster -->
+<script type="text/javascript">
+  jQuery.fn.visible = function() {
+      return this.css('visibility', 'visible');
+  };
+  
+  jQuery.fn.invisible = function() {
+      return this.css('visibility', 'hidden');
+  };
+  
+  jQuery.fn.visibilityToggle = function() {
+      return this.css('visibility', function(i, visibility) {
+          return (visibility == 'visible') ? 'hidden' : 'visible';
       });
-    </script>
-
-
-</body>
-
-</html>
+  };
+  
+  $(document).ready(function() {
+    // Order members alphabetically (case-insensitive - Hugo only does case-sensitive)
+    var $wrapper = $('#other-members');
+  
+    $wrapper.find('.members-info').sort(function (a, b) {
+  //           console.log(a.getAttribute('title').toLowerCase());
+         var s1 = a.getAttribute('title').toLowerCase();
+         var s2 = b.getAttribute('title').toLowerCase();
+  
+        return s1.localeCompare(s2);
+    })
+    .appendTo( $wrapper );
+  
+    $('.product_img').hover(function() {
+      $(this).find('.zoom').visibilityToggle();
+    });
+  
+    window.setTimeout(function() {
+      $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        itemSelector: '.grid-item'
+      });
+    }, 200);
+  
+  });
+</script>
+{{ end }}

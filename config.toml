@@ -1,8 +1,43 @@
-title		= "Eclipse IoT"
+baseurl = "https://iot.eclipse.org"
+title = "Eclipse IoT"
 languageCode = "en-us"
-baseurl 	= "https://iot.eclipse.org"
-paginate 	= 6
+DefaultContentLanguage = "en"
+theme = "eclipsefdn-hugo-solstice-theme"
+metaDataFormat = "yaml"
+#googleAnalytics = "UA-910670-30"
+disableKinds = ["cloud", "devices", "events", "gateway", "hardware", "member", "news", "open-iot-challenge-entries", "resources"]
+themesDir = "node_modules/"
+paginate  = 6
 buildFuture = true
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. These technologies aim at establishing an open, end-to-end, IoT stack."
+  subtitle = ""
+  seo_title_suffix = " | IoT development made simple - iot.eclipse.org"
+  keywords = [""]
+  logo = "assets/images/iot-logo.png"
+  styles = "assets/css/bootstrap.css"
+  js = "assets/js/main.js"
+
+  favicon = "favicon.ico"
+  share_img = "site_preview.jpg"
+  gcse = "011805775785170369411:p3ec0igo0qq"
+# header_wrapper_class = "header-default-bg-img"
+# subtheme = "jakarta"
+# call_for_action_text = ""
+# call_for_action_url = ""
+# call_for_action_icon = ""
 
 [permalinks]
   open-iot-challenge-entries = "/open-iot-challenge/entries/:title/"
+
+[Author]
+  name = "Eclipse Foundation"
+  website = "https://www.eclipse.org"
+  email = "webdev@eclipse-foundation.org"
+  facebook = "eclipseiot"
+  twitter = "EclipseIoT"
+  youtube = "EclipseFdn"
+  googleplus = "+Eclipse"
+  linkedin = "company/eclipse-foundation/"

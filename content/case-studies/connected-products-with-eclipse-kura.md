@@ -1,6 +1,7 @@
 +++
 date = "2016-01-27"
 title = "An IoT Software Suite to Connect Products to Customers’ Business"
+seo_title = "Case Study: An IoT Software Suite to Connect Products to Customers’ Business"
 link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Solair.pdf"
 img = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Solair.png"
 company = "Solair"

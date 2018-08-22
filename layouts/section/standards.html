@@ -1,191 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Standards</title>
-  <meta name="description" content="TODO">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-  <!-- Le styles -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-  <style>
-    .panel-heading .accordion-toggle.collapsed:after {
-        /* symbol for "collapsed" panels */
-        content: "\e080";    /* adjust as needed, taken from bootstrap.css */
-    }
-
-    .panel-heading .accordion-toggle:after {
-        /* symbol for "opening" panels */
-        margin-right: .2em;
-        font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
-        content: "\e114";    /* adjust as needed, taken from bootstrap.css */
-        float: left;        /* adjust as needed */
-        color: grey;         /* adjust as needed */
-    }
-  </style>
-
-</head>
-
-<body>
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
-  (function() {
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-  })();
-  </script>
-  <main class="main">
-    <div class="well">
-      <div class="container">
-        <h1>IoT Standards</h1>
-        <div class="lead">
-          <p>Eclipse IoT supports open standards for the Internet of Things. </p>
-
-          <p>We provide open source implementations for IoT protocols such as 
-            <a href="#coap" data-toggle="collapse" aria-controls="coap">CoAP</a>,
-            <a href="#onem2m" data-toggle="collapse" aria-controls="onem2m">oneM2M</a>,
-            <a href="#lwm2m" data-toggle="collapse" aria-controls="lwm2m">LWM2M</a>,
-            <a href="#mqtt"  data-toggle="collapse" aria-controls="mqtt">MQTT</a>,
-            <a href="#opc-ua"  data-toggle="collapse" aria-controls="opc-ua">OPC-UA</a>, and more.
+{{ define "main" }}
+<style>
+  .panel-heading .accordion-toggle.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+  }
+  .panel-heading .accordion-toggle:after {
+  /* symbol for "opening" panels */
+  margin-right: .2em;
+  font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+  content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+  float: left;        /* adjust as needed */
+  color: grey;         /* adjust as needed */
+  }
+</style>
+<main class="main">
+  <div class="well">
+    <div class="container">
+      <h1>IoT Standards</h1>
+      <div class="lead">
+        <p>Eclipse IoT supports open standards for the Internet of Things. </p>
+        <p>We provide open source implementations for IoT protocols such as 
+          <a href="#coap" data-toggle="collapse" aria-controls="coap">CoAP</a>,
+          <a href="#onem2m" data-toggle="collapse" aria-controls="onem2m">oneM2M</a>,
+          <a href="#lwm2m" data-toggle="collapse" aria-controls="lwm2m">LWM2M</a>,
+          <a href="#mqtt"  data-toggle="collapse" aria-controls="mqtt">MQTT</a>,
+          <a href="#opc-ua"  data-toggle="collapse" aria-controls="opc-ua">OPC-UA</a>, and more.
+        </p>
+      </div>
+    </div>
+  </div>
+  <section class="first" style="padding-bottom: 150px;">
+    <div class="container">
+      <h1 id="protocols-vision" class="purple">Vision</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Building interoperable IoT solutions is a real challenge. From sensors and actuators in the field to backend systems, there are many aspects of an end-to-end solutions where it is important to rely on standards:</p>
+          <ul>
+            <li>Protocols used to implement the device-to-device or device-to-server communications,</li>
+            <li>Device Management protocols to allow remote control of IoT devices and gateways,</li>
+            <li>Gateways and Servers interfaces.</li>
+          </ul>
           </p>
+          <p>
+            While Open Standards are key, we believe that it is also important to make available open-source implementations of such standards, to encourage adoption of such standards both by IoT developers and the IoT industry at large.
+          </p>
+        </div>
+        <p class="col-md-6">
+          <img src="/assets/images/open-standards.png" class="img-responsive" />
+        </p>
+        <div class="col-md-12">
+          <h3 class="purple">Open standard implementations</h3>
+          {{ range where .Data.Pages "Section" "standards" }}
+          <a href="#{{ .Title }}" data-toggle="collapse" aria-controls="{{ .Title }}"><button class="btn btn-info" type="button">{{ .Description }}</button></a>
+          {{ end }}
+          <br/>
         </div>
       </div>
     </div>
-
-    <section class="first" style="padding-bottom: 150px;">
-      <div class="container">
-        <h1 id="protocols-vision" class="purple">Vision</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <p>Building interoperable IoT solutions is a real challenge. From sensors and actuators in the field to backend systems, there are many aspects of an end-to-end solutions where it is important to rely on standards:</p>
-            <ul>
-              <li>Protocols used to implement the device-to-device or device-to-server communications,</li>
-              <li>Device Management protocols to allow remote control of IoT devices and gateways,</li>
-              <li>Gateways and Servers interfaces.</li>
-            </ul>
-            </p>
-            <p>
-              While Open Standards are key, we believe that it is also important to make available open-source implementations of such standards, to encourage adoption of such standards both by IoT developers and the IoT industry at large.
-            </p>
+  </section>
+  <section class="second">
+    <div class="container">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        {{ range where .Data.Pages "Section" "standards" }}
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading{{ .Title }}">
+            <h2 class="panel-title" style="font-size: 30px;" class="purple">
+              <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#{{ .Title }}" aria-expanded="true" aria-controls="{{ .Title }}">
+              {{ .Description }}
+              </a>
+            </h2>
           </div>
-          <p class="col-md-6">
-            <img src="/assets/images/open-standards.png" class="img-responsive" />
-          </p>
-
-          <div class="col-md-12">
-            <h3 class="purple">Open standard implementations</h3>
-
-            {{ range where .Data.Pages "Section" "standards" }}
-              <a href="#{{ .Title }}" data-toggle="collapse" aria-controls="{{ .Title }}"><button class="btn btn-info" type="button">{{ .Description }}</button></a>
-            {{ end }}
-
-            <br/>
+          <div id="{{ .Title }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ .Title }}">
+            <div class="panel-body">
+              {{ .Content }}
+            </div>
           </div>
-
         </div>
+        {{ end }}
       </div>
-    </section>
-
-    <section class="second">
-      <div class="container">
-
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-          {{ range where .Data.Pages "Section" "standards" }}
-           <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="heading{{ .Title }}">
-                <h2 class="panel-title" style="font-size: 30px;" class="purple">
-                  <a role="button" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#{{ .Title }}" aria-expanded="true" aria-controls="{{ .Title }}">
-                    {{ .Description }}
-                  </a>
-                </h2>
-              </div>
-              <div id="{{ .Title }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ .Title }}">
-                <div class="panel-body">
-                  {{ .Content }}
-                </div>
-              </div>
-            </div>          
-            {{ end }}
-
-        </div>
-      </div>
-    </section>
-
-  </main>
-  <!-- /container -->
-
-  {{ partial "footer.html" . }}
-
-  <!-- JS is at the end of the document so the pages load faster -->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </div>
+  </section>
+</main>
+{{ end }}
+{{ define "footer-suffix" }}
+<script>
+  $(function () {
+  $('#accordion').on('shown.bs.collapse', function (e) {
+      var offset = $('.panel.panel-default > .panel-collapse.in').offset();
+      $('.panel.panel-default > .panel-collapse.in').siblings('.panel-heading').find('.accordion-toggle').removeClass('collapsed');
+      if(offset) {
+          $('html,body').animate({
+              scrollTop: $('.panel-title a').offset().top + 0
+          }, 200); 
+      }
+  }); 
+  });
   
-  <script>
-    $(function () {
-    $('#accordion').on('shown.bs.collapse', function (e) {
-        var offset = $('.panel.panel-default > .panel-collapse.in').offset();
-        $('.panel.panel-default > .panel-collapse.in').siblings('.panel-heading').find('.accordion-toggle').removeClass('collapsed');
-        if(offset) {
-            $('html,body').animate({
-                scrollTop: $('.panel-title a').offset().top + 0
-            }, 200); 
-        }
-    }); 
-});
-
-  </script>
-
-</body>
-
-</html>
+</script>
+{{ end }}

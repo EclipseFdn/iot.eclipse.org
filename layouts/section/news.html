@@ -1,147 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Working Group</title>
-  <meta name="description" content="iot.eclipse.org News">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-  <!-- Bootstrap -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <!-- icomoon -->
-  <link href="/assets/css/icomoon.css" rel="stylesheet"> 
-
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml">
-
-</head>
-
-<body>
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
-  (function() {
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-  })();
-  </script>
-  <main class="main news-page">
-    <div class="well">
-      <div class="container">
-        <h1>
-          News
-        </h1>
-        <div>
-          <p class="lead">Learn about what is happening in our community with these recent and past news.</p>
+{{ define "main" }} 
+<main class="main news-page">
+<div class="well">
+  <div class="container">
+    <h1>
+      News
+    </h1>
+    <div>
+      <p class="lead">Learn about what is happening in our community with these recent and past news.</p>
+    </div>
+  </div>
+</div>
+<section class="first">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 grid">
+        {{ range (.Paginator 9).Pages }}
+        <div class="grid-item col-md-4">
+          <div class="row">
+            <h3 class="purple col-md-12">{{ .Title }}</h3>
+            <div class="col-md-12" style="font-size: 0.9em; text-align: justify;">{{ .Content }} </div>
+            <a href="{{ .Params.link }}" class="btn btn-default col-md-12" role="button">Read more…</a>
+          </div>
         </div>
+        {{ end }}
+      </div>
+      <div class="col-md-12 ">
+        {{ template "_internal/pagination.html" . }}
       </div>
     </div>
-    <section class="first">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 grid">
+  </div>
+</section>
+{{ end }}
 
-              {{ range (.Paginator 9).Pages }}
-
-              <div class="grid-item col-md-4">
-
-                <div class="row">
-                  <h3 class="purple col-md-12">{{ .Title }}</h3>
-                  <div class="col-md-12" style="font-size: 0.9em; text-align: justify;">{{ .Content }} </div>
-                  
-                  <a href="{{ .Params.link }}" class="btn btn-default col-md-12" role="button">Read more…</a>
-                </div>
-              </div>
-
-              {{ end }}
-
-          </div>
-
-          <div class="col-md-12 ">
-            {{ template "_internal/pagination.html" . }}
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    {{ partial "footer.html" . }}
-
-    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;">
-    </div>
-    </div>
-    <!-- /container -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <script src="//npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-
-      $('.grid').masonry({
-        // options
-        itemSelector: '.grid-item',
-        itemSelector: '.grid-item',
-        gutter: 10
-
-      });
+{{ define "footer-suffix" }}
+<script src="//npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      itemSelector: '.grid-item',
+      gutter: 10
+  
     });
+  });
 </script>
-
-
-</body>
-
-</html>
+{{ end }}

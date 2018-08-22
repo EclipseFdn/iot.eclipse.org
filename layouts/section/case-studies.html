@@ -1,94 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iot.eclipse.org &mdash; Case Studies</title>
-  <meta name="description" content="Find out how companies have been using Eclipse IoT technolgy to deploy industrial solutions.">
-  <meta name="author" content="Eclipse.org">
-  <link rel="author" href="humans.txt" />
-
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  
-
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-  <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-  <!-- Le styles -->
-  <link href="/assets/css/bootstrap.css" rel="stylesheet">
-  <link href="/assets/css/icomoon.css" rel="stylesheet">
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-  <!-- End Google Tag Manager -->
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  
-  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-  <style>
-    blockquote {
-      background: #f9f9f9;
-      border-left: 5px solid #ccc;
-      margin: 0.5em 10px;
-      padding: 0.5em 10px;
-      quotes: "\201C" "\201D";
-    }
-
-    blockquote:before {
-      color: #ccc;
-      content: open-quote;
-      font-size: 4em;
-      line-height: 0.1em;
-      margin-right: 0.25em;
-      vertical-align: -0.4em;
-    }
-
-    blockquote p {
-      display: inline;
-    }
- 
-  </style>
-
-
-</head>
-
-<body>
-
-  <header>
-    {{ partial "navbar.html" . }}
-  </header>
-
-  <!-- Place this tag after the last +1 button tag. -->
-  <script type="text/javascript">
+{{ define "main" }}
+<style>
+  blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 0.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D";
+  }
+  blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  }
+  blockquote p {
+  display: inline;
+  }
+</style>
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
   (function() {
     var po = document.createElement('script');
     po.type = 'text/javascript';
@@ -97,85 +29,58 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(po, s);
   })();
-  </script>
-
-  <main class="main">
-
-    <div class="well">
-      <div class="container">
-        <h1>Case Studies</h1>
-
-        <div class="lead">
-          <p>What people from various industries around the world are building with Eclipse IoT Technology</p>
-        </div>
+</script>
+<main class="main">
+  <div class="well">
+    <div class="container">
+      <h1>Case Studies</h1>
+      <div class="lead">
+        <p>What people from various industries around the world are building with Eclipse IoT Technology</p>
       </div>
     </div>
-
-    <section class="first">
-      <div class="container">
-        <div class="row">
-
-          {{ range where .Site.RegularPages.ByWeight "Section" "case-studies" }} 
-            <div class="col-md-6" style="min-height: 350px;">
-              <div class="row">
-
-                <div class="col-md-12">
-                    <h3>{{ .Params.company }} </h3>
-                </div>
-
-                <div class="col-md-4" style="padding-bottom: 20px">
-                  <a href="{{ .Params.link }}">
-                    <img src="{{ .Params.img }}" class="img-responsive"/>
-                  </a>
-                </div>
-                <div class="col-md-8">
-                  <blockquote>
-                    {{ .Params.description }}
-                  </blockquote>
-                   &nbsp; &nbsp;
-                   <a href="{{ .Params.link }}">
-                    <img src="/assets/images/icon_pdf.png"> PDF 
-                  </a>
-                  &nbsp; 
-                  <a href="{{ .URL }}">
-                    <img src="/assets/images/icon_html.png"> HTML
-                  </a>
-                  </div>
-              </div>
+  </div>
+  <section class="first">
+    <div class="container">
+      <div class="row">
+        {{ range where .Site.RegularPages.ByWeight "Section" "case-studies" }} 
+        <div class="col-md-6" style="min-height: 350px;">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>{{ .Params.company }} </h3>
             </div>
-          {{ end }}
-
+            <div class="col-md-4" style="padding-bottom: 20px">
+              <a href="{{ .Params.link }}">
+              <img src="{{ .Params.img }}" class="img-responsive"/>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <blockquote>
+                {{ .Params.description }}
+              </blockquote>
+              &nbsp; &nbsp;
+              <a href="{{ .Params.link }}">
+              <img src="/assets/images/icon_pdf.png"> PDF 
+              </a>
+              &nbsp; 
+              <a href="{{ .URL }}">
+              <img src="/assets/images/icon_html.png"> HTML
+              </a>
+            </div>
+          </div>
         </div>
+        {{ end }}
       </div>
-    </section>
-
-    <section class="second">
-      <div class="container">
-        <h1>Your success story here!</h1>
-        <p>Contact us at iot@eclipse.org to get your Eclipse IoT case study featured on our website.</p>
-      </div>
-    </section>
-
-    <section class="third">
-      <div class="container">
-      </div>
-    </section>
-
-    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
-
     </div>
-  </main>
-  <!-- /container -->
-
-  {{ partial "footer.html" . }}
-
-  <!-- JS is at the end of the document so the pages load faster -->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
-</body>
-
-</html>
+  </section>
+  <section class="second">
+    <div class="container">
+      <h1>Your success story here!</h1>
+      <p>Contact us at iot@eclipse.org to get your Eclipse IoT case study featured on our website.</p>
+    </div>
+  </section>
+  <section class="third">
+    <div class="container">
+    </div>
+  </section>
+</main>
+{{ end }}

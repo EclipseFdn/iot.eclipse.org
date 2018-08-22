@@ -1,0 +1,33 @@
+{
+  "name": "eclipsefdn-iot-eclipse-org",
+  "description": "Source code for iot.eclipse.org",
+  "main": "packages.js",
+  "author": "Christopher Guindon",
+  "license": "EPL-2.0",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/EclipseFdn/iot.eclipse.org/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EclipseFdn/iot.eclipse.org.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "install": "NODE_ENV=production napa && npm run production"
+  },
+  "napa": {
+    "jquery-oembed-all": "nfl/jquery-oembed-all"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "csv": "^1.1.0",
+    "eclipsefdn-hugo-solstice-theme": "0.0.11",
+    "httpreq": "^0.4.22",
+    "node-sass": "^4.9.3",
+    "request-json": "^0.5.6"
+  }
+}
