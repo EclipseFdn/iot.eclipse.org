@@ -12,7 +12,7 @@ Install dependencies, build website and start a simple webserver:
 
 ```bash
 npm install
-hugo server --disableFastRender --buildFuture
+hugo server
 ```
 
 ## Contributing
