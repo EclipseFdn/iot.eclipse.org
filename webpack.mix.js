@@ -22,7 +22,10 @@ mix.sass('static/assets/stylesheets/bootstrap.scss', 'static/assets/css/bootstra
 mix.styles([
     'static/assets/css/bootstrap.css',
     'node_modules/cookieconsent/build/cookieconsent.min.css',
-    'static/assets/css/icomoon.css'
+    'static/assets/css/icomoon.css',
+    'node_modules/prismjs/themes/prism.css',
+    'node_modules/prismjs/plugins/prism-line-highlight.css',
+    'node_modules/prismjs/plugins/prism-line-numbers.css'
 ], 'static/assets/css/bootstrap.css');
 mix.copy('./node_modules/jquery-oembed-all/jquery.oembed.css', 'static/assets/css/jquery.oembed.css');
 mix.copy('./node_modules/font-awesome/css/font-awesome.min.css', 'static/assets/css/font-awesome.css');
@@ -32,6 +35,14 @@ mix.scripts([
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/bootstrap/dist/js/bootstrap.min.js',
     './node_modules/cookieconsent/src/cookieconsent.js',
+    './node_modules/prismjs/prism.js',
+    './node_modules/prismjs/components/prism-css.min.js',
+    './node_modules/prismjs/components/prism-clike.min.js',
+    './node_modules/prismjs/components/prism-javascript.min.js',
+    './node_modules/prismjs/components/prism-java.min.js',
+    './node_modules/prismjs/components/prism-bash.min.js',
+    './node_modules/prismjs/plugins/prism-line-highlight.min.js',
+    './node_modules/prismjs/plugins/prism-line-numbers.min.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js'
 ], './static/assets/js/main.js');
 mix.copy('./node_modules/bootstrap-sass/assets/javascripts/*.js', 'static/js/bootstrap');

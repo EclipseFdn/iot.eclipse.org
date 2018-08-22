@@ -28,6 +28,7 @@
     "eclipsefdn-hugo-solstice-theme": "0.0.11",
     "httpreq": "^0.4.22",
     "node-sass": "^4.9.3",
+    "prismjs": "^1.15.0",
     "request-json": "^0.5.6"
   }
 }
