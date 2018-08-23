@@ -1,0 +1,275 @@
+{{ define "head-suffix" }}
+<style type="text/css">
+   .container h4 {
+   margin-left: 3em;
+   }
+   .container h4:before {
+   content: "> ";
+   }
+   img.fleft {
+   float: left;
+   width: 200px;
+   margin-right: 2em;
+   margin-bottom: 1em;
+   }
+</style>
+{{ end }}
+{{ define "main" }}
+<main class="main">
+   <div class="well">
+      <div class="container">
+         <h1>Using Eclipse Kura, MQTT and CoAP to build a smart
+            greenhouse
+         </h1>
+         <div class="lead">
+            <p>Java is almost 20 years old, and has over the years gathered a very large community of developers that in turn fostered an even larger ecosystem of open-source components and frameworks.</p>
+            <p>Thanks to the recent efforts towards making Java a more than decent platform for embedded devices, as well as the help of Moore&rsquo;s law always bringing more processing power to devices, everyone can benefit from two decades of innovation in the Java land to build IoT (Internet of Things) solutions.</p>
+         </div>
+      </div>
+   </div>
+   <section class="first">
+      <div class="container">
+      <p>It&rsquo;s no news that there are many challenges when building an IoT application. One of the main challenges is to make sure that the application you&rsquo;re building will be simple to operate once it is deployed on the field. It means you need to be able to perform many operations over-the-air, including things like:</p>
+      <ul>
+         <li><b>changing the settings of your running application</b> – because a sensor you were attached to, for example, needs to be accessed with different settings,</li>
+         <li><b>deploying a new version of your application</b> – you found a nasty bug that causes your application to use all your tiny cellular data plan in minutes, so you want to deploy a hot-fix on your IoT gateway,</li>
+         <li><b>ensuring the gateway has proper access to the network</b> – because you care about your application and not necessarily about how you&rsquo;ll actually get Internet connectivity, it&rsquo;s important to have a framework taking care of your wireless modem of WiFi setup for you.</li>
+      </ul>
+      <p>
+         <a href='http://eclipse.org/kura' />Eclipse Kura</a> is an <a href='http://iot.eclipse.org' />Eclipse IoT</a> project that provides a platform for building IoT gateways. It is a smart application container that enables remote management of such gateways and provides a wide range of APIs for allowing you to write and deploy your own IoT application.
+      </p>
+      <p>Kura runs on top of the Java Virtual Machine (JVM) and leverages OSGi, a dynamic component system for Java, to simplify the process of writing reusable software building blocks.</p>
+      <p></p>
+      <p>In this tutorial, we want to guide you through the steps for building your very own IoT gateway. We will first guide you through the (very simple!) process of installing Eclipse Kura on what will become your IoT gateway (we&rsquo;ll be using a Raspberry Pi as the hardware platform), and we will then detail how you can install deploy existing IoT applications or develop your own using Kura&rsquo;s application framework.</p>
+      <p></p>
+      <h2>Technologies involved</h2>
+      <h3>Kura</h3>
+      <p>
+         <img class="fleft" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1406563851399_kura.png' />
+      </p>
+      <p>Kura provides a Java/OSGi-based container for IoT applications running in service gateways. By installing Kura on a device, not only can you turn it into a powerful IoT router that can be managed remotely, but you also have access to a complete application framework for deploying custom applications. These applications leverage OSGi and Kura API for making it easy to access the underlying hardware (serial port, GPIOs, etc.), communicate with an IoT server backend, manage the runtime settings, etc.&nbsp;</p>
+      <p></p>
+      <p>
+         Learn more on Kura on the project&rsquo;s website: <a href="https://www.eclipse.org/kura">https://www.eclipse.org/kura</a>.
+      </p>
+      <p></p>
+      <h3>MQTT and Paho</h3>
+      <p>
+         <img class="fleft" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377319893_hackpad.com_9EkDXF5JhoD_p.189956_1406300892088_paho.png' />
+      </p>
+      <p>In order to make the greenhouse sensors data available to the Internet, and therefore allow 3rd party applications (mobile, web, etc.) to consume this data, we will use the MQTT protocol.</p>
+      <p>MQTT is a lightweight messaging protocol based on the publish/subscribe model. A central broker is federating MQTT clients that are publishing messages on specific topics, allowing other clients subscribed to these topics to immediately receive those messages.
+      </p>
+      <p>Eclipse Paho is an open-source project that provides MQTT client implementations in many programming languages, and Kura is using Paho to provide high-level OSGi services for IoT communications between a gateway and the Internet.&nbsp;&nbsp;</p>
+      <p></p>
+      <p>
+         Learn more on Paho on the project&rsquo;s website: <a href="https://www.eclipse.org/paho">https://www.eclipse.org/paho</a>.
+      </p>
+      <p></p>
+      <h3>CoAP and Californium</h3>
+      <p>
+         <img class="fleft" style="width:100px" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377341864_hackpad.com_9EkDXF5JhoD_p.189956_1406301003313_californium-180.png' />
+      </p>
+      <p>
+         CoAP (<b>Co</b>nstrained <b>A</b>pplication <b>P</b>rotocol) is a RESTful protocol targeting constrained embedded devices and wireless networks. CoAP essentially replicates the HTTP resource model on top of UDP using a binary, bandwidth-efficient, encoding.
+      <p>Eclipse Californium provides a Java implementation of CoAP, together with a security library (Scandium) for DTLS.
+      <p>
+         Learn more on Californium on the project&rsquo;s website: <a href="https://www.eclipse.org/californium">https://www.eclipse.org/californium</a>.
+      </p>
+      <h2>What are we going to build?</h2>
+      <p>Whether we are talking about industrial control, wearables, home automation, or any other field where IoT is relevant, the core principle is always the same: we want to connect a reasonably smart device coupled with sensors and actuators, to the Internet so as the sensors and actuators can be monitored and controlled remotely.</p>
+      <p>A very simplified version of such a smart device could be a connected greenhouse that allows you to monitor the current temperature from wherever you are in the world, as well as turn artificial lighting on and off – and that's exactly what we are going to build!</p>
+      <h2>Setting up the hardware</h2>
+      <h3>Shopping list</h3>
+      <p>We&rsquo;ve kept the list of hardware elements needed for the greenhouse to a minimum to make it easy for anyone with no electronics skills to build it.</p>
+      <p>Here is what you will need:</p>
+      <p>
+         <img class="img-responsive" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408377358810_hackpad.com_9EkDXF5JhoD_p.189956_1406297683547_hw.png' />
+      </p>
+      <p></p>
+      <ul>
+         <li><b>Raspberry Pi Model 2</b> and an <b>SD card</b> (min. 4GB) with the latest Debian Linux distribution. Raspbian should be downloaded from the Raspberry Pi Foundation&rsquo;s <a href='http://www.raspberrypi.org/downloads/' />Downloads page</a>, and
+            <a href='http://www.raspberrypi.org/documentation/installation/installing-images/README.md' />these instructions
+            </a> will help you put Raspbian on the SD Card.
+         </li>
+         <li><b>Grove temperature &amp; humidity sensor</b>,</li>
+         <li><b>Grove LED</b>,</li>
+         <li><b>4 pin Female Jumper to Grove 4 pin Conversion Cable</b>,</li>
+         <li><b>Ethernet cable.</b>
+         </li>
+      </ul>
+      <p>
+         You can easily order the parts from SeeedStudio thanks to the following wish list: <a href="http://tiny.cc/iot-greenhouse-parts"><code>http://tiny.cc/iot-greenhouse-parts</code></a>.
+      </p>
+      <p>
+         You can also check for a distributor next to you on this <a href='http://www.seeedstudio.com/depot/index.php?main_page=distributors'>web
+         page</a>.
+      </p>
+      <p></p>
+      <h3>Assembling the Raspberry Pi and the sensors</h3>
+      <p>As indicated earlier, the hardware setup should be really just take a couple of minutes. Before to actually perform the wiring of all the sensors, now is a good time to briefly explain how the Raspberry Pi can be augmented with external sensors. The row of pins, along the edge of the board, is programmable from the Linux system, is allow you to interact with various kinds of sensors you can connect to them. You should think of these GPIOs (General Purpose Input Outputs) as switches you can control from the Raspberry Pi (outputs), or that external sensors can control (inputs). Some of the pins are more sophisticated and allow the use of higher-level protocols to exchange more than on/off signals ; such protocols include SPI, I2C or UART, and we will indeed use an I2C temperature sensor in this tutorial.&nbsp;</p>
+      <p>
+         You can <a href='http://www.raspberrypi.org/documentation/usage/gpio/' />read more on GPIOs</a> in the official Raspberry Pi documentation.
+      </p>
+      <p></p>
+      <p>Now is time to hook up our temperature sensor and LED to the Raspberry Pi! The GPIO pins are numbered as follows (if you have a Raspberry Pi model B, no worries, the pin headers we&rsquo;ll be using are the same):</p>
+      <p></p>
+      <p>
+         <img class="img-responsive" src='http://www.recantha.co.uk/blog/wp-content/uploads/2014/07/GPIO.png' />
+      </p>
+      <p></p>
+      <ol>
+         <li>Connect the Grove cables to your temperature/humidity sensor and LED</li>
+      </ol>
+      <p>
+         <img class="img-responsive" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1408547740131_sensors-with-cables.png' />
+      </p>
+      <p></p>
+      <ol>
+         <li><b>&#x26a0; Make sure that your Raspberry Pi is not
+            powered!</b>
+         </li>
+         <li>
+            <u>Temperature sensor</u>:
+            <br />
+            <ul>
+               <li><code>BLACK</code> wire goes on <code>PIN#06</code>
+               </li>
+               <li><code>RED</code> wire goes on <code>PIN#01</code>
+               </li>
+               <li><code>YELLOW</code>wire goes on <code>PIN#05</code>
+               </li>
+               <li><code>WHITE</code>wire goes on <code>PIN#03</code>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <u>LED</u>:
+            <br />
+            <ul>
+               <li><code>BLACK</code> wire goes on <code>PIN#14</code>
+               </li>
+               <li><code>RED</code> wire goes on <code>PIN#02</code>
+               </li>
+               <li><code>YELLOW</code>wire goes on <code>PIN#11</code>
+               </li>
+               <li>The <code>WHITE</code> wire is not used in the case of the LED – you only really need one pin to toggle a LED on or off, right? :-) – so you can leave it dangling or connect it to a Ground pin header.
+               </li>
+            </ul>
+         </li>
+         <li>Connect the Raspberry Pi to your home router or to your PC using the Ethernet cable.</li>
+      </ol>
+      <p>That&rsquo;s all, really! Now let&rsquo;s boot our Raspberry Pi for the first time and install Kura.</p>
+      <h3>Booting the Raspberry Pi for the first time</h3>
+      <h4>Expand filesystem</h4>
+      <p>After the first boot completes, make sure to run the configuration utility and expand the filesystem.</p>
+      <p></p>
+      <pre><code class="language-bash">sudo raspi-config</code></pre>
+      <p>
+         <img class="img-responsive" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1410192008723_raspi-config.png' />&nbsp;
+      </p>
+      <h4>Enable i2c</h4>
+      <p>Follow <a href="https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c" target="_blank">these instructions</a> from Adafruit on how to enable I2C properly.</p>
+      <p>Don't forget to reboot for the changes to be applied.</p>
+      <h3>Installing Eclipse Kura on the Raspberry Pi</h3>
+      <p>It is really easy to install Kura on your Raspberry Pi. It is actually as simple as installing any other Debian package.</p>
+      <p>Assuming you are properly logged in on your Raspberry Pi, here&rsquo;s how to install Kura:</p>
+      <p></p>
+      <pre><code class="language-bash">cd ~
+sudo apt-get update # let's make sure Debian repositories descriptions are up-to-date
+wget https://s3.amazonaws.com/kura_downloads/raspbian/release/1.3.0/kura_1.3.0_raspberry-pi-2_installer.deb
+sudo dpkg -i kura_1.3.0_raspberry-pi-2_installer.deb</code></pre>
+      <p>dpkg will complain about missing dependencies, and will fail. Indeed, Kura depends on some packages that you probably don&rsquo;t have on your Raspberry Pi, so we must tell Aptitude to download those automatically for us:</p>
+      <pre><code class="language-bash">sudo apt-get install -f</code></pre>
+      <p>You should now reboot your Raspberry Pi to make sure all the Kura services are properly started.</p>
+      <pre><code class="language-bash">sudo reboot</code></pre>
+      <p>
+         In order to confirm that Kura is properly installed, you can try accessing its web UI from your favorite web browser. The URL should be something like: <code>http://my-raspberry-pi/kura</code>, default credentials are: <code>admin</code> / <code>admin</code>.
+      </p>
+      <p>
+         <img class="img-responsive" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1409907331696_kura post install.png' />
+      </p>
+      <p></p>
+      <h2>Deploying a ready-to-use greenhouse application</h2>
+      <p>Before diving deeper into how to use the Kura application framework for developing your own application, let&rsquo;s see by ourselves how easy it is to deploy an application in Kura.</p>
+      <p>Kura relies on the OSGi Deployment Admin standard to allow software packages to be managed. A deployment package is essentially a ZIP file containing a set of OSGi bundles and a Manifest providing the name, version, etc. of the application.</p>
+      <p></p>
+      <p>We have already prepared a software package containing the application that allows to control the greenhouse over MQTT or CoAP.&nbsp;
+      </p>
+      <p></p>
+      <h3>Installing the application from Kura web UI</h3>
+      <p>If you correctly followed the previous steps, Kura should be now up and running on your Raspberry Pi, and you should be able to access its web-based administration interface from your browser.</p>
+      <ul>
+         <li>Navigate the &quot;Packages&quot; entry of the web UI</li>
+         <li>Click the &quot;Install/Upgrade&quot; button and enter the following address in the &quot;URL&quot; tab of the popup dialog: <code>http://iot.eclipse.org/java/demo/org.eclipse.greenhouse.iot-0.1.0.dp</code>
+         </li>
+         <li>Refresh your web browser and notice there is a new entry in the Services section on the left-hand side: Greenhouse Publisher.</li>
+      </ul>
+      <h3>Configuring the application</h3>
+      <p>
+         Kura allows to easily manage the settings of the installed software components from its web UI, together with the ability to save <i>snapshots</i> of those settings that can be re-applied if and when needed. It is also possible to manage the settings over the air, by publishing specific MQTT messages to the broker the Kura gateway is configured to talk to.
+      </p>
+      <p>Here are the settings you need to adjust:</p>
+      <ul>
+         <li>In the <b>MqttDataTransport</b> section, you need to change the <i>broker-url</i> to: <code>mqtt://iot.eclipse.org:1883/</code>- other settings can remain unchanged,&nbsp;
+         </li>
+         <li>In the <b>DataService</b> section, you want to make sure that the MQTT communication is automatically established when Kura starts, by setting <b>connect.auto-on-startup</b> to true,
+         </li>
+         <li>Finally, you have to change the prefix of the MQTT topic for the data related to the greenhouse. In the <b>Greenhouse
+            Publisher</b> section, set <b>publish.appTopicPrefix</b> to whatever seems like a good name for your greenhouse (e.g. <code>javaonedemo/bob-greenhouse</code>)!
+         </li>
+      </ul>
+      <h3>Communicating with the greenhouse remotely</h3>
+      <p>Now that Kura and our Greenhouse application are properly configured, the current temperature is actually published over MQTT, and it&rsquo;s also possible to toggle the LED by publishing a message on a specific topic.</p>
+      <p>
+         The easiest way for you to control your now IoT-ized Raspberry Pi + greenhouse combo is to use a Web UI that uses MQTT over WebSockets to display the temperature and control the LED.
+      </p>
+      <p>
+         Simply replace the end of the URL with the topic prefix you picked earlier (for the example earlier, the URL would be <code><a
+            href="http://iot.eclipse.org/java/demo/app/#/greenhouses/remote/bob-greenhouse">http://iot.eclipse.org/java/demo/app/#/greenhouses/remote/bob-greenhouse</a></code>)
+      </p>
+      <p>
+         <img class="img-responsive" src='https://hackpad-attachments.s3.amazonaws.com/hackpad.com_9EkDXF5JhoD_p.189956_1410350332293_angular-remote.png' />
+      </p>
+      <p></p>
+      <p>Hopefully, you&rsquo;re now more familiar with Kura, and we encourage you to play around with the Web UI to learn more about its capabilities in terms of network management, device-to-cloud communication, etc.</p>
+      <p>
+         If you&rsquo;d like to actually use the Kura application framework to develop your own IoT application, you may want to check out the source code of the "Greenhouse" app you've deployed earlier – it's <a href="https://github.com/kartben/kura-greenhouse-demo" target="_blank">on Github
+         <a>
+            .
+      </p>
+      <p></p>
+      <h2>Going further</h2>
+      <p></p>
+      <h3>Build your own greenhouse!</h3>
+      <p>
+      Head over to <a href="http://www.thingiverse.com/thing:144791">Thingiverse</a> and download the blueprints of the acrylic greenhouse below. With them, just use the online laser-cutting service of your choice or <a href='https://www.fablabs.io/map' />go to a local Fab Lab</a> to get all the pieces cut from a sheet of plexiglas! It shouldn&rsquo;t cost you more than $20.
+      </p>
+      <p>
+         <img class="img-responsive" src="http://thingiverse-production-new.s3.amazonaws.com/renders/a2/da/2f/b4/01/untitled_preview_featured.jpg" />
+      </p>
+      <ul style="list-style: none;">
+         <li>
+            <br />
+         </li>
+      </ul>
+      <h3>Retrieve the humidity</h3>
+      <p>
+         Similarly to how we retrieved the temperature, you could refer to the
+         <a href="http://www.hoperf.cn/upload/sensor/TH02_V1.1.pdf">sensor&rsquo;s
+         datasheet</a> to implement the proper I2C code to read the humidity. See in particular Section <b>3.1.1. Performing a Relative Humidity
+         Measurement</b>.
+      </p>
+      <h3>Use other I2C sensors</h3>
+      <p>The great thing with I2C sensors is that it&rsquo;s really easy to hook up several of them on the same host device. Just use your imagination and explore what you could do if you were to use a luminosity, barometric pressure, or carbon dioxide sensor!</p>
+      <h3>Use Kura&rsquo;s CloudService to publish data</h3>
+      <p>
+         The <b>CloudService</b> leverages Google Protocol Buffers to provide a very efficient binary communication between the Kura gateway and an IoT server. Browse the documentation of the <a href='http://download.eclipse.org/kura/releases/0.7.1/docs/apidocs/org/eclipse/kura/cloud/CloudClient.html' />CloudClient</a>
+         and <a href='http://download.eclipse.org/kura/releases/0.7.1/docs/apidocs/org/eclipse/kura/message/KuraPayload.html' />KuraPayload</a>
+         APIs to learn more.&nbsp;
+      </p>
+      <h3>Setup a 6LoWPAN network</h3>
+      <p>If you&rsquo;re familiar with 802.15.4 Wireless Sensor Networks, you could easily setup your Raspberry Pi as a border router, that would expose the CoAP server on its radio interface. You could then use e.g. Contiki and the Erbium CoAP client to write a simple app that will run on a mote and talk CoAP to read the temperature, or control the LED!</p>
+   </section>
+</main>
+{{ end }}
