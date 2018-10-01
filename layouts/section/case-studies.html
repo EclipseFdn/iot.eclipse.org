@@ -42,7 +42,7 @@
   <section class="first">
     <div class="container">
       <div class="row">
-        {{ range where .Site.RegularPages.ByWeight "Section" "case-studies" }} 
+        {{ range where (.Site.RegularPages.ByPublishDate).Reverse "Section" "case-studies" }} 
         <div class="col-md-6" style="min-height: 350px;">
           <div class="row">
             <div class="col-md-12">
