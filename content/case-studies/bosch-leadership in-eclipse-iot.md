@@ -33,7 +33,7 @@ description = "Bosch’s leadership in Eclipse IoT has helped position the compa
 
 <p>An open source strategy also fits well into Bosch Software Innovations’ mandate to introduce new perspectives and processes that transform how the Bosch Group develops innovative software solutions. Internally, the acceptance of the OSS strategy was reviewed by key Bosch stakeholders, including legal, marketing and product owners. Initial concerns about legal issues, potential loss of IP, and transparency of code were addressed by senior management. The result was the development of a set of best practices for open source management. In fact, Bosch has been so successful with their open source management that they have now started their own consulting practice to <a href="https://www.bosch-si.com/services/overview/open-source/open-source-iot.html" target="_blank">help other companies begin an open source journey</a>.</p>
 
-<h2 class="purple">Leaders In Iot And Open Source: Bosch And Eclipse Iot</h2>
+<h2 class="purple">Leaders In IoT And Open Source: Bosch And Eclipse IoT</h2>
 
 <p>An important part of Bosch’s open source strategy was to join a community that was dedicated to building IoT open source technology. For this reason, in 2015 <a href="https://blog.bosch-si.com/developer/eclipse-foundation-bosch-strategic-member/" target="_blank">Bosch increased its membership level in the Eclipse Foundation</a> to become a strategic member and joined the <a href="https://iot.eclipse.org/">Eclipse IoT Working Group</a>. With over 35 different projects and 40 participating member companies, Eclipse IoT is the leading open source community focused on IoT.</p>
 
@@ -53,7 +53,7 @@ description = "Bosch’s leadership in Eclipse IoT has helped position the compa
 
 <p>Bosch also sees significant value in the services provided by the Eclipse Foundation. The Eclipse Foundation’s legal and intellectual property processes enable Bosch to fully comply with antitrust laws, and provide Bosch with the legal assurance that they can successfully embed open source technology into their commercial products. The Eclipse development process is a set of best practices that have guided Bosch developers during the process of starting open source projects. Finally, the Eclipse IoT Working Group has been very successful in promoting the open source projects and attracting new developers and users to the IoT technology. This helps Bosch gain adoption of their projects, which in turn helps with promoting their commercial products.</p>
 
-<h2 class="purple">A Bright Future For Open Source And Iot</h2>
+<h2 class="purple">A Bright Future For Open Source And IoT</h2>
 
 <p>Bosch sees a bright future for open source and IoT. Their initial strategy of using open source to create an IoT platform is paying off. The plan is to continue to participate in the open source community and create innovative solutions that will benefit their customers and the industry.</p>
 
