@@ -63,13 +63,13 @@ recommend.”</p>
 
 <h2 class="purple">Bosch projects at Eclipse IoT</h2>
 <ul>
-<li><a href=“https://www.eclipse.org/ditto/”>Eclipse Ditto</a> is a framework for creating and managing digital twins. Bosch IoT Things is the commercial product based on Ditto.</li>
-<li><a href=“https://www.eclipse.org/hawkbit/”>Eclipse hawkBit</a> is used to roll out software updates to constrained edge devices, controllers, and gateways. Bosch IoT Rollouts is the commercial product based on hawkBit.</li>
-<li><a href=“https://www.eclipse.org/hono/”>Eclipse Hono</a> provides remote service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol. Bosch IoT Hub is the commercial product based on Hono.</li>
-<li><a href=“https://www.eclipse.org/vorto/”>Eclipse Vorto</a> allows device manufacturers 
+<li><a href="https://www.eclipse.org/ditto/" target="_blank">Eclipse Ditto</a> is a framework for creating and managing digital twins. Bosch IoT Things is the commercial product based on Ditto.</li>
+<li><a href="https://www.eclipse.org/hawkbit/" target="_blank">Eclipse hawkBit</a> is used to roll out software updates to constrained edge devices, controllers, and gateways. Bosch IoT Rollouts is the commercial product based on hawkBit.</li>
+<li><a href="https://www.eclipse.org/hono/" target="_blank">Eclipse Hono</a> provides remote service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol. Bosch IoT Hub is the commercial product based on Hono.</li>
+<li><a href="https://www.eclipse.org/vorto/" target="_blank">Eclipse Vorto</a> allows device manufacturers 
 to easily describe device functionality and characteristics as device information models and manage them in a central repository. Vorto provides convenient tools for IoT device developers to convert device information models to source code that runs on the device or gateway, easing the integration with IoT platforms, such as the <a href="https://www.bosch-iot-suite.com/" target="_blank">Bosch IoT Suite</a>. This enables IoT solution developers to easily integrate devices into their IoT solutions.</li>
-<li><a href=“https://www.eclipse.org/mita/”>Eclipse Mita</a> is a programming language for the embedded IoT.</li>
-<li><a href=“https://www.eclipse.org/unide/>Eclipse Unide</a> is an implementation of the Production Performance Management Protocol (PPMP).</li>
+<li><a href="https://www.eclipse.org/mita/" target="_blank">Eclipse Mita</a> is a programming language for the embedded IoT.</li>
+<li><a href="https://www.eclipse.org/unide/" target="_blank">Eclipse Unide</a> is an implementation of the Production Performance Management Protocol (PPMP).</li>
 </ul>
     </div>
 </div>
