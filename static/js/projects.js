@@ -23,7 +23,9 @@ var projectsAssociation = {
         'iot.milo': true,
         'iot.cyclonedds':true,
         'iot.unide': true,
-        'iot.thingweb': true
+        'iot.thingweb': true,
+        'iot.tahu': true,
+        'iot.keyple': true
     },
 
     'Devices': {
