@@ -838,7 +838,13 @@ main.main {
 }
 
 .working-group-page {
+    p.lead {
+        font-size: 1.4em !important;
+    }
+
     blockquote {
         font-size: $font-size-base;
+        text-align: justify;
+        line-height: 1.5em;
     }
 }
