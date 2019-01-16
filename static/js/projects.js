@@ -31,7 +31,6 @@ var projectsAssociation = {
     'Devices': {
         'iot.concierge': true,
         'iot.paho': true,
-        'iot.edje': true,
         'iot.wakaama': true,
         'iot.mita': true,
     },
@@ -61,13 +60,11 @@ var projectsAssociation = {
     'Ontologies': {
         'iot.vorto': true,
         'iot.unide': true,
-        'iot.whiskers': true,
         'iot.thingweb': true
     },
 
     'Security': {
         'iot.tinydtls': true,
-        'iot.keti': true,
         'iot.californium': true,
         'iot.leshan': true
     },
@@ -118,8 +115,6 @@ var releases = {
     "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
     "iot.hawkbit": "https://www.eclipse.org/hawkbit/",
     "iot.hono": "http://www.eclipse.org/hono/download/",
-    "iot.edje": "http://projects.eclipse.org/projects/iot.edje",
-    "iot.whiskers": "http://projects.eclipse.org/projects/iot.whiskers",
     "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
     "iot.kapua": "https://www.eclipse.org/kapua/",
     "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
@@ -127,7 +122,6 @@ var releases = {
     "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
     "iot.agail": "http://agile-iot.eu",
     "iot.ditto": "https://www.eclipse.org/ditto",
-    "iot.keti": "http://projects.eclipse.org/projects/iot.keti/downloads",
     "iot.duttile": "https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/+archive/master.tar.gz",
     "iot.kuksa": "http://projects.eclipse.org/projects/iot.kuksa",
     "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds",
@@ -157,8 +151,6 @@ var releases = {
     "iot.tinydtls": "Incubating",
     "iot.hawkbit": "Incubating",
     "iot.hono": "Incubating",
-    "iot.edje": "Incubating",
-    "iot.whiskers": "Incubating",
     "iot.milo": "Incubating",
     "iot.kapua": "Incubating",
     "iot.ignite": "Incubating",
@@ -166,7 +158,6 @@ var releases = {
     "iot.iofog": "Incubating",
     "iot.agail": "Incubating",
     "iot.ditto": "Incubating",
-    "iot.keti": "Incubating",
     "iot.duttile": "Incubating",
     "iot.kuksa": "Incubating",
     "iot.cyclonedds": "Incubating",
