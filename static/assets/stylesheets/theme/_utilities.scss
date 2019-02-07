@@ -59,6 +59,17 @@ a.btn.btn-primary{
 	}
 }
 
+.btn.btn-secondary{
+  background-color:$purple;
+  border-color:$purple;
+  color:$white;
+  @include transition;
+  &:hover{
+    background-color:darken($purple, 20%);
+    color:$white;
+  }
+}
+
 .line-divider-left{
 //	border-left:1px solid darken($white, 20%);
 }

@@ -1,0 +1,72 @@
+{{ define "main" }}
+<main class="main working-group-page">
+  <section class="second">
+    <div class="container" id="members">
+      <p>Learn more about our members and discover the IoT solutions they offer today.
+      </p>
+      <h2 class="purple">Steering committee members<br /><br /></h2>
+      <div id="sc-members">
+        {{ range where .Site.RegularPages.ByTitle "Section" "member" }}
+        {{ if .Params.is_steering }}
+        <div class="row members-info" id="member-{{ .Params.logo }}">
+          <div class="col-md-2 col-md-offset-1 mb-logo">
+            <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
+              <img src="/assets/images/members/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
+            </a>
+          </div>
+          <div class="col-md-8 col-md-offset-1 mb-info">
+            <div class="mb-info-container">
+              <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
+            </div>
+            <div>
+              {{ if isset .Params "more_url" }}
+              <a href="{{ .Params.more_url }} " target="_blank">
+                <button class="btn btn-info">Read more <i class="icon-chevron-right"></i></button>
+              </a>
+              {{ end }}
+              {{ if isset .Params "demo_url" }}
+              <a href="{{ .Params.demo_url }} " target="_blank">
+                <button class="btn btn-info">View Demo <i class="icon-eye-open"></i></button>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      <h2 class="purple" style="margin-top: 2em;">Participating members<br /><br /></h2>
+      <div id="other-members">
+        {{ range where .Site.RegularPages.ByTitle "Section" "member" }}
+        {{ if not .Params.is_steering }}
+        <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
+          <div class="col-md-2 col-md-offset-1 mb-logo">
+            <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">
+              <img src="/assets/images/members/logo-{{ .Params.logo }}.png" alt="{{ .Title }}" class="img-responsive" />
+            </a>
+          </div>
+          <div class="col-md-8 col-md-offset-1 mb-info">
+            <div class="mb-info-container">
+              <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
+            </div>
+            <div>
+              {{ if isset .Params "more_url" }}
+              <a href="{{ .Params.more_url }} " target="_blank">
+                <button class="btn btn-info">Read more <i class="icon-chevron-right"></i></button>
+              </a>
+              {{ end }}
+              {{ if isset .Params "demo_url" }}
+              <a href="{{ .Params.demo_url }} " target="_blank">
+                <button class="btn btn-info">View Demo <i class="icon-eye-open"></i></button>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}
