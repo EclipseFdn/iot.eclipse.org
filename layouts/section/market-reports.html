@@ -1,0 +1,71 @@
+{{ define "main" }}
+  <style>
+    blockquote {
+      background: #f9f9f9;
+      border-left: 5px solid #ccc;
+      margin: 0.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C" "\201D";
+    }
+
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+
+    blockquote p {
+      display: inline;
+    }
+ 
+  </style>
+  <main class="main">
+
+    <div class="well">
+      <div class="container">
+        <h1>Market Reports</h1>
+
+        <div class="lead">
+          <p>Market intelligence and key insights on the open source IoT industry.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="first">
+      <div class="container">
+        <div class="row">
+
+          {{ range where .Site.RegularPages.ByWeight "Section" "market-reports" }} 
+            <div class="col-md-12">
+              <div class="row">
+
+                <div class="col-md-2" style="padding-bottom: 20px">
+                  <a href="{{ .Params.link }}">
+                    <img src="{{ .Params.img }}" class="img-responsive"  style="max-height: 250px;"/>
+                  </a>
+                </div>
+                <div class="col-md-10">
+                    <h2 class="purple" style="margin-top: .5em">{{.Title}}</h2>
+                    {{ .Params.description }}
+                    <p style="margin-top: 1em;">
+                        <a href="{{ .Params.link }}">
+                         <img src="/assets/images/icon_pdf.png"> PDF 
+                       </a>
+                    </p>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+
+        </div>
+      </div>
+    </section>
+
+    <div id="contact-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="contact-label" aria-hidden="true" style="display: none;"></div>
+
+    </div>
+  </main>
+{{ end }}
