@@ -4,6 +4,8 @@ The [iot.eclipse.org](https://iot.eclipse.org) website is generated with [Hugo](
 
 Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and Cloud Platforms.
 
+This is a test for the ECA App.
+
 [![Build Status](https://travis-ci.org/EclipseFdn/iot.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/iot.eclipse.org)
 
 ## Getting started
