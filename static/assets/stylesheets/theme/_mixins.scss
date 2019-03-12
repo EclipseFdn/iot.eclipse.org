@@ -1,6 +1,5 @@
 
 
-
 @mixin triangle-bottomright($color){
 	width: 0;
 	height: 0;
@@ -24,7 +23,6 @@
 	top:-10px;
 	position:absolute;
 }
-
 
 @mixin transition{
 	-webkit-transition: all 300ms ease-out;

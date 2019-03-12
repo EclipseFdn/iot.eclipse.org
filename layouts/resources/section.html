@@ -14,18 +14,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 grid">
-          {{ range .Paginator.Pages }}
-          <div class="grid-item col-md-4">
-            <div class="row">
-              <h3 class="purple col-md-12">{{ .Title }}</h3>
-              <div class="embed-responsive embed-responsive-16by9 col-md-12">
-                <a href="{{ .Params.link }}" class="oembed"></a>
-              </div>
-              <div class="col-md-12" style="font-size: 0.9em; text-align: justify;">{{ .Content }} </div>
-              <a href="{{ .Params.link }}" class="btn btn-default col-md-12" role="button">Read more…</a>
-            </div>
+        {{ range .Paginator.Pages }}
+        <div class="col-md-6 media-video" data-mh="my-group" style="margin-bottom:30px">
+          <div class="media-body">
+           <a href="{{ .Params.link }}" class="{{ .Params.link_class }}"></a>
+            <h4 class="media-heading"  style="padding-top:20px;"><a href="{{ .Params.link }}">{{ .Title }}</a></h4>
+            {{ .Content }}
           </div>
-          {{ end }}
+        </div>
+        {{ end }}
         </div>
         <div class="col-md-12 ">
           {{ template "_internal/pagination.html" . }}
@@ -34,33 +31,4 @@
     </div>
   </section>
 </main>
-{{ end }}
-{{ define "footer-suffix" }}
-<script src="//npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/assets/css/jquery.oembed.css">
-<script type="text/javascript" src="/js/jquery.oembed.js"></script>
-<script type="text/javascript">
-  $(".oembed").oembed(null, {
-    apikeys: {
-      //etsy : 'd0jq4lmfi5bjbrxq2etulmjr',
-      amazon : 'caterwall-20',
-      //eventbrite: 'SKOFRBQRGNQW5VAS6P',
-    },
-    includeHandle:false,
-    //fallback: false,
-    embedMethod: 'fill',
-  //      maxHeight: 220, maxWidth:'100%',
-    afterEmbed: function () {
-      setTimeout(function () {
-                         $('.grid').masonry({
-                          // options
-                          itemSelector: '.grid-item',
-                          itemSelector: '.grid-item',
-                          gutter: 10
-  
-                        });
-                }, 500);
-    }
-  });
-</script>
 {{ end }}
