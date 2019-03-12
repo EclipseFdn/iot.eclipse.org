@@ -38,11 +38,6 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Maintainers
 
-**Benjamin Cabé (Eclipse Foundation)**
-
-- <https://twitter.com/kartben>
-- <https://github.com/kartben>
-
 **Christopher Guindon (Eclipse Foundation)**
 
 - <https://twitter.com/chrisguindon>
