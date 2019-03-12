@@ -45,8 +45,8 @@ mix.scripts([
     './node_modules/prismjs/plugins/prism-line-highlight.min.js',
     './node_modules/prismjs/plugins/prism-line-numbers.min.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js',
-    './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
+    './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
     './static/assets/js/configs.js'
 ], './static/assets/js/main.js');
 mix.copy('./node_modules/bootstrap-sass/assets/javascripts/*.js', 'static/js/bootstrap');
