@@ -11,23 +11,24 @@
  * SPDX-License-Identifier: EPL-2.0
 */
 
-mix = require('laravel-mix');
-mix.options({
-    processCssUrls: false,
-});
-mix.setPublicPath('static');
+let mix = require('laravel-mix');
+mix.options({uglify: {uglifyOptions: {compress: false, output: {comments: true}}}});
+mix.setPublicPath('static/assets');
+mix.setResourceRoot('../');
 
 // CSS
 mix.sass('static/assets/stylesheets/bootstrap.scss', 'static/assets/css/bootstrap.css');
+mix.less('./node_modules/eclipsefdn-solstice-assets/less/_components/eclipsefdn-video.less', 'static/assets/css/eclipsefdn-video.css');
+
 mix.styles([
     'static/assets/css/bootstrap.css',
+    'static/assets/css/eclipsefdn-video.css',
     'node_modules/cookieconsent/build/cookieconsent.min.css',
     'static/assets/css/icomoon.css',
     'node_modules/prismjs/themes/prism.css',
     'node_modules/prismjs/plugins/prism-line-highlight.css',
     'node_modules/prismjs/plugins/prism-line-numbers.css'
 ], 'static/assets/css/bootstrap.css');
-mix.copy('./node_modules/jquery-oembed-all/jquery.oembed.css', 'static/assets/css/jquery.oembed.css');
 mix.copy('./node_modules/font-awesome/css/font-awesome.min.css', 'static/assets/css/font-awesome.css');
 
 // JavaScript
@@ -43,11 +44,9 @@ mix.scripts([
     './node_modules/prismjs/components/prism-bash.min.js',
     './node_modules/prismjs/plugins/prism-line-highlight.min.js',
     './node_modules/prismjs/plugins/prism-line-numbers.min.js',
-    './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js'
+    './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js',
+    './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
+    './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
+    './static/assets/js/configs.js'
 ], './static/assets/js/main.js');
 mix.copy('./node_modules/bootstrap-sass/assets/javascripts/*.js', 'static/js/bootstrap');
-mix.copy('./node_modules/jquery-oembed-all/jquery.oembed.js', 'static/js');
-
-// Fonts
-mix.copy('./node_modules/font-awesome/fonts', 'static/assets/fonts');
-mix.copy('./node_modules/bootstrap/fonts', 'static/assets/fonts/bootstrap');

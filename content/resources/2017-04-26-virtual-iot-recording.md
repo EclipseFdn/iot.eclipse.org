@@ -2,6 +2,7 @@
 date = "2017-04-26T15:34:37.000Z"
 title = "IoT Developer Trends - 2017 Edition"
 link = "https://youtube.com/watch?v=hytq6-Et290"
+link_class  = "eclipsefdn-video"
 tags = [ "video", "virtualiot", "bitreactive"]
 +++
 Slides: https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017
