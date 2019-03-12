@@ -1,7 +1,7 @@
 +++
 date = "2017-03-24T17:03:38.000Z"
 title = "How Eclipse Hono enables device-related communication for the IoT"
-link = "https://youtube.com/watch?v=U0Drr9465vg"
+link = "https://www.youtube.com/watch?v=U0Drr9465vg"
 link_class  = "eclipsefdn-video"
 tags = [ "video", "eclipse hono", "bosch si"]
 +++

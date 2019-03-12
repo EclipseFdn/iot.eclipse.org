@@ -1,7 +1,7 @@
 +++
 date = "2017-10-12T15:34:37.000Z"
 title = "Open IoT Challenge 4.0 - Video"
-link = "https://youtube.com/watch?v=xdCFomHcgP4"
+link = "https://www.youtube.com/watch?v=xdCFomHcgP4"
 link_class  = "eclipsefdn-video"
 tags = [ "video", "virtualiot", "open iot challenge", "solution"]
 +++

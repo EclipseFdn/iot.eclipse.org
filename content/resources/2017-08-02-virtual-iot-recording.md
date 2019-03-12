@@ -1,7 +1,7 @@
 +++
 date = "2017-08-02T15:34:37.000Z"
 title = "Eclipse Unide – A way to establish an open Industry 4.0 standard"
-link = "https://youtube.com/watch?v=XK3LiuqjLrY"
+link = "https://www.youtube.com/watch?v=XK3LiuqjLrY"
 link_class  = "eclipsefdn-video"
 tags = [ "video", "virtualiot", "boschsi", "eclipse unide", "industry 4.0", "smart manufacturing"]
 +++

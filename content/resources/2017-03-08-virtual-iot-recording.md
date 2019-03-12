@@ -1,7 +1,7 @@
 +++
 date = "2017-03-08T17:03:38.000Z"
 title = "Visually Developing Solutions for the IoT with Reactive Blocks"
-link = "https://youtube.com/watch?v=2mFJSLz9ZPc"
+link = "https://www.youtube.com/watch?v=2mFJSLz9ZPc"
 link_class  = "eclipsefdn-video"
 tags = [ "video", "virtualiot", "bitreactive"]
 +++
