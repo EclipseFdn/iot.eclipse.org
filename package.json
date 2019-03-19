@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
-    "eclipsefdn-hugo-solstice-theme": "0.0.14",
+    "eclipsefdn-hugo-solstice-theme": "0.0.17",
     "prismjs": "^1.15.0"
   },
   "devDependencies": {
