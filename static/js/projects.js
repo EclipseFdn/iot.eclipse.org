@@ -303,7 +303,7 @@ var project_state_aliases = {
                                         <div class="col-md-12">Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></div>\
                                         <div class="col-md-12">Latest release: <span class="badge version">1.4</span></a></div>\
                                         <div class="col-md-12">Project status: <span class="badge project_state">Incubating</span></a></div>\
-                                        <div class="col-md-12"><a class="btn btn-sm btn-info downloadUrl" href="#">Download</a></div>\
+                                        <div class="col-md-12"><a class="btn btn-sm btn-info downloadUrl" href="#">Getting Started</a></div>\
                                     </div>\
                                 </div>\
                               </div>\
