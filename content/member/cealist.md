@@ -2,7 +2,7 @@
 date = "2016-12-15T15:31:21-07:00"
 title = "CEA List"
 logo = "cealist" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 937
 demo_url = "https://www.youtube.com/watch?v=7JqAPRH0bfU"
 more_url = "http://www-list.cea.fr/en"

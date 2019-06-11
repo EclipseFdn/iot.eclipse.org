@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:15-07:00"
 title = "Bosch Software Innovations"
 logo = "bosch" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = true
+member_type = "steering"
 member_id = 979
 more_url = "http://bosch-si.com"
 +++

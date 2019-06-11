@@ -2,7 +2,7 @@
 date = "2015-04-21"
 title = "Red Hat, Inc."
 logo = "redhat" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = true
+member_type = "steering"
 member_id = 731
 demo_url = "https://github.com/redhat-iot/iot-assettracking-demo/tree/master"
 more_url = "https://www.redhat.com/iot"

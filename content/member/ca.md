@@ -2,7 +2,7 @@
 date = "2015-07-15"
 title = "CA Technologies"
 logo = "ca" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 655
 more_url = "http://www.ca.com/us/products/api-management/solutions/api-management-for-mobile/api-management-for-iot.aspx"
 demo_url = "http://www.ca.com/us/collateral/videos/na/api-management-for-the-open-enterprise.aspx"

@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:17-07:00"
 title = "Eurotech"
 logo = "eurotech" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = true
+member_type = "steering"
 member_id = 968
 demo_url = "https://www.youtube.com/watch?v=PXlDJMK7yqg"
 more_url = "http://www.eurotech.com/en/products/software+services/everyware+software+framework/what+esf+is"

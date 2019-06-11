@@ -2,7 +2,7 @@
 date = "2018-07-11T15:31:15-07:00"
 title = "Calypso Networks Association"
 logo = "calypso" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1269
 more_url = "https://www.calypsonet-asso.org/"
 +++
