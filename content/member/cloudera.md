@@ -1,7 +1,7 @@
 +++
 date = "2017-08-25T15:31:16-07:00"
 title = "Cloudera"
-is_steering = false
+member_type = "participating"
 logo = "cloudera" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 member_id = 1256
 more_url = "https://www.cloudera.com/"

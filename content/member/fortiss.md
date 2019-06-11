@@ -2,7 +2,7 @@
 date = "2016-11-08T15:31:21-07:00"
 title = "fortiss GmbH"
 logo = "fortiss" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1225
 demo_url = "https://www.youtube.com/user/fortissTV"
 more_url = "http://www.fortiss.org/home/"

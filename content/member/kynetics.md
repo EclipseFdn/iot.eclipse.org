@@ -2,7 +2,7 @@
 date = "2018-04-16T15:31:15-07:00"
 title = "Kynetics"
 logo = "kynetics" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1286
 more_url = "https://www.kynetics.com"
 demo_url = "https://www.kynetics.com/docs"

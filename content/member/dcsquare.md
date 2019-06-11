@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:16-07:00"
 title = "dc-square"
 logo = "dcsquare" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1122
 demo_url = "http://www.hivemq.com/demos/websocket-client/"
 more_url = "http://hivemq.com"

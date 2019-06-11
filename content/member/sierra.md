@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:22-07:00"
 title = "Sierra Wireless"
 logo = "sierra" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1100
 demo_url = "https://www.youtube.com/watch?v=_rizLAUgLSA"
 more_url = "http://www.sierrawireless.com/productsandservices/AirVantage_M2M_Cloud.aspx"

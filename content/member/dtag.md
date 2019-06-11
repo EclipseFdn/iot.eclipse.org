@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:17-07:00"
 title = "Deutsche Telekom"
 logo = "dtag" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1139
 more_url = "https://www.qivicon.com/en/"
 # description is taken from eclipse.org

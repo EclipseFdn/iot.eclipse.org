@@ -1,7 +1,7 @@
 +++
 date = "2019-04-18T21:19:52-07:00"
 title = "Compex Systemhaus GmbH"
-is_steering = false
+member_type = "participating"
 logo = "compex" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 member_id = 1195
 more_url = "https://www.compex-commerce.com/en/start/"

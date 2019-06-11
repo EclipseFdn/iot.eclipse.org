@@ -2,7 +2,7 @@
 date = "2018-05-29T15:31:15-07:00"
 title = "Cirrus Link"
 logo = "cirruslink" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1310
 more_url = "https://www.cirrus-link.com/"
 demo_url = "https://vimeo.com/257174334"

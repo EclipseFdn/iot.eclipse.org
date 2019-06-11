@@ -2,7 +2,7 @@
 date = "2016-10-20T15:31:16-07:00"
 title = "IncQuery Labs Ltd."
 logo = "incquery" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1179
 more_url = "http://www.incquerylabs.com/"
 # description is taken from eclipse.org

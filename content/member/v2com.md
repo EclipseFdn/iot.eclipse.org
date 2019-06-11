@@ -2,7 +2,7 @@
 date = "2018-02-15T15:31:15-07:00"
 title = "V2COM"
 logo = "v2com" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
-is_steering = false
+member_type = "participating"
 member_id = 1282
 more_url = "http://www.v2com.com/"
 +++
