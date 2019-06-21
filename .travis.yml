@@ -1,15 +1,13 @@
-sudo: true
-dist: trusty
+language: node_js
+node_js:
+  - "10"
+  - "12"
 install:
-- sudo apt-get --yes install autoconf libtool nasm
 - npm install
-- wget https://github.com/gohugoio/hugo/releases/download/v0.46/hugo_0.46_Linux-64bit.deb
+- wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 script:
 - hugo
-cache:
-  directories:
-  - node_modules
 deploy:
   local-dir: public
   repo: EclipseFdn/iot.eclipse.org
@@ -22,6 +20,7 @@ deploy:
   name: Christopher Guindon
   on:
     branch: master
+    node_js: "10"
 env:
   global:
     secure: P6iUZ8GlaAU88ejVijfECJYqsn2QAQodwVj2G43KhEGLX1Fcr+rEApZuRV88mNHfLxmFPlwjf77K1VboduW7a7QlmDggN4k9Sx1YZDsJN1MkWRC7Uc1QxYM8XIoa8b588gkVphHFF0aJEF02J5tRsm0SrgAwshG/UjnQK1s4qPmV+jaQLIx6kxc65EWDLUVSq8YkoLjW799nIhmX0e8zOIGIyfJBj4Qj0no+TD3GfBsNIGZXOiGzDbgJcv9phSOSjm4tXa5dZ6hEkOU+/M5P84uWOobplFv/wa5mmBgkQ+14XsUcanebuuFNt6u70vhlx+Ry6D5MrI6+XnN/klf3rAKEJWlvqSbnmMl2w/2IEsIQLicQkMr2MKPCL9EWQdaDrCyx9C7aH+M35vVC/N5T5c6X2TVA07JLSC80SWURl+tOQdle1Xmb2oSpNWfj190gJ5wBPzloGpG5du1rVIL9XQJcCIw9qYfjm6kkjP/XjKfSOro6sfk6ew6Ld0G+SY7HCLqpDNZhiYW4rmS8yb9KWLcDM3nm+CIm1ajwMhqEPRH8gTaSsc7/lsG0IAnAQbueRixhuRXUpf7IRa/imNsN6F/m/CK8zM7pW1R9CjIIX47iNQKaLFn/V020O1To42yA+s9avp6G1Oov+yXN1+jvqHslAXKZaBAD3RpXRICxYxY=

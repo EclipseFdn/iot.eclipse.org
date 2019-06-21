@@ -260,7 +260,7 @@
       <div class="row">
         <div class="col-md-8 logos">
           <div class="row" style="margin-top:-37px;">
-            {{ range where ( where .Site.RegularPages.ByTitle  "Section" "member" ) ".Params.is_steering" "==" true }}
+            {{ range where ( where .Site.RegularPages.ByTitle  "Section" "member" ) ".Params.member_type" "==" "steering" }}
             <div class="col-md-4 col-xs-6 sc-member" style="padding:20px 60px; display:none;">
               <div style="height: 120px; line-height: 120px; ">
                 <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
@@ -269,7 +269,7 @@
               </div>
             </div>
             {{ end }}
-            {{ range where ( where .Site.RegularPages.ByTitle  "Section" "member" ) ".Params.is_steering" "==" false }}
+            {{ range where ( where .Site.RegularPages.ByTitle  "Section" "member" ) ".Params.member_type" "!=" "steering" }}
             <div class="col-md-4 col-xs-6 regular-member" style="padding:20px 60px; display:none;">
               <div style="height: 120px; line-height: 120px; ">
                 <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}" target="_blank">
