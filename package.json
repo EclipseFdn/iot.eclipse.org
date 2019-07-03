@@ -17,7 +17,9 @@
     "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "install": "NODE_ENV=production npm run production"
+    "install": "NODE_ENV=production npm run production",
+    "optimize-iot-json": "NODE_ENV=development node bin/scraper/src/index.js",
+    "postinstall": "node bin/scraper/src/index.js"
   },
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
@@ -25,6 +27,7 @@
     "prismjs": "^1.15.0"
   },
   "devDependencies": {
+    "fs": "0.0.1-security",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0"
