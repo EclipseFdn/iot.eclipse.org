@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iot-staging.eclipse.org
+  namespace: foundation-internal-webdev-apps
+spec:
+  selector:
+    matchLabels:
+      app: iot.eclipse.org
+      environment: staging
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: iot.eclipse.org
+        environment: staging
+    spec:
+      containers:
+      - name: nginx
+        image: eclipsefdn/iot.eclipse.org
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            cpu: 500m
+            memory: 128Mi
+          requests:
+            cpu: 200m
+            memory: 64Mi
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: iot-staging-eclipse-org
+  namespace: foundation-internal-webdev-apps
+spec:
+  ports:
+  - name: "http"
+    port: 80
+    protocol: "TCP"
+    targetPort: 8080
+  selector:
+    app: iot.eclipse.org
+    environment: staging
+---
+apiVersion: "route.openshift.io/v1"
+kind: "Route"
+metadata:
+  name: iot-staging.eclipse.org
+  namespace: foundation-internal-webdev-apps
+  annotations:
+    haproxy.router.openshift.io/timeout: 20s
+spec:
+  host: "iot-staging.eclipse.org"
+  path: "/"
+  port:
+    targetPort: "http"
+  tls:
+    insecureEdgeTerminationPolicy: "Redirect"
+    termination: "edge"
+  to:
+    kind: "Service"
+    name: iot-staging-eclipse-org
+    weight: 100
