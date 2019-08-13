@@ -30,7 +30,7 @@ pipeline {
     CONTAINER_NAME = 'nginx'
     ENVIRONMENT = sh(
       script: """
-        if [ ${env.BRANCH_NAME} = "master" ]; then
+        if [ "${env.BRANCH_NAME}" = "master" ]; then
           printf "production"
         else
           printf "${env.BRANCH_NAME}"
@@ -41,7 +41,7 @@ pipeline {
     TAG_NAME = sh(
       script: """
         GIT_COMMIT_SHORT=\$(git rev-parse --short ${env.GIT_COMMIT})
-        if [ ${env.ENVIRONMENT} = '' ]; then
+        if [ "${env.ENVIRONMENT}" = "" ]; then
           printf \${GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
         else
           printf ${env.ENVIRONMENT}-\${GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
@@ -51,7 +51,7 @@ pipeline {
     )
     BASE_NGINX_IMAGE_TAG = sh(
       script: """
-        if [ ${env.ENVIRONMENT} = "production" ]; then 
+        if [ "${env.ENVIRONMENT}" = "production" ]; then 
           printf "stable-alpine"
         else
           printf "stable-alpine-for-staging"
