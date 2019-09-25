@@ -1,0 +1,30 @@
+---
+adopters:
+  projects:
+  - name: Eclipse Paho
+    id: iot.paho
+    adopters:
+
+    - name: Bosch Software Innovations
+      homepage_url: https://www.eclipse.org/membership/showMember.php?member_id=979
+      logo: https://iot.eclipse.org/assets/images/members/logo-bosch.png
+      logo_white: https://iot.eclipse.org/assets/images/members/logo-bosch.png
+
+    - name: Eurotech
+      homepage_url: 'https://www.eclipse.org/membership/showMember.php?member_id=968'
+      logo: https://iot.eclipse.org/assets/images/members/logo-eurotech.png
+      logo_white: https://iot.eclipse.org/assets/images/members/logo-eurotech.png
+
+  - name: Eclipse SmartHome
+    id: iot.smarthome
+    adopters:
+
+    - name: Bosch Software Innovations
+      homepage_url: https://www.eclipse.org/membership/showMember.php?member_id=979
+      logo: https://iot.eclipse.org/assets/images/members/logo-bosch.png
+      logo_white: https://iot.eclipse.org/assets/images/members/logo-bosch.png
+
+    - name: Eurotech
+      homepage_url: 'https://www.eclipse.org/membership/showMember.php?member_id=968'
+      logo: https://iot.eclipse.org/assets/images/members/logo-eurotech.png
+      logo_white: https://iot.eclipse.org/assets/images/members/logo-eurotech.png

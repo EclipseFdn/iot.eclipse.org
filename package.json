@@ -17,15 +17,17 @@
     "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "install": "NODE_ENV=production npm run production",
+    "install": "NODE_ENV=production npm run production && npm run yaml2json_adopters",
     "optimize-iot-json": "NODE_ENV=production node bin/scraper/src/index.js",
     "postinstall": "node bin/scraper/src/index.js",
-    "build_netlify": "NODE_ENV=production npm run production && npm run optimize-iot-json"
+    "build_netlify": "NODE_ENV=production npm run production && npm run optimize-iot-json",
+    "yaml2json_adopters": "rm -f static/js/adopters.json && touch static/js/adopters.json && ./node_modules/yamljs/bin/yaml2json data/adopters.yml > static/js/adopters.json"
   },
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
     "eclipsefdn-hugo-solstice-theme": "0.0.17",
-    "prismjs": "^1.15.0"
+    "prismjs": "^1.15.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "fs": "0.0.1-security",
