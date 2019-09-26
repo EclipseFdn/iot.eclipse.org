@@ -32,7 +32,8 @@
   var default_options = {
     project_id: "",
     selector: ".eclipsefdn-adopters",
-    ul_classes: ""
+    ul_classes: "",
+    logo_white: false
   };
 
   /**
@@ -45,7 +46,7 @@
    // Go through the parameters of Options if its defined and is an object
     if (typeof(options) !== 'undefined' && typeof(options) === 'object') {
       for (var optionName in default_options) {
-        if (typeof(options[optionName]) === 'undefined' || typeof(options[optionName]) !== 'string') {
+        if (typeof(options[optionName]) === 'undefined' || (typeof(options[optionName]) !== 'string' && typeof(options[optionName]) !== 'boolean')) {
           continue;
         }
         default_options[optionName] = options[optionName];
@@ -89,6 +90,10 @@
             var logo = "";
             if (typeof adopter['logo'] != 'undefined') {
               logo = adopter['logo'];
+            }
+            console.log(default_options['logo_white']);
+            if (default_options['logo_white'] === true && typeof adopter['logo_white'] != 'undefined') {
+              logo = adopter['logo_white'];
             }
 
             // Create the html elements

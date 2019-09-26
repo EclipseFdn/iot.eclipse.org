@@ -1,5 +1,4 @@
-var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.ditto","adopters":[{"name":"Bosch Software Innovations","homepage_url":"https://www.bosch-iot-suite.com/service/things/","logo":"https://iot.eclipse.org/assets/images/members/logo-bosch.png","logo_white":"https://iot.eclipse.org/assets/images/members/logo-bosch-white.svg"}]}]}}
-';
+var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.ditto","adopters":[{"name":"Bosch Software Innovations","homepage_url":"https://www.bosch-iot-suite.com/service/things/","logo":"https://iot.eclipse.org/assets/images/members/logo-bosch.png","logo_white":"https://iot.eclipse.org/assets/images/members/logo-bosch-white.svg"}]}]}}';
 /*!
  * Copyright (c) 2019 Eclipse Foundation, Inc.
  * 
@@ -34,7 +33,8 @@ var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.
   var default_options = {
     project_id: "",
     selector: ".eclipsefdn-adopters",
-    ul_classes: ""
+    ul_classes: "",
+    logo_white: false
   };
 
   /**
@@ -47,7 +47,7 @@ var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.
    // Go through the parameters of Options if its defined and is an object
     if (typeof(options) !== 'undefined' && typeof(options) === 'object') {
       for (var optionName in default_options) {
-        if (typeof(options[optionName]) === 'undefined' || typeof(options[optionName]) !== 'string') {
+        if (typeof(options[optionName]) === 'undefined' || (typeof(options[optionName]) !== 'string' && typeof(options[optionName]) !== 'boolean')) {
           continue;
         }
         default_options[optionName] = options[optionName];
@@ -91,6 +91,10 @@ var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.
             var logo = "";
             if (typeof adopter['logo'] != 'undefined') {
               logo = adopter['logo'];
+            }
+            console.log(default_options['logo_white']);
+            if (default_options['logo_white'] === true && typeof adopter['logo_white'] != 'undefined') {
+              logo = adopter['logo_white'];
             }
 
             // Create the html elements
