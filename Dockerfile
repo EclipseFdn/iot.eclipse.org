@@ -30,7 +30,6 @@ RUN echo -n "Node.js version " && node --version \
   && hugo version
 
 RUN npm --unsafe-perm ci \
-    && npm run --unsafe-perm production \
     && hugo
 
 FROM eclipsefdn/nginx:${NGINX_IMAGE_TAG}
