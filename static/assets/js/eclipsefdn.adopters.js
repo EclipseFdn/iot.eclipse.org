@@ -56,7 +56,7 @@
 
     window.onload = function () {
 
-      const myRequest = new Request('//iot.eclipse.org/assets/js/adopters.json');
+      const myRequest = new Request('//raw.githubusercontent.com/EclipseFdn/iot.eclipse.org/master/static/assets/js/adopters.json');
 
       const ul = document.createElement('ul');
 
