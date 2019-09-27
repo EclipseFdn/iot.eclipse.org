@@ -24,6 +24,57 @@ hugo server
 5. Push feature branch: `git push origin my-new-feature`
 6. Submit a pull request
 
+## Adopters Plugin
+
+Here are quick instructions on how to use the eclipsefdn-adopters.js:
+
+Add the following scripts to the <head> section of the page
+
+### Usage
+
+Include plugin's JS:
+
+```html
+<script src="//iot.eclipse.org/assets/js/eclipsefdn.adopters.js"></script>
+```
+
+Call the plugin:
+
+```
+<script>
+  eclipseFdnAdopters.getList({
+    project_id: "[project_id]"
+  });
+</script>
+```
+
+Create an HTML element containing the chosen selector:
+
+```
+<div class="eclipsefdn-adopters"></div>
+```
+* By default, the selector's value is 
+
+###Options
+
+```
+<script>
+  eclipseFdnAdopters.getList({
+    project_id: "[project_id]",
+    selector: ".eclipsefdn-adopters",
+    ul_classes: "list-inline",
+    logo_white: false
+  });
+</script>
+```
+
+Attribute     | Type        | Default   | Description
+---           | ---         | ---       | ---
+`project_id`   | *String*   | ` `    | Select adopters from a specific project ID.
+`selector`   | *String*   | `.eclipsefdn-adopters`    | Define the selector that the plugin will insert adopters into.
+`ul_classes`  | *String*   | ` `   | Define classes that will be assigned to the ul element.
+`logo_white`  | *Boolean*   | `false`   | Whether or not we use the white version of the logo.
+
 ### Declared Project Licenses
 
 This program and the accompanying materials are made available under the terms
