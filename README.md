@@ -55,7 +55,7 @@ Create an HTML element containing the chosen selector:
 ```
 * By default, the selector's value is 
 
-###Options
+### Options
 
 ```
 <script>
