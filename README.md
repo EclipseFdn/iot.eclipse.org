@@ -24,15 +24,22 @@ hugo server
 5. Push feature branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-## Adopters Plugin
+## Project Adopter
 
-Here are quick instructions on how to use the eclipsefdn-adopters.js:
+Add your organization logo to our list of adopters by creating a pull-request or by creating an [issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md).
 
-Add the following scripts to the <head> section of the page
+If you plan on submitting a pull-request, you will need to make the following changes:
 
-### Usage
+1. Add a color and a white organization logo to static/assets/images/adoptors. All logo should be transparent svg.
+2. Update adopter data file: [data/adopters.yml](https://github.com/EclipseFdn/iot.eclipse.org/blob/master/data/adopters.yml)
 
-Include plugin's JS:
+### Javascript Plugin 
+
+Here are quick instructions on how to use the eclipsefdn-adopters.js on your Eclipse projet website:
+
+#### Usage
+
+Include plugin's JS to the <head> section of the page:
 
 ```html
 <script src="//iot.eclipse.org/assets/js/eclipsefdn.adopters.js"></script>
@@ -55,7 +62,7 @@ Create an HTML element containing the chosen selector:
 ```
 * By default, the selector's value is 
 
-### Options
+#### Options
 
 ```
 <script>
