@@ -24,28 +24,30 @@ hugo server
 5. Push feature branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-## Project Adopter
+## Project Adopters
 
-Add your organization logo to our list of adopters by creating a pull-request or by creating an [issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md).
+Organizations that are not members of the Eclipse Foundation but use Eclipse technologies can now be listed as Eclipse adopters. Eclipse adopters are organizations that voluntarly choose to show their support to their favorite Eclipse projects. On this website, adopters are displayed under the ```/adopters``` virtual path. 
 
-If you plan on submitting a pull-request, you will need to make the following changes:
+You can add your organization logo to our list of adopters by submitting a pull request or by creating an [issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md).
+
+If you plan on submitting a pull request, you will need to make the following changes to the website's codebase: 
 
 1. Add a colored and a white organization logo to static/assets/images/adoptors. We expect that all submitted logos to be transparent svg.
-2. Update adopter data file: [data/adopters.yml](https://github.com/EclipseFdn/iot.eclipse.org/blob/master/data/adopters.yml)
+2. Update the adopter data file: [data/adopters.yml](https://github.com/EclipseFdn/iot.eclipse.org/blob/master/data/adopters.yml) If your organization wishes to express support for multiple projects, you will need to add your organization's YAML definition to the ```adopters``` list of each of the relevant project nodes.
 
 ### Javascript Plugin 
 
-Here are quick instructions on how to use the eclipsefdn-adopters.js on your Eclipse projet website:
+Eclipse projects can showcase the logos of their adopters on their project websites. We built a JavaScript plugin to make this process easier. If you are a project committer, here are quick instructions on how to use the eclipsefdn-adopters.js on your Eclipse projet website:
 
 #### Usage
 
-Include plugin's JS to the <head> section of the page:
+Include the plugin's JS in the <head> section of the page:
 
 ```html
 <script src="//iot.eclipse.org/assets/js/eclipsefdn.adopters.js"></script>
 ```
 
-Call the plugin:
+Load the plugin:
 
 ```
 <script>
@@ -60,7 +62,7 @@ Create an HTML element containing the chosen selector:
 ```
 <div class="eclipsefdn-adopters"></div>
 ```
-* By default, the selector's value is 
+* By default, the selector's value is ```eclipsefdn-adopters```.
 
 #### Options
 
