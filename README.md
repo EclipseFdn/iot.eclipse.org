@@ -26,7 +26,9 @@ hugo server
 
 ## Project Adopters
 
-Organizations that are not members of the Eclipse Foundation but use Eclipse technologies can now be listed as Eclipse adopters. Eclipse adopters are organizations that voluntarly choose to show their support to their favorite Eclipse projects. On this website, adopters are displayed under the ```/adopters``` virtual path. 
+Does your organization use Eclipse IoT projects? Organizations — whether they are members of the Eclipse Foundation or not — can be listed as Eclipse IoT technology adopters.
+
+Adopters are organizations that voluntarily show their support for the Eclipse IoT projects they have adopted (i.e. shipping commercial products based on the projects and/or using the projects for non-commercial or internal reasons). On this website, adopters are displayed under the [/adopters](https://iot.eclipse.org/adopters/) virtual path.
 
 You can add your organization logo to our list of adopters by submitting a pull request or by creating an [issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md).
 
