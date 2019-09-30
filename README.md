@@ -30,7 +30,7 @@ Add your organization logo to our list of adopters by creating a pull-request or
 
 If you plan on submitting a pull-request, you will need to make the following changes:
 
-1. Add a color and a white organization logo to static/assets/images/adoptors. We expect that all submitted logos to be transparent svg.
+1. Add a colored and a white organization logo to static/assets/images/adoptors. We expect that all submitted logos to be transparent svg.
 2. Update adopter data file: [data/adopters.yml](https://github.com/EclipseFdn/iot.eclipse.org/blob/master/data/adopters.yml)
 
 ### Javascript Plugin 
