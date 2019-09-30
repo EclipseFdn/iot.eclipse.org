@@ -77,7 +77,7 @@ Create an HTML element containing the chosen selector:
 
 Attribute     | Type        | Default   | Description
 ---           | ---         | ---       | ---
-`project_id`   | *String*   | ` `    | Select adopters from a specific project ID.
+`project_id`   | *String*   | ` `    | **Required**: Select adopters from a specific project ID.
 `selector`   | *String*   | `.eclipsefdn-adopters`    | Define the selector that the plugin will insert adopters into.
 `ul_classes`  | *String*   | ` `   | Define classes that will be assigned to the ul element.
 `logo_white`  | *Boolean*   | `false`   | Whether or not we use the white version of the logo.
