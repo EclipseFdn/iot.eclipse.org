@@ -9,6 +9,4 @@ Eclipse IoT’s community of adopters is growing! Innovative organizations of al
 
 Do you use Eclipse IoT technologies? Show your support for open source by adding your logo to this page. Please open a [pull request](https://github.com/eclipsefdn/iot.eclipse.org#project-adopters) to add your logo below. 
 
-Last Updated: 2019-09-30 13:40:00
-
  {{< adopters >}}

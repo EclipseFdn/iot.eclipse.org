@@ -1,4 +1,4 @@
-var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.ditto","adopters":[{"name":"Bosch Software Innovations","homepage_url":"https://www.bosch-iot-suite.com/service/things/","logo":"https://iot.eclipse.org/assets/images/members/logo-bosch.png","logo_white":"https://iot.eclipse.org/assets/images/members/logo-bosch-white.svg"}]}]}}';
+var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.ditto","adopters":[{"name":"Bosch Software Innovations","homepage_url":"https://www.bosch-iot-suite.com/service/things/","logo":"logo-bosch.png","logo_white":"logo-bosch-white.svg"},{"name":"Aloxy","homepage_url":"http://www.aloxy.io/","logo":"logo-aloxy.svg","logo_white":"logo-aloxy-white.svg"}]}]}}';
 /*!
  * Copyright (c) 2019 Eclipse Foundation, Inc.
  * 
@@ -103,8 +103,8 @@ var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.
             let img = document.createElement('img');
 
             a.setAttribute('href', url);
-            img.setAttribute('name', name);
-            img.setAttribute('src', logo);
+            img.setAttribute('alt', name);
+            img.setAttribute('src', "https://iot.eclipse.org/assets/images/adopters/" + logo);
 
             a.appendChild(img);
             li.appendChild(a);
@@ -127,4 +127,4 @@ var json_adopters = '{"adopters":{"projects":[{"name":"Eclipse Ditto","id":"iot.
   }
 
   return eclipseFdnAdopters;
-}); 
+});

@@ -14,4 +14,5 @@
 
 rm -f static/assets/js/eclipsefdn.adopters.js
 touch static/assets/js/eclipsefdn.adopters.js
-(echo -n "var json_adopters = '"; ./node_modules/yamljs/bin/yaml2json data/adopters.yml | tr -d '\n'; echo "';"; cat static/js/adopters.js ) > static/assets/js/eclipsefdn.adopters.js
+(echo -n "var json_adopters = '"; ./node_modules/yamljs/bin/yaml2json data/adopters.yml | tr -d '\n'; echo "';"; cat ./node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.adopters.js ) \
+  > static/assets/js/eclipsefdn.adopters.js

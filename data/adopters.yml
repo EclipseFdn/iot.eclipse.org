@@ -7,11 +7,11 @@ adopters:
 
     - name: Bosch Software Innovations
       homepage_url: https://www.bosch-iot-suite.com/service/things/
-      logo: https://iot.eclipse.org/assets/images/members/logo-bosch.png
-      logo_white: https://iot.eclipse.org/assets/images/members/logo-bosch-white.svg
+      logo: logo-bosch.png
+      logo_white: logo-bosch-white.svg
       
     - name: Aloxy
       homepage_url: http://www.aloxy.io/
-      logo: https://iot.eclipse.org/assets/images/adopters/logo-aloxy.svg
-      logo_white: https://iot.eclipse.org/assets/images/adopters/logo-aloxy-white.svg
+      logo: logo-aloxy.svg
+      logo_white: logo-aloxy-white.svg
       
