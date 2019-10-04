@@ -14,4 +14,12 @@ adopters:
       homepage_url: http://www.aloxy.io/
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
-      
+
+  - name: Eclipse Hono
+    id: iot.hono
+    adopters:
+
+    - name: Red Hat
+      homepage_url: https://www.redhat.com/en/technologies/jboss-middleware/amq
+      logo: Logo-RedHat-A-Color-RGB.svg
+      logo_white: Logo-RedHat-A-Reverse-RGB.svg
