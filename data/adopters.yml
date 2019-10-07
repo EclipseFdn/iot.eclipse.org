@@ -15,3 +15,7 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
       
+    - name: othermo
+      homepage_url: https://othermo.de
+      logo: logo-othermo.svg
+      logo_white: logo-othermo-white.svg
