@@ -15,3 +15,22 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
       
+  - name: Eclipse Hono
+    id: iot.hono
+    adopters:
+
+    - name: Aloxy
+      homepage_url: http://www.aloxy.io/
+      logo: logo-aloxy.svg
+      logo_white: logo-aloxy-white.svg
+
+  - name: Eclipse Vorto
+    id: iot.vorto
+    adopters:
+
+    - name: Aloxy
+      homepage_url: http://www.aloxy.io/
+      logo: logo-aloxy.svg
+      logo_white: logo-aloxy-white.svg
+
+      
