@@ -9,14 +9,14 @@
   SPDX-License-Identifier: EPL-2.0
 -->
 
-{{ range .Site.Data.adopters.adopters.projects }}
+{{ range sort .Site.Data.adopters.adopters.projects "name" "asc"}}
   <div class="col-md-24">
     <h2 style="border-bottom:1px solid #999; padding-bottom:5px;margin-bottom:0px;">
       {{ .name }} 
       <span class="badge"><a href="https://projects.eclipse.org/projects/{{ .id }}" style="color:#fff;">{{ .id }}</a></span>
     </h2>
     <ul class="list-inline">
-      {{ range .adopters }}
+      {{ range sort .adopters "name" "asc"}}
         <li><a href="{{ .homepage_url }}" target="_blank"><img src="/assets/images/adopters/{{ .logo }}" alt="{{ .name }}" style="padding:15px; width:250px;"/></a></li>
       {{end}}
     </ul>
