@@ -14,6 +14,14 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
       
+  - name: Eclipse Vorto
+    id: iot.vorto
+    adopters:
+    - name: Aloxy
+      homepage_url: http://www.aloxy.io/
+      logo: logo-aloxy.svg
+      logo_white: logo-aloxy-white.svg
+
     - name: othermo
       homepage_url: https://othermo.de
       logo: logo-othermo.svg
@@ -26,6 +34,11 @@ adopters:
       homepage_url: https://www.redhat.com/en/technologies/jboss-middleware/amq
       logo: Logo-RedHat-A-Color-RGB.svg
       logo_white: Logo-RedHat-A-Reverse-RGB.svg
+      
+    - name: Aloxy
+      homepage_url: http://www.aloxy.io/
+      logo: logo-aloxy.svg
+      logo_white: logo-aloxy-white.svg
       
   - name: Eclipse Paho
     id: iot.paho
