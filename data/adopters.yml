@@ -13,7 +13,12 @@ adopters:
       homepage_url: http://www.aloxy.io/
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
-      
+
+    - name: othermo
+      homepage_url: https://othermo.de
+      logo: logo-othermo.svg
+      logo_white: logo-othermo-white.svg
+
   - name: Eclipse Vorto
     id: iot.vorto
     adopters:
@@ -22,11 +27,6 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
 
-    - name: othermo
-      homepage_url: https://othermo.de
-      logo: logo-othermo.svg
-      logo_white: logo-othermo-white.svg
-      
   - name: Eclipse Hono
     id: iot.hono
     adopters:
