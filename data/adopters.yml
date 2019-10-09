@@ -15,3 +15,11 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
       
+  - name: Eclipse Paho
+    id: iot.paho
+    adopters:
+
+    - name: Microsoft
+      homepage_url: https://microsoft.com/iot
+      logo: logo-microsoft.svg
+      logo_white: logo-microsoft-white.svg
