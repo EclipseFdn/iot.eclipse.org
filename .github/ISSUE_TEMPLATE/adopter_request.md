@@ -11,7 +11,7 @@ Project Name = "Eclipse xxxx"
 
 ### Logos
 
-**Important:** We only accept transparent logos in svg format.
+**Important:** We only accept transparent logos in svg format. Please note that we require both color options for logos for distribution purposes.
 
 * Color logo:
 * White logo:
