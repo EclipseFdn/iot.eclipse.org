@@ -66,7 +66,6 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
-      
     - name: Open Robotics
       homepage_url: https://www.openrobotics.org/
       logo: logo-open-robotics.svg
@@ -75,7 +74,6 @@ adopters:
   - name: Eclipse hawkBit
     id: iot.hawkbit
     adopters:
-      
     - name: Bosch Software Innovations
       homepage_url: https://www.bosch-iot-suite.com/service/things/
       logo: logo-bosch.svg
