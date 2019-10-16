@@ -33,7 +33,7 @@ adopters:
       logo_white: logo-othermo-white.svg
       
     - name: Bosch Software Innovations
-      homepage_url: https://www.bosch-iot-suite.com/service/things/
+      homepage_url: https://www.bosch-iot-suite.com
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
 
@@ -51,7 +51,7 @@ adopters:
       logo_white: logo-aloxy-white.svg
       
     - name: Bosch Software Innovations
-      homepage_url: https://www.bosch-iot-suite.com/service/things/
+      homepage_url: https://www.bosch-iot-suite.com/service/hub/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
       
@@ -75,6 +75,6 @@ adopters:
     id: iot.hawkbit
     adopters:
     - name: Bosch Software Innovations
-      homepage_url: https://www.bosch-iot-suite.com/service/things/
+      homepage_url: https://www.bosch-iot-suite.com/service/rollouts/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
