@@ -12,7 +12,8 @@
 # SPDX-License-Identifier: EPL-2.0
 # ===========================================================================
 
-rm -f static/assets/js/eclipsefdn.adopters.js
-touch static/assets/js/eclipsefdn.adopters.js
-(echo -n "var json_adopters = '"; ./node_modules/yamljs/bin/yaml2json data/adopters.yml | tr -d '\n'; echo "';"; cat ./node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.adopters.js ) \
+rm -f static/assets/js/eclipsefdn.adopters.js && touch static/assets/js/eclipsefdn.adopters.js
+rm -f static/assets/js/eclipsefdn.adopters.json && touch static/assets/js/eclipsefdn.adopters.json
+./node_modules/js-yaml/bin/js-yaml.js -c data/adopters.yml | ./node_modules/json-minify/index.js > static/assets/js/eclipsefdn.adopters.json 
+(echo -n "var json_adopters = '"; cat ./static/assets/js/eclipsefdn.adopters.json | tr -d '\n'; echo "';"; cat ./node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.adopters.js ) \
   > static/assets/js/eclipsefdn.adopters.js
