@@ -38,7 +38,7 @@ adopters:
     - name: Red Hat
       homepage_url: https://www.redhat.com/en/technologies/jboss-middleware/amq
       logo: Logo-RedHat-A-Color-RGB.svg
-      logo_white: Logo-RedHat-A-Reverse-RGB.svg
+      logo_white: Logo-RedHat-A-White-RGB.svg
       
     - name: Aloxy
       homepage_url: http://www.aloxy.io/
