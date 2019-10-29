@@ -70,6 +70,10 @@ adopters:
       homepage_url: https://www.openrobotics.org/
       logo: logo-open-robotics.svg
       logo_white: logo-open-robotics-white.svg
+    - name: ADLINK Technology
+      homepage_url: https://www.adlinktech.com
+      logo: logo-adlink.svg
+      logo_white: logo-adlink-white.png
       
   - name: Eclipse hawkBit
     id: iot.hawkbit
