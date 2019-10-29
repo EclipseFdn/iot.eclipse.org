@@ -74,6 +74,10 @@ adopters:
       homepage_url: https://www.adlinktech.com
       logo: logo-adlink.svg
       logo_white: logo-adlink-white.png
+    - name: Trajekt Sports Inc.
+      homepage_url: http://www.trajektsports.com
+      logo: logo-trajekt-sports.svg
+      logo_white: logo-trajekt-sports-white.svg
       
   - name: Eclipse hawkBit
     id: iot.hawkbit
