@@ -78,6 +78,10 @@ adopters:
       homepage_url: http://www.trajektsports.com
       logo: logo-trajekt-sports.svg
       logo_white: logo-trajekt-sports-white.svg
+    - name: Rover Robotics
+      homepage_url: http://www.roverrobotics.com
+      logo: logo-rover-robotics.png
+      logo_white: logo-rover-robotics-white.png
       
   - name: Eclipse hawkBit
     id: iot.hawkbit
