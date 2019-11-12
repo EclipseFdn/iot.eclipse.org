@@ -1,6 +1,6 @@
 # Notices for iot.eclipse.org
 
-This content is produced and maintained by the Eclipse Foundation.
+This content is produced and maintained by the Eclipse Foundation. Trademarks are the property of their respective owners.
 
 * Project home: https://github.com/eclipsefdn/iot.eclipse.org
 
