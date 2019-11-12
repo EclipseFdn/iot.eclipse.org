@@ -6,7 +6,6 @@ This content is produced and maintained by the Eclipse Foundation.
 
 ## Trademarks
 
-* Jakarta and Jakarta EE are Trademarks of the Eclipse Foundation, Inc.
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
 * Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
 
