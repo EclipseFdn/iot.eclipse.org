@@ -83,6 +83,14 @@ adopters:
       logo: logo-rover-robotics.png
       logo_white: logo-rover-robotics-white.png
       
+  - name: Eclipse iceoryx
+    id: technology.iceoryx
+    adopters:
+    - name: ADLINK Technology
+      homepage_url: https://www.adlinktech.com
+      logo: logo-adlink.svg
+      logo_white: logo-adlink-white.png
+      
   - name: Eclipse hawkBit
     id: iot.hawkbit
     adopters:
