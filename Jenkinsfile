@@ -114,8 +114,8 @@ pipeline {
           withKubeConfig([credentialsId: '1d8095ea-7e9d-4e94-b799-6dadddfdd18a', serverUrl: 'https://console-int.c1-ci.eclipse.org']) {
             sh '''
               DEPLOYMENT="$(k8s getFirst deployment "${NAMESPACE}" "app=${APP_NAME},environment=${ENVIRONMENT}")"
-              if [[ $(echo "${resource}" | jq -r 'length') -eq 0 ]]; then
-                echo "ERROR: Unable to find a deployment to patch matching '${selector}' in namespace ${namespace}"
+              if [[ $(echo "${DEPLOYMENT}" | jq -r 'length') -eq 0 ]]; then
+                echo "ERROR: Unable to find a deployment to patch matching '${selector}' in namespace ${NAMESPACE}"
                 exit 1
               else 
                 DEPLOYMENT_NAME="$(echo "${DEPLOYMENT}" | jq -r '.metadata.name')"
