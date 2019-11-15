@@ -82,6 +82,10 @@ adopters:
       homepage_url: http://www.roverrobotics.com
       logo: logo-rover-robotics.png
       logo_white: logo-rover-robotics-white.png
+    - name: Bosch Software Innovations
+      homepage_url: https://www.bosch-iot-suite.com/service/things/
+      logo: logo-bosch.svg
+      logo_white: logo-bosch-white.svg
       
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -90,6 +94,10 @@ adopters:
       homepage_url: https://www.adlinktech.com
       logo: logo-adlink.svg
       logo_white: logo-adlink-white.png
+    - name: Bosch Software Innovations
+      homepage_url: https://www.bosch-iot-suite.com/service/things/
+      logo: logo-bosch.svg
+      logo_white: logo-bosch-white.svg
       
   - name: Eclipse hawkBit
     id: iot.hawkbit
@@ -98,3 +106,19 @@ adopters:
       homepage_url: https://www.bosch-iot-suite.com/service/rollouts/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
+      
+  - name: Eclipse Kura
+    id: iot.kura
+    adopters:
+    - name: Eurotech
+      homepage_url: https://www.eurotech.com
+      logo: logo-eurotech.svg
+      logo_white: logo-eurotech-white.svg
+      
+  - name: Eclipse Kapua
+    id: iot.kapua
+    adopters:
+    - name: Eurotech
+      homepage_url: https://www.eurotech.com
+      logo: logo-eurotech.svg
+      logo_white: logo-eurotech-white.svg
