@@ -19,6 +19,11 @@ adopters:
       logo: logo-othermo.svg
       logo_white: logo-othermo-white.svg
 
+    - name: Kiwigrid GmbH
+      homepage_url: https://www.kiwigrid.com
+      logo: logo-kiwigrid.svg
+      logo_white: logo-kiwigrid-white.svg
+
   - name: Eclipse Vorto
     id: iot.vorto
     adopters:
@@ -54,6 +59,11 @@ adopters:
       homepage_url: https://www.bosch-iot-suite.com/service/hub/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
+
+    - name: Kiwigrid GmbH
+      homepage_url: https://www.kiwigrid.com
+      logo: logo-kiwigrid.svg
+      logo_white: logo-kiwigrid-white.svg
       
   - name: Eclipse Paho
     id: iot.paho
@@ -106,6 +116,11 @@ adopters:
       homepage_url: https://www.bosch-iot-suite.com/service/rollouts/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
+
+    - name: Kiwigrid GmbH
+      homepage_url: https://www.kiwigrid.com
+      logo: logo-kiwigrid.svg
+      logo_white: logo-kiwigrid-white.svg
       
   - name: Eclipse Kura
     id: iot.kura
