@@ -96,6 +96,10 @@ adopters:
       homepage_url: https://www.bosch-iot-suite.com/service/things/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
+    - name: RYRacing, LLC
+      homepage_url: http://www.ryracing.com
+      logo: logo-ryracing.svg
+      logo_white: logo-ryracing-white.svg
       
   - name: Eclipse iceoryx
     id: technology.iceoryx
