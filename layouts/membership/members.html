@@ -6,7 +6,7 @@
       </p>
       <h2 class="purple">Strategic members<br /><br /></h2>
       <div id="sc-members">
-        {{ range where .Site.RegularPages.ByTitle "Section" "member" }}
+        {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
         {{ if eq .Params.member_type "steering" }}
         <div class="row members-info" id="member-{{ .Params.logo }}">
           <div class="col-md-2 col-md-offset-1 mb-logo">
@@ -37,7 +37,7 @@
       </div>
       <h2 class="purple" style="margin-top: 2em;">Participating members<br /><br /></h2>
       <div id="participating-members">
-        {{ range where .Site.RegularPages.ByTitle "Section" "member" }}
+        {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
         {{ if eq .Params.member_type "participating" }}
         <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
           <div class="col-md-2 col-md-offset-1 mb-logo">
@@ -68,7 +68,7 @@
       </div>
       <h2 class="purple" style="margin-top: 2em;">Guest members<br /><br /></h2>
       <div id="guest-members">
-        {{ range where .Site.RegularPages.ByTitle "Section" "member" }}
+        {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
         {{ if eq .Params.member_type "guest" }}
         <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
           <div class="col-md-2 col-md-offset-1 mb-logo">
