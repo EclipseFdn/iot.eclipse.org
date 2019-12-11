@@ -100,6 +100,10 @@ adopters:
       homepage_url: http://www.ryracing.com
       logo: logo-ryracing.svg
       logo_white: logo-ryracing-white.svg
+    - name: The Construct
+      homepage_url: http://www.theconstruct.ai
+      logo: logo-construct.png
+      logo_white: logo-construct-white.png
       
   - name: Eclipse iceoryx
     id: technology.iceoryx
