@@ -130,6 +130,16 @@ adopters:
       logo: logo-kiwigrid.svg
       logo_white: logo-kiwigrid-white.svg
       
+    - name: pragmatic industries GmbH
+      homepage_url: https://pragmaticindustries.com/
+      logo: logo-pragmatic-industries.svg
+      logo_white: logo-pragmatic-industries-white.svg
+      
+    - name: pragmatic minds GmbH
+      homepage_url: https://pragmaticminds.de/
+      logo: logo-pragmatic-minds.svg
+      logo_white: logo-pragmatic-minds-white.svg
+      
   - name: Eclipse Kura
     id: iot.kura
     adopters:
