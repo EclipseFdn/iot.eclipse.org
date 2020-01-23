@@ -3,6 +3,7 @@
     "/css/bootstrap.css": "/css/bootstrap.css",
     "/css/font-awesome.css": "/css/font-awesome.css",
     "/js/main.js": "/js/main.js",
+    "/js/eclipsefdn.adopters.js": "/js/eclipsefdn.adopters.js",
     "/static/js/bootstrap/bootstrap-sprockets.js": "/static/js/bootstrap/bootstrap-sprockets.js",
     "/static/js/bootstrap/bootstrap.js": "/static/js/bootstrap/bootstrap.js",
     "/static/js/bootstrap/bootstrap.min.js": "/static/js/bootstrap/bootstrap.min.js"
