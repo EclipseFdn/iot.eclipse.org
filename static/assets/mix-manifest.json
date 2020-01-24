@@ -1,7 +1,5 @@
 {
-    "/css/eclipsefdn-video.css": "/css/eclipsefdn-video.css",
-    "/css/bootstrap.css": "/css/bootstrap.css",
-    "/css/font-awesome.css": "/css/font-awesome.css",
+    "/css/styles.css": "/css/styles.css",
     "/js/main.js": "/js/main.js",
     "/js/eclipsefdn.adopters.js": "/js/eclipsefdn.adopters.js",
     "/static/js/bootstrap/bootstrap-sprockets.js": "/static/js/bootstrap/bootstrap-sprockets.js",
