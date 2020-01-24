@@ -16,8 +16,9 @@ buildFuture = true
   subtitle = ""
   seo_title_suffix = " | IoT development made simple - iot.eclipse.org"
   keywords = [""]
-  logo = "assets/images/iot-logo.png"
-  styles = "assets/css/bootstrap.css"
+  logo = "assets/images/logo_white.svg"
+  logo_width = 120
+  styles = "assets/css/styles.css"
   js = "assets/js/main.js"
 
   favicon = "favicon.ico"
@@ -41,3 +42,28 @@ buildFuture = true
   youtube = "EclipseFdn"
   googleplus = "+Eclipse"
   linkedin = "company/eclipse-foundation/"
+  
+[[menu.main]]
+  name = "Adopters"
+  url = "/adopters"
+  weight = 1
+    
+[[menu.main]]
+  name = "Members"
+  url = "/membership"
+  weight = 2
+  
+[[menu.main]]
+  name = "Projects"
+  url = "/projects"
+  weight = 3
+  
+[[menu.main]]
+  name = "Use Cases"
+  url = "/use-cases"
+  weight = 4
+
+[[menu.main]]
+  name = "Community"
+  url = "/community"
+  weight = 5

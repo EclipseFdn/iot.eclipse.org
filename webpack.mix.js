@@ -17,19 +17,7 @@ mix.setPublicPath('static/assets');
 mix.setResourceRoot('../');
 
 // CSS
-mix.sass('static/assets/stylesheets/bootstrap.scss', 'static/assets/css/bootstrap.css');
-mix.less('./node_modules/eclipsefdn-solstice-assets/less/_components/eclipsefdn-video.less', 'static/assets/css/eclipsefdn-video.css');
-
-mix.styles([
-    'static/assets/css/bootstrap.css',
-    'static/assets/css/eclipsefdn-video.css',
-    'node_modules/cookieconsent/build/cookieconsent.min.css',
-    'static/assets/css/icomoon.css',
-    'node_modules/prismjs/themes/prism.css',
-    'node_modules/prismjs/plugins/prism-line-highlight.css',
-    'node_modules/prismjs/plugins/prism-line-numbers.css'
-], 'static/assets/css/bootstrap.css');
-mix.copy('./node_modules/font-awesome/css/font-awesome.min.css', 'static/assets/css/font-awesome.css');
+mix.less('./less/styles.less', 'static/assets/css/styles.css');
 
 // JavaScript
 mix.scripts([
@@ -47,6 +35,7 @@ mix.scripts([
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js',
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
     './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
+    './node_modules/feather-icons/dist/feather.min.js',
     './static/assets/js/configs.js'
 ], './static/assets/js/main.js');
 

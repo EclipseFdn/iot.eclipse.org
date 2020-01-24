@@ -7,6 +7,18 @@
 
   Contributors:
     Christopher Guindon <chris.guindon@eclipse-foundation.org>
+    Eric Poirier <eric.poirier@eclipse-foundation.org>
 
   SPDX-License-Identifier: EPL-2.0
 -->
+
+<main>
+  <div class="{{ if (and (isset .Page.Params "container") (ne .Page.Params ""))}}{{ .Page.Params.container }}{{else}}container{{end}}">
+    {{ if ne .Page.Params.hide_sidebar true }}
+      <div class="row">
+        <div class="col-md-14 padding-bottom-30">
+    {{ end }}
+
+    {{ if ne .Page.Params.hide_page_title true }}
+      <h1>{{ .Title | safeHTML }}</h1>
+    {{ end }}
