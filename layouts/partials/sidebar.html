@@ -1,0 +1,24 @@
+<!-- 
+  Copyright (c) 2018 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+{{ if isset .Page.Params "sidebar_links" }}
+  <aside class="subpage-sidebar">
+    {{range $key,$val := index .Page.Params.sidebar_links}}
+      <div class="row sidebar-item">
+        <a href="{{ (index $val 0).href }}">
+          <div class="col-sm-6"><i data-feather="{{ (index $val 1).icon }}"></i></div>
+          <div class="col-sm-18 sidebar-text">{{ (index $val 2).text}}</div>
+        </a>
+      </div>
+    {{end}}
+  </aside>
+{{ end }}
