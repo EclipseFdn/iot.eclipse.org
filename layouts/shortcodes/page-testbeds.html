@@ -1,0 +1,23 @@
+<!-- 
+  Copyright (c) 2020 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+  Contributors:
+    Eric Poirier <eric.poirier@eclipse-foundation.org>
+    
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+<p style="font-size: 16px;">The Eclipse IoT Open Testbeds are collaborations between vendors and open source communities to demonstrate and test 
+        commercial and open source components needed to create specific industry solutions.<br><br><br><br></p>
+
+{{ range .Data.Pages }}
+<div class="col-md-4 testbed-thumbnail">
+  <a href="{{ .Permalink }}">
+    <div class="testbed-thumbnail-box" id="{{ .File.TranslationBaseName }}" style="background-image: url(/assets/images/testbeds/{{.File.TranslationBaseName}}-banner.jpg); background-blend-mode: soft-light; background-size: cover;">
+      <h3>{{ .Title }}</h3>
+    </div>
+  </a>
+</div>
+{{ end }}

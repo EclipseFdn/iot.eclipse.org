@@ -22,7 +22,7 @@ buildFuture = true
   js = "assets/js/main.js"
 
   favicon = "favicon.ico"
-  share_img = "site_preview.jpg"
+  share_img = "site_preview.png"
   gcse = "011805775785170369411:p3ec0igo0qq"
 # header_wrapper_class = "header-default-bg-img"
 # subtheme = "jakarta"
@@ -42,6 +42,11 @@ buildFuture = true
   youtube = "EclipseFdn"
   googleplus = "+Eclipse"
   linkedin = "company/eclipse-foundation/"
+  
+[taxonomies]
+  category = "categories"
+  resource_items = "resource_items"
+  tag = "tags"
   
 [[menu.main]]
   name = "Adopters"

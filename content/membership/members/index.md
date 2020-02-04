@@ -5,4 +5,8 @@ aliases:
     - /working-group/members/
     - /member/
 layout: "members"
+hide_sidebar: true
+headline: "Members"
+tagline: "Learn more about our members and discover the IoT solutions they offer today."
+hide_page_title: true
 ---
