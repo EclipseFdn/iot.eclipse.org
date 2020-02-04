@@ -3447,12 +3447,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #58595B;
+  color: #f69222;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #3f4041;
+  color: #c46b08;
   text-decoration: underline;
 }
 a:focus {
@@ -5675,7 +5675,7 @@ output {
   display: block;
   width: 100%;
   height: 38px;
-  padding: 8px 40px;
+  padding: 8px 12px;
   font-size: 16px;
   line-height: 1.42857143;
   color: #2f2f2f;
@@ -6115,7 +6115,7 @@ select[multiple].input-lg {
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
-  padding: 8px 40px;
+  padding: 8px 12px;
   font-size: 16px;
   line-height: 1.42857143;
   border-radius: 30px;
@@ -6477,7 +6477,7 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-link {
   font-weight: 400;
-  color: #58595B;
+  color: #f69222;
   border-radius: 0;
 }
 .btn-link,
@@ -6496,7 +6496,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #3f4041;
+  color: #c46b08;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -6959,7 +6959,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   vertical-align: middle;
 }
 .input-group-addon {
-  padding: 8px 40px;
+  padding: 8px 12px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
@@ -7067,7 +7067,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #58595B;
+  border-color: #f69222;
 }
 .nav .nav-divider {
   height: 1px;
@@ -7781,10 +7781,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 8px 40px;
+  padding: 8px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #58595B;
+  color: #f69222;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -7794,7 +7794,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #3f4041;
+  color: #c46b08;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -8003,7 +8003,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #58595B;
+  color: #f69222;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -8076,7 +8076,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #58595B;
+  border-color: #f69222;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -11445,7 +11445,7 @@ footer#solstice-footer a:active,
 footer#solstice-footer a:visited,
 footer#solstice-footer a:focus {
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 footer#solstice-footer a:hover {
   color: #fff;
@@ -14533,6 +14533,9 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
+.homepage main {
+  padding-top: 0;
+}
 .homepage .featured-testimonials {
   padding: 80px 0;
   background-color: #fff;
@@ -14581,4 +14584,92 @@ img.desaturate {
 }
 .subpage-sidebar a .sidebar-text {
   padding: 8px 0 0;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+.btn:not(.btn-xs):not(.btn-sm):not(.btn-md):not(.btn-lg) {
+  padding: 8px 40px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  border-radius: 30px;
+}
+.btn-xs,
+.btn-group-xs > .btn {
+  border-radius: 21px;
+  padding: 1px 12px;
+  font-size: 12px;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 20px;
+  line-height: 1.5;
+  border-radius: 22px;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+p,
+li {
+  font-weight: 300;
+}
+main {
+  padding-top: 50px;
+}
+.adopters-img {
+  max-height: 95px;
+  padding: 10px;
+  width: 180px;
+}
+#project-list .media-left {
+  max-width: 150px;
+  min-width: 150px;
+  padding-right: 30px;
+}
+#project-list .media {
+  padding: 20px 0;
+}
+#project-list .labels {
+  margin-bottom: 15px;
+  display: block;
+}
+#project-list .search-and-sort {
+  text-align: center;
+}
+.openiot-challenge {
+  text-align: center;
+  font-size: 24px;
+}
+.openiot-challenge .header {
+  background-image: url(../images/iot-challenge-header-bg.jpg?6365f7445f4da82d7fb4fd95834e6d57);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  padding: 40px 0;
+  padding-bottom: 10px !important;
+  font-size: 2em;
+  color: #fff;
+}
+img[src*="#img-responsive"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
