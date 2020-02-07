@@ -268,7 +268,7 @@
         /* COUNT DOWN                                              */
         /***********************************************************/       
         $('.count_down').countdown({
-            end_time: "2017/03/20 09:00:00 -0800",
+            end_time: "2020/04/09 09:00:00 -0800",
             wrapper: function(unit){
                 var wrpr = $('<div></div>').
                     addClass(unit.toLowerCase()+'_wrapper').
