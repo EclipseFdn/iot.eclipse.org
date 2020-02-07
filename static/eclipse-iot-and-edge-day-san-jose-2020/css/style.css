@@ -406,6 +406,12 @@ h3 {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.heading-notransform h1 {
+  color: #FFFFFF;
+}
+.heading-notransform h2 {
+  color: #FFFFFF;
+}
 .pera {
   margin-top: 24px;
 }
@@ -1283,4 +1289,16 @@ a.prev:hover {
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   -o-transition: all 0.8s;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
 }
