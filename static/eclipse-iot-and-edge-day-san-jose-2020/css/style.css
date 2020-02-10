@@ -1291,14 +1291,17 @@ a.prev:hover {
   -o-transition: all 0.8s;
 }
 
-.vertical-align {
-  display: flex;
-  flex-direction: row;
+.jumbotron-logos{
+  margin-top:35px;
+  text-align:center;
 }
 
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.jumbotron-logos li {
+  vertical-align: middle;
+  margin-bottom:60px;
+  padding:0 50px;
+}
+
+.jumbotron-logos img{
+  max-width:280px;
 }
