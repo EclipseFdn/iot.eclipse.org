@@ -7,6 +7,7 @@ tagline: "Eclipse IoT open source projects help you build IoT Devices, Gateways 
 content_classes: "padding-top-50"
 hide_sidebar: true
 hide_page_title: true
+header_wrapper_class: "header-alternate-bg-img-1"
 ---
 
 {{< page-projects >}}
