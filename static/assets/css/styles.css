@@ -11842,7 +11842,7 @@ body.solstice-footer-min main {
 }
 @media (max-width: 767px) {
   .alternate-layout #main-menu {
-    background: url(../images/header_bg.jpg?d19bcd8b6f1b980f06a5c5ab3097bce6);
+    background: url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
   }
 }
 /*
@@ -13861,7 +13861,7 @@ img.desaturate {
   padding-bottom: 20px;
 }
 .header-wrapper {
-  background: url(../images/header_bg.jpg?d19bcd8b6f1b980f06a5c5ab3097bce6);
+  background: url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
   background-size: cover;
 }
 .header-wrapper .featured-jumbotron {
@@ -13871,7 +13871,7 @@ img.desaturate {
   background-image: url(../images/vendor/eclipsefdn-solstice-components/landing-well/eclipse_home_bg.jpg?52849131d3654401501a4602eec1588e);
 }
 .header-alternate-bg-img-1 {
-  background-image: url(../images/vendor/eclipsefdn-solstice-components/landing-well/eclipse_alternate_bg-1.jpg?cd3a4ca02ce39c7ac002822ec894f85f);
+  background-image: url(../images/iot_alternate_bg-1.jpg?17b1dcfdfae4a9b6c8b6fe1cd1495527);
 }
 .alternate-layout header {
   background-color: #fff;
@@ -14480,13 +14480,8 @@ img.desaturate {
 }
 .header-wrapper {
   background-size: cover;
-  background-image: url(../images/header_bg.jpg?d19bcd8b6f1b980f06a5c5ab3097bce6);
   background-position: center;
   position: relative;
-}
-.header-wrapper.header-wrapper-membership {
-  background-image: url(../images/header_membership_bg.jpg?bf890c613a9582d316ee137538488a80);
-  background-position: top center;
 }
 .header-wrapper .featured-jumbotron {
   padding-top: 75px;
@@ -14520,6 +14515,9 @@ img.desaturate {
   bottom: 0;
   background-size: cover;
   z-index: 1;
+}
+.header-alternate-bg-img-2 {
+  background-image: url(../images/iot_alternate_bg-2.jpg?d7e2d542f41e95d06d5e64acc5531d52);
 }
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
