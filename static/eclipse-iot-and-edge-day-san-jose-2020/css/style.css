@@ -15,8 +15,8 @@
  ********************************
  *
  *  Defult CSS
- *  
- *  
+ *
+ *
  */
 body {
   overflow-x: hidden !important;
@@ -219,8 +219,8 @@ h3 {
  ********************************
  *
  *  Header CSS
- *  
- *  
+ *
+ *
  */
 .header-background {
   background: url('../images/bg-1.jpg') top center fixed;
@@ -426,8 +426,8 @@ h3 {
  ********************************
  *
  *  About Our Event CSS
- *  
- *  
+ *
+ *
  */
 .about-our-event {
   position: relative;
@@ -467,7 +467,7 @@ h3 {
   overflow: hidden;
 }
 .about-background-image .background-right {
-  background-image: url('../images/scedule.jpg');
+  background-image: url('../images/schedule.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 0;
@@ -481,8 +481,8 @@ h3 {
  ********************************
  *
  *  our featured speaker CSS
- *  
- *  
+ *
+ *
  */
 .our-featured-speaker {
   background: #f5f6f8;
@@ -509,8 +509,8 @@ h3 {
  ********************************
  *
  *  Scedule CSS
- *  
- *  
+ *
+ *
  */
 .scedule-background {
   background: url('../images/bg-3.jpg') top center fixed;
@@ -580,8 +580,8 @@ h3 {
  ********************************
  *
  *  Speakers CSS
- *  
- *  
+ *
+ *
  */
 .speakers {
   background: #f5f6f8;
@@ -616,8 +616,8 @@ h3 {
  ********************************
  *
  *  Pricing Tables CSS
- * 
- *  
+ *
+ *
  */
 .pricing-tables {
   background: #ffffff;
@@ -690,8 +690,8 @@ h3 {
  ********************************
  *
  *  Register CSS
- * 
- * 
+ *
+ *
  */
 .register-background {
   background: url('../images/bg-4.jpg') top center fixed;
@@ -779,7 +779,7 @@ h3 {
  ********************************
  *
  *  Sponsore CSS
- *  
+ *
  */
 .sponsore {
   background: #ffffff;
@@ -798,8 +798,8 @@ h3 {
  ********************************
  *
  *  Collapse CSS
- *  
- *  
+ *
+ *
  */
 .collapse-area {
   background: #f5f6f8;
@@ -910,8 +910,8 @@ h3 {
  ********************************
  *
  *  Testimonial CSS
- *  
- *  
+ *
+ *
  */
 .testimonial {
   background: #ffffff;
@@ -948,8 +948,8 @@ h3 {
  ********************************
  *
  *  Twitter Posts
- *  
- *  
+ *
+ *
  */
 .twitter-background {
   background: url('../images/bg-3.jpg') top center fixed;
@@ -996,8 +996,8 @@ h3 {
  ********************************
  *
  *  Contact Us CSS
- *  
- *  
+ *
+ *
  */
 .contact-us {
   position: relative;
@@ -1113,7 +1113,7 @@ footer .btn-top:hover {
  ********************************
  *
  *  header CSS
- *  
+ *
  */
 .blog-header .heading h1 {
   text-transform: capitalize;
@@ -1125,7 +1125,7 @@ footer .btn-top:hover {
  ********************************
  *
  *  Blog Body CSS
- *  
+ *
  */
 /*     blog-post CSS     */
 .blog-body {
@@ -1242,7 +1242,7 @@ aside .cate-all {
 ******************************************
 *
 *   OWL CAROUSEL CUSTOM CSS
-*    
+*
 */
 .owl-carousel {
   display: block !important;
@@ -1274,7 +1274,7 @@ aside .cate-all {
 ******************************************
 *
 *   FLEX SLIDER CSS
-*    
+*
 */
 a.next,
 a.prev {
@@ -1299,6 +1299,6 @@ a.prev:hover {
 .vertical-align > [class^="col-"],
 .vertical-align > [class*=" col-"] {
   display: flex;
-  align-items: center;     
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
