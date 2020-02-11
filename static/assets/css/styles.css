@@ -14478,6 +14478,9 @@ img.desaturate {
   position: relative;
   z-index: 2;
 }
+.homepage .header-wrapper .featured-jumbotron p {
+  font-size: 27px;
+}
 .header-wrapper {
   background-size: cover;
   background-position: center;
@@ -14500,7 +14503,7 @@ img.desaturate {
 }
 .header-wrapper .featured-jumbotron p {
   margin-bottom: 30px;
-  font-size: 27px;
+  font-size: 22px;
 }
 .header-wrapper .featured-jumbotron .btn {
   border-radius: 30px;
