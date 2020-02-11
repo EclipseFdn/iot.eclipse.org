@@ -8,6 +8,7 @@ content_classes: "padding-top-50"
 hide_sidebar: true
 hide_page_title: true
 header_wrapper_class: "header-alternate-bg-img-1"
+links: [[href: "/getting-started", text: "Getting Started"], [href: "/sandboxes", text: "Sandboxes"]]
 ---
 
 {{< page-projects >}}
