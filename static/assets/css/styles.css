@@ -11842,7 +11842,7 @@ body.solstice-footer-min main {
 }
 @media (max-width: 767px) {
   .alternate-layout #main-menu {
-    background: url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
+    background: #2b241b url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
   }
 }
 /*
@@ -13861,7 +13861,7 @@ img.desaturate {
   padding-bottom: 20px;
 }
 .header-wrapper {
-  background: url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
+  background: #2b241b url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
   background-size: cover;
 }
 .header-wrapper .featured-jumbotron {
