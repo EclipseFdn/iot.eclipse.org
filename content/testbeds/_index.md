@@ -1,6 +1,7 @@
 ---
 title: "Eclipse IoT Open Testbeds"
 description: "Eclipse IoT hosts open testbeds that demonstrate and test commercial and open source components needed to create specific industry solutions."
+hide_sidebar: true
 ---
 
 Industry leaders are **deploying Eclipse IoT technology today**!
