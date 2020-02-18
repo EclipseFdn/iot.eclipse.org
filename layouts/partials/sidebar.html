@@ -10,15 +10,32 @@
 
   SPDX-License-Identifier: EPL-2.0
 -->
-{{ if isset .Page.Params "sidebar_links" }}
-  <aside class="subpage-sidebar">
-    {{range $key,$val := index .Page.Params.sidebar_links}}
-      <div class="row sidebar-item">
-        <a href="{{ (index $val 0).href }}">
-          <div class="col-sm-6"><i data-feather="{{ (index $val 1).icon }}"></i></div>
-          <div class="col-sm-18 sidebar-text">{{ (index $val 2).text}}</div>
-        </a>
-      </div>
-    {{end}}
-  </aside>
+
+{{ if isset .Site.Menus "sidebar" }}
+  {{ $currentPage := . }}
+  {{ .Scratch.Set "currentSection" "home" }}
+  {{ if $currentPage.Section }}
+    {{ .Scratch.Set "currentSection" $currentPage.Section }}
+  {{ end }}
+  {{$currentSection := .Scratch.Get "currentSection" }}
+  {{ range .Site.Menus.sidebar }}
+    {{$parentItem := . }}
+      {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
+        <aside id="main-sidebar">
+        {{ range .Children }}
+          
+          
+          {{ if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
+            <div class="row sidebar-item">
+              <a href="{{ .URL }}">
+                <div class="col-sm-6">{{ .Pre }}</div>
+                <div class="col-sm-18 sidebar-text">{{ .Name }}</div>
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+        </ul>
+        </aside>
+      {{ end }}
+  {{ end }}
 {{ end }}

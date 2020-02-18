@@ -9,14 +9,15 @@
   SPDX-License-Identifier: EPL-2.0
 -->
 
-
-<ul>
-  {{ range $key, $taxonomy := .Site.Taxonomies.resource_items }}
-  <li>{{ $key }}</li>
-  <ul>
-    {{ range $taxonomy.Pages }}
-      <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+{{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+  <h2>{{ humanize $key }}</h2>
+  <div class="row">
+    {{ range first 3 $taxonomy.Pages }}
+      <div class="col-sm-8">
+        <img src="/assets/images/header_bg.jpg" class="img-responsive">
+        <p><a href="{{ .Permalink}}"><strong>{{ .LinkTitle }}</strong></a></p>
+        <p>February 19, 2020</p>
+      </div>
     {{ end }}
-  </ul>
-  {{ end }}
-</ul>
+  </div>
+{{ end }}

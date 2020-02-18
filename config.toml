@@ -50,25 +50,115 @@ buildFuture = true
   
 [[menu.main]]
   name = "Adopters"
-  url = "/adopters"
+  url = "/adopters/"
   weight = 1
-    
+  identifier = "adopters"
+  
 [[menu.main]]
   name = "Members"
-  url = "/membership"
+  url = "/membership/"
   weight = 2
   
 [[menu.main]]
   name = "Projects"
-  url = "/projects"
+  url = "/projects/"
   weight = 3
   
 [[menu.main]]
   name = "Use Cases"
-  url = "/use-cases"
+  url = "/use-cases/"
   weight = 4
 
 [[menu.main]]
   name = "Community"
-  url = "/community"
+  url = "/community/"
   weight = 5
+  
+  
+[[menu.sidebar]]
+  name = "Adopters"
+  url = "/adopters/"
+  weight = 1
+  identifier = "adopters"
+  
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "How to be Listed as an Adopter"
+  url = "/adopters/#"
+  pre = "<i data-feather=\"help-circle\"></i>"
+  weight = "1"
+
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "Testbeds"
+  url = "/adopters/testbeds/"
+  pre = "<i data-feather=\"package\"></i>"
+  weight = "2"
+  
+[[menu.sidebar]]
+  name = "Members"
+  url = "/membership/"
+  weight = 2
+  identifier = "membership"
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Membership benefits"
+  url = "/membership/#benefits"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Member Testimonials"
+  url = "/membership/#member-testimonials"
+  pre = "<i data-feather=\"users\"></i>"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Explore Our Members"
+  url = "/membership/members/"
+  pre = "<i data-feather=\"zap\"></i>"
+  weight = 3
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Contact Us About Membership"
+  url = "https://accounts.eclipse.org/contact/membership/iot"
+  pre = "<i data-feather=\"send\"></i>"
+  weight = 3
+  
+[[menu.sidebar]]
+  name = "Community"
+  url = "/community/"
+  weight = 5
+  identifier = "community"
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "IoT Surveys"
+  url = "/community/iot-surveys"
+  pre = "<i data-feather=\"file-text\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Open IoT Challenge"
+  url = "/community/open-iot-challenge"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Virtual IoT Meetup"
+  url = "https://www.meetup.com/Virtual-IoT/"
+  pre = "<i data-feather=\"at-sign\"></i>"
+  weight = 3
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Resources"
+  url = "/community/resources"
+  pre = "<i data-feather=\"folder\"></i>"
+  weight = 4
