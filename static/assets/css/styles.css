@@ -14483,7 +14483,6 @@ img.desaturate {
 }
 .header-wrapper {
   background-size: cover;
-  background-position: center;
   position: relative;
 }
 .header-wrapper .featured-jumbotron {
