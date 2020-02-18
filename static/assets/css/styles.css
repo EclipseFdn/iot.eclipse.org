@@ -3432,7 +3432,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #4c4d4e;
@@ -9013,7 +9013,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.42857143;
@@ -9131,7 +9131,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.42857143;
@@ -11426,7 +11426,7 @@ body #st-el-4 .st-btns {
 */
 footer#solstice-footer {
   background: #536a75;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 60px;
   color: #fff;
   padding-bottom: 26px;
@@ -13968,16 +13968,16 @@ img.desaturate {
   padding-right: 15px;
 }
 #main-sidebar {
-  color: #fff;
+  color: #7093a5;
   position: relative;
 }
 #main-sidebar .main-sidebar-html-block {
-  background: #58595B;
+  background: transparent;
   padding: 20px;
   text-align: center;
 }
 #main-sidebar .ul-left-nav {
-  background: #58595B;
+  background: transparent;
   padding: 15px;
   position: relative;
   margin-bottom: 0;
@@ -13995,12 +13995,12 @@ img.desaturate {
     clip-path: polygon(0 0, 0% 100%, 100% 0);
     position: relative;
     bottom: 0px;
-    background: #58595B;
+    background: transparent;
   }
 }
 #main-sidebar a,
 #main-sidebar a:hover {
-  color: #fff;
+  color: #7093a5;
 }
 #main-sidebar .separator {
   font-size: 18px;
@@ -14010,7 +14010,7 @@ img.desaturate {
   text-decoration: none;
 }
 #main-sidebar li {
-  border-bottom: 1px solid #717275;
+  border-bottom: 1px solid rgba(26, 26, 26, 0);
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -14177,7 +14177,7 @@ img.desaturate {
   margin-bottom: 30px;
 }
 .featured-news .news-heading {
-  font-weight: 400;
+  font-weight: 300;
   color: #536a75;
   margin-bottom: 5px;
 }
@@ -14370,7 +14370,7 @@ img.desaturate {
   border-radius: 100px;
 }
 .featured-testimonials .testimonial-item .author {
-  font-weight: 600;
+  font-weight: 300;
 }
 .featured-testimonials .testimonial-item .author .job-title {
   color: #8a8a8a;
@@ -14565,25 +14565,24 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
-.subpage-sidebar {
+#main-sidebar {
   margin-top: 50px;
 }
-.subpage-sidebar .sidebar-item {
+#main-sidebar .sidebar-item {
   margin-bottom: 20px;
   background-color: #f1f1f1;
   padding: 17px 0 10px;
 }
-.subpage-sidebar a {
-  color: #7093a5;
+#main-sidebar a {
   display: block;
 }
-.subpage-sidebar a .feather {
+#main-sidebar a .feather {
   width: 40px;
   height: 40px;
   stroke-width: 1;
   margin: 0 20px 0 0px;
 }
-.subpage-sidebar a .sidebar-text {
+#main-sidebar a .sidebar-text {
   padding: 8px 0 0;
 }
 /*!

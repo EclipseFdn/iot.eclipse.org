@@ -7,6 +7,8 @@ hide_page_title: true
 headline: "Open IoT Challenge 5.0"
 tagline: "See you next year!"
 header_wrapper_class: "header-alternate-bg-img-2"
+aliases:
+    - /open-iot-challenge/
 ---
 
 {{< page-open-iot-challenge >}}
