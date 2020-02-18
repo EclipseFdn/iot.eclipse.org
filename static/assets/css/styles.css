@@ -14219,8 +14219,8 @@ img.desaturate {
 */
 .featured-newsletter {
   background-size: cover;
-  background-image: url(../images/newsletter_bg.jpg?e72e81a1676f31819ef42ee6d33b1e17);
-  background-position: 0 100%;
+  background-image: url(../images/newsletter_bg.jpg?77c1504d43fd0339ad1626abc52c3942);
+  background-position: center;
   padding: 50px 0;
 }
 @media screen and (min-width: 768px) {
@@ -14636,7 +14636,8 @@ main {
 .adopters-img {
   max-height: 95px;
   padding: 10px;
-  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
 }
 #project-list .media-left {
   max-width: 150px;
