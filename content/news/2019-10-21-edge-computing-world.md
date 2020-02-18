@@ -2,6 +2,7 @@
 date = "2019-10-21"
 title = "Join us at Edge Computing World!"
 link = "https://www.edgecomputingworld.com/"
+categories = ["announcements"]
 +++
 Edge Computing World is a brand new conference which will run December 9-12 2019 at the Computing History Museum in Silicon Valley. Edge Computing is a strategic focus area for the Eclipse Foundation, and we are proud to support this exciting new event.
 

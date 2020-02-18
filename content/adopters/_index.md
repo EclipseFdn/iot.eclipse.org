@@ -4,8 +4,8 @@ description: "Eclipse IoT’s community of adopters is growing! Innovative organ
 headline: "Eclipse IoT Adopters"
 tagline: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 hide_page_title: true
-sidebar_links: [[href: "#", icon: "help-circle", text: "How to be Listed as an Adopter"],[href: "/testbeds", icon: "package", text: "Eclipse IoT Testbeds"]]
 header_wrapper_class: "header-alternate-bg-img-1"
+layout: "single"
 ---
 
  {{< page-adopters >}}
