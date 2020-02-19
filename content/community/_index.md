@@ -4,7 +4,6 @@ description: ""
 headline: "Lorem Ipsum"
 tagline: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 content_classes: "padding-top-50"
-sidebar_links: [[href: "/iot-surveys", icon: "file-text", text: "IoT Surveys"],[href: "/open-iot-challenge", icon: "award", text: "Open IoT Challenge"],[href: "https://www.meetup.com/Virtual-IoT/", icon: "at-sign", text: "Virtual IoT Meetup"],[href: "/resources", icon: "folder", text: "Resources"]]
 header_wrapper_class: "header-alternate-bg-img-1"
 ---
 

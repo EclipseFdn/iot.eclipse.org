@@ -4,8 +4,6 @@ description: "The Open IoT Challenge encourages developers from all over the wor
 share_img: "images/_home/iot-challenge-card.jpg"
 hide_sidebar: true
 hide_page_title: true
-headline: "Open IoT Challenge 5.0"
-tagline: "See you next year!"
 header_wrapper_class: "header-alternate-bg-img-2"
 aliases:
     - /open-iot-challenge/
