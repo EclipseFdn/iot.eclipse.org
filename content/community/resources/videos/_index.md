@@ -1,8 +1,5 @@
 ---
-title: "Resources"
+title: "Videos"
 description: "Useful resources to learn more about Eclipse IoT"
-aliases:
-    - /resources/
-layout: "resources"
 ---
 

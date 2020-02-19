@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ .Content }}
+
+{{ range where .Site.Pages "Section" .Section }}
+
+  
+  {{ range .Sections }}
+    {{ if eq .Title "Resources" }}
+      
+      {{ range .Pages }}
+        {{.Title}}
+        {{ range first 3 .Pages }}
+          {{ .Render "summary"}}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    
+  {{ end }}
+  
+  
+{{ end }}
+
+{{ end }}
