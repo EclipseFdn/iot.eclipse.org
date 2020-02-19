@@ -9,6 +9,24 @@
   SPDX-License-Identifier: EPL-2.0
 -->
 
+{{.Page.Section}}
+
+{{ range where .Site.Pages "Section" "community" }}
+
+  <ul>
+  {{ range .Sections }}
+    {{ if eq .Title "Resources" }}
+      
+      {{ range .Pages }}
+        <li>{{.Summary}}</li>
+      {{ end }}
+    {{ end }}
+    
+  {{ end }}
+  </ul>
+  
+{{ end }}
+
 {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
   <h2>{{ humanize $key }}</h2>
   <div class="row">
