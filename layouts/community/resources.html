@@ -12,6 +12,7 @@
         {{ range first 3 .Pages }}
           {{ .Render "summary"}}
         {{ end }}
+        <p><a href="{{.URL}}">View More</a></p>
       {{ end }}
     {{ end }}
     
