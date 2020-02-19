@@ -84,7 +84,7 @@ buildFuture = true
 [[menu.sidebar]]
   parent ="adopters"
   name = "How to be Listed as an Adopter"
-  url = "/adopters/#"
+  url = "/adopters/how-to-be-listed-as-an-adopter"
   pre = "<i data-feather=\"help-circle\"></i>"
   weight = "1"
 
