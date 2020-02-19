@@ -104,6 +104,10 @@ adopters:
       homepage_url: http://www.theconstruct.ai
       logo: logo-construct.png
       logo_white: logo-construct-white.png
+    - name: Intel robotics project
+      homepage_url: https://www.intel.com/content/www/us/en/internet-of-things/overview.html
+      logo: logo-intel.png
+      logo_white: logo-intel-white.png
       
   - name: Eclipse iceoryx
     id: technology.iceoryx
