@@ -14629,6 +14629,12 @@ img.desaturate {
   background-color: #f1f1f1;
   padding: 17px 0 10px;
 }
+#main-sidebar .sidebar-item.active {
+  background-color: #536a75;
+}
+#main-sidebar .sidebar-item.active a {
+  color: #fff;
+}
 #main-sidebar a {
   display: block;
 }
