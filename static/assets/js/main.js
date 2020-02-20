@@ -3064,5 +3064,6 @@ this},r._applyDataApi=function(){var e={};t("[data-match-height], [data-mh]").ea
       }
     });
    $('.media-video').matchHeight();
+   $('.matchheight-item').matchHeight();
    feather.replace();
 })(jQuery, document);

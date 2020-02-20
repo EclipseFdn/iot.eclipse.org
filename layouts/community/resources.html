@@ -1,24 +1,22 @@
 {{ define "main" }}
   {{ .Content }}
-
-{{ range where .Site.Pages "Section" .Section }}
-
-  
-  {{ range .Sections }}
-    {{ if eq .Title "Resources" }}
-      
-      {{ range .Pages }}
-        {{.Title}}
-        {{ range first 3 .Pages }}
-          {{ .Render "summary"}}
+  {{ range where .Site.Pages "Section" .Section }}
+    {{ range .Sections }}
+      {{ if eq .Title "Resources" }}
+        {{ range sort .Pages "Title" }}
+          <div class="resources">
+            <h2>{{.Title}}</h2>
+            <div class="row">
+            {{ range first 3 .Pages }}
+              <div class="col-sm-8 col-xs-12 matchheight-item">
+                {{ .Render "summary"}}
+              </div>
+            {{ end }}
+            </div>
+            <p class="text-right resources-more"><a href="{{.URL}}">View More</a></p>
+          </div>
         {{ end }}
-        <p><a href="{{.URL}}">View More</a></p>
       {{ end }}
     {{ end }}
-    
   {{ end }}
-  
-  
-{{ end }}
-
 {{ end }}

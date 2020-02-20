@@ -21,5 +21,6 @@
       }
     });
    $('.media-video').matchHeight();
+   $('.matchheight-item').matchHeight();
    feather.replace();
 })(jQuery, document);
