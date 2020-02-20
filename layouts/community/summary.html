@@ -10,10 +10,29 @@
 
   SPDX-License-Identifier: EPL-2.0
 -->
-<div class="news-list">
-  <a href="{{- with .Params.redirect_url | default .RelPermalink }} {{.}} {{- end }}" class="media media-link{{ if eq .Section "news" }} match-height-item{{ end }}">
-    <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-    <h4 class="media-heading">{{ .Title | safeHTML }}</h4>
-    <p class="media-text">{{ .Summary }}</p>
-  </a>
+
+<div class="resources-summary">
+  {{ if and (eq .Parent.Title "Videos") (.Params.link)}}
+    <a class="eclipsefdn-video" href="{{.Params.link}}"></a>
+  {{ else }}
+    <a class="resources-summary-img" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">
+      {{ if .Params.image }}
+        <img src="{{.Params.image}}">
+      {{ else }}
+        <span class="resources-summary-icon">
+          <i data-feather="{{ .Parent.Params.icon }}" stroke-width="1"></i>
+        </span>
+      {{ end }}
+    </a>
+  {{ end }}
+  
+  <h4 class="resources-summary-heading"><a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title | safeHTML }}</a></h4>
+  <p class="resources-summary-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+  <p class="resources-summary-text">{{ .Summary | truncate 50 }}</p>
+  {{ if or (eq .Parent.Title "Case Studies") (eq .Parent.Title "White Papers")}}
+    {{if .Params.link}}
+      <a href="{{.Params.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    {{ end }}
+    <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+  {{ end }}
 </div>
