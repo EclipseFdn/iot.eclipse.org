@@ -108,7 +108,11 @@ adopters:
       homepage_url: https://www.intel.com/content/www/us/en/internet-of-things/overview.html
       logo: logo-intel.png
       logo_white: logo-intel-white.png
-      
+    - name: ROBOTIS
+      homepage_url: https://www.robotis.com/
+      logo: logo-robotis.png
+      logo_white: logo-robotis-white.png
+
   - name: Eclipse iceoryx
     id: technology.iceoryx
     adopters:
