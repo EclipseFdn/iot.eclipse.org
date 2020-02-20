@@ -26,8 +26,8 @@
           
           
           {{ if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
-            <div class="row sidebar-item">
-              <a href="{{ .URL }}">
+            <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+              <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
                 <div class="col-xs-6">{{ .Pre }}</div>
                 <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
               </a>
