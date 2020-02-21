@@ -1,43 +1,6 @@
-<!-- 
-  Copyright (c) 2020 Eclipse Foundation, Inc.
-  This program and the accompanying materials are made available under the
-  terms of the Eclipse Public License v. 2.0 which is available at
-  http://www.eclipse.org/legal/epl-2.0.
-  Contributors:
-    Eric Poirier <eric.poirier@eclipse-foundation.org>
-    
-  SPDX-License-Identifier: EPL-2.0
--->
 
-<p>We think open source is key for the Internet of Things, and we want to get you started as simply as possible.</p>
-<p>On this page you will find useful resources like <a href="#videos">videos</a> and 
-<a href="#presentations">presentations</a> given at various conferences as well as a 
-list of server <a href="#sandboxes">sandboxes</a> you can use to connect your devices.</p>
-
-<div class="row" id="resources">
-  <div class="col-md-12">
-    <section class="subsection-header videos">
-      <h2 id="videos">Videos <span></span></h2>
-      <div class="grey-box">
-        <iframe width="100%" height="315" src="//www.youtube.com/embed/videoseries?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>
-  </div>
-  <div class="col-md-12">
-    <section class="subsection-header presentations">
-      <h2 id="presentations">Presentations<span></span></h2>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1w4wRK4EyfaI5iX_7EBQjoH8ldc_F6ED_TECTsckp3ak/embed?start=false&loop=false" frameborder="0" width="575" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-      </div>
-    </section>
-  </div>
-</div>
-
-<div class="row">
-  
-  <div id="sandbox-disclaimer" class="col-md-24">
     <h2 id="sandboxes">Sandboxes</h2>
-    <div class="alert alert-danger" role="alert">
+    <div id="sandbox-disclaimer" class="alert alert-danger" role="alert">
       <p>
         <strong><u>DISCLAIMER</u></strong>
       </p>
@@ -50,11 +13,9 @@ list of server <a href="#sandboxes">sandboxes</a> you can use to connect your de
       <p>
         We reserve the right, at our sole discretion, to ban or block users who are using the sandbox servers inappropriately.
       </p>
-
     </div>
-  </div>
-  <div id="sandbox-mqtt" class="col-md-12">
-    <h2>MQTT</h2>
+
+    <h2 id="sandbox-mqtt">MQTT</h2>
     <p>You can make use of this <a href="http://mqtt.org/">MQTT</a> server with client code from the <a href="https://eclipse.org/paho/">Paho
       project</a>, the Eclipse MQTT view from Paho, or from one of the other client APIs listed on the <a href="http://mqtt.org/downloads">MQTT.org downloads</a> page.
     </p>
@@ -71,20 +32,15 @@ list of server <a href="#sandboxes">sandboxes</a> you can use to connect your de
     <p>
       This server is running the open source <a href="http://mosquitto.org/">Mosquitto broker</a> in its most recently released version.
     </p>
-  </div>
-  <div id="sandbox-coap" class="col-md-12">
-    <h2>CoAP</h2>
+
+    <h2 id="sandbox-coap">CoAP</h2>
     <p>A CoAP server exposing test resources is available at: <code>coap://californium.eclipse.org:5683/</code>, and DTLS-enabled version at <code>coaps://californium.eclipse.org:5684</code>.</p>
     <p>It should be used by anyone interested in testing a CoAP client implementation against another endpoint, and more generally by anyone interested in understanding the key concepts of the CoAP protocol.</p>
     <p>
       This server is running <a href="https://projects.eclipse.org/projects/technology.californium">Eclipse Californium</a>.
     </p>
-  </div>
-</div>
 
-<div class="row">
-  <div id="sandbox-lwm2m" class="col-md-12">
-    <h2>Lightweight M2M (LWM2M)</h2>
+    <h2 id="sandbox-lwm2m">Lightweight M2M (LWM2M)</h2>
     <p>In order to test LWM2M communication scenarios, we host a LWM2M server.</p>
     <p>You can make use of this server with the <a href="https://projects.eclipse.org/projects/technology.wakaama">Wakaama
       project</a>
@@ -96,5 +52,4 @@ list of server <a href="#sandboxes">sandboxes</a> you can use to connect your de
     <p>
       This server is running the Open Source <a href="https://eclipse.org/leshan">Eclipse Leshan server</a>.
     </p>
-  </div>
-</div>
+
