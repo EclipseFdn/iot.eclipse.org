@@ -1,8 +1,6 @@
 ---
 title: "Use Cases"
 description: ""
-headline: "Lorem Ipsum"
-tagline: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 content_classes: "padding-top-50"
 hide_sidebar: true
 header_wrapper_class: "header-alternate-bg-img-2"

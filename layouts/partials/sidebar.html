@@ -23,7 +23,18 @@
       {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
         <aside id="main-sidebar">
         {{ range .Children }}
-          {{ if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
+          {{ if .HasChildren }}
+            <div class="row sidebar-sub-items">
+              {{ range .Children }}
+                <div class="row sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+                  <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
+                    <div class="col-xs-6"></div>
+                    <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+          {{ else if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
             <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
               <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
                 <div class="col-xs-6">{{ .Pre }}</div>
@@ -32,7 +43,6 @@
             </div>
           {{ end }}
         {{ end }}
-        </ul>
         </aside>
       {{ end }}
   {{ end }}

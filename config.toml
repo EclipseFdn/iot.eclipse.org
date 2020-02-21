@@ -123,13 +123,6 @@ buildFuture = true
   weight = 3
   
 [[menu.sidebar]]
-  parent ="membership"
-  name = "Contact Us About Membership"
-  url = "https://accounts.eclipse.org/contact/membership/iot"
-  pre = "<i data-feather=\"send\"></i>"
-  weight = 3
-  
-[[menu.sidebar]]
   name = "Community"
   url = "/community/"
   weight = 5
@@ -182,3 +175,40 @@ buildFuture = true
   url = "/projects/getting-started/"
   pre = "<i data-feather=\"award\"></i>"
   weight = 2
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Resources"
+  url = "/community/resources/"
+  weight = 7
+  identifier = "resources"
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Articles"
+  url = "/community/resources/articles/"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Case Studies"
+  url = "/community/resources/case-studies/"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Market Reports"
+  url = "/community/resources/market-reports/"
+  weight = 3
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Videos"
+  url = "/community/resources/videos/"
+  weight = 4
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "White Papers"
+  url = "/community/resources/white-papers/"
+  weight = 5

@@ -8,6 +8,7 @@ hide_page_title: "true"
 header_wrapper_class: "header-alternate-bg-img-2"
 aliases:
     - /working-group/
+links: [[href: "https://accounts.eclipse.org/contact/membership/iot", text: "Contact Us About Membership"]]
 ---
 {{< membership/content >}}
 {{< membership/benefits >}}
