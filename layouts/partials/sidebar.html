@@ -23,8 +23,6 @@
       {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
         <aside id="main-sidebar">
         {{ range .Children }}
-          
-          
           {{ if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
             <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
               <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
