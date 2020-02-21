@@ -162,3 +162,23 @@ buildFuture = true
   url = "/community/resources"
   pre = "<i data-feather=\"folder\"></i>"
   weight = 4
+  
+[[menu.sidebar]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 6
+  identifier = "projects"
+  
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Sandboxes"
+  url = "/projects/sandboxes"
+  pre = "<i data-feather=\"file-text\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Getting started"
+  url = "projects/getting-started/"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 2
