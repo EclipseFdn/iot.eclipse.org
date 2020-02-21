@@ -178,7 +178,7 @@ buildFuture = true
   
 [[menu.sidebar]]
   parent ="projects"
-  name = "Getting started"
-  url = "projects/getting-started/"
+  name = "Getting Started"
+  url = "/projects/getting-started/"
   pre = "<i data-feather=\"award\"></i>"
   weight = 2
