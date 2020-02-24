@@ -112,6 +112,18 @@ adopters:
       homepage_url: https://www.robotis.com/
       logo: logo-robotis.png
       logo_white: logo-robotis-white.png
+    - name: Box Robotics, Inc.
+      homepage_url: http://boxrobotics.ai
+      logo: logo-box-robotics.png
+      logo_white: logo-box-robotics-white.png
+    - name: Husarion
+      homepage_url: https://husarion.com/
+      logo: logo-husarion.png
+      logo_white: logo-husarion-white.png
+    - name: Husarnet
+      homepage_url: https://husarnet.com/
+      logo: logo-husarnet.png
+      logo_white: logo-husarnet-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
