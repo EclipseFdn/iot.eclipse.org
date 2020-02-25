@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ .Content }}
+<p class="big" style="font-weight:200;">Learn more about our members and discover the IoT solutions they&nbsp;offer&nbsp;today.</p>
 <h2 class="margin-bottom-30">Strategic members</h2>
 <div id="sc-members">
   {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
