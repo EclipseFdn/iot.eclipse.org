@@ -14635,6 +14635,23 @@ img.desaturate {
 #main-sidebar .sidebar-item.active a {
   color: #fff;
 }
+#main-sidebar .sidebar-sub-items {
+  background-color: #fff;
+  margin-top: -20px;
+}
+#main-sidebar .sidebar-sub-item {
+  padding: 0 0 8px 15px;
+  margin-bottom: 0;
+}
+#main-sidebar .sidebar-sub-item a.active .sidebar-text {
+  font-weight: bold;
+}
+#main-sidebar .sidebar-sub-item:first-child {
+  margin-top: 15px;
+}
+#main-sidebar .sidebar-sub-item:last-child {
+  margin-bottom: 15px;
+}
 #main-sidebar a {
   display: block;
 }
