@@ -14734,10 +14734,6 @@ main {
 #project-list .search-and-sort {
   text-align: center;
 }
-.openiot-challenge {
-  text-align: center;
-  font-size: 24px;
-}
 .openiot-challenge .header {
   background-image: url(../images/iot-challenge-header-bg.jpg?6365f7445f4da82d7fb4fd95834e6d57);
   background-size: cover;
