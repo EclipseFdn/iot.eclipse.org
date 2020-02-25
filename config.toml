@@ -70,7 +70,7 @@ buildFuture = true
   weight = 4
 
 [[menu.main]]
-  name = "Community2"
+  name = "Community"
   url = "/community2/"
   weight = 5
   
