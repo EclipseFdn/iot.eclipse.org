@@ -4,7 +4,6 @@ description: "The Production Performance Management demonstrates how to continuo
 icon: "bar-chart-2"
 headline: "Production Performance Management"
 tagline: "The <strong>Production Performance Management</strong> demonstrates how to continuously monitor the performance of heterogeneous industrial equipment on a shop floor."
-hide_sidebar: true
 hide_page_title: true
 ---
 

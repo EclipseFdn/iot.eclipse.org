@@ -94,6 +94,31 @@ buildFuture = true
   url = "/adopters/testbeds/"
   pre = "<i data-feather=\"package\"></i>"
   weight = "2"
+
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "Testbeds"
+  url = "/adopters/testbeds/"
+  weight = "2"
+  identifier = "testbeds"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Asset Tracking"
+  url = "/adopters/testbeds/asset-tracking/"
+  weight = "1"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Production Performance Management"
+  url = "/adopters/testbeds/production-performance-management/"
+  weight = "2"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Propose a new Testbed"
+  url = "/adopters/testbeds/propose-a-new-testbed/"
+  weight = "3"
   
 [[menu.sidebar]]
   name = "Members"

@@ -3,7 +3,6 @@ title: "Eclipse IoT Open Testbeds"
 description: "Eclipse IoT hosts open testbeds that demonstrate and test commercial and open source components needed to create specific industry solutions."
 menu_icon: "package"
 layout: testbeds
-hide_sidebar: true
 aliases:
     - /testbeds/
 ---
