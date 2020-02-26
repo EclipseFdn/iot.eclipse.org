@@ -3066,4 +3066,8 @@ this},r._applyDataApi=function(){var e={};t("[data-match-height], [data-mh]").ea
    $('.media-video').matchHeight();
    $('.matchheight-item').matchHeight();
    feather.replace();
+   
+   var random_testimonial_item = Math.floor(Math.random() * $('.testimonial-item').length);
+   $('.testimonial-item').hide().eq(random_testimonial_item).show();
+   
 })(jQuery, document);
