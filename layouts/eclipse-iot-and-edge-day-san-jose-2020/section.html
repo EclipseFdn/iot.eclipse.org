@@ -32,7 +32,14 @@
 <!-- <link rel="stylesheet" href="css/colors/lime.css"> -->
 <!-- <link rel="stylesheet" href="css/colors/blue.css"> -->
 <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+<!-- Leaflet (interactive map)-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" / >
 <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
 {{ end }}
 
 {{ define "header" }}
@@ -293,7 +300,7 @@
                 <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-4">
                   <h3>Edge Native: the ioFog perspective</h3>
                   <p>Edge computing is rapidly on the rise. In this session, we will explore the business drivers, technological changes, and global trends that are making edge computing the next must-have infrastructure. We will discuss the challenges that make edge computing unique in relation to cloud and data center. We will finish our exploration with real-world use cases from a variety of industries, showing how edge computing results in immediate business opportunities that you can leverage.</p>
-                  <p><b>Speaker</b>: Kilton Hopkins, Edgedworx</p>
+                  <p><b>Speaker</b>: Kilton Hopkins, Edgedworx and Philipp Struß, Cedalo</p>
                 </div>
                 <div role="tabpanel" class="tab-pane wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s" id="scedule-sub-5">
                   <h3>Intel innovations in IoT and Edge Computing</h3>
@@ -485,19 +492,19 @@
           <p>Co-Founder and Chief Technology Officer at Edgeworx</p>
         </div>
 
-        <!-- div class="item">
+        <div class="item">
           <div class="view view-first">
-            <img src="images/speakers-img/kstewart.jpg" alt="Kate Stewart">
+            <img src="images/speakers-img/pstruss.jpeg" alt="Philipp Struß">
             <div class="mask">
               <ul class="nav">
-                <li><a target="_blank" href="https://www.linkedin.com/in/katestewartaustin/"> <i class="fa linkedin fa-linkedin"></i> </a></li>
+                <li><a target="_blank" href=""> <i class="fa linkedin fa-linkedin"></i> </a></li>
               </ul>
             </div>
           </div>
           <div class="clearfix"></div>
-          <h3>Kate Stewart</h3>
-          <p>Senior Director of Strategic Projects at Linux Foundation</p>
-        </div -->
+          <h3>Philipp Struß</h3>
+          <p>Co-Founder and Chief Executive Officer at Cedalo AG</p>
+        </div>
 
         <div class="item">
           <div class="view view-first">
@@ -648,10 +655,10 @@
               <span class="period">Eclipse IoT Day Santa Jose</span>
             </p>
             <ul>
-              <li>Select "Workshop Day Pass" on IoT World website</li>
+              <li>Select "Workshop Day Pass" on the IoT World website. Please note the "Everything Pass" also gives access to our event.</li>
             </ul>
             <div class="btn-group btn-scroll">
-              <a target="_blank" href="https://tmt.knect365.com/iot-world/purchase/select-package" class="btn-fill btn-standard btn btn-cus">Register Now</a>
+              <a target="_blank" href="https://tmt.knect365.com/iot-world/purchase/select-package?utm_source=eclipse-iot&utm_medium=referral&utm_content=website&utm_campaign=TEC6555-internet-of-things-world" class="btn-fill btn-standard btn btn-cus">Register Now</a>
             </div>
           </div>
           <!-- End: .table-single -->
@@ -894,7 +901,7 @@
         <!--  End: Slider  -->
         <!--  Link  -->
         <a href="https://iot.eclipse.org" target="_blank">
-          <img src="images/iot-logo.png"/>
+          <img style="width:171px" src="images/iot_logo_white.png"/>
         </a>
       </div>
       <!-- End: .row .twitter-posts-body .col-md-offset-1 .col-md-10  -->
@@ -908,32 +915,42 @@
   <!-- Start: Contact Us Area, "#SECTION-11" -->
   <div class="container">
     <div class="row contact-us-body">
-      <div class="contact-us-left col-md-4 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-        <h2>Venue</h2>
-        <p><span class="bold">Address:</span>
-          San Jose Convention Center<br/>
-          408 Almaden Blvd<br/>
-          San Jose, CA 95113
-        </p>
-        <p><span class="bold">Questions? </span><a href="mailto:iot@eclipse.org">iot@eclipse.org</a></p>
-        <!-- Social Icon Goes Here  -->
-        <div class="social-icon">
-          <p><span class="bold">Find Us On</span></p>
-          <ul class="nav navbar-left">
-            <li><a href="https://www.twitter.com/eclipseiot"> <i class="fa twitter fa-twitter"></i> </a></li>
-            <li><a href="https://www.facebook.com/eclipseiot"> <i class="fa facebook fa-facebook"></i> </a></li>
-            <li><a href="https://www.youtube.com/eclipsefdn"> <i class="fa youtube fa-youtube"></i> </a></li>
-          </ul>
+        <div class="contact-us-left col-md-4 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
+            <h2>Venue</h2>
+            <p><span class="bold">Address:</span>
+                San Jose Convention Center<br />
+                408 Almaden Blvd<br />
+                San Jose, CA 95113
+            </p>
+            <p><span class="bold">Questions? </span><a href="mailto:iot@eclipse.org">iot@eclipse.org</a></p>
+            <!-- Social Icon Goes Here  -->
+            <div class="social-icon">
+                <p><span class="bold">Find Us On</span></p>
+                <ul class="nav navbar-left">
+                    <li><a href="https://www.twitter.com/eclipseiot"> <i class="fa twitter fa-twitter"></i> </a></li>
+                    <li><a href="https://www.facebook.com/eclipseiot"> <i class="fa facebook fa-facebook"></i> </a></li>
+                    <li><a href="https://www.youtube.com/eclipsefdn"> <i class="fa youtube fa-youtube"></i> </a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <!-- End: .contact-us-left .col-md-4  -->
-      <!-- Start: Google Map Area, "Part-1-Up" "map" -->
-      <div class="contact-us-right col-md-offset-1 col-md-7 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-        <div class="row">
-          <div class="map" id="map">
-          </div>
+        <!-- End: .contact-us-left .col-md-4  -->
+        <!-- Start: Google Map Area, "Part-1-Up" "map" -->
+        <div class="contact-us-right col-md-offset-1 col-md-7 wow fadeInLeft animated" data-wow-offset="120"
+            data-wow-duration="1.5s">
+            <div class="row">
+                <div class="map" id="mapid" style="height: 400px; width: 100%"></div>
+                <script>
+                    var map = L.map('mapid')
+                        .setView([37.32894564456342, -121.88876152038574], 17);
+                    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(map);
+                    marker = new L.marker([37.32894564456342, -121.88876152038574]);
+                    marker.addTo(map);
+                </script>
+            </div>
         </div>
-      </div>
+    </div>
       <!-- End: Google Map Area, "map" -->
     </div>
     <!-- End: .row .contact-us-body  -->
