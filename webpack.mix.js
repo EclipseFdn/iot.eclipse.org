@@ -38,10 +38,3 @@ mix.scripts([
     './node_modules/feather-icons/dist/feather.min.js',
     './static/assets/js/configs.js'
 ], './static/assets/js/main.js');
-
-//minify adopter.js
-mix.scripts([
-    './static/assets/js/eclipsefdn.adopters.js'
-], './static/assets/js/eclipsefdn.adopters.js');
-
-mix.copy('./node_modules/bootstrap-sass/assets/javascripts/*.js', 'static/js/bootstrap');
