@@ -2,8 +2,8 @@
 date = "2016-04-26"
 title = "Smart Grid Automation (SGA) Software"
 seo_title = "Case Study: Smart Grid Automation (SGA) Software"
-link = "assets/Eclipse%20IoT%20Success%20Story%20-%20Noja.pdf"
-image = "assets/Eclipse%20IoT%20Success%20Story%20-%20Noja.png"
+link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20Noja.pdf"
+image = "images/Eclipse%20IoT%20Success%20Story%20-%20Noja.png"
 company = "NOJA POWER"
 description = "NOJA has adopted the Open Source Eclipse 4DIAC Framework for Industrial Automation and Control by embedding the 4DIAC FORTE Runtime Environment into its controllers, and integrating the 4DIAC IDE into its design toolset."
 categories = ["case_study"]

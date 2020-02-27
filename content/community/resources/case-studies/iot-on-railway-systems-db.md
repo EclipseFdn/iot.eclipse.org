@@ -2,8 +2,8 @@
 date = "2017-05-17"
 title = "Deploying IoT on Germany's DB Railway System"
 seo_title = "Case Study: Deploying IoT on Germany's DB Railway System"
-link = "assets/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf"
-image = "assets/Eclipse%20IoT%20Success%20Story%20-%20DB.png"
+link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf"
+image = "images/Eclipse%20IoT%20Success%20Story%20-%20DB.png"
 company = "Deutsche Bahn"
 weight = 100
 description = "Deutsche Bahn has adopted Eclipse Paho’s open source MQTT libraries and Eclipse Mosquitto to make their railway system more efficient and to create more value for their passengers."
