@@ -2,8 +2,8 @@
 date = "2017-10-11"
 title = "Supporting Software Updates with Open Source IoT"
 seo_title = "Case Study: Supporting Software Updates with Open Source IoT"
-link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.pdf"
-image = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.png"
+link = "assets/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.pdf"
+image = "assets/Eclipse%20IoT%20Success%20Story%20-%20Kynetics.png"
 company = "Kynetics"
 weight = 100
 description = "Kynetics is using Eclipse hawkBit to provide a platform for remote software updates of embedded systems."
