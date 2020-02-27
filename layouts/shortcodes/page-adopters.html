@@ -29,7 +29,7 @@
       {{ range sort .adopters "name" "asc"}}
         <li>
           <a href="{{ .homepage_url }}" target="_blank">
-            <img class="adopters-img" src="/assets/images/adopters/{{ .logo }}" alt="{{ .name }}" />
+            <img class="adopters-img" src="/adopters/images/{{ .logo }}" alt="{{ .name }}" />
           </a>
         </li>
       {{end}}

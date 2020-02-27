@@ -2,8 +2,8 @@
 date = "2015-12-22"
 title = "Monitoring Industrial Power Distribution"
 seo_title = "Case Study: Monitoring Industrial Power Distribution"
-link = "assets/Eclipse%20IoT%20Success%20Story%20-%20E.ON.pdf"
-image = "assets/Eclipse%20IoT%20Success%20Story%20-%20E.ON.png"
+link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20E.ON.pdf"
+image = "images/Eclipse%20IoT%20Success%20Story%20-%20E.ON.png"
 company = "E.ON"
 description = "We wanted a SCADA system we could use with access to some of the developers, which gives us the  flexibility to adjust the system to our needs and grow over time."
 categories = ["case_study"]

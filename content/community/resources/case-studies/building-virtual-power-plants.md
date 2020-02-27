@@ -2,8 +2,8 @@
 date = "2015-12-22"
 title = "Building Virtual Power Plants"
 seo_title = "Case Study: Building Virtual Power Plants"
-link = "assets/Eclipse%20IoT%20Success%20Story%20-%20OmSense.pdf"
-image = "assets/Eclipse%20IoT%20Success%20Story%20-%20OmSense.png"
+link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20OmSense.pdf"
+image = "images/Eclipse%20IoT%20Success%20Story%20-%20OmSense.png"
 company = "OmSense"
 description = "The market has a lot of raw data coming from smart PDUs, but they need a software layer on top of that data to make it useful"
 categories = ["case_study"]

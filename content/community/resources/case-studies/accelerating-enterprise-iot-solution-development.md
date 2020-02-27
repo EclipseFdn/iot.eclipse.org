@@ -2,8 +2,8 @@
 date = "2019-04-23"
 title = "Accelerating Enterprise IoT Solution Development"
 seo_title = "Case Study: Accelerating Enterprise IoT Solution Development"
-link = "assets/Eclipse%20IoT%20Success%20Story%20-%20Red%20Hat%20Eurotech%20Cloudera.pdf"
-image = "assets/Eclipse%20IoT%20Success%20Story%20-%20Red%20Hat%20Eurotech%20Cloudera.png"
+link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20Red%20Hat%20Eurotech%20Cloudera.pdf"
+image = "images/Eclipse%20IoT%20Success%20Story%20-%20Red%20Hat%20Eurotech%20Cloudera.png"
 company = "Red Hat, Eurotech, and Cloudera"
 description = "Red Hat, Eurotech, and Cloudera join forces at the Eclipse Foundation."
 categories = ["case_study"]
