@@ -1,0 +1,20 @@
+{{ define "main" }}
+<p>Join us at an event near you and learn more about <strong>Eclipse IoT</strong>.</p>
+<hr>
+<div class="featured-news featured-news-fullpage">
+  {{ range (.Paginator 15).Pages }}
+  <div class="news-item">
+    <h4 class="news-heading">
+      <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
+        {{ .Title }}
+      </a>
+    </h4>
+    <p class="news-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+    <p>{{ .Summary }}</p>
+  </div>
+  {{ end }}
+</div>
+<div class="row">
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}
