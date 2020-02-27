@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-14">
-        <h2 class="margin-bottom-20 hidden-lg hidden-md">News</h2>
-        {{ range first 3 (where .Site.Pages "Section" "news") }}
-          <div class="news-item row">
-            <div class="col-md-4 col-xs-4 hidden-xs hidden-sm">
-              <span class="news-icon"><i data-feather="file-text" stroke-width="1"></i></span>
-            </div>
-            <div class="col-md-20 col-xs-24">
+        <h2 class="margin-bottom-20">News</h2>
+        {{ range where .Site.Pages "Section" "news"}}
+            {{ .Title}}
+        {{end }}
+        {{ range first 4 (where .Site.Pages "Section" "news/announcements") }}
+          {{ if isset .Params "date" }}
+            <div class="news-item">
               <h4 class="news-heading">
                 <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
                   {{ .Title }}
@@ -17,13 +17,9 @@
               <p class="news-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
               <p>{{ .Summary }}</p>
             </div>
-          </div>
+          {{ end }}
         {{ end }}
-        <div class="row">
-          <div class="col-sm-20 col-md-offset-4">
-            <a href="news">MORE</a>
-          </div>
-        </div>
+        <p><a href="/news">MORE</a></p>
       </div>
       <div class="col-sm-8 col-sm-offset-2 featured-events text-center">
         <h2 class="margin-bottom-20">Upcoming Events</h2>
@@ -43,7 +39,7 @@
             {{ end }}
           {{ end }}
        </div>
-       <p class="margin-top-20"><a href="events">ALL EVENTS</a></p>
+       <p class="margin-top-20"><a href="/news/events">ALL EVENTS</a></p>
       </div>
     </div>
   </div>
