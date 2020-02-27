@@ -6,6 +6,9 @@ share_img: "eclipse-iot-and-edge-day-san-jose-2020/images/preview.jpg"
 page_favicon: "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/favicon.ico"
 disable_css: "true"
 disable_js: "true"
+hide_breadcrumb: true
+hide_page_title: true
+container: "container-fluid"
 aliases:
     - /eclipse-iot-day-san-jose/
     - /eclipse-iot-day-santa-clara-2018/
