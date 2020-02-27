@@ -2,8 +2,8 @@
 date = "2016-01-27"
 title = "An IoT Software Suite to Connect Products to Customers’ Business"
 seo_title = "Case Study: An IoT Software Suite to Connect Products to Customers’ Business"
-link = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Solair.pdf"
-image = "/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Solair.png"
+link = "assets/Eclipse%20IoT%20Success%20Story%20-%20Solair.pdf"
+image = "assets/Eclipse%20IoT%20Success%20Story%20-%20Solair.png"
 company = "Solair"
 description = "We chose Eclipse Kura because it is open source and allows us and our technical partners to integrate the protocol and logic with a high level language – Java"
 categories = ["case_study"]
