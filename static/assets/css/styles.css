@@ -14784,8 +14784,19 @@ img[src*="#img-responsive"] {
   min-width: 180px;
   max-width: 180px;
 }
+#project-list hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 #project-list .logo {
   max-width: 150px;
   max-height: 80px;
   margin-bottom: 30px;
+}
+#project-list .media p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#project-list .media p .badge {
+  font-size: 12px;
 }

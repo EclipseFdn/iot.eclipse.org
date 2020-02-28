@@ -265,7 +265,7 @@ var project_state_aliases = {
                     projectInfo.labels = '';
                     for (var k in projectsAssociation) {
                         if (projectsAssociation[k][value.id]) {
-                            projectInfo.labels += ' ' + ' <span class="label label-warning">' + k + '</span>'
+                            projectInfo.labels += ' ' + ' <span class="badge">' + k + '</span>'
                         }
                     }
 
@@ -302,8 +302,8 @@ var project_state_aliases = {
                                         <p class="downloads" style="display:none;"></p>\
                                         <div class="col-md-24"><p>Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></p></div>\
                                         <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></a></p></div>\
-                                        <div class="col-md-24"><p>Project status: <span class="badge project_state">Incubating</span></a></p></div>\
-                                        <div class="col-md-24"><p><a class="btn btn-sm btn-info downloadUrl" href="#">Getting Started</a></p></div>\
+                                        <div class="col-md-24 margin-bottom-10"><p>Project status: <span class="badge project_state">Incubating</span></a></p></div>\
+                                        <div class="col-md-24"><p><a class="btn btn-sm btn-primary downloadUrl" href="#">Getting Started</a></p></div>\
                                     </div></div>\
                                 </div>\
                               </div></div>\
