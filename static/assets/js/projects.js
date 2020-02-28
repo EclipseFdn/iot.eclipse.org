@@ -288,25 +288,25 @@ var project_state_aliases = {
 
                 var options = {
                     item: '<li class="col-md-24"><div class="media">\
-                              <div class="media-left media-middle">\
+                              <div class="row"><div class="col-sm-4">\
                                 <a href="#" class="link">\
-                                  <img class="media-object img-responsive logo img-thumbnailXXX">\
+                                  <img class="media-object img-responsive logo">\
                                 </a>\
                               </div>\
-                              <div class="media-body">\
+                              <div class="col-sm-20">\
                                  <h4 class="media-heading name"> </h4><span class="labels"></span>\
                                    <div class="row">\
                                     <p class="fullDescription" style="display:none;"></p>\
                                     <p class="description col-md-16"></p>\
-                                    <div class="col-md-8 details">\
+                                    <div class="col-md-8 details"><div class="row">\
                                         <p class="downloads" style="display:none;"></p>\
                                         <div class="col-md-24"><p>Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></p></div>\
                                         <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></a></p></div>\
                                         <div class="col-md-24"><p>Project status: <span class="badge project_state">Incubating</span></a></p></div>\
                                         <div class="col-md-24"><p><a class="btn btn-sm btn-info downloadUrl" href="#">Getting Started</a></p></div>\
-                                    </div>\
+                                    </div></div>\
                                 </div>\
-                              </div>\
+                              </div></div>\
                             </div><hr></li>',
                     valueNames: ['name', 'description', 'fullDescription', {
                             name: 'logo',
