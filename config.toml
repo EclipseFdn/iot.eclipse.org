@@ -254,6 +254,6 @@ buildFuture = true
 [[menu.sidebar]]
   parent ="news"
   name = "Events"
-  url = "/news/events/"
+  url = "/events/"
   pre = "<i data-feather=\"calendar\"></i>"
   weight = 2

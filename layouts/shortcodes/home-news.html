@@ -3,10 +3,7 @@
     <div class="row">
       <div class="col-sm-14">
         <h2 class="margin-bottom-20">News</h2>
-        {{ range where .Site.Pages "Section" "news"}}
-            {{ .Title}}
-        {{end }}
-        {{ range first 4 (where .Site.Pages "Section" "news/announcements") }}
+        {{ range first 4 (where .Site.Pages "Section" "news") }}
           {{ if isset .Params "date" }}
             <div class="news-item">
               <h4 class="news-heading">
@@ -39,7 +36,7 @@
             {{ end }}
           {{ end }}
        </div>
-       <p class="margin-top-20"><a href="/news/events">ALL EVENTS</a></p>
+       <p class="margin-top-20"><a href="/events">ALL EVENTS</a></p>
       </div>
     </div>
   </div>
