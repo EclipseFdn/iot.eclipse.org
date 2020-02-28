@@ -22,7 +22,7 @@ Eurotech was founded in 1992 and considers open collaboration to be part of its 
 
 Cloudera delivers an enterprise data cloud for any data, anywhere, from the edge to artificial intelligence, to help companies solve business problems, drive value, and differentiate from the competition. Cloudera was founded in 2008 with the belief that open source, open standards, and open markets are best.  
 
-##Proprietary Solutions Restrict and Complicate IoT Deployments
+## Proprietary Solutions Restrict and Complicate IoT Deployments
 
 As each company looked to help customers take advantage of IoT technologies, all faced similar challenges. “Ultimately, all of our customers are trying to solve a problem,” explains David Ingham, director of software engineering at Red Hat. “They have physical things they want to connect to IT systems to increase efficiency and make smarter, real-time business decisions.” 
 
@@ -34,7 +34,7 @@ If customers couldn’t manage the complexity of deploying and integrating multi
 
 Finally, customers were looking for a dedicated team to accompany them on their IoT journey. For individual technology companies, such as Red Hat, Eurotech, and Cloudera, this is where it became increasingly difficult to meet customer expectations. “We learned from experience that adopting IoT is not a one-time exercise,” recalls Ingham. “It’s a journey, a transformation that changes business models. And that’s why we started on the path of building a partner ecosystem and working very closely with other vendors who could give our customers what they needed.”
 
-##A Trusted Name in Open Source Provides Instant Credibility
+## A Trusted Name in Open Source Provides Instant Credibility
 
 Because all three companies were already open source advocates, it was very natural for them to turn to the Eclipse Foundation and its Eclipse IoT community for support. Eclipse IoT is the leading open source community for IoT innovation. It offers more than three million lines of code across dozens of projects and is supported by more than 40 of the world’s leading IoT ecosystem players.
 
