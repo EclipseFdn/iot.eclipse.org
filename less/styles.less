@@ -33,14 +33,6 @@ main {
   padding-top:10px;
 }
 
-
-.adopters-img {
-  max-height: 95px;
-  padding: 10px;
-  min-width: 180px;
-  max-width: 180px;
-}
-
 #project-list {
   .media-left {
     max-width: 150px;
@@ -74,4 +66,35 @@ main {
 
 img[src*="#img-responsive"] {
   .img-responsive;
+}
+
+.adopters {
+  @media screen and (max-width: 767px) {
+    text-align:center;
+  }
+  ul {
+    li {
+      @media screen and (max-width: 767px) {
+        &:first-child {
+          margin-top:20px;
+        }
+      }
+      margin-bottom:20px;
+    }
+  }
+}
+
+.adopters-img {
+  max-height: 95px;
+  padding: 10px;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+#project-list {
+  .logo {
+    max-width:150px;
+    max-height:80px;
+    margin-bottom:30px;
+  }
 }
