@@ -16,7 +16,7 @@
   <div class="{{ if (and (isset .Page.Params "container") (ne .Page.Params ""))}}{{ .Page.Params.container }}{{else}}container{{end}}">
     {{ if ne .Page.Params.hide_sidebar true }}
       <div class="row">
-        <div class="col-md-14 padding-bottom-30">
+        <div class="col-md-14">
     {{ end }}
 
     {{ if ne .Page.Params.hide_page_title true }}

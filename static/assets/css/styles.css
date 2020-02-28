@@ -3492,8 +3492,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   border: 0;
   border-top: 1px solid #ccc;
 }
@@ -3570,8 +3570,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 h1 small,
 .h1 small,
@@ -3593,8 +3593,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h4 small,
 .h4 small,
@@ -3635,10 +3635,10 @@ h6,
   font-size: 14px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 .lead {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
@@ -3756,14 +3756,14 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
+  padding-bottom: 19px;
+  margin: 80px 0 40px;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 ul ul,
 ol ul,
@@ -3787,7 +3787,7 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 dt,
 dd {
@@ -3822,8 +3822,8 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
+  padding: 20px 40px;
+  margin: 0 0 40px;
   font-size: 20px;
   border-left: 5px solid #eeeeee;
 }
@@ -3870,7 +3870,7 @@ blockquote.pull-right .small:after {
   content: "\A0   \2014";
 }
 address {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-style: normal;
   line-height: 1.42857143;
 }
@@ -3903,8 +3903,8 @@ kbd kbd {
 }
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
+  padding: 19.5px;
+  margin: 0 0 20px;
   font-size: 15px;
   line-height: 1.42857143;
   color: #333333;
@@ -5390,7 +5390,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -5562,7 +5562,7 @@ th {
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
@@ -5614,7 +5614,7 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 24px;
   line-height: inherit;
   color: #333333;
@@ -5674,7 +5674,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 38px;
+  height: 58px;
   padding: 8px 12px;
   font-size: 16px;
   line-height: 1.42857143;
@@ -5723,7 +5723,7 @@ textarea.form-control {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 38px;
+    line-height: 58px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -5764,7 +5764,7 @@ fieldset[disabled] .checkbox label {
 }
 .radio label,
 .checkbox label {
-  min-height: 20px;
+  min-height: 40px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: 400;
@@ -5804,7 +5804,7 @@ fieldset[disabled] .checkbox-inline {
   margin-left: 10px;
 }
 .form-control-static {
-  min-height: 36px;
+  min-height: 56px;
   padding-top: 9px;
   padding-bottom: 9px;
   margin-bottom: 0;
@@ -5846,7 +5846,7 @@ select[multiple].input-sm {
 }
 .form-group-sm .form-control-static {
   height: 33px;
-  min-height: 34px;
+  min-height: 54px;
   padding: 6px 10px;
   font-size: 14px;
   line-height: 1.5;
@@ -5883,7 +5883,7 @@ select[multiple].input-lg {
 }
 .form-group-lg .form-control-static {
   height: 49px;
-  min-height: 40px;
+  min-height: 60px;
   padding: 11px 16px;
   font-size: 20px;
   line-height: 1.3333333;
@@ -5892,7 +5892,7 @@ select[multiple].input-lg {
   position: relative;
 }
 .has-feedback .form-control {
-  padding-right: 47.5px;
+  padding-right: 72.5px;
 }
 .form-control-feedback {
   position: absolute;
@@ -5900,9 +5900,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
   text-align: center;
   pointer-events: none;
 }
@@ -6005,7 +6005,7 @@ select[multiple].input-lg {
   color: #a94442;
 }
 .has-feedback label ~ .form-control-feedback {
-  top: 25px;
+  top: 45px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
@@ -6076,7 +6076,7 @@ select[multiple].input-lg {
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 29px;
+  min-height: 49px;
 }
 .form-horizontal .form-group {
   margin-right: -15px;
@@ -6610,7 +6610,7 @@ tbody.collapse.in {
 }
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 19px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -7071,7 +7071,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 19px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -7229,7 +7229,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -7335,9 +7335,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 5px 15px;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -7382,12 +7382,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 2.5px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 40px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -7404,7 +7404,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding: 5px 15px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 40px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -7420,8 +7420,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 .navbar-form {
@@ -7431,8 +7431,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: -4px;
+  margin-bottom: -4px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -7516,8 +7516,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: -4px;
+  margin-bottom: -4px;
 }
 .navbar-btn.btn-sm {
   margin-top: 8.5px;
@@ -7528,8 +7528,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 14px;
 }
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 @media (min-width: 768px) {
   .navbar-text {
@@ -7752,7 +7752,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb {
   padding: 8px 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 0;
@@ -7771,7 +7771,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 40px 0;
   border-radius: 0;
 }
 .pagination > li {
@@ -7866,7 +7866,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pager {
   padding-left: 0;
-  margin: 20px 0;
+  margin: 40px 0;
   text-align: center;
   list-style: none;
 }
@@ -8061,7 +8061,7 @@ a.badge:focus {
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 1.42857143;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -8084,7 +8084,7 @@ a.thumbnail.active {
 }
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border: 1px solid transparent;
   border-radius: 0;
 }
@@ -8174,8 +8174,8 @@ a.thumbnail.active {
   }
 }
 .progress {
-  height: 20px;
-  margin-bottom: 20px;
+  height: 40px;
+  margin-bottom: 40px;
   overflow: hidden;
   background-color: #f5f5f5;
   border-radius: 0;
@@ -8186,7 +8186,7 @@ a.thumbnail.active {
   width: 0%;
   height: 100%;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 40px;
   color: #fff;
   text-align: center;
   background-color: #f69222;
@@ -8482,7 +8482,7 @@ button.list-group-item-danger.active:focus {
   line-height: 1.3;
 }
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: #ececec;
   border: 1px solid transparent;
   border-radius: 0px;
@@ -8693,7 +8693,7 @@ button.list-group-item-danger.active:focus {
   border: 0;
 }
 .panel-group {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .panel-group .panel {
   margin-bottom: 0;
@@ -13858,7 +13858,7 @@ img.desaturate {
   }
 }
 #header-row {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .header-wrapper {
   background: #2b241b url(../images/header_bg.jpg?404a55677ecf76c778cc6d88abbaa7e1);
@@ -14154,6 +14154,9 @@ img.desaturate {
     width: 200px;
   }
 }
+.mb-info-container h2 {
+  margin-top: 20px;
+}
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
  * 
@@ -14167,12 +14170,12 @@ img.desaturate {
  * SPDX-License-Identifier: EPL-2.0
 */
 .featured-news {
-  padding: 50px 0;
+  padding: 20px 0;
   color: #919191;
 }
 @media screen and (min-width: 768px) {
   .featured-news {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -14605,6 +14608,7 @@ img.desaturate {
 */
 .homepage main {
   padding-top: 0;
+  margin-top: -15px;
 }
 .homepage .featured-testimonials {
   padding: 80px 0;
@@ -14724,7 +14728,7 @@ li {
   font-weight: 300;
 }
 main {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .adopters-img {
   max-height: 95px;
