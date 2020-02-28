@@ -14062,12 +14062,12 @@ img.desaturate {
 */
 .featured-eclipsefdn {
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 @media screen and (min-width: 768px) {
   .featured-eclipsefdn {
     text-align: left;
-    padding: 80px 0;
+    padding: 30px 0;
   }
 }
 .featured-eclipsefdn .logo {
@@ -14128,11 +14128,11 @@ img.desaturate {
 */
 .featured-members {
   background-color: #fff;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 @media screen and (min-width: 768px) {
   .featured-members {
-    padding: 80px 0;
+    padding: 50px 0;
   }
 }
 .featured-members ul {
@@ -14175,7 +14175,7 @@ img.desaturate {
 }
 @media screen and (min-width: 768px) {
   .featured-news {
-    padding: 20px 0;
+    padding: 30px 0 50px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -14237,11 +14237,11 @@ img.desaturate {
   background-size: cover;
   background-image: url(../images/newsletter_bg.jpg?77c1504d43fd0339ad1626abc52c3942);
   background-position: center;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 @media screen and (min-width: 768px) {
   .featured-newsletter {
-    padding: 80px 0;
+    padding: 30px 0 50px;
   }
 }
 .featured-newsletter h2 {
@@ -14559,8 +14559,8 @@ img.desaturate {
   position: relative;
 }
 .header-wrapper .featured-jumbotron {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media screen and (min-width: 768px) {
   .header-wrapper .featured-jumbotron {
@@ -14611,7 +14611,7 @@ img.desaturate {
   margin-top: -15px;
 }
 .homepage .featured-testimonials {
-  padding: 80px 0;
+  padding: 70px 0 50px;
   background-color: #fff;
 }
 .homepage .featured-testimonials .testimonial-item {
