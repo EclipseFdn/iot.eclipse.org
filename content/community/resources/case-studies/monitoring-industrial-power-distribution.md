@@ -11,42 +11,11 @@ categories = ["case_study"]
 
 ## The business application: building virtual power plants
 
-E.ON Connecting Energies is a business unit of E.ON and 
-an international provider of integrated energy solutions 
-for commercial and industrial customers as well as public-
-sector  institutions.  E.ON  is  an  international  privately-
-owned  energy  supplier  and  will  in  future  be  focusing  
-entirely  on  renewables,  energy  networks  and  customer  
-solutions. In the 2014 financial year, more than 58,000 
-employees based in many countries in Europe as well as 
-in Russia and North America generated sales of around 
-EUR 112 billion. Around 33 million customers purchase 
-gas and electricity from E.ON. 
+E.ON Connecting Energies is a business unit of E.ON and an international provider of integrated energy solutions for commercial and industrial customers as well as public-sector  institutions.  E.ON  is  an  international  privately-owned  energy  supplier  and  will  in  future  be  focusing  entirely  on  renewables,  energy  networks  and  customer solutions. In the 2014 financial year, more than 58,000 employees based in many countries in Europe as well as in Russia and North America generated sales of around EUR 112 billion. Around 33 million customers purchase gas and electricity from E.ON. 
 
-E.ON  Connecting  Energies  is  headquartered  in  Essen,  
-Germany,  and  exploits  innovative  technology  such  as  
-machine-to-machine communication and data analytics 
-to  provide  integrated  energy  solutions  with  tangible  
-cost  benefits  for  customers.  As  a  system  integrator, 
-E.ON  Connecting  Energies  is  technology  agnostic  and  
-vendor-independent, allowing them to leverage cutting-
-edge  technology  to  develop  the  best  possible  solution  
-for  customers.  Three  years  ago  the  company  entered  
-the  Virtual  Power  Plant  (VPP)  space,  whereby  they  help  
-companies offer and monetize their capacities beyond 
-their own needs to contribute to the energy system. 
+E.ON  Connecting  Energies  is  headquartered  in  Essen,  Germany,  and  exploits  innovative  technology  such  as  machine-to-machine communication and data analytics to  provide  integrated  energy  solutions  with  tangible  cost  benefits  for  customers.  As  a  system  integrator, E.ON  Connecting  Energies  is  technology  agnostic  and  vendor-independent, allowing them to leverage cutting-edge  technology  to  develop  the  best  possible  solution  for  customers.  Three  years  ago  the  company  entered  the  Virtual  Power  Plant  (VPP)  space,  whereby  they  help  companies offer and monetize their capacities beyond their own needs to contribute to the energy system. 
 
-E·ON Connecting Energies analyzes customer equipment 
-resources including on-site power generation units (e. g. 
-diesel generators, wind, PV , biomass, etc.) and transforms 
-their  capacities  into  VPPs,  meaning  they  can  control  
-these sources by a central control system optimized to 
-access data 24/7. Eventually, they sell the excess energy 
-and capacity for the customer into the energy markets, 
-such  as  wholesale  markets  (e.g.  spot,  intraday),  reserve  
-markets  (primary,  secondary,  tertiary  reserve)  or  local  
-optimisation  (e.g.  peak  charge,  avoidance,  imbalance  
-optimisation).
+E·ON Connecting Energies analyzes customer equipment resources including on-site power generation units (e. g. diesel generators, wind, PV , biomass, etc.) and transforms their  capacities  into  VPPs,  meaning  they  can  control  these sources by a central control system optimized to access data 24/7. Eventually, they sell the excess energy and capacity for the customer into the energy markets, such  as  wholesale  markets  (e.g.  spot,  intraday),  reserve  markets  (primary,  secondary,  tertiary  reserve)  or  local  optimisation  (e.g.  peak  charge,  avoidance,  imbalance  optimisation).
 
 
 ## The Industrial Control System - Eclipse SCADA
