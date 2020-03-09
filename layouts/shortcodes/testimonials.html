@@ -14,7 +14,6 @@
 
       {{ range .Site.Data.testimonials.items}}
         <div class="testimonial-item">
-          <i class="fa fa-code" aria-hidden="true"></i>
           <p class="content">{{ .text }}</p>
           <p><img src="{{ .picture_link }}" alt="{{ .picture_alt }}"></p>
           <p class="author">{{ .author }} / <span class="job-title">{{ .job_title }}, {{ .company }}</span></p>
