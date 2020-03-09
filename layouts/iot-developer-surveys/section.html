@@ -51,13 +51,17 @@
                     <h2 class="purple" style="margin-top: .5em">{{.Title}}</h2>
                     {{ .Params.description }}
                     <p style="margin-top: 1em;">
+                      {{ if .Params.link }}
                         <a href="{{ .Params.link }}">
                          <img src="/assets/images/icon_pdf.png"> PDF 
                        </a>
+                       {{ end }}
+                       {{ if .Params.path }}
                        &nbsp; 
                        <a href="{{ .Params.path }}">
                          <img src="/assets/images/icon_html.png"> HTML
                        </a>
+                       {{ end }}
                     </p>
                 </div>
               </div>
