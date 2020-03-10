@@ -1,5 +1,9 @@
 items:
   -
+    title: "IoT Commercial Adoption Survey 2019"
+    link: "http://eclipse-5413615.hs-sites.com/iot-adoption-survey-results-2019"
+    img: "/community/iot-surveys/assets/iot-comm-adoption-survey-2019.png"
+  -
     title: "IoT Developer Survey 2019"
     link: "/community/iot-surveys/assets/iot-developer-survey-2019.pdf"
     path: "https://www.slideshare.net/Eclipse-IoT/iot-developer-survey-2019-report"
