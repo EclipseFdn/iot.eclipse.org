@@ -14128,7 +14128,7 @@ img.desaturate {
   }
 }
 .featured-members ul {
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 .featured-members ul li {
   padding: 0 20px 30px;
@@ -14139,12 +14139,8 @@ img.desaturate {
   }
 }
 .featured-members ul li img {
-  width: 150px;
-}
-@media screen and (min-width: 768px) {
-  .featured-members ul li img {
-    width: 200px;
-  }
+  max-width: 150px;
+  max-height: 90px;
 }
 .mb-info-container h2 {
   margin-top: 20px;

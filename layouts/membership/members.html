@@ -3,7 +3,7 @@
 <p class="big" style="font-weight:200;">Learn more about our members and discover the IoT solutions they&nbsp;offer&nbsp;today.</p>
 <h2 class="margin-bottom-30">Strategic members</h2>
 <div id="sc-members">
-  {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
+  {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "steering" }}
   <div class="row members-info" id="member-{{ .Params.logo }}">
     <div class="col-md-4 col-md-offset-1 mb-logo margin-top-20">
@@ -34,7 +34,7 @@
 </div>
 <h2 class="margin-bottom-30 margin-top-60">Participating members</h2>
 <div id="participating-members">
-  {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
+  {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "participating" }}
   <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
     <div class="col-md-4 col-md-offset-1 mb-logo margin-top-20">
@@ -65,7 +65,7 @@
 </div>
 <h2 class="purple" style="margin-top: 2em;">Guest members<br /><br /></h2>
 <div id="guest-members">
-  {{ range sort (where .Site.RegularPages.ByTitle "Section" "member") ".Title" }}
+  {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "guest" }}
   <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
     <div class="col-md-4 col-md-offset-1 mb-logo margin-top-20">
