@@ -23,7 +23,6 @@ buildFuture = true
 
   favicon = "favicon.ico"
   share_img = "site_preview.png"
-  gcse = "011805775785170369411:p3ec0igo0qq"
 # header_wrapper_class = "header-default-bg-img"
 # subtheme = "jakarta"
 # call_for_action_text = ""
