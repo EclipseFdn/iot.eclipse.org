@@ -1,0 +1,23 @@
+{{ $list := .Pages }}
+{{ $length := (len $list) }}
+{
+    "items" : [
+    {{ range $index, $element := $list }}
+    {
+        "title" : {{ .Title | jsonify }},
+        "date_published" : "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+        "url" : "{{ .Permalink }}",
+        "member_type" : "{{ .Params.member_type }}",
+        "member_id" : "{{ .Params.member_id }}",
+        "more_url" : "{{ .Params.more_url }}",
+        "logo" : "/membership/members/images/logo-{{ .Params.logo }}.png",
+        {{ if .Params.demo_url }}
+          "demo_url" : "{{ .Params.demo_url }}",
+        {{ else }}
+          "demo_url" : "",
+        {{ end }}
+        "content_html" : {{ .Content | jsonify }}
+    }{{ if ne (add $index 1) $length }},{{ end }}
+    {{ end }}
+    ]
+}

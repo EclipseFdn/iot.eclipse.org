@@ -47,6 +47,10 @@ buildFuture = true
   resource_items = "resource_items"
   tag = "tags"
   
+[outputs]
+  home = ["HTML","RSS", "JSON"]
+  section = ["HTML","RSS", "JSON"]
+  
 [[menu.main]]
   name = "Adopters"
   url = "/adopters/"

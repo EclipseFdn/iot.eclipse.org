@@ -6,5 +6,8 @@ aliases:
     - /member/
 layout: "members"
 menu_icon: "zap"
-parent: "members"
+outputs:
+    - HTML
+    - JSON
+    - RSS
 ---
