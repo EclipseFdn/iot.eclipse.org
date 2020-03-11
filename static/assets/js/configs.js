@@ -27,4 +27,5 @@
    var random_testimonial_item = Math.floor(Math.random() * $('.testimonial-item').length);
    $('.testimonial-item').hide().eq(random_testimonial_item).show();
    
-})(jQuery, document);
+})(jQuery, document); 
+
