@@ -18,6 +18,6 @@ body_classes: "homepage"
 {{< home-stats >}}
 {{< home-news >}}
 {{< testimonials >}}
-{{< home-newsletter >}}
 {{< home-members >}}
+{{< home-newsletter >}}
 {{< home-eclipse-foundation >}}
