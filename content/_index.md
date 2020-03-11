@@ -1,8 +1,8 @@
 ---
-title: "Eclipse IoT"
+title: "Open Source for the Internet of Things"
 seo_title: "Eclipse IoT Working Group"
-headline: "Open Source for IoT"
-tagline: "Eclipse IoT provides the technology needed to build IoT Solutions."
+headline: "Open Source for the Internet of Things"
+tagline: "Eclipse IoT technologies power the world’s leading commercial IoT solutions."
 # description: "The Edge Native WG delivers production-ready open source platforms for edge native applications."
 hide_page_title: true
 hide_sidebar: true
