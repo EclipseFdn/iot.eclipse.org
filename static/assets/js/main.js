@@ -3028,6 +3028,172 @@ this},r._applyDataApi=function(){var e={};t("[data-match-height], [data-mh]").ea
   return eclipseFdnVideos;
 
 });
+/*!
+ * Copyright (c) 2018 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+ */
+(function($, document) {
+
+  $(window).on("load", function() {
+    if (window.location.hash && $(window.location.hash).hasClass("tab-pane")) {
+      window.scrollTo(0, 0);
+      setTimeout(function() {
+        window.scrollTo(0, 0);
+      }, 1);
+    }
+  });
+
+  $(document).ready(function() {
+
+    var href_hash = window.location.hash;
+    // Add a class if right column is non-existant.
+    if ($("#rightcolumn").length == 0) {
+      $("#midcolumn").attr("class", "no-right-sidebar");
+      if (href_hash) {
+        window.location.hash = href_hash;
+      }
+    }
+    // add a class if left column is non-existant.
+    if ($('#main-sidebar').length == 0) {
+      $("#midcolumn").attr("class", "no-left-nav");
+      if (href_hash) {
+        window.location.hash = href_hash;
+      }
+    }
+
+    $('#showalltabs').click(function() {
+      $('.tabs li').each(function(i, t) {
+        $(this).removeClass('active');
+      });
+      $('.tab-pane').each(function(i, t) {
+        $(this).addClass('active');
+      });
+    });
+
+    href_hash && $('ul.nav a[href="' + href_hash + '"]').tab('show');
+  });
+
+  // This code will prevent unexpected menu close when
+  // using some components (like accordion, forms, etc).
+  $(document).on("click", ".yamm .dropdown-menu", function(e) {
+    e.stopPropagation()
+  });
+
+  // scroll button.
+  $(window).on("load resize scroll", function() {
+    if ($(window).width() < 1270) {
+      $('.scrollup').hide();
+      return false;
+    }
+    if ($(this).scrollTop() > 100) {
+      $('.scrollup').fadeIn();
+    } else {
+      $('.scrollup').fadeOut();
+    }
+  });
+
+  // scroll back to the top of the page.
+  $('.scrollup').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 600);
+    return false;
+  });
+
+  $('.nav-tabs a').click(function(e) {
+    $(this).tab('show');
+    history.pushState({}, "", this.href);
+    $('.alert:not(.stay-visible)').remove();
+  });
+
+  $("a[data-tab-destination]").on('click', function() {
+    var tab = $(this).attr('data-tab-destination');
+    $("#" + tab).click();
+  });
+
+  $('.solstice-collapse').click(function() {
+    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+  });
+
+  feather.replace();
+
+  $('.match-height-item-by-row').matchHeight();
+  $('.match-height-item').matchHeight({
+    byRow: false
+  });
+
+  // Focus on the Google search bar when dropdown menu is being shown
+  $('.main-menu-search').on('shown.bs.dropdown', function() {
+    $('.gsc-input').focus();
+  });
+
+  // Hide search on ESC key.
+  // @todo: Find a way to make it work when focus is on an input field.
+  $(document).bind('keydown', '27', function(e) {
+    $('.eclipse-search a').dropdown("toggle");
+  });
+
+  // If the Manage Cookies button from the toolbar is clicked,
+  // open the cookie consent popup.
+  $('.toolbar-manage-cookies').click(function() {
+    $('.cc-window').show();
+    setTimeout(function() {
+      $('.cc-window').removeClass('cc-invisible');
+    }, 20);
+  });
+
+  eclipseFdnVideos.replace();
+  
+  // Make the whole block-list clickable
+  $('.block-summary-item').click(function() {
+    $link = $(this).find('h4 a');
+    if(typeof $link !== 'undefined') {
+      $link[0].click();
+    }
+  });
+
+  // Toggle Text of an HTML element
+  var view_more_button_text = $('.toggle-text').html();
+  $('.toggle-text').click(function() {
+    if ($(this).hasClass('toggle-text-close')) {
+      $(this).removeClass('toggle-text-close').html(view_more_button_text);
+    } else {
+      $(this).addClass('toggle-text-close').html($(this).attr('data-toggle-text'));
+    }
+  });
+
+  // Infra 2791 - Send events to Google Analytics
+  $('a[href]').click(function() {
+    if (typeof ga === "function") {
+      // Get the file name out of the href attribute
+      var fileName = $(this).attr('href').split('/').pop();
+
+      // Get the file extension
+      var fileExtension = fileName.split('.').pop();
+
+      // Quit here if the extension of the clicked file isn't part of the following list
+      // and if the Google Analytics is not loaded
+      var tracker = ga.getAll()[0].get('name');
+      if (tracker && $.inArray(fileExtension, ['pdf', 'jpg', 'png', 'zip', 'dmg', 'gz', 'exe', 'doc', 'odt', 'rtf', '7z', 'arj', 'deb', 'pkg', 'rar', 'rpm', 'z', 'tar', 'xml', 'csv', 'xls', 'xlr', 'ods', 'rss']) !== -1) {
+        // Send the event to Google Analytics
+        ga(tracker + '.send', 'event', {
+          'eventCategory': 'solstice-event-tracker',
+          'eventAction': window.location.href,
+          'eventLabel': fileName
+        });
+      }
+    }
+  });
+
+})(jQuery, document);
 !function(e,n){"object"==typeof exports&&"object"==typeof module?module.exports=n():"function"==typeof define&&define.amd?define([],n):"object"==typeof exports?exports.feather=n():e.feather=n()}("undefined"!=typeof self?self:this,function(){return function(e){var n={};function i(t){if(n[t])return n[t].exports;var l=n[t]={i:t,l:!1,exports:{}};return e[t].call(l.exports,l,l.exports,i),l.l=!0,l.exports}return i.m=e,i.c=n,i.d=function(e,n,t){i.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:t})},i.r=function(e){Object.defineProperty(e,"__esModule",{value:!0})},i.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(n,"a",n),n},i.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},i.p="",i(i.s=80)}([function(e,n,i){(function(n){var i="object",t=function(e){return e&&e.Math==Math&&e};e.exports=t(typeof globalThis==i&&globalThis)||t(typeof window==i&&window)||t(typeof self==i&&self)||t(typeof n==i&&n)||Function("return this")()}).call(this,i(75))},function(e,n){var i={}.hasOwnProperty;e.exports=function(e,n){return i.call(e,n)}},function(e,n,i){var t=i(0),l=i(11),r=i(33),o=i(62),a=t.Symbol,c=l("wks");e.exports=function(e){return c[e]||(c[e]=o&&a[e]||(o?a:r)("Symbol."+e))}},function(e,n,i){var t=i(6);e.exports=function(e){if(!t(e))throw TypeError(String(e)+" is not an object");return e}},function(e,n){e.exports=function(e){try{return!!e()}catch(e){return!0}}},function(e,n,i){var t=i(8),l=i(7),r=i(10);e.exports=t?function(e,n,i){return l.f(e,n,r(1,i))}:function(e,n,i){return e[n]=i,e}},function(e,n){e.exports=function(e){return"object"==typeof e?null!==e:"function"==typeof e}},function(e,n,i){var t=i(8),l=i(35),r=i(3),o=i(18),a=Object.defineProperty;n.f=t?a:function(e,n,i){if(r(e),n=o(n,!0),r(i),l)try{return a(e,n,i)}catch(e){}if("get"in i||"set"in i)throw TypeError("Accessors not supported");return"value"in i&&(e[n]=i.value),e}},function(e,n,i){var t=i(4);e.exports=!t(function(){return 7!=Object.defineProperty({},"a",{get:function(){return 7}}).a})},function(e,n){e.exports={}},function(e,n){e.exports=function(e,n){return{enumerable:!(1&e),configurable:!(2&e),writable:!(4&e),value:n}}},function(e,n,i){var t=i(0),l=i(19),r=i(17),o=t["__core-js_shared__"]||l("__core-js_shared__",{});(e.exports=function(e,n){return o[e]||(o[e]=void 0!==n?n:{})})("versions",[]).push({version:"3.1.3",mode:r?"pure":"global",copyright:"© 2019 Denis Pushkarev (zloirock.ru)"})},function(e,n,i){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=o(i(43)),l=o(i(41)),r=o(i(40));function o(e){return e&&e.__esModule?e:{default:e}}n.default=Object.keys(l.default).map(function(e){return new t.default(e,l.default[e],r.default[e])}).reduce(function(e,n){return e[n.name]=n,e},{})},function(e,n){e.exports=["constructor","hasOwnProperty","isPrototypeOf","propertyIsEnumerable","toLocaleString","toString","valueOf"]},function(e,n,i){var t=i(72),l=i(20);e.exports=function(e){return t(l(e))}},function(e,n){e.exports={}},function(e,n,i){var t=i(11),l=i(33),r=t("keys");e.exports=function(e){return r[e]||(r[e]=l(e))}},function(e,n){e.exports=!1},function(e,n,i){var t=i(6);e.exports=function(e,n){if(!t(e))return e;var i,l;if(n&&"function"==typeof(i=e.toString)&&!t(l=i.call(e)))return l;if("function"==typeof(i=e.valueOf)&&!t(l=i.call(e)))return l;if(!n&&"function"==typeof(i=e.toString)&&!t(l=i.call(e)))return l;throw TypeError("Can't convert object to primitive value")}},function(e,n,i){var t=i(0),l=i(5);e.exports=function(e,n){try{l(t,e,n)}catch(i){t[e]=n}return n}},function(e,n){e.exports=function(e){if(void 0==e)throw TypeError("Can't call method on "+e);return e}},function(e,n){var i=Math.ceil,t=Math.floor;e.exports=function(e){return isNaN(e=+e)?0:(e>0?t:i)(e)}},function(e,n,i){var t;
 /*!
   Copyright (c) 2016 Jed Watson.
