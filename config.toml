@@ -20,6 +20,9 @@ buildFuture = true
   logo_width = 120
   styles = "assets/css/styles.css"
   js = "assets/js/main.js"
+  twitter_url = "https://twitter.com/EclipseIoT"
+  facebook_url = "https://www.facebook.com/eclipseiot"
+  youtube_url = "https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-"
 
   favicon = "favicon.ico"
   share_img = "site_preview.png"
