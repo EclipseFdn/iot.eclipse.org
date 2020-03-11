@@ -23,11 +23,25 @@
       a {
         color:#fff;
       }
+      &:hover {
+        background-color: darken(@brand-secondary, 15%);
+      }
+    }
+    &:hover:not(.active) {
+      background-color: darken(#f1f1f1, 15%);
+      a {
+        color:darken(@main-sidebar-color, 20%);
+      }
     }
   }
   .sidebar-sub-items {
     background-color:#fff;
     margin-top:-20px;
+    a {
+      &:hover {
+        font-weight:bold;
+      }
+    }
   }
   .sidebar-sub-item {
     padding:0 0 8px 15px;
