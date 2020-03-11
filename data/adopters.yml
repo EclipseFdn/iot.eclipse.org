@@ -76,6 +76,14 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Tier IV
+      homepage_url: https://tier4.jp/en/
+      logo: logo-tier-iv.jpg
+      logo_white: logo-tier-iv.png
+    - name: EclipseSource
+      homepage_url: https://eclipsesource.com/
+      logo: logo-es.svg
+      logo_white: logo-es-white.svg
     - name: Open Robotics
       homepage_url: https://www.openrobotics.org/
       logo: logo-open-robotics.svg
