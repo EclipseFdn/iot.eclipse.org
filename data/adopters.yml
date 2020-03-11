@@ -76,6 +76,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: The Autoware Foundation
+      homepage_url: https://www.autoware.org/
+      logo: logo-autoware.png
+      logo_white: logo-autoware-white.png
     - name: EclipseSource
       homepage_url: https://eclipsesource.com/
       logo: logo-es.svg
