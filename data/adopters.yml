@@ -76,6 +76,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: EclipseSource
+      homepage_url: https://eclipsesource.com/
+      logo: logo-es.svg
+      logo_white: logo-es-white.svg
     - name: Freedom Robotics
       homepage_url: https://www.freedomrobotics.ai/
       logo: logo-freedom-robotics.png
