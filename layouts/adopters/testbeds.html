@@ -4,7 +4,7 @@
     {{ range sort .Pages "Title" }}
     <div class="col-sm-8 featured-highlights-item match-height-item-by-row">
       <i data-feather="{{ .Params.icon }}" stroke-width="1"></i>
-      <h3>{{ .Title }}</h3>
+      <h2 class="h3">{{ .Title }}</h2>
       <p>{{ .Description }}</p>
       <p><a href="{{ .Permalink | relURL }}" title="{{ .Title }}">Learn More</a></p>
     </div>

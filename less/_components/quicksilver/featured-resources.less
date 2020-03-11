@@ -23,6 +23,11 @@
 .resources-summary {
   overflow:hidden;
   margin-bottom:30px;
+  .resources-summary-links {
+    a span {
+      display:none;
+    }
+  }
   .resources-summary-img {
     display:block;
     height:120px;
@@ -51,12 +56,12 @@
     }
   }
   .resources-summary-date {
-    color:#cd9250;
+    color:darken(@brand-primary, 25%);
     font-size: 12px;
     margin-bottom:0;
   }
   .resources-summary-text {
-    color:#7b7b7b;
+    color:#606060;
     font-size: 12px;
   }
 }

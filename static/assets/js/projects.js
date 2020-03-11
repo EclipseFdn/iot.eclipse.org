@@ -257,6 +257,7 @@ var project_state_aliases = {
                     projectInfo.logo = value.logo || '//fakeimg.pl/400x200/f5f5f5/000/?text=' + title //; || 'https://placeholdit.imgix.net/~text?txtsize=42&txt=' + title + '&w=200&h=80&bg=f5f5f5&txtclr=000000' ; //|| 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
                     projectInfo.id = id;
                     projectInfo.name = title;
+                    projectInfo.logo_alt = title;
 
                     console.log(project_states[value.id])
 
@@ -290,7 +291,7 @@ var project_state_aliases = {
                     item: '<li class="col-md-24"><div class="media">\
                               <div class="row"><div class="col-sm-4">\
                                 <a href="#" class="link">\
-                                  <img class="media-object img-responsive logo">\
+                                  <img class="media-object img-responsive logo logo_alt" alt="project">\
                                 </a>\
                               </div>\
                               <div class="col-sm-20">\
@@ -300,9 +301,9 @@ var project_state_aliases = {
                                     <p class="description col-md-16"></p>\
                                     <div class="col-md-8 details"><div class="row">\
                                         <p class="downloads" style="display:none;"></p>\
-                                        <div class="col-md-24"><p>Monthly downloads: <span class="badge downloadsHuman">50K+</span></a></p></div>\
-                                        <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></a></p></div>\
-                                        <div class="col-md-24 margin-bottom-10"><p>Project status: <span class="badge project_state">Incubating</span></a></p></div>\
+                                        <div class="col-md-24"><p>Monthly downloads: <span class="badge downloadsHuman">50K+</span></p></div>\
+                                        <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></p></div>\
+                                        <div class="col-md-24 margin-bottom-10"><p>Project status: <span class="badge project_state">Incubating</span></p></div>\
                                         <div class="col-md-24"><p><a class="btn btn-sm btn-primary downloadUrl" href="#">Getting Started</a></p></div>\
                                     </div></div>\
                                 </div>\
@@ -315,7 +316,9 @@ var project_state_aliases = {
                             name: 'link',
                             attr: 'href'
                         }, {
-                            name: 'downloadUrl', attr:'href'
+                            name: 'downloadUrl', attr:'href',
+                        }, {
+                          name: 'logo_alt', attr: 'alt'
                         },
                         'labels', 'project_state'
                     ]

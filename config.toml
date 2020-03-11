@@ -88,7 +88,7 @@ buildFuture = true
 
 [[menu.sidebar]]
   parent ="adopters"
-  name = "Testbeds"
+  name = "Eclipse IoT Open Testbeds"
   url = "/adopters/testbeds/"
   pre = "<i data-feather=\"package\"></i>"
   weight = "2"
