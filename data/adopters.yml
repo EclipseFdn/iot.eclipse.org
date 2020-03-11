@@ -76,6 +76,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Tier IV
+      homepage_url: https://tier4.jp/en/
+      logo: logo-tier-iv.png
+      logo_white: logo-tier-iv-white.png
     - name: The Autoware Foundation
       homepage_url: https://www.autoware.org/
       logo: logo-autoware.png
