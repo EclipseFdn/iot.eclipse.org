@@ -15015,3 +15015,8 @@ img[src*="#img-responsive"] {
 #project-list .media p .badge {
   font-size: 12px;
 }
+#project-list .btn:hover,
+#project-list .btn.active {
+  background-color: #693703;
+  border-color: #693703;
+}
