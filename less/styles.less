@@ -22,123 +22,16 @@
 @import '_components/quicksilver/featured-stats.less';
 @import '_components/quicksilver/featured-testimonials.less';
 @import '_components/quicksilver/featured-timeline.less';
-@import '_components/quicksilver/featured-resources.less';
 @import '_components/quicksilver/featured-highlights.less';
-@import '_components/header.less';
-@import '_components/homepage.less';
-@import '_components/sidebar.less';
+@import '_components/adopters.less';
 @import '_components/buttons.less';
 @import '_components/classes-typography.less';
+@import '_components/header.less';
+@import '_components/homepage.less';
+@import '_components/projects.less';
+@import '_components/resources.less';
+@import '_components/sidebar.less';
 
 main {
   padding-top:10px;
-}
-
-#project-list {
-  .media-left {
-    max-width: 150px;
-    min-width: 150px;
-    padding-right:30px;
-  }
-  .media {
-    padding:20px 0;
-  }
-  .labels {
-    margin-bottom:15px;
-    display:block;
-  }
-  .search-and-sort {
-    text-align:center;
-  }
-}
-
-.openiot-challenge {
-  .header {
-    background-image: url(images/iot-challenge-header-bg.jpg);
-    background-size: cover;
-    background-position: top center;
-    text-align: center;
-    padding: 40px 0;
-    padding-bottom: 10px !important;
-    font-size: 2em;
-    color: #fff;
-  }
-}
-
-img[src*="#img-responsive"] {
-  .img-responsive;
-}
-
-.adopters {
-  @media screen and (max-width: 767px) {
-    text-align:center;
-  }
-  ul {
-    li {
-      @media screen and (max-width: 767px) {
-        &:first-child {
-          margin-top:20px;
-        }
-      }
-      margin-bottom:20px;
-    }
-  }
-  h2 {
-    border-bottom:1px solid #999;
-    padding-bottom:10px;
-    margin-bottom:20px;
-  }
-}
-
-.adopters-img {
-  max-height: 95px;
-  padding: 10px;
-  min-width: 180px;
-  max-width: 180px;
-}
-
-#project-list {
-  hr {
-    margin-top:30px;
-    margin-bottom:30px;
-  }
-  .logo {
-    max-width:150px;
-    max-height:80px;
-    margin-bottom:30px;
-  }
-  .media p {
-    margin-bottom:10px;
-    font-size:16px;
-    .badge {
-      font-size:12px;
-    }
-  }
-  .btn {
-    &:hover, &.active {
-      background-color:#693703;
-      border-color:#693703;
-    }
-  }
-}
-
-.button-variant(@color; @background; @border) {
-  &:focus,
-  &.focus {
-    background-color: darken(@background, 15%);
-  }
-  &:hover {
-    background-color: darken(@background, 15%);
-  }
-  &:active,
-  &.active,
-  .open > .dropdown-toggle& {
-    background-color: darken(@background, 15%);
-
-    &:hover,
-    &:focus,
-    &.focus {
-      background-color: darken(@background, 25%);
-    }
-  }
 }
