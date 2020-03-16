@@ -14274,8 +14274,10 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
-.featured-events h2 {
-  font-size: 24px;
+@media screen and (min-width: 768px) {
+  .featured-events h2 {
+    font-size: 24px;
+  }
 }
 .featured-events a {
   color: #E57707;
@@ -14327,6 +14329,12 @@ img.desaturate {
 }
 .mb-info-container h2 {
   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .members img {
+    max-width: 300px;
+    max-height: 110px;
+  }
 }
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.

@@ -2,7 +2,7 @@
 {{ .Content }}
 <p class="big" style="font-weight:200;">Learn more about our members and discover the IoT solutions they&nbsp;offer&nbsp;today.</p>
 <h2 class="margin-bottom-30">Strategic members</h2>
-<div id="sc-members">
+<div id="sc-members" class="members">
   {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "steering" }}
   <div class="row members-info" id="member-{{ .Params.logo }}">
@@ -13,7 +13,7 @@
     </div>
     <div class="col-md-16 col-md-offset-1 mb-info margin-bottom-50">
       <div class="mb-info-container">
-        <h2 class="h3 margin-top-0" id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
+        <h3 id="{{ .Params.logo }}">{{ .Title }} </h3> {{ .Content }}
       </div>
       <div>
         {{ if isset .Params "more_url" }}
@@ -33,7 +33,7 @@
   {{ end }}
 </div>
 <h2 class="margin-bottom-30 margin-top-60">Participating members</h2>
-<div id="participating-members">
+<div id="participating-members" class="members">
   {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "participating" }}
   <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
@@ -44,7 +44,7 @@
     </div>
     <div class="col-md-16 col-md-offset-1 mb-info margin-bottom-50">
       <div class="mb-info-container">
-        <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
+        <h3 id="{{ .Params.logo }}">{{ .Title }} </h3> {{ .Content }}
       </div>
       <div>
         {{ if isset .Params "more_url" }}
@@ -64,7 +64,7 @@
   {{ end }}
 </div>
 <h2 class="purple" style="margin-top: 2em;">Guest members<br /><br /></h2>
-<div id="guest-members">
+<div id="guest-members" class="members">
   {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
   {{ if eq .Params.member_type "guest" }}
   <div class="row members-info" id="member-{{ .Params.logo }}" title="{{ .Title }}">
@@ -75,7 +75,7 @@
     </div>
     <div class="col-md-16 col-md-offset-1 mb-info margin-bottom-50">
       <div class="mb-info-container">
-        <h2 id="{{ .Params.logo }}">{{ .Title }} </h2> {{ .Content }}
+        <h3 id="{{ .Params.logo }}">{{ .Title }} </h3> {{ .Content }}
       </div>
       <div>
         {{ if isset .Params "more_url" }}
