@@ -26,3 +26,24 @@
   line-height: 1.5;
   border-radius: 22px;
 }
+
+.button-variant(@color; @background; @border) {
+  &:focus,
+  &.focus {
+    background-color: darken(@background, 15%);
+  }
+  &:hover {
+    background-color: darken(@background, 15%);
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-color: darken(@background, 15%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: darken(@background, 25%);
+    }
+  }
+}

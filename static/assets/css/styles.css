@@ -14279,9 +14279,6 @@ img.desaturate {
     font-size: 24px;
   }
 }
-.featured-events a {
-  color: #E57707;
-}
 .events-item {
   margin-bottom: 30px;
 }
@@ -14672,53 +14669,10 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
-.resources {
-  border-bottom: 1px solid #dbdbdb;
-  margin-bottom: 60px;
-}
-.resources-more {
-  font-size: 12px;
-}
-.resources-summary {
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.resources-summary .resources-summary-links a span {
-  display: none;
-}
-.resources-summary .resources-summary-img {
-  display: block;
-  height: 120px;
-  overflow: hidden;
-}
-.resources-summary .resources-summary-img img {
-  max-width: 100%;
-  min-height: 120px;
-}
-.resources-summary .resources-summary-img .resources-summary-icon {
-  background-color: #f1f1f1;
-  padding: 30px;
-  display: block;
-  text-align: center;
-}
-.resources-summary .resources-summary-img .resources-summary-icon .feather {
-  color: #536a75;
-  width: 55px;
-  height: 55px;
-}
-.resources-summary .resources-summary-heading a {
-  color: #536a75;
-  font-size: 18px;
-  font-weight: 400;
-}
-.resources-summary .resources-summary-date {
-  color: #693703;
-  font-size: 12px;
-  margin-bottom: 0;
-}
-.resources-summary .resources-summary-text {
-  color: #606060;
-  font-size: 12px;
+.section-highlights .h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
@@ -14732,10 +14686,75 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
-.section-highlights .h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 10px;
+@media screen and (max-width: 767px) {
+  .adopters {
+    text-align: center;
+  }
+}
+.adopters ul li {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .adopters ul li:first-child {
+    margin-top: 20px;
+  }
+}
+.adopters h2 {
+  border-bottom: 1px solid #999;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.adopters-img {
+  max-height: 95px;
+  padding: 10px;
+  min-width: 180px;
+  max-width: 180px;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+.btn:not(.btn-xs):not(.btn-sm):not(.btn-md):not(.btn-lg) {
+  padding: 8px 40px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  border-radius: 30px;
+}
+.btn-xs,
+.btn-group-xs > .btn {
+  border-radius: 21px;
+  padding: 1px 12px;
+  font-size: 12px;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 20px;
+  line-height: 1.5;
+  border-radius: 22px;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+p,
+li {
+  font-weight: 300;
 }
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
@@ -14849,6 +14868,114 @@ img.desaturate {
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
+#project-list .media-left {
+  max-width: 150px;
+  min-width: 150px;
+  padding-right: 30px;
+}
+#project-list .media {
+  padding: 20px 0;
+}
+#project-list .labels {
+  margin-bottom: 15px;
+  display: block;
+}
+#project-list .search-and-sort {
+  text-align: center;
+}
+#project-list hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#project-list .logo {
+  max-width: 150px;
+  max-height: 80px;
+  margin-bottom: 30px;
+}
+#project-list .media p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#project-list .media p .badge {
+  font-size: 12px;
+}
+#project-list .btn:hover,
+#project-list .btn.active {
+  background-color: #693703;
+  border-color: #693703;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+.resources {
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 60px;
+}
+.resources .resources-summary {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.resources .resources-summary .resources-summary-links a span {
+  display: none;
+}
+.resources .resources-summary .resources-summary-img {
+  display: block;
+  height: 120px;
+  overflow: hidden;
+}
+.resources .resources-summary .resources-summary-img img {
+  max-width: 100%;
+  min-height: 120px;
+}
+.resources .resources-summary .resources-summary-img .resources-summary-icon {
+  background-color: #f1f1f1;
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+.resources .resources-summary .resources-summary-img .resources-summary-icon .feather {
+  color: #536a75;
+  width: 55px;
+  height: 55px;
+}
+.resources .resources-summary .resources-summary-heading a {
+  color: #536a75;
+  font-size: 18px;
+  font-weight: 400;
+}
+.resources .resources-summary .resources-summary-date {
+  color: #693703;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.resources .resources-summary .resources-summary-text {
+  color: #606060;
+  font-size: 12px;
+}
+.resources .resources-more {
+  font-size: 12px;
+}
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
 #main-sidebar {
   margin-top: 50px;
 }
@@ -14904,127 +15031,6 @@ img.desaturate {
 #main-sidebar a .sidebar-text {
   padding: 8px 0 0;
 }
-/*!
- * Copyright (c) 2020 Eclipse Foundation, Inc.
- * 
- * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License v. 2.0 which is available at
- * http://www.eclipse.org/legal/epl-2.0.
- * 
- * Contributors:
- *   Eric Poirier <eric.poirier@eclipse-foundation.org>
- * 
- * SPDX-License-Identifier: EPL-2.0
-*/
-.btn:not(.btn-xs):not(.btn-sm):not(.btn-md):not(.btn-lg) {
-  padding: 8px 40px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  border-radius: 30px;
-}
-.btn-xs,
-.btn-group-xs > .btn {
-  border-radius: 21px;
-  padding: 1px 12px;
-  font-size: 12px;
-}
-.btn-sm,
-.btn-group-sm > .btn {
-  padding: 5px 20px;
-  line-height: 1.5;
-  border-radius: 22px;
-}
-/*!
- * Copyright (c) 2020 Eclipse Foundation, Inc.
- * 
- * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License v. 2.0 which is available at
- * http://www.eclipse.org/legal/epl-2.0.
- * 
- * Contributors:
- *   Eric Poirier <eric.poirier@eclipse-foundation.org>
- * 
- * SPDX-License-Identifier: EPL-2.0
-*/
-p,
-li {
-  font-weight: 300;
-}
 main {
   padding-top: 10px;
-}
-#project-list .media-left {
-  max-width: 150px;
-  min-width: 150px;
-  padding-right: 30px;
-}
-#project-list .media {
-  padding: 20px 0;
-}
-#project-list .labels {
-  margin-bottom: 15px;
-  display: block;
-}
-#project-list .search-and-sort {
-  text-align: center;
-}
-.openiot-challenge .header {
-  background-image: url(../images/iot-challenge-header-bg.jpg?6365f7445f4da82d7fb4fd95834e6d57);
-  background-size: cover;
-  background-position: top center;
-  text-align: center;
-  padding: 40px 0;
-  padding-bottom: 10px !important;
-  font-size: 2em;
-  color: #fff;
-}
-img[src*="#img-responsive"] {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-@media screen and (max-width: 767px) {
-  .adopters {
-    text-align: center;
-  }
-}
-.adopters ul li {
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 767px) {
-  .adopters ul li:first-child {
-    margin-top: 20px;
-  }
-}
-.adopters h2 {
-  border-bottom: 1px solid #999;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-.adopters-img {
-  max-height: 95px;
-  padding: 10px;
-  min-width: 180px;
-  max-width: 180px;
-}
-#project-list hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-#project-list .logo {
-  max-width: 150px;
-  max-height: 80px;
-  margin-bottom: 30px;
-}
-#project-list .media p {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-#project-list .media p .badge {
-  font-size: 12px;
-}
-#project-list .btn:hover,
-#project-list .btn.active {
-  background-color: #693703;
-  border-color: #693703;
 }
