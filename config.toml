@@ -207,33 +207,39 @@ buildFuture = true
   
 [[menu.sidebar]]
   parent ="resources"
+  name = "Brand Guidelines"
+  url = "https://www.eclipse.org/artwork/zip_file_v2/Eclipse-IoT-Brand-Guidelines.pdf"
+  weight = 1
+
+[[menu.sidebar]]
+  parent ="resources"
   name = "Articles"
   url = "/community/resources/articles/"
-  weight = 1
+  weight = 2
   
 [[menu.sidebar]]
   parent ="resources"
   name = "Case Studies"
   url = "/community/resources/case-studies/"
-  weight = 2
+  weight = 3
   
 [[menu.sidebar]]
   parent ="resources"
   name = "Market Reports"
   url = "/community/resources/market-reports/"
-  weight = 3
+  weight = 4
   
 [[menu.sidebar]]
   parent ="resources"
   name = "Videos"
   url = "/community/resources/videos/"
-  weight = 4
+  weight = 5
   
 [[menu.sidebar]]
   parent ="resources"
   name = "White Papers"
   url = "/community/resources/white-papers/"
-  weight = 5
+  weight = 6
 
 [[menu.sidebar]]
   name = "News"
