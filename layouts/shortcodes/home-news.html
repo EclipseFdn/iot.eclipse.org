@@ -20,7 +20,7 @@
       </div>
       <div class="col-sm-8 col-sm-offset-2 featured-events text-center">
         <h2 class="margin-bottom-20">Upcoming Events</h2>
-        <div class="featured-timeline">
+        <div class="event-timeline">
           {{ range first 4 (sort (where .Site.Pages "Section" "events") "Params.expire_date") }}
             {{ if isset .Params "expire_date" }}
               {{ $t := time .Params.expire_date }}
