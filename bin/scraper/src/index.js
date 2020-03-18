@@ -37,5 +37,5 @@ const path = "bin/scraper/projects.json";
 	}
 	
 	// write the JSON back to file
-	fs.writeFileSync('static/projects.json', JSON.stringify(obj), 'utf-8');
+	fs.writeFileSync('static/assets/js/projects.json', JSON.stringify(obj), 'utf-8');
 })().catch(console.error);

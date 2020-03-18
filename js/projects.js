@@ -204,9 +204,9 @@ var project_state_aliases = {
 
         $.ajax({
             type: "GET",
-            //            url: "//projects.eclipse.org/json/technology/Internet%20of%20Things",
-            //            dataType: "jsonp",
-            url: "/projects.json",
+            // url: "//projects.eclipse.org/json/technology/Internet%20of%20Things",
+            // dataType: "jsonp",
+            url: "/assets/js/projects.json",
             dataType: "json",
             cache: true,
             success: function(data) {
@@ -291,7 +291,7 @@ var project_state_aliases = {
                     item: '<li class="col-md-24"><div class="media">\
                               <div class="row"><div class="col-sm-4">\
                                 <a href="#" class="link">\
-                                  <img class="media-object img-responsive logo logo_alt" alt="project">\
+                                  <img class="media-object img-responsive logo logo_alt center-block" alt="project">\
                                 </a>\
                               </div>\
                               <div class="col-sm-20">\

@@ -1,9 +1,3 @@
-{{ define "main" }}
-  <div id="content" class="{{ if isset .Page.Params "content_classes" }}{{ .Page.Params.content_classes }}{{ end }}">
-    {{.Content}}
-  </div>
-{{ end }}
-
 {{ define "footer-suffix" }}
-  <script src="assets/js/members.js"></script>
+  <script src="assets/js/home-members.min.js"></script>
 {{ end }}

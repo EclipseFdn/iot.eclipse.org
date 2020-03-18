@@ -194,7 +194,7 @@
  *   Eric Poirier <eric.poirier@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
-*/#main-menu li>a,.header-wrapper .featured-jumbotron h1,.header-wrapper .featured-jumbotron p{text-shadow:0 0 10px rgba(0,0,0,.2)}.navbar-wrapper{position:relative;z-index:2}.homepage .header-wrapper .featured-jumbotron p{font-size:27px}.header-wrapper{background-size:cover;position:relative}.header-wrapper .featured-jumbotron{padding-top:50px;padding-bottom:50px}@media screen and (min-width:768px){.header-wrapper .featured-jumbotron{text-align:left}}.header-wrapper .featured-jumbotron h1{margin-bottom:10px}.header-wrapper .featured-jumbotron h1:after{display:none}.header-wrapper .featured-jumbotron p{margin-bottom:30px;font-size:22px}.header-wrapper .featured-jumbotron .btn{border-radius:30px}.header-wrapper:after{content:"";position:absolute;width:30%;height:70%;background-image:url(../images/header_dots.png?f5af0982336cd93a670d3382066645c2);right:0;bottom:0;background-size:cover;z-index:1}.header-alternate-bg-img-1,.header-alternate-bg-img-2{background-color:#2b241b}.header-alternate-bg-img-2{background-image:url(../images/iot_alternate_bg-2.jpg?f7e25884bba11f14839935e6c551a9ae)}
+*/#main-menu li>a,.header-wrapper .featured-jumbotron h1,.header-wrapper .featured-jumbotron p{text-shadow:0 0 10px rgba(0,0,0,.2)}.navbar-wrapper{position:relative;z-index:2}.header-frontpage.header-wrapper .featured-jumbotron p{font-size:27px}.header-wrapper{background-size:cover;position:relative}.header-wrapper .featured-jumbotron{padding-top:50px;padding-bottom:50px}@media screen and (min-width:768px){.header-wrapper .featured-jumbotron{text-align:left}}.header-wrapper .featured-jumbotron h1{margin-bottom:10px}.header-wrapper .featured-jumbotron h1:after{display:none}.header-wrapper .featured-jumbotron p{margin-bottom:30px;font-size:22px}.header-wrapper .featured-jumbotron .btn{border-radius:30px}.header-wrapper:after{content:"";position:absolute;width:30%;height:70%;background-image:url(../images/header_dots.png?f5af0982336cd93a670d3382066645c2);right:0;bottom:0;background-size:cover;z-index:1}.header-alternate-bg-img-1,.header-alternate-bg-img-2{background-color:#2b241b}.header-alternate-bg-img-2{background-image:url(../images/iot_alternate_bg-2.jpg?f7e25884bba11f14839935e6c551a9ae)}
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
  * 
@@ -206,7 +206,7 @@
  *   Eric Poirier <eric.poirier@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
-*/.homepage main{padding-top:0;margin-top:-15px}.homepage .featured-testimonials{padding:70px 0 50px;background-color:#fff}.homepage .featured-testimonials .testimonial-item{padding:0;width:70%;margin:0 auto}@media screen and (min-width:768px){.homepage .featured-testimonials .testimonial-item .content:after,.homepage .featured-testimonials .testimonial-item .content:before{top:35px;font-size:200px}}
+*/.featured-stats{margin-top:-30px}.featured-testimonials.homepage-testimimonials{padding:70px 0 50px;background-color:#fff}.featured-testimonials.homepage-testimimonials .testimonial-item{padding:0;width:70%;margin:0 auto}@media screen and (min-width:768px){.featured-testimonials.homepage-testimimonials .testimonial-item .content:after,.featured-testimonials.homepage-testimimonials .testimonial-item .content:before{top:35px;font-size:200px}}
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
  * 

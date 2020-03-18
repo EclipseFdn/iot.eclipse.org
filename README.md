@@ -93,7 +93,7 @@ http://www.eclipse.org/legal/epl-2.0.
 
 SPDX-License-Identifier: EPL-2.0
 
-## Bugs and feature requests
+## Bugs and Feature Requests
 
 Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new).
 
@@ -111,7 +111,6 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Trademarks
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
-* Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
 
 ## Copyright and license
 

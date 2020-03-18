@@ -24,16 +24,8 @@
     "yaml2json_adopters": "./bin/adopters.sh"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.4.1",
-    "eclipsefdn-hugo-solstice-theme": "0.0.56",
+    "eclipsefdn-hugo-solstice-theme": "0.0.57",
     "js-yaml": "^3.13.1",
-    "json-minify": "^1.0.0",
-    "prismjs": "^1.15.0"
-  },
-  "devDependencies": {
-    "fs": "0.0.1-security",
-    "resolve-url-loader": "^2.3.1",
-    "sass": "^1.17.2",
-    "sass-loader": "^7.1.0"
+    "json-minify": "^1.0.0"
   }
 }

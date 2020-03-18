@@ -1,31 +1,33 @@
 baseurl = "https://iot.eclipse.org"
 title = "Eclipse IoT"
+theme = "eclipsefdn-hugo-solstice-theme"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
-#googleAnalytics = "UA-910670-30"
-disableKinds = ["cloud", "devices", "events", "gateway", "hardware", "member", "news", "open-iot-challenge-entries", "resources"]
+disableKinds = []
 themesDir = "node_modules/"
-paginate  = 6
-buildFuture = true
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
   description = "iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. These technologies aim at establishing an open, end-to-end, IoT stack."
   subtitle = ""
   seo_title_suffix = " | IoT development made simple - iot.eclipse.org"
-  keywords = [""]
+  keywords = ["eclipse iot, internet of things, iot"]
   logo = "assets/images/logo_white.svg"
   logo_width = 120
-  styles = "assets/css/styles.css"
-  js = "assets/js/main.js"
+  styles = "assets/css/styles.min.css"
+  js = "assets/js/scripts.min.js"
   twitter_url = "https://twitter.com/EclipseIoT"
   facebook_url = "https://www.facebook.com/eclipseiot"
   youtube_url = "https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-"
+  main_content_class = "col-md-16 padding-bottom-30"
+  main_sidebar_class = "col-md-7 col-md-offset-1 padding-bottom-30"
+  jumbotron_class = "col-md-24"
+  jumbotron_tagline_class = "col-sm-14"
+  jumbotron_btn_class = "btn btn-sm btn-primary"
 
   favicon = "favicon.ico"
-  share_img = "site_preview.png"
+  share_img = "iot-logo-social.png"
 # header_wrapper_class = "header-default-bg-img"
 # subtheme = "jakarta"
 # call_for_action_text = ""
@@ -47,7 +49,6 @@ buildFuture = true
   
 [taxonomies]
   category = "categories"
-  resource_items = "resource_items"
   tag = "tags"
   
 [[menu.main]]
