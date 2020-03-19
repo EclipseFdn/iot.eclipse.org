@@ -1,35 +1,20 @@
 {{ define "main" }}
-<main class="main">
-<div class="well">
-  <div class="container">
-    <h1>
-      Events
-    </h1>
-    <div>
-      <p class="lead">Join us at an event near you and learn more about <strong>Eclipse IoT</strong>.</p>
+<p>Join us at an event near you and learn more about <strong>Eclipse IoT</strong>.</p>
+<hr>
+<div class="row events">
+  {{ range (.Paginator 15).Pages }}
+  <div class="col-sm-8 matchheight-item margin-bottom-30 events-item">
+    <div class="upcoming-events-item {{ if (lt .Date.Unix now.Unix) }} past {{ end }}">
+      <h4>
+        <a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a>
+      </h4>
+      <p>{{ .Params.event_date }}<br>
+      {{ .Params.location }}</p>
     </div>
   </div>
+  {{ end }}
 </div>
-<section class="first upcoming-events">
-  <div class="container">
-    <div class="row">
-      {{ range (.Paginator 9).Pages }}
-      <div class="col-sm-4">
-        <a href="{{ .Params.link }}" target="_blank">
-          <div class="upcoming-events-item {{ if (lt .Date.Unix now.Unix) }} past {{ end }}">
-            <h3>
-              {{ .Title }}<br>
-              <span class="date">{{ .Params.event_date }}</span>
-            </h3>
-            <p>{{ .Params.location }}</p>
-          </div>
-        </a>
-      </div>
-      {{ end }}
-    </div>
-    <div class="row">
-      {{ template "_internal/pagination.html" . }}
-    </div>
-  </div>
-</section>
+<div class="row">
+  {{ template "_internal/pagination.html" . }}
+</div>
 {{ end }}

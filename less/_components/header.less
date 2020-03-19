@@ -1,0 +1,71 @@
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+#main-menu li > a, .header-wrapper .featured-jumbotron h1, .header-wrapper .featured-jumbotron p{
+  text-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-wrapper {
+  position:relative;
+  z-index:2;
+}
+
+.header-frontpage.header-wrapper{
+  .featured-jumbotron {
+    p {
+      font-size:27px;
+    }
+  }
+}
+
+.header-wrapper{
+  background-size:cover;
+  position:relative;
+  .featured-jumbotron{
+    padding-top:50px;
+    padding-bottom:50px;
+    @media screen and (min-width: 768px) {
+      text-align:left;
+    }
+    h1 {
+      margin-bottom:10px;
+      &:after {
+        display:none;
+      }
+    }
+    p {
+      margin-bottom:30px;
+      font-size:22px;
+    }
+    .btn {
+      border-radius:30px;
+    }
+  }
+  &:after {
+    content:"";
+    position:absolute;
+    width:30%;
+    height:70%;
+    background-image:url('../images/header_dots.png');
+    right:0;
+    bottom:0;
+    background-size:cover;
+    z-index:1;
+  }
+}
+.header-alternate-bg-img-1, .header-alternate-bg-img-2 {
+  background-color:#2b241b;
+}
+.header-alternate-bg-img-2 {
+  background-image:@header-alternate-bg-img-2;
+}

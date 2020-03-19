@@ -1,0 +1,49 @@
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+.btn:not(.btn-xs):not(.btn-sm):not(.btn-md):not(.btn-lg) {
+  .button-size(@padding-base-vertical; 40px; @font-size-base; @line-height-base; @btn-border-radius-base);
+}
+
+.btn-xs {
+  border-radius: 21px;
+  padding: 1px 12px;
+  font-size: 12px;
+}
+
+.btn-sm {
+  padding: 5px 20px;
+  line-height: 1.5;
+  border-radius: 22px;
+}
+
+.button-variant(@color; @background; @border) {
+  &:focus,
+  &.focus {
+    background-color: darken(@background, 15%);
+  }
+  &:hover {
+    background-color: darken(@background, 15%);
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-color: darken(@background, 15%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: darken(@background, 25%);
+    }
+  }
+}

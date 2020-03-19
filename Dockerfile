@@ -2,7 +2,7 @@ ARG NGINX_IMAGE_TAG=stable-alpine
 
 FROM debian:10-slim AS builder
 
-ARG HUGO_VERSION=0.57.2
+ARG HUGO_VERSION=0.62.2
 ARG NODE_VERSION=10.15.0
 
 RUN apt-get update && apt-get install -y \
@@ -30,7 +30,7 @@ RUN echo -n "Node.js version " && node --version \
   && hugo version
 
 RUN npm --unsafe-perm ci \
-    && hugo
+    && hugo --gc --minify
 
 FROM eclipsefdn/nginx:${NGINX_IMAGE_TAG}
 

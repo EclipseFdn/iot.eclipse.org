@@ -1,0 +1,55 @@
+
+    <h2 id="sandboxes">Sandboxes</h2>
+    <div id="sandbox-disclaimer" class="alert alert-danger" role="alert">
+      <p>
+        <strong><u>DISCLAIMER</u></strong>
+      </p>
+      <p>
+        The sandbox servers enumerated below are provided to the developer community to encourage and facilitate the evaluation of various IoT standards and their client or server implementations. They are maintained by the community and must not be used for any commercial purpose whatsoever. 
+      </p>
+      <p>
+        Use of the sandbox servers is governed by the <a href="https://www.eclipse.org/legal/termsofuse.php" target="_blank"><strong>Eclipse.org Terms of Use</strong></a>, which states in part: <strong>"PLEASE BE AWARE THAT ALL INFORMATION THAT YOU STORE WITH ECLIPSE WILL BE PUBLICLY ACCESSIBLE ON THE INTERNET IN UNENCRYPTED FORM AND WITHOUT ANY ACCESS RESTRICTIONS. Do not store passwords, any personally identifiable information, any confidential business information, or anything else that you do not want to be generally and publicly available."</strong>
+      </p>
+      <p>
+        We reserve the right, at our sole discretion, to ban or block users who are using the sandbox servers inappropriately.
+      </p>
+    </div>
+
+    <h2 id="sandbox-mqtt">MQTT</h2>
+    <p>You can make use of this <a href="http://mqtt.org/">MQTT</a> server with client code from the <a href="https://eclipse.org/paho/">Paho
+      project</a>, the Eclipse MQTT view from Paho, or from one of the other client APIs listed on the <a href="http://mqtt.org/downloads">MQTT.org downloads</a> page.
+    </p>
+    <p>
+      Access the server using the hostname
+      <code>mqtt.eclipse.org</code> and port
+      <code>1883</code>. You can also access the server using encrypted port <code>8883</code>
+      <br/>
+      The encrypted port support TLS v1.2, v1.1 or v1.0 with x509 certificates and requires client support to connect.
+    </p>
+    <!--  
+      You can also use <strong>MQTT over WebSockets</strong>, both plain and secured, using the following connection URIs (respectively): <code>ws://iot.eclipse.org:80/ws</code> and <code>wss://iot.eclipse.org:443/ws</code>  
+    </p -->
+    <p>
+      This server is running the open source <a href="http://mosquitto.org/">Mosquitto broker</a> in its most recently released version.
+    </p>
+
+    <h2 id="sandbox-coap">CoAP</h2>
+    <p>A CoAP server exposing test resources is available at: <code>coap://californium.eclipse.org:5683/</code>, and DTLS-enabled version at <code>coaps://californium.eclipse.org:5684</code>.</p>
+    <p>It should be used by anyone interested in testing a CoAP client implementation against another endpoint, and more generally by anyone interested in understanding the key concepts of the CoAP protocol.</p>
+    <p>
+      This server is running <a href="https://projects.eclipse.org/projects/technology.californium">Eclipse Californium</a>.
+    </p>
+
+    <h2 id="sandbox-lwm2m">Lightweight M2M (LWM2M)</h2>
+    <p>In order to test LWM2M communication scenarios, we host a LWM2M server.</p>
+    <p>You can make use of this server with the <a href="https://projects.eclipse.org/projects/technology.wakaama">Wakaama
+      project</a>
+    </p>
+    <p>
+      The LWM2M server is available at: <code>coap://leshan.eclipse.org:5683</code> (both IPv4 and IPv6 are available)
+      <br> A web interface allows to interact with registered LWM2M clients: <a href="http://leshan.eclipse.org/"><code>http://leshan.eclipse.org</code></a>.
+    </p>
+    <p>
+      This server is running the Open Source <a href="https://eclipse.org/leshan">Eclipse Leshan server</a>.
+    </p>
+

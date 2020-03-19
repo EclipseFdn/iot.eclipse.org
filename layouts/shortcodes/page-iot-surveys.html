@@ -1,0 +1,32 @@
+<!-- 
+  Copyright (c) 2020 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+  Contributors:
+    Eric Poirier <eric.poirier@eclipse-foundation.org>
+    
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+{{ range .Site.Data.iot_surveys.items}}
+  <div class="col-md-8 text-center matchheight-item" style="margin-bottom:70px;">
+    <a href="{{ .link }}">
+      <img src="{{ .img }}" class="img-responsive" style="max-height: 300px; margin:0 auto;border:10px solid #ececed;"/>
+    </a>
+    <h2 class="purple h4" style="margin-top: .5em">{{ .title }}</h2>
+    <p style="margin-top: 1em;">
+      {{ if .link }}
+        <a href="{{ .link }}">
+         <i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:20px; color:#e30001;"></i> PDF 
+        </a>
+      {{ end }}
+      {{if .path }}
+        &nbsp; 
+        <a href="{{ .path }}">
+          <i class="fa fa-file-text-o" aria-hidden="true" style="font-size:20px;color:#000;"></i> HTML
+        </a>
+      {{ end }}
+    </p>
+  </div>
+{{ end }}

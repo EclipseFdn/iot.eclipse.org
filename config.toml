@@ -1,28 +1,33 @@
 baseurl = "https://iot.eclipse.org"
 title = "Eclipse IoT"
+theme = "eclipsefdn-hugo-solstice-theme"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
-#googleAnalytics = "UA-910670-30"
-disableKinds = ["cloud", "devices", "events", "gateway", "hardware", "member", "news", "open-iot-challenge-entries", "resources"]
+disableKinds = []
 themesDir = "node_modules/"
-paginate  = 6
-buildFuture = true
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
   description = "iot.eclipse.org is where you can learn about the technologies developed at Eclipse to make Internet of Things (IoT) development simpler. These technologies aim at establishing an open, end-to-end, IoT stack."
   subtitle = ""
   seo_title_suffix = " | IoT development made simple - iot.eclipse.org"
-  keywords = [""]
-  logo = "assets/images/iot-logo.png"
-  styles = "assets/css/bootstrap.css"
-  js = "assets/js/main.js"
+  keywords = ["eclipse iot, internet of things, iot"]
+  logo = "assets/images/logo_white.svg"
+  logo_width = 120
+  styles = "assets/css/styles.min.css"
+  js = "assets/js/scripts.min.js"
+  twitter_url = "https://twitter.com/EclipseIoT"
+  facebook_url = "https://www.facebook.com/eclipseiot"
+  youtube_url = "https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-"
+  main_content_class = "col-md-16 padding-bottom-30"
+  main_sidebar_class = "col-md-7 col-md-offset-1 padding-bottom-30"
+  jumbotron_class = "col-md-24"
+  jumbotron_tagline_class = "col-sm-14"
+  jumbotron_btn_class = "btn btn-sm btn-primary"
 
   favicon = "favicon.ico"
-  share_img = "site_preview.jpg"
-  gcse = "011805775785170369411:p3ec0igo0qq"
+  share_img = "iot-logo-social.png"
 # header_wrapper_class = "header-default-bg-img"
 # subtheme = "jakarta"
 # call_for_action_text = ""
@@ -41,3 +46,218 @@ buildFuture = true
   youtube = "EclipseFdn"
   googleplus = "+Eclipse"
   linkedin = "company/eclipse-foundation/"
+  
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  
+[[menu.main]]
+  name = "Adopters"
+  url = "/adopters/"
+  weight = 1
+  identifier = "adopters"
+  
+[[menu.main]]
+  name = "Members"
+  url = "/membership/"
+  weight = 2
+  
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+
+[[menu.main]]
+  name = "Community"
+  url = "/community/"
+  weight = 5
+  
+  
+[[menu.sidebar]]
+  name = "Adopters"
+  url = "/adopters/"
+  weight = 1
+  identifier = "adopters"
+  
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "How to be Listed as an Adopter"
+  url = "/adopters/how-to-be-listed-as-an-adopter"
+  pre = "<i data-feather=\"help-circle\"></i>"
+  weight = "1"
+
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "Eclipse IoT Open Testbeds"
+  url = "/adopters/testbeds/"
+  pre = "<i data-feather=\"package\"></i>"
+  weight = "2"
+
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "Testbeds"
+  url = "/adopters/testbeds/"
+  weight = "2"
+  identifier = "testbeds"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Asset Tracking"
+  url = "/adopters/testbeds/asset-tracking/"
+  weight = "1"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Production Performance Management"
+  url = "/adopters/testbeds/production-performance-management/"
+  weight = "2"
+  
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Propose a new Testbed"
+  url = "/adopters/testbeds/propose-a-new-testbed/"
+  weight = "3"
+  
+[[menu.sidebar]]
+  name = "Members"
+  url = "/membership/"
+  weight = 2
+  identifier = "membership"
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Membership benefits"
+  url = "/membership/#benefits"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Member Testimonials"
+  url = "/membership/#member-testimonials"
+  pre = "<i data-feather=\"users\"></i>"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Explore Our Members"
+  url = "/membership/members/"
+  pre = "<i data-feather=\"zap\"></i>"
+  weight = 3
+  
+[[menu.sidebar]]
+  name = "Community"
+  url = "/community/"
+  weight = 5
+  identifier = "community"
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "IoT Surveys"
+  url = "/community/iot-surveys"
+  pre = "<i data-feather=\"file-text\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Open IoT Challenge"
+  url = "/community/open-iot-challenge"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Virtual IoT Meetup"
+  url = "https://www.meetup.com/Virtual-IoT/"
+  pre = "<i data-feather=\"at-sign\"></i>"
+  weight = 3
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Resources"
+  url = "/community/resources"
+  pre = "<i data-feather=\"folder\"></i>"
+  weight = 4
+  
+[[menu.sidebar]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 6
+  identifier = "projects"
+  
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Sandboxes"
+  url = "/projects/sandboxes"
+  pre = "<i data-feather=\"file-text\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Getting Started"
+  url = "/projects/getting-started/"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="community"
+  name = "Resources"
+  url = "/community/resources/"
+  weight = 7
+  identifier = "resources"
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Brand Guidelines"
+  url = "https://www.eclipse.org/artwork/zip_file_v2/Eclipse-IoT-Brand-Guidelines.pdf"
+  weight = 1
+
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Articles"
+  url = "/community/resources/articles/"
+  weight = 2
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Case Studies"
+  url = "/community/resources/case-studies/"
+  weight = 3
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Market Reports"
+  url = "/community/resources/market-reports/"
+  weight = 4
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Videos"
+  url = "/community/resources/videos/"
+  weight = 5
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "White Papers"
+  url = "/community/resources/white-papers/"
+  weight = 6
+
+[[menu.sidebar]]
+  name = "News"
+  url = "/news/"
+  weight = 7
+  identifier = "news"
+  
+[[menu.sidebar]]
+  parent ="news"
+  name = "News"
+  url = "/news/"
+  pre = "<i data-feather=\"tv\"></i>"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="news"
+  name = "Events"
+  url = "/events/"
+  pre = "<i data-feather=\"calendar\"></i>"
+  weight = 2

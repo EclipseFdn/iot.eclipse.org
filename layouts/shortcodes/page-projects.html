@@ -1,0 +1,50 @@
+<!-- 
+  Copyright (c) 2020 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+  Contributors:
+    Eric Poirier <eric.poirier@eclipse-foundation.org>
+    
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+<section class="first row-fluid" id="projects">
+  <div class="row" id="project-list">
+
+    <div class="col-md-16 col-md-offset-4 search-and-sort margin-top-30">
+      <input aria-label="Search for a project" type="text" class="form-control search center-block" placeholder="Start typing to filter projects…">
+      <div class="margin-top-30 margin-bottom-20">
+        <p class="margin-bottom-0">Sort by:</p>
+        <button class="btn btn-xs sort btn-secondary " data-sort="downloads">
+          Downloads
+        </button>
+        <button class="btn btn-xs sort btn-secondary" data-sort="name">
+          Name
+        </button>
+        <p class="margin-bottom-0 margin-top-20">Filter by categories:</p>
+        <div style="margin-top: .4em;">
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-devices">Devices</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-gateways">Gateways</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-cloud">Cloud</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-standards">Standards</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-tools">Tools</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-ontologies">Ontologies</button>
+          <button class="btn btn-xs btn-secondary btn-filter-project" data-toggle="button" id="btn-security">Security</button>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-md-24"><hr></div>
+
+    <ul class="list list-unstyled"></ul>
+
+    <div class="loading col-md-24" id="update-project">
+      Loading projects list...
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+      </div>
+    </div>
+    </div>
+  </div>
+</section>

@@ -1,9 +1,6 @@
 {
-    "/css/eclipsefdn-video.css": "/css/eclipsefdn-video.css",
-    "/css/bootstrap.css": "/css/bootstrap.css",
-    "/css/font-awesome.css": "/css/font-awesome.css",
-    "/js/main.js": "/js/main.js",
-    "/static/js/bootstrap/bootstrap-sprockets.js": "/static/js/bootstrap/bootstrap-sprockets.js",
-    "/static/js/bootstrap/bootstrap.js": "/static/js/bootstrap/bootstrap.js",
-    "/static/js/bootstrap/bootstrap.min.js": "/static/js/bootstrap/bootstrap.min.js"
+    "/css/styles.min.css": "/css/styles.min.css",
+    "/js/scripts.min.js": "/js/scripts.min.js",
+    "/js/home-members.min.js": "/js/home-members.min.js",
+    "/js/projects.min.js": "/js/projects.min.js"
 }

@@ -1,0 +1,62 @@
+/*!
+ * Copyright (c) 2020 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Eric Poirier <eric.poirier@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+.featured-news {
+  padding:20px 0;
+  @media screen and (min-width: 768px) {
+    padding:30px 0 50px;
+  }
+  @media screen and (max-width: 767px) {
+    text-align:center;
+  }
+  color:#6f6f6f;
+  a {
+    color:@brand-primary;
+  }
+  .news-item {
+    margin-bottom:30px;
+  }
+  .news-heading {
+    font-weight:300;
+    color:@brand-secondary;
+    margin-bottom:5px;
+    a {
+      color:@brand-secondary;
+      &:visited{
+        color:@brand-secondary;
+      }
+    }
+  }
+  .news-icon {
+    background-color: #ececed;
+    border-radius: 100px;
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: @brand-secondary;
+    .feather {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  .news-date {
+    color:darken(@brand-primary, 25%);
+    margin-bottom:5px;
+  }
+}
+
+.featured-news-fullpage {
+  padding-top:25px;
+}

@@ -1,0 +1,39 @@
+<!-- 
+  Copyright (c) 2019 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+    
+  SPDX-License-Identifier: EPL-2.0
+-->
+<h2>Who is using Eclipse IoT?</h2>
+<div class="row margin-bottom-40">
+  <div class="col-sm-24">
+    <p>Eclipse IoT’s community of adopters is growing! Innovative organizations of all sizes and across industry sectors are committed to accelerating the adoption of commercial-grade, production-ready open source technologies developed by the Eclipse IoT community.</p>
+  </div>
+  <div class="col-sm-24">
+    <p>Do you use Eclipse IoT technologies? Show your support for open source by adding your logo to this page. Please open a <a href="https://github.com/eclipsefdn/iot.eclipse.org#project-adopters">pull request</a> to add your logo below.</p>
+  </div>
+</div>
+ 
+<div class="row">
+{{ range sort .Site.Data.adopters.adopters.projects "name" "asc"}}
+  <div class="col-md-24 adopters">
+    <h2>
+      {{ .name }} 
+      <a class=" btn btn-xs btn-secondary" href="https://projects.eclipse.org/projects/{{ .id }}">{{ .id }}</a>
+    </h2>
+    <ul class="list-inline">
+      {{ range sort .adopters "name" "asc"}}
+        <li>
+          <a href="{{ .homepage_url }}" target="_blank">
+            <img class="adopters-img" src="/assets/images/adopters/{{ .logo }}" alt="{{ .name }}" />
+          </a>
+        </li>
+      {{end}}
+    </ul>
+  </div>
+{{end}}
+</div>

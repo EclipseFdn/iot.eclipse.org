@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="resources">
+    <div class="row">
+    {{ range sort .Pages "Date" "desc" }}
+      <div class="col-sm-8 matchheight-item">
+        {{ .Render "summary"}}
+      </div>
+    {{ end }}
+    </div>
+  </div>
+{{ end }}
