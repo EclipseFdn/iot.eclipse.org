@@ -30,7 +30,7 @@ RUN echo -n "Node.js version " && node --version \
   && hugo version
 
 RUN npm --unsafe-perm ci \
-    && hugo
+    && hugo --gc --minify
 
 FROM eclipsefdn/nginx:${NGINX_IMAGE_TAG}
 
