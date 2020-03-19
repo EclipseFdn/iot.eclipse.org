@@ -15,7 +15,7 @@
   {{ if and (eq .Parent.Title "Videos") (.Params.link)}}
     <a class="eclipsefdn-video" href="{{.Params.link}}"></a>
   {{ else }}
-    <a class="resources-summary-img" href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">
+    <a class="resources-summary-img" href="{{- .Params.link | default .RelPermalink }}">
       {{ if .Params.image }}
         <img src="{{.Params.image}}" alt="{{ .Title | safeHTML }}">
       {{ else }}
@@ -26,15 +26,15 @@
     </a>
   {{ end }}
   
-  <h4 class="resources-summary-heading"><a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title | safeHTML }}</a></h4>
+  <h4 class="resources-summary-heading"><a href="{{- .Params.link | default .RelPermalink }}">{{ .Title | safeHTML }}</a></h4>
   <p class="resources-summary-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
   <p class="resources-summary-text">{{ .Summary | truncate 50 }}</p>
   {{ if or (eq .Parent.Title "Case Studies") (eq .Parent.Title "White Papers")}}
     <p class="resources-summary-links">
     {{if .Params.link}}
-      <a href="{{.Params.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span>PDF Link</span></a>
+      <a href="{{.Params.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
     {{ end }}
-    <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span>HTML Link</span></a>
+    <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
     </p>
   {{ end }}
 </div>
