@@ -5,7 +5,7 @@
   {{ range (.Paginator 15).Pages }}
   <div class="news-item">
     <h4 class="news-heading">
-      <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
+      <a href="{{- .Params.link | default .RelPermalink }}" class="media media-link">
         {{ .Title }}
       </a>
     </h4>

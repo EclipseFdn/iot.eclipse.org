@@ -7,7 +7,7 @@
           {{ if isset .Params "date" }}
             <div class="news-item">
               <h4 class="news-heading">
-                <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
+                <a href="{{- .Params.link | default .RelPermalink }}" class="media media-link">
                   {{ .Title }}
                 </a>
               </h4>
@@ -27,7 +27,7 @@
               {{ if $t.After now }}
               <div class="timeline-item">
                 <p class="margin-bottom-0">
-                  <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}">{{ .Title }}</a>
+                  <a href="{{- .Params.link | default .RelPermalink }}">{{ .Title }}</a>
                 </p>
                 <!-- <p class="margin-bottom-0">{{ .Params.location }}</p> -->
                 <p class="timeline-date">{{ .Params.event_date }}</p>
