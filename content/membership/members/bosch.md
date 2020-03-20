@@ -1,11 +1,13 @@
 +++
 date = "2015-03-08T15:31:15-07:00"
-title = "Bosch Software Innovations"
+title = "Bosch.IO"
 logo = "bosch" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
 member_type = "steering"
 member_id = 979
-more_url = "http://bosch-si.com"
+more_url = "http://bosch.io"
 +++
-Bosch Software Innovations has been active in the Internet of Things for more than ten years. The team of software developers, solution architects, IoT consultants, project managers, UX designers, business model innovators, and trainers brings IoT ideas from strategy to implementation. With its domain-specific, software, and organizational know-how, Bosch Software Innovations supports companies digitally transforming themselves. The company has designed, developed, and operated more than 250 international IoT projects in mobility, smart city, energy, manufacturing, agriculture, health, as well as smart homes and buildings. Its cloud-based Bosch IoT Suite currently connects more than 6.2 million sensors, devices, and machines with their users and enterprise systems. With over 600 IoT experts worldwide, Bosch Software Innovations has locations in Germany, Bulgaria, Singapore, China and Japan.
+At Bosch.IO, we offer a proven digital and IoT portfolio featuring sustainable IoT projects for all industries and ready-to-use IoT solutions for everything from crop monitoring to lift management to anti-counterfeiting. Additionally, we provide the Bosch IoT Suite, our domain-independent IoT platform. Teaming up with our customers, we create groundbreaking AI-powered IoT solutions that transform businesses, enhance efficiency, and tap new revenue streams. We turn partner and supplier networks into a connected IoT ecosystem and tear down silos to create a truly connected world. 
 
-Bosch Software Innovations is a member of the Eclipse IoT Working Group, leads several projects (Eclipse Ditto, hawkBit, Hono, Vorto) and is a contributor to various open source projects (e.g. Eclipse Californium, Wakaama, Bridge.IoT, Kuksa, Kura) in the IoT and connected vehicle context.
+Bosch.IO has more than 900 experts across the globe working in digitalization and the IoT, and collaborates with 30,000 developers and AI experts from all over Bosch. Bosch builds and ships more than one billion devices (“things”) every year across all industries. We have a team of consultants, cloud software developers, solution architects, project managers, UX designers, business model innovators, digital marketing and sales experts, and trainers, who work with our customers to create strategic ideas and put them into practice. We have a worldwide presence, with locations in Germany (Berlin, Cologne, Immenstaad, Stuttgart), Bulgaria (Sofia), Spain (Madrid), the United States (Mount Prospect), Singapore, China (Shanghai, Nanjing), and Japan (Tokyo).
+
+Bosch.IO is a member of the Eclipse IoT Working Group, leads several projects (Eclipse Ditto, hawkBit, Hono, Vorto) and is a contributor to various open source projects (e.g. Eclipse Californium, Wakaama, Bridge.IoT, Kuksa, Kura) in the IoT and connected vehicle context.
