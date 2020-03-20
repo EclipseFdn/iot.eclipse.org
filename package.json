@@ -19,9 +19,10 @@
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "install": "NODE_ENV=production npm run yaml2json_adopters && npm run production",
     "optimize-iot-json": "NODE_ENV=production node bin/scraper/src/index.js",
-    "postinstall": "node bin/scraper/src/index.js",
-    "build_netlify": "NODE_ENV=production npm run production && npm run optimize-iot-json",
-    "yaml2json_adopters": "./bin/adopters.sh"
+    "postinstall": "NODE_ENV=production npm run fetch_project",
+    "build_netlify": "NODE_ENV=production npm run production && npm run optimize-iot-json && npm run fetch_project",
+    "yaml2json_adopters": "./bin/adopters.sh",
+    "fetch_project": "NODE_ENV=production node node_modules/eclipsefdn-hugo-solstice-theme/bin/projects/index.js -l data"
   },
   "dependencies": {
     "eclipsefdn-hugo-solstice-theme": "0.0.57",
