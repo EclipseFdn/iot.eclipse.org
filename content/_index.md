@@ -1,5 +1,5 @@
 ---
-title: "Open Source for the Internet of Things"
+title: "Open Source for IoT"
 seo_title: "Eclipse IoT Working Group"
 headline: "Open Source for the Internet of Things"
 tagline: "Eclipse IoT technologies power the world’s leading commercial IoT solutions."
