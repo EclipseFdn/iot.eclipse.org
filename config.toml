@@ -126,7 +126,7 @@ themesDir = "node_modules/"
   
 [[menu.sidebar]]
   parent ="membership"
-  name = "Membership benefits"
+  name = "Membership Benefits"
   url = "/membership/#benefits"
   pre = "<i data-feather=\"award\"></i>"
   weight = 1
