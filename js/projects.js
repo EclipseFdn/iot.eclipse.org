@@ -182,7 +182,7 @@ var projectAliases = {
                                         <p class="downloads" style="display:none;"></p>\
                                         <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></p></div>\
                                         <div class="col-md-24 margin-bottom-10"><p>Project status: <span class="badge project_state">Incubating</span></p></div>\
-                                        <div class="col-md-24"><p><a class="btn btn-sm btn-primary downloadUrl" href="#">Getting Started</a></p></div>\
+                                        <div class="col-md-24"><p><a class="btn btn-sm btn-primary downloadUrl" href="#">Get Started</a></p></div>\
                                     </div></div>\
                                 </div>\
                               </div></div>\
