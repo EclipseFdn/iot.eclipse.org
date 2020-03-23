@@ -281,6 +281,81 @@
         name: "0.1.0 (Preambule)"
         url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.1.0-preambule"
   - 
+    project_id: "iot.ditto"
+    name: "Eclipse Ditto"
+    summary: "Eclipse Ditto is a framework for providing the &quot;Digital Twin&quot; pattern for IoT applications in order to interact with IoT devices. That means that Ditto mirrors physical devices as..."
+    url: "https://projects.eclipse.org/projects/iot.ditto"
+    website_url: "https://www.eclipse.org/ditto"
+    logo: "https://projects.eclipse.org/sites/default/files/ditto.png"
+    tags: 
+      - "twin"
+      - "iot"
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse/ditto"
+      - 
+        url: "https://github.com/eclipse/ditto-examples"
+      - 
+        url: "https://github.com/eclipse/ditto-clients"
+    contributors: []
+    committers: 
+      - 
+        username: "yklem"
+        url: "https://api.eclipse.org/account/profile/yklem"
+      - 
+        username: "smaute"
+        url: "https://api.eclipse.org/account/profile/smaute"
+      - 
+        username: "ffendt"
+        url: "https://api.eclipse.org/account/profile/ffendt"
+      - 
+        username: "dguggemos"
+        url: "https://api.eclipse.org/account/profile/dguggemos"
+      - 
+        username: "yucai"
+        url: "https://api.eclipse.org/account/profile/yucai"
+      - 
+        username: "geglocker"
+        url: "https://api.eclipse.org/account/profile/geglocker"
+      - 
+        username: "jkraeher"
+        url: "https://api.eclipse.org/account/profile/jkraeher"
+      - 
+        username: "jfickel"
+        url: "https://api.eclipse.org/account/profile/jfickel"
+      - 
+        username: "dfesenmeyer"
+        url: "https://api.eclipse.org/account/profile/dfesenmeyer"
+      - 
+        username: "tjaeckle"
+        url: "https://api.eclipse.org/account/profile/tjaeckle"
+    project_leads: 
+      - 
+        username: "tjaeckle"
+        url: "https://api.eclipse.org/account/profile/tjaeckle"
+      - 
+        username: "geglocker"
+        url: "https://api.eclipse.org/account/profile/geglocker"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Regular"
+    releases: 
+      - 
+        name: "1.1.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.0"
+      - 
+        name: "1.0.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.0.0"
+      - 
+        name: "0.9.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/0.9.0"
+      - 
+        name: "0.8.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/0.8.0"
+  - 
     project_id: "iot.duttile"
     name: "Eclipse Duttile"
     summary: "Eclipse Duttile looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new..."
@@ -642,6 +717,130 @@
     state: "Incubating"
     releases: []
   - 
+    project_id: "iot.iofog"
+    name: "Eclipse ioFog"
+    summary: "Eclipse ioFog is a complete edge computing platform that provides all of the pieces needed to build and run applications at the edge at enterprise scale. The diversity and complexity of edge..."
+    url: "https://projects.eclipse.org/projects/iot.iofog"
+    website_url: ""
+    logo: "https://projects.eclipse.org/sites/default/files/ioFog-color%402x.png"
+    tags: []
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-platform"
+      - 
+        url: "https://github.com/eclipse-iofog/demo"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog.org"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-operator"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-scheduler"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-kubelet"
+      - 
+        url: "https://github.com/eclipse-iofog/Agent"
+      - 
+        url: "https://github.com/eclipse-iofog/Controller"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-docker-images"
+      - 
+        url: "https://github.com/eclipse-iofog/example-microservices"
+      - 
+        url: "https://github.com/eclipse-iofog/Connector"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-python-sdk"
+      - 
+        url: "https://github.com/eclipse-iofog/HardwareAbstraction"
+      - 
+        url: "https://github.com/eclipse-iofog/common-logging"
+      - 
+        url: "https://github.com/eclipse-iofog/core-networking"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-go-sdk"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-c-sdk"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-csharp-sdk"
+      - 
+        url: "https://github.com/eclipse-iofog/restblue"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-nodejs-sdk"
+      - 
+        url: "https://github.com/eclipse-iofog/test-message-generator"
+    contributors: []
+    committers: 
+      - 
+        username: "lkrl"
+        url: "https://api.eclipse.org/account/profile/lkrl"
+      - 
+        username: "amilson"
+        url: "https://api.eclipse.org/account/profile/amilson"
+      - 
+        username: "epankov"
+        url: "https://api.eclipse.org/account/profile/epankov"
+      - 
+        username: "jparkg5w"
+        url: "https://api.eclipse.org/account/profile/jparkg5w"
+      - 
+        username: "ashpakie0"
+        url: "https://api.eclipse.org/account/profile/ashpakie0"
+      - 
+        username: "dbuseldfx"
+        url: "https://api.eclipse.org/account/profile/dbuseldfx"
+      - 
+        username: "nnaithani"
+        url: "https://api.eclipse.org/account/profile/nnaithani"
+      - 
+        username: "svalevich"
+        url: "https://api.eclipse.org/account/profile/svalevich"
+      - 
+        username: "imartinfkg"
+        url: "https://api.eclipse.org/account/profile/imartinfkg"
+      - 
+        username: "sradinovich"
+        url: "https://api.eclipse.org/account/profile/sradinovich"
+      - 
+        username: "mchepelevke3"
+        url: "https://api.eclipse.org/account/profile/mchepelevke3"
+      - 
+        username: "adewergifosse"
+        url: "https://api.eclipse.org/account/profile/adewergifosse"
+      - 
+        username: "mlipnitskayav7m"
+        url: "https://api.eclipse.org/account/profile/mlipnitskayav7m"
+      - 
+        username: "tpapaioannou417"
+        url: "https://api.eclipse.org/account/profile/tpapaioannou417"
+      - 
+        username: "srezaeibaghbidiyyn"
+        url: "https://api.eclipse.org/account/profile/srezaeibaghbidiyyn"
+      - 
+        username: "khopkins"
+        url: "https://api.eclipse.org/account/profile/khopkins"
+    project_leads: 
+      - 
+        username: "khopkins"
+        url: "https://api.eclipse.org/account/profile/khopkins"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: 
+      - 
+        name: "2.0.0"
+        url: "https://projects.eclipse.org/projects/iot.iofog/releases/2.0.0"
+      - 
+        name: "1.3.0"
+        url: "https://projects.eclipse.org/projects/iot.iofog/releases/1.3.0"
+      - 
+        name: "1.2.0"
+        url: "https://projects.eclipse.org/projects/iot.iofog/releases/1.2.0"
+      - 
+        name: "1.1.0"
+        url: "https://projects.eclipse.org/projects/iot.iofog/releases/1.1.0"
+  - 
     project_id: "iot.kapua"
     name: "Eclipse Kapua"
     summary: "The following diagram provides a functional architecture of the Eclipse Kapua project. Device Connectivity The connectivity of the devices is managed through a multi-protocol message..."
@@ -752,6 +951,45 @@
       - 
         name: "0.2.0"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/0.2.0"
+  - 
+    project_id: "iot.keti"
+    name: "Eclipse Keti"
+    summary: "Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC). The solution itself is implemented as a cloud-native RESTful API that adheres to the..."
+    url: "https://projects.eclipse.org/projects/iot.keti"
+    website_url: ""
+    logo: ""
+    tags: []
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse/keti"
+    contributors: []
+    committers: 
+      - 
+        username: "damiri"
+        url: "https://api.eclipse.org/account/profile/damiri"
+      - 
+        username: "asaggi6a0"
+        url: "https://api.eclipse.org/account/profile/asaggi6a0"
+      - 
+        username: "iepshteyn"
+        url: "https://api.eclipse.org/account/profile/iepshteyn"
+      - 
+        username: "schopraf6p"
+        url: "https://api.eclipse.org/account/profile/schopraf6p"
+    project_leads: 
+      - 
+        username: "schopraf6p"
+        url: "https://api.eclipse.org/account/profile/schopraf6p"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: 
+      - 
+        name: "5.0.6"
+        url: "https://projects.eclipse.org/projects/iot.keti/releases/5.0.6"
   - 
     project_id: "iot.keyple"
     name: "Eclipse Keyple"
@@ -1604,6 +1842,34 @@
         name: "0.9.0"
         url: "https://projects.eclipse.org/projects/iot.paho/releases/0.9.0"
   - 
+    project_id: "iot.paho.incubator"
+    name: "Eclipse Paho Incubator"
+    summary: "A permanent incubator for Paho. A permanent incubator is a project that is intended to perpetually remain in the incubation phase. Permanent incubators are an excellent place to innovate, test..."
+    url: "https://projects.eclipse.org/projects/iot.paho.incubator"
+    website_url: ""
+    logo: "https://projects.eclipse.org/sites/default/files/paho-logo-200_0.png"
+    tags: []
+    github_repos: []
+    contributors: []
+    committers: 
+      - 
+        username: "asm"
+        url: "https://api.eclipse.org/account/profile/asm"
+      - 
+        username: "icraggs"
+        url: "https://api.eclipse.org/account/profile/icraggs"
+    project_leads: 
+      - 
+        username: "icraggs"
+        url: "https://api.eclipse.org/account/profile/icraggs"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: []
+  - 
     project_id: "iot.ponte"
     name: "Eclipse Ponte"
     summary: "Ponte provides reusable solutions for bridging M2M protocols."
@@ -1900,6 +2166,34 @@
     state: "Incubating"
     releases: []
   - 
+    project_id: "iot.volttron"
+    name: "Eclipse VOLTTRON"
+    summary: "The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud. It deploys applications known as V-agents that gain access to..."
+    url: "https://projects.eclipse.org/projects/iot.volttron"
+    website_url: "https://volttron.org/"
+    logo: ""
+    tags: []
+    github_repos: []
+    contributors: []
+    committers: 
+      - 
+        username: "jhaack"
+        url: "https://api.eclipse.org/account/profile/jhaack"
+      - 
+        username: "ghernandezonl"
+        url: "https://api.eclipse.org/account/profile/ghernandezonl"
+    project_leads: 
+      - 
+        username: "ghernandezonl"
+        url: "https://api.eclipse.org/account/profile/ghernandezonl"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: []
+  - 
     project_id: "iot.vorto"
     name: "Eclipse Vorto"
     summary: "The Eclipse Vorto project comprises of the meta information model, the tool set to create information models, the code generators and the repository to manage existing information models. The meta..."
@@ -2011,6 +2305,25 @@
         id: "internet-things-iot"
     spec_project_working_group: []
     state: "Archived"
+    releases: []
+  - 
+    project_id: "iot.yasham"
+    name: "Eclipse Yasham"
+    summary: "Eclipse Yasham is an Open &amp; Extensible Cloud-Native Smart Living Platform for Consumer IoT. Some features at a glance Server Side API Gateway (REST API) Service..."
+    url: "https://projects.eclipse.org/projects/iot.yasham"
+    website_url: ""
+    logo: ""
+    tags: []
+    github_repos: []
+    contributors: []
+    committers: []
+    project_leads: []
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
     releases: []
   - 
     project_id: "iot.zenoh"

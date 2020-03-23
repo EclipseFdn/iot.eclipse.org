@@ -85,7 +85,7 @@ var projectAliases = {
 
         $.ajax({
             type: "GET",
-            url: "/assets/js/eclipsefdn.projects.json",
+            url: "/assets/js/projects.json",
             dataType: "json",
             cache: true,
             success: function(data) {
