@@ -79,134 +79,13 @@ var projectAliases = {
     'iot.4diac': 'Eclipse 4DIAC'
 };
 
-var releases = {
-    "iot.paho": "1.4.0 (Photon)",
-    "iot.eclipsescada": "0.4.0",
-    "iot.concierge": "5.0",
-    "iot.mosquitto": "1.5",
-    "iot.smarthome": "0.9.0",
-    "iot.kura": "3.2.0",
-    "iot.om2m": "1.1.0",
-    "iot.californium": "1.0.0",
-    "iot.vorto": "0.9",
-    "iot.4diac": "1.9.0",
-    "iot.hawkbit": "0.2.0",
-    "iot.hono": "0.7",
-    "iot.milo": "0.1.0",
-    "iot.kapua": "0.3.0",
-    "iot.unide": "0.2.0"
-  };
-  var download_urls = {
-    "iot.paho": "https://www.eclipse.org/paho/downloads.php",
-    "iot.eclipsescada": "http://download.eclipse.org/eclipsescada/",
-    "iot.ponte": "http://eclipse.org/ponte",
-    "iot.concierge": "http://projects.eclipse.org/projects/iot.concierge/downloads",
-    "iot.mosquitto": "https://www.eclipse.org/mosquitto",
-    "iot.smarthome": "https://www.eclipse.org/smarthome/documentation/community/downloads.html",
-    "iot.kura": "https://www.eclipse.org/kura/downloads.php",
-    "iot.om2m": "https://wiki.eclipse.org/OM2M/Download",
-    "iot.californium": "http://projects.eclipse.org/projects/iot.californium/downloads",
-    "iot.wakaama": "http://projects.eclipse.org/projects/iot.wakaama",
-    "iot.paho.incubator": "http://projects.eclipse.org/projects/iot.paho.incubator",
-    "iot.vorto": "https://www.eclipse.org/vorto",
-    "iot.leshan": "https://github.com/eclipse/leshan/releases",
-    "iot.4diac": "http://www.eclipse.org/4diac/en_dow.php",
-    "iot.risev2g": "https://github.com/eclipse/risev2g",
-    "iot.tinydtls": "http://projects.eclipse.org/projects/iot.tinydtls",
-    "iot.hawkbit": "https://www.eclipse.org/hawkbit/",
-    "iot.hono": "http://www.eclipse.org/hono/download/",
-    "iot.milo": "http://projects.eclipse.org/projects/iot.milo",
-    "iot.kapua": "https://www.eclipse.org/kapua/",
-    "iot.ignite": "http://projects.eclipse.org/projects/iot.ignite",
-    "iot.unide": "http://projects.eclipse.org/projects/iot.unide/downloads",
-    "iot.iofog": "http://projects.eclipse.org/projects/iot.iofog",
-    "iot.agail": "http://agile-iot.eu",
-    "iot.ditto": "https://www.eclipse.org/ditto",
-    "iot.duttile": "https://git.eclipse.org/r/plugins/gitiles/duttile/duttile/+archive/master.tar.gz",
-    "iot.kuksa": "http://projects.eclipse.org/projects/iot.kuksa",
-    "iot.cyclonedds": "http://projects.eclipse.org/projects/iot.cyclonedds",
-    "iot.thingweb": "http://projects.eclipse.org/projects/iot.thingweb",
-    "iot.mita": "http://projects.eclipse.org/projects/iot.mita",
-    "iot.hip": "http://www.eclipse.org/hip",
-    "iot.fog05": "http://projects.eclipse.org/projects/iot.fog05",
-    "iot.tahu": "http://projects.eclipse.org/projects/iot.tahu",
-    "iot.volttron": "http://projects.eclipse.org/projects/iot.volttron"
-  };
-  var project_states = {
-    "iot.paho": "Regular",
-    "iot.eclipsescada": "Incubating",
-    "iot.ponte": "Incubating",
-    "iot.concierge": "Incubating",
-    "iot.mosquitto": "Incubating",
-    "iot.smarthome": "Incubating",
-    "iot.kura": "Regular",
-    "iot.om2m": "Incubating",
-    "iot.californium": "Regular",
-    "iot.wakaama": "Incubating",
-    "iot.paho.incubator": "Incubating",
-    "iot.vorto": "Incubating",
-    "iot.leshan": "Incubating",
-    "iot.4diac": "Incubating",
-    "iot.risev2g": "Incubating",
-    "iot.tinydtls": "Incubating",
-    "iot.hawkbit": "Incubating",
-    "iot.hono": "Incubating",
-    "iot.milo": "Incubating",
-    "iot.kapua": "Incubating",
-    "iot.ignite": "Incubating",
-    "iot.unide": "Incubating",
-    "iot.iofog": "Incubating",
-    "iot.agail": "Incubating",
-    "iot.ditto": "Incubating",
-    "iot.duttile": "Incubating",
-    "iot.kuksa": "Incubating",
-    "iot.cyclonedds": "Incubating",
-    "iot.thingweb": "Incubating",
-    "iot.mita": "Incubating",
-    "iot.hip": "Incubating",
-    "iot.fog05": "Incubating",
-    "iot.tahu": "Incubating",
-    "iot.volttron": "Incubating"
-  };
-  var download_stats = {
-    "iot.ditto": 3217,
-    "iot.neoscada": 4239,
-    "iot.milo": 10350,
-    "iot.hawkbit": 1602,
-    "iot.leshan": 1704,
-    "iot.californium": 9387,
-    "iot.paho": 51119,
-    "iot.om2m": 133,
-    "iot.mosquitto": 9657,
-    "iot.smarthome": 12378,
-    "iot.kura": 514,
-    "iot.ponte": 84
-  };
-
-var project_state_aliases = {
-    "Incubating": "Incubating",
-    "Regular": "Stable"
-};
-
 
 (function($, window, document) {
     $(function() {
 
-        // $(window).resize(function() {
-        //     resize();
-        // });
-
-        // $(document).on('click', '.itembox, .news-list li', function() {
-        //     var link = $(this).find('.readmore').attr('href');
-        //     $(location).attr('href', link);
-        //     return false;
-        // });
-
         $.ajax({
             type: "GET",
-            // url: "//projects.eclipse.org/json/technology/Internet%20of%20Things",
-            // dataType: "jsonp",
-            url: "/assets/js/projects.json",
+            url: "/assets/js/eclipsefdn.projects.json",
             dataType: "json",
             cache: true,
             success: function(data) {
@@ -220,6 +99,11 @@ var project_state_aliases = {
                 var i = 0;
 
                 $.each(data, function(key, value) {
+                    
+                    if (value.state === "Archived") {
+                      return true;
+                    }
+                  
                     i++;
                     var val = 20 + (i / Object.keys(data).length) * 80;
 
@@ -227,17 +111,17 @@ var project_state_aliases = {
 
 
                     // Clean up and remove HTML.
-                    if (value.id in projectAliases) {
-                        value.name = projectAliases[value.id];
+                    if (value.project_id in projectAliases) {
+                        value.name = projectAliases[value.project_id];
                     }
 
                     var title = stringJanitor(value.name);
-                    var id = stringJanitor(value.id);
-                    var link = value.website;
+                    var id = stringJanitor(value.project_id);
+                    var link = value.url;
                     if (!validateUrl(link)) {
                         link = "http://projects.eclipse.org/projects/" + id;
                     }
-                    var desc = stringJanitor(value.description, {
+                    var desc = stringJanitor(value.summary, {
                         "cut": true,
                         "ellipsis": ' [&hellip;] <br><a href="' + link + '"> Read more&hellip;</a>'
                     });
@@ -250,7 +134,7 @@ var project_state_aliases = {
                         return true;
 
                     projectInfo = {};
-                    projectInfo.link = value.website;
+                    projectInfo.link = value.url;
                     if (!validateUrl(projectInfo.link)) {
                         projectInfo.link = "http://projects.eclipse.org/projects/" + id;
                     }
@@ -259,33 +143,28 @@ var project_state_aliases = {
                     projectInfo.name = title;
                     projectInfo.logo_alt = title;
 
-                    console.log(project_states[value.id])
-
-                    projectInfo.project_state = project_state_aliases[project_states[value.id]];
+                    projectInfo.project_state = value.state;
 
                     projectInfo.labels = '';
                     for (var k in projectsAssociation) {
-                        if (projectsAssociation[k][value.id]) {
+                        if (projectsAssociation[k][value.project_id]) {
                             projectInfo.labels += ' ' + ' <span class="badge">' + k + '</span>'
                         }
                     }
 
                     projectInfo.description = desc;
-                    projectInfo.fullDescription = stringJanitor(value.description);
-                    var downloads = download_stats[value.id] || 0;
-                    projectInfo.downloads = downloads;
-                    projectInfo.downloadsHuman = (downloads == 0) ? 'N/A' : numeral(downloads).format('0.[0] a');
-                    projectInfo.version = releases[value.id] || 'none';
-                    projectInfo.downloadUrl = download_urls[value.id];
+                    projectInfo.fullDescription = stringJanitor(value.summary);
+                    projectInfo.version = 'none';
+                    if (value.releases[0]) {
+                      projectInfo.version = value.releases[0].name;
+                    }
+                    
+                    projectInfo.downloadUrl = value.url;
 
                     projectInfos.push(projectInfo);
 
                     i++;
                 });
-
-                // Insert html and resize the boxes.
-                //$("#update-project").append('</div>' + output);
-                //resize();
 
                 var options = {
                     item: '<li class="col-md-24"><div class="media">\
@@ -301,7 +180,6 @@ var project_state_aliases = {
                                     <p class="description col-md-16"></p>\
                                     <div class="col-md-8 details"><div class="row">\
                                         <p class="downloads" style="display:none;"></p>\
-                                        <div class="col-md-24"><p>Monthly downloads: <span class="badge downloadsHuman">50K+</span></p></div>\
                                         <div class="col-md-24"><p>Latest release: <span class="badge version">1.4</span></p></div>\
                                         <div class="col-md-24 margin-bottom-10"><p>Project status: <span class="badge project_state">Incubating</span></p></div>\
                                         <div class="col-md-24"><p><a class="btn btn-sm btn-primary downloadUrl" href="#">Getting Started</a></p></div>\
@@ -312,7 +190,7 @@ var project_state_aliases = {
                     valueNames: ['name', 'description', 'fullDescription', {
                             name: 'logo',
                             attr: 'src'
-                        }, 'downloads', 'downloadsHuman', 'version', {
+                        }, 'version', {
                             name: 'link',
                             attr: 'href'
                         }, {
@@ -326,10 +204,6 @@ var project_state_aliases = {
 
                 var list = new List('project-list', options, projectInfos);
 
-                list.sort('downloads', {
-                    order: "desc"
-                });
-
                 for (var i in list.visibleItems) {
                     var elem = list.visibleItems[i].elm;
                     var logoElem = $("img.logo", elem);
@@ -342,15 +216,10 @@ var project_state_aliases = {
                 $("#update-project").empty();
                 $("#update-project").removeClass("loading");
 
-                
-
                 $('.btn-filter-project').on('click', function() {    setTimeout(function() {
                     list.filter();
                     list.filter(computeFilterFunction());
                     }, 10) ; });
-
-                //    setTimeout(1000, rez;
-
 
             },
         });
@@ -392,22 +261,6 @@ var project_state_aliases = {
     // Validate URL.
     var validateUrl = function validateUrl(str) {
         return (/^(http|https|ftp):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/i).test(str);
-    };
-
-    // Set same height to all .itembox in a row.
-    var resize = function() {
-        $('li').css({
-            "height": "auto"
-        });
-        $('ul').each(function() {
-            var highestBox = 0;
-            $('li', this).each(function() {
-                if ($(this).height() > highestBox) {
-                    highestBox = $(this).outerHeight();
-                }
-            });
-            $('li', this).height(highestBox);
-        });
     };
 
     // Remove html, add ellipsis and cut strings.
