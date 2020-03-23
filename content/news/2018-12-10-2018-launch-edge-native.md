@@ -5,7 +5,6 @@ link: "https://www.globenewswire.com/news-release/2019/12/10/1958428/0/en/The-Ec
 categories: ["announcements"]
 ---
 
-The Eclipse Foundation today announced the launch of the Edge Native Working Group, a vendor-neutral and code-first industry collaboration that will drive the evolution and broad adoption of open source software for edge computing.
-
+New Working Group will drive the evolution and adoption of open source software for edge computing. Founding members include ADLINK, Bosch, Edgeworx, Eurotech, Huawei, Intel, Kynetics, and Siemens.
 <!--more-->
 
