@@ -17,7 +17,7 @@ items:
   -
     preamble: 
     title: Subscribe to our newsletter
-    footer_classes: "featured-newsletter text-center row"
+    footer_classes: "featured-newsletter text-center"
     content:
     link: |
          <a class="btn btn-primary" href="https://eclipse.us6.list-manage.com/subscribe/post?u=eaf9e1f06f194eadc66788a85&amp;id=b952cd0879">Subscribe</a>
