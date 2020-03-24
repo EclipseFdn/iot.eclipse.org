@@ -21,7 +21,7 @@
 <div class="row">
 {{ range sort .Site.Data.adopters.adopters.projects "name" "asc"}}
   <div class="col-md-24 adopters">
-    <h2>
+    <h2 id="{{ .id }}">
       {{ .name }} 
       <a class=" btn btn-xs btn-secondary" href="https://projects.eclipse.org/projects/{{ .id }}">{{ .id }}</a>
     </h2>
