@@ -12,5 +12,3 @@ links: [[href: "https://accounts.eclipse.org/contact/membership/iot", text: "Con
 ---
 {{< membership/content >}}
 {{< membership/benefits >}}
-## Member Testimonials{#member-testimonials}
-{{< testimonials >}}
