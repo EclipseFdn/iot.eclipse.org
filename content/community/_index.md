@@ -6,7 +6,7 @@ header_wrapper_class: "header-alternate-bg-img-1"
 layout: "single"
 ---
 
-## Open source and open to all
+## Open Source and Open Collaboration
 
 The Eclipse IoT working group is a vendor-neutral community regrouping Eclipse Foundation members that wish to freely collaborate on new technology development in the IoT space.
 
