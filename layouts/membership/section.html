@@ -1,5 +1,26 @@
-
-
+{{ define "main_suffix" }}
+    {{ if ne .Page.Params.hide_sidebar true }} 
+      </div>
+      <div class="{{- .Params.main_sidebar_class | default .Site.Params.main_sidebar_class | default "col-md-6  padding-bottom-30"}}">
+          {{ partial "sidebar.html" . }}
+      </div>
+    {{ end }}
+    </div>
+	<div class="row">
+		<h2 id="member-testimonials">Member Testimonials</h2>
+		<div class="featured-testimonials text-center row">
+		  {{ range .Site.Data.testimonials.items}}
+		    <div class="testimonial-item">
+		      <p class="content">{{ .text }}</p>
+		      <p><img src="{{ .picture_link }}" alt="{{ .picture_alt }}"></p>
+		      <p class="author">{{ .author }} / <span class="job-title">{{ .job_title }}, {{ .company }}</span></p>
+		    </div>
+		  {{ end }}
+		</div>
+	</div>
+  </div>
+</main>
+{{ end }}
 
 {{ define "footer-suffix" }}
   <script src="/js/index.js"></script>
