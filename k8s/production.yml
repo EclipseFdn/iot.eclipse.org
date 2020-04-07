@@ -50,7 +50,7 @@ metadata:
   namespace: foundation-internal-webdev-apps
   annotations:
     haproxy.router.openshift.io/timeout: 20s
-    haproxy.router.openshift.io/disable_cookies: true
+    haproxy.router.openshift.io/disable_cookies: "true"
     haproxy.router.openshift.io/balance: roundrobin
 spec:
   host: "iot.eclipse.org"
