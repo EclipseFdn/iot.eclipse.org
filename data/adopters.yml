@@ -76,6 +76,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Kynetics
+      homepage_url: http://kynetics.com
+      logo: logo-kynetics.png
+      logo_white: logo-kynetics-white.png
     - name: Ekumen
       homepage_url: https://www.ekumenlabs.com/
       logo: logo-ekumen.png
