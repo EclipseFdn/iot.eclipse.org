@@ -1,6 +1,8 @@
 ---
 title: "Resources"
-description: "Useful resources to learn more about Eclipse IoT"
+seo_title: "Resources - Eclipse IoT Technologies"
+description: "Explore a variety of Eclipse IoT technologies through surveys, articles, case studies, whitepapers, and market reports."
+keywords: ["Eclipse IoT", "Eclipse IoT technologies"]
 aliases:
     - /resources/
 layout: "resources"

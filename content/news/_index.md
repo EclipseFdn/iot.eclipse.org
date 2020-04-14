@@ -1,5 +1,7 @@
 ---
 title: "News"
-description: "iot.eclipse.org is all about getting the IoT and M2M developers involved in what is happening in the different Eclipse projects"
+seo_title: "News - Eclipse IoT"
+description: "Gain insights into the Eclipse IoT open source software technology and join us at an event near you"
+keywords: ["Eclipse IoT", "open source", "open source software"]
 layout: "news"
 ---

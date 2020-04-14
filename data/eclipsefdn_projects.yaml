@@ -25,9 +25,6 @@
         username: "fandren"
         url: "https://api.eclipse.org/account/profile/fandren"
       - 
-        username: "tstrasser"
-        url: "https://api.eclipse.org/account/profile/tstrasser"
-      - 
         username: "mmelikmerkumians"
         url: "https://api.eclipse.org/account/profile/mmelikmerkumians"
       - 
@@ -185,6 +182,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.2.3"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.2.3"
+      - 
         name: "2.2.2"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.2.2"
       - 
@@ -265,16 +265,10 @@
       - 
         username: "hvanthag"
         url: "https://api.eclipse.org/account/profile/hvanthag"
-      - 
-        username: "mbeemster"
-        url: "https://api.eclipse.org/account/profile/mbeemster"
     project_leads: 
       - 
         username: "hvanthag"
         url: "https://api.eclipse.org/account/profile/hvanthag"
-      - 
-        username: "mbeemster"
-        url: "https://api.eclipse.org/account/profile/mbeemster"
       - 
         username: "nkortstee"
         url: "https://api.eclipse.org/account/profile/nkortstee"
@@ -285,6 +279,12 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "0.7.0 (Coquette)"
+        url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.7.0-coquette"
+      - 
+        name: "0.6.0 (Florestan)"
+        url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.6.0-florestan"
       - 
         name: "0.5.0 (Eusebius)"
         url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.5.0-eusebius"
@@ -355,6 +355,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.2.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.2.0"
       - 
         name: "1.1.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.0"
@@ -675,6 +678,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.3.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.3.0"
       - 
         name: "1.2.2"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.2.2"
@@ -1072,6 +1078,12 @@
     contributors: []
     committers: 
       - 
+        username: "amunsch"
+        url: "https://api.eclipse.org/account/profile/amunsch"
+      - 
+        username: "bruppen"
+        url: "https://api.eclipse.org/account/profile/bruppen"
+      - 
         username: "jfortune"
         url: "https://api.eclipse.org/account/profile/jfortune"
       - 
@@ -1397,7 +1409,7 @@
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Regular"
     releases: 
       - 
         name: "1.0.0"
@@ -1975,7 +1987,7 @@
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Archived"
     releases: 
       - 
         name: "0.10.0"
@@ -2029,7 +2041,7 @@
   - 
     project_id: "iot.thingweb"
     name: "Eclipse Thingweb"
-    summary: "The Eclipse Thingweb project will start with three sub-projects in the toolkit: Thingweb node-wot node-wot is the official reference implementation of the W3C WoT Working Group and implements..."
+    summary: "The Eclipse Thingweb project currently hosts one sub-project and plans for a second one. Thingweb node-wot node-wot is the official reference implementation of the W3C WoT Working Group and..."
     url: "https://projects.eclipse.org/projects/iot.thingweb"
     website_url: "https://www.thingweb.io/"
     logo: ""
