@@ -1,6 +1,8 @@
 ---
 title: "Getting Started"
-description: "Learn how to get started with Eclipse IoT thanks to our catalog of online resources."
+seo_title: "Getting started - Eclipse IoT Projects"
+description: "Discover a variety of useful resources for open source software components and IoT server sandboxes to connect your devices"
+keywords: ["open source", "open source software", "Eclipse IoT"]
 content_classes: "padding-top-50"
 aliases:
     - /getting-started/

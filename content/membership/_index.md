@@ -1,6 +1,8 @@
 ---
 title: "Membership"
-description: "iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects"
+seo_title: "Join Us - Eclipse IoT Membership"
+description: "Join our global open source software ecosystem of industry leaders collaborating on a secure end-to-end IoT architecture"
+keywords: ["open source", "open source software", "IoT architecture"]
 headline: "Join Us"
 tagline: "The pace of IoT innovation is faster than ever. Join a global ecosystem of industry leaders collaborating on an open end-to-end IoT architecture!"
 date: 2018-04-05T16:09:45-04:00

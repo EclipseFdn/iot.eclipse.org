@@ -1,6 +1,8 @@
 ---
 title: "Projects"
-description: "iot.eclipse.org is all about getting the IoT and M2M developers involved in what is happening in the different Eclipse projects"
+seo_title: "Projects - Eclipse IoT"
+description: "Eclipse IoT is home to the production of quality open source components that our members and ecosystem use to build IoT devices, IoT gateways, Edge nodes and IoT Cloud backends."
+keywords: ["Eclipse IoT", "IoT Gateways", "cloud backends", "open source software"]
 headline: "Projects"
 tagline: "Eclipse IoT open source projects help you build IoT Devices, Gateways (\"Smart Objects\"), Cloud backends, and more. Use the list below to find the project that's right for you."
 content_classes: "padding-top-50"

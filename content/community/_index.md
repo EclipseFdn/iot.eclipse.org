@@ -1,6 +1,8 @@
 ---
 title: "Community"
-description: ""
+seo_title: "Join our community - Eclipse IoT"
+description: "Discover the benefits of the Eclipse IoT Working Group membership"
+keywords: ["Eclipse IoT"]
 content_classes: "padding-top-50"
 header_wrapper_class: "header-alternate-bg-img-1"
 layout: "single"

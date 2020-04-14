@@ -1,6 +1,8 @@
 ---
 title: "Explore Our Members"
-description: "iot.eclipse.org is all about getting the M2M developers involved in what is happening in the different Eclipse projects"
+seo_title: "Explore our members - Eclipse IoT"
+description: "Discover our Eclipse IoT members, who commercialize solutions based on open source components across industry sectors"
+keywords: ["Eclipse IoT", "IoT open source", "open source solutions"]
 aliases:
     - /working-group/members/
     - /member/
