@@ -76,6 +76,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: 96Boards
+      homepage_url: https://www.96boards.org/
+      logo: logo-96boards.png
+      logo_white: logo-96boards-white.png
     - name: Ekumen
       homepage_url: https://www.ekumenlabs.com/
       logo: logo-ekumen.png
