@@ -74,7 +74,7 @@
  *   Eric Poirier <eric.poirier@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
-*/@media screen and (min-width:768px){.featured-events h2{font-size:24px}}.events-item{margin-bottom:30px}.events-item a{color:#4c4d4e}.events-item p{font-size:12px;color:#693703}
+*/@media screen and (min-width:768px){.featured-events h2{font-size:24px;font-weight:700}}.events-item{margin-bottom:30px}.events-item a{color:#4c4d4e}.events-item p{font-size:12px;color:#693703}
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
  * 
@@ -98,7 +98,7 @@
  *   Eric Poirier <eric.poirier@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
-*/.featured-news{padding:20px 0;color:#6f6f6f}@media screen and (min-width:768px){.featured-news{padding:30px 0 50px}}@media screen and (max-width:767px){.featured-news{text-align:center}}.featured-news a{color:#e57707}.featured-news .news-item{margin-bottom:30px}.featured-news .news-heading{font-weight:300;color:#536a75;margin-bottom:5px}.featured-news .news-heading a,.featured-news .news-heading a:visited{color:#536a75}.featured-news .news-icon{background-color:#ececed;border-radius:100px;padding-top:15px;display:block;text-align:center;width:80px;height:80px;color:#536a75}.featured-news .news-icon .feather{width:45px;height:45px}.featured-news .news-date{color:#693703;margin-bottom:5px}.featured-news-fullpage{padding-top:25px}
+*/.featured-news{padding:20px 0;color:#6f6f6f}@media screen and (min-width:768px){.featured-news{padding:30px 0 50px}}@media screen and (max-width:767px){.featured-news{text-align:center}}.featured-news h2{font-weight:700}.featured-news a{color:#e57707}.featured-news .news-item{margin-bottom:30px}.featured-news .news-heading{font-weight:500;color:#536a75;margin-bottom:5px}.featured-news .news-heading a,.featured-news .news-heading a:visited{color:#536a75}.featured-news .news-icon{background-color:#ececed;border-radius:100px;padding-top:15px;display:block;text-align:center;width:80px;height:80px;color:#536a75}.featured-news .news-icon .feather{width:45px;height:45px}.featured-news .news-date{color:#693703;margin-bottom:5px}.featured-news-fullpage{padding-top:25px}
 /*!
  * Copyright (c) 2020 Eclipse Foundation, Inc.
  * 
