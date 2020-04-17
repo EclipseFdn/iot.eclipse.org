@@ -72,7 +72,11 @@ adopters:
       homepage_url: https://microsoft.com/iot
       logo: logo-microsoft.svg
       logo_white: logo-microsoft-white.svg
-      
+    - name: Red Hat
+      homepage_url: https://developers.redhat.com/products/fuse/connectors/
+      logo: Logo-RedHat-A-Color-RGB.svg
+      logo_white: Logo-RedHat-A-White-RGB.svg
+
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
