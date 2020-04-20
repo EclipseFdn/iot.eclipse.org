@@ -25,7 +25,7 @@
     "fetch_project": "NODE_ENV=production node node_modules/eclipsefdn-hugo-solstice-theme/bin/projects/index.js -l data -u https://projects.eclipse.org/api/projects?working_group=internet-things-iot"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.57",
+    "eclipsefdn-hugo-solstice-theme": "0.0.61",
     "js-yaml": "^3.13.1",
     "json-minify": "^1.0.0"
   }
