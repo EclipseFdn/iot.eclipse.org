@@ -13,6 +13,7 @@
     "url": "git://github.com/EclipseFdn/iot.eclipse.org.git"
   },
   "scripts": {
+    "test": "mocha test/eclipsefdn.adopters.test.js",
     "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
