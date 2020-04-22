@@ -252,6 +252,11 @@ adopters:
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
 
+    - name: Leshan
+      homepage_url: https://www.eclipse.org/leshan/
+      logo: logo-leshan.svg
+      logo_white: logo-leshan-white.svg
+
     - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com/service/hub/
       logo: logo-bosch.svg
@@ -264,3 +269,4 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+
