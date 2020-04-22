@@ -211,3 +211,27 @@ adopters:
       homepage_url: https://www.eurotech.com
       logo: logo-eurotech.svg
       logo_white: logo-eurotech-white.svg
+
+  - name: Eclipse Leshan
+    id: iot.leshan
+    adopters:
+    - name: Sierra Wireless
+      homepage_url: https://www.sierrawireless.com/
+      logo: logo-swir.svg
+      logo_white: logo-swir-white.svg
+
+  - name: Eclipse Californium
+    id: iot.californium
+    adopters:
+    - name: Sierra Wireless
+      homepage_url: https://www.sierrawireless.com/
+      logo: logo-swir.svg
+      logo_white: logo-swir-white.svg
+
+  - name: Eclipse Mosquitto
+    id: iot.mosquitto
+    adopters:
+    - name: Sierra Wireless
+      homepage_url: https://www.sierrawireless.com/
+      logo: logo-swir.svg
+      logo_white: logo-swir-white.svg
