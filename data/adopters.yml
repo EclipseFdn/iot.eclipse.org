@@ -219,6 +219,10 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+    - name: FIT IoT-Lab
+      homepage_url: https://www.iot-lab.info/
+      logo: logo-iotlab.svg
+      logo_white: logo-iotlab-white.svg
 
   - name: Eclipse Californium
     id: iot.californium
