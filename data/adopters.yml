@@ -156,6 +156,10 @@ adopters:
       homepage_url: https://husarnet.com/
       logo: logo-husarnet.png
       logo_white: logo-husarnet-white.png
+    - name: Brisa Robotica
+      homepage_url: https://brisa.tech
+      logo: logo-brisa.svg
+      logo_white: logo-brisa-white.svg
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
