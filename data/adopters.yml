@@ -4,6 +4,16 @@ adopters:
   - name: Eclipse Ditto
     id: iot.ditto
     adopters:
+    - name: pragmatic minds GmbH
+      homepage_url: http://pragmaticminds.de/
+      logo: logo-pragmatic-minds.svg
+      logo_white: logo-pragmatic-minds-white.svg
+      
+    - name: pragmatic industries GmbH
+      homepage_url: https://pragmaticindustries.com/
+      logo: logo-pragmatic-industries.svg
+      logo_white: logo-pragmatic-industries-white.svg
+      
     - name: Bosch Software Innovations
       homepage_url: https://www.bosch-iot-suite.com/service/things/
       logo: logo-bosch.svg
