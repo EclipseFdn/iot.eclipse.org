@@ -2,7 +2,7 @@
 title: "Virtual IoT and Edge Native Day"
 description: ""
 headline: "Virtual IoT and Edge Native Day"
-tagline: "TBD"
+tagline: "Our Open Source Ecosystem Means Business"
 date: 2018-04-05T16:09:45-04:00
 hide_page_title: true
 hide_sidebar: true
