@@ -14,7 +14,7 @@ adopters:
       logo: logo-pragmatic-industries.svg
       logo_white: logo-pragmatic-industries-white.svg
       
-    - name: Bosch Software Innovations
+    - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com/service/things/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
@@ -47,7 +47,7 @@ adopters:
       logo: logo-othermo.svg
       logo_white: logo-othermo-white.svg
       
-    - name: Bosch Software Innovations
+    - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
@@ -65,7 +65,7 @@ adopters:
       logo: logo-aloxy.svg
       logo_white: logo-aloxy-white.svg
       
-    - name: Bosch Software Innovations
+    - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com/service/hub/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
@@ -134,8 +134,8 @@ adopters:
       homepage_url: http://www.roverrobotics.com
       logo: logo-rover-robotics.png
       logo_white: logo-rover-robotics-white.png
-    - name: Bosch Software Innovations
-      homepage_url: https://www.bosch-iot-suite.com/service/things/
+    - name: Bosch
+      homepage_url: https://www.bosch.com
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
     - name: RYRacing, LLC
@@ -178,8 +178,8 @@ adopters:
       homepage_url: https://www.adlinktech.com
       logo: logo-adlink.svg
       logo_white: logo-adlink-white.png
-    - name: Bosch Software Innovations
-      homepage_url: https://www.bosch-iot-suite.com/service/things/
+    - name: Bosch
+      homepage_url: https://www.bosch.com
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
       
@@ -190,7 +190,7 @@ adopters:
       homepage_url: http://kynetics.com
       logo: logo-kynetics.png
       logo_white: logo-kynetics-white.png
-    - name: Bosch Software Innovations
+    - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com/service/rollouts/
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
@@ -233,10 +233,16 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+
     - name: FIT IoT-Lab
       homepage_url: https://www.iot-lab.info/
       logo: logo-iotlab.svg
       logo_white: logo-iotlab-white.svg
+
+    - name: Bosch.IO
+      homepage_url: https://www.bosch-iot-suite.com/service/hub/
+      logo: logo-bosch.svg
+      logo_white: logo-bosch-white.svg
 
   - name: Eclipse Californium
     id: iot.californium
@@ -245,6 +251,11 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+
+    - name: Bosch.IO
+      homepage_url: https://www.bosch-iot-suite.com/service/hub/
+      logo: logo-bosch.svg
+      logo_white: logo-bosch-white.svg
 
   - name: Eclipse Mosquitto
     id: iot.mosquitto
