@@ -1,0 +1,18 @@
+<section 
+  {{- with .Get "className"}} class="{{.}}"{{ end -}}
+  {{- with .Get "sectionId"}} id="{{.}}"{{ end -}}>
+  {{$cont:=(.Page.Params.container | default .Site.Params.container | default "container")}}
+  {{ if and (ne (.Get "checkContainer") "false") (eq $cont "container-fluid") }} 
+  <div class="container">
+  {{ end }}
+  {{ if (.Get "includeRow") "true" }} 
+  <div class="row">
+  {{ end }}
+  {{ .Inner }}
+  {{ if (.Get "includeRow") "true" }}
+  </div>
+  {{ end }}
+  {{ if and (ne (.Get "checkContainer") "false") (eq $cont "container-fluid") }} 
+  </div>
+  {{ end }}
+</section>
