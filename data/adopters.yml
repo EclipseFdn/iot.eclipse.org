@@ -244,6 +244,11 @@ adopters:
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
 
+    - name: RISE
+      homepage_url: https://www.ri.se
+      logo: logo-rise.svg
+      logo_white: logo-rise-white.svg
+
   - name: Eclipse Californium
     id: iot.californium
     adopters:
