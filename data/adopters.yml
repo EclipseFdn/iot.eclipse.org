@@ -244,6 +244,11 @@ adopters:
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
 
+    - name: RISE
+      homepage_url: https://www.ri.se
+      logo: logo-rise.svg
+      logo_white: logo-rise-white.svg
+
   - name: Eclipse Californium
     id: iot.californium
     adopters:
@@ -251,6 +256,11 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+
+    - name: Leshan
+      homepage_url: https://www.eclipse.org/leshan/
+      logo: logo-leshan.svg
+      logo_white: logo-leshan-white.svg
 
     - name: Bosch.IO
       homepage_url: https://www.bosch-iot-suite.com/service/hub/
@@ -264,3 +274,4 @@ adopters:
       homepage_url: https://www.sierrawireless.com/
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
+

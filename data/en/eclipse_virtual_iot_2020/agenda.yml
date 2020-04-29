@@ -1,0 +1,16 @@
+complete: false
+types:
+    - name: Demo
+      id: 1
+      color: "#E47933"
+    - name: Keynote
+      id: 2 
+      color: "#969FA5"
+    - name: Cloud
+      id: 3 
+      color: "#487b8e"
+items:
+    - name: TBD
+      presenter: TBD
+      type: 1
+      time: "TBD"
