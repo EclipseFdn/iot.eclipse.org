@@ -1,16 +1,66 @@
 complete: false
 types:
-    - name: Demo
+    - name: Edge
       id: 1
       color: "#E47933"
-    - name: Keynote
+    - name: IoT
       id: 2 
-      color: "#969FA5"
-    - name: Cloud
-      id: 3 
       color: "#487b8e"
+    - name: Keynote
+      id: 3 
+      color: "#969FA5"
 items:
-    - name: TBD
-      presenter: TBD
+    - name: "Eclipse IoT and Eclipse Edge Native: Making Sense of the Puzzle"
+      presenter: Frédéric Desbiens
+      type: 3
+      time: 10:00 - 10:30 (EDT)
+      abstract: <p>There are now more than 45 projects in the Eclipse IoT portfolio. Some of them are well known; some of them are more obscure. Together, they probably are the most exhausive toolkit of its kind in the industry. However, with that many projects, it is sometimes difficult to figure out which one to pick for a specific use case. On the top of that, the Eclipse Foundation launched its Edge Native working group in December 2019, and its Sparkplug working group in February 2020.</p><p>The aim of this presentation is to help you understand the vision between the Eclipse IoT, Edge Native and Sparkplug working groups. You will also learn how you can leverage the most popular projects in the Eclipse IoT portfolio.</p>
+
+    - name: "The zenoh protocol: Zero Overhead Pub/sub, Store/Query and Compute"
+      presenter: Angelo Corsaro
       type: 1
-      time: "TBD"
+      time: 10:40 - 11:10 (EDT)
+      abstract: <p>Eclipse zenoh is a brand new project at the Eclipse Foundation. zenoh is a protocol that has been designed to address the needs of applications that need to deal with data in movement, data at rest and computation in a scalable, efficient and location transparent data manner. zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks. In this presentation, you will learn about the zenoh protocol and how you can leverage it in the context of Edge Computing.</p>
+
+    - name: "Introducing Eclipse Hara"
+      presenter: Nicola La Gloria
+      type: 2
+      time: 10:40 - 11:10 (EDT)
+      abstract: "<p>Nowadays there are several well engineered open projects available and they may serve different industries for prototyping a solution without starting from scratch. In the scope of delivering software artifacts from remote, Eclipse hawkBit is definitely one of those great open projects This session is about a new Eclipse project named Hara which has been recently incubated by the Eclipse Foundation. The Hara project provides a reference agent software implementation featuring the Eclipse hawkBit DDI API. Hara aims to fill the gap that was intentionally left out by the hawkbit project. The purpose is to provide device update management and client solutions for handling software updates on the device. By providing a solid open source reference implementations of a hawkBit client, which is driven by the fundamental use cases for updating a remote device, the project can be beneficial toward the adoption of the hawkBit update server as a backend solution. The session will show a commercial solution based on Hawkbit and Hara: Update Factory. Update Factory allowed customers to deploy OS and applications on remote embedded devices during development and production stages. Update Factory can be considered also a delivery platform that can be integrated in a building pipeline enhancing the development lifecycle by building and delivering OS images upon specific code commits.</p>"
+
+    - name: "A deep dive into Eclipse Paho MQTT client internals"
+      presenter: Ranjan Dasgupta
+      type: 2
+      time: 11:20 - 12:00 (EDT)
+      abstract: <p>This session will provide a comprehensive overview of Paho MQTT client's internal design and architecture. The participants can learn about the underlying component design in MQTT Paho C and Java clients. This session will also cover the MQTT 5 features added to C and Java clients. This session will help not only the MQTT client application developers to understand how Paho client works and develop efficient client code, but also to the participants interested in contributing in Paho project. The talk will finish with a discussion on the status of the support in Eclipse Paho project.</p>
+
+    - name: "Eclipse Sparkplug: The Road Ahead"
+      presenter: Arlen Nipper
+      type: 2
+      time: 12:50 - 13:20 (EDT)
+      abstract:
+
+    - name: "What is Edge Native?"
+      presenter: Kilton Hopkins and Philipp Struß
+      type: 1
+      time: 13:30 - 14:00 (EDT)
+      abstract: <p>Edge computing is on the rise. In December 2019, the Eclipse Foundation launched the Eclipse Edge Native working group to address the challenges that make edge computing unique in relation to cloud and data center. In this presentation, you will understand what "Edge Native" means and how it represents a unique approach to Edge Computing. You will also explore real-world use cases from a variety of industries, and discover how Eclipse ioFog can be leveraged as a platform to support those use cases through integration with Eclipse IoT components such as Eclipse Streamsheets.</p>
+
+    - name: "Eclipse MRAA/UPM and the oneAPI Beta"
+      presenter: Mihai Tudor Panu
+      type: 1
+      time: 14:10 - 14:40 (EDT)
+      abstract: <p>We will start with the current state of things within the Eclipse MRAA and UPM projects and recent updates, along with future plans and proposed developments. Continuing on, we will introduce oneAPI Beta and explain why should you care if you’re using Intel System Studio. Finally, we will summarize some of the latest new features in the OpenVINO Toolkit along with a few other Intel technologies that are relevant at the edge.</p>
+
+    - name: "Intel Developer Tools and IDEs"
+      presenter: Thomas Ingleby
+      type: 2
+      time: 14:50 - 15:20 (EDT)
+      abstract: <p>Watch a live demo of how to use the Eclipse MRAA project starting from a code sample with the oneAPI CLI developer tool. We will then show some of the new channels we enabled in order to reach our developers better including containers and orchestration. As our last topic, we dive into the current developer environments and future plans as they apply to VS Code and the Eclipse IDEs.</p>
+
+    - name: "Cloud-Edge Interconnect: Doing it right with the Skupper project"
+      presenter: Ted Ross
+      type: 1
+      time: 15:30 - 16:00 (EDT)
+      abstract: <p>Cloud/Edge architectures present unique challenges to networking and communications that are not well met by TCP/IP and the Internet.  In this session, we will introduce the idea of a Virtual Application Network and an implementation of this idea in the Skupper project.  Emphasis will be placed on Skupper’s utility in edge computing use cases.  Participants will also learn how Skupper provides advanced multi-site communications capabilities, security, and ease of deployment to developers and operators.</p>
+
