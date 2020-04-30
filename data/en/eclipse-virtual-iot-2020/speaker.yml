@@ -1,4 +1,40 @@
 items:
   - name: "Frédéric Desbiens"
-    title: "Program Manager, IoT at the Eclipse Foundation"
+    title: "Program Manager, IoT and Edge Computing — Eclipse Foundation"
     img: fdesbiens.jpeg
+
+  - name: "Angelo Corsaro"
+    title: "Chief Technology Officer — ADLINK Technology"
+    img: acorsaro.jpeg
+
+  - name: "Nicola La Gloria"
+    title: "Chief Executive Officer — Kynetics"
+    img: nlagloria.jpeg
+
+  - name: "Ranjan Dasgupta"
+    title: "Solution Architect, IBM Watson IoT Platform — IBM"
+    img: rdasgupta.jpeg
+
+  - name: "Arlen Nipper"
+    title: "President and Chief Technology Officer — Cirrus Link Solutions"
+    img: anipper.jpeg
+
+  - name: "Kilton Hopkins"
+    title: "Co-Founder and Chief Technology Officer — Edgeworx"
+    img: khopkins.jpeg
+
+  - name: "Philipp Struß"
+    title: "Chief Executive Officer — Cedalo"
+    img: pstruss.jpeg
+
+  - name: "Mihai Tudor Panu"
+    title: "Software Architect — Intel"
+    img: mtudor.jpeg
+
+  - name: "Thomas Ingleby"
+    title: "Software Engineer — Intel"
+    img: tingleby.png
+
+  - name: "Ted Ross"
+    title: "Senior Principal Software Engineer — Red Hat"
+    img: tross.jpeg
