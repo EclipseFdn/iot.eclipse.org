@@ -66,6 +66,11 @@ themesDir = "node_modules/"
   name = "Projects"
   url = "/projects/"
   weight = 3
+  
+[[menu.main]]
+  name = "Resources"
+  url = "/community/resources"
+  weight = 4
 
 [[menu.main]]
   name = "Community"
