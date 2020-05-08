@@ -1,5 +1,5 @@
 +++
-date = "2020-05-28"
+date = "2020-04-28"
 event_date = "May 28, 2020"
 link = "https://iot.eclipse.org/eclipse-virtual-iot-2020"
 location = "Virtual event (Crowdcast)"
