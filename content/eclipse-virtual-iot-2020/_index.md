@@ -9,7 +9,7 @@ hide_sidebar: true
 hide_breadcrumb: true
 menu_name: "eclipse-virtual-iot-2020"
 header_wrapper_class: "iot-day"
-links: [[href: "#", text: "Attend"],[href: "/eclipse-virtual-iot-2020/#speakers", text: "Speakers"],[href: "/eclipse-virtual-iot-2020/#virtual-iot-agenda", text: "Schedule"]]
+links: [[href: "https://www.crowdcast.io/e/May28_2020_IotEdgeNativeDay", text: "Attend"],[href: "/eclipse-virtual-iot-2020/#speakers", text: "Speakers"],[href: "/eclipse-virtual-iot-2020/#virtual-iot-agenda", text: "Schedule"]]
 container: container-fluid
 layout: single
 aliases:
