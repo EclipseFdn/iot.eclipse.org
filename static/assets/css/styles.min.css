@@ -254,4 +254,16 @@
  *   Eric Poirier <eric.poirier@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
-*/#main-sidebar{margin-top:50px}#main-sidebar .sidebar-item{margin-bottom:20px;background-color:#f1f1f1;padding:17px 0 10px}#main-sidebar .sidebar-item.active{background-color:#536a75}#main-sidebar .sidebar-item.active a{color:#fff}#main-sidebar .sidebar-item.active:hover{background-color:#334148}#main-sidebar .sidebar-item:hover:not(.active){background-color:#cbcbcb}#main-sidebar .sidebar-item:hover:not(.active) a{color:#2a383f}#main-sidebar .sidebar-sub-items{background-color:#fff;margin-top:-20px}#main-sidebar .sidebar-sub-items a:hover{font-weight:700}#main-sidebar .sidebar-sub-item{padding:0 0 8px 15px;margin-bottom:0}#main-sidebar .sidebar-sub-item a.active .sidebar-text{font-weight:700}#main-sidebar .sidebar-sub-item:first-child{margin-top:15px}#main-sidebar .sidebar-sub-item:last-child{margin-bottom:15px}#main-sidebar a{display:block}#main-sidebar a .feather{width:40px;height:40px;stroke-width:1;margin:0 20px 0 0}#main-sidebar a .sidebar-text{padding:8px 0 0}main{padding-top:10px}
+*/#main-sidebar{margin-top:50px}#main-sidebar .sidebar-item{margin-bottom:20px;background-color:#f1f1f1;padding:17px 0 10px}#main-sidebar .sidebar-item.active{background-color:#536a75}#main-sidebar .sidebar-item.active a{color:#fff}#main-sidebar .sidebar-item.active:hover{background-color:#334148}#main-sidebar .sidebar-item:hover:not(.active){background-color:#cbcbcb}#main-sidebar .sidebar-item:hover:not(.active) a{color:#2a383f}#main-sidebar .sidebar-sub-items{background-color:#fff;margin-top:-20px}#main-sidebar .sidebar-sub-items a:hover{font-weight:700}#main-sidebar .sidebar-sub-item{padding:0 0 8px 15px;margin-bottom:0}#main-sidebar .sidebar-sub-item a.active .sidebar-text{font-weight:700}#main-sidebar .sidebar-sub-item:first-child{margin-top:15px}#main-sidebar .sidebar-sub-item:last-child{margin-bottom:15px}#main-sidebar a{display:block}#main-sidebar a .feather{width:40px;height:40px;stroke-width:1;margin:0 20px 0 0}#main-sidebar a .sidebar-text{padding:8px 0 0}
+/*!
+ * Copyright (c) 2019 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Martin Lowe <martin.lowe@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/.featured-story-survey{color:#fff;padding-top:50px}.featured-story-survey h2{margin-top:-15px;margin-bottom:15px;text-transform:uppercase}.featured-story-survey .divider{margin-bottom:15px}.featured-story-survey .divider:before{content:"";position:relative;display:block;width:150px;height:15px;border-top:3px solid #e57707;margin:0 auto}.featured-story-survey .divider-left:after{margin:0 auto 0 0}main{padding-top:10px}
