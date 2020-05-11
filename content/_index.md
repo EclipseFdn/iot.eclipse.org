@@ -13,6 +13,7 @@ date: 2020-01-07T9:00:00-00:00
 layout: "single"
 links: [[href: "/projects", text: "Projects"], [href: "https://accounts.eclipse.org/contact/membership/iot", text: "Join Us"]]
 container: "container-fluid"
+show_featured_footer: false
 body_classes: "homepage"
 header_wrapper_class: "header-frontpage"
 seo_title_suffix: " - Leading open source community for IoT innovation"
