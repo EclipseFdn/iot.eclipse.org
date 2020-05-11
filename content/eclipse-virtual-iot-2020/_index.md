@@ -20,5 +20,5 @@ aliases:
 {{< eclipse-virtual-iot-2020/speaker "eclipse-virtual-iot-2020" >}}
 
 {{< section-wrapper sectionId="virtual-iot-agenda" includeRow="true">}}
-  {{< agenda "eclipse-virtual-iot-2020" >}}
+  {{< agenda event="eclipse-virtual-iot-2020" >}}
 {{</section-wrapper>}}
