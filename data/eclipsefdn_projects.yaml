@@ -809,26 +809,8 @@
         username: "lkrl"
         url: "https://api.eclipse.org/account/profile/lkrl"
       - 
-        username: "amilson"
-        url: "https://api.eclipse.org/account/profile/amilson"
-      - 
-        username: "epankov"
-        url: "https://api.eclipse.org/account/profile/epankov"
-      - 
-        username: "jparkg5w"
-        url: "https://api.eclipse.org/account/profile/jparkg5w"
-      - 
-        username: "ashpakie0"
-        url: "https://api.eclipse.org/account/profile/ashpakie0"
-      - 
-        username: "dbuseldfx"
-        url: "https://api.eclipse.org/account/profile/dbuseldfx"
-      - 
         username: "nnaithani"
         url: "https://api.eclipse.org/account/profile/nnaithani"
-      - 
-        username: "svalevich"
-        url: "https://api.eclipse.org/account/profile/svalevich"
       - 
         username: "imartinfkg"
         url: "https://api.eclipse.org/account/profile/imartinfkg"
@@ -836,14 +818,8 @@
         username: "sradinovich"
         url: "https://api.eclipse.org/account/profile/sradinovich"
       - 
-        username: "mchepelevke3"
-        url: "https://api.eclipse.org/account/profile/mchepelevke3"
-      - 
         username: "adewergifosse"
         url: "https://api.eclipse.org/account/profile/adewergifosse"
-      - 
-        username: "mlipnitskayav7m"
-        url: "https://api.eclipse.org/account/profile/mlipnitskayav7m"
       - 
         username: "tpapaioannou417"
         url: "https://api.eclipse.org/account/profile/tpapaioannou417"
@@ -1165,9 +1141,6 @@
       - 
         username: "sjeroschewski"
         url: "https://api.eclipse.org/account/profile/sjeroschewski"
-      - 
-        username: "trawald"
-        url: "https://api.eclipse.org/account/profile/trawald"
       - 
         username: "dschubert"
         url: "https://api.eclipse.org/account/profile/dschubert"
@@ -1760,9 +1733,6 @@
         username: "ggarzone"
         url: "https://api.eclipse.org/account/profile/ggarzone"
       - 
-        username: "ggharbi"
-        url: "https://api.eclipse.org/account/profile/ggharbi"
-      - 
         username: "tmonteil"
         url: "https://api.eclipse.org/account/profile/tmonteil"
       - 
@@ -2171,9 +2141,6 @@
       - 
         username: "bgonzalezusach"
         url: "https://api.eclipse.org/account/profile/bgonzalezusach"
-      - 
-        username: "hfischergkr"
-        url: "https://api.eclipse.org/account/profile/hfischergkr"
       - 
         username: "jkristan"
         url: "https://api.eclipse.org/account/profile/jkristan"
