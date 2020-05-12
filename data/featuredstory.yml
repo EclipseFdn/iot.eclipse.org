@@ -16,7 +16,7 @@ defaultRight: |
 items:
   -
     preamble: <span class="text-uppercase">IoT 2020 Developer Survey</span>
-    title: <strong style="font-size:32px">Take the Survey Today</strong>
+    title: <strong style="font-size:32px">TAKE THE IOT INDUSTRY'S LEADING DEVELOPER SURVEY TODAY</strong>
     footer_classes: "featured-newsletter text-center featured-story-survey"
     content: <div class="divider">May 11 - June 26</div>
     link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/JX27BPP">Take the Survey</a>
