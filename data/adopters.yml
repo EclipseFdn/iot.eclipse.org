@@ -170,6 +170,10 @@ adopters:
       homepage_url: https://brisa.tech
       logo: logo-brisa.svg
       logo_white: logo-brisa-white.svg
+    - name: Ouster
+      homepage_url: https://ouster.com/
+      logo: logo-ouster.png
+      logo_white: logo-ouster-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
