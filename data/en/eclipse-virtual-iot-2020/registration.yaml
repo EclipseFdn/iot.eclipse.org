@@ -1,8 +1,3 @@
 title: "May 28, 2020 — 10:00 to 16:00 (EDT)"
-text: |
-  Real-World Use Cases. Production-quality open source platforms. Experts with a track record of successful deployments. Attend the virtual Eclipse IoT and Edge Native Day and learn how our open source technology can help you build scalable IoT and Edge Computing solutions and succeed in the marketplace.</p>
-  <p>The Eclipse IoT and Edge Native Day is organized by the Eclipse IoT, Eclipse Sparkplug and Eclipse Edge Native Working Groups.</p>
-  <p><img class="img" src="/assets/images/iot_logo.svg" width="110"/><img class="img margin-left-40" src="/assets/images/sparkplug_logo.svg" width="250"/><img class="img margin-left-40" src="/assets/images/edge_native_pink.svg" width="140"/>
+custom_content: <p><img class="img" src="/assets/images/iot_logo.svg" alt="IoT logo" width="110"/><img class="img margin-left-40" src="/assets/images/sparkplug_logo.svg" alt="Sparkplug logo" width="250"/><img class="img margin-left-40" src="/assets/images/edge_native_pink.svg" alt="Edge Native logo" width="140"/></p>
 end_date: 2020-05-29
-end_title: "The event has now concluded!"
-end_text: ""
