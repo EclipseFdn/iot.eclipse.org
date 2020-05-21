@@ -267,11 +267,8 @@
         url: "https://api.eclipse.org/account/profile/hvanthag"
     project_leads: 
       - 
-        username: "hvanthag"
-        url: "https://api.eclipse.org/account/profile/hvanthag"
-      - 
-        username: "nkortstee"
-        url: "https://api.eclipse.org/account/profile/nkortstee"
+        username: "eboasson"
+        url: "https://api.eclipse.org/account/profile/eboasson"
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
@@ -544,6 +541,9 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "0.2.0"
+        url: "https://projects.eclipse.org/projects/iot.fog05/releases/0.2.0"
       - 
         name: "0.1.0 (Prelude)"
         url: "https://projects.eclipse.org/projects/iot.fog05/releases/0.1.0-prelude"
@@ -1085,6 +1085,12 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "0.8.1 (Cpp 20/05)"
+        url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.8.1-cpp-2005"
+      - 
+        name: "0.8.1 (Java 20/05)"
+        url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.8.1-java-2005"
       - 
         name: "0.8.0 (Java 20/01)"
         url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.8.0-java-2001"
@@ -2014,7 +2020,7 @@
     summary: "The Eclipse Thingweb project currently hosts one sub-project and plans for a second one. Thingweb node-wot node-wot is the official reference implementation of the W3C WoT Working Group and..."
     url: "https://projects.eclipse.org/projects/iot.thingweb"
     website_url: "https://www.thingweb.io/"
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/default/files/logo_4.png"
     tags: []
     github_repos: 
       - 
@@ -2057,8 +2063,8 @@
     state: "Incubating"
     releases: 
       - 
-        name: "1.0.0"
-        url: "https://projects.eclipse.org/projects/iot.thingweb/releases/1.0.0"
+        name: "0.7.0"
+        url: "https://projects.eclipse.org/projects/iot.thingweb/releases/0.7.0"
   - 
     project_id: "iot.tiaki"
     name: "Eclipse Tiaki"
