@@ -25,13 +25,13 @@ items:
     - name: "Introducing Eclipse Hara"
       presenter: Nicola La Gloria
       type: 2
-      time: 10:40 - 11:10 (EDT)
+      time: 11:20 - 12:00 (EDT)
       abstract: "<p>Nowadays there are several well engineered open projects available and they may serve different industries for prototyping a solution without starting from scratch. In the scope of delivering software artifacts from remote, Eclipse hawkBit is definitely one of those great open projects This session is about a new Eclipse project named Hara which has been recently incubated by the Eclipse Foundation. The Hara project provides a reference agent software implementation featuring the Eclipse hawkBit DDI API. Hara aims to fill the gap that was intentionally left out by the hawkbit project. The purpose is to provide device update management and client solutions for handling software updates on the device. By providing a solid open source reference implementations of a hawkBit client, which is driven by the fundamental use cases for updating a remote device, the project can be beneficial toward the adoption of the hawkBit update server as a backend solution. The session will show a commercial solution based on Hawkbit and Hara: Update Factory. Update Factory allowed customers to deploy OS and applications on remote embedded devices during development and production stages. Update Factory can be considered also a delivery platform that can be integrated in a building pipeline enhancing the development lifecycle by building and delivering OS images upon specific code commits.</p>"
 
     - name: "A deep dive into Eclipse Paho MQTT client internals"
       presenter: Ranjan Dasgupta
       type: 2
-      time: 11:20 - 12:00 (EDT)
+      time: 12:10 - 12:40 (EDT)
       abstract: <p>This session will provide a comprehensive overview of Paho MQTT client's internal design and architecture. The participants can learn about the underlying component design in MQTT Paho C and Java clients. This session will also cover the MQTT 5 features added to C and Java clients. This session will help not only the MQTT client application developers to understand how Paho client works and develop efficient client code, but also to the participants interested in contributing in Paho project. The talk will finish with a discussion on the status of the support in Eclipse Paho project.</p>
 
     - name: "Eclipse Sparkplug: The Road Ahead"
