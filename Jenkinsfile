@@ -14,6 +14,15 @@ pipeline {
           command:
           - cat
           tty: true
+          resources:
+            limits:
+              cpu: 1
+              memory: 1Gi
+        - name: jnlp
+          resources:
+            limits:
+              cpu: 1
+              memory: 1Gi
       '''
     }
   }
@@ -77,7 +86,7 @@ pipeline {
       }
       steps {
         sh '''
-          docker build --no-cache --pull --build-arg NGINX_IMAGE_TAG="${BASE_NGINX_IMAGE_TAG}" --build-arg HUGO_VERSION="${hugo_version}" --build-arg NODE_VERSION="${node_version}" -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
+          docker build --pull --build-arg NGINX_IMAGE_TAG="${BASE_NGINX_IMAGE_TAG}" --build-arg HUGO_VERSION="${hugo_version}" --build-arg NODE_VERSION="${node_version}" -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
         '''
       }
     }
