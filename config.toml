@@ -203,17 +203,18 @@ themesDir = "node_modules/"
   url = "/community/resources/"
   weight = 7
   identifier = "resources"
-  
-[[menu.sidebar]]
-  parent ="resources"
-  name = "Brand Guidelines"
-  url = "https://www.eclipse.org/artwork/zip_file_v2/Eclipse-IoT-Brand-Guidelines.pdf"
-  weight = 1
 
 [[menu.sidebar]]
   parent ="resources"
-  name = "Articles"
-  url = "/community/resources/articles/"
+  name = "Videos"
+  url = "/community/resources/videos/"
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="resources"
+  name = "IoT Surveys"
+  url = "/community/resources/iot-surveys"
+  pre = "<i data-feather=\"file-text\"></i>"
   weight = 2
   
 [[menu.sidebar]]
@@ -224,27 +225,26 @@ themesDir = "node_modules/"
   
 [[menu.sidebar]]
   parent ="resources"
-  name = "IoT Surveys"
-  url = "/community/resources/iot-surveys"
-  pre = "<i data-feather=\"file-text\"></i>"
+  name = "White Papers"
+  url = "/community/resources/white-papers/"
   weight = 4
+
+[[menu.sidebar]]
+  parent ="resources"
+  name = "Articles"
+  url = "/community/resources/articles/"
+  weight = 5
   
 [[menu.sidebar]]
   parent ="resources"
   name = "Market Reports"
   url = "/community/resources/market-reports/"
-  weight = 5
-  
-[[menu.sidebar]]
-  parent ="resources"
-  name = "Videos"
-  url = "/community/resources/videos/"
   weight = 6
-  
+
 [[menu.sidebar]]
   parent ="resources"
-  name = "White Papers"
-  url = "/community/resources/white-papers/"
+  name = "Brand Guidelines"
+  url = "https://www.eclipse.org/artwork/zip_file_v2/Eclipse-IoT-Brand-Guidelines.pdf"
   weight = 7
 
 [[menu.sidebar]]

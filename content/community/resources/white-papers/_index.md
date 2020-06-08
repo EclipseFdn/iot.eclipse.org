@@ -5,5 +5,6 @@ aliases:
     - /white-papers/
 icon: "file-text"
 layout: "resources-sub-section"
+weight: 4
 ---
 
