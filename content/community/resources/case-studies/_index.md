@@ -5,5 +5,6 @@ aliases:
     - /case-studies/
 icon: "globe"
 layout: "resources-sub-section"
+weight: 3
 ---
 

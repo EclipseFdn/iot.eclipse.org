@@ -8,25 +8,23 @@
     
   SPDX-License-Identifier: EPL-2.0
 -->
-
-{{ range .Site.Data.iot_surveys.items}}
-  <div class="col-md-8 text-center matchheight-item" style="margin-bottom:70px;">
-    <a href="{{ .link }}">
-      <img src="{{ .img }}" class="img-responsive" style="max-height: 300px; margin:0 auto;border:10px solid #ececed;"/>
-    </a>
-    <h2 class="purple h4" style="margin-top: .5em">{{ .title }}</h2>
-    <p style="margin-top: 1em;">
-      {{ if .link }}
-        <a href="{{ .link }}">
-         <i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:20px; color:#e30001;"></i> PDF 
-        </a>
-      {{ end }}
-      {{if .path }}
-        &nbsp; 
-        <a href="{{ .path }}">
-          <i class="fa fa-file-text-o" aria-hidden="true" style="font-size:20px;color:#000;"></i> HTML
-        </a>
-      {{ end }}
-    </p>
+<div class="resources" style="border-bottom:none;">
+{{ range .Site.Data.iot_surveys.items }}
+  <div class="col-md-8 matchheight-item">
+    <div class="resources-summary">
+      <a class="resources-summary-img" href="{{ .link }}">
+        <img src="{{ .img }}" alt="{{ .title | safeHTML }}">
+      </a>
+      <h4 class="resources-summary-heading"><a href="{{ .link }}">{{ .title }}</a></h4>
+      <p style="margin-top: 1em;">
+        {{ if .link }}
+          <a href="{{.Params.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
+        {{ end }}
+        {{if .path }}
+          <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
+        {{ end }}
+      </p>
+    </div>
   </div>
 {{ end }}
+</div>
