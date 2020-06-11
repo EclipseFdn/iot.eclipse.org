@@ -2,7 +2,7 @@
 date = "2018-09-01"
 title = "Bosch Pursues An Open Strategy To Transform IoT"
 seo_title = "Case Study: Bosch Pursues An Open Strategy To Transform IoT"
-link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20Bosch.pdf"
+link = "/community/resources/case-studies/pdf/Eclipse%20IoT%20Success%20Story%20-%20Bosch.pdf"
 image = "/community/resources/case-studies/images/bosch.jpg"
 company = "Bosch"
 description = "Bosch’s leadership in Eclipse IoT has helped position the company as a leader in the IoT industry."
