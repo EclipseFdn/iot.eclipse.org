@@ -182,6 +182,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.3.0"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.3.0"
+      - 
         name: "2.2.3"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.2.3"
       - 
@@ -355,6 +358,9 @@
       - 
         name: "1.2.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.2.0"
+      - 
+        name: "1.1.1"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.1"
       - 
         name: "1.1.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.0"
@@ -681,6 +687,15 @@
       - 
         name: "1.3.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.3.0"
+      - 
+        name: "1.2.3"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.2.3"
+      - 
+        name: "1.1.2"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.1.2"
+      - 
+        name: "1.0.4"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.0.4"
       - 
         name: "1.2.2"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.2.2"
@@ -2063,6 +2078,9 @@
     state: "Incubating"
     releases: 
       - 
+        name: "1.0.0"
+        url: "https://projects.eclipse.org/projects/iot.thingweb/releases/1.0.0"
+      - 
         name: "0.7.0"
         url: "https://projects.eclipse.org/projects/iot.thingweb/releases/0.7.0"
   - 
@@ -2256,6 +2274,9 @@
     gitlab_repos: []
     contributors: []
     committers: 
+      - 
+        username: "tgauwff"
+        url: "https://api.eclipse.org/account/profile/tgauwff"
       - 
         username: "mraccahlisei"
         url: "https://api.eclipse.org/account/profile/mraccahlisei"

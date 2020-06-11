@@ -2,7 +2,7 @@
 date = "2017-05-17"
 title = "Deploying IoT on Germany's DB Railway System"
 seo_title = "Case Study: Deploying IoT on Germany's DB Railway System"
-link = "pdf/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf"
+link = "/community/resources/case-studies/pdf/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf"
 image = "/community/resources/case-studies/images/db.png"
 company = "Deutsche Bahn"
 weight = 100

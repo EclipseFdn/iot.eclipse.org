@@ -18,10 +18,10 @@
       <h4 class="resources-summary-heading"><a href="{{ .link }}">{{ .title }}</a></h4>
       <p style="margin-top: 1em;">
         {{ if .link }}
-          <a href="{{.Params.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
+          <a href="{{.link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
         {{ end }}
         {{if .path }}
-          <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
+          <a href="{{.path}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
         {{ end }}
       </p>
     </div>
