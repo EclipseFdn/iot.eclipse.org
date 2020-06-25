@@ -1,20 +1,4 @@
 {{ define "main" }}
-<p>Join us at an event near you and learn more about <strong>Eclipse IoT</strong>.</p>
-<hr>
-<div class="row events">
-  {{ range (.Paginator 15).Pages }}
-  <div class="col-sm-8 matchheight-item margin-bottom-30 events-item">
-    <div class="upcoming-events-item {{ if (lt .Date.Unix now.Unix) }} past {{ end }}">
-      <h4>
-        <a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a>
-      </h4>
-      <p>{{ .Params.event_date }}<br>
-      {{ .Params.location }}</p>
-    </div>
-  </div>
-  {{ end }}
-</div>
-<div class="row">
-  {{ template "_internal/pagination.html" . }}
+<div id="event-list-container" class="news-items" data-pagination="true" data-archive="true" data-count="10" data-publish-target="eclipse_iot">
 </div>
 {{ end }}

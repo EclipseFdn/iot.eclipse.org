@@ -1,5 +1,3 @@
-{{ define "footer-suffix" }}
-  <script src="assets/js/home-members.min.js"></script>
 <script id="event-short-list" type="text/html">
 {{ readFile ("/js/templates/event-list-format.mustache") | safeHTML}}
 </script>
@@ -17,4 +15,3 @@
   });
 })(jQuery, document);
 </script>
-{{ end }}

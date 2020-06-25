@@ -3,40 +3,15 @@
     <div class="row">
       <div class="col-sm-14">
         <h2 class="margin-bottom-20">News</h2>
-        {{ range first 4 (where .Site.Pages "Section" "news") }}
-          {{ if isset .Params "date" }}
-            <div class="news-item">
-              <h4 class="news-heading">
-                <a href="{{- .Params.link | default .RelPermalink }}" class="media media-link">
-                  {{ .Title }}
-                </a>
-              </h4>
-              <p class="news-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-              <p>{{ .Summary }}</p>
-            </div>
-          {{ end }}
-        {{ end }}
+        <div id="news-list-container" data-template-id="news-home-template" data-news-count="4" data-publish-target="eclipse_iot">
+        </div>
         <p><a href="/news">View More News</a></p>
       </div>
       <div class="col-sm-8 col-sm-offset-2 featured-events text-center">
         <h2 class="margin-bottom-20">Upcoming Events</h2>
-        <div class="event-timeline">
-          {{ range first 4 (sort (where .Site.Pages "Section" "events") "Params.date" "desc") }}
-            {{ if isset .Params "expire_date" }}
-              {{ $t := time .Params.expire_date }}
-              {{ if $t.After now }}
-              <div class="timeline-item">
-                <p class="margin-bottom-0">
-                  <a href="{{- .Params.link | default .RelPermalink }}">{{ .Title }}</a>
-                </p>
-                <!-- <p class="margin-bottom-0">{{ .Params.location }}</p> -->
-                <p class="timeline-date">{{ .Params.event_date }}</p>
-              </div>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-       </div>
-       <p class="margin-top-20"><a href="/events">View All Events</a></p>
+        <div id="event-list-container" class="event-timeline" data-template-id="event-short-list" data-upcoming="1" data-count="4" data-publish-target="eclipse_iot">
+        </div>
+        <p class="margin-top-20"><a href="/events">View All Events</a></p>
       </div>
     </div>
   </div>
