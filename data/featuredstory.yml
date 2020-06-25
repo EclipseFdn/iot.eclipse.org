@@ -18,10 +18,10 @@ items:
     preamble: <span class="text-uppercase">IoT 2020 Developer Survey</span>
     title: <strong style="font-size:32px">TAKE THE IOT INDUSTRY'S LEADING DEVELOPER SURVEY TODAY</strong>
     footer_classes: "featured-newsletter text-center featured-story-survey"
-    content: <div class="divider">May 11 - June 26</div>
+    content: <div class="divider">May 11 - July 10</div>
     link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/JX27BPP">Take the Survey</a>
     startDate: 2020-05-11
-    endDate: 2020-06-27
+    endDate: 2020-07-10
     type: footer
   -
     preamble: 
