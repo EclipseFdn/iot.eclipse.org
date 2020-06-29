@@ -27,7 +27,7 @@
                   </div>
                 {{ end }}
               {{ else }}
-                {{ range first 3 .Pages }}
+                {{ range first 3 (sort .Pages ".Params.date" "desc") }}
                   <div class="col-sm-8 col-xs-24 matchheight-item">
                     {{ .Render "summary"}}
                   </div>
