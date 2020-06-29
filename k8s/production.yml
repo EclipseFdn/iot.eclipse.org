@@ -8,6 +8,16 @@ spec:
     matchLabels:
       app: iot.eclipse.org
       environment: production
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - preference:
+          matchExpressions:
+          - key: speed
+            operator: NotIn
+            values:
+            - fast
+        weight: 1
   replicas: 2
   template:
     metadata:
