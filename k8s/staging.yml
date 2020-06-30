@@ -8,16 +8,6 @@ spec:
     matchLabels:
       app: iot.eclipse.org
       environment: staging
-  affinity:
-    nodeAffinity:
-      preferredDuringSchedulingIgnoredDuringExecution:
-      - preference:
-          matchExpressions:
-          - key: speed
-            operator: NotIn
-            values:
-            - fast
-        weight: 1
   replicas: 1
   template:
     metadata:
@@ -25,6 +15,16 @@ spec:
         app: iot.eclipse.org
         environment: staging
     spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - preference:
+              matchExpressions:
+              - key: speed
+                operator: NotIn
+                values:
+                - fast
+            weight: 1
       containers:
       - name: nginx
         image: eclipsefdn/iot.eclipse.org
