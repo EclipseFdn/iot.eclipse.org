@@ -182,6 +182,10 @@ adopters:
       homepage_url: https://www.arm.com/
       logo: logo-arm.png
       logo_white: logo-arm-white.png
+    - name: Robotec.ai 
+      homepage_url: http://www.robotec.ai/
+      logo: logo-robotec.png
+      logo_white: logo-robotec-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
