@@ -178,6 +178,10 @@ adopters:
       homepage_url: http://www.autocore.ai/
       logo: autocore-ai.png
       logo_white: autocore-ai-white.png
+    - name: ARM 
+      homepage_url: https://www.arm.com/
+      logo: logo-arm.png
+      logo_white: logo-arm-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
