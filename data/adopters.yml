@@ -186,6 +186,10 @@ adopters:
       homepage_url: http://www.robotec.ai/
       logo: logo-robotec.png
       logo_white: logo-robotec-white.png
+    - name: Lightfleet Corporation
+      homepage_url: http://www.lightfleet.com
+      logo: logo-lightfleet.png
+      logo_white: logo-lightfleet-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
