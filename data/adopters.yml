@@ -190,6 +190,10 @@ adopters:
       homepage_url: http://www.lightfleet.com
       logo: logo-lightfleet.png
       logo_white: logo-lightfleet-white.png
+    - name: Mission Robotics Inc.
+      homepage_url: https://missionrobotics.us/
+      logo: logo-mission-robotics.svg
+      logo_white: logo-mission-robotics-white.svg
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
