@@ -299,3 +299,11 @@ adopters:
       logo: logo-swir.svg
       logo_white: logo-swir-white.svg
 
+  - name: Eclipse Zenoh
+    id: iot.zenoh
+    adopters:
+    - name: ADLINK Technology
+      homepage_url: https://www.adlinktech.com
+      logo: logo-adlink.svg
+      logo_white: logo-adlink-white.png
+
