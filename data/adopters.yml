@@ -194,6 +194,10 @@ adopters:
       homepage_url: https://missionrobotics.us/
       logo: logo-mission-robotics.svg
       logo_white: logo-mission-robotics-white.svg
+    - name: University of Hawai`i
+      homepage_url: https://www.hawaii.edu/
+      logo: logo-university-hawaii.png
+      logo_white: logo-university-hawaii-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
