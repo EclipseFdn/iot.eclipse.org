@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Above Robotics
+      homepage_url: https://www.aboverobotics.com/
+      logo: logo-above-robotices.png
+      logo_white: logo-above-robotices-white.png
     - name: 96Boards
       homepage_url: https://www.96boards.org/
       logo: logo-96boards.png
