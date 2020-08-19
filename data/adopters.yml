@@ -202,6 +202,10 @@ adopters:
       homepage_url: https://www.hawaii.edu/
       logo: logo-university-hawaii.png
       logo_white: logo-university-hawaii-white.png
+    - name: Ghost Robotics
+      homepage_url: https://www.ghostrobotics.io/
+      logo: logo-ghostrobotics.png
+      logo_white: logo-ghostrobotics-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
