@@ -61,7 +61,7 @@ pipeline {
     BASE_NGINX_IMAGE_TAG = sh(
       script: """
         if [ "${env.ENVIRONMENT}" = "production" ]; then 
-          printf "stable-alpine"
+          printf "stable-alpine-for-hugo"
         else
           printf "stable-alpine-for-staging"
         fi

@@ -1,4 +1,4 @@
-ARG NGINX_IMAGE_TAG=stable-alpine
+ARG NGINX_IMAGE_TAG=stable-alpine-for-hugo
 
 FROM debian:10-slim AS builder
 
