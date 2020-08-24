@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Mapless AI, Inc.
+      homepage_url: https://mapless.ai
+      logo: logo-maplessai.svg
+      logo_white: logo-maplessai-white.svg
     - name: Above Robotics
       homepage_url: https://www.aboverobotics.com/
       logo: logo-above-robotices.png
