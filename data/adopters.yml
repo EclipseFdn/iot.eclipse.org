@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Seafloor Systems, Inc.
+      homepage_url: https://www.seafloorsystems.com/
+      logo: logo-seafloor.png
+      logo_white: logo-seafloor-white.png
     - name: Above Robotics
       homepage_url: https://www.aboverobotics.com/
       logo: logo-above-robotices.png
