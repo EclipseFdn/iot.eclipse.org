@@ -94,6 +94,10 @@ adopters:
       homepage_url: https://www.itemis.com
       logo: logo-itemis.png
       logo_white: logo-itemis-white.png
+    - name: OpenCV AI Kit
+      homepage_url: https://www.kickstarter.com/projects/opencv/opencv-ai-kit
+      logo: logo-oak.svg
+      logo_white: logo-oak-white.svg
     - name: Above Robotics
       homepage_url: https://www.aboverobotics.com/
       logo: logo-above-robotices.png
