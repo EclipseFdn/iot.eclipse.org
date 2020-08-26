@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: itemis AG
+      homepage_url: https://www.itemis.com
+      logo: logo-itemis.png
+      logo_white: logo-itemis-white.png
     - name: OpenCV AI Kit
       homepage_url: https://www.kickstarter.com/projects/opencv/opencv-ai-kit
       logo: logo-oak.svg
