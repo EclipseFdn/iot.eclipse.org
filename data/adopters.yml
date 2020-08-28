@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Hawai'i - AVTech
+      homepage_url: https://www.HawaiiAVTech.com
+      logo: logo-hawaiiavtech.png
+      logo_white: logo-hawaiiavtech-white.png
     - name: VectorAero AVT
       homepage_url: https://www.Vectoraero.com
       logo: logo-vectoraero.png
