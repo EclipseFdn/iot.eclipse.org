@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Rightbot
+      homepage_url: https://www.rightbot.in
+      logo: logo-rightbot.png
+      logo_white: logo-rightbot-white.png
     - name: Hawai'i - AVTech
       homepage_url: https://www.HawaiiAVTech.com
       logo: logo-hawaiiavtech.png
