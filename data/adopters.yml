@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: VectorAero AVT
+      homepage_url: https://www.Vectoraero.com
+      logo: logo-vectoraero.png
+      logo_white: logo-vectoraero-white.png
     - name: Mapless AI, Inc.
       homepage_url: https://mapless.ai
       logo: logo-maplessai.svg
