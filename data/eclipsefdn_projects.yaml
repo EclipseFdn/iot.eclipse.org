@@ -1,6 +1,7 @@
 ---
   - 
     project_id: "iot.4diac"
+    short_project_id: "4diac"
     name: "Eclipse 4diac"
     summary: "Eclipse 4diac&trade; in its current form has been started 2007 as open source project fostering the further development of IEC 61499 for its use in distributed Industrial Process Measurement and..."
     url: "https://projects.eclipse.org/projects/iot.4diac"
@@ -64,6 +65,7 @@
         url: "https://projects.eclipse.org/projects/iot.4diac/releases/1.9.0"
   - 
     project_id: "iot.agail"
+    short_project_id: "agail"
     name: "Eclipse Agail"
     summary: "The Eclipse Agail is a language-agnostic, modular software and hardware gateway framework for the Internet of Things with support for protocol interoperability, device and data management, IoT..."
     url: "https://projects.eclipse.org/projects/iot.agail"
@@ -126,6 +128,7 @@
     releases: []
   - 
     project_id: "iot.californium"
+    short_project_id: "californium"
     name: "Eclipse Californium (Cf) CoAP Framework"
     summary: "Eclipse Californium (Cf) is an open source implementation of the Constrained Application Protocol (CoAP). It is written in Java and targets unconstrained environments such as back-end service..."
     url: "https://projects.eclipse.org/projects/iot.californium"
@@ -182,6 +185,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.4.0"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.4.0"
+      - 
         name: "2.3.0"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.3.0"
       - 
@@ -207,6 +213,7 @@
         url: "https://projects.eclipse.org/projects/iot.californium/releases/1.0.0"
   - 
     project_id: "iot.concierge"
+    short_project_id: "concierge"
     name: "Eclipse Concierge"
     summary: "Concierge is a small-footprint implementation of the OSGi Core Specifications R5 standard optimized for mobile and embedded devices."
     url: "https://projects.eclipse.org/projects/iot.concierge"
@@ -244,6 +251,7 @@
         url: "https://projects.eclipse.org/projects/iot.concierge/releases/5.0"
   - 
     project_id: "iot.cyclonedds"
+    short_project_id: "cyclonedds"
     name: "Eclipse Cyclone DDS"
     summary: "Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http:/..."
     url: "https://projects.eclipse.org/projects/iot.cyclonedds"
@@ -253,6 +261,8 @@
     github_repos: 
       - 
         url: "https://github.com/eclipse-cyclonedds/cyclonedds"
+      - 
+        url: "https://github.com/eclipse-cyclonedds/cyclonedds-cxx"
     gitlab_repos: []
     contributors: []
     committers: 
@@ -293,6 +303,7 @@
         url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.1.0-preambule"
   - 
     project_id: "iot.ditto"
+    short_project_id: "ditto"
     name: "Eclipse Ditto"
     summary: "Eclipse Ditto is a framework for providing the &quot;Digital Twin&quot; pattern for IoT applications in order to interact with IoT devices. That means that Ditto mirrors physical devices as..."
     url: "https://projects.eclipse.org/projects/iot.ditto"
@@ -308,6 +319,8 @@
         url: "https://github.com/eclipse/ditto-examples"
       - 
         url: "https://github.com/eclipse/ditto-clients"
+      - 
+        url: "https://github.com/eclipse/ditto-clients-golang"
     gitlab_repos: []
     contributors: []
     committers: 
@@ -356,8 +369,20 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.3.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.3.0"
+      - 
         name: "1.2.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.2.0"
+      - 
+        name: "1.1.5"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.5"
+      - 
+        name: "1.1.3"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.3"
+      - 
+        name: "1.1.2"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.2"
       - 
         name: "1.1.1"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.1.1"
@@ -375,6 +400,7 @@
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/0.8.0"
   - 
     project_id: "iot.duttile"
+    short_project_id: "duttile"
     name: "Eclipse Duttile"
     summary: "Eclipse Duttile looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new..."
     url: "https://projects.eclipse.org/projects/iot.duttile"
@@ -407,6 +433,7 @@
     releases: []
   - 
     project_id: "iot.eclipsescada"
+    short_project_id: "eclipsescada"
     name: "Eclipse NeoSCADA"
     summary: "Eclipse NeoSCADA (supervisory control and data acquisition) is a type of industrial control system (ICS). Industrial control systems are computer controlled systems that monitor and control..."
     url: "https://projects.eclipse.org/projects/iot.eclipsescada"
@@ -450,6 +477,7 @@
         url: "https://projects.eclipse.org/node/7307"
   - 
     project_id: "iot.edje"
+    short_project_id: "edje"
     name: "Eclipse Edje"
     summary: "The edge devices connected to the Cloud that constitute the Internet of Things (IoT) require support for building blocks, standards and frameworks like those provided by the Eclipse Foundation..."
     url: "https://projects.eclipse.org/projects/iot.edje"
@@ -472,6 +500,7 @@
     releases: []
   - 
     project_id: "iot.fog05"
+    short_project_id: "fog05"
     name: "Eclipse fog05"
     summary: "Early IoT applications, especially those addressing the consumer market, have been embracing cloud-centric architectures in which data is pushed up to the cloud. It is within the cloud the..."
     url: "https://projects.eclipse.org/projects/iot.fog05"
@@ -555,6 +584,7 @@
         url: "https://projects.eclipse.org/projects/iot.fog05/releases/0.1.0-prelude"
   - 
     project_id: "iot.hawkbit"
+    short_project_id: "hawkbit"
     name: "Eclipse hawkBit"
     summary: "Project hawkBit aims to create a domain independent back end solution for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP..."
     url: "https://projects.eclipse.org/projects/iot.hawkbit"
@@ -568,6 +598,8 @@
         url: "https://github.com/eclipse/hawkbit-extensions"
       - 
         url: "https://github.com/eclipse/hawkbit-examples"
+      - 
+        url: "https://github.com/eclipse/hawkbit-clients-golang"
     gitlab_repos: []
     contributors: []
     committers: 
@@ -608,6 +640,7 @@
         url: "https://projects.eclipse.org/projects/iot.hawkbit/releases/0.2.0"
   - 
     project_id: "iot.hip"
+    short_project_id: "hip"
     name: "Eclipse HIP"
     summary: "Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm..."
     url: "https://projects.eclipse.org/projects/iot.hip"
@@ -628,6 +661,7 @@
     releases: []
   - 
     project_id: "iot.hono"
+    short_project_id: "hono"
     name: "Eclipse Hono"
     summary: "Connectivity is at the heart of IoT solutions. Devices (things) need to be connected to a back end component where the data and functionality of the devices is leveraged to provide some higher..."
     url: "https://projects.eclipse.org/projects/iot.hono"
@@ -688,6 +722,9 @@
         name: "1.3.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.3.0"
       - 
+        name: "1.2.4"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.2.4"
+      - 
         name: "1.2.3"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.2.3"
       - 
@@ -740,6 +777,7 @@
         url: "https://projects.eclipse.org/projects/iot.hono/releases/0.5"
   - 
     project_id: "iot.ignite"
+    short_project_id: "ignite"
     name: "Eclipse Ignite|IoT"
     summary: "The Ignite|IoT methodology has two main perspectives: IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT..."
     url: "https://projects.eclipse.org/projects/iot.ignite"
@@ -768,6 +806,7 @@
     releases: []
   - 
     project_id: "iot.iofog"
+    short_project_id: "iofog"
     name: "Eclipse ioFog"
     summary: "Eclipse ioFog is a complete edge computing platform that provides all of the pieces needed to build and run applications at the edge at enterprise scale. The diversity and complexity of edge..."
     url: "https://projects.eclipse.org/projects/iot.iofog"
@@ -817,6 +856,30 @@
         url: "https://github.com/eclipse-iofog/iofog-nodejs-sdk"
       - 
         url: "https://github.com/eclipse-iofog/test-message-generator"
+      - 
+        url: "https://github.com/eclipse-iofog/iofogctl"
+      - 
+        url: "https://github.com/eclipse-iofog/homebrew-iofogctl"
+      - 
+        url: "https://github.com/eclipse-iofog/port-manager"
+      - 
+        url: "https://github.com/eclipse-iofog/helm"
+      - 
+        url: "https://github.com/eclipse-iofog/test-runner"
+      - 
+        url: "https://github.com/eclipse-iofog/router"
+      - 
+        url: "https://github.com/eclipse-iofog/agent-go"
+      - 
+        url: "https://github.com/eclipse-iofog/ECN-Viewer"
+      - 
+        url: "https://github.com/eclipse-iofog/integrations"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-platform"
+      - 
+        url: "https://github.com/eclipse-iofog/documentation"
+      - 
+        url: "https://github.com/eclipse-iofog/iofog-java-sdk"
     gitlab_repos: []
     contributors: []
     committers: 
@@ -869,6 +932,7 @@
         url: "https://projects.eclipse.org/projects/iot.iofog/releases/1.1.0"
   - 
     project_id: "iot.kapua"
+    short_project_id: "kapua"
     name: "Eclipse Kapua"
     summary: "The following diagram provides a functional architecture of the Eclipse Kapua project. Device Connectivity The connectivity of the devices is managed through a multi-protocol message..."
     url: "https://projects.eclipse.org/projects/iot.kapua"
@@ -926,8 +990,26 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.2.4"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.4"
+      - 
+        name: "1.2.3"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.3"
+      - 
+        name: "1.2.2"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.2"
+      - 
+        name: "1.2.1"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.1-0"
+      - 
         name: "1.2.0"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.0"
+      - 
+        name: "1.1.5"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.1.5"
+      - 
+        name: "1.1.4"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.1.4"
       - 
         name: "1.1.3"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.1.3"
@@ -984,6 +1066,7 @@
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/0.2.0"
   - 
     project_id: "iot.keti"
+    short_project_id: "keti"
     name: "Eclipse Keti"
     summary: "Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC). The solution itself is implemented as a cloud-native RESTful API that adheres to the..."
     url: "https://projects.eclipse.org/projects/iot.keti"
@@ -1024,6 +1107,7 @@
         url: "https://projects.eclipse.org/projects/iot.keti/releases/5.0.6"
   - 
     project_id: "iot.keyple"
+    short_project_id: "keyple"
     name: "Eclipse Keyple"
     summary: "Eclipse Keyple is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction. The Keyple..."
     url: "https://projects.eclipse.org/projects/iot.keyple"
@@ -1065,9 +1149,17 @@
         url: "https://github.com/eclipse/keyple-java-plugin-stub"
       - 
         url: "https://github.com/eclipse/keyple-ops"
+      - 
+        url: "https://github.com/eclipse/keyple-website"
     gitlab_repos: []
     contributors: []
     committers: 
+      - 
+        username: "acristeatwy"
+        url: "https://api.eclipse.org/account/profile/acristeatwy"
+      - 
+        username: "mmenzikoff"
+        url: "https://api.eclipse.org/account/profile/mmenzikoff"
       - 
         username: "amunsch"
         url: "https://api.eclipse.org/account/profile/amunsch"
@@ -1114,6 +1206,7 @@
         url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.7.0-0"
   - 
     project_id: "iot.krikkit"
+    short_project_id: "krikkit"
     name: "Eclipse Krikkit"
     summary: "The Krikkit architecture is a publish/subscribe mechanism where rules/policies are registered on edge routers/gateways that have visibility into and communicate with sensors."
     url: "https://projects.eclipse.org/projects/iot.krikkit"
@@ -1134,6 +1227,7 @@
     releases: []
   - 
     project_id: "iot.kuksa"
+    short_project_id: "kuksa"
     name: "Eclipse Kuksa"
     summary: "Because today&#39;s software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved..."
     url: "https://projects.eclipse.org/projects/iot.kuksa"
@@ -1220,6 +1314,7 @@
         url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.1-m1"
   - 
     project_id: "iot.kura"
+    short_project_id: "kura"
     name: "Eclipse Kura"
     summary: "Eclipse Kura offers a Java/OSGi-based container for M2M applications running in service gateways. Kura provides or, when available, aggregates open source implementations for the most common..."
     url: "https://projects.eclipse.org/projects/iot.kura"
@@ -1362,6 +1457,7 @@
         url: "https://projects.eclipse.org/node/7641"
   - 
     project_id: "iot.leshan"
+    short_project_id: "leshan"
     name: "Eclipse Leshan"
     summary: "Eclipse Leshan is an OMA Lightweight M2M (LWM2M) implementation in Java. Leshan provides libraries which help people to develop their own Lightweight M2M server and client. The project also..."
     url: "https://projects.eclipse.org/projects/iot.leshan"
@@ -1406,10 +1502,14 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.1.0"
+        url: "https://projects.eclipse.org/projects/iot.leshan/releases/1.1.0"
+      - 
         name: "1.0.0"
         url: "https://projects.eclipse.org/projects/iot.leshan/releases/1.0.0"
   - 
     project_id: "iot.mihini"
+    short_project_id: "mihini"
     name: "Mihini"
     summary: "The Mihini project delivers an embedded runtime running on top of Linux, that exposes an high-level Lua API for building Machine-to-Machine applications."
     url: "https://projects.eclipse.org/projects/iot.mihini"
@@ -1433,6 +1533,7 @@
         url: "https://projects.eclipse.org/projects/technology.mihini/releases/0.9"
   - 
     project_id: "iot.milo"
+    short_project_id: "milo"
     name: "Eclipse Milo"
     summary: "OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The..."
     url: "https://projects.eclipse.org/projects/iot.milo"
@@ -1473,6 +1574,7 @@
         url: "https://projects.eclipse.org/projects/iot.milo/releases/0.1.0"
   - 
     project_id: "iot.mita"
+    short_project_id: "mita"
     name: "Eclipse Mita"
     summary: "Eclipse Mita is a programming language for the embedded IoT. We combine a declarative setup of system resources (e.g. Bluetooth connectivity or a temperature sensor) with a modern imperative..."
     url: "https://projects.eclipse.org/projects/iot.mita"
@@ -1519,6 +1621,7 @@
         url: "https://projects.eclipse.org/projects/iot.mita/releases/0.1.0"
   - 
     project_id: "iot.moquette"
+    short_project_id: "moquette"
     name: "Moquette MQTT"
     summary: "Moquette is a Java implementation of an MQTT 3.1 broker. Its code base is small. At its core, Moquette is an events processor; this lets the code base be simple, avoiding thread sharing issues...."
     url: "https://projects.eclipse.org/projects/iot.moquette"
@@ -1539,6 +1642,7 @@
     releases: []
   - 
     project_id: "iot.mosquitto"
+    short_project_id: "mosquitto"
     name: "Eclipse Mosquitto"
     summary: "Eclipse Mosquitto provides a lightweight server implementation of the MQTT protocol that is suitable for all situations from full power machines to embedded and low power machines. Sensors and..."
     url: "https://projects.eclipse.org/projects/iot.mosquitto"
@@ -1687,6 +1791,7 @@
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.4"
   - 
     project_id: "iot.mraa"
+    short_project_id: "mraa"
     name: "Eclipse MRAA"
     summary: "Conceived in 2014, the Eclipse MRAA project aims to deliver a high-level, easy-to-use set of APIs for I/O access on Linux* boards and systems, similar to Arduino* offerings for MCU boards..."
     url: "https://projects.eclipse.org/projects/iot.mraa"
@@ -1733,6 +1838,7 @@
         url: "https://projects.eclipse.org/projects/iot.mraa/releases/2.1.0"
   - 
     project_id: "iot.om2m"
+    short_project_id: "om2m"
     name: "Eclipse OM2M"
     summary: "The Eclipse OM2M project is an open source implementation of the oneM2M standard. It provides a framework for developing services independently of the underlying network and aims to facilitate..."
     url: "https://projects.eclipse.org/projects/iot.om2m"
@@ -1784,6 +1890,7 @@
         url: "https://projects.eclipse.org/projects/iot.om2m/releases/0.8.0"
   - 
     project_id: "iot.paho"
+    short_project_id: "paho"
     name: "Eclipse Paho"
     summary: "The Eclipse Paho project provides reliable open-source implementations of open and standard messaging protocols aimed at new, existing, and emerging applications for Machine-to-Machine (M2M) and..."
     url: "https://projects.eclipse.org/projects/iot.paho"
@@ -1900,6 +2007,7 @@
         url: "https://projects.eclipse.org/projects/iot.paho/releases/0.9.0"
   - 
     project_id: "iot.paho.incubator"
+    short_project_id: "incubator"
     name: "Eclipse Paho Incubator"
     summary: "A permanent incubator for Paho. A permanent incubator is a project that is intended to perpetually remain in the incubation phase. Permanent incubators are an excellent place to innovate, test..."
     url: "https://projects.eclipse.org/projects/iot.paho.incubator"
@@ -1929,6 +2037,7 @@
     releases: []
   - 
     project_id: "iot.ponte"
+    short_project_id: "ponte"
     name: "Eclipse Ponte"
     summary: "Ponte provides reusable solutions for bridging M2M protocols."
     url: "https://projects.eclipse.org/projects/iot.ponte"
@@ -1954,6 +2063,7 @@
     releases: []
   - 
     project_id: "iot.smarthome"
+    short_project_id: "smarthome"
     name: "Eclipse SmartHome"
     summary: "The Eclipse SmartHome project is a framework that allows building smart home solutions that have a strong focus on heterogeneous environments, i.e. solutions that deal with the integration of..."
     url: "https://projects.eclipse.org/projects/iot.smarthome"
@@ -1994,6 +2104,7 @@
         url: "https://projects.eclipse.org/projects/iot.smarthome/releases/0.7.0"
   - 
     project_id: "iot.tahu"
+    short_project_id: "tahu"
     name: "Eclipse Tahu"
     summary: "Eclipse Tahu is a set of references implementations for the Sparkplug specification. It addresses the existence of legacy SCADA/DCS/ICS protocols and infrastructures and provides a much-needed..."
     url: "https://projects.eclipse.org/projects/iot.tahu"
@@ -2006,6 +2117,9 @@
     gitlab_repos: []
     contributors: []
     committers: 
+      - 
+        username: "ndavenport"
+        url: "https://api.eclipse.org/account/profile/ndavenport"
       - 
         username: "ibinshtok"
         url: "https://api.eclipse.org/account/profile/ibinshtok"
@@ -2031,6 +2145,7 @@
     releases: []
   - 
     project_id: "iot.thingweb"
+    short_project_id: "thingweb"
     name: "Eclipse Thingweb"
     summary: "The Eclipse Thingweb project currently hosts one sub-project and plans for a second one. Thingweb node-wot node-wot is the official reference implementation of the W3C WoT Working Group and..."
     url: "https://projects.eclipse.org/projects/iot.thingweb"
@@ -2085,6 +2200,7 @@
         url: "https://projects.eclipse.org/projects/iot.thingweb/releases/0.7.0"
   - 
     project_id: "iot.tiaki"
+    short_project_id: "tiaki"
     name: "Eclipse Tiaki"
     summary: "The Tiaki library provides Secure Service Discovery features in a command-line interface and SDK for Java (C coming soon - stay tuned!). In a nutshell, those are the available functionalities:..."
     url: "https://projects.eclipse.org/projects/iot.tiaki"
@@ -2109,6 +2225,7 @@
     releases: []
   - 
     project_id: "iot.tinydtls"
+    short_project_id: "tinydtls"
     name: "Eclipse tinydtls"
     summary: "tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine. It is implemented in C and provides support for the mandatory cipher suites..."
     url: "https://projects.eclipse.org/projects/iot.tinydtls"
@@ -2143,6 +2260,7 @@
         url: "https://projects.eclipse.org/projects/iot.tinydtls/releases/0.9"
   - 
     project_id: "iot.unide"
+    short_project_id: "unide"
     name: "Eclipse Unide"
     summary: "Eclipse Unide provides a lightweight Production Performance Management Protocol (PPMP) server-client implementations (using JSON, REST and other). The core of the protocol are two interface..."
     url: "https://projects.eclipse.org/projects/iot.unide"
@@ -2190,6 +2308,7 @@
         url: "https://projects.eclipse.org/projects/iot.unide/releases/0.1.0"
   - 
     project_id: "iot.upm"
+    short_project_id: "upm"
     name: "Eclipse UPM"
     summary: "IoT is a multi-faceted topic, seen by many as a much-needed redefinition of embedded computing. The efficiency and performance of current CPUs, along with a decreasing footprint, enable broader..."
     url: "https://projects.eclipse.org/projects/iot.upm"
@@ -2233,6 +2352,7 @@
     releases: []
   - 
     project_id: "iot.volttron"
+    short_project_id: "volttron"
     name: "Eclipse VOLTTRON"
     summary: "The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud. It deploys applications known as V-agents that gain access to..."
     url: "https://projects.eclipse.org/projects/iot.volttron"
@@ -2262,6 +2382,7 @@
     releases: []
   - 
     project_id: "iot.vorto"
+    short_project_id: "vorto"
     name: "Eclipse Vorto"
     summary: "The Eclipse Vorto project comprises of the meta information model, the tool set to create information models, the code generators and the repository to manage existing information models. The meta..."
     url: "https://projects.eclipse.org/projects/iot.vorto"
@@ -2317,6 +2438,7 @@
         url: "https://projects.eclipse.org/projects/iot.vorto/releases/0.9"
   - 
     project_id: "iot.wakaama"
+    short_project_id: "wakaama"
     name: "Eclipse Wakaama"
     summary: "Wakaama provides APIs for a server application to send commands to registered LWM2M Clients. On client applications, Wakaama checks received commands for syntax and access rights and then..."
     url: "https://projects.eclipse.org/projects/iot.wakaama"
@@ -2357,6 +2479,7 @@
         url: "https://projects.eclipse.org/projects/iot.wakaama/releases/0.5"
   - 
     project_id: "iot.whiskers"
+    short_project_id: "whiskers"
     name: "Eclipse Whiskers"
     summary: "Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial..."
     url: "https://projects.eclipse.org/projects/iot.whiskers"
@@ -2381,6 +2504,7 @@
     releases: []
   - 
     project_id: "iot.yasham"
+    short_project_id: "yasham"
     name: "Eclipse Yasham"
     summary: "Eclipse Yasham is an Open &amp; Extensible Cloud-Native Smart Living Platform for Consumer IoT. Some features at a glance Server Side API Gateway (REST API) Service..."
     url: "https://projects.eclipse.org/projects/iot.yasham"
@@ -2401,6 +2525,7 @@
     releases: []
   - 
     project_id: "iot.zenoh"
+    short_project_id: "zenoh"
     name: "Eclipse zenoh"
     summary: "Eclipse zenoh provides is a stack designed to (1) minimize network overhead, (2) support extremely constrained devices, (3) supports devices with low duty-cycle by allowing the negotiation of data..."
     url: "https://projects.eclipse.org/projects/iot.zenoh"
@@ -2457,6 +2582,7 @@
     releases: []
   - 
     project_id: "technology.koneki"
+    short_project_id: "koneki"
     name: "Koneki"
     summary: "The purpose of this project is to provide Machine-to-Machine solutions developers with tools easing the development, simulation, testing/debugging and deployment of such solutions."
     url: "https://projects.eclipse.org/projects/technology.koneki"
