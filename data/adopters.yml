@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: New Eagle
+      homepage_url: https://neweagle.net
+      logo: logo-neweagle.png
+      logo_white: logo-neweagle-white.svg
     - name: Rightbot
       homepage_url: https://www.rightbot.in
       logo: logo-rightbot.png
