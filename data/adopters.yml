@@ -90,6 +90,10 @@ adopters:
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
     adopters:
+    - name: Gaia Platform
+      homepage_url: https://www.gaiaplatform.io/
+      logo: logo-gaia.png
+      logo_white: logo-gaia-white.png
     - name: New Eagle
       homepage_url: https://neweagle.net
       logo: logo-neweagle.png
