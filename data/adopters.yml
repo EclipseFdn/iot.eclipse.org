@@ -86,6 +86,10 @@ adopters:
       homepage_url: https://developers.redhat.com/products/fuse/connectors/
       logo: Logo-RedHat-A-Color-RGB.svg
       logo_white: Logo-RedHat-A-White-RGB.svg
+    - name: Eurotech
+      homepage_url: https://www.eurotech.com/en
+      logo: logo-eurotech.svg
+      logo_white: logo-eurotech-white.svg
 
   - name: Eclipse Cyclone DDS
     id: iot.cyclonedds
