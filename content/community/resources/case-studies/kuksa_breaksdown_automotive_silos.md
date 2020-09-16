@@ -5,7 +5,7 @@ seo_title = "Case Study: Eclipse Kuksa Breaks Down Automotive Silos to Provide A
 link = "/community/resources/case-studies/pdf/Eclipse%20IoT%20Success%20Story%20-%20Kuksa.pdf"
 image = "/community/resources/case-studies/images/kuksa.jpg"
 company = "Kuksa"
-description = "In August 2018, the pan-European team working on the Application Platform for Cars and Transportation Vehicles (APPSTACLE) research project determined it was the right time to move the project to an open source software platform."
+description = "Eclipse Kuksa Breaks Down Automotive Silos to Provide A Platform for Vehicle-To-Cloud Connectivity"
 categories = ["case_study"]
 +++
 
