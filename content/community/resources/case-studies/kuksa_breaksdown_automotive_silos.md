@@ -2,7 +2,7 @@
 date = "2020-09-15"
 title = "Eclipse Kuksa Breaks Down Automotive Silos to Provide A Platform for Vehicle-To-Cloud Connectivity"
 seo_title = "Case Study: Eclipse Kuksa Breaks Down Automotive Silos to Provide A Platform for Vehicle-To-Cloud Connectivity"
-link = "/community/resources/case-studies/pdf/Eclipse%20IoT%20Success%20Story%20-%20Kuksa.pdf"
+link = "https://f.hubspotusercontent10.net/hubfs/5413615/Kuksa.Case.Study.pdf"
 image = "/community/resources/case-studies/images/kuksa.jpg"
 company = "Kuksa"
 description = "Eclipse Kuksa Breaks Down Automotive Silos to Provide A Platform for Vehicle-To-Cloud Connectivity"
