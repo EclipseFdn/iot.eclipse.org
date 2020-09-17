@@ -47,9 +47,7 @@ Future Kuksa releases will include [Eclipse Theia](https://theia-ide.org/) exten
 
 Like all research projects at the Eclipse Foundation, Kuksa fosters open collaboration across academic, business, and public sector interests. Along with academic institutions from Germany, the Netherlands, and Finland, a number of corporations have joined the project.
 
-![Figure 1: The Eclipse Kuksa Ecosystem (Third-party trademarks are the property of their respective owners.)](/community/resources/case-studies/images/kuksa-figure-1.png)
-
-*Figure 1: The Eclipse Kuksa Ecosystem (Third-party trademarks are the property of their respective owners.)*
+{{< figure src="/community/resources/case-studies/images/kuksa-figure-1.png" alt="Figure 1: The Eclipse Kuksa Ecosystem (Third-party trademarks are the property of their respective owners.)" caption="Figure 1: The Eclipse Kuksa Ecosystem (Third-party trademarks are the property of their respective owners.)" >}}
 
 The platform provides a controlled environment to execute new vehicle functionality as well as access to vehicle data. Compliance with these standards makes it easier for vehicle manufacturers of all sizes to meet European Union regulations for accessing in-vehicle data.
 
