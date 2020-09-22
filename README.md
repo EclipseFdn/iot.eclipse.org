@@ -114,4 +114,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2018 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [iot.eclipse.org o authors](https://github.com/EclipseFdn/iot.eclipse.org/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/EclipseFdn/iot.eclipse.org/blob/src/LICENSE).
+Copyright 2018-2020 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [iot.eclipse.org o authors](https://github.com/EclipseFdn/iot.eclipse.org/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/EclipseFdn/iot.eclipse.org/blob/src/LICENSE).
