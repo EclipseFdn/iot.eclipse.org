@@ -370,4 +370,8 @@ adopters:
       homepage_url: https://www.adlinktech.com
       logo: logo-adlink.svg
       logo_white: logo-adlink-white.png
+    - name: CentraleSupelec, CNRS, Signals and Systems Laboratory
+      homepage_url: https://www.l2s.centralesupelec.fr/en/
+      logo: logo-centralesupelec.png
+      logo_white: logo-centralesupelec-white.png
 
