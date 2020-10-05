@@ -246,6 +246,10 @@ adopters:
       homepage_url: https://www.ghostrobotics.io/
       logo: logo-ghostrobotics.png
       logo_white: logo-ghostrobotics-white.png
+    - name: OpenCV
+      homepage_url: https://opencv.org/
+      logo: logo-opencv.png
+      logo_white: logo-opencv-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -293,6 +297,10 @@ adopters:
       homepage_url: https://www.eurotech.com
       logo: logo-eurotech.svg
       logo_white: logo-eurotech-white.svg
+    - name: CONTACT Software
+      homepage_url: https://www.contact-software.com/en/products/iot-platform-for-digital-business-models/
+      logo: logo-contactsoftware.png
+      logo_white: logo-contactsoftware-white.png
       
   - name: Eclipse Kapua
     id: iot.kapua
@@ -301,6 +309,10 @@ adopters:
       homepage_url: https://www.eurotech.com
       logo: logo-eurotech.svg
       logo_white: logo-eurotech-white.svg
+    - name: CONTACT Software
+      homepage_url: https://www.contact-software.com/en/products/iot-platform-for-digital-business-models/
+      logo: logo-contactsoftware.png
+      logo_white: logo-contactsoftware-white.png
 
   - name: Eclipse Leshan
     id: iot.leshan
