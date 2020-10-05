@@ -246,6 +246,10 @@ adopters:
       homepage_url: https://www.ghostrobotics.io/
       logo: logo-ghostrobotics.png
       logo_white: logo-ghostrobotics-white.png
+    - name: OpenCV
+      homepage_url: https://opencv.org/
+      logo: logo-opencv.png
+      logo_white: logo-opencv-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
