@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "eclipsefdn-hugo-solstice-theme": "0.0.95",
+    "eclipsefdn-hugo-solstice-theme": "0.0.96",
     "js-yaml": "^3.13.1",
     "json-minify": "^1.0.0",
     "mocha": "^7.1.2"
