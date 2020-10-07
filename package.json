@@ -21,13 +21,13 @@
     "install": "NODE_ENV=production npm run yaml2json_adopters && npm run production",
     "postinstall": "NODE_ENV=production npm run fetch_project  && npm run yaml2json_projects",
     "build_netlify": "NODE_ENV=production npm run production && npm run fetch_project && npm run yaml2json_projects",
-    "yaml2json_adopters": "./bin/adopters.sh",
-    "yaml2json_projects": "./node_modules/js-yaml/bin/js-yaml.js -c data/eclipsefdn_projects.yaml | ./node_modules/json-minify/index.js > static/assets/js/projects.json",
+    "yaml2json_adopters": "bash bin/adopters.sh",
+    "yaml2json_projects": "bash node_modules/js-yaml/bin/js-yaml.js -c data/eclipsefdn_projects.yaml | bash node_modules/json-minify/index.js > static/assets/js/projects.json",
     "fetch_project": "NODE_ENV=production node node_modules/eclipsefdn-hugo-solstice-theme/bin/projects/index.js -l data -u https://projects.eclipse.org/api/projects?working_group=internet-things-iot"
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "eclipsefdn-hugo-solstice-theme": "0.0.94",
+    "eclipsefdn-hugo-solstice-theme": "0.0.95",
     "js-yaml": "^3.13.1",
     "json-minify": "^1.0.0",
     "mocha": "^7.1.2"
