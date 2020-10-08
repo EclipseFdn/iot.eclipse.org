@@ -23,3 +23,5 @@ seo_title_suffix: " - Leading open source community for IoT innovation"
 {{< testimonials class="featured-testimonials text-center row homepage-testimimonials">}}
 {{< home-members >}}
 {{< home-eclipse-foundation >}}
+
+{{< home-stay-connected >}}
