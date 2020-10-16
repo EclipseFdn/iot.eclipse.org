@@ -337,6 +337,11 @@ adopters:
       logo: logo-rise.svg
       logo_white: logo-rise-white.svg
 
+    - name: Verizon
+      homepage_url: https://thingspace.verizon.com/
+      logo: logo-verizon.svg
+      logo_white: logo-verizon-white.svg
+
   - name: Eclipse Californium
     id: iot.californium
     adopters:
