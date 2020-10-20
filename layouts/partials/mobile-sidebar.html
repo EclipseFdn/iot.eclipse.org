@@ -12,52 +12,88 @@
 -->
 
 {{ if isset .Site.Menus "sidebar" }}
-<div class="container mobile-sidebar-container">
-<div class="row">
-<div class="col-md-8">
-  <div id="mobile-sidebar">
-    <div class="row sidebar-item related-content">
+
+{{ $currentPage := . }}
+{{ .Scratch.Set "currentSection" "home" }}
+{{ if $currentPage.Section }}
+  {{ .Scratch.Set "currentSection" $currentPage.Section }}
+{{ end }}
+{{$currentSection := .Scratch.Get "currentSection" }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-24 hidden-lg hidden-md visible-sm visible-xs">
+      {{ range .Site.Menus.sidebar }}
+        {{$parentItem := . }}
+        {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
+          <select id="sub-menu" name="sub-menu">
+            <option>Navigate to...</option>
+          {{ range .Children }}
+            {{ if and (or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection)) (eq .HasChildren false) }}
+              <option value="{{ .URL }}">
+                {{ .Name }}
+              </option>
+            {{ end }}
+            {{ if .HasChildren }}
+              <optgroup label="{{ .Name }}">
+                {{ range .Children }}
+                <option value="{{ .URL }}"> {{ .Name }} </option>
+                {{ end }}
+              </optgroup>
+            {{ end }}
+
+          {{ end }}  <!-- range Children end -->
+          </select>
+        {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
+      {{ end }}  <!-- range .Site.Menus.sidebar end -->
+		</div>
+	</div>
+</div>
+
+
+<!------------------------------------------------------------------>
+
+  <div id="mobile-sidebar" class="container hidden-lg hidden-md visible-sm visible-xs">
+    <div class="container sidebar-item related-content">
       <a href="#sidebars-contents" data-toggle="collapse" aria-expanded="false" aria-controls="sidebars-contents">
         <div class="col-xs-6"><i data-feather="plus"></i></div>
         <div class="col-xs-18 sidebar-text">Related Content</div>
       </a>
     </div>
-  {{ $currentPage := . }}
-  {{ .Scratch.Set "currentSection" "home" }}
-  {{ if $currentPage.Section }}
-    {{ .Scratch.Set "currentSection" $currentPage.Section }}
-  {{ end }}
-  {{$currentSection := .Scratch.Get "currentSection" }}
   {{ range .Site.Menus.sidebar }}
-    {{$parentItem := . }}  <!-- 3 Parent Sidebars: News, Members, Community -->
-      {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}  <!-- community -->
-        <div class="container collapse" id="sidebars-contents">
-        {{ range .Children }}  <!-- Resources -->
-          {{ if .HasChildren }} <!-- If Resources has Children -->
-          <div class="row sidebar-sub-items">
-            {{ range .Children }}  <!--Resources's children-->
+    {{$parentItem := . }}
+    {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
+      <div class="container collapse" id="sidebars-contents">
+      {{ range .Children }}
+      {{ if and (or (eq $currentSection $parentItem.Identifier) (eq .Parent $currentSection)) (eq .HasChildren false) }}
+        <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+          <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
+            <div class="col-xs-6">{{ .Pre }}</div>
+            <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
+          </a>
+        </div>
+      {{ end }}
+        {{ if .HasChildren }}
+          <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+            <a href="#sub-children-{{ .Identifier }}" data-toggle="collapse" aria-expanded="false" aria-controls="sub-children{{ .Identifier }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
+              <div class="col-xs-6">{{ .Pre }}</div>
+              <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
+            </a>
+          </div>
+          <div class="row sidebar-sub-items collapse" id="sub-children-{{ .Identifier }}">
+            {{ range .Children }}
               <div class="row sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
                 <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
                   <div class="col-xs-6"></div>
                   <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
                 </a>
               </div>
-            {{ end }} <!--Resources's Children end-->
+            {{ end }} <!--Children's Children end-->
           </div>
-          {{ else if or (eq $currentSection $parentItem.Identifier) (eq .Parent $currentSection) }} <!-- else If -->
-            <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
-              <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
-                <div class="col-xs-6">{{ .Pre }}</div>
-                <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
-              </a>
-            </div>
-          {{ end }}  <!-- If Children.HasChildren and elseIf end -->
-        {{ end }}  <!-- range Children end -->
-        </div>
-      {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
+        {{ end }}
+      {{ end }}  <!-- range Children end -->
+      </div>
+    {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
   {{ end }}  <!-- range .Site.Menus.sidebar end -->
   </div> <!-- "main-sidebar" end -->
-</div>
-</div>
-</div>
 {{ end }}

@@ -79,25 +79,26 @@ themesDir = "node_modules/"
   weight = 5
   
   
-# [[menu.sidebar]]
-#   name = "Adopters"
-#   url = "/adopters/"
-#   weight = 1
-#   identifier = "adopters"
+[[menu.sidebar]]
+  name = "Adopters"
+  url = "/adopters/"
+  weight = 1
+  identifier = "adopters"
   
-# [[menu.sidebar]]
-#   parent ="adopters"
-#   name = "How to be Listed as an Adopter"
-#   url = "/adopters/how-to-be-listed-as-an-adopter"
-#   pre = "<i data-feather=\"help-circle\"></i>"
-#   weight = "1"
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "How to be Listed as an Adopter"
+  url = "/adopters/how-to-be-listed-as-an-adopter"
+  pre = "<i data-feather=\"help-circle\"></i>"
+  weight = "1"
 
-# [[menu.sidebar]]
-#   parent ="adopters"
-#   name = "Eclipse IoT Open Testbeds"
-#   url = "/adopters/testbeds/"
-#   pre = "<i data-feather=\"package\"></i>"
-#   weight = "2"
+[[menu.sidebar]]
+  parent ="adopters"
+  name = "Eclipse IoT Open Testbeds"
+  url = "/adopters/testbeds/"
+  pre = "<i data-feather=\"package\"></i>"
+  weight = "2"
+  identifier = "testbeds"
 
 # [[menu.sidebar]]
 #   parent ="adopters"
@@ -106,23 +107,23 @@ themesDir = "node_modules/"
 #   weight = "2"
 #   identifier = "testbeds"
   
-# [[menu.sidebar]]
-#   parent ="testbeds"
-#   name = "Asset Tracking"
-#   url = "/adopters/testbeds/asset-tracking/"
-#   weight = "1"
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Asset Tracking"
+  url = "/adopters/testbeds/asset-tracking/"
+  weight = "1"
   
-# [[menu.sidebar]]
-#   parent ="testbeds"
-#   name = "Production Performance Management"
-#   url = "/adopters/testbeds/production-performance-management/"
-#   weight = "2"
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Production Performance Management"
+  url = "/adopters/testbeds/production-performance-management/"
+  weight = "2"
   
-# [[menu.sidebar]]
-#   parent ="testbeds"
-#   name = "Propose a new Testbed"
-#   url = "/adopters/testbeds/propose-a-new-testbed/"
-#   weight = "3"
+[[menu.sidebar]]
+  parent ="testbeds"
+  name = "Propose a new Testbed"
+  url = "/adopters/testbeds/propose-a-new-testbed/"
+  weight = "3"
   
 [[menu.sidebar]]
   name = "Members"
@@ -171,40 +172,47 @@ themesDir = "node_modules/"
   pre = "<i data-feather=\"at-sign\"></i>"
   weight = 3
   
-[[menu.sidebar]]
-  parent ="community"
-  name = "Resources"
-  url = "/community/resources"
-  pre = "<i data-feather=\"folder\"></i>"
-  weight = 4
+# [[menu.sidebar]]
+#   parent ="community"
+#   name = "Resources"
+#   url = "/community/resources"
+#   pre = "<i data-feather=\"folder\"></i>"
+#   weight = 4
 
-# [[menu.sidebar]]
-#   name = "Projects"
-#   url = "/projects/"
-#   weight = 6
-#   identifier = "projects"
+[[menu.sidebar]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 6
+  identifier = "projects"
   
-# [[menu.sidebar]]
-#   parent ="projects"
-#   name = "Sandboxes"
-#   url = "/projects/sandboxes"
-#   pre = "<i data-feather=\"file-text\"></i>"
-#   weight = 1
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Sandboxes"
+  url = "/projects/sandboxes"
+  pre = "<i data-feather=\"file-text\"></i>"
+  weight = 1
   
-# [[menu.sidebar]]
-#   parent ="projects"
-#   name = "Getting Started"
-#   url = "/projects/getting-started/"
-#   pre = "<i data-feather=\"award\"></i>"
-#   weight = 2
+[[menu.sidebar]]
+  parent ="projects"
+  name = "Getting Started"
+  url = "/projects/getting-started/"
+  pre = "<i data-feather=\"award\"></i>"
+  weight = 2
   
 [[menu.sidebar]]
   parent ="community"
   name = "Resources"
   url = "/community/resources/"
   pre = "<i data-feather=\"folder\"></i>"
-  weight = 7
+  weight = 4
   identifier = "resources"
+
+[[menu.sidebar]]
+  parent ="Open IoT Challenge"
+  name = "test"
+  url = "/community/resources/test/"
+  weight = 1
+  identifier="open-iot-challenge"
 
 [[menu.sidebar]]
   parent ="resources"

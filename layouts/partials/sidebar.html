@@ -20,30 +20,31 @@
   {{$currentSection := .Scratch.Get "currentSection" }}
   {{ range .Site.Menus.sidebar }}
     {{$parentItem := . }}
-      {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
-        <aside id="main-sidebar">
-        {{ range .Children }}
-          {{ if .HasChildren }}
-            <div class="row sidebar-sub-items">
-              {{ range .Children }}
-                <div class="row sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
-                  <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
-                    <div class="col-xs-6"></div>
-                    <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
-                  </a>
-                </div>
-              {{ end }}
-            </div>
-          {{ else if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}
-            <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
-              <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
-                <div class="col-xs-6">{{ .Pre }}</div>
-                <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
-              </a>
-            </div>
-          {{ end }}
+    {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
+      <aside id="main-sidebar">
+      {{ range .Children }} <!-- The children of News, Community, Members, Projects, and adopters, the first layer children of those menus do not have parents -->
+        {{ if or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection) }}  <!-- If current Section has the same name as the top level parent menu, show Current section's children. Example, current section is News, show News'chidlren -->
+          <div class="row sidebar-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+            <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
+              <div class="col-xs-6">{{ .Pre }}</div>
+              <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
+            </a>
+          </div>
         {{ end }}
-        </aside>
+        {{ if .HasChildren }}
+          <div class="row sidebar-sub-items">
+            {{ range .Children }}  <!-- The children of Resources, Eclipse IoT Open Testbeds, the second layer children -->
+              <div class="row sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+                <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
+                  <div class="col-xs-6"></div>
+                  <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
+                </a>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
       {{ end }}
+      </aside>
+    {{ end }}
   {{ end }}
 {{ end }}
