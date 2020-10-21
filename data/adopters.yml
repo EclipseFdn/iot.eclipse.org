@@ -250,6 +250,10 @@ adopters:
       homepage_url: https://opencv.org/
       logo: logo-opencv.png
       logo_white: logo-opencv-white.png
+    - name: FARobot
+      homepage_url: https://www.farobottech.com/
+      logo: logo-farobot.png
+      logo_white: logo-farobot-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -262,6 +266,10 @@ adopters:
       homepage_url: https://www.bosch.com
       logo: logo-bosch.svg
       logo_white: logo-bosch-white.svg
+    - name: FARobot
+      homepage_url: https://www.farobottech.com/
+      logo: logo-farobot.png
+      logo_white: logo-farobot-white.png
       
   - name: Eclipse hawkBit
     id: iot.hawkbit
@@ -379,4 +387,8 @@ adopters:
       homepage_url: https://www.l2s.centralesupelec.fr/en/
       logo: logo-centralesupelec.png
       logo_white: logo-centralesupelec-white.png
+    - name: FARobot
+      homepage_url: https://www.farobottech.com/
+      logo: logo-farobot.png
+      logo_white: logo-farobot-white.png
 
