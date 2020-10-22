@@ -22,24 +22,25 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-24 hidden-lg hidden-md visible-sm visible-xs">
+		<div class="col-sm-24 hidden-lg hidden-md visible-sm visible-xs margin-top-10" id="dropdown-container">
       {{ range .Site.Menus.sidebar }}
         {{$parentItem := . }}
         {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
-          <select id="sub-menu" name="sub-menu">
+          <select id="sub-menu" name="sub-menu" class="form-control">
             <option>Navigate to...</option>
           {{ range .Children }}
             {{ if and (or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection)) (eq .HasChildren false) }}
-              <option value="{{ .URL }}">
+              <option value="{{ .URL }}" class="parent-menu">
                 {{ .Name }}
               </option>
             {{ end }}
             {{ if .HasChildren }}
-              <optgroup label="{{ .Name }}">
-                {{ range .Children }}
-                <option value="{{ .URL }}"> {{ .Name }} </option>
-                {{ end }}
-              </optgroup>
+              <option value="{{ .URL }}" class="parent-menu">
+                {{ .Name }}
+              </option>
+              {{ range .Children }}
+                <option value="{{ .URL }}" class="chldren-menu"> &emsp;{{ .Name }} </option>
+              {{ end }}
             {{ end }}
 
           {{ end }}  <!-- range Children end -->
