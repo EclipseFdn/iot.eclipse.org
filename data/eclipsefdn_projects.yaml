@@ -2622,10 +2622,14 @@
       - 
         username: "jvermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
+<<<<<<< HEAD
     project_leads: 
       - 
         username: "sbernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
+=======
+    project_leads: []
+>>>>>>> 2487df1d... Updated adopters script to use the new API endpoint + JS solution
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
