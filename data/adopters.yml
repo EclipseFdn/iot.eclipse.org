@@ -350,6 +350,11 @@ adopters:
       logo: logo-verizon.svg
       logo_white: logo-verizon-white.svg
 
+    - name: Ericsson
+      homepage_url: https://www.ericsson.com/en/networks/offerings/cellular-iot
+      logo: logo-ericsson.svg
+      logo_white: logo-ericsson-white.svg
+
   - name: Eclipse Californium
     id: iot.californium
     adopters:
