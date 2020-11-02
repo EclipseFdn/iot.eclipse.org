@@ -199,6 +199,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.5.0"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.5.0"
+      - 
         name: "2.4.1"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.4.1"
       - 
@@ -392,6 +395,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.4.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.4.0"
+      - 
         name: "1.3.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.3.0"
       - 
@@ -428,7 +434,7 @@
     project_id: "iot.duttile"
     short_project_id: "duttile"
     name: "Eclipse Duttile"
-    summary: "Eclipse Duttile looks at the world of the Internet of Things in a holistic manner, suggesting an approach in which the various elements are part of a single integrated process. It proposes a new..."
+    summary: "Eclipse Duttile embrace the AgileConstellation mindset, which have the aim to extend the agile philosophy beyond the software/digital world. It looks at the world of the Internet of Things in a..."
     url: "https://projects.eclipse.org/projects/iot.duttile"
     website_url: ""
     logo: "https://projects.eclipse.org/sites/default/files/eclipseduttile_logo.png"
@@ -700,7 +706,7 @@
     summary: "Through HIP, localised processing or preperation of data is intended to reduce the connectivity and central processing requirements within IOT - much like the contemporary Fog computing paradigm..."
     url: "https://projects.eclipse.org/projects/iot.hip"
     website_url: "http://www.eclipse.org/hip"
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -734,6 +740,9 @@
     gerrit_repos: []
     contributors: []
     committers: 
+      - 
+        username: "kkalidassa2i"
+        url: "https://api.eclipse.org/account/profile/kkalidassa2i"
       - 
         username: "clohmannxg7"
         url: "https://api.eclipse.org/account/profile/clohmannxg7"
@@ -842,7 +851,7 @@
     summary: "The Ignite|IoT methodology has two main perspectives: IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT..."
     url: "https://projects.eclipse.org/projects/iot.ignite"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -1053,6 +1062,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.3.0"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.3.0"
+      - 
         name: "1.2.4"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.2.4"
       - 
@@ -1134,7 +1146,7 @@
     summary: "Keti is a service that was designed to protect RESTfuls API using Attribute Based Access Control (ABAC). The solution itself is implemented as a cloud-native RESTful API that adheres to the..."
     url: "https://projects.eclipse.org/projects/iot.keti"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -1215,6 +1227,12 @@
         url: "https://github.com/eclipse/keyple-ops"
       - 
         url: "https://github.com/eclipse/keyple-website"
+      - 
+        url: "https://github.com/eclipse/keyple-java-demo-remote"
+      - 
+        url: "https://github.com/eclipse/keyple-android-demo-validation"
+      - 
+        url: "https://github.com/eclipse/keyple-android-demo-control"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -1279,7 +1297,7 @@
     summary: "The Krikkit architecture is a publish/subscribe mechanism where rules/policies are registered on edge routers/gateways that have visibility into and communicate with sensors."
     url: "https://projects.eclipse.org/projects/iot.krikkit"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -1586,7 +1604,7 @@
     summary: "The Mihini project delivers an embedded runtime running on top of Linux, that exposes an high-level Lua API for building Machine-to-Machine applications."
     url: "https://projects.eclipse.org/projects/iot.mihini"
     website_url: "http://www.eclipse.org/mihini"
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -1615,7 +1633,7 @@
     summary: "OPC Unified Architecture is an interoperability standard that enables the secure and reliable exchange of industrial automation data while remaining cross-platform and vendor neutral. The..."
     url: "https://projects.eclipse.org/projects/iot.milo"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -1708,7 +1726,7 @@
     summary: "Moquette is a Java implementation of an MQTT 3.1 broker. Its code base is small. At its core, Moquette is an events processor; this lets the code base be simple, avoiding thread sharing issues...."
     url: "https://projects.eclipse.org/projects/iot.moquette"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -1772,8 +1790,17 @@
         name: "2.0"
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0"
       - 
-        name: "1.7"
-        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.7"
+        name: "1.6.12"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.6.12"
+      - 
+        name: "1.6.11"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.6.11"
+      - 
+        name: "1.6.10"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.6.10"
+      - 
+        name: "1.6.9"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.6.9"
       - 
         name: "1.6.8"
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/1.6.8"
@@ -1880,7 +1907,7 @@
     summary: "Conceived in 2014, the Eclipse MRAA project aims to deliver a high-level, easy-to-use set of APIs for I/O access on Linux* boards and systems, similar to Arduino* offerings for MCU boards..."
     url: "https://projects.eclipse.org/projects/iot.mraa"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -2319,7 +2346,7 @@
     summary: "The Tiaki library provides Secure Service Discovery features in a command-line interface and SDK for Java (C coming soon - stay tuned!). In a nutshell, those are the available functionalities:..."
     url: "https://projects.eclipse.org/projects/iot.tiaki"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: 
       - 
@@ -2345,7 +2372,7 @@
     summary: "tinydtls is a library for Datagram Transport Layer Security (DTLS) covering both the client and the server state machine. It is implemented in C and provides support for the mandatory cipher suites..."
     url: "https://projects.eclipse.org/projects/iot.tinydtls"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -2432,7 +2459,7 @@
     summary: "IoT is a multi-faceted topic, seen by many as a much-needed redefinition of embedded computing. The efficiency and performance of current CPUs, along with a decreasing footprint, enable broader..."
     url: "https://projects.eclipse.org/projects/iot.upm"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: 
       - 
@@ -2477,7 +2504,7 @@
     summary: "The Eclipse VOLTTRON software platform is Linux-based and capable of running on small, single-board computers as well as in the cloud. It deploys applications known as V-agents that gain access to..."
     url: "https://projects.eclipse.org/projects/iot.volttron"
     website_url: "https://volttron.org/"
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -2544,9 +2571,6 @@
         name: "1.0.0"
         url: "https://projects.eclipse.org/projects/iot.vorto/releases/1.0.0"
       - 
-        name: "0.13.0"
-        url: "https://projects.eclipse.org/projects/iot.vorto/releases/0.13.0"
-      - 
         name: "0.12"
         url: "https://projects.eclipse.org/projects/iot.vorto/releases/0.12"
       - 
@@ -2575,18 +2599,15 @@
     contributors: []
     committers: 
       - 
+        username: "sbernard"
+        url: "https://api.eclipse.org/account/profile/sbernard"
+      - 
         username: "akraus"
         url: "https://api.eclipse.org/account/profile/akraus"
       - 
-        username: "dnavarro"
-        url: "https://api.eclipse.org/account/profile/dnavarro"
-      - 
         username: "jvermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
-    project_leads: 
-      - 
-        username: "dnavarro"
-        url: "https://api.eclipse.org/account/profile/dnavarro"
+    project_leads: []
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
@@ -2607,7 +2628,7 @@
     summary: "Whiskers is an OGC SensorThings API framework consisting of a JavaScript client and a light-weight server for IoT gateways (e.g., Raspberry Pi). The SensorThings API is an OGC (Open Geospatial..."
     url: "https://projects.eclipse.org/projects/iot.whiskers"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: 
       - 
@@ -2633,7 +2654,7 @@
     summary: "Eclipse Yasham is an Open &amp; Extensible Cloud-Native Smart Living Platform for Consumer IoT. Some features at a glance Server Side API Gateway (REST API) Service..."
     url: "https://projects.eclipse.org/projects/iot.yasham"
     website_url: ""
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
     tags: []
     github_repos: []
     gitlab_repos: []
@@ -2677,6 +2698,8 @@
         url: "https://github.com/eclipse-zenoh/zenoh-plugin-dds"
       - 
         url: "https://github.com/eclipse-zenoh/zenoh-pico"
+      - 
+        url: "https://github.com/eclipse-zenoh/homebrew-zenoh"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -2717,7 +2740,7 @@
     summary: "The purpose of this project is to provide Machine-to-Machine solutions developers with tools easing the development, simulation, testing/debugging and deployment of such solutions."
     url: "https://projects.eclipse.org/projects/technology.koneki"
     website_url: "http://www.eclipse.org/koneki"
-    logo: ""
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: []
     gitlab_repos: []
