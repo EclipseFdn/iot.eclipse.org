@@ -2,4 +2,15 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
   <script src="/assets/js/projects.min.js"></script>
+  <script>
+    jQuery(document).ready(function($){ 
+      $('#sub-menu').on('change', function () {
+        var url = $(this).val(); // get selected value
+        if (url) { // require a URL
+          window.location = url; // redirect
+        }
+        return false;
+      });
+    });
+  </script>
 {{ end }}

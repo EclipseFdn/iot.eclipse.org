@@ -14,6 +14,7 @@
 {{ if isset .Site.Menus "sidebar" }}
 
 {{ $currentPage := . }}
+{{ if ne $currentPage.Params.hide_sidebar true }}
 {{ .Scratch.Set "currentSection" "home" }}
 {{ if $currentPage.Section }}
   {{ .Scratch.Set "currentSection" $currentPage.Section }}
@@ -97,4 +98,5 @@
     {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
   {{ end }}  <!-- range .Site.Menus.sidebar end -->
   </div> <!-- "main-sidebar" end -->
+  {{ end }}
 {{ end }}

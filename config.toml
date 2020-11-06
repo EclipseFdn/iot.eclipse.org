@@ -208,13 +208,6 @@ themesDir = "node_modules/"
   identifier = "resources"
 
 [[menu.sidebar]]
-  parent ="Open IoT Challenge"
-  name = "test"
-  url = "/community/resources/test/"
-  weight = 1
-  identifier="open-iot-challenge"
-
-[[menu.sidebar]]
   parent ="resources"
   name = "Videos"
   url = "/community/resources/videos/"
