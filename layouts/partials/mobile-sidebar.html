@@ -21,39 +21,40 @@
 {{ end }}
 {{$currentSection := .Scratch.Get "currentSection" }}
 
-<div class="container">
-	<div class="row">
-		<div class="col-sm-24 hidden-lg hidden-md visible-sm visible-xs margin-top-10" id="dropdown-container">
-      {{ range .Site.Menus.sidebar }}
-        {{$parentItem := . }}
-        {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
-          <select id="sub-menu" name="sub-menu" class="form-control">
-            <option>Navigate to...</option>
-          {{ range .Children }}
-            {{ if and (or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection)) (eq .HasChildren false) }}
-              <option value="{{ .URL }}" class="parent-menu">
-                {{ .Name }}
-              </option>
-            {{ end }}
-            {{ if .HasChildren }}
-              <option value="{{ .URL }}" class="parent-menu">
-                {{ .Name }}
-              </option>
-              {{ range .Children }}
-                <option value="{{ .URL }}" class="chldren-menu"> &emsp;{{ .Name }} </option>
+<!-------------------- Dropdown Start --------------------------------------->
+  <div class="container">
+  	<div class="row">
+  		<div class="col-sm-24 hidden-lg hidden-md visible-sm visible-xs margin-top-10" id="dropdown-container">
+        {{ range .Site.Menus.sidebar }}
+          {{$parentItem := . }}
+          {{ if and (.HasChildren) (eq $currentSection $parentItem.Identifier) }}
+            <select id="sub-menu" name="sub-menu" class="form-control">
+              <option value="">Navigate to...</option>
+            {{ range .Children }}
+              {{ if and (or (eq $parentItem.Identifier $currentSection) (eq .Parent $currentSection)) (eq .HasChildren false) }}
+                <option value="{{ .URL }}" class="parent-menu">
+                  {{ .Name }}
+                </option>
               {{ end }}
-            {{ end }}
+              {{ if .HasChildren }}
+                <option value="{{ .URL }}" class="parent-menu">
+                  {{ .Name }}
+                </option>
+                {{ range .Children }}
+                  <option value="{{ .URL }}" class="chldren-menu"> &emsp;{{ .Name }} </option>
+                {{ end }}
+              {{ end }}
+              
+            {{ end }}  <!-- range Children end -->
+            </select>
+          {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
+        {{ end }}  <!-- range .Site.Menus.sidebar end -->
+  		</div>
+  	</div>
+  </div>
+<!-------------------- Dropdown end --------------------------------------->
 
-          {{ end }}  <!-- range Children end -->
-          </select>
-        {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
-      {{ end }}  <!-- range .Site.Menus.sidebar end -->
-		</div>
-	</div>
-</div>
-
-
-<!------------------------------------------------------------------>
+<!-------------------- Collapisible start --------------------------------------->
 
   <div id="mobile-sidebar" class="container hidden-lg hidden-md visible-sm visible-xs">
     <div class="container sidebar-item related-content">
@@ -97,6 +98,8 @@
       </div>
     {{ end }}  <!-- if and (.HasChildren) (eq $currentSection $parentItem.Identifier) end -->
   {{ end }}  <!-- range .Site.Menus.sidebar end -->
-  </div> <!-- "main-sidebar" end -->
-  {{ end }}
-{{ end }}
+  </div> <!-- div id="mobile-sidebar" end -->
+<!-------------------- Collapisible end ----------------------------------------->
+
+  {{ end }} <!-- if ne $currentPage.Params.hide_sidebar true end-->
+{{ end }} <!-- if isset .Site.Menus "sidebar" end -->
