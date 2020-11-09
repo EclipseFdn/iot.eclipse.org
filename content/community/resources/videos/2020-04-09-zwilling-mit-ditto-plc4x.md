@@ -1,5 +1,5 @@
 +++
-date = "2019-05-21"
+date = "2020-04-09"
 title = "Der Digitale (Maschinen-)Zwilling mit Ditto & PLC4X - Eclipse Ditto (German)"
 link = "https://www.youtube.com/watch?v=uWs8-MbvZuk"
 link_class  = "eclipsefdn-video"
