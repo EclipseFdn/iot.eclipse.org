@@ -1,5 +1,5 @@
 +++
-date = "2019-05-21"
+date = "2020-06-18"
 title = "Eclipse Hawkbit - Update Over the Air Made Easy"
 link = "https://www.youtube.com/watch?v=5kCl-PnOK2Q"
 link_class  = "eclipsefdn-video"

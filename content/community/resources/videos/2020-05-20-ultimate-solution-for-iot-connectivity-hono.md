@@ -1,5 +1,5 @@
 +++
-date = "2019-05-21"
+date = "2020-05-20"
 title = "The Ultimate Solution for IoT Connectivity - Eclipse Hono"
 link = "https://www.youtube.com/watch?v=wHHETVZBUWI"
 link_class  = "eclipsefdn-video"
