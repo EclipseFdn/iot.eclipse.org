@@ -6,3 +6,4 @@ link_class  = "eclipsefdn-video"
 tags = [ "video", "scale", "inventory", "management", "Inventory Management", "intern", "iot"]
 categories = ["video"]
 +++
+In this video, you will learn more about the benefits of Scaling Inventory Management and how to apply it to real use case scenarios.
