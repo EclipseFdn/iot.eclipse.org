@@ -258,6 +258,10 @@ adopters:
       homepage_url: https://openadx.eclipse.org/
       logo: logo-openadx.png
       logo_white: logo-openadx-white.svg
+    - name: Foxconn
+      homepage_url: https://www.foxconn.com/en-us/
+      logo: logo-foxconn.png
+      logo_white: logo-foxconn-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -278,6 +282,10 @@ adopters:
       homepage_url: https://openadx.eclipse.org/
       logo: logo-openadx.png
       logo_white: logo-openadx-white.svg
+    - name: Foxconn
+      homepage_url: https://www.foxconn.com/en-us/
+      logo: logo-foxconn.png
+      logo_white: logo-foxconn-white.png
 
   - name: Eclipse hawkBit
     id: iot.hawkbit
@@ -408,3 +416,7 @@ adopters:
       homepage_url: https://openadx.eclipse.org/
       logo: logo-openadx.png
       logo_white: logo-openadx-white.svg
+    - name: Foxconn
+      homepage_url: https://www.foxconn.com/en-us/
+      logo: logo-foxconn.png
+      logo_white: logo-foxconn-white.png
