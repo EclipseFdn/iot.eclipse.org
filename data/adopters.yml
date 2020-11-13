@@ -258,10 +258,6 @@ adopters:
       homepage_url: https://openadx.eclipse.org/
       logo: logo-openadx.png
       logo_white: logo-openadx-white.svg
-    - name: LG Electronics, America R&D Lab
-      homepage_url: https://www.lgsvlsimulator.com/
-      logo: logo-lg.png
-      logo_white: logo-lg-white.png
     - name: Foxconn
       homepage_url: https://www.foxconn.com/en-us/
       logo: logo-foxconn.png
