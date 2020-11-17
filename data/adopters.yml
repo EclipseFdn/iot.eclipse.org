@@ -266,7 +266,6 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
-      logo_height: 100
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -295,7 +294,6 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
-      logo_height: 100
 
   - name: Eclipse hawkBit
     id: iot.hawkbit
@@ -434,4 +432,3 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
-      logo_height: 100

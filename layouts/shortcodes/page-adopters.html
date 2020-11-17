@@ -19,7 +19,7 @@
       {{ range sort .adopters "name" "asc"}}
         <li>
           <a href="{{ .homepage_url }}" target="_blank">
-            <img height="{{ .logo_height }}" class="padding-10 {{ if isset . "logo_height" }} {{ else }} adopters-img {{ end }}" src="/assets/images/adopters/{{ .logo }}" alt="{{ .name }}" />
+            <img class="adopters-img" src="/assets/images/adopters/{{ .logo }}" alt="{{ .name }}" />
           </a>
         </li>
       {{end}}
