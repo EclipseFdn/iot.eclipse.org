@@ -262,6 +262,10 @@ adopters:
       homepage_url: https://www.foxconn.com/en-us/
       logo: logo-foxconn.png
       logo_white: logo-foxconn-white.png
+    - name: Alias Robotics
+      homepage_url: https://aliasrobotics.com/
+      logo: logo-alias.png
+      logo_white: logo-alias-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
