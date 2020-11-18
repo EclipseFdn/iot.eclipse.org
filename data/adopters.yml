@@ -266,6 +266,10 @@ adopters:
       homepage_url: https://aliasrobotics.com/
       logo: logo-alias.png
       logo_white: logo-alias-white.png
+    - name: LG Electronics, America R&D Lab
+      homepage_url: https://www.lgsvlsimulator.com/
+      logo: logo-lg.png
+      logo_white: logo-lg-white.svg
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
