@@ -274,6 +274,10 @@ adopters:
       homepage_url: https://www.lgsvlsimulator.com/
       logo: logo-lg.png
       logo_white: logo-lg-white.svg
+    - name: Hadabot
+      homepage_url: https://www.hadabot.com/
+      logo: logo-hadabot.png
+      logo_white: logo-hadabot-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
