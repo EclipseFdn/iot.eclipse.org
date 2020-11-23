@@ -3,7 +3,7 @@
 pipeline {
   agent {
     kubernetes {
-      label 'kubedeploy-agent'
+      label 'kubedeploy-agent-' + env.JOB_NAME.replaceAll("/", "-")
       yaml '''
       apiVersion: v1
       kind: Pod
