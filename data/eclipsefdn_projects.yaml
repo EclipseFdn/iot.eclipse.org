@@ -199,6 +199,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.6.1"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.1"
+      - 
         name: "2.6.0"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.0"
       - 
@@ -290,6 +293,8 @@
         url: "https://github.com/eclipse-cyclonedds/cyclonedds"
       - 
         url: "https://github.com/eclipse-cyclonedds/cyclonedds-cxx"
+      - 
+        url: "https://github.com/eclipse-cyclonedds/cyclonedds-python"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -660,6 +665,9 @@
     contributors: []
     committers: 
       - 
+        username: "bbondar"
+        url: "https://api.eclipse.org/account/profile/bbondar"
+      - 
         username: "jlaverman"
         url: "https://api.eclipse.org/account/profile/jlaverman"
       - 
@@ -782,6 +790,9 @@
       - 
         name: "1.6.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.6.0"
+      - 
+        name: "1.5.2"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.5.2"
       - 
         name: "1.5.1"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.5.1"
@@ -1229,41 +1240,41 @@
       - 
         url: "https://github.com/eclipse/keyple-cpp"
       - 
-        url: "https://github.com/eclipse/keyple-android-plugn-nfc"
+        url: "https://github.com/eclipse/keyple-java-plugin-android-nfc"
       - 
-        url: "https://github.com/eclipse/keyple-android-plugin-omapi"
+        url: "https://github.com/eclipse/keyple-java-plugin-android-omapi"
       - 
-        url: "https://github.com/eclipse/keyple-cpp-core"
+        url: "https://github.com/eclipse/keyple-java-card-api"
       - 
-        url: "https://github.com/eclipse/keyple-cpp-calypso"
+        url: "https://github.com/eclipse/keyple-java-card-calypso"
       - 
-        url: "https://github.com/eclipse/keyple-cpp-example"
+        url: "https://github.com/eclipse/keyple-java-commons-api"
       - 
-        url: "https://github.com/eclipse/keyple-cpp-plugin-pcsc"
+        url: "https://github.com/eclipse/keyple-java-distributed-local"
       - 
-        url: "https://github.com/eclipse/keyple-cpp-plugin-stub"
+        url: "https://github.com/eclipse/keyple-java-distributed-local-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-core"
+        url: "https://github.com/eclipse/keyple-java-distributed-network"
       - 
-        url: "https://github.com/eclipse/keyple-java-calypso"
+        url: "https://github.com/eclipse/keyple-java-distributed-remote"
+      - 
+        url: "https://github.com/eclipse/keyple-java-distributed-remote-api"
       - 
         url: "https://github.com/eclipse/keyple-java-example"
       - 
+        url: "https://github.com/eclipse/keyple-java-plugin-api"
+      - 
         url: "https://github.com/eclipse/keyple-java-plugin-pcsc"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-remotese"
-      - 
         url: "https://github.com/eclipse/keyple-java-plugin-stub"
+      - 
+        url: "https://github.com/eclipse/keyple-java-service"
+      - 
+        url: "https://github.com/eclipse/keyple-java-utils"
       - 
         url: "https://github.com/eclipse/keyple-ops"
       - 
         url: "https://github.com/eclipse/keyple-website"
-      - 
-        url: "https://github.com/eclipse/keyple-java-demo-remote"
-      - 
-        url: "https://github.com/eclipse/keyple-android-demo-validation"
-      - 
-        url: "https://github.com/eclipse/keyple-android-demo-control"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -1306,6 +1317,9 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "0.9.0 (Cpp 21/01)"
+        url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.9.0-cpp-2101"
       - 
         name: "1.0.0 (Java 20/12)"
         url: "https://projects.eclipse.org/projects/iot.keyple/releases/1.0.0-java-2012"
@@ -1518,6 +1532,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "5.0.0"
+        url: "https://projects.eclipse.org/projects/iot.kura/releases/5.0.0"
       - 
         name: "4.1.1"
         url: "https://projects.eclipse.org/projects/iot.kura/releases/4.1.1"
@@ -2055,6 +2072,9 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "1.4.1"
+        url: "https://projects.eclipse.org/projects/iot.om2m/releases/1.4.1"
       - 
         name: "1.4.0"
         url: "https://projects.eclipse.org/projects/iot.om2m/releases/1.4.0"
@@ -2780,6 +2800,8 @@
         url: "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb"
       - 
         url: "https://github.com/eclipse-zenoh/zenoh-backend-sql"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-csharp"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
