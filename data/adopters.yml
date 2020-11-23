@@ -274,6 +274,10 @@ adopters:
       homepage_url: https://www.lgsvlsimulator.com/
       logo: logo-lg.png
       logo_white: logo-lg-white.svg
+    - name: Saxion University of Applied Sciences / Mechatronics Research Group
+      homepage_url: https://saxion.nl/mechatronics
+      logo: logo-saxion.png
+      logo_white: logo-saxion-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
