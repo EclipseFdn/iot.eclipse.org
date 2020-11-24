@@ -278,6 +278,10 @@ adopters:
       homepage_url: https://www.hadabot.com/
       logo: logo-hadabot.png
       logo_white: logo-hadabot-white.png
+    - name: Saxion University of Applied Sciences / Mechatronics Research Group
+      homepage_url: https://saxion.nl/mechatronics
+      logo: logo-saxion.png
+      logo_white: logo-saxion-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
