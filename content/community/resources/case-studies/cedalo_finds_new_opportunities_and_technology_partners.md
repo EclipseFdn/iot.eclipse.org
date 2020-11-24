@@ -2,7 +2,7 @@
 date = "2020-11-24"
 title = "Cedalo Finds New Opportunities and Technology Partners in the Eclipse IoT Ecosystem"
 seo_title = "Case Study: Cedalo Finds New Opportunities and Technology Partners in the Eclipse IoT Ecosystem"
-link = "https://outreach.eclipse.foundation/cedalo-iot-open-source-case-study"
+link = "https://outreach.eclipse.foundation/cedalo-iot-open-source-case-study?utm_campaign=Cedalo%20Case%20Study&utm_source=IoT%20resource%20page"
 image = "/community/resources/case-studies/images/cedalo.png"
 company = "Cedalo"
 description = "Companies focused on IoT development are benefiting from Eclipse Foundation membership. Download your copy of the case study to learn more."
