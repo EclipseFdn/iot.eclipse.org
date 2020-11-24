@@ -199,6 +199,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.6.0"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.0"
+      - 
         name: "2.5.0"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.5.0"
       - 
@@ -1350,6 +1353,12 @@
     gerrit_repos: []
     contributors: []
     committers: 
+      - 
+        username: "wchenl8e"
+        url: "https://api.eclipse.org/account/profile/wchenl8e"
+      - 
+        username: "sschildt"
+        url: "https://api.eclipse.org/account/profile/sschildt"
       - 
         username: "sjeroschewski"
         url: "https://api.eclipse.org/account/profile/sjeroschewski"
@@ -2622,14 +2631,10 @@
       - 
         username: "jvermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
-<<<<<<< HEAD
     project_leads: 
       - 
         username: "sbernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
-=======
-    project_leads: []
->>>>>>> 2487df1d... Updated adopters script to use the new API endpoint + JS solution
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
