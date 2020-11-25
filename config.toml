@@ -99,13 +99,6 @@ themesDir = "node_modules/"
   pre = "<i data-feather=\"package\"></i>"
   weight = "2"
   identifier = "testbeds"
-
-[[menu.sidebar]]
-  parent ="testbeds"
-  name = "Eclipse IoT Open Testbeds Home"
-  url = "/adopters/testbeds/"
-  weight = "1"
-  identifier = "testbeds-home"
   
 [[menu.sidebar]]
   parent ="testbeds"
@@ -206,14 +199,6 @@ themesDir = "node_modules/"
   pre = "<i data-feather=\"folder\"></i>"
   weight = 4
   identifier = "resources"
-  
-
-[[menu.sidebar]]
-  parent ="resources"
-  name = "Resources Home"
-  url = "/community/resources/"
-  weight = 1
-  identifier = "resources-home"
 
 [[menu.sidebar]]
   parent ="resources"
