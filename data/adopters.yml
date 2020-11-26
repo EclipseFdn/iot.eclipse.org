@@ -448,3 +448,7 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
+    - name: Bosch.IO
+      homepage_url: https://www.bosch-iot-suite.com/service/hub/
+      logo: logo-bosch.svg
+      logo_white: logo-bosch-white.svg
