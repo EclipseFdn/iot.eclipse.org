@@ -282,6 +282,10 @@ adopters:
       homepage_url: https://saxion.nl/mechatronics
       logo: logo-saxion.png
       logo_white: logo-saxion-white.png
+    - name: Ampere Computing LLC.
+      homepage_url: https://amperecomputing.com/
+      logo: logo-amperecomputing.png
+      logo_white: logo-amperecomputing-white.png
 
   - name: Eclipse iceoryx
     id: technology.iceoryx
@@ -310,6 +314,10 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
+    - name: Ampere Computing LLC.
+      homepage_url: https://amperecomputing.com/
+      logo: logo-amperecomputing.png
+      logo_white: logo-amperecomputing-white.png
 
   - name: Eclipse hawkBit
     id: iot.hawkbit
@@ -448,3 +456,7 @@ adopters:
       homepage_url: https://f1tenth.org/
       logo: logo-f1tenth.png
       logo_white: logo-f1tenth-white.png
+    - name: Ampere Computing LLC.
+      homepage_url: https://amperecomputing.com/
+      logo: logo-amperecomputing.png
+      logo_white: logo-amperecomputing-white.png
