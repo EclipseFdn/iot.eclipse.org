@@ -6,5 +6,3 @@ member_type = "participating"
 member_id = 1475
 more_url = "https://simplematter.io/"
 +++
-
-description text...
