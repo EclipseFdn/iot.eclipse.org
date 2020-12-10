@@ -27,63 +27,9 @@ npm install && hugo server
 
 Does your organization use Eclipse IoT projects? Organizations — whether they are members of the Eclipse Foundation or not — can be listed as Eclipse IoT technology adopters.
 
-Adopters are organizations that voluntarily show their support for the Eclipse IoT projects they have adopted (i.e. shipping commercial products based on the projects and/or using the projects for non-commercial or internal reasons). On this website, adopters are displayed under the [/adopters](https://iot.eclipse.org/adopters/) virtual path.
-
-You can add your organization logo to our list of adopters by submitting a pull request or by creating an [issue](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md). You can attach files to an issue by dragging and dropping them in the text editor of the form.
-
-If you plan on submitting a pull request, you will need to make the following changes to the website's codebase: 
-
-1. Add a colored and a white organization logo to static/assets/images/adoptors. We expect that all submitted logos to be transparent svg.
-2. Update the adopter data file: [data/adopters.yml](https://github.com/EclipseFdn/iot.eclipse.org/blob/master/data/adopters.yml) If your organization wishes to express support for multiple projects, you will need to add your organization's YAML definition to the ```adopters``` list of each of the relevant project nodes.
-
-### Javascript Plugin 
-
-Eclipse projects can showcase the logos of their adopters on their project websites. We built a JavaScript plugin to make this process easier. If you are a project committer, here are quick instructions on how to use the eclipsefdn-adopters.js on your Eclipse projet website:
-
-#### Usage
-
-Include the plugin's JS in the <head> section of the page:
-
-```html
-<script src="//iot.eclipse.org/assets/js/eclipsefdn.adopters.js"></script>
-```
-
-Load the plugin:
-
-```
-<script>
-  eclipseFdnAdopters.getList({
-    project_id: "[project_id]"
-  });
-</script>
-```
-
-Create an HTML element containing the chosen selector:
-
-```
-<div class="eclipsefdn-adopters"></div>
-```
-* By default, the selector's value is ```eclipsefdn-adopters```.
-
-#### Options
-
-```
-<script>
-  eclipseFdnAdopters.getList({
-    project_id: "[project_id]",
-    selector: ".eclipsefdn-adopters",
-    ul_classes: "list-inline",
-    logo_white: false
-  });
-</script>
-```
-
-Attribute     | Type        | Default   | Description
----           | ---         | ---       | ---
-`project_id`   | *String*   | ` `    | **Required**: Select adopters from a specific project ID.
-`selector`   | *String*   | `.eclipsefdn-adopters`    | Define the selector that the plugin will insert adopters into.
-`ul_classes`  | *String*   | ` `   | Define classes that will be assigned to the ul element.
-`logo_white`  | *Boolean*   | `false`   | Whether or not we use the white version of the logo.
+ Show your support for open source by adding your logo to the Eclipse IoT [Adopters](https://iot.eclipse.org/adopters/) page. Please **[create an issue](https://github.com/EclipseFdn/eclipsefdn-project-adopters/issues/new?template=adopter_request.md)** to add your logo below. 
+ 
+For more information about this program, please visit our [eclipsefdn-project-adopters](https://github.com/EclipseFdn/eclipsefdn-project-adopters) project.
 
 ### Declared Project Licenses
 
