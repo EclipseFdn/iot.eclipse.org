@@ -2,5 +2,6 @@
     "/css/styles.min.css": "/css/styles.min.css",
     "/js/scripts.min.js": "/js/scripts.min.js",
     "/js/home-members.min.js": "/js/home-members.min.js",
-    "/js/projects.min.js": "/js/projects.min.js"
+    "/js/projects.min.js": "/js/projects.min.js",
+    "/js/eclipsefdn.adopters.js": "/js/eclipsefdn.adopters.js"
 }

@@ -37,3 +37,8 @@ mix.scripts([
 
 mix.scripts('js/home-members.js', './static/assets/js/home-members.min.js');
 mix.scripts('js/projects.js', './static/assets/js/projects.min.js');
+
+// Update existing adopter widget with new version
+mix.scripts([
+    './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.adopters.js'
+], './static/assets/js/eclipsefdn.adopters.js');
