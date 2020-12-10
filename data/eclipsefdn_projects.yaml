@@ -2783,6 +2783,65 @@
     state: "Incubating"
     releases: []
   - 
+    project_id: "technology.iceoryx"
+    short_project_id: "iceoryx"
+    name: "Eclipse iceoryx"
+    summary: "In domains like automotive, robotics or gaming, a huge amount of data must be transferred between different parts of the system. If these parts are actually different processes on a POSIX based..."
+    url: "https://projects.eclipse.org/projects/technology.iceoryx"
+    website_url: ""
+    logo: "https://projects.eclipse.org/sites/default/files/ice0ryx-transparent_0.png"
+    tags: []
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse/iceoryx"
+      - 
+        url: "https://github.com/eclipse/iceoryx-web"
+    gitlab_repos: []
+    gerrit_repos: []
+    contributors: 
+      - 
+        username: "mphnl"
+        url: "https://api.eclipse.org/account/profile/mphnl"
+    committers: 
+      - 
+        username: "mhintz"
+        url: "https://api.eclipse.org/account/profile/mhintz"
+      - 
+        username: "jithier"
+        url: "https://api.eclipse.org/account/profile/jithier"
+      - 
+        username: "mkillat"
+        url: "https://api.eclipse.org/account/profile/mkillat"
+      - 
+        username: "dkrnke"
+        url: "https://api.eclipse.org/account/profile/dkrnke"
+      - 
+        username: "shoinkis"
+        url: "https://api.eclipse.org/account/profile/shoinkis"
+      - 
+        username: "mkrausrrt"
+        url: "https://api.eclipse.org/account/profile/mkrausrrt"
+      - 
+        username: "celtzschig"
+        url: "https://api.eclipse.org/account/profile/celtzschig"
+      - 
+        username: "mphnl"
+        url: "https://api.eclipse.org/account/profile/mphnl"
+      - 
+        username: "ariexinger"
+        url: "https://api.eclipse.org/account/profile/ariexinger"
+    project_leads: 
+      - 
+        username: "mphnl"
+        url: "https://api.eclipse.org/account/profile/mphnl"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: []
+  - 
     project_id: "technology.koneki"
     short_project_id: "koneki"
     name: "Koneki"
