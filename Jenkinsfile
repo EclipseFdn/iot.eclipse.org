@@ -29,7 +29,7 @@ pipeline {
 
   parameters {
     string(name: 'hugo_version', defaultValue: '0.76.5', description: 'The Hugo version that will be used to build the website. Must match versions speficied on https://github.com/gohugoio/hugo/releases.')
-    string(name: 'node_version', defaultValue: '10.15.3', description: 'The Node.js version that will be used to build the website. Must match versions specified on https://nodejs.org/en/download/releases/. It is adivsed to stick to LTS versions.')
+    string(name: 'node_version', defaultValue: '12.18.3', description: 'The Node.js version that will be used to build the website. Must match versions specified on https://nodejs.org/en/download/releases/. It is adivsed to stick to LTS versions.')
   }
 
   environment {
