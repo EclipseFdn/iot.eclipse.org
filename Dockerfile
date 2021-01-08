@@ -3,7 +3,7 @@ ARG NGINX_IMAGE_TAG=stable-alpine-for-hugo
 FROM debian:10-slim AS builder
 
 ARG HUGO_VERSION=0.76.5
-ARG NODE_VERSION=10.15.0
+ARG NODE_VERSION=12.18.3
 
 RUN apt-get update && apt-get install -y \
     build-essential \
