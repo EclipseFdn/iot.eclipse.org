@@ -19,7 +19,7 @@ mix.setResourceRoot('../');
 mix.less('./less/styles.less', 'static/assets/css/styles.min.css');
 
 // JavaScript
-mix.scripts([
+mix.babel([
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/bootstrap/dist/js/bootstrap.min.js',
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
@@ -35,10 +35,10 @@ mix.scripts([
     'js/main.js'
 ], './static/assets/js/scripts.min.js');
 
-mix.scripts('js/home-members.js', './static/assets/js/home-members.min.js');
-mix.scripts('js/projects.js', './static/assets/js/projects.min.js');
+mix.babel('js/home-members.js', './static/assets/js/home-members.min.js');
+mix.babel('js/projects.js', './static/assets/js/projects.min.js');
 
 // Update existing adopter widget with new version
-mix.scripts([
+mix.babel([
     './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.adopters.js'
 ], './static/assets/js/eclipsefdn.adopters.js');
