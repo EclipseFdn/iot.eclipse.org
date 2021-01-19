@@ -34,7 +34,7 @@
         {{ if .HasChildren }}
           <div class="row sidebar-sub-items">
             {{ range .Children }}  <!-- The children of Resources, Eclipse IoT Open Testbeds, the second layer children -->
-              <div class="row sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
+              <div class="row margin-right-0 margin-left-0 sidebar-sub-item{{ if eq $currentPage.Title .Name }} active{{ end }}">
                 <a href="{{ .URL }}" {{ if eq $currentPage.Title .Name }}class="active"{{ end }}>
                   <div class="col-xs-6"></div>
                   <div class="col-xs-18 sidebar-text">{{ .Name }}</div>
