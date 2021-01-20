@@ -398,6 +398,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.5.1"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.5.1"
+      - 
         name: "1.5.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.5.0"
       - 
@@ -576,35 +579,21 @@
       - 
         url: "https://github.com/eclipse-fog05/fog05"
       - 
-        url: "https://github.com/eclipse-fog05/agent"
+        url: "https://github.com/eclipse-fog05/fog05-python"
       - 
-        url: "https://github.com/eclipse-fog05/sdk-ocaml"
+        url: "https://github.com/eclipse-fog05/fog05-go"
       - 
-        url: "https://github.com/eclipse-fog05/api-ocaml"
+        url: "https://github.com/eclipse-fog05/fog05-networking-linux"
       - 
-        url: "https://github.com/eclipse-fog05/sdk-python"
+        url: "https://github.com/eclipse-fog05/fog05-hypervisor-kvm"
       - 
-        url: "https://github.com/eclipse-fog05/api-python"
+        url: "https://github.com/eclipse-fog05/fog05-hypervisor-lxd"
       - 
-        url: "https://github.com/eclipse-fog05/sdk-go"
+        url: "https://github.com/eclipse-fog05/fog05-hypervisor-native"
       - 
-        url: "https://github.com/eclipse-fog05/plugin-os-linux"
+        url: "https://github.com/eclipse-fog05/fog05-hypervisor-containerd"
       - 
-        url: "https://github.com/eclipse-fog05/api-go"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-os-windows"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-net-linuxbridge"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-fdu-kvm"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-fdu-lxd"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-fdu-native"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-fdu-containerd"
-      - 
-        url: "https://github.com/eclipse-fog05/plugin-fdu-ros2"
+        url: "https://github.com/eclipse-fog05/fog05-hypervisor-ros2"
       - 
         url: "https://github.com/eclipse-fog05/examples"
       - 
@@ -790,6 +779,15 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.6.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.6.0"
+      - 
+        name: "1.5.1"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.5.1"
+      - 
+        name: "1.4.5"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.4.5"
       - 
         name: "1.5.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.5.0"
@@ -1039,6 +1037,9 @@
     contributors: []
     committers: 
       - 
+        username: "gbarbonn26"
+        url: "https://api.eclipse.org/account/profile/gbarbonn26"
+      - 
         username: "umesaric"
         url: "https://api.eclipse.org/account/profile/umesaric"
       - 
@@ -1082,6 +1083,12 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.4.0"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.0"
+      - 
+        name: "1.3.2"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.3.2"
       - 
         name: "1.3.1"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.3.1"
@@ -1211,7 +1218,7 @@
     name: "Eclipse Keyple"
     summary: "Eclipse Keyple is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction. The Keyple..."
     url: "https://projects.eclipse.org/projects/iot.keyple"
-    website_url: "https://eclipse.github.io/keyple-website/"
+    website_url: "https://keyple.org"
     logo: "https://projects.eclipse.org/sites/default/files/keyple.png"
     tags: []
     github_repos: 
@@ -1625,6 +1632,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.3.0"
+        url: "https://projects.eclipse.org/projects/iot.leshan/releases/1.3.0"
+      - 
         name: "1.2.0"
         url: "https://projects.eclipse.org/projects/iot.leshan/releases/1.2.0"
       - 
@@ -1822,6 +1832,21 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.0.5"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.5"
+      - 
+        name: "2.0.4"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.4"
+      - 
+        name: "2.0.3"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.3"
+      - 
+        name: "2.0.2"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.2"
+      - 
+        name: "2.0.1"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.1"
       - 
         name: "2.0"
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0"
@@ -2749,6 +2774,12 @@
         url: "https://github.com/eclipse-zenoh/zenoh-backend-influxdb"
       - 
         url: "https://github.com/eclipse-zenoh/zenoh-backend-filesystem"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-plugin-webserver"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-backend-rocksdb"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-backend-sql"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -2788,14 +2819,14 @@
     name: "Eclipse iceoryx"
     summary: "In domains like automotive, robotics or gaming, a huge amount of data must be transferred between different parts of the system. If these parts are actually different processes on a POSIX based..."
     url: "https://projects.eclipse.org/projects/technology.iceoryx"
-    website_url: ""
+    website_url: "http://iceoryx.io/"
     logo: "https://projects.eclipse.org/sites/default/files/ice0ryx-transparent_0.png"
     tags: []
     github_repos: 
       - 
-        url: "https://github.com/eclipse/iceoryx"
+        url: "https://github.com/eclipse-iceoryx/iceoryx"
       - 
-        url: "https://github.com/eclipse/iceoryx-web"
+        url: "https://github.com/eclipse-iceoryx/iceoryx-web"
     gitlab_repos: []
     gerrit_repos: []
     contributors: 
