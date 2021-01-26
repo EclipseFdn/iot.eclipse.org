@@ -4,6 +4,17 @@
  * http://www.eclipse.org/org/documents/epl-v10.php
  */
 
+if (!String.prototype.includes) {
+    String.prototype.includes = function(search, start) {
+      'use strict';
+  
+      if (search instanceof RegExp) {
+        throw TypeError('first argument must not be a RegExp');
+      }
+      if (start === undefined) { start = 0; }
+      return this.indexOf(search, start) !== -1;
+    };
+  }
 
 var projectsAssociation = {
     'Standards': {
@@ -227,17 +238,13 @@ var projectAliases = {
     });
 
     var computeFilterFunction = function() {
-        console.log("recompute filter");
         return function(item) {
             var filter = [];
 
             $('.btn-filter-project').each( function(index, elem) {
-                console.log($(elem));
                 if ($(elem).hasClass('active')) 
                     filter.push($(elem).text());
             });
-
-            console.log(filter);
 
             if(filter.length == 0) return true;
 
