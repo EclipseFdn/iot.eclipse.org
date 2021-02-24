@@ -28,7 +28,7 @@ We hold a call for working group members every month, the fourth Tuesday of the 
 
 We use a publicly available document to manage the meeting's [agenda](https://docs.google.com/document/d/1ZPG3uQ92nreVPpJQf80iJ4fQj-qMR7vLOAkuFNW-Xws/edit). You can add items to it anytime. One week before the scheduled time for the meeting, we run a survey among community members to determine the priority of the points found in the agenda.
 
-If you use Google Calendar, you can add the invite to your calendar by clicking this [link](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N21odWZnbnZldmc0dG1sdTUwOG43ZWQ0YjBfMjAyMDAzMTBUMTYwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL).
+If you use Google Calendar, you can add the invite to your calendar by clicking this [link](https://calendar.google.com/event?action=TEMPLATE&tmeid=Z25hMDFwbmdub3BqaHIwcTRtMnNsN2k0aGpfMjAyMTAyMjNUMTYwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL).
 
 ### Project community calls
 
@@ -36,7 +36,7 @@ Several Eclipse IoT projects hold calls to keep in touch with their user communi
 
 You can use the links provided to add the meeting invites to your Google calendars.
 
-* [Eclipse IoT Packages](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmJvZW9zYWNzazc1dHFoZHA5dXY0YjhkZWNfMjAyMDAzMDlUMTUwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL): Helm charts enabling you to run popular Eclipse IoT projects on Kubernetes
+* [Eclipse IoT Packages](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJvZW9zYWNzazc1dHFoZHA5dXY0YjhkZWNfMjAyMTAyMjJUMTUwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL): Helm charts enabling you to run popular Eclipse IoT projects on Kubernetes
 * [Eclipse Kuksa](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=ZG9wY2Jrb2tyOWJhOWRxOGtwMjc0bnZoMThfMjAyMDAzMTlUMTIwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL):&nbsp; Cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections
 * [Eclipse Paho](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTdya3R1NWIyM2xwNTZkMzAwNnI0N2ZnNzBfMjAyMDAzMTBUMTQwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL): MQTT clients in C, C++, Java, Javascript, Python and other languages
 
