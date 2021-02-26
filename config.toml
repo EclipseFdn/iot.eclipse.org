@@ -26,6 +26,8 @@ themesDir = "node_modules/"
   jumbotron_tagline_class = "col-sm-14"
   jumbotron_btn_class = "btn btn-sm btn-primary"
   featured_content_publish_target = "eclipse_iot"
+  sidebar_layout = "sidebar_block"
+  show_collapsible_menu = true
 
   favicon = "favicon.ico"
   share_img = "iot-logo-social.png"

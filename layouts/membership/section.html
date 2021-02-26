@@ -1,9 +1,22 @@
 {{ define "main_suffix" }}
     {{ if ne .Page.Params.hide_sidebar true }} 
-      </div>
-      <div class="{{- .Params.main_sidebar_class | default .Site.Params.main_sidebar_class | default "col-md-6  padding-bottom-30"}}">
-          {{ partial "sidebar.html" . }}
-      </div>
+
+		{{ .Scratch.Set "sidebarLayout" "default" }}
+		{{ if isset .Site.Params "sidebar_layout" }}
+		  {{ .Scratch.Set "sidebarLayout" .Site.Params.sidebar_layout }}
+		{{ end }}
+		{{ if isset .Page.Params "sidebar_layout" }}
+		  {{ .Scratch.Set "sidebarLayout" .Page.Params.sidebar_layout }}
+		{{ end }}
+		{{ $sidebarLayout := .Scratch.Get "sidebarLayout" }}
+      	</div>
+      	<div class="{{- .Params.main_sidebar_class | default .Site.Params.main_sidebar_class | default "col-md-6  padding-bottom-30"}}">
+			{{ if eq $sidebarLayout "default" }}
+            	{{ partial "sidebar.html" . }}
+          	{{ else if eq $sidebarLayout "sidebar_block" }}
+            	{{ partial "sidebar-block.html" . }}
+          {{ end }}
+      	</div>
     {{ end }}
     </div>
 	<div class="row">
