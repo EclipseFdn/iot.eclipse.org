@@ -1,5 +1,99 @@
 ---
   - 
+    project_id: "automotive.kuksa"
+    short_project_id: "kuksa"
+    name: "Eclipse Kuksa"
+    summary: "Because today&#39;s software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved..."
+    url: "https://projects.eclipse.org/projects/automotive.kuksa"
+    website_url: "http://eclipse.org/kuksa"
+    logo: "https://projects.eclipse.org/sites/default/files/kuksa%20mix.png"
+    tags: 
+      - "automotive"
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse/kuksa.apps"
+      - 
+        url: "https://github.com/eclipse/kuksa.cloud"
+      - 
+        url: "https://github.com/eclipse/kuksa.ide"
+      - 
+        url: "https://github.com/eclipse/kuksa.integration"
+      - 
+        url: "https://github.com/eclipse/kuksa.invehicle"
+      - 
+        url: "https://github.com/eclipse/kuksa.website"
+      - 
+        url: "https://github.com/eclipse/kuksa.val"
+    gitlab_repos: []
+    gerrit_repos: []
+    contributors: []
+    committers: 
+      - 
+        username: "wchenl8e"
+        url: "https://api.eclipse.org/account/profile/wchenl8e"
+      - 
+        username: "sschildt"
+        url: "https://api.eclipse.org/account/profile/sschildt"
+      - 
+        username: "sjeroschewski"
+        url: "https://api.eclipse.org/account/profile/sjeroschewski"
+      - 
+        username: "dschubert"
+        url: "https://api.eclipse.org/account/profile/dschubert"
+      - 
+        username: "abanijamali"
+        url: "https://api.eclipse.org/account/profile/abanijamali"
+      - 
+        username: "phei"
+        url: "https://api.eclipse.org/account/profile/phei"
+      - 
+        username: "siwai"
+        url: "https://api.eclipse.org/account/profile/siwai"
+      - 
+        username: "severs"
+        url: "https://api.eclipse.org/account/profile/severs"
+      - 
+        username: "lkrawczyk"
+        url: "https://api.eclipse.org/account/profile/lkrawczyk"
+      - 
+        username: "pkriefrvi"
+        url: "https://api.eclipse.org/account/profile/pkriefrvi"
+      - 
+        username: "jkristan"
+        url: "https://api.eclipse.org/account/profile/jkristan"
+      - 
+        username: "rhoettger"
+        url: "https://api.eclipse.org/account/profile/rhoettger"
+    project_leads: 
+      - 
+        username: "jkristan"
+        url: "https://api.eclipse.org/account/profile/jkristan"
+      - 
+        username: "rhoettger"
+        url: "https://api.eclipse.org/account/profile/rhoettger"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+      - 
+        name: "Research"
+        id: "research"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: 
+      - 
+        name: "0.2.0"
+        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.2.0"
+      - 
+        name: "0.2.0-M1"
+        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.2.0-m1"
+      - 
+        name: "0.1.0"
+        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.1.0"
+      - 
+        name: "0.1-M1"
+        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.1-m1"
+  - 
     project_id: "iot.4diac"
     short_project_id: "4diac"
     name: "Eclipse 4diac"
@@ -198,6 +292,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.6.2"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.2"
       - 
         name: "2.6.1"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.1"
@@ -493,44 +590,16 @@
       - 
         url: "https://github.com/eclipse/neoscada"
     gitlab_repos: []
-    gerrit_repos: 
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.base.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.chart.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.core.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.deploy.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.external.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.hmi.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.ide.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.protocols.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.releng.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.samples.git"
-      - 
-        url: "/gitroot/eclipsescada/org.eclipse.scada.utils.git"
+    gerrit_repos: []
     contributors: []
-    committers: 
-      - 
-        username: "jreimann"
-        url: "https://api.eclipse.org/account/profile/jreimann"
-    project_leads: 
-      - 
-        username: "jreimann"
-        url: "https://api.eclipse.org/account/profile/jreimann"
+    committers: []
+    project_leads: []
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Archived"
     releases: 
       - 
         name: "0.5.0"
@@ -1095,6 +1164,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.4.1"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.1"
+      - 
         name: "1.4.0"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.0"
       - 
@@ -1360,100 +1432,6 @@
     spec_project_working_group: []
     state: "Archived"
     releases: []
-  - 
-    project_id: "iot.kuksa"
-    short_project_id: "kuksa"
-    name: "Eclipse Kuksa"
-    summary: "Because today&#39;s software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved..."
-    url: "https://projects.eclipse.org/projects/iot.kuksa"
-    website_url: "http://eclipse.org/kuksa"
-    logo: "https://projects.eclipse.org/sites/default/files/kuksa%20mix.png"
-    tags: 
-      - "automotive"
-    github_repos: 
-      - 
-        url: "https://github.com/eclipse/kuksa.apps"
-      - 
-        url: "https://github.com/eclipse/kuksa.cloud"
-      - 
-        url: "https://github.com/eclipse/kuksa.ide"
-      - 
-        url: "https://github.com/eclipse/kuksa.integration"
-      - 
-        url: "https://github.com/eclipse/kuksa.invehicle"
-      - 
-        url: "https://github.com/eclipse/kuksa.website"
-      - 
-        url: "https://github.com/eclipse/kuksa.val"
-    gitlab_repos: []
-    gerrit_repos: []
-    contributors: []
-    committers: 
-      - 
-        username: "wchenl8e"
-        url: "https://api.eclipse.org/account/profile/wchenl8e"
-      - 
-        username: "sschildt"
-        url: "https://api.eclipse.org/account/profile/sschildt"
-      - 
-        username: "sjeroschewski"
-        url: "https://api.eclipse.org/account/profile/sjeroschewski"
-      - 
-        username: "dschubert"
-        url: "https://api.eclipse.org/account/profile/dschubert"
-      - 
-        username: "abanijamali"
-        url: "https://api.eclipse.org/account/profile/abanijamali"
-      - 
-        username: "phei"
-        url: "https://api.eclipse.org/account/profile/phei"
-      - 
-        username: "siwai"
-        url: "https://api.eclipse.org/account/profile/siwai"
-      - 
-        username: "severs"
-        url: "https://api.eclipse.org/account/profile/severs"
-      - 
-        username: "lkrawczyk"
-        url: "https://api.eclipse.org/account/profile/lkrawczyk"
-      - 
-        username: "pkriefrvi"
-        url: "https://api.eclipse.org/account/profile/pkriefrvi"
-      - 
-        username: "jkristan"
-        url: "https://api.eclipse.org/account/profile/jkristan"
-      - 
-        username: "rhoettger"
-        url: "https://api.eclipse.org/account/profile/rhoettger"
-    project_leads: 
-      - 
-        username: "jkristan"
-        url: "https://api.eclipse.org/account/profile/jkristan"
-      - 
-        username: "rhoettger"
-        url: "https://api.eclipse.org/account/profile/rhoettger"
-    working_groups: 
-      - 
-        name: "Internet of Things (IoT)"
-        id: "internet-things-iot"
-      - 
-        name: "Research"
-        id: "research"
-    spec_project_working_group: []
-    state: "Incubating"
-    releases: 
-      - 
-        name: "0.2.0"
-        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.2.0"
-      - 
-        name: "0.2.0-M1"
-        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.2.0-m1"
-      - 
-        name: "0.1.0"
-        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.1.0"
-      - 
-        name: "0.1-M1"
-        url: "https://projects.eclipse.org/projects/iot.kuksa/releases/0.1-m1"
   - 
     project_id: "iot.kura"
     short_project_id: "kura"
@@ -2268,17 +2246,14 @@
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
-    committers: 
-      - 
-        username: "mhealyter"
-        url: "https://api.eclipse.org/account/profile/mhealyter"
+    committers: []
     project_leads: []
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Archived"
     releases: []
   - 
     project_id: "iot.smarthome"
@@ -2857,6 +2832,9 @@
         url: "https://api.eclipse.org/account/profile/mphnl"
     committers: 
       - 
+        username: "mlehmann43b"
+        url: "https://api.eclipse.org/account/profile/mlehmann43b"
+      - 
         username: "mhintz"
         url: "https://api.eclipse.org/account/profile/mhintz"
       - 
@@ -2893,7 +2871,10 @@
         id: "internet-things-iot"
     spec_project_working_group: []
     state: "Incubating"
-    releases: []
+    releases: 
+      - 
+        name: "1.0.0"
+        url: "https://projects.eclipse.org/projects/technology.iceoryx/releases/1.0.0"
   - 
     project_id: "technology.koneki"
     short_project_id: "koneki"
