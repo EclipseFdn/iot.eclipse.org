@@ -1,0 +1,12 @@
+{{ partial "collapsible-menu.html" . }}
+
+<main>
+    <div class="{{- .Params.container | default .Site.Params.container | default "container"}}">
+      {{ if ne .Page.Params.hide_sidebar true }}
+        <div class="row">
+          <div class="{{- .Params.main_content_class | default .Site.Params.main_content_class | default "col-md-18 padding-bottom-30"}}">
+      {{ end }}
+  
+      {{ if ne .Page.Params.hide_page_title true }}
+        <h1>{{ .Title | safeHTML | title }}</h1>
+      {{ end }}

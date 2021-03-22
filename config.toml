@@ -26,6 +26,8 @@ themesDir = "node_modules/"
   jumbotron_tagline_class = "col-sm-14"
   jumbotron_btn_class = "btn btn-sm btn-primary"
   featured_content_publish_target = "eclipse_iot"
+  sidebar_layout = "sidebar_block"
+  show_collapsible_menu = true
 
   favicon = "favicon.ico"
   share_img = "iot-logo-social.png"
@@ -98,19 +100,13 @@ themesDir = "node_modules/"
   url = "/adopters/testbeds/"
   pre = "<i data-feather=\"package\"></i>"
   weight = "2"
-
-[[menu.sidebar]]
-  parent ="adopters"
-  name = "Testbeds"
-  url = "/adopters/testbeds/"
-  weight = "2"
   identifier = "testbeds"
   
 [[menu.sidebar]]
   parent ="testbeds"
   name = "Asset Tracking"
   url = "/adopters/testbeds/asset-tracking/"
-  weight = "1"
+  weight = "2"
   
 [[menu.sidebar]]
   parent ="testbeds"
@@ -171,13 +167,13 @@ themesDir = "node_modules/"
   pre = "<i data-feather=\"at-sign\"></i>"
   weight = 3
   
-[[menu.sidebar]]
-  parent ="community"
-  name = "Resources"
-  url = "/community/resources"
-  pre = "<i data-feather=\"folder\"></i>"
-  weight = 4
-  
+# [[menu.sidebar]]
+#   parent ="community"
+#   name = "Resources"
+#   url = "/community/resources"
+#   pre = "<i data-feather=\"folder\"></i>"
+#   weight = 4
+
 [[menu.sidebar]]
   name = "Projects"
   url = "/projects/"
@@ -202,7 +198,8 @@ themesDir = "node_modules/"
   parent ="community"
   name = "Resources"
   url = "/community/resources/"
-  weight = 7
+  pre = "<i data-feather=\"folder\"></i>"
+  weight = 4
   identifier = "resources"
 
 [[menu.sidebar]]
