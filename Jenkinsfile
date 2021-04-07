@@ -86,7 +86,7 @@ pipeline {
       }
       steps {
         sh '''
-          docker build --pull --build-arg NGINX_IMAGE_TAG="${BASE_NGINX_IMAGE_TAG}" --build-arg HUGO_VERSION="${hugo_version}" --build-arg NODE_VERSION="${node_version}" -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
+          docker build --pull --build-arg NGINX_IMAGE_TAG="${BASE_NGINX_IMAGE_TAG}" --build-arg HUGO_VERSION="'''+params.hugo_version+'''" --build-arg NODE_VERSION="'''+params.node_version+'''" -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
         '''
       }
     }
