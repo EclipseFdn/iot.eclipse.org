@@ -1,0 +1,17 @@
+complete: false
+types:
+    - name: Edge
+      id: 1
+      color: "#E47933"
+    - name: IoT
+      id: 2 
+      color: "#487b8e"
+    - name: Keynote
+      id: 3 
+      color: "#969FA5"
+items:
+    - name: "Eclipse IoT and Eclipse Edge Native: Making Sense of the Puzzle"
+      presenter: Frédéric Desbiens
+      type: 3
+      time: 10:00 - 10:30 (EDT)
+      abstract: <p>There are now more than 45 projects in the Eclipse IoT portfolio. Some of them are well known; some of them are more obscure. Together, they probably are the most exhausive toolkit of its kind in the industry. However, with that many projects, it is sometimes difficult to figure out which one to pick for a specific use case. On the top of that, the Eclipse Foundation launched its Edge Native working group in December 2019, and its Sparkplug working group in February 2020.</p><p>The aim of this presentation is to help you understand the vision between the Eclipse IoT, Edge Native and Sparkplug working groups. You will also learn how you can leverage the most popular projects in the Eclipse IoT portfolio.</p>
