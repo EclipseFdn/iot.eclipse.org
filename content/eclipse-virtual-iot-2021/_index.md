@@ -23,5 +23,14 @@ The Eclipse IoT and Edge Native Day is organized by the Eclipse IoT, Eclipse Edg
   {{</ events/registration >}}
 {{</ grid/section-container >}}
 
+<!-- Add user carousel for committee -->
+{{< grid/section-container id="speakers"  containerClass="container speaker-container text-center">}}
+  {{< events/user_display useCarousel="false" event="eclipse-virtual-iot-2021" source="speaker" title="Speakers" imageRoot="/assets/images/speakers/" />}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container>}}
+  {{< events/agenda event="eclipse-virtual-iot-2021" >}}
+{{</ grid/section-container >}}
+
 <!-- Add modal for use w/ agenda -->
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
