@@ -24,6 +24,8 @@
         url: "https://github.com/eclipse/kuksa.website"
       - 
         url: "https://github.com/eclipse/kuksa.val"
+      - 
+        url: "https://github.com/eclipse/kuksa.hardware"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -129,9 +131,6 @@
       - 
         username: "mmelikmerkumians"
         url: "https://api.eclipse.org/account/profile/mmelikmerkumians"
-      - 
-        username: "gebenhofer"
-        url: "https://api.eclipse.org/account/profile/gebenhofer"
       - 
         username: "azoitl"
         url: "https://api.eclipse.org/account/profile/azoitl"
@@ -434,8 +433,8 @@
   - 
     project_id: "iot.ditto"
     short_project_id: "ditto"
-    name: "Eclipse Ditto"
-    summary: "Eclipse Ditto is a framework for providing the &quot;Digital Twin&quot; pattern for IoT applications in order to interact with IoT devices. That means that Ditto mirrors physical devices as..."
+    name: "Eclipse Ditto™"
+    summary: "Eclipse Ditto&trade; is a framework for providing the &quot;Digital Twin&quot; pattern for IoT applications in order to interact with IoT devices. That means that Ditto mirrors physical devices..."
     url: "https://projects.eclipse.org/projects/iot.ditto"
     website_url: "https://www.eclipse.org/ditto"
     logo: "https://projects.eclipse.org/sites/default/files/ditto.png"
@@ -499,6 +498,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.0.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.0.0"
       - 
         name: "1.5.1"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/1.5.1"
@@ -857,6 +859,12 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.7.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.0"
+      - 
+        name: "1.6.1"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.6.1"
+      - 
         name: "1.6.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.6.0"
       - 
@@ -1163,6 +1171,12 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.4.3"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.3"
+      - 
+        name: "1.4.2"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.2"
       - 
         name: "1.4.1"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.1"
@@ -2358,6 +2372,9 @@
     contributors: []
     committers: 
       - 
+        username: "caguzzi"
+        url: "https://api.eclipse.org/account/profile/caguzzi"
+      - 
         username: "skaebisch"
         url: "https://api.eclipse.org/account/profile/skaebisch"
       - 
@@ -2661,6 +2678,9 @@
     contributors: []
     committers: 
       - 
+        username: "rschneider4c5"
+        url: "https://api.eclipse.org/account/profile/rschneider4c5"
+      - 
         username: "sbernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
       - 
@@ -2870,11 +2890,14 @@
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Regular"
     releases: 
       - 
-        name: "1.0.0"
-        url: "https://projects.eclipse.org/projects/technology.iceoryx/releases/1.0.0"
+        name: "2.0.0"
+        url: "https://projects.eclipse.org/projects/technology.iceoryx/releases/2.0.0"
+      - 
+        name: "1.0.0 (Almond)"
+        url: "https://projects.eclipse.org/projects/technology.iceoryx/releases/1.0.0-almond"
   - 
     project_id: "technology.koneki"
     short_project_id: "koneki"

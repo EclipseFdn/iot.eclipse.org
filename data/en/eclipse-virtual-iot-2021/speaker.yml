@@ -1,4 +1,37 @@
 items:
-  - name: "Frédéric Desbiens"
+  - name: Jonathan Levell
+    title: "Architect on IBM Watson IoT Platform/IoT Messagesight — IBM"
+    img: jlevell.jpg
+  - name: Gabriele Montanari
+    title: "Everyware IoT Global Product Manager & Solution Architect — Eurotech"
+    img: gmontanari.jpg
+  - name: Nicola La Gloria
+    title: "Chief Executive Officer — Kynetics"
+    img: nlagloria.jpeg
+  - name: Ian Skerrett
+    title: "Head of Marketing — HiveMQ"
+    img: iskerrett.jpg
+  - name: Mike Milinkovich
+    title: "Executive Director — Eclipse Foundation"
+    img: mmilinkovich.jpg
+  - name: Frédéric Desbiens
     title: "Program Manager, IoT and Edge Computing — Eclipse Foundation"
     img: fdesbiens.jpeg
+  - name: Jens Reimann
+    title: "Principal Software Engineer — Red Hat"
+    img: jreimann.jpg
+  - name: Dejan Bosanac
+    title: "Senior Software Engineer — Red Hat"
+    img: dbosanca.jpg
+  - name: Angelo Corsaro
+    title: "Chief Executive Officer — ADLINK Technology"
+    img: acorsaro.jpeg
+  - name: Kai Hudalla
+    title: "Lead Architect — Bosch"
+    img: khudalla.jpg
+  - name: Arlen Nipper
+    title: "President and Chief Technology Officer — Cirrus Link"
+    img: anipper.jpeg
+  - name: Pugal Janakiraman
+    title: "WW Business Development – Industrial IoT — AWS"
+    img: pjanakiraman.jpg
