@@ -18,43 +18,43 @@ sets:
     - name: "Scaling IoT and Web messaging infrastructure for fun and profit: An Introduction to Eclipse Amlen"
       presenter: Jonathan Levell
       type: 2
-      time: 19:00-19:45/13:00-13:45/10:00-10:45 (CET/EST/PST)
+      time: 19:00-19:45 / 13:00-13:45 / 10:00-10:45 (CET/EST/PST)
       abstract: |
         <p>Designing messaging systems to support IoT and web usecases capable of scaling to many thousands or even many millions of connections can be a daunting challenge but one that is increasingly common.</p>
         <p>This talk will provide an introduction to Eclipse Amlen, a newly open-sourced MQTT broker capable of being used in deployments both large and small. We'll cover the main features and how to get up and running quickly as well as looking at what will come next for the project.</p>
     - name: "No-compromise solutions for the integration between Edge and Cloud"
       presenter: Gabriele Montanari
       type: 1
-      time: 20:00-20:45/14:00-14:45/11:00-11:45 (CET/EST/PST)
+      time: 20:00-20:45 / 14:00-14:45 / 11:00-11:45 (CET/EST/PST)
       abstract: <p>How the Eclipse edge framework enables creation and deployment of ready-to-market IoT architectures with no-compromise edge-to-cloud integration features with 3rd part Edge Management & Cloud Platform.</p>
     - name: "Eclipse Hara: an embedded client for hawkBit"
       presenter: Nicola La Gloria
       type: 1
-      time: 21:00-21:45/15:00-15:45/12:00-12:45 (CET/EST/PST)
+      time: 21:00-21:45 / 15:00-15:45 / 12:00-12:45 (CET/EST/PST)
       abstract: <p>Eclipse Hara (project currently in incubation) goal is to provide a reference agent software implementation for Eclipse hawkBit DDI API. Eclipse Hara fills the gap that was intentionally left out by the hawkbit project. By providing a solid open source reference implementation of an hawkBit client the project can be beneficial toward the adoption of the hawkBit update server as a backend solution for OTA.</p>
     - name: "Creating Connected Car Platforms with MQTT"
       presenter: Ian Skerrett
       type: 2
-      time: 22:00-22:45/16:00-16:45/13:00-13:45 (CET/EST/PST)
+      time: 22:00-22:45 / 16:00-16:45 / 13:00-13:45 (CET/EST/PST)
       abstract: <p>The automotive industry is quickly adopting MQTT as the standard for vehicle to cloud data connectivity. MQTT is uniquely positioned to solve some of the difficult technical challenges of building a connected car platform. In this session, we will look at the challenges of connected vehicles over unreliable cellular networks, how MQTT solves these for the connected car industry and present case studies of OEM that have implemented connected car platforms using MQTT. Finally, we will conclude with how MQTT can be used for future mobility use cases, like car sharing, fleet management and others.</p>
   - name: Day 2
     items:
     - name: "The Application of Open Source Technologies to IoT and Edge Computing"
       presenter: Mike Milinkovich
       type: 3
-      time: 16:00-16:25/10:00-10:25/07:00-07:25 (CET/EST/PST)
+      time: 16:00-16:25 / 10:00-10:25 / 07:00-07:25 (CET/EST/PST)
       abstract: |
         <p>The open source model of open collaboration and innovation is now the dominant paradigm for the creation and dissemination of new software technologies. In parallel, software is now the key driver of innovation in all sectors of society and the economy. In particular, IoT, Edge Computing, Industrie 4.0, and digital transformation are all primarily driven by software. And the winners in these sectors will be the ones who create the next generation of the platform economy: the machine economy. These trends have combined to make mastering the art of using, contributing, participating, and leading open source projects and communities critical to the future success (if not survival) of all technology-based enterprises.</p>
     - name: "Open Source IoT and Edge Computing: The Eclipse Way"
       presenter: Frédéric Desbiens
       type: 3
-      time: 16:30-16:55/10:30-10:55/07:30-07:55 (CET/EST/PST)
+      time: 16:30-16:55 / 10:30-10:55 / 07:30-07:55 (CET/EST/PST)
       abstract: |
         <p>10 years. 50 projects. Over 55 member organizations. By any metric, the open source IoT and Edge Computing ecosystem of the Eclipse Foundation is impressive. It is also intimidating. Where to start? How to navigate it? In this presentation, you will discover how you can leverage open source Eclipse Technologies to build IoT and Edge Computing solutions. You will also learn about the Eclipse IoT, Edge Native and Sparkplug working groups: three open, vendor-neutral communities focused on open source collaboration.</p>
     - name: "Cloud Native Digital Twins"
       presenter: Jens Reimann, Dejan Bosanac
       type: 2
-      time: 17:00-17:45/11:00-11:45/08:00-08:45 (CET/EST/PST)
+      time: 17:00-17:45 / 11:00-11:45 / 08:00-08:45 (CET/EST/PST)
       abstract: |
         <p>Digital twins are a central part of most IoT solutions. They represent the physical state of the devices and provide easy to use device APIs for solution developers. Processing telemetry event streams is how devices are mapped into the digital world, so obviously this is one of the crucial topics for implementing digital twins.</p>
         <p>There are a lot of event streaming platforms available, but in this session we want to focus on cloud-native ways of doing IoT. We will explore Knative eventing concepts that provide flexible and scalable way of processing events in the cloud using different underlying messaging technologies, like Apache Kafka. Accompanied by a way to define a format of events through “Cloud Events” specifications, it provides a perfect fit for building serverless IoT integration platforms, as we’ll see on the example of Drogue Cloud project.</p>
@@ -62,12 +62,12 @@ sets:
     - name: "Zenoh: The Edge Computing Data Fabric"
       presenter: Angelo Corsaro
       type: 1
-      time: 18:00-18:45/12:00-12:45/09:00-09:45 (CET/EST/PST)
+      time: 18:00-18:45 / 12:00-12:45 / 09:00-09:45 (CET/EST/PST)
       abstract: <p>Zenoh is rapidly growing Eclipse project that unifies data in motion, data at rest and computations. It elegantly blends traditional pub/sub with geo distributed storage, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks. This presentation will provide an introduction to Eclipse Zenoh along with a crisp explanation of the challenges that motivated the creation of this project. We will go through a series of real-world use cases that demonstrate the advantages brought by Zenoh in enabling and optimising typical edge scenarios and in simplifying the development of any scale distributed applications.</p>
     - name: "Running your private IoT Cloud Stack"
       presenter: Kai Hudalla
       type: 2
-      time: 19:00-19:45/13:00-13:45/10:00-10:45 (CET/EST/PST)
+      time: 19:00-19:45 / 13:00-13:45 / 10:00-10:45 (CET/EST/PST)
       abstract: |
         <p>The Eclipse IoT Packages project has been started some two years ago with the goal of providing easy to use Helm charts that can be used to get up an running with Eclipse IoT projects easily.</p>
         <p>The Cloud2Edge package was the first package to be offered and can be used to install an IoT cloud stack consisting of Eclipse Hono, Ditto and hawkBit. During the last two years we achieved a lot but not quite everything we aimed for.</p>
@@ -75,10 +75,17 @@ sets:
     - name: "Leveraging Eclipse Sparkplug to Accelerate DataOps and Machine Modeling into AWS Services"
       presenter: Arlen Nipper, Pugal Janakiraman
       type: 4
-      time: 20:00-20:45/14:00:14:45/11:00-11:45 (CET/EST/PST)
+      time: 20:00-20:45 / 14:00:14:45 / 11:00-11:45 (CET/EST/PST)
       abstract: <p>Industrial customers and solutions providers that are trying to leverage Digital Transformation to optimize production, maximize asset utilization and identify equipment maintenance issues. These customers are realizing that just sending discrete measurements into cloud data stores is not scaling. AWS realized this and understood that to make Digital Transformation easier, and have it scale across all facilities and machine types, a service was needed that could create virtual models of machines directly from edge compute technology. This session will explore how AWS and Eclipse Sparkplug are being used to automatically create machine models, assets of those models and populate the models with real-time measurements.</p>
     - name: "Title TBD"
       presenter: Speaker TBD
       type: 1
-      time: 21:00-21:45/15:00-15:45/12:00-12:45 (CET/EST/PST)
+      time: 21:00-21:45 / 15:00-15:45 / 12:00-12:45 (CET/EST/PST)
       abstract: <p>Abstract TBD</p>
+    - name: "Extending Kubernetes to the Distributed Edge with EVE-OS"
+      presenter: Jason Shepherd
+      type: 1
+      time: 22:00-22:45 / 16:00-16:45 / 13:00-13:45 (CET/EST/PST)
+      abstract: |
+        <p>In a perfect world, we’d have one orchestration solution capable of deploying and managing infrastructure and applications spanning the entire edge continuum, however the inherent technical tradeoffs dictate necessarily different tool sets with similar principles applied. While it may be tempting to extend existing data center tools outside of the data center, they quickly start to break for reasons including being too resource-intensive, lacking an adequate zero trust security model and requiring skill sets for deployment and management that aren’t commonly found in the field.</p>
+        <p>In this session, Jason will highlight the inherent differences in management and security practices across the edge continuum. He will then outline how the Project EVE community from LF Edge is collaborating with both the Eclipse Edge Native and CNCF IoT Edge Working Groups to establish EVE-OS as a universal, bare metal foundation to extend Kubernetes from the cloud to the Distributed Edge. Jason will talk through the key challenges for deploying Kubernetes in the field that EVE-OS addresses, in areas such as footprint, zero trust security, autonomy, and support for both legacy and modern workloads.</p>
