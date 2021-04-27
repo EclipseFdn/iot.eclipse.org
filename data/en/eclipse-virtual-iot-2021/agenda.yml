@@ -77,11 +77,13 @@ sets:
       type: 4
       time: 20:00-20:45 / 14:00:14:45 / 11:00-11:45 (CET/EST/PST)
       abstract: <p>Industrial customers and solutions providers that are trying to leverage Digital Transformation to optimize production, maximize asset utilization and identify equipment maintenance issues. These customers are realizing that just sending discrete measurements into cloud data stores is not scaling. AWS realized this and understood that to make Digital Transformation easier, and have it scale across all facilities and machine types, a service was needed that could create virtual models of machines directly from edge compute technology. This session will explore how AWS and Eclipse Sparkplug are being used to automatically create machine models, assets of those models and populate the models with real-time measurements.</p>
-    - name: "Title TBD"
-      presenter: Speaker TBD
+    - name: "Production ready EdgeAI with Eclipse ioFog and Google Coral"
+      presenter: Farah Papaioannou, Ajay Kumar Nair
       type: 1
       time: 21:00-21:45 / 15:00-15:45 / 12:00-12:45 (CET/EST/PST)
-      abstract: <p>Abstract TBD</p>
+      abstract: |
+        <p>Eclipse ioFog is the market leading Edge Native fabric for developing and deploying EdgeAI applcations, from Cloud to Edge. Google Coral is the most performant platform for running TensorFlow inferencing applications on dedicated silicon at the Edge.</p>
+        <p>In this talk we will demonstrate drag and drop deployment of a TensorFlow EdgeAI application, using Eclipse ioFog to a Google Coral DevKit. Rapidly iterating and updating the model from the Cloud, we will then showcase moving from a prototyping environment to a production ready platform. Without making any changes to the model or code. All in less than 10 minutes!</p>
     - name: "Extending Kubernetes to the Distributed Edge with EVE-OS"
       presenter: Jason Shepherd
       type: 1
