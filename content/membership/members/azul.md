@@ -1,7 +1,7 @@
 +++
 date = "2015-05-04"
 title = "Azul Systems"
-logo = "azul-systems" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "azul-systems" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1166
 more_url = "http://www.azulsystems.com/products/zulu-embedded"

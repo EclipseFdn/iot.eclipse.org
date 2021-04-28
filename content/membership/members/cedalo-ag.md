@@ -1,7 +1,7 @@
 +++
 date = "2019-11-15T15:31:21-07:00"
 title = "Cedalo AG"
-logo = "cedalo" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "cedalo" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1376
 more_url = "https://cedalo.com/en"

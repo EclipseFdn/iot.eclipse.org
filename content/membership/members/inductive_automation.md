@@ -1,7 +1,7 @@
 +++
 date = "2018-11-13T15:31:15-07:00"
 title = "Inductive Automation"
-logo = "inductive_automation" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "inductive_automation" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1317
 more_url = "https://inductiveautomation.com/ignition/"

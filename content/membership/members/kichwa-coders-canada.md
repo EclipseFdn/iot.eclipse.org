@@ -1,7 +1,7 @@
 +++
 date = "2019-10-14T09:29:00-07:00"
 title = "Kichwa Coders Canada Inc."
-logo = "kichwa-coders" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "kichwa-coders" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1125
 more_url = "https://kichwacoders.com/"

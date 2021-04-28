@@ -1,7 +1,7 @@
 +++
 date = "2015-06-24"
 title = "Huawei"
-logo = "huawei" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "huawei" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1175
 more_url = "http://www.huawei.com"

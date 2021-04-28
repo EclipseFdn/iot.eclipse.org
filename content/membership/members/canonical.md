@@ -2,7 +2,7 @@
 date = "2015-03-08T15:31:16-07:00"
 title = "Canonical"
 member_type = "participating"
-logo = "canonical" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "canonical" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_id = 1135
 demo_url = "https://www.youtube.com/watch?v=rHmovXPoMWw&index=20&list=PLwFSk464RMxnTIf0N3Jk_YjmoMdRWeJjr"
 more_url = "https://www.ubuntu.com/internet-of-things"

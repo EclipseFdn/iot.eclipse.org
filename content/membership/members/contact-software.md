@@ -1,7 +1,7 @@
 +++
 date = "2017-06-30T15:31:15-07:00"
 title = "CONTACT Software"
-logo = "contact-software" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "contact-software" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1252
 more_url = "https://www.contact-software.com/en/products/elements-for-iot/"

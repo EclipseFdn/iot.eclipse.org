@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:15-07:00"
 title = "Bosch.IO"
-logo = "bosch" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "bosch" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "steering"
 member_id = 979
 more_url = "http://bosch.io"

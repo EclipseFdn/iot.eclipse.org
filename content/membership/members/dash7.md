@@ -1,7 +1,7 @@
 +++
 date = "2020-03-09T08:00:00-07:00"
 title = "Dash7 Alliance"
-logo = "dash7" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "dash7" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "guest"
 member_id = 1406
 more_url = "https://dash7-alliance.org/"
