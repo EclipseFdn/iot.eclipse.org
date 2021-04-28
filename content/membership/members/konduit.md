@@ -1,7 +1,7 @@
 +++
 date = "2020-06-29T09:29:00-07:00"
 title = "Konduit"
-logo = "konduit" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "konduit" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1377
 more_url = "http://konduit.ai/"

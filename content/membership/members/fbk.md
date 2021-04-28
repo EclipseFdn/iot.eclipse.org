@@ -1,7 +1,7 @@
 +++
 date = "2018-05-22T15:31:15-07:00"
 title = "Fondazione Bruno Kessler - FBK"
-logo = "fbk" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "fbk" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1219
 more_url = "https://create-net.fbk.eu/en/openiot/"

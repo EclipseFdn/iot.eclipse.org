@@ -2,7 +2,7 @@
 date = "2019-04-18T21:19:52-07:00"
 title = "Compex Systemhaus GmbH"
 member_type = "participating"
-logo = "compex" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "compex" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_id = 1195
 more_url = "https://www.compex-commerce.com/en/start/"
 # description is taken from eclipse.org

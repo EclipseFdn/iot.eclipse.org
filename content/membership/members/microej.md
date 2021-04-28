@@ -1,7 +1,7 @@
 +++
 date = "2015-03-08T15:31:18-07:00"
 title = "MicroEJ"
-logo = "microej" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "microej" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1140
 demo_url = "http://www.microej.com/videos/"

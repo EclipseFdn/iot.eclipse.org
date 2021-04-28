@@ -292,6 +292,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.6.3"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.3"
+      - 
         name: "2.6.2"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.2"
       - 
@@ -859,6 +862,12 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.7.1"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.1"
+      - 
+        name: "1.6.2"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.6.2"
+      - 
         name: "1.7.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.0"
       - 
@@ -1172,6 +1181,9 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.4.4"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.4"
+      - 
         name: "1.4.3"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.3"
       - 
@@ -1449,8 +1461,8 @@
   - 
     project_id: "iot.kura"
     short_project_id: "kura"
-    name: "Eclipse Kura"
-    summary: "Eclipse Kura offers a Java/OSGi-based container for M2M applications running in service gateways. Kura provides or, when available, aggregates open source implementations for the most common..."
+    name: "Eclipse Kura™"
+    summary: "Eclipse Kura™ offers a Java/OSGi-based container for M2M applications running in service gateways. Kura provides or, when available, aggregates open source implementations for the most common..."
     url: "https://projects.eclipse.org/projects/iot.kura"
     website_url: "https://www.eclipse.org/kura/"
     logo: "https://projects.eclipse.org/sites/default/files/kura_logo_small.png"
@@ -1842,8 +1854,26 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.1"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.1"
+      - 
+        name: "2.0.10"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.10"
+      - 
+        name: "2.0.9"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.9"
+      - 
+        name: "2.0.8"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.8"
+      - 
+        name: "2.0.7"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.7"
+      - 
         name: "2.0.5"
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.5"
+      - 
+        name: "2.0.6"
+        url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.6"
       - 
         name: "2.0.4"
         url: "https://projects.eclipse.org/projects/iot.mosquitto/releases/2.0.4"
@@ -2630,15 +2660,9 @@
         username: "mraccahlisei"
         url: "https://api.eclipse.org/account/profile/mraccahlisei"
       - 
-        username: "kolotu"
-        url: "https://api.eclipse.org/account/profile/kolotu"
-      - 
         username: "aedelmann"
         url: "https://api.eclipse.org/account/profile/aedelmann"
-    project_leads: 
-      - 
-        username: "kolotu"
-        url: "https://api.eclipse.org/account/profile/kolotu"
+    project_leads: []
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
@@ -2677,6 +2701,15 @@
     gerrit_repos: []
     contributors: []
     committers: 
+      - 
+        username: "lsandstrm"
+        url: "https://api.eclipse.org/account/profile/lsandstrm"
+      - 
+        username: "mlasch"
+        url: "https://api.eclipse.org/account/profile/mlasch"
+      - 
+        username: "tnordiuslm3"
+        url: "https://api.eclipse.org/account/profile/tnordiuslm3"
       - 
         username: "rschneider4c5"
         url: "https://api.eclipse.org/account/profile/rschneider4c5"
@@ -2837,7 +2870,7 @@
     summary: "In domains like automotive, robotics or gaming, a huge amount of data must be transferred between different parts of the system. If these parts are actually different processes on a POSIX based..."
     url: "https://projects.eclipse.org/projects/technology.iceoryx"
     website_url: "http://iceoryx.io/"
-    logo: "https://projects.eclipse.org/sites/default/files/ice0ryx-transparent_0.png"
+    logo: "https://projects.eclipse.org/sites/default/files/iceoryx-Logo-01.png"
     tags: []
     github_repos: 
       - 

@@ -1,7 +1,7 @@
 +++
 date = "2019-06-11"
 title = "Linux Foundation"
-logo = "linux-foundation" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "linux-foundation" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "guest"
 member_id = 1345
 more_url = "https://www.linuxfoundation.org"

@@ -1,7 +1,7 @@
 +++
 date = "2019-10-14T09:29:00-07:00"
 title = "Open Robotics"
-logo = "open-robotics" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "open-robotics" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "guest"
 more_url = "https://www.openrobotics.org/"
 +++

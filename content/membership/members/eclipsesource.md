@@ -1,7 +1,7 @@
 +++
 date = "2016-11-07T15:31:21-07:00"
 title = "EclipseSource"
-logo = "eclipsesource" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "eclipsesource" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 690
 

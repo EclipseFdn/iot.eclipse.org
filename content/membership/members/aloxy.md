@@ -1,7 +1,7 @@
 +++
 date = "2019-10-14T12:31:21-07:00"
 title = "Aloxy"
-logo = "aloxy" #make sure to have a file named [logo].png in the static/assets/images/members/ folder
+logo = "aloxy" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 1371
 more_url = "http://www.aloxy.io/"
