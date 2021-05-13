@@ -4,6 +4,7 @@ title = "EclipseSource"
 logo = "eclipsesource" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
 member_id = 690
+more_url = "https://eclipsesource.com/"
 
 +++
 EclipseSource is a leader in Eclipse technology and provides you with the expertise to solve your domain challenges. Therefore, we create and adopt innovative as well as proven technology including all essential Eclipse frameworks.
