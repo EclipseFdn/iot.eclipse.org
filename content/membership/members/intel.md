@@ -3,7 +3,7 @@ date = "2017-09-25"
 title = "Intel"
 logo = "intel" #make sure to have a file named logo-[company name].png in the content/membership/members/images folder
 member_type = "participating"
-member_id = 675
+member_id = 657
 more_url = "https://software.intel.com/en-us/iot/home"
 # description is taken from eclipse.org
 +++
