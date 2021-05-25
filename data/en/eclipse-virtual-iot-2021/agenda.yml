@@ -65,7 +65,7 @@ sets:
       time: 18:00-18:45 / 12:00-12:45 / 09:00-09:45 (CET/EST/PST)
       abstract: <p>Zenoh is rapidly growing Eclipse project that unifies data in motion, data at rest and computations. It elegantly blends traditional pub/sub with geo distributed storage, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks. This presentation will provide an introduction to Eclipse Zenoh along with a crisp explanation of the challenges that motivated the creation of this project. We will go through a series of real-world use cases that demonstrate the advantages brought by Zenoh in enabling and optimising typical edge scenarios and in simplifying the development of any scale distributed applications.</p>
     - name: "Running your private IoT Cloud Stack"
-      presenter: Kai Hudalla
+      presenter: Kai Hudalla, Dominik Guggemos
       type: 2
       time: 19:00-19:45 / 13:00-13:45 / 10:00-10:45 (CET/EST/PST)
       abstract: |
