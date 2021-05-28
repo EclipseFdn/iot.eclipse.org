@@ -8,7 +8,7 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 header_wrapper_class: "iot-day"
-links: [[href: "https://www.crowdcast.io/e/virtualiotandedgeday2021", text: "Attend"]]
+links: [[href: "https://youtube.com/playlist?list=PLy7t4z5SYNaRQNiKFEF_BRELXSIB5_4Gm", text: "Watch the Recordings"]]
 container: container-fluid
 layout: single
 ---
