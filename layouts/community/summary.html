@@ -34,7 +34,9 @@
     {{if .Params.link}}
       <a href="{{.Params.link }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
     {{ end }}
+    {{ if not .Params.hide_html }}
     <a href="{{.RelPermalink}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
+    {{ end }}
     </p>
   {{ end }}
 </div>
