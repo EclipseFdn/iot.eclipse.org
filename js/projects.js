@@ -12,61 +12,93 @@ var projectsAssociation = {
         'iot.californium': true,
         'iot.om2m': true,
         'iot.mosquitto': true,
-        'iot.moquette': true,
         'iot.wakaama': true,
         'iot.leshan': true,
         'iot.concierge': true,
-        'iot.risev2g': true,
         'iot.4diac': true,
-        'iot.tiaki': true,
         'iot.tinydtls': true,
         'iot.milo': true,
         'iot.cyclonedds':true,
         'iot.unide': true,
         'iot.thingweb': true,
         'iot.tahu': true,
-        'iot.keyple': true
+        'iot.keyple': true,
+        'iot.amlen': true,
+        'iot.oneofour': true,
+        'iot.sparkplug': true
     },
 
     'Devices': {
+        'automotive.kuksa': true,
         'iot.concierge': true,
-        'iot.paho': true,
-        'iot.wakaama': true,
+        'iot.cyclonedds':true,
+        'iot.hawkbit.hara': true,
         'iot.mita': true,
+        'iot.mraa': true,
+        'iot.paho': true,
+        'iot.paho.incubator': true,
+        'iot.sparkplug': true,
+        'iot.tahu': true,
+        'iot.upm': true,
+        'iot.volttron': true,
+        'iot.wakaama': true,
+        'iot.zenoh': true,
     },
 
     'Gateways': {
+        'iot.agail': true,
         'iot.concierge': true,
         'iot.kura': true,
-        'iot.smarthome': true,
         'iot.leshan': true,
-        'iot.agail': true
+        'iot.mraa': true,
+        'iot.sparkplug': true,
+        'iot.tahu': true,
+        'iot.upm': true,
+        'iot.volttron': true,
     },
 
     'Cloud': {
+        'iot.amlen': true,
+        'iot.arrowhead': true,
+        'iot.ditto': true,
+        'iot.hawkbit': true,
         'iot.hono': true,
         'iot.kapua': true,
-        'iot.mosquitto': true,
-        'iot.hawkbit': true,
         'iot.leshan': true,
-        'iot.ponte': true,
-        'iot.ditto': true
+        'iot.mosquitto': true,
+        'iot.sparkplug': true,
+        'iot.streamsheets': true,
+        'iot.tahu': true,
+        'iot.volttron': true,
+        'iot.vorto': true,
     },
 
     'Tools': {
-        'iot.eclipsescada': true
+        'iot.4diac': true,
+        'iot.editdor': true,
+        'iot.embed-cdt': true,
+        'iot.packages': true,
     },
 
-    'Ontologies': {
+    'Models': {
         'iot.vorto': true,
         'iot.unide': true,
         'iot.thingweb': true
     },
 
     'Security': {
-        'iot.tinydtls': true,
         'iot.californium': true,
-        'iot.leshan': true
+        'iot.keti': true,
+        'iot.leshan': true,
+        'iot.tinydtls': true,
+    },
+
+    'Edge': {
+        'iot.fog05': true,
+        'iot.iofog': true,
+        'iot.kura': true,
+        'iot.mosquitto': true,
+        'iot.zenoh': true,
     },
 
 
