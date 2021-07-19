@@ -32,46 +32,52 @@
     committers: 
       - 
         username: "wchenl8e"
+        full_name: "Wenwen Chen"
         url: "https://api.eclipse.org/account/profile/wchenl8e"
       - 
         username: "sschildt"
+        full_name: "Sebastian Schildt"
         url: "https://api.eclipse.org/account/profile/sschildt"
       - 
         username: "sjeroschewski"
+        full_name: "Sven Erik Jeroschewski"
         url: "https://api.eclipse.org/account/profile/sjeroschewski"
       - 
         username: "dschubert"
+        full_name: "David Schubert"
         url: "https://api.eclipse.org/account/profile/dschubert"
       - 
         username: "abanijamali"
+        full_name: "Ahmad Bani Jamali"
         url: "https://api.eclipse.org/account/profile/abanijamali"
       - 
         username: "phei"
+        full_name: "Philipp Heisig"
         url: "https://api.eclipse.org/account/profile/phei"
       - 
-        username: "siwai"
-        url: "https://api.eclipse.org/account/profile/siwai"
-      - 
         username: "severs"
+        full_name: "Steffen Evers"
         url: "https://api.eclipse.org/account/profile/severs"
       - 
         username: "lkrawczyk"
+        full_name: "Lukas Krawczyk"
         url: "https://api.eclipse.org/account/profile/lkrawczyk"
       - 
-        username: "pkriefrvi"
-        url: "https://api.eclipse.org/account/profile/pkriefrvi"
-      - 
         username: "jkristan"
+        full_name: "Johannes Kristan"
         url: "https://api.eclipse.org/account/profile/jkristan"
       - 
         username: "rhoettger"
+        full_name: "Robert Hoettger"
         url: "https://api.eclipse.org/account/profile/rhoettger"
     project_leads: 
       - 
         username: "jkristan"
+        full_name: "Johannes Kristan"
         url: "https://api.eclipse.org/account/profile/jkristan"
       - 
         username: "rhoettger"
+        full_name: "Robert Hoettger"
         url: "https://api.eclipse.org/account/profile/rhoettger"
     working_groups: 
       - 
@@ -112,34 +118,41 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/4diac/org.eclipse.4diac.examples.git"
+        url: "https://git.eclipse.org/r/4diac/org.eclipse.4diac.examples"
       - 
-        url: "/gitroot/4diac/org.eclipse.4diac.forte.git"
+        url: "https://git.eclipse.org/r/4diac/org.eclipse.4diac.forte"
       - 
-        url: "/gitroot/4diac/org.eclipse.4diac.ide.git"
+        url: "https://git.eclipse.org/r/4diac/org.eclipse.4diac.ide"
     contributors: []
     committers: 
       - 
         username: "bwiesmayr"
+        full_name: "Bianca Wiesmayr"
         url: "https://api.eclipse.org/account/profile/bwiesmayr"
       - 
         username: "jcabralmt7"
+        full_name: "Jose Maria Jesus Cabral Lassalle"
         url: "https://api.eclipse.org/account/profile/jcabralmt7"
       - 
         username: "fandren"
+        full_name: "Filip Andren"
         url: "https://api.eclipse.org/account/profile/fandren"
       - 
         username: "mmelikmerkumians"
+        full_name: "Martin Melik Merkumians"
         url: "https://api.eclipse.org/account/profile/mmelikmerkumians"
       - 
         username: "azoitl"
+        full_name: "Alois Zoitl"
         url: "https://api.eclipse.org/account/profile/azoitl"
       - 
         username: "mwenger"
+        full_name: "Monika Wenger"
         url: "https://api.eclipse.org/account/profile/mwenger"
     project_leads: 
       - 
         username: "azoitl"
+        full_name: "Alois Zoitl"
         url: "https://api.eclipse.org/account/profile/azoitl"
     working_groups: 
       - 
@@ -206,21 +219,21 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/agail/agail.git"
+        url: "https://git.eclipse.org/r/agail/agail"
     contributors: []
     committers: 
       - 
         username: "rsosaly8"
+        full_name: "Roman Sosa"
         url: "https://api.eclipse.org/account/profile/rsosaly8"
       - 
-        username: "pkriefrvi"
-        url: "https://api.eclipse.org/account/profile/pkriefrvi"
-      - 
         username: "ckiraly"
+        full_name: "Csaba Kiraly"
         url: "https://api.eclipse.org/account/profile/ckiraly"
     project_leads: 
       - 
         username: "ckiraly"
+        full_name: "Csaba Kiraly"
         url: "https://api.eclipse.org/account/profile/ckiraly"
     working_groups: 
       - 
@@ -264,25 +277,32 @@
     committers: 
       - 
         username: "akraus"
+        full_name: "Achim Kraus"
         url: "https://api.eclipse.org/account/profile/akraus"
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
       - 
         username: "khudalla"
+        full_name: "Kai Hudalla"
         url: "https://api.eclipse.org/account/profile/khudalla"
       - 
         username: "mkovatsch"
+        full_name: "Matthias Kovatsch"
         url: "https://api.eclipse.org/account/profile/mkovatsch"
       - 
         username: "jvermillard"
+        full_name: "Julien Vermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
     project_leads: 
       - 
         username: "khudalla"
+        full_name: "Kai Hudalla"
         url: "https://api.eclipse.org/account/profile/khudalla"
       - 
         username: "mkovatsch"
+        full_name: "Matthias Kovatsch"
         url: "https://api.eclipse.org/account/profile/mkovatsch"
     working_groups: 
       - 
@@ -291,6 +311,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.6.4"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.4"
       - 
         name: "2.6.3"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.3"
@@ -357,13 +380,16 @@
     committers: 
       - 
         username: "tverbelen"
+        full_name: "Tim Verbelen"
         url: "https://api.eclipse.org/account/profile/tverbelen"
       - 
         username: "jrellerme"
+        full_name: "Jan S. Rellermeyer"
         url: "https://api.eclipse.org/account/profile/jrellerme"
     project_leads: 
       - 
         username: "jrellerme"
+        full_name: "Jan S. Rellermeyer"
         url: "https://api.eclipse.org/account/profile/jrellerme"
     working_groups: 
       - 
@@ -394,25 +420,32 @@
         url: "https://github.com/eclipse-cyclonedds/cyclonedds-cxx"
       - 
         url: "https://github.com/eclipse-cyclonedds/cyclonedds-python"
+      - 
+        url: "https://github.com/eclipse-cyclonedds/eclipse-cyclonedds.github.io"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
     committers: 
       - 
         username: "jkoekkoek"
+        full_name: "Jeroen Koekkoek"
         url: "https://api.eclipse.org/account/profile/jkoekkoek"
       - 
         username: "eboasson"
+        full_name: "Erik Boasson"
         url: "https://api.eclipse.org/account/profile/eboasson"
       - 
         username: "acorsaro"
+        full_name: "Angelo Corsaro"
         url: "https://api.eclipse.org/account/profile/acorsaro"
       - 
         username: "hvanthag"
+        full_name: "Hans van t Hag"
         url: "https://api.eclipse.org/account/profile/hvanthag"
     project_leads: 
       - 
         username: "eboasson"
+        full_name: "Erik Boasson"
         url: "https://api.eclipse.org/account/profile/eboasson"
     working_groups: 
       - 
@@ -453,46 +486,60 @@
         url: "https://github.com/eclipse/ditto-clients"
       - 
         url: "https://github.com/eclipse/ditto-clients-golang"
+      - 
+        url: "https://github.com/eclipse/ditto-clients-python"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
     committers: 
       - 
         username: "yklem"
+        full_name: "Yannic Klem"
         url: "https://api.eclipse.org/account/profile/yklem"
       - 
         username: "smaute"
+        full_name: "Stefan Maute"
         url: "https://api.eclipse.org/account/profile/smaute"
       - 
         username: "ffendt"
+        full_name: "Florian Fendt"
         url: "https://api.eclipse.org/account/profile/ffendt"
       - 
         username: "dguggemos"
+        full_name: "Dominik Guggemos"
         url: "https://api.eclipse.org/account/profile/dguggemos"
       - 
         username: "yucai"
+        full_name: "Yufei Cai"
         url: "https://api.eclipse.org/account/profile/yucai"
       - 
         username: "geglocker"
+        full_name: "Gerald Glocker"
         url: "https://api.eclipse.org/account/profile/geglocker"
       - 
         username: "jkraeher"
+        full_name: "Johannes Schneider"
         url: "https://api.eclipse.org/account/profile/jkraeher"
       - 
         username: "jfickel"
+        full_name: "Juergen Fickel"
         url: "https://api.eclipse.org/account/profile/jfickel"
       - 
         username: "dfesenmeyer"
+        full_name: "Daniel Fesenmeyer"
         url: "https://api.eclipse.org/account/profile/dfesenmeyer"
       - 
         username: "tjaeckle"
+        full_name: "Thomas Jaeckle"
         url: "https://api.eclipse.org/account/profile/tjaeckle"
     project_leads: 
       - 
         username: "tjaeckle"
+        full_name: "Thomas Jaeckle"
         url: "https://api.eclipse.org/account/profile/tjaeckle"
       - 
         username: "geglocker"
+        full_name: "Gerald Glocker"
         url: "https://api.eclipse.org/account/profile/geglocker"
     working_groups: 
       - 
@@ -501,6 +548,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.0.1"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.0.1"
       - 
         name: "2.0.0"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.0.0"
@@ -559,21 +609,25 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/duttile/duttile.git"
+        url: "https://git.eclipse.org/r/duttile/duttile"
     contributors: []
     committers: 
       - 
         username: "ppatierno"
+        full_name: "Paolo Patierno"
         url: "https://api.eclipse.org/account/profile/ppatierno"
       - 
         username: "fpescatore"
+        full_name: "Felice Pescatore"
         url: "https://api.eclipse.org/account/profile/fpescatore"
       - 
         username: "aalpi"
+        full_name: "Alessandro Alpi"
         url: "https://api.eclipse.org/account/profile/aalpi"
     project_leads: 
       - 
         username: "fpescatore"
+        full_name: "Felice Pescatore"
         url: "https://api.eclipse.org/account/profile/fpescatore"
     working_groups: 
       - 
@@ -683,25 +737,32 @@
     committers: 
       - 
         username: "ohecart"
+        full_name: "Olivier HECART"
         url: "https://api.eclipse.org/account/profile/ohecart"
       - 
         username: "gbaldoni"
+        full_name: "Gabriele Baldoni"
         url: "https://api.eclipse.org/account/profile/gbaldoni"
       - 
         username: "jenoch15e"
+        full_name: "Julien Enoch"
         url: "https://api.eclipse.org/account/profile/jenoch15e"
       - 
         username: "acorsaro"
+        full_name: "Angelo Corsaro"
         url: "https://api.eclipse.org/account/profile/acorsaro"
       - 
         username: "eboasson"
+        full_name: "Erik Boasson"
         url: "https://api.eclipse.org/account/profile/eboasson"
     project_leads: 
       - 
         username: "acorsaro"
+        full_name: "Angelo Corsaro"
         url: "https://api.eclipse.org/account/profile/acorsaro"
       - 
         username: "gbaldoni"
+        full_name: "Gabriele Baldoni"
         url: "https://api.eclipse.org/account/profile/gbaldoni"
     working_groups: 
       - 
@@ -740,31 +801,40 @@
     committers: 
       - 
         username: "bbondar"
+        full_name: "Bogdan Bondar"
         url: "https://api.eclipse.org/account/profile/bbondar"
       - 
         username: "jlaverman"
+        full_name: "Jeroen Laverman"
         url: "https://api.eclipse.org/account/profile/jlaverman"
       - 
         username: "sbehl"
+        full_name: "Stefan Behl"
         url: "https://api.eclipse.org/account/profile/sbehl"
       - 
         username: "dschabelw3o"
+        full_name: "Dominic Schabel"
         url: "https://api.eclipse.org/account/profile/dschabelw3o"
       - 
         username: "dmelzer"
+        full_name: "Dennis Melzer"
         url: "https://api.eclipse.org/account/profile/dmelzer"
       - 
         username: "mhirsch"
+        full_name: "Michael Hirsch"
         url: "https://api.eclipse.org/account/profile/mhirsch"
       - 
         username: "kzimmermann"
+        full_name: "Kai Zimmermann"
         url: "https://api.eclipse.org/account/profile/kzimmermann"
     project_leads: 
       - 
         username: "jlaverman"
+        full_name: "Jeroen Laverman"
         url: "https://api.eclipse.org/account/profile/jlaverman"
       - 
         username: "kzimmermann"
+        full_name: "Kai Zimmermann"
         url: "https://api.eclipse.org/account/profile/kzimmermann"
     working_groups: 
       - 
@@ -819,40 +889,52 @@
     committers: 
       - 
         username: "kkalidassa2i"
+        full_name: "Kartheeswaran Kalidass"
         url: "https://api.eclipse.org/account/profile/kkalidassa2i"
       - 
         username: "clohmannxg7"
+        full_name: "Carsten Lohmann"
         url: "https://api.eclipse.org/account/profile/clohmannxg7"
       - 
         username: "jreimann"
+        full_name: "Jens Reimann"
         url: "https://api.eclipse.org/account/profile/jreimann"
       - 
         username: "mpellmann"
+        full_name: "Marc Pellmann"
         url: "https://api.eclipse.org/account/profile/mpellmann"
       - 
         username: "kfrankoma"
+        full_name: "Karsten Frank"
         url: "https://api.eclipse.org/account/profile/kfrankoma"
       - 
         username: "ppatierno"
+        full_name: "Paolo Patierno"
         url: "https://api.eclipse.org/account/profile/ppatierno"
       - 
         username: "hkonsek"
+        full_name: "Henryk Konsek"
         url: "https://api.eclipse.org/account/profile/hkonsek"
       - 
         username: "khudalla"
+        full_name: "Kai Hudalla"
         url: "https://api.eclipse.org/account/profile/khudalla"
       - 
         username: "dguggemos"
+        full_name: "Dominik Guggemos"
         url: "https://api.eclipse.org/account/profile/dguggemos"
       - 
         username: "dbosanac"
+        full_name: "Dejan Bosanac"
         url: "https://api.eclipse.org/account/profile/dbosanac"
     project_leads: 
       - 
         username: "dbosanac"
+        full_name: "Dejan Bosanac"
         url: "https://api.eclipse.org/account/profile/dbosanac"
       - 
         username: "khudalla"
+        full_name: "Kai Hudalla"
         url: "https://api.eclipse.org/account/profile/khudalla"
     working_groups: 
       - 
@@ -861,6 +943,24 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.9.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.9.0"
+      - 
+        name: "1.8.2"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.8.2"
+      - 
+        name: "1.8.1"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.8.1"
+      - 
+        name: "1.7.4"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.4"
+      - 
+        name: "1.8.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.8.0"
+      - 
+        name: "1.7.3"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.3"
       - 
         name: "1.7.1"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.7.1"
@@ -978,10 +1078,12 @@
     committers: 
       - 
         username: "prichert"
+        full_name: "Philipp Richert"
         url: "https://api.eclipse.org/account/profile/prichert"
     project_leads: 
       - 
         username: "prichert"
+        full_name: "Philipp Richert"
         url: "https://api.eclipse.org/account/profile/prichert"
     working_groups: 
       - 
@@ -1072,31 +1174,40 @@
     committers: 
       - 
         username: "lkrl"
+        full_name: "Luboš Krčál"
         url: "https://api.eclipse.org/account/profile/lkrl"
       - 
         username: "nnaithani"
+        full_name: "Neha Naithani"
         url: "https://api.eclipse.org/account/profile/nnaithani"
       - 
         username: "imartinfkg"
+        full_name: "Ian Martin"
         url: "https://api.eclipse.org/account/profile/imartinfkg"
       - 
         username: "sradinovich"
+        full_name: "Serge Radinovich"
         url: "https://api.eclipse.org/account/profile/sradinovich"
       - 
         username: "adewergifosse"
+        full_name: "Alex de Wergifosse"
         url: "https://api.eclipse.org/account/profile/adewergifosse"
       - 
         username: "tpapaioannou417"
+        full_name: "Todd Papaioannou "
         url: "https://api.eclipse.org/account/profile/tpapaioannou417"
       - 
         username: "srezaeibaghbidiyyn"
+        full_name: "Saeid Rezaei Baghbidi"
         url: "https://api.eclipse.org/account/profile/srezaeibaghbidiyyn"
       - 
         username: "khopkins"
+        full_name: "Kilton Hopkins"
         url: "https://api.eclipse.org/account/profile/khopkins"
     project_leads: 
       - 
         username: "khopkins"
+        full_name: "Kilton Hopkins"
         url: "https://api.eclipse.org/account/profile/khopkins"
     working_groups: 
       - 
@@ -1120,8 +1231,8 @@
   - 
     project_id: "iot.kapua"
     short_project_id: "kapua"
-    name: "Eclipse Kapua"
-    summary: "The following diagram provides a functional architecture of the Eclipse Kapua project. Device Connectivity The connectivity of the devices is managed through a multi-protocol message..."
+    name: "Eclipse Kapua™"
+    summary: "Eclipse Kapua&trade; is a modular integration platform for IoT devices and smart sensors that aims at bridging Operation Technology with Information Technology The following diagram provides a..."
     url: "https://projects.eclipse.org/projects/iot.kapua"
     website_url: "https://www.eclipse.org/kapua/"
     logo: "https://projects.eclipse.org/sites/default/files/kapua-200.png"
@@ -1135,43 +1246,56 @@
     committers: 
       - 
         username: "gbarbonn26"
+        full_name: "Gianluca Barbon"
         url: "https://api.eclipse.org/account/profile/gbarbonn26"
       - 
         username: "umesaric"
+        full_name: "Uros Mesaric"
         url: "https://api.eclipse.org/account/profile/umesaric"
       - 
         username: "jreimann"
+        full_name: "Jens Reimann"
         url: "https://api.eclipse.org/account/profile/jreimann"
       - 
         username: "cmezzasalmafx4"
+        full_name: "Claudio Mezzasalma"
         url: "https://api.eclipse.org/account/profile/cmezzasalmafx4"
       - 
         username: "hkonsek"
+        full_name: "Henryk Konsek"
         url: "https://api.eclipse.org/account/profile/hkonsek"
       - 
         username: "smorson"
+        full_name: "Stefano Morson"
         url: "https://api.eclipse.org/account/profile/smorson"
       - 
         username: "dbosanac"
+        full_name: "Dejan Bosanac"
         url: "https://api.eclipse.org/account/profile/dbosanac"
       - 
         username: "rmodanese"
+        full_name: "Riccardo Modanese"
         url: "https://api.eclipse.org/account/profile/rmodanese"
       - 
         username: "fbaldo"
+        full_name: "Federico Baldo"
         url: "https://api.eclipse.org/account/profile/fbaldo"
       - 
         username: "mcarrer"
+        full_name: "Marco Carrer"
         url: "https://api.eclipse.org/account/profile/mcarrer"
       - 
         username: "acodutti"
+        full_name: "Alberto Codutti"
         url: "https://api.eclipse.org/account/profile/acodutti"
       - 
         username: "eevangelista"
+        full_name: "Elbert Evangelista"
         url: "https://api.eclipse.org/account/profile/eevangelista"
     project_leads: 
       - 
         username: "mcarrer"
+        full_name: "Marco Carrer"
         url: "https://api.eclipse.org/account/profile/mcarrer"
     working_groups: 
       - 
@@ -1180,6 +1304,9 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "1.5.0"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.5.0"
       - 
         name: "1.4.4"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.4.4"
@@ -1297,19 +1424,24 @@
     committers: 
       - 
         username: "damiri"
+        full_name: "Dariush Amiri"
         url: "https://api.eclipse.org/account/profile/damiri"
       - 
         username: "asaggi6a0"
+        full_name: "Anubhav Saggi"
         url: "https://api.eclipse.org/account/profile/asaggi6a0"
       - 
         username: "iepshteyn"
+        full_name: "Irina Epshteyn"
         url: "https://api.eclipse.org/account/profile/iepshteyn"
       - 
         username: "schopraf6p"
+        full_name: "Sanjeev Chopra"
         url: "https://api.eclipse.org/account/profile/schopraf6p"
     project_leads: 
       - 
         username: "schopraf6p"
+        full_name: "Sanjeev Chopra"
         url: "https://api.eclipse.org/account/profile/schopraf6p"
     working_groups: 
       - 
@@ -1338,75 +1470,89 @@
       - 
         url: "https://github.com/eclipse/keyple-cpp"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-android-nfc"
+        url: "https://github.com/eclipse/keyple-plugin-android-nfc-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-android-omapi"
+        url: "https://github.com/eclipse/keyple-plugin-android-omapi-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-card-api"
+        url: "https://github.com/eclipse/keyple-service-resource-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-card-calypso"
+        url: "https://github.com/eclipse/keyple-card-calypso-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-commons-api"
+        url: "https://github.com/eclipse/keyple-common-java-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-distributed-local"
+        url: "https://github.com/eclipse/keyple-distributed-local-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-distributed-local-api"
+        url: "https://github.com/eclipse/keyple-distributed-local-java-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-distributed-network"
+        url: "https://github.com/eclipse/keyple-distributed-network-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-distributed-remote"
+        url: "https://github.com/eclipse/keyple-distributed-remote-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-distributed-remote-api"
+        url: "https://github.com/eclipse/keyple-distributed-remote-java-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-example"
+        url: "https://github.com/eclipse/keyple-distributed-local-java-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-api"
+        url: "https://github.com/eclipse/keyple-plugin-java-api"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-pcsc"
+        url: "https://github.com/eclipse/keyple-plugin-pcsc-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-plugin-stub"
+        url: "https://github.com/eclipse/keyple-plugin-stub-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-service"
+        url: "https://github.com/eclipse/keyple-service-java-lib"
       - 
-        url: "https://github.com/eclipse/keyple-java-utils"
+        url: "https://github.com/eclipse/keyple-util-java-lib"
       - 
         url: "https://github.com/eclipse/keyple-ops"
       - 
         url: "https://github.com/eclipse/keyple-website"
+      - 
+        url: "https://github.com/eclipse/keyple-card-generic-java-lib"
+      - 
+        url: "https://github.com/eclipse/keyple-integration-java-test"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
     committers: 
       - 
         username: "acristeatwy"
+        full_name: "Andrei Cristea"
         url: "https://api.eclipse.org/account/profile/acristeatwy"
       - 
         username: "mmenzikoff"
+        full_name: "Meddy MENZIKOFF"
         url: "https://api.eclipse.org/account/profile/mmenzikoff"
       - 
         username: "amunsch"
+        full_name: "Alexandre MUNSCH"
         url: "https://api.eclipse.org/account/profile/amunsch"
       - 
         username: "bruppen"
+        full_name: "Brice Ruppen"
         url: "https://api.eclipse.org/account/profile/bruppen"
       - 
         username: "jfortune"
+        full_name: "Jean-Pierre Fortune"
         url: "https://api.eclipse.org/account/profile/jfortune"
       - 
         username: "mmisingnamerrv"
+        full_name: "Olivier Delcroix"
         url: "https://api.eclipse.org/account/profile/mmisingnamerrv"
       - 
         username: "pterree"
+        full_name: "Pierre Terree"
         url: "https://api.eclipse.org/account/profile/pterree"
     project_leads: 
       - 
         username: "pterree"
+        full_name: "Pierre Terree"
         url: "https://api.eclipse.org/account/profile/pterree"
       - 
         username: "yyam"
+        full_name: "Yvonne Yam"
         url: "https://api.eclipse.org/account/profile/yyam"
       - 
         username: "ngenerali"
+        full_name: "Nicolas Generali"
         url: "https://api.eclipse.org/account/profile/ngenerali"
     working_groups: 
       - 
@@ -1476,58 +1622,76 @@
     committers: 
       - 
         username: "merker"
+        full_name: "Marko Erker"
         url: "https://api.eclipse.org/account/profile/merker"
       - 
         username: "ntimeus"
+        full_name: "Nicola Timeus"
         url: "https://api.eclipse.org/account/profile/ntimeus"
       - 
         username: "amondalq06"
+        full_name: "Amit Kumar Mondal"
         url: "https://api.eclipse.org/account/profile/amondalq06"
       - 
         username: "jreimann"
+        full_name: "Jens Reimann"
         url: "https://api.eclipse.org/account/profile/jreimann"
       - 
         username: "hkonsek"
+        full_name: "Henryk Konsek"
         url: "https://api.eclipse.org/account/profile/hkonsek"
       - 
         username: "pmerlino"
+        full_name: "Pierantonio Merlino"
         url: "https://api.eclipse.org/account/profile/pmerlino"
       - 
         username: "mmaiero"
+        full_name: "Matteo Maiero"
         url: "https://api.eclipse.org/account/profile/mmaiero"
       - 
         username: "ldazi"
+        full_name: "Luca Dazi"
         url: "https://api.eclipse.org/account/profile/ldazi"
       - 
         username: "cdealti"
+        full_name: "Cristiano De Alti"
         url: "https://api.eclipse.org/account/profile/cdealti"
       - 
         username: "wbowers"
+        full_name: "Walt Bowers"
         url: "https://api.eclipse.org/account/profile/wbowers"
       - 
         username: "ibinshtok"
+        full_name: "Ilya Binshtok"
         url: "https://api.eclipse.org/account/profile/ibinshtok"
       - 
         username: "mcarrer"
+        full_name: "Marco Carrer"
         url: "https://api.eclipse.org/account/profile/mcarrer"
       - 
         username: "ppitiot"
+        full_name: "Pierre Pitiot"
         url: "https://api.eclipse.org/account/profile/ppitiot"
       - 
         username: "dwoodard"
+        full_name: "David Woodard"
         url: "https://api.eclipse.org/account/profile/dwoodard"
       - 
         username: "eevangelista"
+        full_name: "Elbert Evangelista"
         url: "https://api.eclipse.org/account/profile/eevangelista"
     project_leads: 
       - 
         username: "mmaiero"
+        full_name: "Matteo Maiero"
         url: "https://api.eclipse.org/account/profile/mmaiero"
       - 
         username: "dwoodard"
+        full_name: "David Woodard"
         url: "https://api.eclipse.org/account/profile/dwoodard"
       - 
         username: "mcarrer"
+        full_name: "Marco Carrer"
         url: "https://api.eclipse.org/account/profile/mcarrer"
     working_groups: 
       - 
@@ -1628,22 +1792,28 @@
     committers: 
       - 
         username: "khudalla"
+        full_name: "Kai Hudalla"
         url: "https://api.eclipse.org/account/profile/khudalla"
       - 
         username: "msangoi"
+        full_name: "Manuel Sangoi"
         url: "https://api.eclipse.org/account/profile/msangoi"
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
       - 
         username: "jvermillard"
+        full_name: "Julien Vermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
     project_leads: 
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
       - 
         username: "jvermillard"
+        full_name: "Julien Vermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
     working_groups: 
       - 
@@ -1677,9 +1847,9 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/mihini/org.eclipse.mihini.samples.git"
+        url: "https://git.eclipse.org/r/mihini/org.eclipse.mihini.samples"
       - 
-        url: "/gitroot/mihini/org.eclipse.mihini.git"
+        url: "https://git.eclipse.org/r/mihini/org.eclipse.mihini"
     contributors: []
     committers: []
     project_leads: []
@@ -1711,13 +1881,16 @@
     committers: 
       - 
         username: "jreimann"
+        full_name: "Jens Reimann"
         url: "https://api.eclipse.org/account/profile/jreimann"
       - 
         username: "kherronpng"
+        full_name: "Kevin Herron"
         url: "https://api.eclipse.org/account/profile/kherronpng"
     project_leads: 
       - 
         username: "kherronpng"
+        full_name: "Kevin Herron"
         url: "https://api.eclipse.org/account/profile/kherronpng"
     working_groups: 
       - 
@@ -1756,25 +1929,32 @@
     committers: 
       - 
         username: "rherrmannmbx"
+        full_name: "Robin Herrmann"
         url: "https://api.eclipse.org/account/profile/rherrmannmbx"
       - 
         username: "tkutz"
+        full_name: "Thomas Kutz"
         url: "https://api.eclipse.org/account/profile/tkutz"
       - 
         username: "amuelder"
+        full_name: "Andreas Muelder"
         url: "https://api.eclipse.org/account/profile/amuelder"
       - 
         username: "swegendt"
+        full_name: "Simon Wegendt"
         url: "https://api.eclipse.org/account/profile/swegendt"
       - 
         username: "cweichelvik"
+        full_name: "Christian Weichel"
         url: "https://api.eclipse.org/account/profile/cweichelvik"
     project_leads: 
       - 
         username: "cweichelvik"
+        full_name: "Christian Weichel"
         url: "https://api.eclipse.org/account/profile/cweichelvik"
       - 
         username: "swegendt"
+        full_name: "Simon Wegendt"
         url: "https://api.eclipse.org/account/profile/swegendt"
     working_groups: 
       - 
@@ -1832,19 +2012,24 @@
     committers: 
       - 
         username: "tosawa"
+        full_name: "Tatsuzo Osawa"
         url: "https://api.eclipse.org/account/profile/tosawa"
       - 
         username: "pfersing"
+        full_name: "Pierre Fersing"
         url: "https://api.eclipse.org/account/profile/pfersing"
       - 
         username: "rlight"
+        full_name: "Roger Light"
         url: "https://api.eclipse.org/account/profile/rlight"
       - 
         username: "icraggs"
+        full_name: "Ian Craggs"
         url: "https://api.eclipse.org/account/profile/icraggs"
     project_leads: 
       - 
         username: "rlight"
+        full_name: "Roger Light"
         url: "https://api.eclipse.org/account/profile/rlight"
     working_groups: 
       - 
@@ -2018,25 +2203,32 @@
     committers: 
       - 
         username: "tpanu"
+        full_name: "Mihai T Panu"
         url: "https://api.eclipse.org/account/profile/tpanu"
       - 
         username: "atereschenko"
+        full_name: "Alex Tereschenko"
         url: "https://api.eclipse.org/account/profile/atereschenko"
       - 
         username: "hbruce3lq"
+        full_name: "Henry Bruce"
         url: "https://api.eclipse.org/account/profile/hbruce3lq"
       - 
         username: "tingleby"
+        full_name: "Tom Ingleby"
         url: "https://api.eclipse.org/account/profile/tingleby"
       - 
         username: "msadhasivamt6j"
+        full_name: "Manivannan Sadhasivam"
         url: "https://api.eclipse.org/account/profile/msadhasivamt6j"
     project_leads: 
       - 
         username: "tpanu"
+        full_name: "Mihai T Panu"
         url: "https://api.eclipse.org/account/profile/tpanu"
       - 
         username: "tingleby"
+        full_name: "Tom Ingleby"
         url: "https://api.eclipse.org/account/profile/tingleby"
     working_groups: 
       - 
@@ -2071,21 +2263,25 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/om2m/org.eclipse.om2m.git"
+        url: "https://git.eclipse.org/r/om2m/org.eclipse.om2m"
     contributors: []
     committers: 
       - 
         username: "ggarzone"
+        full_name: "Guillaume Garzone"
         url: "https://api.eclipse.org/account/profile/ggarzone"
       - 
         username: "tmonteil"
+        full_name: "Thierry Monteil"
         url: "https://api.eclipse.org/account/profile/tmonteil"
       - 
         username: "ybanouar"
+        full_name: "Yassine Banouar"
         url: "https://api.eclipse.org/account/profile/ybanouar"
     project_leads: 
       - 
         username: "tmonteil"
+        full_name: "Thierry Monteil"
         url: "https://api.eclipse.org/account/profile/tmonteil"
     working_groups: 
       - 
@@ -2158,59 +2354,73 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/paho/org.eclipse.paho.apps.git"
+        url: "https://git.eclipse.org/r/paho/org.eclipse.paho.apps"
       - 
-        url: "/gitroot/paho/org.eclipse.paho.esf.git"
+        url: "https://git.eclipse.org/r/paho/org.eclipse.paho.esf"
       - 
-        url: "/gitroot/paho/org.eclipse.paho.mqtt-sn.apps.git"
+        url: "https://git.eclipse.org/r/paho/org.eclipse.paho.mqtt-sn.apps"
       - 
-        url: "/gitroot/paho/org.eclipse.paho.mqtt.lua.git"
+        url: "https://git.eclipse.org/r/paho/org.eclipse.paho.mqtt.lua"
       - 
-        url: "/gitroot/paho/org.eclipse.paho.mqtt.objc.git"
+        url: "https://git.eclipse.org/r/paho/org.eclipse.paho.mqtt.objc"
     contributors: []
     committers: 
       - 
         username: "mbrittan"
+        full_name: "Matt Brittan"
         url: "https://api.eclipse.org/account/profile/mbrittan"
       - 
         username: "rdasgupta"
+        full_name: "Ranjan Dasgupta"
         url: "https://api.eclipse.org/account/profile/rdasgupta"
       - 
         username: "tyamaguchigln"
+        full_name: "Tomoaki Yamaguchi"
         url: "https://api.eclipse.org/account/profile/tyamaguchigln"
       - 
         username: "pfersing"
+        full_name: "Pierre Fersing"
         url: "https://api.eclipse.org/account/profile/pfersing"
       - 
         username: "kbaczkowicz"
+        full_name: "Kamil Baczkowicz"
         url: "https://api.eclipse.org/account/profile/kbaczkowicz"
       - 
         username: "fpagliughi"
+        full_name: "Frank Pagliughi"
         url: "https://api.eclipse.org/account/profile/fpagliughi"
       - 
         username: "ppatierno"
+        full_name: "Paolo Patierno"
         url: "https://api.eclipse.org/account/profile/ppatierno"
       - 
         username: "asm"
+        full_name: "Al Stockdill-Mander"
         url: "https://api.eclipse.org/account/profile/asm"
       - 
         username: "rlight"
+        full_name: "Roger Light"
         url: "https://api.eclipse.org/account/profile/rlight"
       - 
         username: "anpiper"
+        full_name: "Andy Piper"
         url: "https://api.eclipse.org/account/profile/anpiper"
       - 
         username: "noleary"
+        full_name: "Nicholas O'Leary"
         url: "https://api.eclipse.org/account/profile/noleary"
       - 
         username: "dlocke"
+        full_name: "Dave Locke"
         url: "https://api.eclipse.org/account/profile/dlocke"
       - 
         username: "icraggs"
+        full_name: "Ian Craggs"
         url: "https://api.eclipse.org/account/profile/icraggs"
     project_leads: 
       - 
         username: "icraggs"
+        full_name: "Ian Craggs"
         url: "https://api.eclipse.org/account/profile/icraggs"
     working_groups: 
       - 
@@ -2253,20 +2463,23 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/paho.incubator/org.eclipse.paho.mqtt.lua.git"
+        url: "https://git.eclipse.org/r/paho.incubator/org.eclipse.paho.mqtt.lua"
       - 
-        url: "/gitroot/paho.incubator/smidge.git"
+        url: "https://git.eclipse.org/r/paho.incubator/smidge"
     contributors: []
     committers: 
       - 
         username: "asm"
+        full_name: "Al Stockdill-Mander"
         url: "https://api.eclipse.org/account/profile/asm"
       - 
         username: "icraggs"
+        full_name: "Ian Craggs"
         url: "https://api.eclipse.org/account/profile/icraggs"
     project_leads: 
       - 
         username: "icraggs"
+        full_name: "Ian Craggs"
         url: "https://api.eclipse.org/account/profile/icraggs"
     working_groups: 
       - 
@@ -2359,22 +2572,28 @@
     committers: 
       - 
         username: "ndavenport"
+        full_name: "Nathan Davenport"
         url: "https://api.eclipse.org/account/profile/ndavenport"
       - 
         username: "ibinshtok"
+        full_name: "Ilya Binshtok"
         url: "https://api.eclipse.org/account/profile/ibinshtok"
       - 
         username: "wjohnson"
+        full_name: "Wes Johnson"
         url: "https://api.eclipse.org/account/profile/wjohnson"
       - 
         username: "ckienle"
+        full_name: "Chad Kienle"
         url: "https://api.eclipse.org/account/profile/ckienle"
     project_leads: 
       - 
         username: "ckienle"
+        full_name: "Chad Kienle"
         url: "https://api.eclipse.org/account/profile/ckienle"
       - 
         username: "wjohnson"
+        full_name: "Wes Johnson"
         url: "https://api.eclipse.org/account/profile/wjohnson"
     working_groups: 
       - 
@@ -2403,31 +2622,40 @@
     committers: 
       - 
         username: "caguzzi"
+        full_name: "Cristiano Aguzzi"
         url: "https://api.eclipse.org/account/profile/caguzzi"
       - 
         username: "skaebisch"
+        full_name: "Sebastian Kaebisch"
         url: "https://api.eclipse.org/account/profile/skaebisch"
       - 
         username: "jhund"
+        full_name: "Johannes Hund"
         url: "https://api.eclipse.org/account/profile/jhund"
       - 
         username: "vcharpenayfow"
+        full_name: "Victor Charpenay"
         url: "https://api.eclipse.org/account/profile/vcharpenayfow"
       - 
         username: "cglomb"
+        full_name: "Christian Glomb"
         url: "https://api.eclipse.org/account/profile/cglomb"
       - 
         username: "dpeintner"
+        full_name: "Daniel Peintner"
         url: "https://api.eclipse.org/account/profile/dpeintner"
       - 
         username: "mkovatsch"
+        full_name: "Matthias Kovatsch"
         url: "https://api.eclipse.org/account/profile/mkovatsch"
     project_leads: 
       - 
         username: "dpeintner"
+        full_name: "Daniel Peintner"
         url: "https://api.eclipse.org/account/profile/dpeintner"
       - 
         username: "mkovatsch"
+        full_name: "Matthias Kovatsch"
         url: "https://api.eclipse.org/account/profile/mkovatsch"
     working_groups: 
       - 
@@ -2483,18 +2711,21 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/tinydtls/org.eclipse.tinydtls.git"
+        url: "https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls"
     contributors: []
     committers: 
       - 
         username: "obergmann"
+        full_name: "Olaf Bergmann"
         url: "https://api.eclipse.org/account/profile/obergmann"
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
     project_leads: 
       - 
         username: "obergmann"
+        full_name: "Olaf Bergmann"
         url: "https://api.eclipse.org/account/profile/obergmann"
     working_groups: 
       - 
@@ -2528,19 +2759,24 @@
     committers: 
       - 
         username: "fpatzbrockmann"
+        full_name: "Frank Patz-Brockmann"
         url: "https://api.eclipse.org/account/profile/fpatzbrockmann"
       - 
         username: "bgonzalezusach"
+        full_name: "Bor Gonzalez-Usach"
         url: "https://api.eclipse.org/account/profile/bgonzalezusach"
       - 
         username: "jkristan"
+        full_name: "Johannes Kristan"
         url: "https://api.eclipse.org/account/profile/jkristan"
       - 
         username: "ameinhardt"
+        full_name: "Axel Meinhardt"
         url: "https://api.eclipse.org/account/profile/ameinhardt"
     project_leads: 
       - 
         username: "ameinhardt"
+        full_name: "Axel Meinhardt"
         url: "https://api.eclipse.org/account/profile/ameinhardt"
     working_groups: 
       - 
@@ -2573,25 +2809,32 @@
     committers: 
       - 
         username: "tpanu"
+        full_name: "Mihai T Panu"
         url: "https://api.eclipse.org/account/profile/tpanu"
       - 
         username: "atereschenko"
+        full_name: "Alex Tereschenko"
         url: "https://api.eclipse.org/account/profile/atereschenko"
       - 
         username: "hbruce3lq"
+        full_name: "Henry Bruce"
         url: "https://api.eclipse.org/account/profile/hbruce3lq"
       - 
         username: "tingleby"
+        full_name: "Tom Ingleby"
         url: "https://api.eclipse.org/account/profile/tingleby"
       - 
         username: "msadhasivamt6j"
+        full_name: "Manivannan Sadhasivam"
         url: "https://api.eclipse.org/account/profile/msadhasivamt6j"
     project_leads: 
       - 
         username: "tpanu"
+        full_name: "Mihai T Panu"
         url: "https://api.eclipse.org/account/profile/tpanu"
       - 
         username: "tingleby"
+        full_name: "Tom Ingleby"
         url: "https://api.eclipse.org/account/profile/tingleby"
     working_groups: 
       - 
@@ -2616,19 +2859,24 @@
     committers: 
       - 
         username: "sniddodi"
+        full_name: "Shwetha Niddodi"
         url: "https://api.eclipse.org/account/profile/sniddodi"
       - 
         username: "callwardt"
+        full_name: "Craig Allwardt"
         url: "https://api.eclipse.org/account/profile/callwardt"
       - 
         username: "jhaack"
+        full_name: "Jereme Haack"
         url: "https://api.eclipse.org/account/profile/jhaack"
       - 
         username: "ghernandezonl"
+        full_name: "George Hernandez"
         url: "https://api.eclipse.org/account/profile/ghernandezonl"
     project_leads: 
       - 
         username: "ghernandezonl"
+        full_name: "George Hernandez"
         url: "https://api.eclipse.org/account/profile/ghernandezonl"
     working_groups: 
       - 
@@ -2655,12 +2903,15 @@
     committers: 
       - 
         username: "tgauwff"
+        full_name: "Tobias Gauß"
         url: "https://api.eclipse.org/account/profile/tgauwff"
       - 
         username: "mraccahlisei"
+        full_name: "Menahem Julien Raccah Lisei"
         url: "https://api.eclipse.org/account/profile/mraccahlisei"
       - 
         username: "aedelmann"
+        full_name: "Alexander Edelmann"
         url: "https://api.eclipse.org/account/profile/aedelmann"
     project_leads: []
     working_groups: 
@@ -2703,28 +2954,36 @@
     committers: 
       - 
         username: "lsandstrm"
+        full_name: "Leif Sandström"
         url: "https://api.eclipse.org/account/profile/lsandstrm"
       - 
         username: "mlasch"
+        full_name: "Marc Lasch"
         url: "https://api.eclipse.org/account/profile/mlasch"
       - 
         username: "tnordiuslm3"
+        full_name: "Tuve Nordius"
         url: "https://api.eclipse.org/account/profile/tnordiuslm3"
       - 
         username: "rschneider4c5"
+        full_name: "Reto Schneider"
         url: "https://api.eclipse.org/account/profile/rschneider4c5"
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
       - 
         username: "akraus"
+        full_name: "Achim Kraus"
         url: "https://api.eclipse.org/account/profile/akraus"
       - 
         username: "jvermillard"
+        full_name: "Julien Vermillard"
         url: "https://api.eclipse.org/account/profile/jvermillard"
     project_leads: 
       - 
         username: "sbernard"
+        full_name: "Simon Bernard"
         url: "https://api.eclipse.org/account/profile/sbernard"
     working_groups: 
       - 
@@ -2830,31 +3089,42 @@
         url: "https://github.com/eclipse-zenoh/zenoh-backend-sql"
       - 
         url: "https://github.com/eclipse-zenoh/zenoh-csharp"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-flow"
+      - 
+        url: "https://github.com/eclipse-zenoh/zenoh-demos"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
     committers: 
       - 
         username: "lcominardi"
+        full_name: "Luca Cominardi"
         url: "https://api.eclipse.org/account/profile/lcominardi"
       - 
         username: "ohecart"
+        full_name: "Olivier HECART"
         url: "https://api.eclipse.org/account/profile/ohecart"
       - 
         username: "acorsaro"
+        full_name: "Angelo Corsaro"
         url: "https://api.eclipse.org/account/profile/acorsaro"
       - 
         username: "jenoch15e"
+        full_name: "Julien Enoch"
         url: "https://api.eclipse.org/account/profile/jenoch15e"
       - 
         username: "heyong4725"
+        full_name: "Yong He"
         url: "https://api.eclipse.org/account/profile/heyong4725"
     project_leads: 
       - 
         username: "acorsaro"
+        full_name: "Angelo Corsaro"
         url: "https://api.eclipse.org/account/profile/acorsaro"
       - 
         username: "heyong4725"
+        full_name: "Yong He"
         url: "https://api.eclipse.org/account/profile/heyong4725"
     working_groups: 
       - 
@@ -2862,7 +3132,10 @@
         id: "internet-things-iot"
     spec_project_working_group: []
     state: "Incubating"
-    releases: []
+    releases: 
+      - 
+        name: "0.5.0 (Aithusa)"
+        url: "https://projects.eclipse.org/projects/iot.zenoh/releases/0.5.0-aithusa"
   - 
     project_id: "technology.iceoryx"
     short_project_id: "iceoryx"
@@ -2882,41 +3155,53 @@
     contributors: 
       - 
         username: "mphnl"
+        full_name: "Michael Poehnl"
         url: "https://api.eclipse.org/account/profile/mphnl"
     committers: 
       - 
         username: "mlehmann43b"
+        full_name: "Marika Lehmann"
         url: "https://api.eclipse.org/account/profile/mlehmann43b"
       - 
         username: "mhintz"
+        full_name: "Martin Hintz"
         url: "https://api.eclipse.org/account/profile/mhintz"
       - 
         username: "jithier"
+        full_name: "Jeff Ithier"
         url: "https://api.eclipse.org/account/profile/jithier"
       - 
         username: "mkillat"
+        full_name: "Matthias Killat"
         url: "https://api.eclipse.org/account/profile/mkillat"
       - 
         username: "dkrnke"
+        full_name: "Dietrich Krönke"
         url: "https://api.eclipse.org/account/profile/dkrnke"
       - 
         username: "shoinkis"
+        full_name: "Simon Hoinkis"
         url: "https://api.eclipse.org/account/profile/shoinkis"
       - 
         username: "mkrausrrt"
+        full_name: "Mathias Kraus"
         url: "https://api.eclipse.org/account/profile/mkrausrrt"
       - 
         username: "celtzschig"
+        full_name: "Christian Eltzschig"
         url: "https://api.eclipse.org/account/profile/celtzschig"
       - 
         username: "mphnl"
+        full_name: "Michael Poehnl"
         url: "https://api.eclipse.org/account/profile/mphnl"
       - 
         username: "ariexinger"
+        full_name: "Andreas Riexinger"
         url: "https://api.eclipse.org/account/profile/ariexinger"
     project_leads: 
       - 
         username: "mphnl"
+        full_name: "Michael Poehnl"
         url: "https://api.eclipse.org/account/profile/mphnl"
     working_groups: 
       - 
@@ -2944,19 +3229,19 @@
     gitlab_repos: []
     gerrit_repos: 
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.commons.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.commons"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.ldt.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.ldt"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.models.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.models"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.mfe.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.mfe"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.mfe.linux.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.mfe.linux"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.protocols.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.protocols"
       - 
-        url: "/gitroot/koneki/org.eclipse.koneki.simulators.git"
+        url: "https://git.eclipse.org/r/koneki/org.eclipse.koneki.simulators"
     contributors: []
     committers: []
     project_leads: []

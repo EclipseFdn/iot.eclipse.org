@@ -5,3 +5,5 @@ keywords: ["eclipse", "eclipse iot", "internet of things", "iot", "events", "sin
 layout: "events"
 hide_sidebar: true
 ---
+
+{{< newsroom/events publishTarget="eclipse_iot" count="10" paginate="true" archive="1">}}

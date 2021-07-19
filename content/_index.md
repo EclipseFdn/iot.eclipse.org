@@ -19,7 +19,34 @@ seo_title_suffix: " - Leading open source community for IoT innovation"
 ---
 
 {{< home-stats >}}
-{{< home-news >}}
+
+{{< grid/section-container class="featured-news">}}
+  {{< grid/div class="row" isMarkdown="false" >}}
+    {{< grid/div class="col-sm-14" isMarkdown="false" >}}
+      {{< newsroom/news
+          title="News"
+          id="news-list-container"
+          publishTarget="eclipse_iot"
+          count="4"
+          class="col-sm-24"
+          templateId="custom-news-template" templatePath="/js/templates/news-home.mustache"
+          includeList="true" >}}
+    {{</ grid/div >}}
+
+    {{< grid/div class="col-sm-8 col-sm-offset-2 featured-events text-center" isMarkdown="false" >}}
+      {{< newsroom/events
+          title="Upcoming Events"
+          publishTarget="eclipse_iot"
+          class="col-sm-24"
+          containerClass="event-timeline"
+          upcoming="1"
+          templateId="custom-events-template" templatePath="/js/templates/event-list-format.mustache"
+          count="4"  includeList="true" >}}
+    {{</ grid/div >}}
+   {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+
 {{< testimonials class="featured-testimonials text-center row homepage-testimimonials">}}
 {{< home-members >}}
 {{< home-eclipse-foundation >}}
