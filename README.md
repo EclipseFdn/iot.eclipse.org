@@ -9,7 +9,7 @@ Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and C
 Install dependencies, build website and start a simple webserver:
 
 ```bash
-yarn && hugo server
+npm && hugo server
 ```
 
 ## Contributing
