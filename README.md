@@ -25,8 +25,8 @@ npm install && hugo server
 
 Does your organization use Eclipse IoT projects? Organizations — whether they are members of the Eclipse Foundation or not — can be listed as Eclipse IoT technology adopters.
 
- Show your support for open source by adding your logo to the Eclipse IoT [Adopters](https://iot.eclipse.org/adopters/) page. Please **[create an issue](https://github.com/EclipseFdn/eclipsefdn-project-adopters/issues/new?template=adopter_request.md)** to add your logo below. 
- 
+ Show your support for open source by adding your logo to the Eclipse IoT [Adopters](https://iot.eclipse.org/adopters/) page. Please **[create an issue](https://github.com/EclipseFdn/eclipsefdn-project-adopters/issues/new?template=adopter_request.md)** to add your logo below.
+
 For more information about this program, please visit our [eclipsefdn-project-adopters](https://github.com/EclipseFdn/eclipsefdn-project-adopters) project.
 
 ### Declared Project Licenses

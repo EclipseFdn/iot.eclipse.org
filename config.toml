@@ -49,27 +49,27 @@ themesDir = "node_modules/"
   youtube = "EclipseFdn"
   googleplus = "+Eclipse"
   linkedin = "company/eclipse-foundation/"
-  
+
 [taxonomies]
   category = "categories"
   tag = "tags"
-  
+
 [[menu.main]]
   name = "Adopters"
   url = "/adopters/"
   weight = 1
   identifier = "adopters"
-  
+
 [[menu.main]]
   name = "Members"
   url = "/membership/"
   weight = 2
-  
+
 [[menu.main]]
   name = "Projects"
   url = "/projects/"
   weight = 3
-  
+
 [[menu.main]]
   name = "Resources"
   url = "/community/resources"
@@ -79,14 +79,14 @@ themesDir = "node_modules/"
   name = "Community"
   url = "/community/"
   weight = 5
-  
-  
+
+
 [[menu.sidebar]]
   name = "Adopters"
   url = "/adopters/"
   weight = 1
   identifier = "adopters"
-  
+
 [[menu.sidebar]]
   parent ="adopters"
   name = "How to be Listed as an Adopter"
@@ -101,72 +101,72 @@ themesDir = "node_modules/"
   pre = "<i data-feather=\"package\"></i>"
   weight = "2"
   identifier = "testbeds"
-  
+
 [[menu.sidebar]]
   parent ="testbeds"
   name = "Asset Tracking"
   url = "/adopters/testbeds/asset-tracking/"
   weight = "2"
-  
+
 [[menu.sidebar]]
   parent ="testbeds"
   name = "Production Performance Management"
   url = "/adopters/testbeds/production-performance-management/"
   weight = "2"
-  
+
 [[menu.sidebar]]
   parent ="testbeds"
   name = "Propose a new Testbed"
   url = "/adopters/testbeds/propose-a-new-testbed/"
   weight = "3"
-  
+
 [[menu.sidebar]]
   name = "Members"
   url = "/membership/"
   weight = 2
   identifier = "membership"
-  
+
 [[menu.sidebar]]
   parent ="membership"
   name = "Membership Benefits"
   url = "/membership/#benefits"
   pre = "<i data-feather=\"award\"></i>"
   weight = 1
-  
+
 [[menu.sidebar]]
   parent ="membership"
   name = "Member Testimonials"
   url = "/membership/#member-testimonials"
   pre = "<i data-feather=\"users\"></i>"
   weight = 2
-  
+
 [[menu.sidebar]]
   parent ="membership"
   name = "Explore Our Members"
   url = "/membership/members/"
   pre = "<i data-feather=\"zap\"></i>"
   weight = 3
-  
+
 [[menu.sidebar]]
   name = "Community"
   url = "/community/"
   weight = 5
   identifier = "community"
-  
+
 [[menu.sidebar]]
   parent ="community"
   name = "Open IoT Challenge"
   url = "/community/open-iot-challenge"
   pre = "<i data-feather=\"award\"></i>"
   weight = 2
-  
+
 [[menu.sidebar]]
   parent ="community"
   name = "Virtual IoT Meetup"
   url = "https://www.meetup.com/Virtual-IoT/"
   pre = "<i data-feather=\"at-sign\"></i>"
   weight = 3
-  
+
 # [[menu.sidebar]]
 #   parent ="community"
 #   name = "Resources"
@@ -179,21 +179,21 @@ themesDir = "node_modules/"
   url = "/projects/"
   weight = 6
   identifier = "projects"
-  
+
 [[menu.sidebar]]
   parent ="projects"
   name = "Sandboxes"
   url = "/projects/sandboxes"
   pre = "<i data-feather=\"file-text\"></i>"
   weight = 1
-  
+
 [[menu.sidebar]]
   parent ="projects"
   name = "Getting Started"
   url = "/projects/getting-started/"
   pre = "<i data-feather=\"award\"></i>"
   weight = 2
-  
+
 [[menu.sidebar]]
   parent ="community"
   name = "Resources"
@@ -207,20 +207,20 @@ themesDir = "node_modules/"
   name = "Videos"
   url = "/community/resources/videos/"
   weight = 1
-  
+
 [[menu.sidebar]]
   parent ="resources"
   name = "IoT Surveys"
   url = "/community/resources/iot-surveys"
   pre = "<i data-feather=\"file-text\"></i>"
   weight = 2
-  
+
 [[menu.sidebar]]
   parent ="resources"
   name = "Case Studies"
   url = "/community/resources/case-studies/"
   weight = 3
-  
+
 [[menu.sidebar]]
   parent ="resources"
   name = "White Papers"
@@ -232,7 +232,7 @@ themesDir = "node_modules/"
   name = "Articles"
   url = "/community/resources/articles/"
   weight = 5
-  
+
 [[menu.sidebar]]
   parent ="resources"
   name = "Market Reports"
@@ -250,14 +250,14 @@ themesDir = "node_modules/"
   url = "/news/"
   weight = 8
   identifier = "news"
-  
+
 [[menu.sidebar]]
   parent ="news"
   name = "News"
   url = "/news/"
   pre = "<i data-feather=\"tv\"></i>"
   weight = 1
-  
+
 [[menu.sidebar]]
   parent ="news"
   name = "Events"
