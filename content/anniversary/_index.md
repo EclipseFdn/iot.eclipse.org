@@ -6,6 +6,7 @@ keywords: ["Eclipse IoT", "IoT Gateways", "cloud backends", "open source softwar
 headline: ""
 custom_jumbotron: "<h1 class='text-center padding-bottom-30'>Celebrate 10 Years of the<br><span class='orange'>IoT Working Group</span></h1>"
 content_classes: "padding-top-50"
+container: "container-fluid"
 hide_sidebar: true
 hide_page_title: true
 header_wrapper_class: "header-alternate-bg-img-3"
