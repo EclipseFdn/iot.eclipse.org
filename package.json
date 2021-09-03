@@ -33,5 +33,8 @@
     "list.js": "^1.2.0",
     "numeral": "^1.4.5"
   },
+  "prettier": {
+    "printWidth": 120
+  },
   "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
 }

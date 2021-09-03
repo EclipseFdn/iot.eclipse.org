@@ -10,3 +10,5 @@ hide_sidebar: true
 hide_page_title: true
 header_wrapper_class: "header-alternate-bg-img-3"
 ---
+
+{{< page-anniversary >}}

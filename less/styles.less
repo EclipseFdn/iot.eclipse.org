@@ -44,3 +44,35 @@ main {
 .featured-footer.featured-story-dark {
   &:extend(.featured-newsletter);
 }
+
+.anniversary-content-ctn {
+  & {
+    display: flex;
+    align-items: center;
+  }
+  .anniversary-img-ctn {
+    & {
+      background-image: linear-gradient(#f9f9f9, #dddee4);
+    }
+    img {
+      width: 420px;
+      padding: 50px 100px;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      & {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+      }
+      .orange-dot {
+        background-color: #f7941e;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
