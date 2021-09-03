@@ -45,18 +45,22 @@ main {
   &:extend(.featured-newsletter);
 }
 
-.anniversary-content-ctn {
-  & {
-    display: flex;
-    align-items: center;
-  }
+.anniversary-container {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.anniversary-resources-ctn {
   .anniversary-img-ctn {
     & {
       background-image: linear-gradient(#f9f9f9, #dddee4);
     }
     img {
-      width: 420px;
-      padding: 50px 100px;
+      width: 40vw;
+      max-width: 420px;
+      padding: 40px 60px;
     }
   }
   ul {
@@ -73,6 +77,41 @@ main {
         height: 15px;
         border-radius: 50%;
       }
+    }
+  }
+}
+.grey-row {
+  background-color: #ededed;
+}
+.anniversary-video-ctn {
+  & {
+    justify-content: center;
+  }
+  .anniversary-video {
+    width: 85%;
+    min-width: 400px;
+  }
+}
+.anniversary-blog-ctn {
+  justify-content: space-between;
+  .blog-item {
+    & {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .blog-date {
+      width: 100px;
+      color: #434240;
+      margin-top: 10px;
+      padding-top: 20px;
+      font-weight: 600;
+      border-top: 3px #707070 solid;
     }
   }
 }
