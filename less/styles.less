@@ -53,29 +53,46 @@ main {
 }
 
 .anniversary-resources-ctn {
+  & {
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
   .anniversary-img-ctn {
     & {
       background-image: linear-gradient(#f9f9f9, #dddee4);
     }
     img {
-      width: 40vw;
-      max-width: 420px;
-      padding: 40px 60px;
+      width: 50vw;
+      max-width: 450px;
+      padding: 20px 30px;
+      @media (min-width: 768px) {
+        padding: 40px 80px;
+      }
     }
   }
   ul {
-    list-style: none;
+    & {
+      list-style: none;
+      padding-left: 0;
+      @media (min-width: 768px) {
+        padding-left: 40px;
+      }
+    }
+
     li {
       & {
         display: flex;
         align-items: center;
         font-weight: 600;
+        font-size: 20px;
       }
       .orange-dot {
         background-color: #f7941e;
         width: 15px;
         height: 15px;
-        border-radius: 50%;
+        border-radius: 15px;
       }
     }
   }
@@ -88,15 +105,13 @@ main {
     justify-content: center;
   }
   .anniversary-video {
-    width: 85%;
+    width: 100%;
     min-width: 400px;
   }
 }
 .anniversary-blog-ctn {
-  justify-content: space-between;
   .blog-item {
     & {
-      width: 30%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -104,6 +119,9 @@ main {
     img {
       width: 100%;
       margin-bottom: 20px;
+    }
+    .blog-description{
+      width: 100%;
     }
     .blog-date {
       width: 100px;
@@ -114,4 +132,7 @@ main {
       border-top: 3px #707070 solid;
     }
   }
+}
+.anniversary-blog-title {
+  font-weight: 500;
 }
