@@ -55,58 +55,92 @@ main {
 .anniversary-resources-ctn {
   & {
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     @media (min-width: 768px) {
       flex-direction: row;
     }
   }
   .anniversary-img-ctn {
     & {
-      background-image: linear-gradient(#f9f9f9, #dddee4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     img {
-      width: 50vw;
-      max-width: 450px;
-      padding: 20px 30px;
       @media (min-width: 768px) {
-        padding: 40px 80px;
+        max-height: 200px;
+        width: auto;
       }
+      width: 100%;
+      max-width: 100%;
     }
-  }
-  ul {
-    & {
-      list-style: none;
-      padding-left: 0;
-      @media (min-width: 768px) {
-        padding-left: 40px;
-      }
-    }
-
-    li {
-      & {
-        display: flex;
-        align-items: center;
-        font-weight: 600;
-        font-size: 20px;
-      }
-      .orange-dot {
-        background-color: #f7941e;
-        width: 15px;
-        height: 15px;
-        border-radius: 15px;
-      }
+    a {
+      margin: 20px 0;
+      font-size: 20px;
+      font-weight: 500;
+      color: black;
     }
   }
 }
+
 .grey-row {
-  background-color: #ededed;
+  position: relative;
+  .left-background-color,
+  .right-background-color {
+    background-color: #d6d2d2;
+    position: absolute;
+    width: 50vw;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+  }
+  .right-background-color {
+    background-color: #ededed;
+    right: 0;
+    width: 100vw;
+
+    @media (min-width: 900px) {
+      width: 49.5vw;
+    }
+  }
 }
 .anniversary-video-ctn {
   & {
-    justify-content: center;
+    flex-direction: column;
+    @media (min-width: 900px) {
+      flex-direction: row;
+    }
   }
-  .anniversary-video {
-    width: 100%;
-    min-width: 400px;
+  .section-home-dt.column {
+    & {
+      flex: 1;
+      width: 100%;
+      @media (min-width: 900px) {
+        &:first-child {
+          margin-right: 40px;
+        }
+        &:last-child {
+          margin-left: 40px;
+        }
+      }
+    }
+    .anniversary-url-ctn {
+      display: flex;
+      flex-direction: column;
+      a {
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 10px @orange solid;
+      }
+    }
+    .anniversary-video {
+      width: 100%;
+      min-width: 400px;
+    }
   }
 }
 .anniversary-blog-ctn {
@@ -120,7 +154,7 @@ main {
       width: 100%;
       margin-bottom: 20px;
     }
-    .blog-description{
+    .blog-description {
       width: 100%;
     }
     .blog-date {
@@ -133,6 +167,8 @@ main {
     }
   }
 }
-.anniversary-blog-title {
+.anniversary-blog-title,
+.anniversary-social-title {
   font-weight: 500;
+  margin-bottom: 40px;
 }
