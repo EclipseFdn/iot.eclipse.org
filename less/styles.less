@@ -154,11 +154,19 @@ main {
   }
 }
 .anniversary-blog-ctn {
+  .row {
+    display: flex;
+    justify-content: center;
+  }
   .blog-item {
     & {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    a {
+      text-decoration: none;
+      color: #4c4d4e;
     }
     img {
       width: 100%;
@@ -168,7 +176,7 @@ main {
       width: 100%;
     }
     .blog-date {
-      width: 100px;
+      width: 160px;
       color: #434240;
       margin-top: 10px;
       padding-top: 20px;
