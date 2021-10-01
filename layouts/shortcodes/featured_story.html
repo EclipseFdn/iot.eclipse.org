@@ -1,0 +1,13 @@
+<div class="eclipsefdn-featured-story featured-story" id="featured-story" data-publish-target="{{ .Page.Params.featured_content_publish_target | default .Site.Params.featured_content_publish_target | default "eclipse_org"}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-2 col-md-16 col-md-offset-0 featured-story-block featured-story-block-content match-height-item-by-row featured-container">
+      </div>
+      <div class="col-sm-9 col-md-8 featured-side featured-story-block match-height-item-by-row">
+        <div class="featured-side-content text-center">
+          {{ .Site.Data.featuredstory.defaultRight | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
