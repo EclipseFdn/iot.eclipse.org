@@ -84,7 +84,31 @@ main {
         max-height: 100%;
       }
     }
-
+    .anniversary-img-wrapper-overlap {
+      position: relative;
+      width: 100%;
+      img {
+        position: absolute;
+        width: 85%;
+        &:first-child {
+          bottom: 0;
+          right: 4%;
+        }
+        &:last-child {
+          left: 4%;
+        }
+      }
+    }
+    .anniversary-img-wrapper-col {
+      & {
+        flex-direction: column;
+        justify-content: center;
+      }
+      img {
+        max-height: 45%;
+        margin: 5px 0;
+      }
+    }
     a {
       margin: 20px 0;
       font-size: 20px;
