@@ -15,8 +15,8 @@ themesDir = "node_modules/"
   keywords = ["eclipse iot, internet of things, iot"]
   logo = "assets/images/logo_white.svg"
   logo_width = 120
-  styles = "assets/css/styles.min.css"
-  js = "assets/js/scripts.min.js"
+  styles = "assets/css/styles.min.css?v1.0"
+  js = "assets/js/scripts.min.js?v1.0"
   twitter_url = "https://twitter.com/EclipseIoT"
   facebook_url = "https://www.facebook.com/eclipseiot"
   youtube_url = "https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-"
