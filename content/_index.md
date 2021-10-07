@@ -8,7 +8,6 @@ keywords: ["Eclipse IoT", "IoT solutions", "IoT architecture", "open source soft
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-show_featured_story: false
 date: 2020-01-07T9:00:00-00:00
 layout: "single"
 links: [[href: "/projects", text: "Projects"], [href: "https://accounts.eclipse.org/contact/membership/iot", text: "Join Us"]]
@@ -19,6 +18,7 @@ seo_title_suffix: " - Leading open source community for IoT innovation"
 ---
 
 {{< home-stats >}}
+{{< featured_story >}}
 
 {{< grid/section-container class="featured-news">}}
   {{< grid/div class="row" isMarkdown="false" >}}
