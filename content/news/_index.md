@@ -6,10 +6,12 @@ keywords: ["Eclipse IoT", "open source", "open source software"]
 layout: "news"
 ---
 
-{{< newsroom/events
-      id="event-list-container"
-      title="Events"
-      archive="true"
-      publishTarget="eclipse_iot"
-      count="10"
-      paginate="true" >}}
+ {{< grid/div class="row featured-news" isMarkdown="false" >}}
+      {{< newsroom/news
+          id="news-list-container"
+          publishTarget="eclipse_iot"
+          count="10"
+          class="col-sm-24"
+          templateId="custom-news-template" templatePath="/js/templates/news-home.mustache"
+          paginate="true" >}}
+   {{</ grid/div >}}
