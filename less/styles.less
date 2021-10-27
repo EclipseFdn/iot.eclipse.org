@@ -163,15 +163,17 @@ main {
   }
 }
 .anniversary-blog-ctn {
-  .row {
-    display: flex;
-    justify-content: center;
+  @media (min-width: 768px) {
+    .row {
+      display: flex;
+    }
   }
   .blog-item {
     & {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
     }
     a {
       text-decoration: none;
