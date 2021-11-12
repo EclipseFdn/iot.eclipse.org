@@ -8,6 +8,7 @@ keywords: ["Eclipse IoT", "IoT solutions", "IoT architecture", "open source soft
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
+custom_jumbotron: "<a href='/anniversary'><div class='custom-header-container'><div class='icon-container'></div><img src='../assets/images/anniversary-icon.png' alt='Anniversary logo'/></div></a>"
 date: 2020-01-07T9:00:00-00:00
 layout: "single"
 links: [[href: "/projects", text: "Projects"], [href: "https://accounts.eclipse.org/contact/membership/iot", text: "Join Us"]]
