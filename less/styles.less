@@ -37,6 +37,40 @@
 @import '_components/mobile-sidebar.less';
 @import 'transient.less';
 
+.custom-header-container {
+  & {
+    position: relative;
+    z-index: 100;
+  }
+  img {
+    @media (min-width: 768px) {
+      width: 130px;
+      right: -45px;
+      top: -160px;
+    }
+    width: 80px;
+    position: absolute;
+    top: -290px;
+    right: calc(50% - 40px);
+  }
+  .icon-container {
+    @media (min-width: 768px) {
+      width: 155px;
+      height: 165px;
+      right: -55px;
+      top: -160px;
+    }
+    border-radius: 40px;
+    width: 100px;
+    height: 105px;
+    position: absolute;
+    top: -290px;
+    right: calc(50% - 50px);
+    filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
 main {
   padding-top: 10px;
 }
