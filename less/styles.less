@@ -42,17 +42,36 @@
     position: relative;
   }
   img {
-    width: 150px;
+    @media (min-width: 768px) {
+      width: 100px;
+      right: -45px;
+      top: -40px;
+    }
+    @media (min-width: 992px) {
+      width: 130px;
+    }
+    width: 80px;
     position: absolute;
-    right: -30px;
-    bottom: 0;
+    top: -120px;
+    right: calc(50% - 40px);
   }
   .icon-container {
-    width: 160px;
-    height: 185px;
+    @media (min-width: 768px) {
+      width: 120px;
+      height: 125px;
+      right: -55px;
+      top: -40px;
+    }
+    @media (min-width: 992px) {
+      width: 155px;
+      height: 165px;
+    }
+    border-radius: 40px;
+    width: 100px;
+    height: 105px;
     position: absolute;
-    right: -35px;
-    bottom: -10px;
+    top: -120px;
+    right: calc(50% - 50px);
     filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.7);
   }
