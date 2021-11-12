@@ -37,6 +37,27 @@
 @import '_components/mobile-sidebar.less';
 @import 'transient.less';
 
+.custom-header-container {
+  & {
+    position: relative;
+  }
+  img {
+    width: 150px;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+  }
+  .icon-container {
+    width: 160px;
+    height: 185px;
+    position: absolute;
+    right: -35px;
+    bottom: -10px;
+    filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
 main {
   padding-top: 10px;
 }
