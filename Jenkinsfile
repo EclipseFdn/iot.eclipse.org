@@ -72,6 +72,7 @@ pipeline {
 
   options {
     buildDiscarder(logRotator(numToKeepStr: '10'))
+    timeout(time: 15, unit: 'MINUTES')
   }
 
   triggers { 
