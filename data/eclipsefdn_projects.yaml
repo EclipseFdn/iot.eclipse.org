@@ -63,6 +63,10 @@
         full_name: "Lukas Krawczyk"
         url: "https://api.eclipse.org/account/profile/lkrawczyk"
       - 
+        username: "pkriefrvi"
+        full_name: "Philippe Krief"
+        url: "https://api.eclipse.org/account/profile/pkriefrvi"
+      - 
         username: "jkristan"
         full_name: "Johannes Kristan"
         url: "https://api.eclipse.org/account/profile/jkristan"
@@ -104,8 +108,8 @@
   - 
     project_id: "iot.4diac"
     short_project_id: "4diac"
-    name: "Eclipse 4diac"
-    summary: "Eclipse 4diac&trade; in its current form has been started 2007 as open source project fostering the further development of IEC 61499 for its use in distributed Industrial Process Measurement and..."
+    name: "Eclipse 4diac™ "
+    summary: "Eclipse 4diac&trade; in its current form has been started 2007 as an open source project fostering the further development of IEC 61499 for its use in distributed Industrial Process Measurement and..."
     url: "https://projects.eclipse.org/projects/iot.4diac"
     website_url: "http://www.eclipse.org/4diac"
     logo: "https://projects.eclipse.org/sites/default/files/4diac_logo.png"
@@ -161,6 +165,12 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "2.1.0"
+        url: "https://projects.eclipse.org/projects/iot.4diac/releases/2.1.0"
+      - 
+        name: "2.0.0"
+        url: "https://projects.eclipse.org/projects/iot.4diac/releases/2.0.0"
       - 
         name: "1.14.0"
         url: "https://projects.eclipse.org/projects/iot.4diac/releases/1.14.0"
@@ -227,6 +237,10 @@
         full_name: "Roman Sosa"
         url: "https://api.eclipse.org/account/profile/rsosaly8"
       - 
+        username: "pkriefrvi"
+        full_name: "Philippe Krief"
+        url: "https://api.eclipse.org/account/profile/pkriefrvi"
+      - 
         username: "ckiraly"
         full_name: "Csaba Kiraly"
         url: "https://api.eclipse.org/account/profile/ckiraly"
@@ -248,8 +262,8 @@
   - 
     project_id: "iot.californium"
     short_project_id: "californium"
-    name: "Eclipse Californium (Cf) CoAP Framework"
-    summary: "Eclipse Californium (Cf) is an open source implementation of the Constrained Application Protocol (CoAP). It is written in Java and targets unconstrained environments such as back-end service..."
+    name: "Eclipse Californium™ (Cf) CoAP Framework"
+    summary: "Eclipse Californium™ (Cf) is an open source implementation of the Constrained Application Protocol (CoAP). It is written in Java and targets unconstrained environments such as back-end service..."
     url: "https://projects.eclipse.org/projects/iot.californium"
     website_url: "https://www.eclipse.org/californium/"
     logo: "https://projects.eclipse.org/sites/default/files/Cf_128.png"
@@ -311,6 +325,15 @@
     spec_project_working_group: []
     state: "Regular"
     releases: 
+      - 
+        name: "2.6.6"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.6"
+      - 
+        name: "3.0.0"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/3.0.0"
+      - 
+        name: "2.6.5"
+        url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.5"
       - 
         name: "2.6.4"
         url: "https://projects.eclipse.org/projects/iot.californium/releases/2.6.4"
@@ -407,8 +430,8 @@
   - 
     project_id: "iot.cyclonedds"
     short_project_id: "cyclonedds"
-    name: "Eclipse Cyclone DDS"
-    summary: "Eclipse Cyclone DDS is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see http:/..."
+    name: "Eclipse Cyclone DDS™"
+    summary: "Eclipse Cyclone DDS&trade; is an implementation of the OMG Data Distribution Service (DDS) specification (see http://www.omg.org/spec/DDS/ ) and the related specifications for interoperability (see..."
     url: "https://projects.eclipse.org/projects/iot.cyclonedds"
     website_url: ""
     logo: "https://projects.eclipse.org/sites/default/files/Cyclone-DDS%20v3-03.png"
@@ -426,10 +449,6 @@
     gerrit_repos: []
     contributors: []
     committers: 
-      - 
-        username: "jkoekkoek"
-        full_name: "Jeroen Koekkoek"
-        url: "https://api.eclipse.org/account/profile/jkoekkoek"
       - 
         username: "eboasson"
         full_name: "Erik Boasson"
@@ -454,6 +473,9 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "0.8.0 (Réplique)"
+        url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.8.0-réplique"
       - 
         name: "0.7.0 (Coquette)"
         url: "https://projects.eclipse.org/projects/iot.cyclonedds/releases/0.7.0-coquette"
@@ -549,6 +571,18 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.2.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.2.0"
+      - 
+        name: "2.1.2"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.1.2"
+      - 
+        name: "2.1.1"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.1.1"
+      - 
+        name: "2.1.0"
+        url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.1.0"
+      - 
         name: "2.0.1"
         url: "https://projects.eclipse.org/projects/iot.ditto/releases/2.0.1"
       - 
@@ -600,7 +634,7 @@
     project_id: "iot.duttile"
     short_project_id: "duttile"
     name: "Eclipse Duttile"
-    summary: "Eclipse Duttile embrace the AgileConstellation mindset, which have the aim to extend the agile philosophy beyond the software/digital world. It looks at the world of the Internet of Things in a..."
+    summary: "Eclipse Duttile embrace the AgileConstellation mindset, which have the aim to extend the agile philosophy beyond the software/digital world. An IoT solution belongs to different technological..."
     url: "https://projects.eclipse.org/projects/iot.duttile"
     website_url: ""
     logo: "https://projects.eclipse.org/sites/default/files/eclipseduttile_logo.png"
@@ -620,10 +654,6 @@
         username: "fpescatore"
         full_name: "Felice Pescatore"
         url: "https://api.eclipse.org/account/profile/fpescatore"
-      - 
-        username: "aalpi"
-        full_name: "Alessandro Alpi"
-        url: "https://api.eclipse.org/account/profile/aalpi"
     project_leads: 
       - 
         username: "fpescatore"
@@ -944,6 +974,18 @@
     state: "Regular"
     releases: 
       - 
+        name: "2.0.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/2.0.0"
+      - 
+        name: "1.10.0"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.10.0"
+      - 
+        name: "1.9.1"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.9.1"
+      - 
+        name: "1.8.3"
+        url: "https://projects.eclipse.org/projects/iot.hono/releases/1.8.3"
+      - 
         name: "1.9.0"
         url: "https://projects.eclipse.org/projects/iot.hono/releases/1.9.0"
       - 
@@ -1064,10 +1106,10 @@
     project_id: "iot.ignite"
     short_project_id: "ignite"
     name: "Eclipse Ignite|IoT"
-    summary: "The Ignite|IoT methodology has two main perspectives: IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT..."
+    summary: "The Ignite|IoT methodology has two main perspectives:IoT Strategy Execution: This perspective looks at IoT strategy from an enterprise perspective, including IoT strategy definition, IoT..."
     url: "https://projects.eclipse.org/projects/iot.ignite"
     website_url: ""
-    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
+    logo: "https://projects.eclipse.org/sites/all/themes/solstice/public/images/logo/default.png"
     tags: []
     github_repos: 
       - 
@@ -1075,22 +1117,14 @@
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
-    committers: 
-      - 
-        username: "prichert"
-        full_name: "Philipp Richert"
-        url: "https://api.eclipse.org/account/profile/prichert"
-    project_leads: 
-      - 
-        username: "prichert"
-        full_name: "Philipp Richert"
-        url: "https://api.eclipse.org/account/profile/prichert"
+    committers: []
+    project_leads: []
     working_groups: 
       - 
         name: "Internet of Things (IoT)"
         id: "internet-things-iot"
     spec_project_working_group: []
-    state: "Incubating"
+    state: "Archived"
     releases: []
   - 
     project_id: "iot.iofog"
@@ -1305,6 +1339,15 @@
     state: "Regular"
     releases: 
       - 
+        name: "1.5.3"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.5.3"
+      - 
+        name: "1.5.2"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.5.2"
+      - 
+        name: "1.5.1"
+        url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.5.1"
+      - 
         name: "1.5.0"
         url: "https://projects.eclipse.org/projects/iot.kapua/releases/1.5.0"
       - 
@@ -1456,8 +1499,8 @@
   - 
     project_id: "iot.keyple"
     short_project_id: "keyple"
-    name: "Eclipse Keyple"
-    summary: "Eclipse Keyple is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction. The Keyple..."
+    name: "Eclipse Keyple®"
+    summary: "Eclipse Keyple&reg; is an open source framework to facilitate the implementation of terminal processing operating smart card readers, and to defined advanced secure ticketing transaction. The..."
     url: "https://projects.eclipse.org/projects/iot.keyple"
     website_url: "https://keyple.org"
     logo: "https://projects.eclipse.org/sites/default/files/keyple.png"
@@ -1509,6 +1552,8 @@
         url: "https://github.com/eclipse/keyple-card-generic-java-lib"
       - 
         url: "https://github.com/eclipse/keyple-integration-java-test"
+      - 
+        url: "https://github.com/eclipse/keyple-java-example"
     gitlab_repos: []
     gerrit_repos: []
     contributors: []
@@ -1561,6 +1606,9 @@
     spec_project_working_group: []
     state: "Incubating"
     releases: 
+      - 
+        name: "2.0.0 (Java 21/10)"
+        url: "https://projects.eclipse.org/projects/iot.keyple/releases/2.0.0-java-2110"
       - 
         name: "0.9.0 (Cpp 21/01)"
         url: "https://projects.eclipse.org/projects/iot.keyple/releases/0.9.0-cpp-2101"
@@ -1772,8 +1820,8 @@
   - 
     project_id: "iot.leshan"
     short_project_id: "leshan"
-    name: "Eclipse Leshan"
-    summary: "Eclipse Leshan is an OMA Lightweight M2M (LWM2M) implementation in Java. Leshan provides libraries which help people to develop their own Lightweight M2M server and client. The project also..."
+    name: "Eclipse Leshan™"
+    summary: "Eclipse Leshan&trade; is an OMA Lightweight M2M (LWM2M) implementation in Java. Leshan provides libraries which help people to develop their own Lightweight M2M server and client. The project..."
     url: "https://projects.eclipse.org/projects/iot.leshan"
     website_url: "https://eclipse.org/leshan"
     logo: "https://projects.eclipse.org/sites/default/files/leshan.png"
@@ -2555,6 +2603,61 @@
         name: "0.7.0"
         url: "https://projects.eclipse.org/projects/iot.smarthome/releases/0.7.0"
   - 
+    project_id: "iot.streamsheets"
+    short_project_id: "streamsheets"
+    name: "Eclipse Streamsheets™"
+    summary: "With Eclipse Streamsheets&trade; the everyday technical or business end user can create stream processing applications just by using their existing spreadsheet knowledge (e.g. from Microsoft Excel..."
+    url: "https://projects.eclipse.org/projects/iot.streamsheets"
+    website_url: ""
+    logo: "https://projects.eclipse.org/sites/all/modules/custom/pmi/project_state/images/incubating.png"
+    tags: []
+    github_repos: 
+      - 
+        url: "https://github.com/eclipse/streamsheets"
+    gitlab_repos: []
+    gerrit_repos: []
+    contributors: []
+    committers: 
+      - 
+        username: "rlight"
+        full_name: "Roger Light"
+        url: "https://api.eclipse.org/account/profile/rlight"
+      - 
+        username: "ahouben"
+        full_name: "Arnd Houben"
+        url: "https://api.eclipse.org/account/profile/ahouben"
+      - 
+        username: "evlachogiannis"
+        full_name: "Evangelos Vlachogiannis"
+        url: "https://api.eclipse.org/account/profile/evlachogiannis"
+      - 
+        username: "mraue"
+        full_name: "Michael Raue"
+        url: "https://api.eclipse.org/account/profile/mraue"
+      - 
+        username: "asayn210"
+        full_name: "Andreas Sayn"
+        url: "https://api.eclipse.org/account/profile/asayn210"
+    project_leads: 
+      - 
+        username: "rlight"
+        full_name: "Roger Light"
+        url: "https://api.eclipse.org/account/profile/rlight"
+      - 
+        username: "packermann"
+        full_name: "Philip Ackermann"
+        url: "https://api.eclipse.org/account/profile/packermann"
+    working_groups: 
+      - 
+        name: "Internet of Things (IoT)"
+        id: "internet-things-iot"
+    spec_project_working_group: []
+    state: "Incubating"
+    releases: 
+      - 
+        name: "2.3"
+        url: "https://projects.eclipse.org/projects/iot.streamsheets/releases/2.3"
+  - 
     project_id: "iot.tahu"
     short_project_id: "tahu"
     name: "Eclipse Tahu"
@@ -2709,9 +2812,7 @@
       - 
         url: "https://github.com/eclipse/tinydtls"
     gitlab_repos: []
-    gerrit_repos: 
-      - 
-        url: "https://git.eclipse.org/r/tinydtls/org.eclipse.tinydtls"
+    gerrit_repos: []
     contributors: []
     committers: 
       - 
@@ -3057,7 +3158,10 @@
     tags: 
       - "edge"
       - "protocol"
-      - "energy efficiency"
+      - "wire efficiency"
+      - "Robotics"
+      - "ROS2"
+      - "data-flow programming"
     github_repos: 
       - 
         url: "https://github.com/eclipse-zenoh/zenoh"
@@ -3097,6 +3201,14 @@
     gerrit_repos: []
     contributors: []
     committers: 
+      - 
+        username: "jldt"
+        full_name: "Julien Loudet"
+        url: "https://api.eclipse.org/account/profile/jldt"
+      - 
+        username: "gbaldoni"
+        full_name: "Gabriele Baldoni"
+        url: "https://api.eclipse.org/account/profile/gbaldoni"
       - 
         username: "lcominardi"
         full_name: "Luca Cominardi"
@@ -3150,6 +3262,8 @@
         url: "https://github.com/eclipse-iceoryx/iceoryx"
       - 
         url: "https://github.com/eclipse-iceoryx/iceoryx-web"
+      - 
+        url: "https://github.com/eclipse-iceoryx/iceoryx-rs"
     gitlab_repos: []
     gerrit_repos: []
     contributors: 
