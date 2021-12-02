@@ -36,14 +36,14 @@ Several Eclipse IoT projects hold calls to keep in touch with their user communi
 
 You can use the links provided to add the meeting invites to your Google calendars.
 
-* [Eclipse IoT Packages](https://calendar.google.com/event?action=TEMPLATE&tmeid=NmJvZW9zYWNzazc1dHFoZHA5dXY0YjhkZWNfMjAyMTAyMjJUMTUwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL): Helm charts enabling you to run popular Eclipse IoT projects on Kubernetes
-* [Eclipse Kuksa](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=ZG9wY2Jrb2tyOWJhOWRxOGtwMjc0bnZoMThfMjAyMDAzMTlUMTIwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL):&nbsp; Cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections
-* [Eclipse Paho](https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTdya3R1NWIyM2xwNTZkMzAwNnI0N2ZnNzBfMjAyMDAzMTBUMTQwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&amp;tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&amp;scp=ALL): MQTT clients in C, C++, Java, Javascript, Python and other languages
+* [Eclipse Hono](https://calendar.google.com/event?action=TEMPLATE&tmeid=X2I5N2t1ajlwNmNvM2djMXA2Y3NqMmQxal8yMDIxMTAyMVQxNTAwMDBaIHU1ajY4czcxMHJlcW1yMzd2ZDc4amRsYm00QGc&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL): Eclipse Hono™ provides remote service interfaces for connecting large numbers of IoT devices to a back end and interacting with them in a uniform way regardless of the device communication protocol.
+* [Eclipse IoT Packages](https://calendar.google.com/event?action=TEMPLATE&tmeid=YTljNGc0cG1jajliMHFtYmN2dHVwZ3Zrdm9fMjAyMTExMzBUMTUwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL): Helm charts enabling you to run popular Eclipse IoT projects on Kubernetes
+* [Eclipse Kuksa](https://calendar.google.com/event?action=TEMPLATE&tmeid=ZG9wY2Jrb2tyOWJhOWRxOGtwMjc0bnZoMThfMjAyMTExMjVUMTIwMDAwWiB1NWo2OHM3MTByZXFtcjM3dmQ3OGpkbGJtNEBn&tmsrc=u5j68s710reqmr37vd78jdlbm4%40group.calendar.google.com&scp=ALL):&nbsp; Cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections
 
 
 ### Virtual IoT Meetup
 
-The [Virtual IoT Meetup](https://www.meetup.com/Virtual-IoT/)is a community regrouping IoT enthusiasts from all around the world dedicated to discussing and discovering technologies that will make it easier for them to create IoT applications. We hosted [dozens of webinars](https://www.meetup.com/Virtual-IoT/events/past/) in the past, discussing a wide array of IoT-related topics related to the Eclipse ecosystem or not.
+The [Virtual IoT Meetup](https://www.meetup.com/Virtual-IoT/) is a community regrouping IoT enthusiasts from all around the world dedicated to discussing and discovering technologies that will make it easier for them to create IoT applications. We hosted [dozens of webinars](https://www.meetup.com/Virtual-IoT/events/past/) in the past, discussing a wide array of IoT-related topics related to the Eclipse ecosystem or not.
 
 Do you wish to present at a future Virtual IoT meetup? Drop us a line at iot@eclipse.org.
 
@@ -61,4 +61,4 @@ Most Eclipse IoT projects also have their own mailing list. You will find them o
 
 ### Instant Messaging
 
-We are planning the deployment of an instant messaging platform to support the activities of our community. We will post all applicable details here once the platform is operational.
+Our working group has a Slack workspace. [Click here](https://join.slack.com/t/eclipse-iot-wg/shared_invite/zt-qo78fwls-Hre7lBgDLP_h9YB~noz4qg) to join it. 
