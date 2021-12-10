@@ -1,5 +1,10 @@
 items:
-  - title: 2021 IoT & Edge Computing Commercial Adoption Survey Report
+  - 
+    title: 2021 IoT & Edge Developer Survey Report
+    link: https://outreach.eclipse.foundation/iot-edge-developer-2021
+    img: /community/resources/iot-surveys/assets/iot-edge-developer-survey-2021.jpg
+  - 
+    title: 2021 IoT & Edge Computing Commercial Adoption Survey Report
     link: https://outreach.eclipse.foundation/iot-edge-commercial-survey
     img: /community/resources/iot-surveys/assets/iot-edge-commercial-survey-2021.jpg
   -
