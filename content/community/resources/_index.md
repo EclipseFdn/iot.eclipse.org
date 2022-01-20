@@ -9,3 +9,5 @@ layout: "resources"
 ---
 
 #### Below are some useful links to articles and other resources about Eclipse IoT Technologies.
+
+{{< page-resources >}}

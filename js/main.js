@@ -14,6 +14,7 @@
 import 'eclipsefdn-solstice-assets'
 import './src/home-members'
 import './src/projects'
+import './src/resources'
 
 (function($, document) {
    $('.media-video').matchHeight();
