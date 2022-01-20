@@ -1,0 +1,42 @@
+{{#sections}}
+<h2>{{title}}</h2>
+<div class="resources">
+<div class="row">
+{{#.}}
+{{#data}}
+<div class="col-md-8 matchheight-item">
+    <div class="resources-summary">
+        {{#direct_link}}
+            <a class="resources-summary-img" href="{{direct_link}}">
+                <img src="{{image}}" alt="{{title}}">
+            </a>
+        {{/direct_link}}
+
+        {{^direct_link}}
+            {{#landing_link}}
+                <a class="resources-summary-img" href="{{landing_link}}">
+                    <img src="{{image}}" alt="{{title}}">
+                </a>
+            {{/landing_link}}
+            
+            {{^landing_link}}
+                <img src="{{image}}" alt="{{title}}">
+            {{/landing_link}}
+        {{/direct_link}}
+        <h4 class="resources-summary-heading"><a href="{{direct_link}}">{{title}}</a></h4>
+        <p style="margin-top: 1em;">
+            {{#direct_link}}
+                <a href="{{direct_link}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span class="sr-only">PDF Link</span></a>
+            {{/direct_link}}
+            {{#landing_link}}
+                <a href="{{landing_link}}"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="sr-only">HTML Link</span></a>
+            {{/landing_link}}
+         </p>
+    </div>
+</div>
+{{/data}}
+{{/.}}
+</div>
+<p class="text-right resources-more"><a href="{{path}}">View More</a></p>
+</div>
+{{/sections}}
