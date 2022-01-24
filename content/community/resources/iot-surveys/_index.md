@@ -8,4 +8,4 @@ weight: 2
 
 Explore the results of the influential annual IoT Developer Surveys on key IoT industry technologies, trends, and opportunities.
 
-{{< page-iot-surveys >}}
+{{< page-iot-each-resources type="survey_report" >}}
