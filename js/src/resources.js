@@ -1,26 +1,64 @@
-import { resourcesData, resourcesDataForDisplay } from './resources-data';
-import template from '../templates/iot-surveys.mustache';
+import { resourcesData } from './resources-data';
+import template from '../templates/iot-resources.mustache';
+import templateForOneType from '../templates/iot-one-type-resources.mustache';
+
+const formatDate = function () {
+  let theDate = new Date(this.date).toDateString();
+  theDate = theDate.slice(0, 3) + ',' + theDate.slice(3);
+  return theDate;
+};
 
 const displayDataOnPage = () => {
-  const dataFordisplay = resourcesDataForDisplay.map((item, index) => {
-    item.data = resourcesData[index].data.slice(0, 3);
-    return item;
-  });
   document.getElementById('all-resources').innerHTML = template({
-    sections: dataFordisplay,
+    sections: resourcesData,
+    formatDate: formatDate,
+  });
+};
+
+const displayDataOnPageForOneType = (data) => {
+  document.getElementById('one-type-resources').innerHTML = templateForOneType({
+    items: data,
+    formatDate: formatDate,
   });
 };
 
 if (document.getElementById('all-resources')) {
+  // Set loading spinner
+  displayDataOnPage();
+
+  const fetchPreviewData = () => {
+    resourcesData.forEach((section) => {
+      fetch(
+        `https://newsroom.eclipse.org/api/resources?pagesize=3&parameters[publish_to]=eclipse_iot&parameters[resource_type][]=${section.resource_type}`
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          section.data = data.resources;
+          section.isFetching = false;
+          displayDataOnPage();
+        })
+        .catch((err) => console.log(err));
+    });
+  };
+  fetchPreviewData();
+}
+
+const oneTypeResElement = document.getElementById('one-type-resources');
+if (oneTypeResElement) {
+  console.log(oneTypeResElement.getAttribute('data-res-type'));
   const fetchWithPagination = async () => {
     let i = 1;
     let data = [];
 
     const getData = async () => {
-      let response = await fetch(`https://newsroom.eclipse.org/api/resources?pagesize=60&page=${i}`);
+      let response = await fetch(
+        `https://newsroom.eclipse.org/api/resources?pagesize=60&parameters[publish_to]=eclipse_iot&parameters[resource_type][]=${oneTypeResElement.getAttribute(
+          'data-res-type'
+        )}`
+      );
       if (response.ok) {
         let newData = await response.json();
-        data = [...data, ...newData.resources.filter((item) => item.publish_to.includes('eclipse_iot'))];
+        data = [...data, ...newData.resources];
 
         if (response.headers.get('link')?.includes('rel="next"')) {
           i++;
@@ -31,28 +69,10 @@ if (document.getElementById('all-resources')) {
 
     await getData();
 
-    data.forEach((item) => {
-      switch (item.resource_type) {
-        case 'survey_report':
-          resourcesData.find((item) => item.resource_type === 'survey_report').data.push(item);
-          break;
-        case 'case_study':
-          resourcesData.find((item) => item.resource_type === 'case_study').data.push(item);
-          break;
-        case 'white_paper':
-          resourcesData.find((item) => item.resource_type === 'white_paper').data.push(item);
-          break;
-        case 'market_report':
-          resourcesData.find((item) => item.resource_type === 'market_report').data.push(item);
-          break;
-        default:
-          break;
-      }
-    });
     // TODO: delete the console when the PR is ready for code review
-    console.log(resourcesData);
-
-    displayDataOnPage();
+    console.log('data: ', data);
+    displayDataOnPageForOneType(data);
   };
+
   fetchWithPagination();
 }
