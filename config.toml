@@ -228,16 +228,16 @@ themesDir = "node_modules/"
   url = "/community/resources/white-papers/"
   weight = 4
 
-[[menu.sidebar]]
+  [[menu.sidebar]]
   parent ="resources"
-  name = "Articles"
-  url = "/community/resources/articles/"
+  name = "Market Reports"
+  url = "/community/resources/market-reports/"
   weight = 5
 
 [[menu.sidebar]]
   parent ="resources"
-  name = "Market Reports"
-  url = "/community/resources/market-reports/"
+  name = "Articles"
+  url = "/community/resources/articles/"
   weight = 6
 
 [[menu.sidebar]]
