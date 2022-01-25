@@ -243,7 +243,7 @@ themesDir = "node_modules/"
 [[menu.sidebar]]
   parent ="resources"
   name = "Brand Guidelines"
-  url = "https://www.eclipse.org/artwork/zip_file_v2/Eclipse-IoT-Brand-Guidelines.pdf"
+  url = "https://www.eclipse.org/artwork/zip_files/Eclipse-IoT-Brand-Guidelines.pdf"
   weight = 7
 
 [[menu.sidebar]]
