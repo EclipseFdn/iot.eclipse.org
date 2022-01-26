@@ -211,7 +211,7 @@ themesDir = "node_modules/"
 
 [[menu.sidebar]]
   parent ="resources"
-  name = "IoT Surveys"
+  name = "Surveys"
   url = "/community/resources/iot-surveys"
   pre = "<i data-feather=\"file-text\"></i>"
   weight = 2

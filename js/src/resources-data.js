@@ -1,6 +1,6 @@
 export let resourcesData = [
   {
-    title: 'IoT Surveys',
+    title: 'Surveys',
     resource_type: 'survey_report',
     path: 'iot-surveys',
     isFetching: true,
