@@ -45,7 +45,6 @@ if (document.getElementById('all-resources')) {
 
 const oneTypeResElement = document.getElementById('one-type-resources');
 if (oneTypeResElement) {
-  console.log(oneTypeResElement.getAttribute('data-res-type'));
   const fetchWithPagination = async () => {
     let i = 1;
     let data = [];
@@ -69,8 +68,6 @@ if (oneTypeResElement) {
 
     await getData();
 
-    // TODO: delete the console when the PR is ready for code review
-    console.log('data: ', data);
     displayDataOnPageForOneType(data);
   };
 
