@@ -8,4 +8,4 @@ weight: 4
 layout: "single"
 ---
 
-{{< page-iot-each-resources type="white_paper" >}}
+{{< page-api-resources type="white_paper" >}}
