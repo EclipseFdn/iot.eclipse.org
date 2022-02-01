@@ -6,4 +6,4 @@ weight: 5
 layout: "single"
 ---
 
-{{< page-iot-each-resources type="market_report" >}}
+{{< page-api-resources type="market_report" >}}

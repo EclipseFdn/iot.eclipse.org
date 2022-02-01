@@ -7,4 +7,4 @@ weight: 3
 layout: "single"
 ---
 
-{{< page-iot-each-resources type="case_study" >}}
+{{< page-api-resources type="case_study" >}}
