@@ -236,8 +236,8 @@ themesDir = "node_modules/"
 
 [[menu.sidebar]]
   parent ="resources"
-  name = "Articles"
-  url = "/community/resources/articles/"
+  name = "News"
+  url = "/news/"
   weight = 6
 
 [[menu.sidebar]]
