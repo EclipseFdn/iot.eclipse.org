@@ -1,4 +1,5 @@
 {{ define "main_suffix" }}
+
     {{ if ne .Page.Params.hide_sidebar true }} 
 
 		{{ .Scratch.Set "sidebarLayout" "default" }}
@@ -19,16 +20,160 @@
       	</div>
     {{ end }}
     </div>
+	</div>
+
+	<div class="row white-row padding-bottom-40">
+		<div class="container">
+			<h2 id="benefits">Marketing Benefits</h2>
+			<p>
+				Members of the Eclipse IoT Working Group also benefit from the Eclipse Foundation’s marketing services, as
+				categorized by membership level below:
+			</p>
+			<div class="card-container col-sm-4 match-height-item-by-row">
+				<div class="glyph-highlight">
+					<div class="glyph-container">
+						<p>1</p>
+					</div>
+					<div class="glyph-bottom"></div>
+				</div>
+				<div class="card-panel panel panel-default with-glyph horizontal-card">
+					<div class="panel-body">
+						<p>
+							Collaborate with other members to develop common open IoT platforms for Industrial IoT, Industry
+							4.0, edge computing, digital ledger technologies, and more.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-container col-sm-4 match-height-item-by-row">
+				<div class="glyph-highlight">
+					<div class="glyph-container">
+						<p>2</p>
+					</div>
+					<div class="glyph-bottom"></div>
+				</div>
+				<div class="card-panel panel panel-default with-glyph horizontal-card">
+					<div class="panel-body">
+						<p>
+							Publicly demonstrate their commitment to the IoT ecosystem and its strategic relevance by
+							evangelizing the solutions produced by the Eclipse IoT Working Group.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-container col-sm-4 match-height-item-by-row">
+				<div class="glyph-highlight">
+					<div class="glyph-container">
+						<p>3</p>
+					</div>
+					<div class="glyph-bottom"></div>
+				</div>
+				<div class="card-panel panel panel-default with-glyph horizontal-card">
+					<div class="panel-body">
+						<p>
+							Gain insights into the Eclipse IoT technology roadmap and participate in defining the direction.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-container col-sm-4 match-height-item-by-row">
+				<div class="glyph-highlight">
+					<div class="glyph-container">
+						<p>4</p>
+					</div>
+					<div class="glyph-bottom"></div>
+				</div>
+				<div class="card-panel panel panel-default with-glyph horizontal-card">
+					<div class="panel-body">
+						<p>
+							Play a role in defining Eclipse IoT Working Group strategic themes and priorities to develop the
+							platform in alignment with your requirements and those of your customers.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-container col-sm-4 match-height-item-by-row">
+				<div class="glyph-highlight">
+					<div class="glyph-container">
+						<p>5</p>
+					</div>
+					<div class="glyph-bottom"></div>
+				</div>
+				<div class="card-panel panel panel-default with-glyph horizontal-card">
+					<div class="panel-body">
+						<p>
+							Benchmark and learn best practices from peers for leveraging open IoT technologies to accelerate
+							product development and improve time-to-revenue.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2 id="fees">Membership Fees</h2>
+			<div class="fees-card col-24">
+				<p class="fees-title">Annual Corporate Revenue</p>
+				<span class="vertical-divider"></span>
+				<p>&#62; €250 Million</p>
+				<span class="vertical-divider"></span>
+				<p>€100 Million - €250 Million</p>
+				<span class="vertical-divider"></span>
+				<p>€50 Million - €100 Million</p>
+				<span class="vertical-divider"></span>
+				<p>€10 Million - €50 Million</p>
+				<span class="vertical-divider"></span>
+				<p>&#60;€10 Million</p>
+			</div>
+			<div class="fees-card fees-card-light-grey col-24">
+				<p class="fees-title">Eclipse IoT Leader Member Annual Fees</p>
+				<span class="vertical-divider"></span>
+				<p>€50,000</p>
+				<span class="vertical-divider"></span>
+				<p>€30,000</p>
+				<span class="vertical-divider"></span>
+				<p>€15,000</p>
+				<span class="vertical-divider"></span>
+				<p>€10,000</p>
+				<span class="vertical-divider"></span>
+				<p>€5,000</p>
+			</div>
+			<div class="fees-card fees-card-dark-grey col-24">
+				<p class="fees-title">Eclipse IoT Innovator Member Annual Fees</p>
+				<span class="vertical-divider"></span>
+				<p>€25,000</p>
+				<span class="vertical-divider"></span>
+				<p>€15,000</p>
+				<span class="vertical-divider"></span>
+				<p>€10,000</p>
+				<span class="vertical-divider"></span>
+				<p>€5,000</p>
+				<span class="vertical-divider"></span>
+				<p>€2,000</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="fees-card description-card col-24">
+				<p>Eclipse IoT Supporter Member Annual Participation Fees Supporter Members pay no annual fees, but are required to execute the Eclipse IoT Participation Agreement.</p>
+				<span class="horizontal-divider"></span>
+				<p>Eclipse IoT Guest Members Eclipse Foundation Associate Members may be invited by the Steering Committee to join and participate in the Working Group as Guest Members. Guest members pay no annual fees, but are required to execute the Eclipse IoT Participation Agreement.</p>
+				<span class="horizontal-divider"></span>
+				<p>The following are the annual fees associated with each class of membership in the Eclipse IoT Working Group as established by the Eclipse IoT Steering Committee. All fees are in Euro. The following requirements are included: All members are required to execute the Eclipse IoT Participation Agreement.</p>
+			</div>
+		</div>
+	</div>
+
 	<div class="row">
-		<h2 id="member-testimonials">Member Testimonials</h2>
-		<div class="featured-testimonials text-center row">
-		  {{ range .Site.Data.testimonials.items}}
-		    <div class="testimonial-item">
-		      <p class="content">{{ .text }}</p>
-		      <p><img src="{{ .picture_link }}" alt="{{ .picture_alt }}"></p>
-		      <p class="author">{{ .author }} / <span class="job-title">{{ .job_title }}, {{ .company }}</span></p>
-		    </div>
-		  {{ end }}
+		<div class="container">
+			<h2 id="member-testimonials">Member Testimonials</h2>
+			<div class="featured-testimonials text-center row">
+				{{ range .Site.Data.testimonials.items}}
+				<div class="testimonial-item">
+					<p class="content">{{ .text }}</p>
+					<p><img src="{{ .picture_link }}" alt="{{ .picture_alt }}"></p>
+					<p class="author">{{ .author }} / <span class="job-title">{{ .job_title }}, {{ .company }}</span></p>
+				</div>
+				{{ end }}
+			</div>
 		</div>
 	</div>
   </div>
