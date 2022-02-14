@@ -73,7 +73,7 @@
 
 main {
   padding-top: 10px;
-  .each-resource{
+  .each-resource {
     display: flex;
     flex-wrap: wrap;
   }
@@ -239,3 +239,130 @@ main {
   font-weight: 500;
   margin-bottom: 40px;
 }
+
+// membership page start
+.iot-membership-container {
+  .iot-membership-content-container {
+    position: relative;
+    @media (max-width: 991px) {
+      padding-bottom: 50px;
+    }
+    .btn-download {
+      position: absolute;
+      width: 42.5%;
+      left: 110.5%;
+      bottom: 0;
+      @media (max-width: 991px) {
+        right: auto;
+        left: 0;
+        width: 280px;
+      }
+    }
+  }
+
+  .white-row {
+    background-color: #fff;
+  }
+
+  .card-container {
+    position: relative;
+    min-width: 228px;
+    .glyph-highlight {
+      left: calc(50% - 37.5px);
+      .glyph-container {
+        background-color: @brand-primary;
+      }
+      .glyph-bottom {
+        border-top: calc(75px / 4) solid @brand-primary;
+      }
+    }
+    .panel {
+      margin-bottom: 0;
+      background-color: #6f6e6e;
+      color: #fff;
+    }
+    .card-panel {
+      box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.3);
+    }
+    .card-panel.with-glyph .panel-body,
+    .card-container .card-panel.with-glyph.horizontal-card .panel-body {
+      margin-top: 85px;
+    }
+  }
+
+  .fees-card {
+    border-radius: 1em;
+    background-color: @brand-primary;
+    padding: 30px 25px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.2);
+    .fees-title {
+      color: #fff;
+      border-bottom: 2px #fff solid;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    .vertical-divider {
+      background-color: none;
+      height: 10px;
+      margin: 5px 0;
+    }
+    p {
+      width: auto;
+      margin: 0;
+      text-align: center;
+      font-weight: 600;
+    }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      .fees-title {
+        border: none;
+        width: auto;
+        width: 180px;
+        padding-bottom: 0;
+      }
+      p {
+        width: 16%;
+      }
+      .vertical-divider {
+        width: 2px;
+        min-height: 50px;
+        height: 100%;
+        background-color: #fff;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .fees-card-light-grey {
+    background-color: #aba9a6;
+  }
+
+  .fees-card-dark-grey {
+    background-color: #504f4d;
+    color: #fff;
+  }
+
+  .description-card {
+    background-color: #f5f5f5;
+    box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.12);
+    flex-direction: column;
+    p {
+      text-align: start;
+      font-weight: 400;
+      width: 100%;
+    }
+    .horizontal-divider {
+      height: 2px;
+      width: 150px;
+      background-color: #030303;
+      margin: 30px 0;
+    }
+  }
+}
+
+// membership page end

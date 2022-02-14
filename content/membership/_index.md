@@ -5,6 +5,7 @@ description: "Join our global open source software ecosystem of industry leaders
 keywords: ["open source", "open source software", "IoT architecture"]
 headline: "Join Us"
 tagline: "The pace of IoT innovation is faster than ever. Join a global ecosystem of industry leaders collaborating on an open end-to-end IoT architecture!"
+container: "container-fluid iot-membership-container"
 date: 2018-04-05T16:09:45-04:00
 hide_page_title: "true"
 header_wrapper_class: "header-alternate-bg-img-2"
@@ -12,5 +13,5 @@ aliases:
     - /working-group/
 links: [[href: "/membership/join-us", text: "Contact Us About Membership"]]
 ---
+
 {{< membership/content >}}
-{{< membership/benefits >}}
