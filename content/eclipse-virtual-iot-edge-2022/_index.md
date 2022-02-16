@@ -22,6 +22,6 @@ The event is open to any developer, product manager or architect interested in I
 
 Please help drive the conversation and build momentum around IoT and Edge innovation by proposing a talk! To learn more and submit your talk, visit the [Call for Proposals page](/eclipse-virtual-iot-edge-2022/call-for-proposals).
 
-IoT & Edge Days 2022 is hosted by the Eclipse IoT Working Group, the Eclipse Edge Native Working Group, and the Eclipse Sparkplug Working Group.
+IoT & Edge Days 2022 is hosted by the Eclipse IoT, Edge Native, and Sparkplug working groups at the Eclipse Foundation.
   {{</ events/registration >}}
 {{</ grid/section-container >}}
