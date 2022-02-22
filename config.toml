@@ -21,7 +21,7 @@ themesDir = "node_modules/"
   facebook_url = "https://www.facebook.com/eclipseiot"
   youtube_url = "https://www.youtube.com/playlist?list=PLy7t4z5SYNaRorMpk1txiehpkyeI0JLn-"
   linkedin_url = "https://www.linkedin.com/showcase/eclipse-iot"
-  main_content_class = "col-md-16 padding-bottom-30 padding-left-0"
+  main_content_class = "col-md-16 padding-bottom-30"
   main_sidebar_class = "col-md-7 col-md-offset-1 padding-bottom-30 padding-right-0 hidden-sm hidden-xs"
   jumbotron_class = "col-md-24"
   jumbotron_tagline_class = "col-sm-14"
@@ -132,6 +132,13 @@ themesDir = "node_modules/"
   name = "Membership Benefits"
   url = "/membership/#benefits"
   pre = "<i data-feather=\"award\"></i>"
+  weight = 1
+
+[[menu.sidebar]]
+  parent ="membership"
+  name = "Membership Fees"
+  url = "/membership/#fees"
+  pre = "<i data-feather=\"briefcase\"></i>"
   weight = 1
 
 [[menu.sidebar]]
