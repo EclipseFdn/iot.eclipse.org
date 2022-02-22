@@ -289,62 +289,78 @@ main {
       margin-top: 85px;
     }
   }
-
-  .fees-card {
-    border-radius: 1em;
-    background-color: @brand-primary;
-    padding: 30px 25px;
-    margin-bottom: 40px;
+  .fees-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.2);
-    .fees-title {
-      color: #fff;
-      border-bottom: 2px #fff solid;
-      padding-bottom: 10px;
-      width: 100%;
-    }
-    .vertical-divider {
-      background-color: none;
-      height: 10px;
-      margin: 5px 0;
-    }
-    p {
-      width: auto;
-      margin: 0;
-      text-align: center;
-      font-weight: 600;
-    }
-    @media (min-width: 768px) {
-      flex-direction: row;
+    flex-direction: row;
+    .fees-card {
+      border-radius: 1em;
+      background-color: @brand-primary;
+      padding: 15px 10px;
+      margin: 0 5px 40px 5px;
+      width: 33%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.2);
       .fees-title {
-        border: none;
-        width: auto;
-        width: 180px;
-        padding-bottom: 0;
-      }
-      p {
-        width: 16%;
+        color: #fff;
+        padding-bottom: 10px;
+        width: 100%;
+        height: 130px;
+        text-align: center;
       }
       .vertical-divider {
-        width: 2px;
-        min-height: 50px;
-        height: 100%;
         background-color: #fff;
-        margin: 0 10px;
+        height: 2px;
+        width: 100%;
+        margin: 5px 0;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: 70px;
+        margin: 0;
+        font-weight: 600;
       }
     }
-  }
 
-  .fees-card-light-grey {
-    background-color: #aba9a6;
-  }
+    .fees-card-light-grey {
+      background-color: #aba9a6;
+    }
 
-  .fees-card-dark-grey {
-    background-color: #504f4d;
-    color: #fff;
+    .fees-card-dark-grey {
+      background-color: #504f4d;
+      color: #fff;
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: column;
+      .fees-card {
+        flex-direction: row;
+        padding: 30px 25px;
+        width: auto;
+        .fees-title {
+          border: none;
+          width: 180px;
+          height: auto;
+          padding-bottom: 0;
+        }
+        p {
+          width: 16%;
+          height: auto;
+        }
+        .vertical-divider {
+          width: 2px;
+          min-height: 50px;
+          height: 100%;
+          margin: 0 10px;
+        }
+      }
+    }
   }
 
   .description-card {
