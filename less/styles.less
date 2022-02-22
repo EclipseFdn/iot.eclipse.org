@@ -242,20 +242,29 @@ main {
 
 // membership page start
 .iot-membership-container {
+  h1,
+  h2 {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
   .iot-membership-content-container {
-    position: relative;
     @media (max-width: 991px) {
       padding-bottom: 50px;
     }
-    .btn-download {
-      position: absolute;
-      width: 42.5%;
-      left: 110.5%;
-      bottom: 0;
-      @media (max-width: 991px) {
-        right: auto;
-        left: 0;
-        width: 280px;
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media (min-width: 768px) {
+        align-items: flex-start;
+      }
+      .btn-download {
+        width: 42.5%;
+        @media (max-width: 991px) {
+          width: 280px;
+        }
       }
     }
   }
