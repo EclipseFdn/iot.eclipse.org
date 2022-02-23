@@ -6,7 +6,7 @@ date: 2022-02-05T16:09:45-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-header_wrapper_class: "iot-day"
+header_wrapper_class: "iot-day-2022 sub-page"
 container: container
 layout: single
 ---

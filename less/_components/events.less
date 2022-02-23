@@ -12,7 +12,7 @@
 */
 .iot-day {
   & {
-    background-image:url('../images/iot_day/iot_day_jumbotron.jpg');
+    background-image: url('../images/iot_day/iot_day_jumbotron.jpg');
     background-position: bottom;
   }
   .featured-jumbotron .btn {
@@ -20,6 +20,64 @@
   }
 }
 
+.iot-day-2022 {
+  &.header-wrapper::after {
+    background-image: none;
+  }
+  & {
+    background-image: url('../images/iot_day/iot_day_2022_jumbotron.jpg');
+    background-position: left;
+    height: 620px;
+  }
+  &.sub-page {
+    height: auto;
+    background-size: auto;
+  }
+  .jumbotron {
+    .col-md-24 h1 {
+      color: #f79a06;
+      font-size: 50px;
+      font-weight: 800;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+      margin-bottom: 30px;
+    }
+    .row .col-sm-14 {
+      & {
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        & {
+          width: 80%;
+          font-size: 28px;
+          font-weight: 500;
+          box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.9);
+          background-color: rgba(0, 0, 0, 0.42);
+        }
+        span {
+          font-weight: 400;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    & {
+      background-position: top;
+    }
+    &.sub-page {
+      background-size: cover;
+    }
+    .jumbotron {
+      .row .col-sm-14 {
+        justify-content: flex-start;
+        p {
+          width: 380px;
+        }
+      }
+    }
+  }
+}
 
 // agenda backdrop
 section#speakers {
@@ -30,10 +88,11 @@ section#speakers {
     background-color: #000;
   }
   *:not(i) {
-    color: #FFF;
+    color: #fff;
   }
 
-  .img, .icon-backdrop {
+  .img,
+  .icon-backdrop {
     border-radius: 50%;
     border: 1px solid @brand-primary;
   }
@@ -44,7 +103,7 @@ section#speakers {
       width: 100%;
       position: relative;
       display: inline-block;
-      
+
       background-color: #fff;
     }
     // Variable width font based on view width. Cap at max container width to ensure growth doesn't continue
@@ -53,12 +112,12 @@ section#speakers {
         font-size: 25vw;
         padding-top: 18%;
       }
-      @media(min-width: 768px) {
+      @media (min-width: 768px) {
         & {
           font-size: 12vw;
         }
       }
-      @media(min-width: 1200px) {
+      @media (min-width: 1200px) {
         & {
           font-size: 9em;
         }
