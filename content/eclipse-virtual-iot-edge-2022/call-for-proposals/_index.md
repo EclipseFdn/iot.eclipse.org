@@ -27,7 +27,7 @@ IoT & Edge Days are an excellent way to get to know the community and share your
 We have done our best to make the submission process as simple as possible. Here is what you will need to do when filling out the submission form. 
 - Choose a submission format (NEW formats!)
   - Solo Session: 45 minutes - great for raising project awareness or getting  feedback on a specific problem or topic
-  - Panel Discussion:  two or more speakers, 60 minutes (50 minutes presenting, 10 minutes for questions) - great for - demonstrating a product, presenting slides, or discussing a hypothesis 
+  - Panel Discussion: two or more speakers, 60 minutes (50 minutes presenting, 10 minutes for questions) - great for demonstrating a product, presenting slides, or discussing a hypothesis 
 - List your session title
 - Provide a detailed and focused description with a maximum of 900 characters
 - Complete the Speaker Agreement
