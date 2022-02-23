@@ -1,13 +1,13 @@
 ---
 title: "Virtual IoT & Edge Days 2022"
 description: ""
-headline: "Virtual IoT & Edge Days 2022"
-tagline: "Showcasing Innovation in IoT and Edge Computing <br> Virtual Conference | May 24 - 25, 2022"
+headline: "Virtual IoT and <br> Edge Days 2022"
+tagline: "Showcasing Innovation in IoT and Edge Computing <br> <span>Virtual Conference | May 24 - 25, 2022<span>"
 date: 2022-02-05T16:09:45-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-header_wrapper_class: "iot-day"
+header_wrapper_class: "iot-day-2022"
 links: [[href: "/eclipse-virtual-iot-edge-2022/call-for-proposals", text: "Call for Proposals"]]
 container: container-fluid
 layout: single
