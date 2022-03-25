@@ -1,5 +1,13 @@
 # iot.eclipse.org
 
+---
+**NOTE**
+
+This project was migrated to [Eclipse Gitlab](https://gitlab.eclipse.org/eclipsefdn/it/websites/iot.eclipse.org) on March 25, 2022.
+
+---
+
+
 The [iot.eclipse.org](https://iot.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/).
 
 Eclipse IoT provides the technology needed to build IoT Devices, Gateways, and Cloud Platforms.
